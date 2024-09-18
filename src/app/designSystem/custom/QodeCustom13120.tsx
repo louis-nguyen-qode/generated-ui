@@ -83,6 +83,7 @@ export const QodeCustom13120: React.FC<
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
+                color: "var(--neutral-gray-80, #565656)",
               },
               ...{},
             }}
@@ -98,6 +99,7 @@ export const QodeCustom13120: React.FC<
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
+                color: "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
               ...{},
             }}
@@ -113,6 +115,7 @@ export const QodeCustom13120: React.FC<
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
+                color: "var(--neutral-gray-80, #565656)",
               },
               ...{},
             }}
@@ -128,6 +131,7 @@ export const QodeCustom13120: React.FC<
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
+                color: "var(--neutral-gray-80, #565656)",
               },
               ...{},
             }}
