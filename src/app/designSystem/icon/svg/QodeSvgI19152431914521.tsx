@@ -3,8 +3,8 @@ import React from "react"
 
 interface IconProps {
   style?: {
-    width?: string
-    height?: string
+    width?: string | number
+    height?: string | number
     [key: string]: any
   }
 }
