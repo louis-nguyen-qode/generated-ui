@@ -17,7 +17,7 @@ export const QodeCustom997620: React.FC<
         style={{
           ...{
             display: "flex",
-            width: "600px",
+            
             flexDirection: "column",
             alignItems: "flex-start",
             gap: "12px",

@@ -50,6 +50,7 @@ export const QodeCustom4325730: React.FC<
                 gap: "var(--font-size-large, 16px)",
                 borderRadius: "999px",
                 background: "var(--color-success-colorsuccesshover, #a3c73e)",
+                position: "relative",
               },
               ...{},
             }}

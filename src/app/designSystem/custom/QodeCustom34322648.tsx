@@ -119,7 +119,7 @@ export const QodeCustom34322648: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "600px",
+                
                 flexDirection: "column",
                 alignItems: "flex-start",
                 borderRadius: "var(--style-radius-borderradius, 8px)",

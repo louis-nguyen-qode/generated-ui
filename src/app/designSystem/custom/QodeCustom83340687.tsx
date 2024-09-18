@@ -21,7 +21,7 @@ export const QodeCustom83340687: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "600px",
+                
                 height: "600px",
                 justifyContent: "flex-end",
                 alignItems: "center",
@@ -79,7 +79,7 @@ export const QodeCustom83340687: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "600px",
+                
                 height: "600px",
                 justifyContent: "flex-end",
                 alignItems: "center",
@@ -137,7 +137,7 @@ export const QodeCustom83340687: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "600px",
+                
                 height: "600px",
                 justifyContent: "center",
                 alignItems: "center",
