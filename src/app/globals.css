@@ -11,27 +11,40 @@
 }
 
 @font-face {
-  font-family: "San Francisco";
+  font-family: "sf pro display";
   font-weight: 300;
   src: url("./fonts/SFProDisplay/104802c6c6dc7a3d84d629a79b78046847a9cc8caac8f73ea07e2dddfb5e31ce.woff2");
 }
 
 @font-face {
-  font-family: "San Francisco";
+  font-family: "sf pro display";
   font-weight: 400;
   src: url("./fonts/SFProDisplay/5bc1142d5fc993d2ec21a8fa93a17718818e8172dffc649b7d8a3ab459cfbf9c.woff2");
 }
 
 @font-face {
-  font-family: "San Francisco";
+  font-family: "sf pro display";
   font-weight: 600;
   src: url("./fonts/SFProDisplay/e80a61b2cbc6d6b3b3ed8b50bcd8f6a89f8f5b69460e03f47defe0554c3220d2.woff2");
 }
 
 @font-face {
-  font-family: "San Francisco";
+  font-family: "sf pro display";
   font-weight: 700;
   src: url("./fonts/SFProDisplay/32b6db04338d853de4148e775afcacadfb2d0bd3e8f10192916f6688f34c6005.woff2");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sf pro display, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -11409,4 +11422,9 @@
 }
 .icon-0:before {
   content: "\f5e3";
+}
+
+
+* {
+  box-sizing: border-box;
 }

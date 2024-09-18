@@ -1,4 +1,4 @@
-import { ColorPicker, type ThemeConfig } from "antd";
+import { type ThemeConfig } from "antd";
 
 import { tokenRef } from "./designToken";
 
@@ -8,7 +8,7 @@ const theme: ThemeConfig = {
   },
   token: {
     ...tokenRef,
-    fontFamily: "San Francisco",
+    fontFamily: "sf pro display",
   },
   components: {
     Alert: {
