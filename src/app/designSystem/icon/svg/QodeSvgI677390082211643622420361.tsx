@@ -23,17 +23,17 @@ const QodeSvgI677390082211643622420361: React.FC<IconProps> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g filter="url(#filter0_f_791_71039)">
+      <g filter="url(#filter0_f_936_49409)">
         <circle
           cx="44.9998"
           cy="44.9998"
           r="38.3333"
-          fill="url(#paint0_angular_791_71039)"
+          fill="url(#paint0_angular_936_49409)"
         />
       </g>
       <defs>
         <filter
-          id="filter0_f_791_71039"
+          id="filter0_f_936_49409"
           x="-0.000163555"
           y="-0.000163555"
           width={width}
@@ -50,11 +50,11 @@ const QodeSvgI677390082211643622420361: React.FC<IconProps> = ({
           />
           <feGaussianBlur
             stdDeviation="3.33333"
-            result="effect1_foregroundBlur_791_71039"
+            result="effect1_foregroundBlur_936_49409"
           />
         </filter>
         <radialGradient
-          id="paint0_angular_791_71039"
+          id="paint0_angular_936_49409"
           cx="0"
           cy="0"
           r="1"

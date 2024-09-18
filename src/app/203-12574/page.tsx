@@ -3,12 +3,11 @@ import React from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom61606 } from "@designSystem/custom/QodeCustom61606"
-import { QodeCustom433 } from "@designSystem/custom/QodeCustom433"
+import { QodeCustom13120 } from "@designSystem/custom/QodeCustom13120"
+import { QodeInput } from "@designSystem/ant/QodeInput"
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import { QodeCustom272038011 } from "@designSystem/custom/QodeCustom272038011"
 import { QodeCustom48612 } from "@designSystem/custom/QodeCustom48612"
-import { QodeCustom17127011 } from "@designSystem/custom/QodeCustom17127011"
+import { QodePagination } from "@designSystem/ant/QodePagination"
 
 export interface Qode20312574PageProps {}
 
@@ -26,7 +25,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
         }}
       >
         {/* name="Navbar" id="203:12575" type="INSTANCE" */}
-        <Flex
+        <QodeCustom13120
           style={{
             display: "flex",
             width: "84px",
@@ -37,187 +36,8 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
               "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
             background: "var(--background-bg-white, #fff)",
           }}
-        >
-          {/* name="Logo" id="I203:12575;1:3092" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "16px 0px",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              alignSelf: "stretch",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-            }}
-          >
-            {/* name="logo" id="I203:12575;635:31404" type="INSTANCE" */}
-            <QodeCustom61606
-              style={{ width: "40px", height: "40px" }}
-              {...{
-                type: "Default",
-                darkmode: "yes",
-                orientation: "landscape",
-                wordmark: "no",
-              }}
-            />
-          </div>
-          {/* name="V-Menu" id="I203:12575;1:3094" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "16px 8px",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "16px",
-              flex: "1 0 0",
-              alignSelf: "stretch",
-            }}
-          >
-            {/* name="Navbar/Menu" id="I203:12575;4:124" type="INSTANCE" */}
-            <QodeCustom433
-              style={{
-                display: "flex",
-                width: "84px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-size-sizexxs-6px, 6px)",
-              }}
-              {...{ icon: <Icon.QodeCube />, state: "Default" }}
-            />
-            {/* name="Navbar/Menu" id="I203:12575;16:5813" type="INSTANCE" */}
-            <QodeCustom433
-              style={{
-                display: "flex",
-                width: "84px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-size-sizexxs-6px, 6px)",
-              }}
-              {...{ icon: <Icon.QodeBriefcase />, state: "Active" }}
-            />
-            {/* name="Navbar/Menu" id="I203:12575;4:54" type="INSTANCE" */}
-            <QodeCustom433
-              style={{
-                display: "flex",
-                width: "84px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-size-sizexxs-6px, 6px)",
-              }}
-              {...{ icon: <Icon.QodeUserGroup />, state: "Default" }}
-            />
-            {/* name="Navbar/Menu" id="I203:12575;4:95" type="INSTANCE" */}
-            <QodeCustom433
-              style={{
-                display: "flex",
-                width: "84px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-size-sizexxs-6px, 6px)",
-              }}
-              {...{ icon: <Icon.QodeVideo />, state: "Default" }}
-            />
-          </div>
-          {/* name="Btm" id="I203:12575;1:3098" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "16px 0px",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "8px",
-            }}
-          >
-            {/* name="Profile" id="I203:12575;1:3099" type="INSTANCE" */}
-            <Flex
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "flex-end",
-                gap: "var(--font-size-large, 16px)",
-                alignSelf: "stretch",
-              }}
-            >
-              {/* name="Button" id="I203:12575;1:3099;5007:11919" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightlg, 40px)",
-                  padding:
-                    "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingsm, 12px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-gold-purple-colorgoldpurpleborder, #efdbff)",
-                  background:
-                    "var(--color-gold-purple-colorgoldpurplebg, #f9f0ff)",
-                }}
-                {...{
-                  icononly: "630:15277",
-                  iconR: <Icon.QodeMagnifyingGlass />,
-                  title: "Button",
-                  iconL: false,
-                  type: "default",
-                  size: "large",
-                  state: "default",
-                  content: "icon",
-                  danger: false,
-                  ghost: false,
-                }}
-              />
-            </Flex>
-            {/* name="Profile" id="I203:12575;1:3100" type="INSTANCE" */}
-            <Flex
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "flex-end",
-                gap: "var(--font-size-large, 16px)",
-                alignSelf: "stretch",
-              }}
-            >
-              {/* name="Button" id="I203:12575;1:3100;5007:11919" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightlg, 40px)",
-                  padding:
-                    "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingsm, 12px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                  background:
-                    "var(--color-neutral-background-colorbgcontainer, #fff)",
-                }}
-                {...{
-                  icononly: <Icon.QodeUser />,
-                  iconR: <Icon.QodeMagnifyingGlass />,
-                  title: "Button",
-                  iconL: false,
-                  type: "default",
-                  size: "large",
-                  state: "default",
-                  content: "icon",
-                  danger: false,
-                  ghost: false,
-                }}
-              />
-            </Flex>
-          </div>
-        </Flex>
+          {...{}}
+        />
         {/* name="Body" id="203:12576" type="FRAME" */}
         <div
           style={{
@@ -252,7 +72,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
               }}
             >{`My jobs`}</span>
             {/* name="Search bar" id="203:12579" type="INSTANCE" */}
-            <QodeCustom272038011
+            <QodeInput
               style={{
                 display: "flex",
                 width: "480px",
@@ -268,13 +88,10 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                 background: "var(--background-bg-white, #fff)",
               }}
               {...{
-                showIconRight: false,
                 suffix: "SUF",
-                showSuffix: false,
                 title: "Search",
                 prefix: "PRE",
                 iconRight: <Icon.QodeUser />,
-                showPrefix: false,
                 iconLeft: <Icon.QodeMagnifyingGlass />,
                 showIconLeft: true,
                 state: "default",
@@ -300,7 +117,6 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
               {...{
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
                 iconLeft: true,
-                iconRight: false,
                 buttonname: "Add job",
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 selectIconLeft: <Icon.QodePlus />,
@@ -350,7 +166,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12584" type="INSTANCE" */}
               <QodeCustom48612
@@ -365,7 +181,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12585" type="INSTANCE" */}
               <QodeCustom48612
@@ -380,7 +196,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12586" type="INSTANCE" */}
               <QodeCustom48612
@@ -395,7 +211,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12587" type="INSTANCE" */}
               <QodeCustom48612
@@ -410,7 +226,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12588" type="INSTANCE" */}
               <QodeCustom48612
@@ -425,7 +241,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12589" type="INSTANCE" */}
               <QodeCustom48612
@@ -440,7 +256,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12590" type="INSTANCE" */}
               <QodeCustom48612
@@ -455,7 +271,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12591" type="INSTANCE" */}
               <QodeCustom48612
@@ -470,7 +286,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12592" type="INSTANCE" */}
               <QodeCustom48612
@@ -485,7 +301,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12593" type="INSTANCE" */}
               <QodeCustom48612
@@ -500,7 +316,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
               {/* name="Job item" id="203:12594" type="INSTANCE" */}
               <QodeCustom48612
@@ -515,11 +331,11 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-                {...{ urgent: false, state: "default", style: "Simple" }}
+                {...{ state: "default", _style: "Simple" }}
               />
             </div>
             {/* name="Pagination" id="203:12595" type="INSTANCE" */}
-            <QodeCustom17127011
+            <QodePagination
               style={{
                 display: "flex",
                 width: "556px",

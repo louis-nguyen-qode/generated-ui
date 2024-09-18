@@ -3,9 +3,7 @@ import React from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom61606 } from "@designSystem/custom/QodeCustom61606"
-import { QodeCustom433 } from "@designSystem/custom/QodeCustom433"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom13120 } from "@designSystem/custom/QodeCustom13120"
 import { QodeCustom1136232 } from "@designSystem/custom/QodeCustom1136232"
 import { QodeCustom945729 } from "@designSystem/custom/QodeCustom945729"
 import { QodeCustom4325081 } from "@designSystem/custom/QodeCustom4325081"
@@ -26,7 +24,7 @@ export const Qode439203Page: React.FC<Qode439203PageProps> = ({ ...rest }) => {
         }}
       >
         {/* name="Navbar" id="43:9204" type="INSTANCE" */}
-        <Flex
+        <QodeCustom13120
           style={{
             display: "flex",
             width: "84px",
@@ -38,187 +36,8 @@ export const Qode439203Page: React.FC<Qode439203PageProps> = ({ ...rest }) => {
               "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
             background: "var(--background-bg-white, #fff)",
           }}
-        >
-          {/* name="Logo" id="I43:9204;1:3092" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "16px 0px",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              alignSelf: "stretch",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-            }}
-          >
-            {/* name="logo" id="I43:9204;635:31404" type="INSTANCE" */}
-            <QodeCustom61606
-              style={{ width: "40px", height: "40px" }}
-              {...{
-                type: "Default",
-                darkmode: "yes",
-                orientation: "landscape",
-                wordmark: "no",
-              }}
-            />
-          </div>
-          {/* name="V-Menu" id="I43:9204;1:3094" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "16px 8px",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "16px",
-              flex: "1 0 0",
-              alignSelf: "stretch",
-            }}
-          >
-            {/* name="Navbar/Menu" id="I43:9204;4:124" type="INSTANCE" */}
-            <QodeCustom433
-              style={{
-                display: "flex",
-                width: "84px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-size-sizexxs-6px, 6px)",
-              }}
-              {...{ icon: <Icon.QodeCube />, state: "Default" }}
-            />
-            {/* name="Navbar/Menu" id="I43:9204;16:5813" type="INSTANCE" */}
-            <QodeCustom433
-              style={{
-                display: "flex",
-                width: "84px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-size-sizexxs-6px, 6px)",
-              }}
-              {...{ icon: <Icon.QodeBriefcase />, state: "Active" }}
-            />
-            {/* name="Navbar/Menu" id="I43:9204;4:54" type="INSTANCE" */}
-            <QodeCustom433
-              style={{
-                display: "flex",
-                width: "84px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-size-sizexxs-6px, 6px)",
-              }}
-              {...{ icon: <Icon.QodeUserGroup />, state: "Default" }}
-            />
-            {/* name="Navbar/Menu" id="I43:9204;4:95" type="INSTANCE" */}
-            <QodeCustom433
-              style={{
-                display: "flex",
-                width: "84px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-size-sizexxs-6px, 6px)",
-              }}
-              {...{ icon: <Icon.QodeVideo />, state: "Default" }}
-            />
-          </div>
-          {/* name="Btm" id="I43:9204;1:3098" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "16px 0px",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "8px",
-            }}
-          >
-            {/* name="Profile" id="I43:9204;1:3099" type="INSTANCE" */}
-            <Flex
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "flex-end",
-                gap: "var(--font-size-large, 16px)",
-                alignSelf: "stretch",
-              }}
-            >
-              {/* name="Button" id="I43:9204;1:3099;5007:11919" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightlg, 40px)",
-                  padding:
-                    "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingsm, 12px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-gold-purple-colorgoldpurpleborder, #efdbff)",
-                  background:
-                    "var(--color-gold-purple-colorgoldpurplebg, #f9f0ff)",
-                }}
-                {...{
-                  icononly: "630:15277",
-                  iconR: <Icon.QodeMagnifyingGlass />,
-                  title: "Button",
-                  iconL: false,
-                  type: "default",
-                  size: "large",
-                  state: "default",
-                  content: "icon",
-                  danger: false,
-                  ghost: false,
-                }}
-              />
-            </Flex>
-            {/* name="Profile" id="I43:9204;1:3100" type="INSTANCE" */}
-            <Flex
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "flex-end",
-                gap: "var(--font-size-large, 16px)",
-                alignSelf: "stretch",
-              }}
-            >
-              {/* name="Button" id="I43:9204;1:3100;5007:11919" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightlg, 40px)",
-                  padding:
-                    "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingsm, 12px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                  background:
-                    "var(--color-neutral-background-colorbgcontainer, #fff)",
-                }}
-                {...{
-                  icononly: <Icon.QodeUser />,
-                  iconR: <Icon.QodeMagnifyingGlass />,
-                  title: "Button",
-                  iconL: false,
-                  type: "default",
-                  size: "large",
-                  state: "default",
-                  content: "icon",
-                  danger: false,
-                  ghost: false,
-                }}
-              />
-            </Flex>
-          </div>
-        </Flex>
+          {...{}}
+        />
         {/* name="b" id="43:9205" type="FRAME" */}
         <div
           style={{
@@ -245,7 +64,7 @@ export const Qode439203Page: React.FC<Qode439203PageProps> = ({ ...rest }) => {
               borderRadius:
                 "0px 0px var(--border-radius-large, 12px) var(--border-radius-large, 12px)",
             }}
-            {...{ showRight: false, property_1: "Default" }}
+            {...{ property_1: "Default" }}
           />
           {/* name="Body" id="43:22700" type="FRAME" */}
           <div

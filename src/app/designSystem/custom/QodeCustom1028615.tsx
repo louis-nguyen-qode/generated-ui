@@ -3,6 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom997620 } from "@designSystem/custom/QodeCustom997620"
 import QodeSvg1028675 from "@designSystem/icon/svg/QodeSvg1028675"
 import { QodeButton } from "@designSystem/ant/QodeButton"
 
@@ -39,7 +40,7 @@ export const QodeCustom1028615: React.FC<
             }}
           >
             {/* name="Email/Content" id="102:8479" type="INSTANCE" */}
-            <Flex
+            <QodeCustom997620
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -47,86 +48,8 @@ export const QodeCustom1028615: React.FC<
                 gap: "12px",
                 alignSelf: "stretch",
               }}
-            >
-              {/* name="Email/From" id="I102:8479;99:7654" type="INSTANCE" */}
-              <Flex
-                style={{ display: "flex", alignItems: "center", gap: "8px" }}
-              >
-                {/* name="Frame 37301" id="I102:8479;99:7654;99:7640" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "28px",
-                    height: "28px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8.75px",
-                    borderRadius: "874.125px",
-                    border:
-                      "0.875px solid var(--border-border-neutral-50, #6f6f6f)",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="Frame 37301" id=I102:8479;99:7654;99:7640 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Frame 37302" id="I102:8479;99:7654;99:7641" type="FRAME" */}
-                <div
-                  style={{ display: "flex", alignItems: "center", gap: "4px" }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Hung Nhan`}</span>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`·`}</span>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-30, #656565)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-small, 12px)",
-                      fontStyle: "normal",
-                      fontWeight: "400",
-                      lineHeight:
-                        "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                    }}
-                  >{`6:08 PM`}</span>
-                </div>
-              </Flex>
-              <span
-                style={{
-                  alignSelf: "stretch",
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Hi Thai, 
-
-I'm Hung Nhan, a Senior Recruiter at [Company Name]. 
-
-I came across your profile and was impressed by your experience as a Senior Software Developer. Your skills in Python, Java, PHP, Go, and game design align well with our needs. Would you be interested in learning more about this opportunity?`}</span>
-            </Flex>
+              {...{}}
+            />
             {/* name="Line 9" id="102:8442" type="LINE" */}
             <Flex
               style={{
@@ -139,7 +62,7 @@ I came across your profile and was impressed by your experience as a Senior Soft
               <></>
             </Flex>
             {/* name="Email/Content" id="102:8487" type="INSTANCE" */}
-            <Flex
+            <QodeCustom997620
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -147,190 +70,8 @@ I came across your profile and was impressed by your experience as a Senior Soft
                 gap: "12px",
                 alignSelf: "stretch",
               }}
-            >
-              {/* name="Email/From" id="I102:8487;99:7654" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "164px",
-                  alignItems: "center",
-                  gap: "8px",
-                }}
-              >
-                {/* name="avatar" id="I102:8487;99:7654;99:7645" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "28px",
-                    height: "28px",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--font-size-large, 16px)",
-                    flexShrink: "0",
-                    borderRadius: "388.5px",
-                    background:
-                      "var(--color-success-colorsuccesshover, #a3c73e)",
-                  }}
-                >
-                  <span
-                    style={{
-                      alignSelf: "stretch",
-                      color: "var(--color-neutral-text-colortext, #000)",
-                      textAlign: "center",
-                      fontFamily:
-                        'var(--font-family-fontfamily, "sf pro display")',
-                      fontSize: "var(--font-size-small, 12px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                    }}
-                  >{`AW`}</span>
-                  {/* name="user-large" id="I102:8487;99:7654;99:7645;5629:57" type="INSTANCE" */}
-                  <Icon.QodeUserLarge
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      position: "absolute",
-                      left: "7px",
-                      top: "7px",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="img" id="I102:8487;99:7654;99:7645;5629:58" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      width: "28px",
-                      height: "28px",
-                      padding: "var(--size-padding-paddingxs, 8px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "7px",
-                      position: "absolute",
-                      borderRadius: "388.5px",
-                      background:
-                        "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                    }}
-                  >
-                    {/* name="img" id=I102:8487;99:7654;99:7645;5629:58 type=FRAME */}
-                    <></>
-                  </div>
-                  {/* name="Badge" id="I102:8487;99:7654;99:7645;5629:59" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "5.25px",
-                      height: "5.25px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      position: "absolute",
-                      right: "0.875px",
-                      bottom: "0.875px",
-                      borderRadius: "3.111px",
-                      border:
-                        "0.875px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                      background: "var(--color-error-colorerror, #ff6542)",
-                    }}
-                  >
-                    {/* name="Badge" id=I102:8487;99:7654;99:7645;5629:59 type=INSTANCE */}
-                    <></>
-                  </Flex>
-                  {/* name="opentoWork" id="I102:8487;99:7654;99:7645;5629:60" type="FRAME" */}
-                  <div
-                    style={{
-                      width: "28px",
-                      height: "28px",
-                      position: "absolute",
-                    }}
-                  >
-                    {/* name="Ellipse 2 (Stroke)" id="I102:8487;99:7654;99:7645;5629:61" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "28px",
-                        height: "28px",
-                        transform: "rotate(9.982deg)",
-                        flexShrink: "0",
-                        fill: "linear-gradient(232deg, rgba(141, 185, 17, 0.00) 42.64%, #8DB911 85.8%)",
-                      }}
-                    >
-                      {/* name="Ellipse 2 (Stroke)" id=I102:8487;99:7654;99:7645;5629:61 type=VECTOR */}
-                      <></>
-                    </Flex>
-                    {/* name="Vector" id="I102:8487;99:7654;99:7645;5629:62" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "18.767px",
-                        height: "19.094px",
-                        transform: "rotate(9.982deg)",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-text-colortextsolid, #fff)",
-                      }}
-                    >
-                      {/* name="Vector" id=I102:8487;99:7654;99:7645;5629:62 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </div>
-                </Flex>
-                {/* name="Frame 37302" id="I102:8487;99:7654;99:7633" type="FRAME" */}
-                <div
-                  style={{ display: "flex", alignItems: "center", gap: "4px" }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Nguyen Quoc Thai`}</span>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`·`}</span>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-30, #656565)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-small, 12px)",
-                      fontStyle: "normal",
-                      fontWeight: "400",
-                      lineHeight:
-                        "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                    }}
-                  >{`5:15 PM`}</span>
-                </div>
-              </Flex>
-              <span
-                style={{
-                  alignSelf: "stretch",
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Hi Hung,
-
-Thank you for reaching out! Could you please send me the job description so I can get a better understanding of the role and its requirements?`}</span>
-            </Flex>
+              {...{}}
+            />
             {/* name="Line 11" id="102:8451" type="LINE" */}
             <Flex
               style={{
@@ -343,7 +84,7 @@ Thank you for reaching out! Could you please send me the job description so I ca
               <></>
             </Flex>
             {/* name="Email/Content" id="102:8495" type="INSTANCE" */}
-            <Flex
+            <QodeCustom997620
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -351,88 +92,8 @@ Thank you for reaching out! Could you please send me the job description so I ca
                 gap: "12px",
                 alignSelf: "stretch",
               }}
-            >
-              {/* name="Email/From" id="I102:8495;99:7654" type="INSTANCE" */}
-              <Flex
-                style={{ display: "flex", alignItems: "center", gap: "8px" }}
-              >
-                {/* name="Frame 37301" id="I102:8495;99:7654;99:7640" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "28px",
-                    height: "28px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8.75px",
-                    borderRadius: "874.125px",
-                    border:
-                      "0.875px solid var(--border-border-neutral-50, #6f6f6f)",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="Frame 37301" id=I102:8495;99:7654;99:7640 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Frame 37302" id="I102:8495;99:7654;99:7641" type="FRAME" */}
-                <div
-                  style={{ display: "flex", alignItems: "center", gap: "4px" }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Hung Nhan`}</span>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`·`}</span>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-30, #656565)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-small, 12px)",
-                      fontStyle: "normal",
-                      fontWeight: "400",
-                      lineHeight:
-                        "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                    }}
-                  >{`6:08 PM`}</span>
-                </div>
-              </Flex>
-              <span
-                style={{
-                  alignSelf: "stretch",
-                  color: "var(--text-text-primary-30, #158de2)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight: "var(--lineheight-lineheight-base, 20px)",
-                  textDecorationLine: "underline",
-                }}
-              >{`Hi Thai,
-
-Thank you for reaching out! Kindly find the Job description in the link attached.
-Please let me know if you have any questions in the meantime.
-
-Best regards,
-Hung`}</span>
-            </Flex>
+              {...{}}
+            />
             {/* name="Line 12" id="102:8460" type="LINE" */}
             <Flex
               style={{
@@ -445,7 +106,7 @@ Hung`}</span>
               <></>
             </Flex>
             {/* name="Email/Content" id="102:8503" type="INSTANCE" */}
-            <Flex
+            <QodeCustom997620
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -453,199 +114,8 @@ Hung`}</span>
                 gap: "12px",
                 alignSelf: "stretch",
               }}
-            >
-              {/* name="Email/From" id="I102:8503;99:7654" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "164px",
-                  alignItems: "center",
-                  gap: "8px",
-                }}
-              >
-                {/* name="avatar" id="I102:8503;99:7654;99:7645" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "28px",
-                    height: "28px",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--font-size-large, 16px)",
-                    flexShrink: "0",
-                    borderRadius: "388.5px",
-                    background:
-                      "var(--color-success-colorsuccesshover, #a3c73e)",
-                  }}
-                >
-                  <span
-                    style={{
-                      alignSelf: "stretch",
-                      color: "var(--color-neutral-text-colortext, #000)",
-                      textAlign: "center",
-                      fontFamily:
-                        'var(--font-family-fontfamily, "sf pro display")',
-                      fontSize: "var(--font-size-small, 12px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                    }}
-                  >{`AW`}</span>
-                  {/* name="user-large" id="I102:8503;99:7654;99:7645;5629:57" type="INSTANCE" */}
-                  <Icon.QodeUserLarge
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      position: "absolute",
-                      left: "7px",
-                      top: "7px",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="img" id="I102:8503;99:7654;99:7645;5629:58" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      width: "28px",
-                      height: "28px",
-                      padding: "var(--size-padding-paddingxs, 8px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "7px",
-                      position: "absolute",
-                      borderRadius: "388.5px",
-                      background:
-                        "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                    }}
-                  >
-                    {/* name="img" id=I102:8503;99:7654;99:7645;5629:58 type=FRAME */}
-                    <></>
-                  </div>
-                  {/* name="Badge" id="I102:8503;99:7654;99:7645;5629:59" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "5.25px",
-                      height: "5.25px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      position: "absolute",
-                      right: "0.875px",
-                      bottom: "0.875px",
-                      borderRadius: "3.111px",
-                      border:
-                        "0.875px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                      background: "var(--color-error-colorerror, #ff6542)",
-                    }}
-                  >
-                    {/* name="Badge" id=I102:8503;99:7654;99:7645;5629:59 type=INSTANCE */}
-                    <></>
-                  </Flex>
-                  {/* name="opentoWork" id="I102:8503;99:7654;99:7645;5629:60" type="FRAME" */}
-                  <div
-                    style={{
-                      width: "28px",
-                      height: "28px",
-                      position: "absolute",
-                    }}
-                  >
-                    {/* name="Ellipse 2 (Stroke)" id="I102:8503;99:7654;99:7645;5629:61" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "28px",
-                        height: "28px",
-                        transform: "rotate(9.982deg)",
-                        flexShrink: "0",
-                        fill: "linear-gradient(232deg, rgba(141, 185, 17, 0.00) 42.64%, #8DB911 85.8%)",
-                      }}
-                    >
-                      {/* name="Ellipse 2 (Stroke)" id=I102:8503;99:7654;99:7645;5629:61 type=VECTOR */}
-                      <></>
-                    </Flex>
-                    {/* name="Vector" id="I102:8503;99:7654;99:7645;5629:62" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "18.767px",
-                        height: "19.094px",
-                        transform: "rotate(9.982deg)",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-text-colortextsolid, #fff)",
-                      }}
-                    >
-                      {/* name="Vector" id=I102:8503;99:7654;99:7645;5629:62 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </div>
-                </Flex>
-                {/* name="Frame 37302" id="I102:8503;99:7654;99:7633" type="FRAME" */}
-                <div
-                  style={{ display: "flex", alignItems: "center", gap: "4px" }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Nguyen Quoc Thai`}</span>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`·`}</span>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-30, #656565)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-small, 12px)",
-                      fontStyle: "normal",
-                      fontWeight: "400",
-                      lineHeight:
-                        "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                    }}
-                  >{`Just now`}</span>
-                </div>
-              </Flex>
-              <span
-                style={{
-                  alignSelf: "stretch",
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Hi Hung,
-
-Thank you for sending the job description—it looks interesting! I have a few questions:
-
-Could you tell me more about the team structure and who I’d be working with?
-Is the role fully remote, or is there a hybrid/in-office requirement?
-Are there opportunities for career growth, like training or mentorship programs?
-
-Looking forward to your response!
-
-Best regards,
-Thai.`}</span>
-            </Flex>
+              {...{}}
+            />
           </div>
         </>
       )}
@@ -782,7 +252,6 @@ Start by sending an email and track your email sequences here.`}</span>
                   }}
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    iconRight: false,
                     selectIconLeft: <Icon.QodeUpRightFromSquare />,
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "View profile",
@@ -813,7 +282,6 @@ Start by sending an email and track your email sequences here.`}</span>
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
-                    iconRight: false,
                     buttonname: "Send request",
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
                     selectIconLeft: <Icon.QodeUserPlus />,

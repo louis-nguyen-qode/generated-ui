@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeSelect } from "@designSystem/ant/QodeSelect"
+import { QodeCustom17023783 } from "@designSystem/custom/QodeCustom17023783"
 
 export interface QodeCustom17023908Props {
   items?: "2" | "3" | "4" | "5" | "6"
@@ -33,7 +33,7 @@ export const QodeCustom17023908: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="170:23900" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -47,7 +47,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="170:23902" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -81,7 +81,7 @@ export const QodeCustom17023908: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="170:23917" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -95,7 +95,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="170:23918" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -109,7 +109,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 3" id="170:23921" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -143,7 +143,7 @@ export const QodeCustom17023908: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="170:23924" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -157,7 +157,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="170:23925" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -171,7 +171,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 3" id="170:23926" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -185,7 +185,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 4" id="170:23930" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -219,7 +219,7 @@ export const QodeCustom17023908: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="170:23933" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -233,7 +233,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="170:23934" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -247,7 +247,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 3" id="170:23935" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -261,7 +261,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 4" id="170:23936" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -275,7 +275,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 5" id="170:23941" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -309,7 +309,7 @@ export const QodeCustom17023908: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="170:23944" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -323,7 +323,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="170:23945" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -337,7 +337,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 3" id="170:23946" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -351,7 +351,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 4" id="170:23947" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -365,7 +365,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 5" id="170:23948" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -379,7 +379,7 @@ export const QodeCustom17023908: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 6" id="170:23954" type="INSTANCE" */}
-            <QodeSelect
+            <QodeCustom17023783
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",

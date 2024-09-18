@@ -3,7 +3,12 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeInput } from "@designSystem/ant/QodeInput"
+import { QodeCustom1829242 } from "@designSystem/custom/QodeCustom1829242"
+import { QodeCustom1829244 } from "@designSystem/custom/QodeCustom1829244"
+import { QodeCustom1829265 } from "@designSystem/custom/QodeCustom1829265"
+import { QodeCustom1829269 } from "@designSystem/custom/QodeCustom1829269"
+import { QodeCustom1829277 } from "@designSystem/custom/QodeCustom1829277"
+import { QodeCustom1829281 } from "@designSystem/custom/QodeCustom1829281"
 
 export interface QodeCustom18327962Props {
   showPre?: boolean
@@ -38,7 +43,7 @@ export const QodeCustom18327962: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:27932" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829242
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -54,8 +59,6 @@ export const QodeCustom18327962: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "default",
               }}
@@ -90,7 +93,7 @@ export const QodeCustom18327962: React.FC<
               >{`Input`}</span>
             </div>
             {/* name="🧬 post" id="183:27933" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829244
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -104,8 +107,6 @@ export const QodeCustom18327962: React.FC<
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
               {...{
-                showIcon: false,
-                showSelect: false,
                 title: ".com",
                 showTitle: true,
                 tab: "post",
@@ -131,7 +132,7 @@ export const QodeCustom18327962: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:27964" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829265
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -147,8 +148,6 @@ export const QodeCustom18327962: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "large",
               }}
@@ -182,7 +181,7 @@ export const QodeCustom18327962: React.FC<
               >{`Input`}</span>
             </div>
             {/* name="🧬 post" id="183:27966" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829269
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -196,8 +195,6 @@ export const QodeCustom18327962: React.FC<
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
               {...{
-                showIcon: false,
-                showSelect: false,
                 title: ".com",
                 showTitle: true,
                 tab: "post",
@@ -223,7 +220,7 @@ export const QodeCustom18327962: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:27985" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829277
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -239,8 +236,6 @@ export const QodeCustom18327962: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "small",
               }}
@@ -275,7 +270,7 @@ export const QodeCustom18327962: React.FC<
               >{`Input`}</span>
             </div>
             {/* name="🧬 post" id="183:27987" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829281
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -289,8 +284,6 @@ export const QodeCustom18327962: React.FC<
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
               {...{
-                showIcon: false,
-                showSelect: false,
                 title: ".com",
                 showTitle: true,
                 tab: "post",

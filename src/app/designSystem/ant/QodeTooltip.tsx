@@ -1,29 +1,42 @@
-// id="124:1534"
+// id="616:31798"
 import React from "react"
 import { Flex } from "antd"
 import { Tooltip, TooltipProps } from "antd"
 
 export interface QodeTooltipProps
-  extends Omit<TooltipProps, "title" | "color"> {
+  extends Omit<TooltipProps, "button" | "title" | "showArrow" | "placement"> {
+  button?: boolean
   title?: string
-  color?:
-    | "volcano"
-    | "sunset orange"
-    | "calendula gold"
-    | "sunrise yellow"
-    | "lime"
-    | "polar green"
-    | "cyan"
-    | "daybreak blue"
-    | "geek blue"
-    | "Golden Purple"
-    | "Magneta"
+  showArrow?: boolean
+  placement?:
+    | "left"
+    | "left top"
+    | "left bottom"
+    | "right"
+    | "right top"
+    | "right bottom"
+    | "bottom"
+    | "bottom left"
+    | "bottom right"
+    | "Top"
+    | "Top Left"
+    | "Top Right"
 }
 
 export const QodeTooltip: React.FC<QodeTooltipProps> = ({
+  button = false,
   title = "Prompt text",
-  color = "volcano",
+  showArrow = true,
+  placement = "left",
   ...rest
 }) => {
-  return <Tooltip title={title} color={color} {...rest} />
+  return (
+    <Tooltip
+      button={button}
+      title={title}
+      showArrow={showArrow}
+      placement={placement}
+      {...rest}
+    />
+  )
 }

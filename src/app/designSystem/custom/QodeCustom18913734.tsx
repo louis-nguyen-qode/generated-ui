@@ -3,13 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI275931274272038013 from "@designSystem/icon/svg/QodeSvgI275931274272038013"
+import { QodeInput } from "@designSystem/ant/QodeInput"
+import { QodeCustom18912627 } from "@designSystem/custom/QodeCustom18912627"
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import QodeSvgI275931273272038013 from "@designSystem/icon/svg/QodeSvgI275931273272038013"
-import QodeSvgI275931278272038013 from "@designSystem/icon/svg/QodeSvgI275931278272038013"
-import QodeSvgI275931277272038013 from "@designSystem/icon/svg/QodeSvgI275931277272038013"
-import QodeSvgI275931275272038013 from "@designSystem/icon/svg/QodeSvgI275931275272038013"
-import QodeSvgI275931279272038013 from "@designSystem/icon/svg/QodeSvgI275931279272038013"
 
 export interface QodeCustom18913734Props {
   item_8?: React.ReactNode
@@ -61,7 +57,7 @@ export const QodeCustom18913734: React.FC<
             }}
           >
             {/* name="Search bar" id="2759:31274" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -75,25 +71,16 @@ export const QodeCustom18913734: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon left" id="I2759:31274;2720:38013" type="INSTANCE" */}
-              <QodeSvgI275931274272038013
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Input`}</span>
-            </Flex>
+              {...{
+                suffix: "SUF",
+                title: "Input",
+                prefix: "PRE",
+                showIconLeft: true,
+                state: "default",
+                status: "default",
+                size: "default",
+              }}
+            />
             {/* name="body" id="2760:33390" type="FRAME" */}
             <div
               style={{
@@ -103,7 +90,7 @@ export const QodeCustom18913734: React.FC<
               }}
             >
               {/* name="_Dropdown/Item" id="189:13702" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -113,22 +100,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13708" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -138,20 +113,8 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
             </div>
             {/* name="Buttons" id="2760:32703" type="FRAME" */}
             <div
@@ -178,9 +141,7 @@ export const QodeCustom18913734: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Reset",
-                  iconLeft: false,
                   type: "link",
                   size: "small",
                   state: "default",
@@ -203,8 +164,6 @@ export const QodeCustom18913734: React.FC<
                   background: "var(--background-bg-primary, #1597f4)",
                 }}
                 {...{
-                  iconRight: false,
-                  iconLeft: false,
                   buttonname: "Show Results",
                   type: "primary",
                   size: "small",
@@ -237,7 +196,7 @@ export const QodeCustom18913734: React.FC<
             }}
           >
             {/* name="Search bar" id="2759:31273" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -251,25 +210,16 @@ export const QodeCustom18913734: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon left" id="I2759:31273;2720:38013" type="INSTANCE" */}
-              <QodeSvgI275931273272038013
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Input`}</span>
-            </Flex>
+              {...{
+                suffix: "SUF",
+                title: "Input",
+                prefix: "PRE",
+                showIconLeft: true,
+                state: "default",
+                status: "default",
+                size: "default",
+              }}
+            />
             {/* name="body" id="2760:33499" type="FRAME" */}
             <div
               style={{
@@ -279,7 +229,7 @@ export const QodeCustom18913734: React.FC<
               }}
             >
               {/* name="_Dropdown/Item" id="189:13749" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -289,22 +239,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13750" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -314,22 +252,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13761" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -339,20 +265,8 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
             </div>
             {/* name="Buttons" id="2760:32928" type="FRAME" */}
             <div
@@ -379,9 +293,7 @@ export const QodeCustom18913734: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Reset",
-                  iconLeft: false,
                   type: "link",
                   size: "small",
                   state: "default",
@@ -404,8 +316,6 @@ export const QodeCustom18913734: React.FC<
                   background: "var(--background-bg-primary, #1597f4)",
                 }}
                 {...{
-                  iconRight: false,
-                  iconLeft: false,
                   buttonname: "Show Results",
                   type: "primary",
                   size: "small",
@@ -438,7 +348,7 @@ export const QodeCustom18913734: React.FC<
             }}
           >
             {/* name="Search bar" id="2759:31278" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -452,25 +362,16 @@ export const QodeCustom18913734: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon left" id="I2759:31278;2720:38013" type="INSTANCE" */}
-              <QodeSvgI275931278272038013
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Input`}</span>
-            </Flex>
+              {...{
+                suffix: "SUF",
+                title: "Input",
+                prefix: "PRE",
+                showIconLeft: true,
+                state: "default",
+                status: "default",
+                size: "default",
+              }}
+            />
             {/* name="body" id="2760:33560" type="FRAME" */}
             <div
               style={{
@@ -480,7 +381,7 @@ export const QodeCustom18913734: React.FC<
               }}
             >
               {/* name="_Dropdown/Item" id="189:13768" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -490,22 +391,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13769" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -515,22 +404,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13770" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -540,22 +417,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13786" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -565,20 +430,8 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
             </div>
             {/* name="Buttons" id="2760:32931" type="FRAME" */}
             <div
@@ -605,9 +458,7 @@ export const QodeCustom18913734: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Reset",
-                  iconLeft: false,
                   type: "link",
                   size: "small",
                   state: "default",
@@ -630,8 +481,6 @@ export const QodeCustom18913734: React.FC<
                   background: "var(--background-bg-primary, #1597f4)",
                 }}
                 {...{
-                  iconRight: false,
-                  iconLeft: false,
                   buttonname: "Show Results",
                   type: "primary",
                   size: "small",
@@ -664,7 +513,7 @@ export const QodeCustom18913734: React.FC<
             }}
           >
             {/* name="Search bar" id="2759:31277" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -678,25 +527,16 @@ export const QodeCustom18913734: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon left" id="I2759:31277;2720:38013" type="INSTANCE" */}
-              <QodeSvgI275931277272038013
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Input`}</span>
-            </Flex>
+              {...{
+                suffix: "SUF",
+                title: "Input",
+                prefix: "PRE",
+                showIconLeft: true,
+                state: "default",
+                status: "default",
+                size: "default",
+              }}
+            />
             {/* name="body" id="2760:33561" type="FRAME" */}
             <div
               style={{
@@ -706,7 +546,7 @@ export const QodeCustom18913734: React.FC<
               }}
             >
               {/* name="_Dropdown/Item" id="189:13793" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -716,22 +556,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13794" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -741,22 +569,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13795" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -766,22 +582,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13796" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -791,22 +595,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13817" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -816,20 +608,8 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
             </div>
             {/* name="Buttons" id="2760:32934" type="FRAME" */}
             <div
@@ -856,9 +636,7 @@ export const QodeCustom18913734: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Reset",
-                  iconLeft: false,
                   type: "link",
                   size: "small",
                   state: "default",
@@ -881,8 +659,6 @@ export const QodeCustom18913734: React.FC<
                   background: "var(--background-bg-primary, #1597f4)",
                 }}
                 {...{
-                  iconRight: false,
-                  iconLeft: false,
                   buttonname: "Show Results",
                   type: "primary",
                   size: "small",
@@ -915,7 +691,7 @@ export const QodeCustom18913734: React.FC<
             }}
           >
             {/* name="Search bar" id="2759:31275" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -929,25 +705,16 @@ export const QodeCustom18913734: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon left" id="I2759:31275;2720:38013" type="INSTANCE" */}
-              <QodeSvgI275931275272038013
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Input`}</span>
-            </Flex>
+              {...{
+                suffix: "SUF",
+                title: "Input",
+                prefix: "PRE",
+                showIconLeft: true,
+                state: "default",
+                status: "default",
+                size: "default",
+              }}
+            />
             {/* name="body" id="2760:33562" type="FRAME" */}
             <div
               style={{
@@ -957,7 +724,7 @@ export const QodeCustom18913734: React.FC<
               }}
             >
               {/* name="_Dropdown/Item" id="189:13824" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -967,22 +734,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13825" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -992,22 +747,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13826" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1017,22 +760,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13827" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1042,22 +773,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13828" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1067,22 +786,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13854" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1092,20 +799,8 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
             </div>
             {/* name="Buttons" id="2760:32937" type="FRAME" */}
             <div
@@ -1132,9 +827,7 @@ export const QodeCustom18913734: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Reset",
-                  iconLeft: false,
                   type: "link",
                   size: "small",
                   state: "default",
@@ -1157,8 +850,6 @@ export const QodeCustom18913734: React.FC<
                   background: "var(--background-bg-primary, #1597f4)",
                 }}
                 {...{
-                  iconRight: false,
-                  iconLeft: false,
                   buttonname: "Show Results",
                   type: "primary",
                   size: "small",
@@ -1191,7 +882,7 @@ export const QodeCustom18913734: React.FC<
             }}
           >
             {/* name="Search bar" id="2759:31279" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -1205,25 +896,16 @@ export const QodeCustom18913734: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon left" id="I2759:31279;2720:38013" type="INSTANCE" */}
-              <QodeSvgI275931279272038013
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Input`}</span>
-            </Flex>
+              {...{
+                suffix: "SUF",
+                title: "Input",
+                prefix: "PRE",
+                showIconLeft: true,
+                state: "default",
+                status: "default",
+                size: "default",
+              }}
+            />
             {/* name="body" id="2760:33563" type="FRAME" */}
             <div
               style={{
@@ -1233,7 +915,7 @@ export const QodeCustom18913734: React.FC<
               }}
             >
               {/* name="_Dropdown/Item" id="189:13861" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1243,22 +925,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13862" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1268,22 +938,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13863" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1293,22 +951,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13864" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1318,22 +964,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13865" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1343,22 +977,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13866" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1368,22 +990,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="189:13897" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1393,22 +1003,10 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
               {/* name="_Dropdown/Item" id="2760:33564" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18912627
                 style={{
                   display: "flex",
                   width: "200px",
@@ -1418,20 +1016,8 @@ export const QodeCustom18913734: React.FC<
                   gap: "8px",
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Dropdown Item`}</span>
-              </Flex>
+                {...{ title: "Dropdown Item", state: "default", danger: false }}
+              />
             </div>
             {/* name="Buttons" id="2760:32940" type="FRAME" */}
             <div
@@ -1458,9 +1044,7 @@ export const QodeCustom18913734: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Reset",
-                  iconLeft: false,
                   type: "link",
                   size: "small",
                   state: "default",
@@ -1483,8 +1067,6 @@ export const QodeCustom18913734: React.FC<
                   background: "var(--background-bg-primary, #1597f4)",
                 }}
                 {...{
-                  iconRight: false,
-                  iconLeft: false,
                   buttonname: "Show Results",
                   type: "primary",
                   size: "small",

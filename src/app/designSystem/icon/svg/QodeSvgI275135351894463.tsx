@@ -23,18 +23,18 @@ const QodeSvgI275135351894463: React.FC<IconProps> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6346_9479)">
+      <g clip-path="url(#clip0_6381_53225)">
         <path
           d="M0 6C0 2.6863 2.68629 0 6 0H250C253.314 0 256 2.68629 256 6V154C256 157.314 253.314 160 250 160H6C2.68629 160 0 157.314 0 154V6Z"
           fill="#1597F4"
         />
         <path
           d="M0 6C0 2.6863 2.68629 0 6 0H250C253.314 0 256 2.68629 256 6V154C256 157.314 253.314 160 250 160H6C2.68629 160 0 157.314 0 154V6Z"
-          fill="url(#paint0_linear_6346_9479)"
+          fill="url(#paint0_linear_6381_53225)"
         />
         <path
           d="M0 6C0 2.6863 2.68629 0 6 0H250C253.314 0 256 2.68629 256 6V154C256 157.314 253.314 160 250 160H6C2.68629 160 0 157.314 0 154V6Z"
-          fill="url(#paint1_linear_6346_9479)"
+          fill="url(#paint1_linear_6381_53225)"
         />
         <circle cx="232" r="5" stroke="white" stroke-width="2" />
       </g>
@@ -45,7 +45,7 @@ const QodeSvgI275135351894463: React.FC<IconProps> = ({
       />
       <defs>
         <linearGradient
-          id="paint0_linear_6346_9479"
+          id="paint0_linear_6381_53225"
           x1="1.90735e-06"
           y1="80"
           x2="256"
@@ -56,7 +56,7 @@ const QodeSvgI275135351894463: React.FC<IconProps> = ({
           <stop offset="1" stop-color="white" stop-opacity="0" />
         </linearGradient>
         <linearGradient
-          id="paint1_linear_6346_9479"
+          id="paint1_linear_6381_53225"
           x1="128"
           y1="0"
           x2="128"
@@ -66,7 +66,7 @@ const QodeSvgI275135351894463: React.FC<IconProps> = ({
           <stop stop-opacity="0" />
           <stop offset="1" />
         </linearGradient>
-        <clipPath id="clip0_6346_9479">
+        <clipPath id="clip0_6381_53225">
           <path
             d="M0 6C0 2.6863 2.68629 0 6 0H250C253.314 0 256 2.68629 256 6V154C256 157.314 253.314 160 250 160H6C2.68629 160 0 157.314 0 154V6Z"
             fill="white"

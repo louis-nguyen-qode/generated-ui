@@ -1,4 +1,4 @@
-// id="182:9243"
+// id="434:30497"
 import React from "react"
 import { Flex } from "antd"
 import { Input, InputProps } from "antd"
@@ -6,35 +6,61 @@ import { Input, InputProps } from "antd"
 export interface QodeInputProps
   extends Omit<
     InputProps,
-    "icon" | "showIcon" | "showSelect" | "title" | "showTitle" | "tab" | "size"
+    | "showIconRight"
+    | "suffix"
+    | "showSuffix"
+    | "title"
+    | "prefix"
+    | "iconRight"
+    | "showPrefix"
+    | "iconLeft"
+    | "showIconLeft"
+    | "state"
+    | "status"
+    | "size"
   > {
-  icon?: React.ReactNode
-  showIcon?: boolean
-  showSelect?: boolean
+  showIconRight?: boolean
+  suffix?: string
+  showSuffix?: boolean
   title?: string
-  showTitle?: boolean
-  tab?: "pre" | "post"
+  prefix?: string
+  iconRight?: React.ReactNode
+  showPrefix?: boolean
+  iconLeft?: React.ReactNode
+  showIconLeft?: boolean
+  state?: "default" | "hover" | "focused" | "typing" | "filled" | "disabled"
+  status?: "default" | "error" | "warning"
   size?: "default" | "large" | "small"
 }
 
 export const QodeInput: React.FC<QodeInputProps> = ({
-  icon = undefined,
-  showIcon = false,
-  showSelect = false,
-  title = "http://",
-  showTitle = true,
-  tab = "pre",
+  showIconRight = false,
+  suffix = "SUF",
+  showSuffix = false,
+  title = "Input",
+  prefix = "PRE",
+  iconRight = undefined,
+  showPrefix = false,
+  iconLeft = undefined,
+  showIconLeft = true,
+  state = "default",
+  status = "default",
   size = "default",
   ...rest
 }) => {
   return (
     <Input
-      icon={icon}
-      showIcon={showIcon}
-      showSelect={showSelect}
+      showIconRight={showIconRight}
+      suffix={suffix}
+      showSuffix={showSuffix}
       title={title}
-      showTitle={showTitle}
-      tab={tab}
+      prefix={prefix}
+      iconRight={iconRight}
+      showPrefix={showPrefix}
+      iconLeft={iconLeft}
+      showIconLeft={showIconLeft}
+      state={state}
+      status={status}
       size={size}
       {...rest}
     />

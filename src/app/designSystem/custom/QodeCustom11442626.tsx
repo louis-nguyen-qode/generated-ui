@@ -13,7 +13,7 @@ export interface QodeCustom11442626Props {
     | "error"
     | "disabled"
     | "mark"
-  style?: "default" | "delete" | "italic" | "strong" | "underline"
+  _style?: "default" | "delete" | "italic" | "strong" | "underline"
   size?: "default" | "large" | "small" | "extra large"
 }
 
@@ -22,7 +22,7 @@ export const QodeCustom11442626: React.FC<
 > = ({
   title = "Label",
   type = "default",
-  style = "default",
+  _style = "default",
   size = "default",
   ...rest
 }) => {
@@ -31,7 +31,7 @@ export const QodeCustom11442626: React.FC<
       {/* name="Text" id="114:42626" type="COMPONENT_SET" */}
       {/* id="114:42625" */}
       {`${type}` === `default` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `default` && (
           <>
             {/* name="type=default, style=default, size=default" id="114:42625" type="COMPONENT" */}
@@ -58,7 +58,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42668" */}
       {`${type}` === `default` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `default` && (
           <>
             {/* name="type=default, style=underline, size=default" id="114:42668" type="COMPONENT" */}
@@ -86,7 +86,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42670" */}
       {`${type}` === `default` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `default` && (
           <>
             {/* name="type=default, style=delete, size=default" id="114:42670" type="COMPONENT" */}
@@ -114,7 +114,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42672" */}
       {`${type}` === `default` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `default` && (
           <>
             {/* name="type=default, style=italic, size=default" id="114:42672" type="COMPONENT" */}
@@ -141,7 +141,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42674" */}
       {`${type}` === `default` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `default` && (
           <>
             {/* name="type=default, style=strong, size=default" id="114:42674" type="COMPONENT" */}
@@ -168,7 +168,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42676" */}
       {`${type}` === `secondary` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `default` && (
           <>
             {/* name="type=secondary, style=default, size=default" id="114:42676" type="COMPONENT" */}
@@ -196,7 +196,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42678" */}
       {`${type}` === `secondary` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `default` && (
           <>
             {/* name="type=secondary, style=underline, size=default" id="114:42678" type="COMPONENT" */}
@@ -225,7 +225,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42680" */}
       {`${type}` === `secondary` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `default` && (
           <>
             {/* name="type=secondary, style=delete, size=default" id="114:42680" type="COMPONENT" */}
@@ -254,7 +254,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42682" */}
       {`${type}` === `secondary` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `default` && (
           <>
             {/* name="type=secondary, style=italic, size=default" id="114:42682" type="COMPONENT" */}
@@ -282,7 +282,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42684" */}
       {`${type}` === `secondary` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `default` && (
           <>
             {/* name="type=secondary, style=strong, size=default" id="114:42684" type="COMPONENT" */}
@@ -310,7 +310,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42686" */}
       {`${type}` === `success` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `default` && (
           <>
             {/* name="type=success, style=default, size=default" id="114:42686" type="COMPONENT" */}
@@ -337,7 +337,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42688" */}
       {`${type}` === `success` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `default` && (
           <>
             {/* name="type=success, style=underline, size=default" id="114:42688" type="COMPONENT" */}
@@ -365,7 +365,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42690" */}
       {`${type}` === `success` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `default` && (
           <>
             {/* name="type=success, style=delete, size=default" id="114:42690" type="COMPONENT" */}
@@ -393,7 +393,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42692" */}
       {`${type}` === `success` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `default` && (
           <>
             {/* name="type=success, style=italic, size=default" id="114:42692" type="COMPONENT" */}
@@ -420,7 +420,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42694" */}
       {`${type}` === `success` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `default` && (
           <>
             {/* name="type=success, style=strong, size=default" id="114:42694" type="COMPONENT" */}
@@ -447,7 +447,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42696" */}
       {`${type}` === `warning` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `default` && (
           <>
             {/* name="type=warning, style=default, size=default" id="114:42696" type="COMPONENT" */}
@@ -474,7 +474,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42698" */}
       {`${type}` === `warning` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `default` && (
           <>
             {/* name="type=warning, style=underline, size=default" id="114:42698" type="COMPONENT" */}
@@ -502,7 +502,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42700" */}
       {`${type}` === `warning` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `default` && (
           <>
             {/* name="type=warning, style=delete, size=default" id="114:42700" type="COMPONENT" */}
@@ -530,7 +530,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42702" */}
       {`${type}` === `warning` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `default` && (
           <>
             {/* name="type=warning, style=italic, size=default" id="114:42702" type="COMPONENT" */}
@@ -557,7 +557,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42704" */}
       {`${type}` === `warning` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `default` && (
           <>
             {/* name="type=warning, style=strong, size=default" id="114:42704" type="COMPONENT" */}
@@ -584,7 +584,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42706" */}
       {`${type}` === `error` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `default` && (
           <>
             {/* name="type=error, style=default, size=default" id="114:42706" type="COMPONENT" */}
@@ -611,7 +611,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42708" */}
       {`${type}` === `error` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `default` && (
           <>
             {/* name="type=error, style=underline, size=default" id="114:42708" type="COMPONENT" */}
@@ -639,7 +639,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42710" */}
       {`${type}` === `error` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `default` && (
           <>
             {/* name="type=error, style=delete, size=default" id="114:42710" type="COMPONENT" */}
@@ -667,7 +667,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42712" */}
       {`${type}` === `error` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `default` && (
           <>
             {/* name="type=error, style=italic, size=default" id="114:42712" type="COMPONENT" */}
@@ -694,7 +694,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42714" */}
       {`${type}` === `error` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `default` && (
           <>
             {/* name="type=error, style=strong, size=default" id="114:42714" type="COMPONENT" */}
@@ -721,7 +721,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42716" */}
       {`${type}` === `disabled` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `default` && (
           <>
             {/* name="type=disabled, style=default, size=default" id="114:42716" type="COMPONENT" */}
@@ -749,7 +749,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42718" */}
       {`${type}` === `disabled` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `default` && (
           <>
             {/* name="type=disabled, style=underline, size=default" id="114:42718" type="COMPONENT" */}
@@ -778,7 +778,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42720" */}
       {`${type}` === `disabled` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `default` && (
           <>
             {/* name="type=disabled, style=delete, size=default" id="114:42720" type="COMPONENT" */}
@@ -807,7 +807,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42722" */}
       {`${type}` === `disabled` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `default` && (
           <>
             {/* name="type=disabled, style=italic, size=default" id="114:42722" type="COMPONENT" */}
@@ -835,7 +835,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42724" */}
       {`${type}` === `disabled` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `default` && (
           <>
             {/* name="type=disabled, style=strong, size=default" id="114:42724" type="COMPONENT" */}
@@ -863,7 +863,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42726" */}
       {`${type}` === `mark` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `default` && (
           <>
             {/* name="type=mark, style=default, size=default" id="114:42726" type="COMPONENT" */}
@@ -891,7 +891,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42728" */}
       {`${type}` === `mark` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `default` && (
           <>
             {/* name="type=mark, style=underline, size=default" id="114:42728" type="COMPONENT" */}
@@ -920,7 +920,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42730" */}
       {`${type}` === `mark` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `default` && (
           <>
             {/* name="type=mark, style=delete, size=default" id="114:42730" type="COMPONENT" */}
@@ -949,7 +949,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42732" */}
       {`${type}` === `mark` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `default` && (
           <>
             {/* name="type=mark, style=italic, size=default" id="114:42732" type="COMPONENT" */}
@@ -977,7 +977,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42734" */}
       {`${type}` === `mark` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `default` && (
           <>
             {/* name="type=mark, style=strong, size=default" id="114:42734" type="COMPONENT" */}
@@ -1005,7 +1005,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42736" */}
       {`${type}` === `default` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `large` && (
           <>
             {/* name="type=default, style=default, size=large" id="114:42736" type="COMPONENT" */}
@@ -1031,7 +1031,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42738" */}
       {`${type}` === `default` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `large` && (
           <>
             {/* name="type=default, style=underline, size=large" id="114:42738" type="COMPONENT" */}
@@ -1059,7 +1059,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42740" */}
       {`${type}` === `default` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `large` && (
           <>
             {/* name="type=default, style=delete, size=large" id="114:42740" type="COMPONENT" */}
@@ -1087,7 +1087,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42742" */}
       {`${type}` === `default` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `large` && (
           <>
             {/* name="type=default, style=italic, size=large" id="114:42742" type="COMPONENT" */}
@@ -1114,7 +1114,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42744" */}
       {`${type}` === `default` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `large` && (
           <>
             {/* name="type=default, style=strong, size=large" id="114:42744" type="COMPONENT" */}
@@ -1141,7 +1141,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42746" */}
       {`${type}` === `secondary` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `large` && (
           <>
             {/* name="type=secondary, style=default, size=large" id="114:42746" type="COMPONENT" */}
@@ -1168,7 +1168,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42748" */}
       {`${type}` === `secondary` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `large` && (
           <>
             {/* name="type=secondary, style=underline, size=large" id="114:42748" type="COMPONENT" */}
@@ -1197,7 +1197,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42750" */}
       {`${type}` === `secondary` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `large` && (
           <>
             {/* name="type=secondary, style=delete, size=large" id="114:42750" type="COMPONENT" */}
@@ -1226,7 +1226,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42752" */}
       {`${type}` === `secondary` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `large` && (
           <>
             {/* name="type=secondary, style=italic, size=large" id="114:42752" type="COMPONENT" */}
@@ -1254,7 +1254,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42754" */}
       {`${type}` === `secondary` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `large` && (
           <>
             {/* name="type=secondary, style=strong, size=large" id="114:42754" type="COMPONENT" */}
@@ -1282,7 +1282,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42756" */}
       {`${type}` === `success` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `large` && (
           <>
             {/* name="type=success, style=default, size=large" id="114:42756" type="COMPONENT" */}
@@ -1308,7 +1308,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42758" */}
       {`${type}` === `success` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `large` && (
           <>
             {/* name="type=success, style=underline, size=large" id="114:42758" type="COMPONENT" */}
@@ -1336,7 +1336,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42760" */}
       {`${type}` === `success` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `large` && (
           <>
             {/* name="type=success, style=delete, size=large" id="114:42760" type="COMPONENT" */}
@@ -1364,7 +1364,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42762" */}
       {`${type}` === `success` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `large` && (
           <>
             {/* name="type=success, style=italic, size=large" id="114:42762" type="COMPONENT" */}
@@ -1391,7 +1391,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42764" */}
       {`${type}` === `success` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `large` && (
           <>
             {/* name="type=success, style=strong, size=large" id="114:42764" type="COMPONENT" */}
@@ -1418,7 +1418,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42766" */}
       {`${type}` === `warning` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `large` && (
           <>
             {/* name="type=warning, style=default, size=large" id="114:42766" type="COMPONENT" */}
@@ -1444,7 +1444,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42768" */}
       {`${type}` === `warning` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `large` && (
           <>
             {/* name="type=warning, style=underline, size=large" id="114:42768" type="COMPONENT" */}
@@ -1472,7 +1472,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42770" */}
       {`${type}` === `warning` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `large` && (
           <>
             {/* name="type=warning, style=delete, size=large" id="114:42770" type="COMPONENT" */}
@@ -1500,7 +1500,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42772" */}
       {`${type}` === `warning` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `large` && (
           <>
             {/* name="type=warning, style=italic, size=large" id="114:42772" type="COMPONENT" */}
@@ -1527,7 +1527,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42774" */}
       {`${type}` === `warning` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `large` && (
           <>
             {/* name="type=warning, style=strong, size=large" id="114:42774" type="COMPONENT" */}
@@ -1554,7 +1554,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42776" */}
       {`${type}` === `error` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `large` && (
           <>
             {/* name="type=error, style=default, size=large" id="114:42776" type="COMPONENT" */}
@@ -1580,7 +1580,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42778" */}
       {`${type}` === `error` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `large` && (
           <>
             {/* name="type=error, style=underline, size=large" id="114:42778" type="COMPONENT" */}
@@ -1608,7 +1608,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42780" */}
       {`${type}` === `error` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `large` && (
           <>
             {/* name="type=error, style=delete, size=large" id="114:42780" type="COMPONENT" */}
@@ -1636,7 +1636,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42782" */}
       {`${type}` === `error` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `large` && (
           <>
             {/* name="type=error, style=italic, size=large" id="114:42782" type="COMPONENT" */}
@@ -1663,7 +1663,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42784" */}
       {`${type}` === `error` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `large` && (
           <>
             {/* name="type=error, style=strong, size=large" id="114:42784" type="COMPONENT" */}
@@ -1690,7 +1690,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42786" */}
       {`${type}` === `disabled` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `large` && (
           <>
             {/* name="type=disabled, style=default, size=large" id="114:42786" type="COMPONENT" */}
@@ -1717,7 +1717,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42788" */}
       {`${type}` === `disabled` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `large` && (
           <>
             {/* name="type=disabled, style=underline, size=large" id="114:42788" type="COMPONENT" */}
@@ -1746,7 +1746,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42790" */}
       {`${type}` === `disabled` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `large` && (
           <>
             {/* name="type=disabled, style=delete, size=large" id="114:42790" type="COMPONENT" */}
@@ -1775,7 +1775,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42792" */}
       {`${type}` === `disabled` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `large` && (
           <>
             {/* name="type=disabled, style=italic, size=large" id="114:42792" type="COMPONENT" */}
@@ -1803,7 +1803,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42794" */}
       {`${type}` === `disabled` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `large` && (
           <>
             {/* name="type=disabled, style=strong, size=large" id="114:42794" type="COMPONENT" */}
@@ -1831,7 +1831,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42796" */}
       {`${type}` === `mark` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `large` && (
           <>
             {/* name="type=mark, style=default, size=large" id="114:42796" type="COMPONENT" */}
@@ -1858,7 +1858,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42798" */}
       {`${type}` === `mark` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `large` && (
           <>
             {/* name="type=mark, style=underline, size=large" id="114:42798" type="COMPONENT" */}
@@ -1887,7 +1887,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42800" */}
       {`${type}` === `mark` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `large` && (
           <>
             {/* name="type=mark, style=delete, size=large" id="114:42800" type="COMPONENT" */}
@@ -1916,7 +1916,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42802" */}
       {`${type}` === `mark` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `large` && (
           <>
             {/* name="type=mark, style=italic, size=large" id="114:42802" type="COMPONENT" */}
@@ -1944,7 +1944,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42804" */}
       {`${type}` === `mark` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `large` && (
           <>
             {/* name="type=mark, style=strong, size=large" id="114:42804" type="COMPONENT" */}
@@ -1972,7 +1972,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42806" */}
       {`${type}` === `default` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `small` && (
           <>
             {/* name="type=default, style=default, size=small" id="114:42806" type="COMPONENT" */}
@@ -1999,7 +1999,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42808" */}
       {`${type}` === `default` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `small` && (
           <>
             {/* name="type=default, style=underline, size=small" id="114:42808" type="COMPONENT" */}
@@ -2027,7 +2027,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42810" */}
       {`${type}` === `default` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `small` && (
           <>
             {/* name="type=default, style=delete, size=small" id="114:42810" type="COMPONENT" */}
@@ -2055,7 +2055,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42812" */}
       {`${type}` === `default` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `small` && (
           <>
             {/* name="type=default, style=italic, size=small" id="114:42812" type="COMPONENT" */}
@@ -2082,7 +2082,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42814" */}
       {`${type}` === `default` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `small` && (
           <>
             {/* name="type=default, style=strong, size=small" id="114:42814" type="COMPONENT" */}
@@ -2109,7 +2109,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42816" */}
       {`${type}` === `secondary` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `small` && (
           <>
             {/* name="type=secondary, style=default, size=small" id="114:42816" type="COMPONENT" */}
@@ -2137,7 +2137,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42818" */}
       {`${type}` === `secondary` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `small` && (
           <>
             {/* name="type=secondary, style=underline, size=small" id="114:42818" type="COMPONENT" */}
@@ -2166,7 +2166,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42820" */}
       {`${type}` === `secondary` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `small` && (
           <>
             {/* name="type=secondary, style=delete, size=small" id="114:42820" type="COMPONENT" */}
@@ -2195,7 +2195,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42822" */}
       {`${type}` === `secondary` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `small` && (
           <>
             {/* name="type=secondary, style=italic, size=small" id="114:42822" type="COMPONENT" */}
@@ -2223,7 +2223,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42824" */}
       {`${type}` === `secondary` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `small` && (
           <>
             {/* name="type=secondary, style=strong, size=small" id="114:42824" type="COMPONENT" */}
@@ -2251,7 +2251,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42826" */}
       {`${type}` === `success` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `small` && (
           <>
             {/* name="type=success, style=default, size=small" id="114:42826" type="COMPONENT" */}
@@ -2278,7 +2278,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42828" */}
       {`${type}` === `success` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `small` && (
           <>
             {/* name="type=success, style=underline, size=small" id="114:42828" type="COMPONENT" */}
@@ -2306,7 +2306,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42830" */}
       {`${type}` === `success` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `small` && (
           <>
             {/* name="type=success, style=delete, size=small" id="114:42830" type="COMPONENT" */}
@@ -2334,7 +2334,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42832" */}
       {`${type}` === `success` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `small` && (
           <>
             {/* name="type=success, style=italic, size=small" id="114:42832" type="COMPONENT" */}
@@ -2361,7 +2361,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42834" */}
       {`${type}` === `success` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `small` && (
           <>
             {/* name="type=success, style=strong, size=small" id="114:42834" type="COMPONENT" */}
@@ -2388,7 +2388,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42836" */}
       {`${type}` === `warning` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `small` && (
           <>
             {/* name="type=warning, style=default, size=small" id="114:42836" type="COMPONENT" */}
@@ -2415,7 +2415,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42838" */}
       {`${type}` === `warning` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `small` && (
           <>
             {/* name="type=warning, style=underline, size=small" id="114:42838" type="COMPONENT" */}
@@ -2443,7 +2443,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42840" */}
       {`${type}` === `warning` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `small` && (
           <>
             {/* name="type=warning, style=delete, size=small" id="114:42840" type="COMPONENT" */}
@@ -2471,7 +2471,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42842" */}
       {`${type}` === `warning` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `small` && (
           <>
             {/* name="type=warning, style=italic, size=small" id="114:42842" type="COMPONENT" */}
@@ -2498,7 +2498,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42844" */}
       {`${type}` === `warning` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `small` && (
           <>
             {/* name="type=warning, style=strong, size=small" id="114:42844" type="COMPONENT" */}
@@ -2525,7 +2525,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42846" */}
       {`${type}` === `error` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `small` && (
           <>
             {/* name="type=error, style=default, size=small" id="114:42846" type="COMPONENT" */}
@@ -2552,7 +2552,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42848" */}
       {`${type}` === `error` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `small` && (
           <>
             {/* name="type=error, style=underline, size=small" id="114:42848" type="COMPONENT" */}
@@ -2580,7 +2580,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42850" */}
       {`${type}` === `error` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `small` && (
           <>
             {/* name="type=error, style=delete, size=small" id="114:42850" type="COMPONENT" */}
@@ -2608,7 +2608,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42852" */}
       {`${type}` === `error` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `small` && (
           <>
             {/* name="type=error, style=italic, size=small" id="114:42852" type="COMPONENT" */}
@@ -2635,7 +2635,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42854" */}
       {`${type}` === `error` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `small` && (
           <>
             {/* name="type=error, style=strong, size=small" id="114:42854" type="COMPONENT" */}
@@ -2662,7 +2662,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42856" */}
       {`${type}` === `disabled` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `small` && (
           <>
             {/* name="type=disabled, style=default, size=small" id="114:42856" type="COMPONENT" */}
@@ -2690,7 +2690,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42858" */}
       {`${type}` === `disabled` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `small` && (
           <>
             {/* name="type=disabled, style=underline, size=small" id="114:42858" type="COMPONENT" */}
@@ -2719,7 +2719,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42860" */}
       {`${type}` === `disabled` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `small` && (
           <>
             {/* name="type=disabled, style=delete, size=small" id="114:42860" type="COMPONENT" */}
@@ -2748,7 +2748,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42862" */}
       {`${type}` === `disabled` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `small` && (
           <>
             {/* name="type=disabled, style=italic, size=small" id="114:42862" type="COMPONENT" */}
@@ -2776,7 +2776,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42864" */}
       {`${type}` === `disabled` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `small` && (
           <>
             {/* name="type=disabled, style=strong, size=small" id="114:42864" type="COMPONENT" */}
@@ -2804,7 +2804,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42866" */}
       {`${type}` === `mark` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `small` && (
           <>
             {/* name="type=mark, style=default, size=small" id="114:42866" type="COMPONENT" */}
@@ -2832,7 +2832,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42868" */}
       {`${type}` === `mark` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `small` && (
           <>
             {/* name="type=mark, style=underline, size=small" id="114:42868" type="COMPONENT" */}
@@ -2861,7 +2861,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42870" */}
       {`${type}` === `mark` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `small` && (
           <>
             {/* name="type=mark, style=delete, size=small" id="114:42870" type="COMPONENT" */}
@@ -2890,7 +2890,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42872" */}
       {`${type}` === `mark` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `small` && (
           <>
             {/* name="type=mark, style=italic, size=small" id="114:42872" type="COMPONENT" */}
@@ -2918,7 +2918,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42874" */}
       {`${type}` === `mark` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `small` && (
           <>
             {/* name="type=mark, style=strong, size=small" id="114:42874" type="COMPONENT" */}
@@ -2946,7 +2946,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42876" */}
       {`${type}` === `default` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=default, style=default, size=extra large" id="114:42876" type="COMPONENT" */}
@@ -2973,7 +2973,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42878" */}
       {`${type}` === `default` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=default, style=underline, size=extra large" id="114:42878" type="COMPONENT" */}
@@ -3001,7 +3001,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42880" */}
       {`${type}` === `default` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=default, style=delete, size=extra large" id="114:42880" type="COMPONENT" */}
@@ -3029,7 +3029,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42882" */}
       {`${type}` === `default` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=default, style=italic, size=extra large" id="114:42882" type="COMPONENT" */}
@@ -3056,7 +3056,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42884" */}
       {`${type}` === `default` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=default, style=strong, size=extra large" id="114:42884" type="COMPONENT" */}
@@ -3083,7 +3083,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42886" */}
       {`${type}` === `secondary` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=secondary, style=default, size=extra large" id="114:42886" type="COMPONENT" */}
@@ -3111,7 +3111,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42888" */}
       {`${type}` === `secondary` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=secondary, style=underline, size=extra large" id="114:42888" type="COMPONENT" */}
@@ -3140,7 +3140,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42890" */}
       {`${type}` === `secondary` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=secondary, style=delete, size=extra large" id="114:42890" type="COMPONENT" */}
@@ -3169,7 +3169,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42892" */}
       {`${type}` === `secondary` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=secondary, style=italic, size=extra large" id="114:42892" type="COMPONENT" */}
@@ -3197,7 +3197,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42894" */}
       {`${type}` === `secondary` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=secondary, style=strong, size=extra large" id="114:42894" type="COMPONENT" */}
@@ -3225,7 +3225,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42896" */}
       {`${type}` === `success` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=success, style=default, size=extra large" id="114:42896" type="COMPONENT" */}
@@ -3252,7 +3252,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42898" */}
       {`${type}` === `success` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=success, style=underline, size=extra large" id="114:42898" type="COMPONENT" */}
@@ -3280,7 +3280,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42900" */}
       {`${type}` === `success` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=success, style=delete, size=extra large" id="114:42900" type="COMPONENT" */}
@@ -3308,7 +3308,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42902" */}
       {`${type}` === `success` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=success, style=italic, size=extra large" id="114:42902" type="COMPONENT" */}
@@ -3335,7 +3335,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42904" */}
       {`${type}` === `success` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=success, style=strong, size=extra large" id="114:42904" type="COMPONENT" */}
@@ -3362,7 +3362,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42906" */}
       {`${type}` === `warning` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=warning, style=default, size=extra large" id="114:42906" type="COMPONENT" */}
@@ -3389,7 +3389,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42908" */}
       {`${type}` === `warning` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=warning, style=underline, size=extra large" id="114:42908" type="COMPONENT" */}
@@ -3417,7 +3417,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42910" */}
       {`${type}` === `warning` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=warning, style=delete, size=extra large" id="114:42910" type="COMPONENT" */}
@@ -3445,7 +3445,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42912" */}
       {`${type}` === `warning` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=warning, style=italic, size=extra large" id="114:42912" type="COMPONENT" */}
@@ -3472,7 +3472,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42914" */}
       {`${type}` === `warning` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=warning, style=strong, size=extra large" id="114:42914" type="COMPONENT" */}
@@ -3499,7 +3499,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42916" */}
       {`${type}` === `error` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=error, style=default, size=extra large" id="114:42916" type="COMPONENT" */}
@@ -3526,7 +3526,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42918" */}
       {`${type}` === `error` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=error, style=underline, size=extra large" id="114:42918" type="COMPONENT" */}
@@ -3554,7 +3554,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42920" */}
       {`${type}` === `error` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=error, style=delete, size=extra large" id="114:42920" type="COMPONENT" */}
@@ -3582,7 +3582,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42922" */}
       {`${type}` === `error` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=error, style=italic, size=extra large" id="114:42922" type="COMPONENT" */}
@@ -3609,7 +3609,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42924" */}
       {`${type}` === `error` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=error, style=strong, size=extra large" id="114:42924" type="COMPONENT" */}
@@ -3636,7 +3636,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42926" */}
       {`${type}` === `disabled` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=disabled, style=default, size=extra large" id="114:42926" type="COMPONENT" */}
@@ -3664,7 +3664,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42928" */}
       {`${type}` === `disabled` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=disabled, style=underline, size=extra large" id="114:42928" type="COMPONENT" */}
@@ -3693,7 +3693,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42930" */}
       {`${type}` === `disabled` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=disabled, style=delete, size=extra large" id="114:42930" type="COMPONENT" */}
@@ -3722,7 +3722,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42932" */}
       {`${type}` === `disabled` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=disabled, style=italic, size=extra large" id="114:42932" type="COMPONENT" */}
@@ -3750,7 +3750,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42934" */}
       {`${type}` === `disabled` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=disabled, style=strong, size=extra large" id="114:42934" type="COMPONENT" */}
@@ -3778,7 +3778,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42936" */}
       {`${type}` === `mark` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=mark, style=default, size=extra large" id="114:42936" type="COMPONENT" */}
@@ -3806,7 +3806,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42938" */}
       {`${type}` === `mark` &&
-        `${style}` === `underline` &&
+        `${_style}` === `underline` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=mark, style=underline, size=extra large" id="114:42938" type="COMPONENT" */}
@@ -3835,7 +3835,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42940" */}
       {`${type}` === `mark` &&
-        `${style}` === `delete` &&
+        `${_style}` === `delete` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=mark, style=delete, size=extra large" id="114:42940" type="COMPONENT" */}
@@ -3864,7 +3864,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42942" */}
       {`${type}` === `mark` &&
-        `${style}` === `italic` &&
+        `${_style}` === `italic` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=mark, style=italic, size=extra large" id="114:42942" type="COMPONENT" */}
@@ -3892,7 +3892,7 @@ export const QodeCustom11442626: React.FC<
         )}
       {/* id="114:42944" */}
       {`${type}` === `mark` &&
-        `${style}` === `strong` &&
+        `${_style}` === `strong` &&
         `${size}` === `extra large` && (
           <>
             {/* name="type=mark, style=strong, size=extra large" id="114:42944" type="COMPONENT" */}

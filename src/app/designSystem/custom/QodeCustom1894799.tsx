@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg1894737 from "@designSystem/icon/svg/QodeSvg1894737"
+import { QodeCustom11436665 } from "@designSystem/custom/QodeCustom11436665"
 
 export interface QodeCustom1894799Props {
   checked?: "true" | "false"
@@ -36,7 +36,7 @@ export const QodeCustom1894799: React.FC<
             }}
           >
             {/* name="Check" id="189:4737" type="INSTANCE" */}
-            <QodeSvg1894737
+            <QodeCustom11436665
               style={{ width: "12px", height: "12px", flexShrink: "0" }}
               {...{}}
             />

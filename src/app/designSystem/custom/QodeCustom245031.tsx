@@ -3,6 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom63010804 } from "@designSystem/custom/QodeCustom63010804"
 import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom245031Props {
@@ -67,7 +68,7 @@ export const QodeCustom245031: React.FC<
                   }}
                 >
                   {/* name="icons" id="24:5036" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom63010804
                     style={{
                       display: "flex",
                       padding: "1.5px 1.498px 1.5px 1.5px",
@@ -76,19 +77,8 @@ export const QodeCustom245031: React.FC<
                       flex: "1 0 0",
                       alignSelf: "stretch",
                     }}
-                  >
-                    {/* name="Vector" id="I24:5036;630:10668" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "15.002px",
-                        height: "15px",
-                        fill: "var(--color-primary-colorprimarytext, #2d64bc)",
-                      }}
-                    >
-                      {/* name="Vector" id=I24:5036;630:10668 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
+                    {...{}}
+                  />
                 </div>
                 {/* name="content" id="24:5037" type="FRAME" */}
                 <div
@@ -206,7 +196,6 @@ export const QodeCustom245031: React.FC<
                       icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See more",
                       iconR: <Icon.QodeMagnifyingGlass />,
-                      iconL: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -272,7 +261,7 @@ export const QodeCustom245031: React.FC<
                   }}
                 >
                   {/* name="icons" id="24:5049" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom63010804
                     style={{
                       display: "flex",
                       padding: "1.5px 1.498px 1.5px 1.5px",
@@ -281,19 +270,8 @@ export const QodeCustom245031: React.FC<
                       flex: "1 0 0",
                       alignSelf: "stretch",
                     }}
-                  >
-                    {/* name="Vector" id="I24:5049;630:10668" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "15.002px",
-                        height: "15px",
-                        fill: "var(--color-primary-colorprimarytext, #2d64bc)",
-                      }}
-                    >
-                      {/* name="Vector" id=I24:5049;630:10668 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
+                    {...{}}
+                  />
                 </div>
                 {/* name="content" id="24:5050" type="FRAME" */}
                 <div
@@ -400,7 +378,6 @@ export const QodeCustom245031: React.FC<
                   icononly: <Icon.QodeMagnifyingGlass />,
                   title: "See Less",
                   iconR: <Icon.QodeMagnifyingGlass />,
-                  iconL: false,
                   type: "text",
                   size: "small",
                   state: "default",

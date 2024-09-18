@@ -3,8 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import QodeSvg561044931 from "@designSystem/icon/svg/QodeSvg561044931"
 import { QodeTag } from "@designSystem/ant/QodeTag"
-import QodeSvg561045759 from "@designSystem/icon/svg/QodeSvg561045759"
+import { QodeBadge } from "@designSystem/ant/QodeBadge"
 import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom561045693Props {
@@ -105,7 +106,7 @@ export const QodeCustom561045693: React.FC<
             }}
           >
             {/* name="Icon/checkbox" id="5610:45705" type="INSTANCE" */}
-            <Flex
+            <QodeSvg561044931
               style={{
                 display: "flex",
                 width: "20px",
@@ -115,22 +116,8 @@ export const QodeCustom561045693: React.FC<
                 alignItems: "center",
                 flexShrink: "0",
               }}
-            >
-              {/* name="rec" id="I5610:45705;496:780" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "15px",
-                  height: "15px",
-                  flexShrink: "0",
-                  borderRadius: "var(--radius-border-radius-sm, 2px)",
-                  border: "2px solid var(--gray-neutrals-90, #2a2a2a)",
-                  background: "var(--white, #fff)",
-                }}
-              >
-                {/* name="rec" id=I5610:45705;496:780 type=RECTANGLE */}
-                <></>
-              </Flex>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Wrap" id="5610:45706" type="FRAME" */}
             <div
               style={{
@@ -200,7 +187,7 @@ export const QodeCustom561045693: React.FC<
             }}
           >
             {/* name="Icon/checkbox" id="5610:45727" type="INSTANCE" */}
-            <Flex
+            <QodeSvg561044931
               style={{
                 display: "flex",
                 width: "20px",
@@ -210,22 +197,8 @@ export const QodeCustom561045693: React.FC<
                 alignItems: "center",
                 flexShrink: "0",
               }}
-            >
-              {/* name="rec" id="I5610:45727;496:780" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "15px",
-                  height: "15px",
-                  flexShrink: "0",
-                  borderRadius: "var(--radius-border-radius-sm, 2px)",
-                  border: "2px solid var(--gray-neutrals-90, #2a2a2a)",
-                  background: "var(--white, #fff)",
-                }}
-              >
-                {/* name="rec" id=I5610:45727;496:780 type=RECTANGLE */}
-                <></>
-              </Flex>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             <span
               style={{
                 display: "-webkit-box",
@@ -379,34 +352,10 @@ export const QodeCustom561045693: React.FC<
             }}
           >
             {/* name="Badge__Status" id="5951:194" type="INSTANCE" */}
-            <Flex style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              {/* name="Dot" id="I5951:194;124:665" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  width: "6px",
-                  height: "6px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  borderRadius: "var(--style-radius-borderradiuslg, 8px)",
-                  background: "var(--background-bg-green-hover, #11a620)",
-                }}
-              >
-                {/* name="Dot" id=I5951:194;124:665 type=FRAME */}
-                <></>
-              </div>
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Success`}</span>
-            </Flex>
+            <QodeBadge
+              style={{ display: "flex", alignItems: "center", gap: "8px" }}
+              {...{ showLabel: true, status: "success" }}
+            />
           </div>
         </>
       )}
@@ -432,7 +381,7 @@ export const QodeCustom561045693: React.FC<
             }}
           >
             {/* name="Icon/checkbox" id="5610:45759" type="INSTANCE" */}
-            <QodeSvg561045759
+            <QodeSvg561044931
               style={{ width: "24px", height: "24px", flexShrink: "0" }}
               {...{ state: "Default" }}
             />
@@ -504,8 +453,6 @@ export const QodeCustom561045693: React.FC<
               }}
               {...{
                 buttonname: "Button",
-                iconLeft: false,
-                iconRight: false,
                 type: "primary",
                 size: "small",
                 state: "default",
@@ -552,9 +499,7 @@ export const QodeCustom561045693: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
               }}
               {...{
-                iconLeft: false,
                 buttonname: "Button",
-                iconRight: false,
                 type: "primary",
                 size: "small",
                 state: "default",
@@ -578,8 +523,6 @@ export const QodeCustom561045693: React.FC<
               }}
               {...{
                 buttonname: "Button",
-                iconLeft: false,
-                iconRight: false,
                 type: "primary",
                 size: "small",
                 state: "default",

@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom2145704 } from "@designSystem/custom/QodeCustom2145704"
+import { QodeCustom2145712 } from "@designSystem/custom/QodeCustom2145712"
+import { QodeCustom20232919 } from "@designSystem/custom/QodeCustom20232919"
 import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom3483590Props {
@@ -86,7 +89,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6415" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -96,26 +99,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`00`}</span>
-                      </Flex>
+                        {...{ title: "00", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6416" type="FRAME" */}
                     <div
@@ -128,7 +113,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6417" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -138,26 +123,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`01`}</span>
-                      </Flex>
+                        {...{ title: "01", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6418" type="FRAME" */}
                     <div
@@ -170,7 +137,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6419" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145712
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -182,27 +149,8 @@ export const QodeCustom3483590: React.FC<
                           background:
                             "var(--color-primary-colorprimarybg, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color:
-                              "var(--color-primary-colorprimarytext, #1597f4)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`24`}</span>
-                      </Flex>
+                        {...{ title: "24", state: "selected" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6420" type="FRAME" */}
                     <div
@@ -215,7 +163,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6421" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -225,26 +173,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`03`}</span>
-                      </Flex>
+                        {...{ title: "03", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6422" type="FRAME" */}
                     <div
@@ -257,7 +187,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6423" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -267,26 +197,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`04`}</span>
-                      </Flex>
+                        {...{ title: "04", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6424" type="FRAME" */}
                     <div
@@ -299,7 +211,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6425" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -309,26 +221,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`05`}</span>
-                      </Flex>
+                        {...{ title: "05", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6426" type="FRAME" */}
                     <div
@@ -341,7 +235,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6427" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -351,26 +245,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`06`}</span>
-                      </Flex>
+                        {...{ title: "06", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6428" type="FRAME" */}
                     <div
@@ -383,7 +259,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6429" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -393,26 +269,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`07`}</span>
-                      </Flex>
+                        {...{ title: "07", state: "default" }}
+                      />
                     </div>
                   </div>
                   {/* name="Divider" id="214:6430" type="RECTANGLE" */}
@@ -450,7 +308,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6433" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -460,26 +318,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`00`}</span>
-                      </Flex>
+                        {...{ title: "00", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6434" type="FRAME" */}
                     <div
@@ -492,7 +332,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6435" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -502,26 +342,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`01`}</span>
-                      </Flex>
+                        {...{ title: "01", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6436" type="FRAME" */}
                     <div
@@ -534,7 +356,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6437" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -544,26 +366,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`02`}</span>
-                      </Flex>
+                        {...{ title: "02", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6438" type="FRAME" */}
                     <div
@@ -576,7 +380,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6439" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -586,26 +390,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`03`}</span>
-                      </Flex>
+                        {...{ title: "03", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6440" type="FRAME" */}
                     <div
@@ -618,7 +404,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6441" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145712
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -630,27 +416,8 @@ export const QodeCustom3483590: React.FC<
                           background:
                             "var(--color-primary-colorprimarybg, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color:
-                              "var(--color-primary-colorprimarytext, #1597f4)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`24`}</span>
-                      </Flex>
+                        {...{ title: "24", state: "selected" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6442" type="FRAME" */}
                     <div
@@ -663,7 +430,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6443" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -673,26 +440,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`05`}</span>
-                      </Flex>
+                        {...{ title: "05", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6444" type="FRAME" */}
                     <div
@@ -705,7 +454,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6445" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -715,26 +464,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`06`}</span>
-                      </Flex>
+                        {...{ title: "06", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6446" type="FRAME" */}
                     <div
@@ -747,7 +478,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".datePicker__menuItem" id="214:6447" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom20232919
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -757,26 +488,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`07`}</span>
-                      </Flex>
+                        {...{ title: "07", state: "default" }}
+                      />
                     </div>
                   </div>
                   {/* name="Divider" id="214:6448" type="RECTANGLE" */}
@@ -814,7 +527,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6451" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -824,26 +537,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`00`}</span>
-                      </Flex>
+                        {...{ title: "00", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6452" type="FRAME" */}
                     <div
@@ -856,7 +551,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6453" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -866,26 +561,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`01`}</span>
-                      </Flex>
+                        {...{ title: "01", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6454" type="FRAME" */}
                     <div
@@ -898,7 +575,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6455" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -908,26 +585,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`02`}</span>
-                      </Flex>
+                        {...{ title: "02", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6456" type="FRAME" */}
                     <div
@@ -940,7 +599,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6457" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -950,26 +609,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`03`}</span>
-                      </Flex>
+                        {...{ title: "03", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6458" type="FRAME" */}
                     <div
@@ -982,7 +623,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6459" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -992,26 +633,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`04`}</span>
-                      </Flex>
+                        {...{ title: "04", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6460" type="FRAME" */}
                     <div
@@ -1024,7 +647,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6461" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1034,26 +657,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`05`}</span>
-                      </Flex>
+                        {...{ title: "05", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6462" type="FRAME" */}
                     <div
@@ -1066,7 +671,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6463" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145712
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1078,27 +683,8 @@ export const QodeCustom3483590: React.FC<
                           background:
                             "var(--color-primary-colorprimarybg, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color:
-                              "var(--color-primary-colorprimarytext, #1597f4)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`24`}</span>
-                      </Flex>
+                        {...{ title: "24", state: "selected" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="214:6464" type="FRAME" */}
                     <div
@@ -1111,7 +697,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="214:6465" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1121,26 +707,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`07`}</span>
-                      </Flex>
+                        {...{ title: "07", state: "default" }}
+                      />
                     </div>
                   </div>
                 </div>
@@ -1170,9 +738,7 @@ export const QodeCustom3483590: React.FC<
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Now",
-                  iconLeft: false,
                   type: "link",
                   size: "small",
                   state: "default",
@@ -1196,8 +762,6 @@ export const QodeCustom3483590: React.FC<
                   background: "var(--color-primary-colorprimary, #1597f4)",
                 }}
                 {...{
-                  iconRight: false,
-                  iconLeft: false,
                   buttonname: "Ok",
                   type: "primary",
                   size: "small",
@@ -1282,7 +846,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:597" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1292,26 +856,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`00`}</span>
-                      </Flex>
+                        {...{ title: "00", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:598" type="FRAME" */}
                     <div
@@ -1324,7 +870,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:599" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1334,26 +880,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`01`}</span>
-                      </Flex>
+                        {...{ title: "01", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:600" type="FRAME" */}
                     <div
@@ -1366,7 +894,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:601" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145712
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1378,27 +906,8 @@ export const QodeCustom3483590: React.FC<
                           background:
                             "var(--color-primary-colorprimarybg, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color:
-                              "var(--color-primary-colorprimarytext, #1597f4)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`24`}</span>
-                      </Flex>
+                        {...{ title: "24", state: "selected" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:602" type="FRAME" */}
                     <div
@@ -1411,7 +920,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:603" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1421,26 +930,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`03`}</span>
-                      </Flex>
+                        {...{ title: "03", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:604" type="FRAME" */}
                     <div
@@ -1453,7 +944,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:605" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1463,26 +954,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`04`}</span>
-                      </Flex>
+                        {...{ title: "04", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:606" type="FRAME" */}
                     <div
@@ -1495,7 +968,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:607" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1505,26 +978,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`05`}</span>
-                      </Flex>
+                        {...{ title: "05", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:608" type="FRAME" */}
                     <div
@@ -1537,7 +992,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:609" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1547,26 +1002,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`06`}</span>
-                      </Flex>
+                        {...{ title: "06", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:610" type="FRAME" */}
                     <div
@@ -1579,7 +1016,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:611" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1589,26 +1026,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`07`}</span>
-                      </Flex>
+                        {...{ title: "07", state: "default" }}
+                      />
                     </div>
                   </div>
                   {/* name="Divider" id="3483:612" type="RECTANGLE" */}
@@ -1646,7 +1065,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:615" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1656,26 +1075,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`00`}</span>
-                      </Flex>
+                        {...{ title: "00", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:616" type="FRAME" */}
                     <div
@@ -1688,7 +1089,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:617" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1698,26 +1099,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`01`}</span>
-                      </Flex>
+                        {...{ title: "01", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:618" type="FRAME" */}
                     <div
@@ -1730,7 +1113,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:619" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1740,26 +1123,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`02`}</span>
-                      </Flex>
+                        {...{ title: "02", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:620" type="FRAME" */}
                     <div
@@ -1772,7 +1137,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:621" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1782,26 +1147,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`03`}</span>
-                      </Flex>
+                        {...{ title: "03", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:622" type="FRAME" */}
                     <div
@@ -1814,7 +1161,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:623" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145712
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1826,27 +1173,8 @@ export const QodeCustom3483590: React.FC<
                           background:
                             "var(--color-primary-colorprimarybg, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color:
-                              "var(--color-primary-colorprimarytext, #1597f4)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`04`}</span>
-                      </Flex>
+                        {...{ title: "04", state: "selected" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:624" type="FRAME" */}
                     <div
@@ -1859,7 +1187,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:625" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1869,26 +1197,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`05`}</span>
-                      </Flex>
+                        {...{ title: "05", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:626" type="FRAME" */}
                     <div
@@ -1901,7 +1211,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".timePicker__menuItem" id="3483:627" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom2145704
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1911,26 +1221,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`06`}</span>
-                      </Flex>
+                        {...{ title: "06", state: "default" }}
+                      />
                     </div>
                     {/* name="Cell Wrapper" id="3483:628" type="FRAME" */}
                     <div
@@ -1943,7 +1235,7 @@ export const QodeCustom3483590: React.FC<
                       }}
                     >
                       {/* name=".datePicker__menuItem" id="3483:629" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom20232919
                         style={{
                           display: "flex",
                           height: "var(--size-height-controlheightsm, 24px)",
@@ -1953,26 +1245,8 @@ export const QodeCustom3483590: React.FC<
                           borderRadius:
                             "var(--style-radius-borderradiussm, 6px)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            color: "var(--color-neutral-text-colortext, #000)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`07`}</span>
-                      </Flex>
+                        {...{ title: "07", state: "default" }}
+                      />
                     </div>
                   </div>
                   {/* name="Divider" id="3483:630" type="RECTANGLE" */}
@@ -2014,9 +1288,7 @@ export const QodeCustom3483590: React.FC<
                   borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Now",
-                  iconLeft: false,
                   type: "link",
                   size: "small",
                   state: "default",
@@ -2040,8 +1312,6 @@ export const QodeCustom3483590: React.FC<
                   background: "var(--color-primary-colorprimary, #1597f4)",
                 }}
                 {...{
-                  iconRight: false,
-                  iconLeft: false,
                   buttonname: "Ok",
                   type: "primary",
                   size: "small",

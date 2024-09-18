@@ -1,50 +1,26 @@
-// id="204:9386"
+// id="204:9698"
 import React from "react"
 import { Flex } from "antd"
 import { Progress, ProgressProps } from "antd"
 
 export interface QodeProgressProps
-  extends Omit<ProgressProps, "showInfo" | "value" | "size" | "stokeLinecap"> {
-  showInfo?: boolean
-  value?:
-    | "5%"
-    | "10%"
-    | "15%"
-    | "20%"
-    | "25%"
-    | "30%"
-    | "35%"
-    | "40%"
-    | "45%"
-    | "50%"
-    | "55%"
-    | "60%"
-    | "65%"
-    | "70%"
-    | "75%"
-    | "80%"
-    | "85%"
-    | "90%"
-    | "95%"
-    | "Error"
-    | "Success"
-  size?: "default" | "small"
-  stokeLinecap?: "round" | "butt"
+  extends Omit<ProgressProps, "size" | "status" | "strokeLinecap"> {
+  size?: "mini" | "default"
+  status?: "default" | "error" | "success"
+  strokeLinecap?: "round" | "butt"
 }
 
 export const QodeProgress: React.FC<QodeProgressProps> = ({
-  showInfo = true,
-  value = "5%",
-  size = "default",
-  stokeLinecap = "round",
+  size = "mini",
+  status = "default",
+  strokeLinecap = "round",
   ...rest
 }) => {
   return (
     <Progress
-      showInfo={showInfo}
-      value={value}
       size={size}
-      stokeLinecap={stokeLinecap}
+      status={status}
+      strokeLinecap={strokeLinecap}
       {...rest}
     />
   )

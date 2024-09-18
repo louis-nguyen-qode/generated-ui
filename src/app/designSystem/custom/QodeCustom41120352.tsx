@@ -4,7 +4,8 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import { QodeSelect } from "@designSystem/ant/QodeSelect"
+import { QodeInput } from "@designSystem/ant/QodeInput"
+import { QodeCustom17023784 } from "@designSystem/custom/QodeCustom17023784"
 
 export interface QodeCustom41120352Props {
   column?: "Text"
@@ -72,10 +73,8 @@ export const QodeCustom41120352: React.FC<
                 {...{
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  iconRight: false,
                   buttonname: "Clear",
                   selectIconLeft: <Icon.QodeIcons />,
-                  iconLeft: false,
                   type: "default",
                   size: "small",
                   state: "default",
@@ -86,7 +85,7 @@ export const QodeCustom41120352: React.FC<
               />
             </div>
             {/* name="Search bar" id="411:21157" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -100,60 +99,18 @@ export const QodeCustom41120352: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon left" id="I411:21157;2720:38013" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`PRE`}</span>
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Input`}</span>
-              <span
-                style={{
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`SUF`}</span>
-              {/* name="🎰 icon right" id="I411:21157;2720:38017" type="INSTANCE" */}
-              <Icon.QodeUser
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "1.6px 2.4px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                showIconLeft: true,
+                iconLeft: <Icon.QodeMagnifyingGlass />,
+                iconRight: <Icon.QodeUser />,
+                prefix: "PRE",
+                title: "Input",
+                suffix: "SUF",
+                state: "default",
+                status: "default",
+                size: "default",
+              }}
+            />
             {/* name="list" id="411:20355" type="FRAME" */}
             <div
               style={{
@@ -165,7 +122,7 @@ export const QodeCustom41120352: React.FC<
               }}
             >
               {/* name="🧬 item 1" id="411:21129" type="INSTANCE" */}
-              <QodeSelect
+              <QodeCustom17023784
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -180,7 +137,7 @@ export const QodeCustom41120352: React.FC<
                 {...{ title: "Select menu item", state: "selected multiple" }}
               />
               {/* name="🧬 item 2" id="411:21132" type="INSTANCE" */}
-              <QodeSelect
+              <QodeCustom17023784
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -194,7 +151,7 @@ export const QodeCustom41120352: React.FC<
                 {...{ title: "Select menu item", state: "default" }}
               />
               {/* name="🧬 item 8" id="411:21201" type="INSTANCE" */}
-              <QodeSelect
+              <QodeCustom17023784
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -209,7 +166,7 @@ export const QodeCustom41120352: React.FC<
                 {...{ title: "Select menu item", state: "selected multiple" }}
               />
               {/* name="🧬 item 9" id="411:21206" type="INSTANCE" */}
-              <QodeSelect
+              <QodeCustom17023784
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -224,7 +181,7 @@ export const QodeCustom41120352: React.FC<
                 {...{ title: "Select menu item", state: "selected multiple" }}
               />
               {/* name="🧬 item 7" id="411:21147" type="INSTANCE" */}
-              <QodeSelect
+              <QodeCustom17023784
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -238,7 +195,7 @@ export const QodeCustom41120352: React.FC<
                 {...{ title: "Select menu item", state: "default" }}
               />
               {/* name="🧬 item 3" id="411:21135" type="INSTANCE" */}
-              <QodeSelect
+              <QodeCustom17023784
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -252,7 +209,7 @@ export const QodeCustom41120352: React.FC<
                 {...{ title: "Select menu item", state: "default" }}
               />
               {/* name="🧬 item 5" id="411:21141" type="INSTANCE" */}
-              <QodeSelect
+              <QodeCustom17023784
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -303,11 +260,9 @@ export const QodeCustom41120352: React.FC<
                 }}
                 {...{
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  iconRight: false,
                   selectIconLeft: <Icon.QodeIcons />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Cancel",
-                  iconLeft: false,
                   type: "default",
                   size: "default",
                   state: "default",
@@ -332,8 +287,6 @@ export const QodeCustom41120352: React.FC<
                 }}
                 {...{
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  iconLeft: false,
-                  iconRight: false,
                   buttonname: "Confirm",
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   selectIconLeft: <Icon.QodeIcons />,

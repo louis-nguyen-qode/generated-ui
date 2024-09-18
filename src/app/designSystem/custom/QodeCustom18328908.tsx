@@ -3,8 +3,10 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeInput } from "@designSystem/ant/QodeInput"
+import { QodeCustom1829242 } from "@designSystem/custom/QodeCustom1829242"
 import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom1829265 } from "@designSystem/custom/QodeCustom1829265"
+import { QodeCustom1829277 } from "@designSystem/custom/QodeCustom1829277"
 
 export interface QodeCustom18328908Props {
   title?: string
@@ -42,7 +44,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:28910" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829242
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -57,8 +59,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "default",
               }}
@@ -114,9 +114,7 @@ export const QodeCustom18328908: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
               }}
               {...{
-                iconLeft: false,
                 buttonname: "Button",
-                iconRight: false,
                 type: "default",
                 size: "default",
                 state: "default",
@@ -147,7 +145,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:28915" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829265
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -162,8 +160,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "large",
               }}
@@ -218,9 +214,7 @@ export const QodeCustom18328908: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
               }}
               {...{
-                iconLeft: false,
                 buttonname: "Button",
-                iconRight: false,
                 type: "default",
                 size: "large",
                 state: "default",
@@ -251,7 +245,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:28920" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829277
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -266,8 +260,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "small",
               }}
@@ -325,9 +317,7 @@ export const QodeCustom18328908: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
               }}
               {...{
-                iconLeft: false,
                 buttonname: "Button",
-                iconRight: false,
                 type: "default",
                 size: "small",
                 state: "default",
@@ -356,7 +346,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:28991" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829242
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -371,8 +361,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "default",
               }}
@@ -428,9 +416,7 @@ export const QodeCustom18328908: React.FC<
                 background: "var(--background-bg-primary, #1597f4)",
               }}
               {...{
-                iconLeft: false,
                 buttonname: "Button",
-                iconRight: false,
                 type: "primary",
                 size: "default",
                 state: "default",
@@ -461,7 +447,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:28997" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829265
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -476,8 +462,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "large",
               }}
@@ -532,9 +516,7 @@ export const QodeCustom18328908: React.FC<
                 background: "var(--background-bg-primary, #1597f4)",
               }}
               {...{
-                iconLeft: false,
                 buttonname: "Button",
-                iconRight: false,
                 type: "primary",
                 size: "large",
                 state: "default",
@@ -565,7 +547,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:29003" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829277
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -580,8 +562,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "small",
               }}
@@ -639,9 +619,7 @@ export const QodeCustom18328908: React.FC<
                 background: "var(--background-bg-primary, #1597f4)",
               }}
               {...{
-                iconLeft: false,
                 buttonname: "Button",
-                iconRight: false,
                 type: "primary",
                 size: "small",
                 state: "default",
@@ -670,7 +648,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:29033" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829242
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -685,8 +663,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "default",
               }}
@@ -742,8 +718,6 @@ export const QodeCustom18328908: React.FC<
                 background: "var(--background-bg-primary, #1597f4)",
               }}
               {...{
-                iconLeft: false,
-                iconRight: false,
                 buttonname: "Button",
                 type: "primary",
                 size: "default",
@@ -775,7 +749,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:29039" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829265
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -790,8 +764,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "large",
               }}
@@ -847,8 +819,6 @@ export const QodeCustom18328908: React.FC<
               }}
               {...{
                 buttonname: "Button",
-                iconRight: false,
-                iconLeft: false,
                 type: "primary",
                 size: "large",
                 state: "default",
@@ -879,7 +849,7 @@ export const QodeCustom18328908: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:29045" type="INSTANCE" */}
-            <QodeInput
+            <QodeCustom1829277
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -894,8 +864,6 @@ export const QodeCustom18328908: React.FC<
               {...{
                 showTitle: true,
                 title: "http://",
-                showSelect: false,
-                showIcon: false,
                 tab: "pre",
                 size: "small",
               }}
@@ -951,8 +919,6 @@ export const QodeCustom18328908: React.FC<
                 background: "var(--background-bg-primary, #1597f4)",
               }}
               {...{
-                iconRight: false,
-                iconLeft: false,
                 buttonname: "Button",
                 type: "primary",
                 size: "small",

@@ -75,7 +75,7 @@ export const QodeCustom244922: React.FC<
               }}
             >
               {/* name="avatar" id="24:4927" type="INSTANCE" */}
-              <Flex
+              <div
                 style={{
                   display: "flex",
                   width: "24px",
@@ -91,76 +91,13 @@ export const QodeCustom244922: React.FC<
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I24:4927;2785:8296" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "12px",
-                    height: "12px",
-                    padding: "1.2px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "6px",
-                    top: "6px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I24:4927;2785:8297" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "24px",
-                    height: "24px",
-                    padding: "var(--size-padding-paddingxs, 8px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8px",
-                    position: "absolute",
-                    borderRadius: "var(--style-radius-borderradius, 8px)",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / contain no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I24:4927;2785:8297 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I24:4927;2820:1281" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "var(--size-size-sizexxs-6px, 6px)",
-                    height: "var(--size-size-sizexxs-6px, 6px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1px",
-                    bottom: "1px",
-                    borderRadius: "var(--style-radius-borderradiuslg, 8px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I24:4927;2820:1281 type=INSTANCE */}
-                  <></>
-                </Flex>
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Square",
+                  state: "Default",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -240,7 +177,7 @@ export const QodeCustom244922: React.FC<
               }}
             >
               {/* name="avatar" id="24:4934" type="INSTANCE" */}
-              <Flex
+              <div
                 style={{
                   display: "flex",
                   width: "24px",
@@ -256,76 +193,13 @@ export const QodeCustom244922: React.FC<
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I24:4934;2785:8296" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "12px",
-                    height: "12px",
-                    padding: "1.2px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "6px",
-                    top: "6px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I24:4934;2785:8297" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "24px",
-                    height: "24px",
-                    padding: "var(--size-padding-paddingxs, 8px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8px",
-                    position: "absolute",
-                    borderRadius: "var(--style-radius-borderradius, 8px)",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / contain no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I24:4934;2785:8297 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I24:4934;2820:1281" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "var(--size-size-sizexxs-6px, 6px)",
-                    height: "var(--size-size-sizexxs-6px, 6px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1px",
-                    bottom: "1px",
-                    borderRadius: "var(--style-radius-borderradiuslg, 8px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I24:4934;2820:1281 type=INSTANCE */}
-                  <></>
-                </Flex>
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Square",
+                  state: "Default",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",

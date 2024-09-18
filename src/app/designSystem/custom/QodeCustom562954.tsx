@@ -3,13 +3,11 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg562957 from "@designSystem/icon/svg/QodeSvg562957"
+import { QodeCustom562924 } from "@designSystem/custom/QodeCustom562924"
+import { QodeCustom562939 } from "@designSystem/custom/QodeCustom562939"
 import QodeSvg562960 from "@designSystem/icon/svg/QodeSvg562960"
-import QodeSvg562965 from "@designSystem/icon/svg/QodeSvg562965"
 import QodeSvg562969 from "@designSystem/icon/svg/QodeSvg562969"
-import QodeSvg562971 from "@designSystem/icon/svg/QodeSvg562971"
 import QodeSvg562974 from "@designSystem/icon/svg/QodeSvg562974"
-import QodeSvg562980 from "@designSystem/icon/svg/QodeSvg562980"
 
 export interface QodeCustom562954Props {
   opentowork?: boolean
@@ -68,7 +66,7 @@ export const QodeCustom562954: React.FC<
               }}
             >{`AW`}</span>
             {/* name="user-large" id="5629:57" type="INSTANCE" */}
-            <QodeSvg562957
+            <QodeCustom562924
               style={{
                 width: "16px",
                 height: "16px",
@@ -98,7 +96,7 @@ export const QodeCustom562954: React.FC<
               <></>
             </div>
             {/* name="Badge" id="5629:59" type="INSTANCE" */}
-            <Flex
+            <QodeCustom562939
               style={{
                 display: "flex",
                 width: "6px",
@@ -113,10 +111,8 @@ export const QodeCustom562954: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
                 background: "var(--color-error-colorerror, #ff6542)",
               }}
-            >
-              {/* name="Badge" id=5629:59 type=INSTANCE */}
-              <></>
-            </Flex>
+              {...{ count: "21", type: "dot" }}
+            />
             {/* name="opentoWork" id="5629:60" type="FRAME" */}
             <QodeSvg562960
               style={{
@@ -162,7 +158,7 @@ export const QodeCustom562954: React.FC<
               }}
             >{`AW`}</span>
             {/* name="user-large" id="5629:65" type="INSTANCE" */}
-            <QodeSvg562965
+            <QodeCustom562924
               style={{
                 width: "16px",
                 height: "16px",
@@ -192,7 +188,7 @@ export const QodeCustom562954: React.FC<
               <></>
             </div>
             {/* name="Badge" id="5629:67" type="INSTANCE" */}
-            <Flex
+            <QodeCustom562939
               style={{
                 display: "flex",
                 width: "6px",
@@ -207,10 +203,8 @@ export const QodeCustom562954: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
                 background: "var(--color-error-colorerror, #ff6542)",
               }}
-            >
-              {/* name="Badge" id=5629:67 type=INSTANCE */}
-              <></>
-            </Flex>
+              {...{ count: "21", type: "dot" }}
+            />
           </div>
         </>
       )}
@@ -259,7 +253,7 @@ export const QodeCustom562954: React.FC<
               }}
             >{`AW`}</span>
             {/* name="user-large" id="5629:71" type="INSTANCE" */}
-            <QodeSvg562971
+            <QodeCustom562924
               style={{
                 width: "16px",
                 height: "16px",
@@ -289,7 +283,7 @@ export const QodeCustom562954: React.FC<
               <></>
             </div>
             {/* name="Badge" id="5629:73" type="INSTANCE" */}
-            <Flex
+            <QodeCustom562939
               style={{
                 display: "flex",
                 width: "6px",
@@ -304,10 +298,8 @@ export const QodeCustom562954: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
                 background: "var(--color-error-colorerror, #ff6542)",
               }}
-            >
-              {/* name="Badge" id=5629:73 type=INSTANCE */}
-              <></>
-            </Flex>
+              {...{ count: "21", type: "dot" }}
+            />
             {/* name="opentoWork" id="5629:74" type="FRAME" */}
             <QodeSvg562974
               style={{
@@ -369,7 +361,7 @@ export const QodeCustom562954: React.FC<
               }}
             >{`AW`}</span>
             {/* name="user-large" id="5629:80" type="INSTANCE" */}
-            <QodeSvg562980
+            <QodeCustom562924
               style={{
                 width: "16px",
                 height: "16px",
@@ -399,7 +391,7 @@ export const QodeCustom562954: React.FC<
               <></>
             </div>
             {/* name="Badge" id="5629:82" type="INSTANCE" */}
-            <Flex
+            <QodeCustom562939
               style={{
                 display: "flex",
                 width: "6px",
@@ -414,10 +406,8 @@ export const QodeCustom562954: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
                 background: "var(--color-error-colorerror, #ff6542)",
               }}
-            >
-              {/* name="Badge" id=5629:82 type=INSTANCE */}
-              <></>
-            </Flex>
+              {...{ count: "21", type: "dot" }}
+            />
           </div>
         </>
       )}

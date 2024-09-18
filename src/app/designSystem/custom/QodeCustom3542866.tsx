@@ -3,8 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg3542862 from "@designSystem/icon/svg/QodeSvg3542862"
-import QodeSvg3542868 from "@designSystem/icon/svg/QodeSvg3542868"
+import { QodeCustom11437490 } from "@designSystem/custom/QodeCustom11437490"
 
 export interface QodeCustom3542866Props {
   icon?: React.ReactNode
@@ -33,7 +32,10 @@ export const QodeCustom3542866: React.FC<
             }}
           >
             {/* name="🎰 icon" id="354:2862" type="INSTANCE" */}
-            <QodeSvg3542862 style={{ width: "24px", height: "24px" }} {...{}} />
+            <QodeCustom11437490
+              style={{ width: "24px", height: "24px" }}
+              {...{}}
+            />
           </div>
         </>
       )}
@@ -53,7 +55,10 @@ export const QodeCustom3542866: React.FC<
             }}
           >
             {/* name="🎰 icon" id="354:2868" type="INSTANCE" */}
-            <QodeSvg3542868 style={{ width: "24px", height: "24px" }} {...{}} />
+            <QodeCustom11437490
+              style={{ width: "24px", height: "24px" }}
+              {...{}}
+            />
           </div>
         </>
       )}

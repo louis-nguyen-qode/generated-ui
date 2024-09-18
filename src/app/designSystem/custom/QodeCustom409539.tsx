@@ -3,9 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI409542562960 from "@designSystem/icon/svg/QodeSvgI409542562960"
-import QodeSvgI7111142562960 from "@designSystem/icon/svg/QodeSvgI7111142562960"
-import QodeSvgI409555562960 from "@designSystem/icon/svg/QodeSvgI409555562960"
+import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
 
 export interface QodeCustom409539Props {
   visisted?: boolean
@@ -45,7 +43,7 @@ export const QodeCustom409539: React.FC<
               }}
             >
               {/* name="avatar" id="40:9542" type="INSTANCE" */}
-              <Flex
+              <QodeCustom562954
                 style={{
                   display: "flex",
                   width: "36px",
@@ -57,85 +55,13 @@ export const QodeCustom409539: React.FC<
                   borderRadius: "499.5px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I40:9542;5629:57" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "18px",
-                    height: "18px",
-                    padding: "1.8px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "9px",
-                    top: "9px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I40:9542;5629:58" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "36px",
-                    height: "36px",
-                    padding: "var(--size-padding-paddingxs, 9px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "9px",
-                    position: "absolute",
-                    borderRadius: "499.5px",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I40:9542;5629:58 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I40:9542;5629:59" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "6.75px",
-                    height: "6.75px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1.125px",
-                    bottom: "1.125px",
-                    borderRadius: "4px",
-                    border:
-                      "1.125px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I40:9542;5629:59 type=INSTANCE */}
-                  <></>
-                </Flex>
-                {/* name="opentoWork" id="I40:9542;5629:60" type="FRAME" */}
-                <QodeSvgI409542562960
-                  style={{
-                    width: "36px",
-                    height: "36px",
-                    position: "absolute",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Round",
+                  state: "Default",
+                }}
+              />
               {/* name="Content" id="40:9582" type="FRAME" */}
               <div
                 style={{
@@ -277,7 +203,7 @@ export const QodeCustom409539: React.FC<
               }}
             >
               {/* name="avatar" id="71:11142" type="INSTANCE" */}
-              <Flex
+              <QodeCustom562954
                 style={{
                   display: "flex",
                   width: "36px",
@@ -289,85 +215,13 @@ export const QodeCustom409539: React.FC<
                   borderRadius: "499.5px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I71:11142;5629:57" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "18px",
-                    height: "18px",
-                    padding: "1.8px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "9px",
-                    top: "9px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I71:11142;5629:58" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "36px",
-                    height: "36px",
-                    padding: "var(--size-padding-paddingxs, 9px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "9px",
-                    position: "absolute",
-                    borderRadius: "499.5px",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I71:11142;5629:58 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I71:11142;5629:59" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "6.75px",
-                    height: "6.75px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1.125px",
-                    bottom: "1.125px",
-                    borderRadius: "4px",
-                    border:
-                      "1.125px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I71:11142;5629:59 type=INSTANCE */}
-                  <></>
-                </Flex>
-                {/* name="opentoWork" id="I71:11142;5629:60" type="FRAME" */}
-                <QodeSvgI7111142562960
-                  style={{
-                    width: "36px",
-                    height: "36px",
-                    position: "absolute",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Round",
+                  state: "Default",
+                }}
+              />
               {/* name="Content" id="71:11143" type="FRAME" */}
               <div
                 style={{
@@ -509,7 +363,7 @@ export const QodeCustom409539: React.FC<
               }}
             >
               {/* name="avatar" id="40:9555" type="INSTANCE" */}
-              <Flex
+              <QodeCustom562954
                 style={{
                   display: "flex",
                   width: "36px",
@@ -521,85 +375,13 @@ export const QodeCustom409539: React.FC<
                   borderRadius: "499.5px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I40:9555;5629:57" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "18px",
-                    height: "18px",
-                    padding: "1.8px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "9px",
-                    top: "9px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I40:9555;5629:58" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "36px",
-                    height: "36px",
-                    padding: "var(--size-padding-paddingxs, 9px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "9px",
-                    position: "absolute",
-                    borderRadius: "499.5px",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I40:9555;5629:58 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I40:9555;5629:59" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "6.75px",
-                    height: "6.75px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1.125px",
-                    bottom: "1.125px",
-                    borderRadius: "4px",
-                    border:
-                      "1.125px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I40:9555;5629:59 type=INSTANCE */}
-                  <></>
-                </Flex>
-                {/* name="opentoWork" id="I40:9555;5629:60" type="FRAME" */}
-                <QodeSvgI409555562960
-                  style={{
-                    width: "36px",
-                    height: "36px",
-                    position: "absolute",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Round",
+                  state: "Default",
+                }}
+              />
               {/* name="Frame 37215" id="40:9556" type="FRAME" */}
               <div
                 style={{

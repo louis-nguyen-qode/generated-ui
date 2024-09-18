@@ -3,20 +3,22 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom475443 } from "@designSystem/custom/QodeCustom475443"
+
 export interface QodeCustom40520246Props {
   urgent?: boolean
   state?: "default" | "hovered"
-  style?: "2"
+  _style?: "2"
 }
 
 export const QodeCustom40520246: React.FC<
   QodeCustom40520246Props & { style?: CSSProperties }
-> = ({ urgent = false, state = "default", style = "2", ...rest }) => {
+> = ({ urgent = false, state = "default", _style = "2", ...rest }) => {
   return (
     <>
       {/* name="Job item 2" id="405:20246" type="COMPONENT_SET" */}
       {/* id="405:20268" */}
-      {`${state}` === `default` && `${style}` === `2` && (
+      {`${state}` === `default` && `${_style}` === `2` && (
         <>
           {/* name="State=default, Style=2" id="405:20268" type="COMPONENT" */}
           <div
@@ -202,7 +204,7 @@ export const QodeCustom40520246: React.FC<
                 style={{ display: "flex", alignItems: "center", gap: "12px" }}
               >
                 {/* name="Job/Quick access" id="405:24336" type="INSTANCE" */}
-                <Flex
+                <QodeCustom475443
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -210,26 +212,13 @@ export const QodeCustom40520246: React.FC<
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "99px",
                   }}
-                >
-                  {/* name="heart" id="I405:24336;47:5444" type="INSTANCE" */}
-                  <Icon.QodeHeart
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      textDecorationLine: "underline",
-                    }}
-                  >{`125 shortlisted`}</span>
-                </Flex>
+                  {...{
+                    text: "125 shortlisted",
+                    icon: <Icon.QodeHeart />,
+                    state: "Default",
+                    _style: "Text",
+                  }}
+                />
                 {/* name="divider" id="405:24337" type="LINE" */}
                 <Flex
                   style={{
@@ -242,7 +231,7 @@ export const QodeCustom40520246: React.FC<
                   <></>
                 </Flex>
                 {/* name="Job/Quick access" id="405:24338" type="INSTANCE" */}
-                <Flex
+                <QodeCustom475443
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -250,26 +239,13 @@ export const QodeCustom40520246: React.FC<
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "99px",
                   }}
-                >
-                  {/* name="video" id="I405:24338;47:5444" type="INSTANCE" */}
-                  <Icon.QodeVideo
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      textDecorationLine: "underline",
-                    }}
-                  >{`44 interviewed`}</span>
-                </Flex>
+                  {...{
+                    text: "44 interviewed",
+                    icon: <Icon.QodeVideo />,
+                    state: "Default",
+                    _style: "Text",
+                  }}
+                />
               </div>
               <span
                 style={{
@@ -289,7 +265,7 @@ export const QodeCustom40520246: React.FC<
         </>
       )}
       {/* id="405:20289" */}
-      {`${state}` === `hovered` && `${style}` === `2` && (
+      {`${state}` === `hovered` && `${_style}` === `2` && (
         <>
           {/* name="State=hovered, Style=2" id="405:20289" type="COMPONENT" */}
           <div
@@ -476,7 +452,7 @@ export const QodeCustom40520246: React.FC<
                 style={{ display: "flex", alignItems: "center", gap: "12px" }}
               >
                 {/* name="Job/Quick access" id="405:24675" type="INSTANCE" */}
-                <Flex
+                <QodeCustom475443
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -484,26 +460,13 @@ export const QodeCustom40520246: React.FC<
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "99px",
                   }}
-                >
-                  {/* name="heart" id="I405:24675;47:5444" type="INSTANCE" */}
-                  <Icon.QodeHeart
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      textDecorationLine: "underline",
-                    }}
-                  >{`125 shortlisted`}</span>
-                </Flex>
+                  {...{
+                    text: "125 shortlisted",
+                    icon: <Icon.QodeHeart />,
+                    state: "Default",
+                    _style: "Text",
+                  }}
+                />
                 {/* name="divider" id="405:24676" type="LINE" */}
                 <Flex
                   style={{
@@ -516,7 +479,7 @@ export const QodeCustom40520246: React.FC<
                   <></>
                 </Flex>
                 {/* name="Job/Quick access" id="405:24677" type="INSTANCE" */}
-                <Flex
+                <QodeCustom475443
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -524,26 +487,13 @@ export const QodeCustom40520246: React.FC<
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "99px",
                   }}
-                >
-                  {/* name="video" id="I405:24677;47:5444" type="INSTANCE" */}
-                  <Icon.QodeVideo
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      textDecorationLine: "underline",
-                    }}
-                  >{`44 interviewed`}</span>
-                </Flex>
+                  {...{
+                    text: "44 interviewed",
+                    icon: <Icon.QodeVideo />,
+                    state: "Default",
+                    _style: "Text",
+                  }}
+                />
               </div>
               <span
                 style={{

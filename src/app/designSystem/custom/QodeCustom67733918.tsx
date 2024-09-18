@@ -3,9 +3,11 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI6773374466431806 from "@designSystem/icon/svg/QodeSvgI6773374466431806"
+import { QodeCustom66431666 } from "@designSystem/custom/QodeCustom66431666"
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import QodeSvgI6773402167733736 from "@designSystem/icon/svg/QodeSvgI6773402167733736"
+import { QodeCustom67733618 } from "@designSystem/custom/QodeCustom67733618"
+import { QodeCustom66431667 } from "@designSystem/custom/QodeCustom66431667"
+import { QodeCustom67733735 } from "@designSystem/custom/QodeCustom67733735"
 
 export interface QodeCustom67733918Props {
   property_1?: "Upcoming" | "Canceled" | "Finished"
@@ -84,7 +86,7 @@ export const QodeCustom67733918: React.FC<
               </div>
             </div>
             {/* name="Interview/List item" id="677:33744" type="INSTANCE" */}
-            <Flex
+            <QodeCustom66431666
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -92,24 +94,8 @@ export const QodeCustom67733918: React.FC<
                 gap: "4px",
                 alignSelf: "stretch",
               }}
-            >
-              {/* name="circle" id="I677:33744;664:31806" type="FRAME" */}
-              <QodeSvgI6773374466431806
-                style={{ width: "12px", height: "12px" }}
-                {...{}}
-              />
-              {/* name="Line 37" id="I677:33744;664:31659" type="LINE" */}
-              <Flex
-                style={{
-                  width: "1px",
-                  height: "40px",
-                  background: "var(--border-border-neutral-30, #d5d5d5)",
-                }}
-              >
-                {/* name="Line 37" id=I677:33744;664:31659 type=LINE */}
-                <></>
-              </Flex>
-            </Flex>
+              {...{ property_1: "2" }}
+            />
             {/* name="r" id="677:33745" type="FRAME" */}
             <div
               style={{
@@ -154,10 +140,8 @@ export const QodeCustom67733918: React.FC<
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
                     buttonname: "See More",
-                    iconRight: false,
                     selectIconLeft: <Icon.QodeIcons />,
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    iconLeft: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -213,7 +197,6 @@ export const QodeCustom67733918: React.FC<
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Copy link",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "default",
@@ -225,7 +208,7 @@ export const QodeCustom67733918: React.FC<
               />
             </div>
             {/* name="Interview/Badge" id="677:33861" type="INSTANCE" */}
-            <Flex
+            <QodeCustom67733618
               style={{
                 display: "flex",
                 width: "32px",
@@ -241,13 +224,8 @@ export const QodeCustom67733918: React.FC<
                 background:
                   "linear-gradient(163deg, #B8E1FF 0.63%, #CDF6FF 76.87%)",
               }}
-            >
-              {/* name="stars" id="I677:33861;677:33619" type="INSTANCE" */}
-              <Icon.QodeStars
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-            </Flex>
+              {...{ property_1: "AI" }}
+            />
           </div>
         </>
       )}
@@ -318,7 +296,7 @@ export const QodeCustom67733918: React.FC<
               </div>
             </div>
             {/* name="Interview/List item" id="677:33769" type="INSTANCE" */}
-            <Flex
+            <QodeCustom66431667
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -326,24 +304,8 @@ export const QodeCustom67733918: React.FC<
                 gap: "4px",
                 alignSelf: "stretch",
               }}
-            >
-              {/* name="circle-check" id="I677:33769;664:31653" type="INSTANCE" */}
-              <Icon.QodeCircleCheck
-                style={{ width: "12px", height: "12px" }}
-                {...{}}
-              />
-              {/* name="Line 37" id="I677:33769;664:31654" type="LINE" */}
-              <Flex
-                style={{
-                  width: "1px",
-                  height: "40px",
-                  background: "var(--border-border-neutral-30, #d5d5d5)",
-                }}
-              >
-                {/* name="Line 37" id=I677:33769;664:31654 type=LINE */}
-                <></>
-              </Flex>
-            </Flex>
+              {...{ property_1: "1" }}
+            />
             {/* name="r" id="677:33770" type="FRAME" */}
             <div
               style={{
@@ -388,10 +350,8 @@ export const QodeCustom67733918: React.FC<
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
                     buttonname: "See More",
-                    iconRight: false,
                     selectIconLeft: <Icon.QodeIcons />,
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    iconLeft: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -446,7 +406,6 @@ export const QodeCustom67733918: React.FC<
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "View result",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "default",
@@ -458,7 +417,7 @@ export const QodeCustom67733918: React.FC<
               />
             </div>
             {/* name="Interview/Badge" id="745:36006" type="INSTANCE" */}
-            <Flex
+            <QodeCustom67733618
               style={{
                 display: "flex",
                 width: "32px",
@@ -474,13 +433,8 @@ export const QodeCustom67733918: React.FC<
                 background:
                   "linear-gradient(163deg, #B8E1FF 0.63%, #CDF6FF 76.87%)",
               }}
-            >
-              {/* name="stars" id="I745:36006;677:33619" type="INSTANCE" */}
-              <Icon.QodeStars
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-            </Flex>
+              {...{ property_1: "AI" }}
+            />
           </div>
         </>
       )}
@@ -551,7 +505,7 @@ export const QodeCustom67733918: React.FC<
               </div>
             </div>
             {/* name="Interview/List item" id="677:34021" type="INSTANCE" */}
-            <Flex
+            <QodeCustom67733735
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -559,24 +513,8 @@ export const QodeCustom67733918: React.FC<
                 gap: "4px",
                 alignSelf: "stretch",
               }}
-            >
-              {/* name="circle" id="I677:34021;677:33736" type="FRAME" */}
-              <QodeSvgI6773402167733736
-                style={{ width: "12px", height: "12px" }}
-                {...{}}
-              />
-              {/* name="Line 37" id="I677:34021;677:33738" type="LINE" */}
-              <Flex
-                style={{
-                  width: "1px",
-                  height: "40px",
-                  background: "var(--border-border-neutral-30, #d5d5d5)",
-                }}
-              >
-                {/* name="Line 37" id=I677:34021;677:33738 type=LINE */}
-                <></>
-              </Flex>
-            </Flex>
+              {...{ property_1: "Variant3" }}
+            />
             {/* name="r" id="677:33821" type="FRAME" */}
             <div
               style={{
@@ -621,10 +559,8 @@ export const QodeCustom67733918: React.FC<
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
                     buttonname: "See More",
-                    iconRight: false,
                     selectIconLeft: <Icon.QodeIcons />,
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    iconLeft: false,
                     type: "text",
                     size: "small",
                     state: "default",

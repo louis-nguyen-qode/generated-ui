@@ -3,8 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg565626418 from "@designSystem/icon/svg/QodeSvg565626418"
-import QodeSvg565626436 from "@designSystem/icon/svg/QodeSvg565626436"
+import { QodeCustom34322522 } from "@designSystem/custom/QodeCustom34322522"
+import { QodeCustom34322597 } from "@designSystem/custom/QodeCustom34322597"
 
 export interface QodeCustom565626441Props {
   size?: "md" | "lg"
@@ -50,7 +50,7 @@ export const QodeCustom565626441: React.FC<
               }}
             >
               {/* name="icons" id="5656:26414" type="INSTANCE" */}
-              <Flex
+              <QodeCustom34322522
                 style={{
                   display: "flex",
                   padding: "1.5px 1.498px 1.5px 1.5px",
@@ -59,19 +59,8 @@ export const QodeCustom565626441: React.FC<
                   flex: "1 0 0",
                   alignSelf: "stretch",
                 }}
-              >
-                {/* name="Vector" id="I5656:26414;630:10668" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "15.002px",
-                    height: "15px",
-                    fill: "var(--color-primary-colorprimarytext, #2d64bc)",
-                  }}
-                >
-                  {/* name="Vector" id=I5656:26414;630:10668 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
+                {...{}}
+              />
             </div>
             {/* name="content" id="5656:26415" type="FRAME" */}
             <div
@@ -110,7 +99,7 @@ export const QodeCustom565626441: React.FC<
               >{`Accessibility`}</span>
             </div>
             {/* name="xmark" id="5656:26418" type="INSTANCE" */}
-            <QodeSvg565626418
+            <QodeCustom34322597
               style={{ width: "24px", height: "24px", flexShrink: "0" }}
               {...{}}
             />
@@ -151,7 +140,7 @@ export const QodeCustom565626441: React.FC<
               }}
             >
               {/* name="icons" id="5656:26432" type="INSTANCE" */}
-              <Flex
+              <QodeCustom34322522
                 style={{
                   display: "flex",
                   padding: "1.5px 1.498px 1.5px 1.5px",
@@ -160,19 +149,8 @@ export const QodeCustom565626441: React.FC<
                   flex: "1 0 0",
                   alignSelf: "stretch",
                 }}
-              >
-                {/* name="Vector" id="I5656:26432;630:10668" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "15.002px",
-                    height: "15px",
-                    fill: "var(--color-primary-colorprimarytext, #2d64bc)",
-                  }}
-                >
-                  {/* name="Vector" id=I5656:26432;630:10668 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
+                {...{}}
+              />
             </div>
             {/* name="content" id="5656:26433" type="FRAME" */}
             <div
@@ -211,7 +189,7 @@ export const QodeCustom565626441: React.FC<
               >{`Accessibility`}</span>
             </div>
             {/* name="xmark" id="5656:26436" type="INSTANCE" */}
-            <QodeSvg565626436
+            <QodeCustom34322597
               style={{ width: "24px", height: "24px", flexShrink: "0" }}
               {...{}}
             />

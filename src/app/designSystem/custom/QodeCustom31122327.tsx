@@ -142,7 +142,6 @@ export const QodeCustom31122327: React.FC<
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "View result",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "default",
@@ -284,7 +283,6 @@ export const QodeCustom31122327: React.FC<
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "View result",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "default",
@@ -415,7 +413,6 @@ export const QodeCustom31122327: React.FC<
                 }}
                 {...{
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  iconRight: false,
                   selectIconLeft: <Icon.QodePenToSquare />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Edit",

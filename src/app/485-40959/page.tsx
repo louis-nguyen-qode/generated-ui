@@ -3,15 +3,14 @@ import React from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom61606 } from "@designSystem/custom/QodeCustom61606"
-import { QodeCustom433 } from "@designSystem/custom/QodeCustom433"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom13120 } from "@designSystem/custom/QodeCustom13120"
 import { QodeCustom1136232 } from "@designSystem/custom/QodeCustom1136232"
 import { QodeCustom945729 } from "@designSystem/custom/QodeCustom945729"
 import { QodeCustom4325081 } from "@designSystem/custom/QodeCustom4325081"
 import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
 import { QodeCustom39131654 } from "@designSystem/custom/QodeCustom39131654"
 import { QodeCustom773601 } from "@designSystem/custom/QodeCustom773601"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 import { QodeTag } from "@designSystem/ant/QodeTag"
 
 export interface Qode48540959PageProps {}
@@ -34,7 +33,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
           }}
         >
           {/* name="Navbar" id="440:40673" type="INSTANCE" */}
-          <Flex
+          <QodeCustom13120
             style={{
               display: "flex",
               width: "84px",
@@ -46,187 +45,8 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                 "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--background-bg-white, #fff)",
             }}
-          >
-            {/* name="Logo" id="I440:40673;1:3092" type="FRAME" */}
-            <div
-              style={{
-                display: "flex",
-                padding: "16px 0px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "4px",
-                alignSelf: "stretch",
-                borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              }}
-            >
-              {/* name="logo" id="I440:40673;635:31404" type="INSTANCE" */}
-              <QodeCustom61606
-                style={{ width: "40px", height: "40px" }}
-                {...{
-                  type: "Default",
-                  darkmode: "yes",
-                  orientation: "landscape",
-                  wordmark: "no",
-                }}
-              />
-            </div>
-            {/* name="V-Menu" id="I440:40673;1:3094" type="FRAME" */}
-            <div
-              style={{
-                display: "flex",
-                padding: "16px 8px",
-                flexDirection: "column",
-                alignItems: "center",
-                gap: "16px",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-              }}
-            >
-              {/* name="Navbar/Menu" id="I440:40673;4:124" type="INSTANCE" */}
-              <QodeCustom433
-                style={{
-                  display: "flex",
-                  width: "84px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-size-sizexxs-6px, 6px)",
-                }}
-                {...{ icon: <Icon.QodeCube />, state: "Default" }}
-              />
-              {/* name="Navbar/Menu" id="I440:40673;16:5813" type="INSTANCE" */}
-              <QodeCustom433
-                style={{
-                  display: "flex",
-                  width: "84px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-size-sizexxs-6px, 6px)",
-                }}
-                {...{ icon: <Icon.QodeBriefcase />, state: "Active" }}
-              />
-              {/* name="Navbar/Menu" id="I440:40673;4:54" type="INSTANCE" */}
-              <QodeCustom433
-                style={{
-                  display: "flex",
-                  width: "84px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-size-sizexxs-6px, 6px)",
-                }}
-                {...{ icon: <Icon.QodeUserGroup />, state: "Default" }}
-              />
-              {/* name="Navbar/Menu" id="I440:40673;4:95" type="INSTANCE" */}
-              <QodeCustom433
-                style={{
-                  display: "flex",
-                  width: "84px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-size-sizexxs-6px, 6px)",
-                }}
-                {...{ icon: <Icon.QodeVideo />, state: "Default" }}
-              />
-            </div>
-            {/* name="Btm" id="I440:40673;1:3098" type="FRAME" */}
-            <div
-              style={{
-                display: "flex",
-                padding: "16px 0px",
-                flexDirection: "column",
-                alignItems: "center",
-                gap: "8px",
-              }}
-            >
-              {/* name="Profile" id="I440:40673;1:3099" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "flex-end",
-                  gap: "var(--font-size-large, 16px)",
-                  alignSelf: "stretch",
-                }}
-              >
-                {/* name="Button" id="I440:40673;1:3099;5007:11919" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheightlg, 40px)",
-                    padding:
-                      "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingsm, 12px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxs, 8px)",
-                    borderRadius: "var(--style-radius-borderround, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-gold-purple-colorgoldpurpleborder, #efdbff)",
-                    background:
-                      "var(--color-gold-purple-colorgoldpurplebg, #f9f0ff)",
-                  }}
-                  {...{
-                    icononly: "630:15277",
-                    iconR: <Icon.QodeMagnifyingGlass />,
-                    title: "Button",
-                    iconL: false,
-                    type: "default",
-                    size: "large",
-                    state: "default",
-                    content: "icon",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-              </Flex>
-              {/* name="Profile" id="I440:40673;1:3100" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "flex-end",
-                  gap: "var(--font-size-large, 16px)",
-                  alignSelf: "stretch",
-                }}
-              >
-                {/* name="Button" id="I440:40673;1:3100;5007:11919" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheightlg, 40px)",
-                    padding:
-                      "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingsm, 12px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxs, 8px)",
-                    borderRadius: "var(--style-radius-borderround, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                    background:
-                      "var(--color-neutral-background-colorbgcontainer, #fff)",
-                  }}
-                  {...{
-                    icononly: <Icon.QodeUser />,
-                    iconR: <Icon.QodeMagnifyingGlass />,
-                    title: "Button",
-                    iconL: false,
-                    type: "default",
-                    size: "large",
-                    state: "default",
-                    content: "icon",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-              </Flex>
-            </div>
-          </Flex>
+            {...{}}
+          />
           {/* name="b" id="440:40674" type="FRAME" */}
           <div
             style={{
@@ -253,7 +73,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                 borderRadius:
                   "0px 0px var(--border-radius-large, 12px) var(--border-radius-large, 12px)",
               }}
-              {...{ showRight: false, property_1: "Default" }}
+              {...{ property_1: "Default" }}
             />
             {/* name="Body" id="440:40676" type="FRAME" */}
             <div
@@ -354,14 +174,11 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
-                  gap: "var(--font-size-large, 24px)",
+                  gap: "var(--font-size-large, 16px)",
                   borderRadius: "666px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
                 {...{
-                  badge: false,
-                  initials: false,
-                  icon: false,
                   opentowork: true,
                   img: true,
                   type: "Round",
@@ -482,14 +299,11 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
-                  gap: "var(--font-size-large, 24px)",
+                  gap: "var(--font-size-large, 16px)",
                   borderRadius: "666px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
                 {...{
-                  badge: false,
-                  initials: false,
-                  icon: false,
                   opentowork: true,
                   img: true,
                   type: "Round",
@@ -547,11 +361,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-30, #107ecc)",
                     background: "var(--background-bg-primary, #1597f4)",
                   }}
-                  {...{
-                    icon: <Icon.QodeLinkedin />,
-                    showIndicator: false,
-                    state: "Active",
-                  }}
+                  {...{ icon: <Icon.QodeLinkedin />, state: "Active" }}
                 />
                 {/* name="Contact type" id="440:41738" type="INSTANCE" */}
                 <QodeCustom773601
@@ -566,11 +376,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                  {...{
-                    icon: <Icon.QodeEnvelope />,
-                    showIndicator: false,
-                    state: "Default",
-                  }}
+                  {...{ icon: <Icon.QodeEnvelope />, state: "Default" }}
                 />
                 {/* name="Contact type" id="440:41739" type="INSTANCE" */}
                 <QodeCustom773601
@@ -585,11 +391,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                  {...{
-                    icon: <Icon.QodePhone />,
-                    showIndicator: false,
-                    state: "Default",
-                  }}
+                  {...{ icon: <Icon.QodePhone />, state: "Default" }}
                 />
               </div>
               {/* name="🎰 icon" id="440:41740" type="INSTANCE" */}
@@ -640,7 +442,6 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
               {...{
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
                 iconLeft: true,
-                iconRight: false,
                 buttonname: "View profile",
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 selectIconLeft: <Icon.QodeUpRightFromSquare />,
@@ -728,7 +529,6 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "How it works?",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "default",
@@ -756,7 +556,6 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
               }}
               {...{
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
-                iconRight: false,
                 selectIconLeft: <Icon.QodeVideoPlus />,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Setup interview",
@@ -820,14 +619,11 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
-                  gap: "var(--font-size-large, 24px)",
+                  gap: "var(--font-size-large, 16px)",
                   borderRadius: "666px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
                 {...{
-                  badge: false,
-                  initials: false,
-                  icon: false,
                   opentowork: true,
                   img: true,
                   type: "Round",
@@ -885,11 +681,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                  {...{
-                    icon: <Icon.QodeLinkedin />,
-                    showIndicator: false,
-                    state: "Default",
-                  }}
+                  {...{ icon: <Icon.QodeLinkedin />, state: "Default" }}
                 />
                 {/* name="Contact type" id="490:26232" type="INSTANCE" */}
                 <QodeCustom773601
@@ -904,11 +696,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                  {...{
-                    icon: <Icon.QodeEnvelope />,
-                    showIndicator: false,
-                    state: "Default",
-                  }}
+                  {...{ icon: <Icon.QodeEnvelope />, state: "Default" }}
                 />
                 {/* name="Contact type" id="490:26233" type="INSTANCE" */}
                 <QodeCustom773601
@@ -923,11 +711,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-30, #107ecc)",
                     background: "var(--background-bg-primary, #1597f4)",
                   }}
-                  {...{
-                    icon: <Icon.QodePhone />,
-                    showIndicator: false,
-                    state: "Active",
-                  }}
+                  {...{ icon: <Icon.QodePhone />, state: "Active" }}
                 />
               </div>
               {/* name="🎰 icon" id="490:26234" type="INSTANCE" */}
@@ -1116,7 +900,6 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "How it works?",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "default",
@@ -1144,7 +927,6 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
               }}
               {...{
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
-                iconRight: false,
                 selectIconLeft: <Icon.QodeVideoPlus />,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Setup interview",
@@ -1208,14 +990,11 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
-                  gap: "var(--font-size-large, 24px)",
+                  gap: "var(--font-size-large, 16px)",
                   borderRadius: "666px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
                 {...{
-                  badge: false,
-                  initials: false,
-                  icon: false,
                   opentowork: true,
                   img: true,
                   type: "Round",
@@ -1273,11 +1052,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                  {...{
-                    icon: <Icon.QodeLinkedin />,
-                    showIndicator: false,
-                    state: "Default",
-                  }}
+                  {...{ icon: <Icon.QodeLinkedin />, state: "Default" }}
                 />
                 {/* name="Contact type" id="440:41755" type="INSTANCE" */}
                 <QodeCustom773601
@@ -1292,11 +1067,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-30, #107ecc)",
                     background: "var(--background-bg-primary, #1597f4)",
                   }}
-                  {...{
-                    icon: <Icon.QodeEnvelope />,
-                    showIndicator: false,
-                    state: "Active",
-                  }}
+                  {...{ icon: <Icon.QodeEnvelope />, state: "Active" }}
                 />
                 {/* name="Contact type" id="440:41756" type="INSTANCE" */}
                 <QodeCustom773601
@@ -1311,11 +1082,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                  {...{
-                    icon: <Icon.QodePhone />,
-                    showIndicator: false,
-                    state: "Default",
-                  }}
+                  {...{ icon: <Icon.QodePhone />, state: "Default" }}
                 />
               </div>
               {/* name="🎰 icon" id="440:41757" type="INSTANCE" */}
@@ -1504,7 +1271,6 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "How it works?",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "default",
@@ -1532,7 +1298,6 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
               }}
               {...{
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
-                iconRight: false,
                 selectIconLeft: <Icon.QodeVideoPlus />,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Setup interview",

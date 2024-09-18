@@ -3,7 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCarousel } from "@designSystem/ant/QodeCarousel"
+import { QodeCustom1621778 } from "@designSystem/custom/QodeCustom1621778"
+import { QodeCustom1621857 } from "@designSystem/custom/QodeCustom1621857"
 
 export interface QodeCustom1622200Props {
   position?: "Bottom" | "Top" | "Left" | "Right"
@@ -42,7 +43,7 @@ export const QodeCustom1622200: React.FC<
               <></>
             </Flex>
             {/* name="🧬 dots" id="162:2189" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1621778
               style={{
                 display: "flex",
                 alignItems: "flex-start",
@@ -51,28 +52,8 @@ export const QodeCustom1622200: React.FC<
                 left: "352px",
                 bottom: "16px",
               }}
-            >
-              {/* name="🧬 dot 1" id="I162:2189;162:1779" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "24px", height: "3px" }}
-                {...{ state: "active" }}
-              />
-              {/* name="🧬 dot 2" id="I162:2189;162:1780" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-              {/* name="🧬 dot 3" id="I162:2189;162:1781" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-              {/* name="🧬 dot 4" id="I162:2189;162:1785" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-            </Flex>
+              {...{ direction: "horizontal", items: "4" }}
+            />
           </div>
         </>
       )}
@@ -103,7 +84,7 @@ export const QodeCustom1622200: React.FC<
               <></>
             </Flex>
             {/* name="🧬 dots" id="162:2214" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1621778
               style={{
                 display: "flex",
                 alignItems: "flex-start",
@@ -112,28 +93,8 @@ export const QodeCustom1622200: React.FC<
                 left: "352px",
                 top: "16px",
               }}
-            >
-              {/* name="🧬 dot 1" id="I162:2214;162:1779" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "24px", height: "3px" }}
-                {...{ state: "active" }}
-              />
-              {/* name="🧬 dot 2" id="I162:2214;162:1780" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-              {/* name="🧬 dot 3" id="I162:2214;162:1781" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-              {/* name="🧬 dot 4" id="I162:2214;162:1785" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-            </Flex>
+              {...{ direction: "horizontal", items: "4" }}
+            />
           </div>
         </>
       )}
@@ -164,7 +125,7 @@ export const QodeCustom1622200: React.FC<
               <></>
             </Flex>
             {/* name="🧬 dots" id="162:2225" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1621857
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -174,28 +135,8 @@ export const QodeCustom1622200: React.FC<
                 left: "16px",
                 top: "142px",
               }}
-            >
-              {/* name="🧬 dot 1" id="I162:2225;162:1858" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "24px", height: "3px" }}
-                {...{ state: "active" }}
-              />
-              {/* name="🧬 dot 2" id="I162:2225;162:1859" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-              {/* name="🧬 dot 3" id="I162:2225;162:1860" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-              {/* name="🧬 dot 4" id="I162:2225;162:1861" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-            </Flex>
+              {...{ direction: "vertical", items: "4" }}
+            />
           </div>
         </>
       )}
@@ -226,7 +167,7 @@ export const QodeCustom1622200: React.FC<
               <></>
             </Flex>
             {/* name="🧬 dots" id="162:2244" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1621857
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -236,28 +177,8 @@ export const QodeCustom1622200: React.FC<
                 right: "16px",
                 top: "142px",
               }}
-            >
-              {/* name="🧬 dot 1" id="I162:2244;162:1858" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "24px", height: "3px" }}
-                {...{ state: "active" }}
-              />
-              {/* name="🧬 dot 2" id="I162:2244;162:1859" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-              {/* name="🧬 dot 3" id="I162:2244;162:1860" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-              {/* name="🧬 dot 4" id="I162:2244;162:1861" type="INSTANCE" */}
-              <QodeCarousel
-                style={{ width: "16px", height: "3px", opacity: "0.3" }}
-                {...{ state: "default" }}
-              />
-            </Flex>
+              {...{ direction: "vertical", items: "4" }}
+            />
           </div>
         </>
       )}

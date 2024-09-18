@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom1377436 } from "@designSystem/custom/QodeCustom1377436"
+
 export interface QodeCustom18913247Props {
   lIcon?: boolean
   label?: string
@@ -62,7 +64,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30813" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -75,19 +77,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13242" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -132,7 +123,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30814" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -145,19 +136,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13255" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -202,7 +182,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30815" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -215,19 +195,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13259" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -272,7 +241,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30816" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -285,19 +254,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13263" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -342,7 +300,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30817" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -355,19 +313,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13267" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -419,7 +366,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30818" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -432,19 +379,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13271" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -496,7 +432,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30819" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -509,19 +445,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13274" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -578,7 +503,7 @@ export const QodeCustom18913247: React.FC<
               {...{}}
             />
             {/* name="Tag_Transparent" id="2759:30820" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -591,19 +516,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="Focus Ring" id="189:13289" type="RECTANGLE" */}
             <Flex
               style={{
@@ -662,7 +576,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30821" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -675,19 +589,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13280" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -740,7 +643,7 @@ export const QodeCustom18913247: React.FC<
               }}
             >{`Dropdown`}</span>
             {/* name="Tag_Transparent" id="2759:30822" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1377436
               style={{
                 display: "flex",
                 height: "24px",
@@ -753,19 +656,8 @@ export const QodeCustom18913247: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortextsolid, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`1`}</span>
-            </Flex>
+              {...{ title: "1", type: "default", border: true }}
+            />
             {/* name="icon" id="189:13283" type="INSTANCE" */}
             <Icon.QodeChevronDown
               style={{ width: "16px", height: "16px" }}
@@ -826,7 +718,7 @@ export const QodeCustom18913247: React.FC<
                 }}
               >{`Dropdown`}</span>
               {/* name="Tag_Transparent" id="2759:31138" type="INSTANCE" */}
-              <Flex
+              <QodeCustom1377436
                 style={{
                   display: "flex",
                   height: "24px",
@@ -839,19 +731,8 @@ export const QodeCustom18913247: React.FC<
                   background:
                     "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortextsolid, #fff)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`1`}</span>
-              </Flex>
+                {...{ title: "1", type: "default", border: true }}
+              />
             </div>
             {/* name="Icon Wrapper" id="189:13312" type="FRAME" */}
             <div
@@ -928,7 +809,7 @@ export const QodeCustom18913247: React.FC<
                 }}
               >{`Dropdown`}</span>
               {/* name="Tag_Transparent" id="2759:31139" type="INSTANCE" */}
-              <Flex
+              <QodeCustom1377436
                 style={{
                   display: "flex",
                   height: "24px",
@@ -941,19 +822,8 @@ export const QodeCustom18913247: React.FC<
                   background:
                     "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortextsolid, #fff)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`1`}</span>
-              </Flex>
+                {...{ title: "1", type: "default", border: true }}
+              />
             </div>
             {/* name="Icon Wrapper" id="189:13328" type="FRAME" */}
             <div
@@ -1030,7 +900,7 @@ export const QodeCustom18913247: React.FC<
                 }}
               >{`Dropdown`}</span>
               {/* name="Tag_Transparent" id="2759:31140" type="INSTANCE" */}
-              <Flex
+              <QodeCustom1377436
                 style={{
                   display: "flex",
                   height: "24px",
@@ -1043,19 +913,8 @@ export const QodeCustom18913247: React.FC<
                   background:
                     "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortextsolid, #fff)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`1`}</span>
-              </Flex>
+                {...{ title: "1", type: "default", border: true }}
+              />
             </div>
             {/* name="Icon Wrapper" id="189:13334" type="FRAME" */}
             <div
@@ -1144,7 +1003,7 @@ export const QodeCustom18913247: React.FC<
                 }}
               >{`Dropdown`}</span>
               {/* name="Tag_Transparent" id="2759:31141" type="INSTANCE" */}
-              <Flex
+              <QodeCustom1377436
                 style={{
                   display: "flex",
                   height: "24px",
@@ -1157,19 +1016,8 @@ export const QodeCustom18913247: React.FC<
                   background:
                     "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortextsolid, #fff)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`1`}</span>
-              </Flex>
+                {...{ title: "1", type: "default", border: true }}
+              />
             </div>
             {/* name="Icon Wrapper" id="189:13341" type="FRAME" */}
             <div
@@ -1248,7 +1096,7 @@ export const QodeCustom18913247: React.FC<
                 }}
               >{`Dropdown`}</span>
               {/* name="Tag_Transparent" id="2759:31142" type="INSTANCE" */}
-              <Flex
+              <QodeCustom1377436
                 style={{
                   display: "flex",
                   height: "24px",
@@ -1261,19 +1109,8 @@ export const QodeCustom18913247: React.FC<
                   background:
                     "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortextsolid, #fff)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`1`}</span>
-              </Flex>
+                {...{ title: "1", type: "default", border: true }}
+              />
             </div>
             {/* name="Icon Wrapper" id="189:13347" type="FRAME" */}
             <div

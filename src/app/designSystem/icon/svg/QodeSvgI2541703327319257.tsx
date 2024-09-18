@@ -27,11 +27,11 @@ const QodeSvgI2541703327319257: React.FC<IconProps> = ({
         cx="28.8486"
         cy="28.8483"
         r="28.1818"
-        fill="url(#paint0_radial_756_11616)"
+        fill="url(#paint0_radial_936_16185)"
       />
       <defs>
         <radialGradient
-          id="paint0_radial_756_11616"
+          id="paint0_radial_936_16185"
           cx="0"
           cy="0"
           r="1"

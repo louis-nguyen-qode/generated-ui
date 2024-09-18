@@ -7,7 +7,7 @@ export interface QodeCustom6418Props {
   text?: string
   icon?: React.ReactNode
   state?: "Default" | "Hovered" | "Empty"
-  style?: "Text"
+  _style?: "Text"
 }
 
 export const QodeCustom6418: React.FC<
@@ -16,14 +16,14 @@ export const QodeCustom6418: React.FC<
   text = "12 shortlisted",
   icon = undefined,
   state = "Default",
-  style = "Text",
+  _style = "Text",
   ...rest
 }) => {
   return (
     <>
       {/* name="Job/Quick access" id="6:418" type="COMPONENT_SET" */}
       {/* id="47:5443" */}
-      {`${state}` === `Default` && `${style}` === `Text` && (
+      {`${state}` === `Default` && `${_style}` === `Text` && (
         <>
           {/* name="State=Default, Style=Text" id="47:5443" type="COMPONENT" */}
           <div
@@ -54,7 +54,7 @@ export const QodeCustom6418: React.FC<
         </>
       )}
       {/* id="485:31741" */}
-      {`${state}` === `Empty` && `${style}` === `Text` && (
+      {`${state}` === `Empty` && `${_style}` === `Text` && (
         <>
           {/* name="State=Empty, Style=Text" id="485:31741" type="COMPONENT" */}
           <div
@@ -85,7 +85,7 @@ export const QodeCustom6418: React.FC<
         </>
       )}
       {/* id="47:5451" */}
-      {`${state}` === `Hovered` && `${style}` === `Text` && (
+      {`${state}` === `Hovered` && `${_style}` === `Text` && (
         <>
           {/* name="State=Hovered, Style=Text" id="47:5451" type="COMPONENT" */}
           <div

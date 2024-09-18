@@ -3,10 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg1893019 from "@designSystem/icon/svg/QodeSvg1893019"
+import { QodeCustom3511250 } from "@designSystem/custom/QodeCustom3511250"
+import { QodeCustom18210865 } from "@designSystem/custom/QodeCustom18210865"
 import { QodeInputNumber } from "@designSystem/ant/QodeInputNumber"
-import QodeSvg1893344 from "@designSystem/icon/svg/QodeSvg1893344"
-import QodeSvg1893429 from "@designSystem/icon/svg/QodeSvg1893429"
 
 export interface QodeCustom1893037Props {
   colorSpace?: "HEX" | "HSB" | "RGB"
@@ -51,13 +50,13 @@ export const QodeCustom1893037: React.FC<
                 }}
               >{`HEX`}</span>
               {/* name="Down" id="189:3019" type="INSTANCE" */}
-              <QodeSvg1893019
+              <QodeCustom3511250
                 style={{ width: "12px", height: "12px" }}
                 {...{}}
               />
             </div>
             {/* name="🧬 input" id="189:2998" type="INSTANCE" */}
-            <Flex
+            <QodeCustom18210865
               style={{
                 display: "flex",
                 width: "174px",
@@ -72,36 +71,17 @@ export const QodeCustom1893037: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`#`}</span>
-              <span
-                style={{
-                  display: "-webkit-box",
-                  WebkitBoxOrient: "vertical",
-                  WebkitLineClamp: "1",
-                  flex: "1 0 0",
-                  overflow: "hidden",
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textOverflow: "ellipsis",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`1677FF`}</span>
-            </Flex>
+              {...{
+                showClear: true,
+                suffix: "SUF",
+                title: "1677FF",
+                prefix: "#",
+                showPrefix: true,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
             {/* name="🧬 input number" id="189:3005" type="INSTANCE" */}
             <QodeInputNumber
               style={{
@@ -116,12 +96,8 @@ export const QodeCustom1893037: React.FC<
                 background: "var(--background-bg-white, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "100%",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",
@@ -163,7 +139,7 @@ export const QodeCustom1893037: React.FC<
                 }}
               >{`HSB`}</span>
               {/* name="Down" id="189:3344" type="INSTANCE" */}
-              <QodeSvg1893344
+              <QodeCustom3511250
                 style={{ width: "12px", height: "12px" }}
                 {...{}}
               />
@@ -183,12 +159,8 @@ export const QodeCustom1893037: React.FC<
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "215",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",
@@ -209,12 +181,8 @@ export const QodeCustom1893037: React.FC<
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "91%",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",
@@ -235,12 +203,8 @@ export const QodeCustom1893037: React.FC<
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "100%",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",
@@ -261,12 +225,8 @@ export const QodeCustom1893037: React.FC<
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "100%",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",
@@ -308,7 +268,7 @@ export const QodeCustom1893037: React.FC<
                 }}
               >{`RGB`}</span>
               {/* name="Down" id="189:3429" type="INSTANCE" */}
-              <QodeSvg1893429
+              <QodeCustom3511250
                 style={{ width: "12px", height: "12px" }}
                 {...{}}
               />
@@ -328,12 +288,8 @@ export const QodeCustom1893037: React.FC<
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "22",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",
@@ -354,12 +310,8 @@ export const QodeCustom1893037: React.FC<
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "119",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",
@@ -380,12 +332,8 @@ export const QodeCustom1893037: React.FC<
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "255",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",
@@ -406,12 +354,8 @@ export const QodeCustom1893037: React.FC<
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
               {...{
-                showPreTab: false,
                 number: "100%",
                 prefix: "PRE",
-                showPostTab: false,
-                showPrefix: false,
-                showIconLeft: false,
                 state: "filled",
                 status: "default",
                 size: "small",

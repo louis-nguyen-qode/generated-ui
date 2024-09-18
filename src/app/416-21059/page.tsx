@@ -8,7 +8,7 @@ import { QodeCustom41124172 } from "@designSystem/custom/QodeCustom41124172"
 import QodeSvg41621378 from "@designSystem/icon/svg/QodeSvg41621378"
 import QodeSvg48539650 from "@designSystem/icon/svg/QodeSvg48539650"
 import QodeSvg41621381 from "@designSystem/icon/svg/QodeSvg41621381"
-import { QodeCustom1241255 } from "@designSystem/custom/QodeCustom1241255"
+import { QodeTooltip } from "@designSystem/ant/QodeTooltip"
 
 export interface Qode41621059PageProps {}
 
@@ -436,7 +436,7 @@ Vertical scroll if overflow.`}</span>
           {...{ state: "Filtered" }}
         />
         {/* name="Tooltip" id="500:26933" type="INSTANCE" */}
-        <QodeCustom1241255
+        <QodeTooltip
           style={{
             display: "flex",
             width: "254px",
@@ -452,7 +452,6 @@ Vertical scroll if overflow.`}</span>
           }}
           {...{
             showArrow: true,
-            button: false,
             title: "Singapore, Indonesia, Vietnam, Malaysia",
             placement: "Top Left",
           }}

@@ -3,7 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg561045692 from "@designSystem/icon/svg/QodeSvg561045692"
+import { QodeCustom5859106 } from "@designSystem/custom/QodeCustom5859106"
+import { QodeCustom595997 } from "@designSystem/custom/QodeCustom595997"
+import QodeSvg561044931 from "@designSystem/icon/svg/QodeSvg561044931"
 
 export interface QodeCustom561045680Props {
   filter?: boolean
@@ -54,7 +56,7 @@ export const QodeCustom561045680: React.FC<
               }}
             >{`Column`}</span>
             {/* name="Table/Sort" id="5868:124" type="INSTANCE" */}
-            <Flex
+            <QodeCustom5859106
               style={{
                 display: "flex",
                 width: "16px",
@@ -63,15 +65,10 @@ export const QodeCustom561045680: React.FC<
                 alignItems: "center",
                 flexShrink: "0",
               }}
-            >
-              {/* name="arrow-down" id="I5868:124;5859:95" type="INSTANCE" */}
-              <Icon.QodeArrowDown
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-            </Flex>
+              {...{ property_1: "descending" }}
+            />
             {/* name="Table/filter" id="5959:99" type="INSTANCE" */}
-            <Flex
+            <QodeCustom595997
               style={{
                 width: "16px",
                 height: "16px",
@@ -79,13 +76,8 @@ export const QodeCustom561045680: React.FC<
                 right: "16px",
                 top: "15px",
               }}
-            >
-              {/* name="filter" id="I5959:99;5959:91" type="INSTANCE" */}
-              <Icon.QodeFilter
-                style={{ width: "16px", height: "16px", position: "absolute" }}
-                {...{}}
-              />
-            </Flex>
+              {...{ property_1: "Default" }}
+            />
           </div>
         </>
       )}
@@ -120,7 +112,7 @@ export const QodeCustom561045680: React.FC<
               }}
             >{`Column`}</span>
             {/* name="Table/Sort" id="5868:134" type="INSTANCE" */}
-            <Flex
+            <QodeCustom5859106
               style={{
                 display: "flex",
                 width: "16px",
@@ -129,15 +121,10 @@ export const QodeCustom561045680: React.FC<
                 alignItems: "center",
                 flexShrink: "0",
               }}
-            >
-              {/* name="arrow-down" id="I5868:134;5859:95" type="INSTANCE" */}
-              <Icon.QodeArrowDown
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-            </Flex>
+              {...{ property_1: "descending" }}
+            />
             {/* name="Table/filter" id="5959:110" type="INSTANCE" */}
-            <Flex
+            <QodeCustom595997
               style={{
                 width: "16px",
                 height: "16px",
@@ -145,13 +132,8 @@ export const QodeCustom561045680: React.FC<
                 right: "16px",
                 top: "13px",
               }}
-            >
-              {/* name="filter" id="I5959:110;5959:91" type="INSTANCE" */}
-              <Icon.QodeFilter
-                style={{ width: "16px", height: "16px", position: "absolute" }}
-                {...{}}
-              />
-            </Flex>
+              {...{ property_1: "Default" }}
+            />
           </div>
         </>
       )}
@@ -175,7 +157,7 @@ export const QodeCustom561045680: React.FC<
             }}
           >
             {/* name="Icon/checkbox" id="5610:45692" type="INSTANCE" */}
-            <QodeSvg561045692
+            <QodeSvg561044931
               style={{ width: "24px", height: "24px", flexShrink: "0" }}
               {...{ state: "Default" }}
             />

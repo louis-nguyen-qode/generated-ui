@@ -14,7 +14,7 @@ import QodeSvg191985 from "@designSystem/icon/svg/QodeSvg191985"
 
 export interface QodeCustom191970Props {
   direction?: "horizontal" | "vertical"
-  style?: "bold" | "default"
+  _style?: "bold" | "default"
   state?: "active" | "waiting"
 }
 
@@ -22,7 +22,7 @@ export const QodeCustom191970: React.FC<
   QodeCustom191970Props & { style?: CSSProperties }
 > = ({
   direction = "horizontal",
-  style = "default",
+  _style = "default",
   state = "active",
   ...rest
 }) => {
@@ -31,7 +31,7 @@ export const QodeCustom191970: React.FC<
       {/* name=".steps__item_tail" id="191:970" type="COMPONENT_SET" */}
       {/* id="191:969" */}
       {`${direction}` === `horizontal` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${state}` === `active` && (
           <>
             {/* name="direction=horizontal, style=default, state=active" id="191:969" type="COMPONENT" */}
@@ -47,7 +47,7 @@ export const QodeCustom191970: React.FC<
         )}
       {/* id="191:973" */}
       {`${direction}` === `horizontal` &&
-        `${style}` === `bold` &&
+        `${_style}` === `bold` &&
         `${state}` === `active` && (
           <>
             {/* name="direction=horizontal, style=bold, state=active" id="191:973" type="COMPONENT" */}
@@ -59,7 +59,7 @@ export const QodeCustom191970: React.FC<
         )}
       {/* id="191:975" */}
       {`${direction}` === `horizontal` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${state}` === `waiting` && (
           <>
             {/* name="direction=horizontal, style=default, state=waiting" id="191:975" type="COMPONENT" */}
@@ -75,7 +75,7 @@ export const QodeCustom191970: React.FC<
         )}
       {/* id="191:977" */}
       {`${direction}` === `horizontal` &&
-        `${style}` === `bold` &&
+        `${_style}` === `bold` &&
         `${state}` === `waiting` && (
           <>
             {/* name="direction=horizontal, style=bold, state=waiting" id="191:977" type="COMPONENT" */}
@@ -87,7 +87,7 @@ export const QodeCustom191970: React.FC<
         )}
       {/* id="191:979" */}
       {`${direction}` === `vertical` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${state}` === `active` && (
           <>
             {/* name="direction=vertical, style=default, state=active" id="191:979" type="COMPONENT" */}
@@ -103,7 +103,7 @@ export const QodeCustom191970: React.FC<
         )}
       {/* id="191:981" */}
       {`${direction}` === `vertical` &&
-        `${style}` === `bold` &&
+        `${_style}` === `bold` &&
         `${state}` === `active` && (
           <>
             {/* name="direction=vertical, style=bold, state=active" id="191:981" type="COMPONENT" */}
@@ -115,7 +115,7 @@ export const QodeCustom191970: React.FC<
         )}
       {/* id="191:983" */}
       {`${direction}` === `vertical` &&
-        `${style}` === `default` &&
+        `${_style}` === `default` &&
         `${state}` === `waiting` && (
           <>
             {/* name="direction=vertical, style=default, state=waiting" id="191:983" type="COMPONENT" */}
@@ -131,7 +131,7 @@ export const QodeCustom191970: React.FC<
         )}
       {/* id="191:985" */}
       {`${direction}` === `vertical` &&
-        `${style}` === `bold` &&
+        `${_style}` === `bold` &&
         `${state}` === `waiting` && (
           <>
             {/* name="direction=vertical, style=bold, state=waiting" id="191:985" type="COMPONENT" */}

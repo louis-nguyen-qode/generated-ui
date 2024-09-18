@@ -3,18 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg1672911 from "@designSystem/icon/svg/QodeSvg1672911"
-import QodeSvg1672986 from "@designSystem/icon/svg/QodeSvg1672986"
-import QodeSvg1672923 from "@designSystem/icon/svg/QodeSvg1672923"
-import QodeSvg1672988 from "@designSystem/icon/svg/QodeSvg1672988"
-import QodeSvg1672927 from "@designSystem/icon/svg/QodeSvg1672927"
-import QodeSvg1672990 from "@designSystem/icon/svg/QodeSvg1672990"
-import QodeSvg1673058 from "@designSystem/icon/svg/QodeSvg1673058"
-import QodeSvg1673060 from "@designSystem/icon/svg/QodeSvg1673060"
-import QodeSvg1673062 from "@designSystem/icon/svg/QodeSvg1673062"
-import QodeSvg1673064 from "@designSystem/icon/svg/QodeSvg1673064"
-import QodeSvg1672935 from "@designSystem/icon/svg/QodeSvg1672935"
-import QodeSvg1672992 from "@designSystem/icon/svg/QodeSvg1672992"
+import { QodeCustom63010804 } from "@designSystem/custom/QodeCustom63010804"
+import { QodeCustom6308727 } from "@designSystem/custom/QodeCustom6308727"
 
 export interface QodeCustom1672908Props {
   showTitle?: boolean
@@ -64,7 +54,7 @@ export const QodeCustom1672908: React.FC<
             }}
           >
             {/* name="🎰 icon" id="167:2911" type="INSTANCE" */}
-            <QodeSvg1672911
+            <QodeCustom63010804
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
               {...{}}
             />
@@ -82,7 +72,7 @@ export const QodeCustom1672908: React.FC<
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:2986" type="INSTANCE" */}
-            <QodeSvg1672986
+            <QodeCustom6308727
               style={{ width: "12px", height: "12px", flexShrink: "0" }}
               {...{}}
             />
@@ -108,7 +98,7 @@ export const QodeCustom1672908: React.FC<
             }}
           >
             {/* name="🎰 icon" id="167:2923" type="INSTANCE" */}
-            <QodeSvg1672923
+            <QodeCustom63010804
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
               {...{}}
             />
@@ -125,7 +115,7 @@ export const QodeCustom1672908: React.FC<
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:2988" type="INSTANCE" */}
-            <QodeSvg1672988
+            <QodeCustom6308727
               style={{ width: "12px", height: "12px", flexShrink: "0" }}
               {...{}}
             />
@@ -153,7 +143,7 @@ export const QodeCustom1672908: React.FC<
             }}
           >
             {/* name="🎰 icon" id="167:2927" type="INSTANCE" */}
-            <QodeSvg1672927
+            <QodeCustom63010804
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
               {...{}}
             />
@@ -170,7 +160,7 @@ export const QodeCustom1672908: React.FC<
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:2990" type="INSTANCE" */}
-            <QodeSvg1672990
+            <QodeCustom6308727
               style={{ width: "12px", height: "12px", flexShrink: "0" }}
               {...{}}
             />
@@ -194,7 +184,7 @@ export const QodeCustom1672908: React.FC<
             }}
           >
             {/* name="🎰 icon" id="167:3058" type="INSTANCE" */}
-            <QodeSvg1673058
+            <QodeCustom63010804
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
               {...{}}
             />
@@ -211,7 +201,7 @@ export const QodeCustom1672908: React.FC<
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:3060" type="INSTANCE" */}
-            <QodeSvg1673060
+            <QodeCustom6308727
               style={{ width: "12px", height: "12px", flexShrink: "0" }}
               {...{}}
             />
@@ -237,7 +227,7 @@ export const QodeCustom1672908: React.FC<
             }}
           >
             {/* name="🎰 icon" id="167:3062" type="INSTANCE" */}
-            <QodeSvg1673062
+            <QodeCustom63010804
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
               {...{}}
             />
@@ -254,7 +244,7 @@ export const QodeCustom1672908: React.FC<
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:3064" type="INSTANCE" */}
-            <QodeSvg1673064
+            <QodeCustom6308727
               style={{ width: "12px", height: "12px", flexShrink: "0" }}
               {...{}}
             />
@@ -278,7 +268,7 @@ export const QodeCustom1672908: React.FC<
             }}
           >
             {/* name="🎰 icon" id="167:2935" type="INSTANCE" */}
-            <QodeSvg1672935
+            <QodeCustom63010804
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
               {...{}}
             />
@@ -296,7 +286,7 @@ export const QodeCustom1672908: React.FC<
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:2992" type="INSTANCE" */}
-            <QodeSvg1672992
+            <QodeCustom6308727
               style={{ width: "12px", height: "12px", flexShrink: "0" }}
               {...{}}
             />

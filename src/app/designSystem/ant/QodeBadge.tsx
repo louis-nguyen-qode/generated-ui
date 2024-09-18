@@ -1,24 +1,20 @@
-// id="124:986"
+// id="26:6986"
 import React from "react"
 import { Flex } from "antd"
 import { Badge, BadgeProps } from "antd"
 
-export interface QodeBadgeProps extends Omit<BadgeProps, "title" | "color"> {
-  title?: string
-  color?:
-    | "daybreak blue"
-    | "volcano"
-    | "magenta"
-    | "dust red"
-    | "cyan"
-    | "polar green"
-    | "golden purple"
+export interface QodeBadgeProps
+  extends Omit<BadgeProps, "icon" | "count" | "type"> {
+  icon?: React.ReactNode
+  count?: string
+  type?: "dot" | "default" | "small" | "icon"
 }
 
 export const QodeBadge: React.FC<QodeBadgeProps> = ({
-  title = "Ribbon",
-  color = "daybreak blue",
+  icon = undefined,
+  count = "21",
+  type = "dot",
   ...rest
 }) => {
-  return <Badge title={title} color={color} {...rest} />
+  return <Badge icon={icon} count={count} type={type} {...rest} />
 }

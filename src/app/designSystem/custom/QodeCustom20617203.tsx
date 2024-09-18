@@ -4,40 +4,14 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvg20617088 from "@designSystem/icon/svg/QodeSvg20617088"
-import QodeSvgI2211643622420351 from "@designSystem/icon/svg/QodeSvgI2211643622420351"
-import QodeSvgI2211643622420355 from "@designSystem/icon/svg/QodeSvgI2211643622420355"
-import QodeSvg22116619 from "@designSystem/icon/svg/QodeSvg22116619"
-import QodeSvgI2211643622420361 from "@designSystem/icon/svg/QodeSvgI2211643622420361"
-import QodeSvgI2211643622420363 from "@designSystem/icon/svg/QodeSvgI2211643622420363"
-import QodeSvgI2211643622420364 from "@designSystem/icon/svg/QodeSvgI2211643622420364"
-import QodeSvgI2211643622420365 from "@designSystem/icon/svg/QodeSvgI2211643622420365"
-import QodeSvgI2211643622420367 from "@designSystem/icon/svg/QodeSvgI2211643622420367"
+import { QodeCustom22116413 } from "@designSystem/custom/QodeCustom22116413"
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import QodeSvgI206171871241293 from "@designSystem/icon/svg/QodeSvgI206171871241293"
+import { QodeTooltip } from "@designSystem/ant/QodeTooltip"
 import QodeSvg20617207 from "@designSystem/icon/svg/QodeSvg20617207"
-import QodeSvgI2242236122420351 from "@designSystem/icon/svg/QodeSvgI2242236122420351"
-import QodeSvgI2242236122420355 from "@designSystem/icon/svg/QodeSvgI2242236122420355"
-import QodeSvgI2242236122420361 from "@designSystem/icon/svg/QodeSvgI2242236122420361"
-import QodeSvgI2242236122420363 from "@designSystem/icon/svg/QodeSvgI2242236122420363"
-import QodeSvgI2242236122420364 from "@designSystem/icon/svg/QodeSvgI2242236122420364"
-import QodeSvgI2242236122420365 from "@designSystem/icon/svg/QodeSvgI2242236122420365"
-import QodeSvgI2242236122420367 from "@designSystem/icon/svg/QodeSvgI2242236122420367"
 import QodeSvg25417029 from "@designSystem/icon/svg/QodeSvg25417029"
-import QodeSvgI2541703322423409 from "@designSystem/icon/svg/QodeSvgI2541703322423409"
-import QodeSvgI2541703322423413 from "@designSystem/icon/svg/QodeSvgI2541703322423413"
-import QodeSvgI2541703327319253 from "@designSystem/icon/svg/QodeSvgI2541703327319253"
-import QodeSvgI2541703327319255 from "@designSystem/icon/svg/QodeSvgI2541703327319255"
-import QodeSvgI2541703327319256 from "@designSystem/icon/svg/QodeSvgI2541703327319256"
-import QodeSvgI2541703327319257 from "@designSystem/icon/svg/QodeSvgI2541703327319257"
-import QodeSvgI2541703327319259 from "@designSystem/icon/svg/QodeSvgI2541703327319259"
+import { QodeCustom22423407 } from "@designSystem/custom/QodeCustom22423407"
 import QodeSvg25417090 from "@designSystem/icon/svg/QodeSvg25417090"
-import QodeSvgI2541709422420156 from "@designSystem/icon/svg/QodeSvgI2541709422420156"
-import QodeSvgI2541709422420160 from "@designSystem/icon/svg/QodeSvgI2541709422420160"
-import QodeSvgI2541709427319116 from "@designSystem/icon/svg/QodeSvgI2541709427319116"
-import QodeSvgI2541709427319118 from "@designSystem/icon/svg/QodeSvgI2541709427319118"
-import QodeSvgI2541709427319119 from "@designSystem/icon/svg/QodeSvgI2541709427319119"
-import QodeSvgI2541709427319120 from "@designSystem/icon/svg/QodeSvgI2541709427319120"
-import QodeSvgI2541709427319122 from "@designSystem/icon/svg/QodeSvgI2541709427319122"
+import { QodeCustom22420154 } from "@designSystem/custom/QodeCustom22420154"
 
 export interface QodeCustom20617203Props {
   showHighlighter?: boolean
@@ -122,252 +96,10 @@ export const QodeCustom20617203: React.FC<
               }}
             >
               {/* name="Mixer" id="221:16436" type="INSTANCE" */}
-              <Flex style={{ width: "248px", height: "248px" }}>
-                {/* name="Box" id="I221:16436;224:20350" type="FRAME" */}
-                <div
-                  style={{
-                    width: "200px",
-                    height: "200px",
-                    flexShrink: "0",
-                    borderRadius: "4px",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
-                    background: "#FFF",
-                  }}
-                >
-                  {/* name="V lines" id="I221:16436;224:20351" type="GROUP" */}
-                  <QodeSvgI2211643622420351
-                    style={{ width: "100px", height: "200px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  {/* name="H lines" id="I221:16436;224:20355" type="GROUP" */}
-                  <QodeSvgI2211643622420355
-                    style={{
-                      width: "100px",
-                      height: "200px",
-                      transform: "rotate(90deg)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="Mixer/Reset" id="I221:16436;224:20359" type="INSTANCE" */}
-                  <QodeSvg22116619
-                    style={{ width: "11px", height: "11px", flexShrink: "0" }}
-                    {...{ state: "Default" }}
-                  />
-                </div>
-                {/* name="Direction indicator" id="I221:16436;224:20368" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "13px",
-                    height: "4px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "0px 0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px)",
-                    background: "#09E446",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I221:16436;224:20368 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I221:16436;224:20369" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "13px",
-                    height: "4px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px 0px",
-                    background: "#8465FF",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I221:16436;224:20369 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I221:16436;224:20370" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "4px",
-                    height: "13px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px",
-                    background: "#00B3FF",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I221:16436;224:20370 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I221:16436;224:20371" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "4px",
-                    height: "13px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "var(--size-size-size5xs-1px, 1px) 0px 0px var(--size-size-size5xs-1px, 1px)",
-                    background: "#FF7A00",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I221:16436;224:20371 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Mixer/Legend" id="I221:16436;224:20372" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    transform: "rotate(90deg)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`DEEP DIVE`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I221:16436;224:20373" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    transform: "rotate(-90deg)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`QUICK`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I221:16436;224:20374" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`TECHNICAL`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I221:16436;224:20375" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`BEHAVIORIAL`}</span>
-                </Flex>
-                {/* name="Handler" id="I221:16436;224:20360" type="FRAME" */}
-                <div style={{ width: "80px", height: "80px", flexShrink: "0" }}>
-                  {/* name="blur" id="I221:16436;224:20361" type="ELLIPSE" */}
-                  <QodeSvgI2211643622420361
-                    style={{
-                      width: "76.667px",
-                      height: "76.667px",
-                      flexShrink: "0",
-                      fill: "conic-gradient(from 180deg at 50% 50%, #49CBFF 48.60000193119049deg, #86F0FF 140.3999948501587deg, #50FFA0 250.19999742507935deg, #7EA2FF 360deg)",
-                      filter: "blur(3.333333730697632px)",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="c - animate" id="I221:16436;224:20362" type="FRAME" */}
-                  <div
-                    style={{
-                      width: "78.22px",
-                      height: "77.846px",
-                      flexShrink: "0",
-                    }}
-                  >
-                    {/* name="circle 3" id="I221:16436;224:20363" type="ELLIPSE" */}
-                    <QodeSvgI2211643622420363
-                      style={{
-                        width: "73.333px",
-                        height: "73.333px",
-                        flexShrink: "0",
-                        fill: "linear-gradient(180deg, #FFF 49.92%, #D4D4D4 82.91%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="circle 2" id="I221:16436;224:20364" type="ELLIPSE" */}
-                    <QodeSvgI2211643622420364
-                      style={{
-                        width: "66.667px",
-                        height: "66.667px",
-                        flexShrink: "0",
-                        fill: "linear-gradient(180deg, #C9C9C9 8.48%, #FFF 61.05%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="circle 1" id="I221:16436;224:20365" type="ELLIPSE" */}
-                    <QodeSvgI2211643622420365
-                      style={{
-                        width: "56.364px",
-                        height: "56.364px",
-                        flexShrink: "0",
-                        fill: "radial-gradient(50% 50% at 50% 50%, #4A4A4A 0%, #141414 100%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="video" id="I221:16436;224:20366" type="INSTANCE" */}
-                    <Icon.QodeVideo
-                      style={{ width: "20px", height: "20px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                    {/* name="line" id="I221:16436;224:20367" type="ELLIPSE" */}
-                    <QodeSvgI2211643622420367
-                      style={{
-                        width: "49.091px",
-                        height: "49.091px",
-                        flexShrink: "0",
-                        strokeWidth: "2px",
-                        stroke: "#0BFFF0",
-                      }}
-                      {...{}}
-                    />
-                  </div>
-                </div>
-              </Flex>
+              <QodeCustom22116413
+                style={{ width: "248px", height: "248px" }}
+                {...{ property_1: "Default" }}
+              />
               {/* name="Preset" id="206:17118" type="FRAME" */}
               <div
                 style={{
@@ -415,10 +147,8 @@ export const QodeCustom20617203: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Quick screening",
                       selectIconLeft: <Icon.QodeIcons />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -444,10 +174,8 @@ export const QodeCustom20617203: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Deep-dive Technical",
                       selectIconLeft: <Icon.QodeIcons />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -460,7 +188,7 @@ export const QodeCustom20617203: React.FC<
               </div>
             </div>
             {/* name="Tooltip" id="206:17187" type="INSTANCE" */}
-            <Flex
+            <QodeTooltip
               style={{
                 display: "flex",
                 width: "244px",
@@ -477,61 +205,12 @@ export const QodeCustom20617203: React.FC<
                 boxShadow:
                   "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-white, #fff)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Drag this handle to adjust the interview`}</span>
-              {/* name="arrow" id="I206:17187;124:1293" type="VECTOR" */}
-              <QodeSvgI206171871241293
-                style={{
-                  width: "16px",
-                  height: "8px",
-                  position: "absolute",
-                  left: "114px",
-                  top: "-8px",
-                  fill: "var(--neutral-gray-95, #383838)",
-                }}
-                {...{}}
-              />
-              {/* name="Button" id="I206:17187;3132:12964" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  padding:
-                    "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxxs, 4px)",
-                  borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
-                }}
-                {...{
-                  iconLeft: false,
-                  selectIconLeft: <Icon.QodeIcons />,
-                  buttonname: "Button",
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  iconRight: false,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  type: "primary",
-                  size: "small",
-                  state: "default",
-                  content: "default",
-                  danger: false,
-                  ghost: true,
-                }}
-              />
-            </Flex>
+              {...{
+                showArrow: true,
+                title: "Drag this handle to adjust the interview",
+                placement: "bottom",
+              }}
+            />
             {/* name="Button" id="206:17123" type="INSTANCE" */}
             <QodeButton
               style={{
@@ -547,12 +226,10 @@ export const QodeCustom20617203: React.FC<
                 borderRadius: "var(--border-radius-rounded, 999px)",
               }}
               {...{
-                iconRight: false,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "How it works?",
                 selectIconLeft: <Icon.QodeAngleLeft />,
-                iconLeft: false,
                 type: "link",
                 size: "small",
                 state: "default",
@@ -648,252 +325,10 @@ export const QodeCustom20617203: React.FC<
               }}
             >
               {/* name="Mixer" id="224:22361" type="INSTANCE" */}
-              <Flex style={{ width: "248px", height: "248px" }}>
-                {/* name="Box" id="I224:22361;224:20350" type="FRAME" */}
-                <div
-                  style={{
-                    width: "200px",
-                    height: "200px",
-                    flexShrink: "0",
-                    borderRadius: "4px",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
-                    background: "#FFF",
-                  }}
-                >
-                  {/* name="V lines" id="I224:22361;224:20351" type="GROUP" */}
-                  <QodeSvgI2242236122420351
-                    style={{ width: "100px", height: "200px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  {/* name="H lines" id="I224:22361;224:20355" type="GROUP" */}
-                  <QodeSvgI2242236122420355
-                    style={{
-                      width: "100px",
-                      height: "200px",
-                      transform: "rotate(90deg)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="Mixer/Reset" id="I224:22361;224:20359" type="INSTANCE" */}
-                  <QodeSvg22116619
-                    style={{ width: "11px", height: "11px", flexShrink: "0" }}
-                    {...{ state: "Default" }}
-                  />
-                </div>
-                {/* name="Direction indicator" id="I224:22361;224:20368" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "13px",
-                    height: "4px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "0px 0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px)",
-                    background: "#09E446",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I224:22361;224:20368 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I224:22361;224:20369" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "13px",
-                    height: "4px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px 0px",
-                    background: "#8465FF",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I224:22361;224:20369 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I224:22361;224:20370" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "4px",
-                    height: "13px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px",
-                    background: "#00B3FF",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I224:22361;224:20370 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I224:22361;224:20371" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "4px",
-                    height: "13px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "var(--size-size-size5xs-1px, 1px) 0px 0px var(--size-size-size5xs-1px, 1px)",
-                    background: "#FF7A00",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I224:22361;224:20371 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Mixer/Legend" id="I224:22361;224:20372" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    transform: "rotate(90deg)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`DEEP DIVE`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I224:22361;224:20373" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    transform: "rotate(-90deg)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`QUICK`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I224:22361;224:20374" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`TECHNICAL`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I224:22361;224:20375" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`BEHAVIORIAL`}</span>
-                </Flex>
-                {/* name="Handler" id="I224:22361;224:20360" type="FRAME" */}
-                <div style={{ width: "80px", height: "80px", flexShrink: "0" }}>
-                  {/* name="blur" id="I224:22361;224:20361" type="ELLIPSE" */}
-                  <QodeSvgI2242236122420361
-                    style={{
-                      width: "76.667px",
-                      height: "76.667px",
-                      flexShrink: "0",
-                      fill: "conic-gradient(from 180deg at 50% 50%, #49CBFF 48.60000193119049deg, #86F0FF 140.3999948501587deg, #50FFA0 250.19999742507935deg, #7EA2FF 360deg)",
-                      filter: "blur(3.333333730697632px)",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="c - animate" id="I224:22361;224:20362" type="FRAME" */}
-                  <div
-                    style={{
-                      width: "78.22px",
-                      height: "77.846px",
-                      flexShrink: "0",
-                    }}
-                  >
-                    {/* name="circle 3" id="I224:22361;224:20363" type="ELLIPSE" */}
-                    <QodeSvgI2242236122420363
-                      style={{
-                        width: "73.333px",
-                        height: "73.333px",
-                        flexShrink: "0",
-                        fill: "linear-gradient(180deg, #FFF 49.92%, #D4D4D4 82.91%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="circle 2" id="I224:22361;224:20364" type="ELLIPSE" */}
-                    <QodeSvgI2242236122420364
-                      style={{
-                        width: "66.667px",
-                        height: "66.667px",
-                        flexShrink: "0",
-                        fill: "linear-gradient(180deg, #C9C9C9 8.48%, #FFF 61.05%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="circle 1" id="I224:22361;224:20365" type="ELLIPSE" */}
-                    <QodeSvgI2242236122420365
-                      style={{
-                        width: "56.364px",
-                        height: "56.364px",
-                        flexShrink: "0",
-                        fill: "radial-gradient(50% 50% at 50% 50%, #4A4A4A 0%, #141414 100%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="video" id="I224:22361;224:20366" type="INSTANCE" */}
-                    <Icon.QodeVideo
-                      style={{ width: "20px", height: "20px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                    {/* name="line" id="I224:22361;224:20367" type="ELLIPSE" */}
-                    <QodeSvgI2242236122420367
-                      style={{
-                        width: "49.091px",
-                        height: "49.091px",
-                        flexShrink: "0",
-                        strokeWidth: "2px",
-                        stroke: "#0BFFF0",
-                      }}
-                      {...{}}
-                    />
-                  </div>
-                </div>
-              </Flex>
+              <QodeCustom22116413
+                style={{ width: "248px", height: "248px" }}
+                {...{ property_1: "Default" }}
+              />
               {/* name="Preset" id="206:17237" type="FRAME" */}
               <div
                 style={{
@@ -941,10 +376,8 @@ export const QodeCustom20617203: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Quick screening",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -970,10 +403,8 @@ export const QodeCustom20617203: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Deep-dive Technical",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -1000,12 +431,10 @@ export const QodeCustom20617203: React.FC<
                 borderRadius: "var(--border-radius-rounded, 999px)",
               }}
               {...{
-                iconRight: false,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "How it works?",
                 selectIconLeft: <Icon.QodeAngleLeft />,
-                iconLeft: false,
                 type: "link",
                 size: "small",
                 state: "default",
@@ -1089,252 +518,10 @@ export const QodeCustom20617203: React.FC<
               }}
             >
               {/* name="Mixer" id="254:17033" type="INSTANCE" */}
-              <Flex style={{ width: "248px", height: "248px" }}>
-                {/* name="Box" id="I254:17033;224:23408" type="FRAME" */}
-                <div
-                  style={{
-                    width: "200px",
-                    height: "200px",
-                    flexShrink: "0",
-                    borderRadius: "4px",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
-                    background: "#FFF",
-                  }}
-                >
-                  {/* name="V lines" id="I254:17033;224:23409" type="GROUP" */}
-                  <QodeSvgI2541703322423409
-                    style={{ width: "100px", height: "200px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  {/* name="H lines" id="I254:17033;224:23413" type="GROUP" */}
-                  <QodeSvgI2541703322423413
-                    style={{
-                      width: "100px",
-                      height: "200px",
-                      transform: "rotate(90deg)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="Mixer/Reset" id="I254:17033;224:23417" type="INSTANCE" */}
-                  <QodeSvg22116619
-                    style={{ width: "11px", height: "11px", flexShrink: "0" }}
-                    {...{ state: "Default" }}
-                  />
-                </div>
-                {/* name="Direction indicator" id="I254:17033;224:23426" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "13px",
-                    height: "4px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "0px 0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px)",
-                    background: "#09E446",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I254:17033;224:23426 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I254:17033;224:23427" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "13px",
-                    height: "4px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px 0px",
-                    background: "#8465FF",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I254:17033;224:23427 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I254:17033;224:23428" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "4px",
-                    height: "13px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px",
-                    background: "#00B3FF",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I254:17033;224:23428 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I254:17033;224:23429" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "4px",
-                    height: "13px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "var(--size-size-size5xs-1px, 1px) 0px 0px var(--size-size-size5xs-1px, 1px)",
-                    background: "#FF7A00",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I254:17033;224:23429 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Mixer/Legend" id="I254:17033;224:23430" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    transform: "rotate(90deg)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`DEEP DIVE`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I254:17033;224:23431" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    transform: "rotate(-90deg)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight: "normal",
-                    }}
-                  >{`QUICK`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I254:17033;224:23432" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight: "normal",
-                    }}
-                  >{`TECHNICAL`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I254:17033;224:23433" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`BEHAVIORIAL`}</span>
-                </Flex>
-                {/* name="Handler" id="I254:17033;273:19252" type="FRAME" */}
-                <div style={{ width: "80px", height: "80px", flexShrink: "0" }}>
-                  {/* name="blur" id="I254:17033;273:19253" type="ELLIPSE" */}
-                  <QodeSvgI2541703327319253
-                    style={{
-                      width: "76.667px",
-                      height: "76.667px",
-                      flexShrink: "0",
-                      fill: "conic-gradient(from 180deg at 50% 50%, #49CBFF 48.60000193119049deg, #86F0FF 140.3999948501587deg, #50FFA0 250.19999742507935deg, #7EA2FF 360deg)",
-                      filter: "blur(3.333333730697632px)",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="c - animate" id="I254:17033;273:19254" type="FRAME" */}
-                  <div
-                    style={{
-                      width: "78.22px",
-                      height: "77.846px",
-                      flexShrink: "0",
-                    }}
-                  >
-                    {/* name="circle 3" id="I254:17033;273:19255" type="ELLIPSE" */}
-                    <QodeSvgI2541703327319255
-                      style={{
-                        width: "73.333px",
-                        height: "73.333px",
-                        flexShrink: "0",
-                        fill: "linear-gradient(180deg, #FFF 49.92%, #D4D4D4 82.91%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="circle 2" id="I254:17033;273:19256" type="ELLIPSE" */}
-                    <QodeSvgI2541703327319256
-                      style={{
-                        width: "66.667px",
-                        height: "66.667px",
-                        flexShrink: "0",
-                        fill: "linear-gradient(180deg, #C9C9C9 8.48%, #FFF 61.05%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="circle 1" id="I254:17033;273:19257" type="ELLIPSE" */}
-                    <QodeSvgI2541703327319257
-                      style={{
-                        width: "56.364px",
-                        height: "56.364px",
-                        flexShrink: "0",
-                        fill: "radial-gradient(50% 50% at 50% 50%, #4A4A4A 0%, #141414 100%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="video" id="I254:17033;273:19258" type="INSTANCE" */}
-                    <Icon.QodeVideo
-                      style={{ width: "20px", height: "20px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                    {/* name="line" id="I254:17033;273:19259" type="ELLIPSE" */}
-                    <QodeSvgI2541703327319259
-                      style={{
-                        width: "49.091px",
-                        height: "49.091px",
-                        flexShrink: "0",
-                        strokeWidth: "2px",
-                        stroke: "#0BFFF0",
-                      }}
-                      {...{}}
-                    />
-                  </div>
-                </div>
-              </Flex>
+              <QodeCustom22423407
+                style={{ width: "248px", height: "248px" }}
+                {...{ property_1: "QT" }}
+              />
               {/* name="Preset" id="254:17034" type="FRAME" */}
               <div
                 style={{
@@ -1382,10 +569,8 @@ export const QodeCustom20617203: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Quick screening",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -1411,10 +596,8 @@ export const QodeCustom20617203: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Deep-dive Technical",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -1441,12 +624,10 @@ export const QodeCustom20617203: React.FC<
                 borderRadius: "var(--border-radius-rounded, 999px)",
               }}
               {...{
-                iconRight: false,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "How it works?",
                 selectIconLeft: <Icon.QodeAngleLeft />,
-                iconLeft: false,
                 type: "link",
                 size: "small",
                 state: "default",
@@ -1530,252 +711,10 @@ export const QodeCustom20617203: React.FC<
               }}
             >
               {/* name="Mixer" id="254:17094" type="INSTANCE" */}
-              <Flex style={{ width: "248px", height: "248px" }}>
-                {/* name="Box" id="I254:17094;224:20155" type="FRAME" */}
-                <div
-                  style={{
-                    width: "200px",
-                    height: "200px",
-                    flexShrink: "0",
-                    borderRadius: "4px",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
-                    background: "#FFF",
-                  }}
-                >
-                  {/* name="V lines" id="I254:17094;224:20156" type="GROUP" */}
-                  <QodeSvgI2541709422420156
-                    style={{ width: "100px", height: "200px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  {/* name="H lines" id="I254:17094;224:20160" type="GROUP" */}
-                  <QodeSvgI2541709422420160
-                    style={{
-                      width: "100px",
-                      height: "200px",
-                      transform: "rotate(90deg)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="Mixer/Reset" id="I254:17094;224:20168" type="INSTANCE" */}
-                  <QodeSvg22116619
-                    style={{ width: "11px", height: "11px", flexShrink: "0" }}
-                    {...{ state: "Default" }}
-                  />
-                </div>
-                {/* name="Direction indicator" id="I254:17094;224:20166" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "13px",
-                    height: "4px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "0px 0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px)",
-                    background: "#09E446",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I254:17094;224:20166 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I254:17094;224:20165" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "13px",
-                    height: "4px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px 0px",
-                    background: "#8465FF",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I254:17094;224:20165 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I254:17094;224:20164" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "4px",
-                    height: "13px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px",
-                    background: "#00B3FF",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I254:17094;224:20164 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Direction indicator" id="I254:17094;224:20167" type="RECTANGLE" */}
-                <Flex
-                  style={{
-                    width: "4px",
-                    height: "13px",
-                    flexShrink: "0",
-                    borderRadius:
-                      "var(--size-size-size5xs-1px, 1px) 0px 0px var(--size-size-size5xs-1px, 1px)",
-                    background: "#FF7A00",
-                  }}
-                >
-                  {/* name="Direction indicator" id=I254:17094;224:20167 type=RECTANGLE */}
-                  <></>
-                </Flex>
-                {/* name="Mixer/Legend" id="I254:17094;224:20177" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    transform: "rotate(90deg)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight: "normal",
-                    }}
-                  >{`DEEP DIVE`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I254:17094;224:20178" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    transform: "rotate(-90deg)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`QUICK`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I254:17094;224:20179" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight: "normal",
-                    }}
-                  >{`TECHNICAL`}</span>
-                </Flex>
-                {/* name="Mixer/Legend" id="I254:17094;224:20180" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "inline-flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: '"Barlow Semi Condensed"',
-                      fontSize: "14px",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight: "normal",
-                    }}
-                  >{`BEHAVIORIAL`}</span>
-                </Flex>
-                {/* name="Handler" id="I254:17094;273:19115" type="FRAME" */}
-                <div style={{ width: "80px", height: "80px", flexShrink: "0" }}>
-                  {/* name="blur" id="I254:17094;273:19116" type="ELLIPSE" */}
-                  <QodeSvgI2541709427319116
-                    style={{
-                      width: "76.667px",
-                      height: "76.667px",
-                      flexShrink: "0",
-                      fill: "conic-gradient(from 180deg at 50% 50%, #49CBFF 48.60000193119049deg, #86F0FF 140.3999948501587deg, #50FFA0 250.19999742507935deg, #7EA2FF 360deg)",
-                      filter: "blur(3.333333730697632px)",
-                    }}
-                    {...{}}
-                  />
-                  {/* name="c - animate" id="I254:17094;273:19117" type="FRAME" */}
-                  <div
-                    style={{
-                      width: "78.22px",
-                      height: "77.846px",
-                      flexShrink: "0",
-                    }}
-                  >
-                    {/* name="circle 3" id="I254:17094;273:19118" type="ELLIPSE" */}
-                    <QodeSvgI2541709427319118
-                      style={{
-                        width: "73.333px",
-                        height: "73.333px",
-                        flexShrink: "0",
-                        fill: "linear-gradient(180deg, #FFF 49.92%, #D4D4D4 82.91%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="circle 2" id="I254:17094;273:19119" type="ELLIPSE" */}
-                    <QodeSvgI2541709427319119
-                      style={{
-                        width: "66.667px",
-                        height: "66.667px",
-                        flexShrink: "0",
-                        fill: "linear-gradient(180deg, #C9C9C9 8.48%, #FFF 61.05%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="circle 1" id="I254:17094;273:19120" type="ELLIPSE" */}
-                    <QodeSvgI2541709427319120
-                      style={{
-                        width: "56.364px",
-                        height: "56.364px",
-                        flexShrink: "0",
-                        fill: "radial-gradient(50% 50% at 50% 50%, #4A4A4A 0%, #141414 100%)",
-                      }}
-                      {...{}}
-                    />
-                    {/* name="video" id="I254:17094;273:19121" type="INSTANCE" */}
-                    <Icon.QodeVideo
-                      style={{ width: "20px", height: "20px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                    {/* name="line" id="I254:17094;273:19122" type="ELLIPSE" */}
-                    <QodeSvgI2541709427319122
-                      style={{
-                        width: "49.091px",
-                        height: "49.091px",
-                        flexShrink: "0",
-                        strokeWidth: "2px",
-                        stroke: "#0BFFF0",
-                      }}
-                      {...{}}
-                    />
-                  </div>
-                </div>
-              </Flex>
+              <QodeCustom22420154
+                style={{ width: "248px", height: "248px" }}
+                {...{ property_1: "TD" }}
+              />
               {/* name="Preset" id="254:17095" type="FRAME" */}
               <div
                 style={{
@@ -1823,10 +762,8 @@ export const QodeCustom20617203: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Quick screening",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -1852,10 +789,8 @@ export const QodeCustom20617203: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Deep-dive Technical",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -1882,12 +817,10 @@ export const QodeCustom20617203: React.FC<
                 borderRadius: "var(--border-radius-rounded, 999px)",
               }}
               {...{
-                iconRight: false,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "How it works?",
                 selectIconLeft: <Icon.QodeAngleLeft />,
-                iconLeft: false,
                 type: "link",
                 size: "small",
                 state: "default",

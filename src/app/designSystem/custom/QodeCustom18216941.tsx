@@ -124,7 +124,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -150,9 +149,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -174,9 +171,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -259,7 +254,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -285,9 +279,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -309,9 +301,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -408,7 +398,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -434,9 +423,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -458,9 +445,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -557,7 +542,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -583,9 +567,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -607,9 +589,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -706,7 +686,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -732,9 +711,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -756,9 +733,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -841,7 +816,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -867,9 +841,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -891,9 +863,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1021,7 +991,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -1047,9 +1016,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1071,9 +1038,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1154,7 +1119,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -1180,9 +1144,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1204,9 +1166,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1301,7 +1261,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -1327,9 +1286,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1351,9 +1308,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1448,7 +1403,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -1474,9 +1428,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1498,9 +1450,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1595,7 +1545,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -1621,9 +1570,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1645,9 +1592,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1728,7 +1673,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -1754,9 +1698,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1778,9 +1720,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1907,7 +1847,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -1933,9 +1872,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1957,9 +1894,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2041,7 +1976,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -2067,9 +2001,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2091,9 +2023,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2189,7 +2119,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -2215,9 +2144,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2239,9 +2166,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2337,7 +2262,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -2363,9 +2287,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2387,9 +2309,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2485,7 +2405,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -2511,9 +2430,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2535,9 +2452,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2619,7 +2534,6 @@ export const QodeCustom18216941: React.FC<
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
                 {...{
-                  iconRight: false,
                   buttonname: "Rewrite",
                   iconLeft: true,
                   type: "link",
@@ -2645,9 +2559,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2669,9 +2581,7 @@ export const QodeCustom18216941: React.FC<
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
                   {...{
-                    iconLeft: false,
                     buttonname: "Rewrite",
-                    iconRight: false,
                     type: "text",
                     size: "small",
                     state: "default",

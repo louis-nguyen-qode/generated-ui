@@ -23,16 +23,16 @@ const QodeSvgI275135351894466: React.FC<IconProps> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_6346_9483)">
+      <g clip-path="url(#clip0_6381_53229)">
         <path
           d="M0 4C0 1.79086 1.79086 0 4 0H212C214.209 0 216 1.79086 216 4C216 6.20914 214.209 8 212 8H4C1.79086 8 0 6.20914 0 4Z"
-          fill="url(#paint0_linear_6346_9483)"
+          fill="url(#paint0_linear_6381_53229)"
         />
         <circle cx="130" cy="4" r="5" stroke="white" stroke-width="2" />
       </g>
       <defs>
         <linearGradient
-          id="paint0_linear_6346_9483"
+          id="paint0_linear_6381_53229"
           x1="1.79997e-07"
           y1="3.99997"
           x2="216"
@@ -50,7 +50,7 @@ const QodeSvgI275135351894466: React.FC<IconProps> = ({
           <stop offset="0.901042" stop-color="#FF01C7" />
           <stop offset="0.979167" stop-color="#FF0101" />
         </linearGradient>
-        <clipPath id="clip0_6346_9483">
+        <clipPath id="clip0_6381_53229">
           <path
             d="M0 4C0 1.79086 1.79086 0 4 0H212C214.209 0 216 1.79086 216 4C216 6.20914 214.209 8 212 8H4C1.79086 8 0 6.20914 0 4Z"
             fill="white"

@@ -4,12 +4,7 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCheckbox } from "@designSystem/ant/QodeCheckbox"
-import QodeSvg1895401 from "@designSystem/icon/svg/QodeSvg1895401"
-import QodeSvg1895417 from "@designSystem/icon/svg/QodeSvg1895417"
-import QodeSvg1895424 from "@designSystem/icon/svg/QodeSvg1895424"
-import QodeSvg1895442 from "@designSystem/icon/svg/QodeSvg1895442"
-import QodeSvg1895446 from "@designSystem/icon/svg/QodeSvg1895446"
-import QodeSvg1895450 from "@designSystem/icon/svg/QodeSvg1895450"
+import { QodeCustom6308711 } from "@designSystem/custom/QodeCustom6308711"
 
 export interface QodeCustom1895406Props {
   title?: string
@@ -57,12 +52,7 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             <span
               style={{
@@ -78,7 +68,7 @@ export const QodeCustom1895406: React.FC<
               }}
             >{`Cascader Item`}</span>
             {/* name="Icon" id="189:5401" type="INSTANCE" */}
-            <QodeSvg1895401
+            <QodeCustom6308711
               style={{
                 width: "var(--font-size-base, 14px)",
                 height: "var(--font-size-base, 14px)",
@@ -116,12 +106,7 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             <span
               style={{
@@ -136,7 +121,7 @@ export const QodeCustom1895406: React.FC<
               }}
             >{`Cascader Item`}</span>
             {/* name="Icon" id="189:5417" type="INSTANCE" */}
-            <QodeSvg1895417
+            <QodeCustom6308711
               style={{
                 width: "var(--font-size-base, 14px)",
                 height: "var(--font-size-base, 14px)",
@@ -172,12 +157,7 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "disabled",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "disabled" }}
             />
             <span
               style={{
@@ -193,7 +173,7 @@ export const QodeCustom1895406: React.FC<
               }}
             >{`Cascader Item`}</span>
             {/* name="Icon" id="189:5424" type="INSTANCE" */}
-            <QodeSvg1895424
+            <QodeCustom6308711
               style={{
                 width: "var(--font-size-base, 14px)",
                 height: "var(--font-size-base, 14px)",
@@ -231,12 +211,7 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "active",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "active", state: "default" }}
             />
             <span
               style={{
@@ -251,7 +226,7 @@ export const QodeCustom1895406: React.FC<
               }}
             >{`Cascader Item`}</span>
             {/* name="Icon" id="189:5442" type="INSTANCE" */}
-            <QodeSvg1895442
+            <QodeCustom6308711
               style={{
                 width: "var(--font-size-base, 14px)",
                 height: "var(--font-size-base, 14px)",
@@ -289,12 +264,7 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "active",
-                state: "hover",
-              }}
+              {...{ title: "Checkbox", status: "active", state: "hover" }}
             />
             <span
               style={{
@@ -309,7 +279,7 @@ export const QodeCustom1895406: React.FC<
               }}
             >{`Cascader Item`}</span>
             {/* name="Icon" id="189:5446" type="INSTANCE" */}
-            <QodeSvg1895446
+            <QodeCustom6308711
               style={{
                 width: "var(--font-size-base, 14px)",
                 height: "var(--font-size-base, 14px)",
@@ -345,12 +315,7 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "active",
-                state: "disabled",
-              }}
+              {...{ title: "Checkbox", status: "active", state: "disabled" }}
             />
             <span
               style={{
@@ -366,7 +331,7 @@ export const QodeCustom1895406: React.FC<
               }}
             >{`Cascader Item`}</span>
             {/* name="Icon" id="189:5450" type="INSTANCE" */}
-            <QodeSvg1895450
+            <QodeCustom6308711
               style={{
                 width: "var(--font-size-base, 14px)",
                 height: "var(--font-size-base, 14px)",

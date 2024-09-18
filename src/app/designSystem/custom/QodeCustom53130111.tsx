@@ -73,10 +73,8 @@ export const QodeCustom53130111: React.FC<
               {...{
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
-                iconRight: false,
                 buttonname: "Edit",
                 selectIconLeft: <Icon.QodeIcons />,
-                iconLeft: false,
                 type: "default",
                 size: "small",
                 state: "default",

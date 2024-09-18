@@ -192,11 +192,9 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
                 }}
                 {...{
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  iconRight: false,
                   selectIconLeft: <Icon.QodeIcons />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Cancel",
-                  iconLeft: false,
                   type: "default",
                   size: "default",
                   state: "default",
@@ -221,8 +219,6 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
                 }}
                 {...{
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  iconLeft: false,
-                  iconRight: false,
                   buttonname: "Remove",
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   selectIconLeft: <Icon.QodeIcons />,

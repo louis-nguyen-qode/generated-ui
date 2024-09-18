@@ -74,7 +74,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -168,7 +168,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -262,7 +262,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -356,7 +356,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -450,7 +450,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -544,7 +544,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -638,7 +638,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -732,7 +732,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -826,7 +826,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -920,7 +920,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1014,7 +1014,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -1106,7 +1106,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1198,7 +1198,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1290,7 +1290,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1382,7 +1382,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1474,7 +1474,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -1566,7 +1566,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1658,7 +1658,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1750,7 +1750,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1842,7 +1842,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1935,7 +1935,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -2029,7 +2029,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2123,7 +2123,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2217,7 +2217,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2311,7 +2311,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2405,7 +2405,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -2499,7 +2499,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2593,7 +2593,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2687,7 +2687,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2781,7 +2781,7 @@ export const QodeCustom1914055: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />

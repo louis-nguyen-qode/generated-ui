@@ -1,18 +1,20 @@
-// id="171:26738"
+// id="426:20497"
 import React from "react"
 import { Flex } from "antd"
 import { Pagination, PaginationProps } from "antd"
 
 export interface QodePaginationProps
-  extends Omit<PaginationProps, "state" | "direction"> {
-  state?: "default" | "hover"
-  direction?: "left" | "right"
+  extends Omit<PaginationProps, "total" | "type" | "mini"> {
+  total?: string
+  type?: "basic" | "jumper" | "more" | "changer" | "total" | "all"
+  mini?: "false" | "true"
 }
 
 export const QodePagination: React.FC<QodePaginationProps> = ({
-  state = "default",
-  direction = "left",
+  total = "Total 85 items",
+  type = "basic",
+  mini = "false",
   ...rest
 }) => {
-  return <Pagination state={state} direction={direction} {...rest} />
+  return <Pagination total={total} type={type} mini={mini} {...rest} />
 }

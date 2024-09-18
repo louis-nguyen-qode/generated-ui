@@ -3,8 +3,11 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom34322690 } from "@designSystem/custom/QodeCustom34322690"
+import { QodeCustom565626440 } from "@designSystem/custom/QodeCustom565626440"
+import { QodeCustom34322695 } from "@designSystem/custom/QodeCustom34322695"
+import { QodeCustom63010804 } from "@designSystem/custom/QodeCustom63010804"
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import QodeSvgI565626442565626418 from "@designSystem/icon/svg/QodeSvgI565626442565626418"
 
 export interface QodeCustom34322648Props {
   type?:
@@ -75,7 +78,7 @@ export const QodeCustom34322648: React.FC<
               >{`Detach to add slot component`}</span>
             </div>
             {/* name="Modal/Action" id="5724:273" type="INSTANCE" */}
-            <Flex
+            <QodeCustom34322690
               style={{
                 display: "flex",
                 height: "56px",
@@ -88,94 +91,8 @@ export const QodeCustom34322648: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--background-bg-neutral-5, #f8f6f6)",
               }}
-            >
-              {/* name="Button" id="I5724:273;5740:1206" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheight, 32px)",
-                  padding:
-                    "var(--size-padding-paddingxxs, 4px) var(--size-padding-padding, 16px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  borderRadius: "var(--border-radius-rounded, 999px)",
-                }}
-                {...{
-                  iconLeft: false,
-                  iconRight: false,
-                  buttonname: "Button",
-                  type: "link",
-                  size: "default",
-                  state: "default",
-                  content: "default",
-                  danger: false,
-                  ghost: true,
-                }}
-              />
-              {/* name="Wrap" id="I5724:273;3432:2692" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--line-height-lineheighheading3, 32px)",
-                  alignItems: "center",
-                  gap: "12px",
-                }}
-              >
-                {/* name="Button" id="I5724:273;3432:2693" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "4px 16px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8px",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
-                    background: "var(--background-bg-white, #fff)",
-                  }}
-                  {...{
-                    iconLeft: false,
-                    buttonname: "Button",
-                    iconRight: false,
-                    type: "default",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-                {/* name="Button" id="I5724:273;3432:2694" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "4px 16px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8px",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                    border:
-                      "1px solid var(--border-border-primary-30, #107ecc)",
-                    background: "var(--background-bg-primary, #1597f4)",
-                  }}
-                  {...{
-                    buttonname: "Button",
-                    iconRight: false,
-                    iconLeft: false,
-                    type: "primary",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-              </div>
-            </Flex>
+              {...{ buttons: "3" }}
+            />
           </div>
         </>
       )}
@@ -196,7 +113,7 @@ export const QodeCustom34322648: React.FC<
             }}
           >
             {/* name="Modal/Header" id="5656:26442" type="INSTANCE" */}
-            <Flex
+            <QodeCustom565626440
               style={{
                 display: "flex",
                 height: "52px",
@@ -208,36 +125,8 @@ export const QodeCustom34322648: React.FC<
                 borderBottom:
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
               }}
-            >
-              {/* name="content" id="I5656:26442;5656:26415" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "flex-end",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-size-sizemd-20px, 20px)",
-                    fontStyle: "normal",
-                    fontWeight: "600",
-                    lineHeight:
-                      "var(--lineheight-lineheight-xl, 28px) /* 140% */",
-                  }}
-                >{`Complex modal`}</span>
-              </div>
-              {/* name="xmark" id="I5656:26442;5656:26418" type="INSTANCE" */}
-              <QodeSvgI565626442565626418
-                style={{ width: "24px", height: "24px" }}
-                {...{}}
-              />
-            </Flex>
+              {...{ size: "lg" }}
+            />
             {/* name="PopUp" id="3432:2660" type="FRAME" */}
             <div
               style={{
@@ -263,7 +152,7 @@ export const QodeCustom34322648: React.FC<
               >{`Detach to modify child components`}</span>
             </div>
             {/* name="Modal/Action" id="5724:293" type="INSTANCE" */}
-            <Flex
+            <QodeCustom34322690
               style={{
                 display: "flex",
                 height: "56px",
@@ -276,94 +165,8 @@ export const QodeCustom34322648: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--background-bg-neutral-5, #f8f6f6)",
               }}
-            >
-              {/* name="Button" id="I5724:293;5740:1206" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheight, 32px)",
-                  padding:
-                    "var(--size-padding-paddingxxs, 4px) var(--size-padding-padding, 16px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  borderRadius: "var(--border-radius-rounded, 999px)",
-                }}
-                {...{
-                  iconLeft: false,
-                  iconRight: false,
-                  buttonname: "Button",
-                  type: "link",
-                  size: "default",
-                  state: "default",
-                  content: "default",
-                  danger: false,
-                  ghost: true,
-                }}
-              />
-              {/* name="Wrap" id="I5724:293;3432:2692" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--line-height-lineheighheading3, 32px)",
-                  alignItems: "center",
-                  gap: "12px",
-                }}
-              >
-                {/* name="Button" id="I5724:293;3432:2693" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "4px 16px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8px",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
-                    background: "var(--background-bg-white, #fff)",
-                  }}
-                  {...{
-                    iconLeft: false,
-                    buttonname: "Button",
-                    iconRight: false,
-                    type: "default",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-                {/* name="Button" id="I5724:293;3432:2694" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "4px 16px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8px",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                    border:
-                      "1px solid var(--border-border-primary-30, #107ecc)",
-                    background: "var(--background-bg-primary, #1597f4)",
-                  }}
-                  {...{
-                    buttonname: "Button",
-                    iconRight: false,
-                    iconLeft: false,
-                    type: "primary",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-              </div>
-            </Flex>
+              {...{ buttons: "3" }}
+            />
           </div>
         </>
       )}
@@ -408,7 +211,7 @@ export const QodeCustom34322648: React.FC<
               >{`Are you sure you want to ...?`}</span>
             </div>
             {/* name="Modal/Action" id="5724:253" type="INSTANCE" */}
-            <Flex
+            <QodeCustom34322690
               style={{
                 display: "flex",
                 height: "56px",
@@ -421,94 +224,8 @@ export const QodeCustom34322648: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--background-bg-neutral-5, #f8f6f6)",
               }}
-            >
-              {/* name="Button" id="I5724:253;5740:1206" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheight, 32px)",
-                  padding:
-                    "var(--size-padding-paddingxxs, 4px) var(--size-padding-padding, 16px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  borderRadius: "var(--border-radius-rounded, 999px)",
-                }}
-                {...{
-                  iconLeft: false,
-                  iconRight: false,
-                  buttonname: "Button",
-                  type: "link",
-                  size: "default",
-                  state: "default",
-                  content: "default",
-                  danger: false,
-                  ghost: true,
-                }}
-              />
-              {/* name="Wrap" id="I5724:253;3432:2692" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--line-height-lineheighheading3, 32px)",
-                  alignItems: "center",
-                  gap: "12px",
-                }}
-              >
-                {/* name="Button" id="I5724:253;3432:2693" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "4px 16px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8px",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
-                    background: "var(--background-bg-white, #fff)",
-                  }}
-                  {...{
-                    iconLeft: false,
-                    buttonname: "Button",
-                    iconRight: false,
-                    type: "default",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-                {/* name="Button" id="I5724:253;3432:2694" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "4px 16px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "8px",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                    border:
-                      "1px solid var(--border-border-primary-30, #107ecc)",
-                    background: "var(--background-bg-primary, #1597f4)",
-                  }}
-                  {...{
-                    buttonname: "Button",
-                    iconRight: false,
-                    iconLeft: false,
-                    type: "primary",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-              </div>
-            </Flex>
+              {...{ buttons: "3" }}
+            />
           </div>
         </>
       )}
@@ -568,7 +285,7 @@ export const QodeCustom34322648: React.FC<
               >{`Description`}</span>
             </div>
             {/* name="Modal/Action" id="5724:313" type="INSTANCE" */}
-            <Flex
+            <QodeCustom34322695
               style={{
                 display: "flex",
                 height: "56px",
@@ -581,33 +298,8 @@ export const QodeCustom34322648: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--background-bg-neutral-5, #f8f6f6)",
               }}
-            >
-              {/* name="Button" id="I5724:313;3432:2696" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheight, 32px)",
-                  padding: "4px 16px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "8px",
-                  borderRadius: "var(--border-radius-rounded, 999px)",
-                  border: "1px solid var(--border-border-primary-30, #107ecc)",
-                  background: "var(--background-bg-primary, #1597f4)",
-                }}
-                {...{
-                  buttonname: "Button",
-                  iconRight: false,
-                  iconLeft: false,
-                  type: "primary",
-                  size: "default",
-                  state: "default",
-                  content: "default",
-                  danger: false,
-                  ghost: false,
-                }}
-              />
-            </Flex>
+              {...{ buttons: "1" }}
+            />
           </div>
         </>
       )}
@@ -654,7 +346,7 @@ export const QodeCustom34322648: React.FC<
                 }}
               >
                 {/* name="icons" id="3432:2684" type="INSTANCE" */}
-                <Flex
+                <QodeCustom63010804
                   style={{
                     display: "flex",
                     padding: "1.5px 1.498px 1.5px 1.5px",
@@ -663,19 +355,8 @@ export const QodeCustom34322648: React.FC<
                     flex: "1 0 0",
                     alignSelf: "stretch",
                   }}
-                >
-                  {/* name="Vector" id="I3432:2684;630:10668" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "15.002px",
-                      height: "15px",
-                      fill: "var(--color-primary-colorprimarytext, #1597f4)",
-                    }}
-                  >
-                    {/* name="Vector" id=I3432:2684;630:10668 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
+                  {...{}}
+                />
               </div>
               {/* name="Button" id="3432:2685" type="INSTANCE" */}
               <QodeButton
@@ -689,7 +370,6 @@ export const QodeCustom34322648: React.FC<
                 }}
                 {...{
                   buttonname: "Edit",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -713,7 +393,7 @@ export const QodeCustom34322648: React.FC<
               >{`Information`}</span>
             </div>
             {/* name="Modal/Action" id="5724:320" type="INSTANCE" */}
-            <Flex
+            <QodeCustom34322695
               style={{
                 display: "flex",
                 height: "56px",
@@ -726,33 +406,8 @@ export const QodeCustom34322648: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--background-bg-neutral-5, #f8f6f6)",
               }}
-            >
-              {/* name="Button" id="I5724:320;3432:2696" type="INSTANCE" */}
-              <QodeButton
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheight, 32px)",
-                  padding: "4px 16px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "8px",
-                  borderRadius: "var(--border-radius-rounded, 999px)",
-                  border: "1px solid var(--border-border-primary-30, #107ecc)",
-                  background: "var(--background-bg-primary, #1597f4)",
-                }}
-                {...{
-                  buttonname: "Button",
-                  iconRight: false,
-                  iconLeft: false,
-                  type: "primary",
-                  size: "default",
-                  state: "default",
-                  content: "default",
-                  danger: false,
-                  ghost: false,
-                }}
-              />
-            </Flex>
+              {...{ buttons: "1" }}
+            />
           </div>
         </>
       )}

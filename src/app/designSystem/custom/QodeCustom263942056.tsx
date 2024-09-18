@@ -3,14 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg263942078 from "@designSystem/icon/svg/QodeSvg263942078"
-import QodeSvg263942081 from "@designSystem/icon/svg/QodeSvg263942081"
-import QodeSvg263942084 from "@designSystem/icon/svg/QodeSvg263942084"
-import QodeSvg263942086 from "@designSystem/icon/svg/QodeSvg263942086"
-import QodeSvg263942098 from "@designSystem/icon/svg/QodeSvg263942098"
-import QodeSvg263942101 from "@designSystem/icon/svg/QodeSvg263942101"
-import QodeSvg26761084 from "@designSystem/icon/svg/QodeSvg26761084"
-import QodeSvg26761087 from "@designSystem/icon/svg/QodeSvg26761087"
+import { QodeCustom63011043 } from "@designSystem/custom/QodeCustom63011043"
+import { QodeCustom63012059 } from "@designSystem/custom/QodeCustom63012059"
 
 export interface QodeCustom263942056Props {
   iconTag_2?: boolean
@@ -215,7 +209,7 @@ export const QodeCustom263942056: React.FC<
                   }}
                 >
                   {/* name="gear" id="2639:42078" type="INSTANCE" */}
-                  <QodeSvg263942078
+                  <QodeCustom63011043
                     style={{
                       width: "var(--line-height-lineheighheading3, 32px)",
                       height: "var(--line-height-lineheighheading3, 32px)",
@@ -248,7 +242,7 @@ export const QodeCustom263942056: React.FC<
                   }}
                 >
                   {/* name="list-tree" id="2639:42081" type="INSTANCE" */}
-                  <QodeSvg263942081
+                  <QodeCustom63012059
                     style={{
                       width: "var(--line-height-lineheighheading3, 32px)",
                       height: "var(--line-height-lineheighheading3, 32px)",
@@ -414,7 +408,7 @@ export const QodeCustom263942056: React.FC<
                   }}
                 >
                   {/* name="gear" id="2639:42084" type="INSTANCE" */}
-                  <QodeSvg263942084
+                  <QodeCustom63011043
                     style={{
                       width: "var(--line-height-lineheighheading3, 32px)",
                       height: "var(--line-height-lineheighheading3, 32px)",
@@ -447,7 +441,7 @@ export const QodeCustom263942056: React.FC<
                   }}
                 >
                   {/* name="list-tree" id="2639:42086" type="INSTANCE" */}
-                  <QodeSvg263942086
+                  <QodeCustom63012059
                     style={{
                       width: "var(--line-height-lineheighheading3, 32px)",
                       height: "var(--line-height-lineheighheading3, 32px)",
@@ -616,7 +610,7 @@ export const QodeCustom263942056: React.FC<
                   }}
                 >
                   {/* name="gear" id="2639:42098" type="INSTANCE" */}
-                  <QodeSvg263942098
+                  <QodeCustom63011043
                     style={{
                       width: "var(--line-height-lineheighheading3, 32px)",
                       height: "var(--line-height-lineheighheading3, 32px)",
@@ -649,7 +643,7 @@ export const QodeCustom263942056: React.FC<
                   }}
                 >
                   {/* name="list-tree" id="2639:42101" type="INSTANCE" */}
-                  <QodeSvg263942101
+                  <QodeCustom63012059
                     style={{
                       width: "var(--line-height-lineheighheading3, 32px)",
                       height: "var(--line-height-lineheighheading3, 32px)",
@@ -818,7 +812,7 @@ export const QodeCustom263942056: React.FC<
                   }}
                 >
                   {/* name="gear" id="2676:1084" type="INSTANCE" */}
-                  <QodeSvg26761084
+                  <QodeCustom63011043
                     style={{
                       width: "var(--line-height-lineheighheading3, 32px)",
                       height: "var(--line-height-lineheighheading3, 32px)",
@@ -851,7 +845,7 @@ export const QodeCustom263942056: React.FC<
                   }}
                 >
                   {/* name="list-tree" id="2676:1087" type="INSTANCE" */}
-                  <QodeSvg26761087
+                  <QodeCustom63012059
                     style={{
                       width: "var(--line-height-lineheighheading3, 32px)",
                       height: "var(--line-height-lineheighheading3, 32px)",

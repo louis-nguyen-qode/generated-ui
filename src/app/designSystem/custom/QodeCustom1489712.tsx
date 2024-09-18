@@ -13,7 +13,7 @@ import QodeSvg1489380 from "@designSystem/icon/svg/QodeSvg1489380"
 import QodeSvg1489381 from "@designSystem/icon/svg/QodeSvg1489381"
 import QodeSvg1489383 from "@designSystem/icon/svg/QodeSvg1489383"
 import QodeSvg14310024 from "@designSystem/icon/svg/QodeSvg14310024"
-import QodeSvgI14893091241293 from "@designSystem/icon/svg/QodeSvgI14893091241293"
+import { QodeTooltip } from "@designSystem/ant/QodeTooltip"
 import QodeSvg1489717 from "@designSystem/icon/svg/QodeSvg1489717"
 import QodeSvg1669188 from "@designSystem/icon/svg/QodeSvg1669188"
 import QodeSvg1669192 from "@designSystem/icon/svg/QodeSvg1669192"
@@ -150,10 +150,8 @@ export const QodeCustom1489712: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Screening",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -179,10 +177,8 @@ export const QodeCustom1489712: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Deep-dive",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -355,7 +351,7 @@ export const QodeCustom1489712: React.FC<
                 }}
               >{`CONCISE`}</span>
               {/* name="Tooltip" id="148:9309" type="INSTANCE" */}
-              <Flex
+              <QodeTooltip
                 style={{
                   display: "flex",
                   width: "244px",
@@ -369,61 +365,12 @@ export const QodeCustom1489712: React.FC<
                   boxShadow:
                     "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-white, #fff)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Drag this handle to adjust the interview`}</span>
-                {/* name="arrow" id="I148:9309;124:1293" type="VECTOR" */}
-                <QodeSvgI14893091241293
-                  style={{
-                    width: "16px",
-                    height: "8px",
-                    position: "absolute",
-                    left: "114px",
-                    top: "-8px",
-                    fill: "var(--neutral-gray-95, #383838)",
-                  }}
-                  {...{}}
-                />
-                {/* name="Button" id="I148:9309;3132:12964" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheightsm, 24px)",
-                    padding:
-                      "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxxs, 4px)",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
-                  }}
-                  {...{
-                    iconLeft: false,
-                    selectIconLeft: <Icon.QodeIcons />,
-                    buttonname: "Button",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    iconRight: false,
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    type: "primary",
-                    size: "small",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: true,
-                  }}
-                />
-              </Flex>
+                {...{
+                  showArrow: true,
+                  title: "Drag this handle to adjust the interview",
+                  placement: "bottom",
+                }}
+              />
             </div>
           </div>
         </>
@@ -544,10 +491,8 @@ export const QodeCustom1489712: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Screening",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -573,10 +518,8 @@ export const QodeCustom1489712: React.FC<
                     {...{
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
-                      iconRight: false,
                       buttonname: "Deep-dive",
                       selectIconLeft: <Icon.QodePenToSquare />,
-                      iconLeft: false,
                       type: "default",
                       size: "small",
                       state: "default",

@@ -47,8 +47,6 @@ export const QodeCustom34322689: React.FC<
                 borderRadius: "var(--border-radius-rounded, 999px)",
               }}
               {...{
-                iconLeft: false,
-                iconRight: false,
                 buttonname: "Button",
                 type: "link",
                 size: "default",
@@ -82,9 +80,7 @@ export const QodeCustom34322689: React.FC<
                   background: "var(--background-bg-white, #fff)",
                 }}
                 {...{
-                  iconLeft: false,
                   buttonname: "Button",
-                  iconRight: false,
                   type: "default",
                   size: "default",
                   state: "default",
@@ -108,8 +104,6 @@ export const QodeCustom34322689: React.FC<
                 }}
                 {...{
                   buttonname: "Button",
-                  iconRight: false,
-                  iconLeft: false,
                   type: "primary",
                   size: "default",
                   state: "default",
@@ -165,9 +159,7 @@ export const QodeCustom34322689: React.FC<
                   background: "var(--background-bg-white, #fff)",
                 }}
                 {...{
-                  iconLeft: false,
                   buttonname: "Button",
-                  iconRight: false,
                   type: "default",
                   size: "default",
                   state: "default",
@@ -192,8 +184,6 @@ export const QodeCustom34322689: React.FC<
                 }}
                 {...{
                   buttonname: "Button",
-                  iconRight: false,
-                  iconLeft: false,
                   type: "primary",
                   size: "default",
                   state: "default",
@@ -248,9 +238,7 @@ export const QodeCustom34322689: React.FC<
                   background: "var(--background-bg-white, #fff)",
                 }}
                 {...{
-                  iconLeft: false,
                   buttonname: "Button",
-                  iconRight: false,
                   type: "default",
                   size: "default",
                   state: "default",
@@ -274,8 +262,6 @@ export const QodeCustom34322689: React.FC<
                 }}
                 {...{
                   buttonname: "Button",
-                  iconRight: false,
-                  iconLeft: false,
                   type: "primary",
                   size: "default",
                   state: "default",
@@ -322,8 +308,6 @@ export const QodeCustom34322689: React.FC<
               }}
               {...{
                 buttonname: "Button",
-                iconRight: false,
-                iconLeft: false,
                 type: "primary",
                 size: "default",
                 state: "default",

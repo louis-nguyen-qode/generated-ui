@@ -4,9 +4,13 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import QodeSvgI6023516960235089 from "@designSystem/icon/svg/QodeSvgI6023516960235089"
-import QodeSvgI6023774060235089 from "@designSystem/icon/svg/QodeSvgI6023774060235089"
-import QodeSvgI6023789960235089 from "@designSystem/icon/svg/QodeSvgI6023789960235089"
+import { QodeCustom60235103 } from "@designSystem/custom/QodeCustom60235103"
+import { QodeCustom32840351 } from "@designSystem/custom/QodeCustom32840351"
+import { QodeCustom29615477 } from "@designSystem/custom/QodeCustom29615477"
+import { QodeCustom61628977 } from "@designSystem/custom/QodeCustom61628977"
+import { QodeCustom59527986 } from "@designSystem/custom/QodeCustom59527986"
+import { QodeCustom59528222 } from "@designSystem/custom/QodeCustom59528222"
+import { QodeCustom59833885 } from "@designSystem/custom/QodeCustom59833885"
 
 export interface QodeCustom59527786Props {
   property_1?: "Default" | "Variant2" | "Variant3"
@@ -93,7 +97,6 @@ export const QodeCustom59527786: React.FC<
                         selectIconRight: <Icon.QodeMagnifyingGlass />,
                         onlyIcon: <Icon.QodeChevronLeft />,
                         buttonname: "Source new job",
-                        iconRight: false,
                         selectIconLeft: <Icon.QodePlus />,
                         iconLeft: true,
                         type: "default",
@@ -282,7 +285,6 @@ export const QodeCustom59527786: React.FC<
                     {...{
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
                       iconLeft: true,
-                      iconRight: false,
                       buttonname: "Share report",
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       selectIconLeft: <Icon.QodeLinkSimple />,
@@ -305,7 +307,7 @@ export const QodeCustom59527786: React.FC<
                   }}
                 >
                   {/* name="Overall" id="602:35169" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom60235103
                     style={{
                       display: "flex",
                       width: "285px",
@@ -320,137 +322,8 @@ export const QodeCustom59527786: React.FC<
                         "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     }}
-                  >
-                    {/* name="Status" id="I602:35169;602:35083" type="FRAME" */}
-                    <div
-                      style={{
-                        display: "flex",
-                        padding: "var(--size-size-sizexxs-6px, 6px) 32px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        gap: "10px",
-                        borderRadius: "99px",
-                        background: "var(--green-green-50, #11a620)",
-                        boxShadow: "1px 1px 4px 0px rgba(0, 0, 0, 0.25) inset",
-                      }}
-                    >
-                      <span
-                        style={{
-                          color: "var(--text-text-white, #fff)",
-                          textAlign: "center",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-large, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--lineheight-lineheight-lg, 22px) /* 137.5% */",
-                        }}
-                      >{`Passed`}</span>
-                    </div>
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-30, #656565)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-size-sizemd-20px, 20px)",
-                        fontStyle: "normal",
-                        fontWeight: "600",
-                        lineHeight:
-                          "var(--lineheight-lineheight-xl, 28px) /* 140% */",
-                      }}
-                    >{`Overall score`}</span>
-                    {/* name="Progress__Circle" id="I602:35169;602:35088" type="FRAME" */}
-                    <div style={{ width: "128px", height: "128px" }}>
-                      {/* name="progress-circle" id="I602:35169;602:35089" type="FRAME" */}
-                      <QodeSvgI6023516960235089
-                        style={{
-                          width: "128px",
-                          height: "128px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                      <span
-                        style={{
-                          color: "var(--text-text-neutral-50, #1d1d1d)",
-                          textAlign: "center",
-                          fontFamily:
-                            'var(--font-family-fontfamily, "sf pro display")',
-                          fontSize: "var(--font-size-heading1, 40px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--line-height-lineheighxl, 28px) /* 70% */",
-                        }}
-                      >{`75`}</span>
-                      {/* name="100" id="I602:35169;602:35093" type="FRAME" */}
-                      <div
-                        style={{
-                          display: "inline-flex",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          gap: "8px",
-                        }}
-                      >
-                        {/* name="Line 30" id="I602:35169;602:35094" type="LINE" */}
-                        <Flex
-                          style={{
-                            width: "41px",
-                            height: "1px",
-                            background:
-                              "var(--border-border-neutral-30, #d5d5d5)",
-                          }}
-                        >
-                          {/* name="Line 30" id=I602:35169;602:35094 type=LINE */}
-                          <></>
-                        </Flex>
-                        <span
-                          style={{
-                            alignSelf: "stretch",
-                            color: "var(--text-text-neutral-30, #656565)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "12px",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight: "9px /* 75% */",
-                            letterSpacing: "0.2px",
-                          }}
-                        >{`100`}</span>
-                      </div>
-                    </div>
-                    {/* name="Button" id="I602:35169;602:35650" type="INSTANCE" */}
-                    <QodeButton
-                      style={{
-                        display: "flex",
-                        width: "80px",
-                        height: "var(--size-height-controlheight, 32px)",
-                        padding: "4px 16px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        gap: "8px",
-                        borderRadius: "var(--border-radius-rounded, 999px)",
-                        border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
-                        background: "var(--background-bg-white, #fff)",
-                      }}
-                      {...{
-                        onlyIcon: <Icon.QodeMagnifyingGlass />,
-                        iconRight: false,
-                        selectIconLeft: <Icon.QodePencil />,
-                        selectIconRight: <Icon.QodeMagnifyingGlass />,
-                        buttonname: "Edit",
-                        iconLeft: true,
-                        type: "default",
-                        size: "default",
-                        state: "default",
-                        content: "default",
-                        danger: false,
-                        ghost: false,
-                      }}
-                    />
-                  </Flex>
+                    {...{ property_1: "Pass" }}
+                  />
                   {/* name="Evaluation" id="590:30380" type="FRAME" */}
                   <div
                     style={{
@@ -514,7 +387,6 @@ export const QodeCustom59527786: React.FC<
                         }}
                         {...{
                           onlyIcon: <Icon.QodeMagnifyingGlass />,
-                          iconRight: false,
                           selectIconLeft: <Icon.QodePencil />,
                           selectIconRight: <Icon.QodeMagnifyingGlass />,
                           buttonname: "Edit",
@@ -540,7 +412,7 @@ export const QodeCustom59527786: React.FC<
                       }}
                     >
                       {/* name="Skill" id="590:30386" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -555,79 +427,10 @@ export const QodeCustom59527786: React.FC<
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Communication`}</span>
-                        {/* name="Score" id="I590:30386;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`85`}</span>
-                          {/* name="Line 30" id="I590:30386;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I590:30386;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="590:30387" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -642,79 +445,10 @@ export const QodeCustom59527786: React.FC<
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`PHP Laravel`}</span>
-                        {/* name="Score" id="I590:30387;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`70`}</span>
-                          {/* name="Line 30" id="I590:30387;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I590:30387;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="590:30388" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -729,79 +463,10 @@ export const QodeCustom59527786: React.FC<
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Leadership`}</span>
-                        {/* name="Score" id="I590:30388;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I590:30388;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I590:30388;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="590:30389" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -816,79 +481,10 @@ export const QodeCustom59527786: React.FC<
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Python & Django`}</span>
-                        {/* name="Score" id="I590:30389;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I590:30389;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I590:30389;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="590:30390" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -903,79 +499,10 @@ export const QodeCustom59527786: React.FC<
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Banking experience`}</span>
-                        {/* name="Score" id="I590:30390;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I590:30390;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I590:30390;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="590:30391" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -990,77 +517,8 @@ export const QodeCustom59527786: React.FC<
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`PostgreSQL`}</span>
-                        {/* name="Score" id="I590:30391;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I590:30391;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I590:30391;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                     </div>
                   </div>
                 </div>
@@ -1090,7 +548,7 @@ export const QodeCustom59527786: React.FC<
                   }}
                 >
                   {/* name=".tab__item" id="590:30394" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -1100,26 +558,17 @@ export const QodeCustom59527786: React.FC<
                       borderBottom:
                         "2px solid var(--border-border-primary-20, #158de2)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I590:30394;296:15486" type="INSTANCE" */}
-                    <Icon.QodeStarChristmas
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-lg, 22px) /* 137.5% */",
-                      }}
-                    >{`Feedbacks`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeStarChristmas />,
+                      showIcon: true,
+                      title: "Feedback",
+                      size: "large",
+                      position: "top",
+                      state: "active",
+                    }}
+                  />
                   {/* name=".tab__item" id="590:30395" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -1127,25 +576,17 @@ export const QodeCustom59527786: React.FC<
                       alignItems: "center",
                       gap: "var(--size-padding-paddingxs, 8px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I590:30395;296:15494" type="INSTANCE" */}
-                    <Icon.QodeBlockQuote
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-40, #464646)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight: "24px /* 150% */",
-                      }}
-                    >{`Question summary`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeBlockQuote />,
+                      showIcon: true,
+                      title: "Question summary",
+                      size: "large",
+                      position: "top",
+                      state: "default",
+                    }}
+                  />
                   {/* name=".tab__item" id="590:30396" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -1153,23 +594,15 @@ export const QodeCustom59527786: React.FC<
                       alignItems: "center",
                       gap: "var(--size-padding-paddingxs, 8px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I590:30396;296:15494" type="INSTANCE" */}
-                    <Icon.QodeVideo
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-40, #464646)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight: "24px /* 150% */",
-                      }}
-                    >{`Video & transcript`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeVideo />,
+                      showIcon: true,
+                      title: "Video & transcript",
+                      size: "large",
+                      position: "top",
+                      state: "default",
+                    }}
+                  />
                 </div>
                 {/* name="outlines" id="590:30397" type="FRAME" */}
                 <div
@@ -1274,7 +707,6 @@ export const QodeCustom59527786: React.FC<
                           selectIconRight: <Icon.QodeMagnifyingGlass />,
                           onlyIcon: <Icon.QodePencil />,
                           buttonname: "Edit",
-                          iconRight: false,
                           selectIconLeft: <Icon.QodePencil />,
                           iconLeft: true,
                           type: "default",
@@ -1379,7 +811,6 @@ export const QodeCustom59527786: React.FC<
                         selectIconRight: <Icon.QodeMagnifyingGlass />,
                         onlyIcon: <Icon.QodePencil />,
                         buttonname: "Edit",
-                        iconRight: false,
                         selectIconLeft: <Icon.QodePencil />,
                         iconLeft: true,
                         type: "default",
@@ -1483,7 +914,6 @@ export const QodeCustom59527786: React.FC<
                         selectIconRight: <Icon.QodeMagnifyingGlass />,
                         onlyIcon: <Icon.QodePencil />,
                         buttonname: "Edit",
-                        iconRight: false,
                         selectIconLeft: <Icon.QodePencil />,
                         iconLeft: true,
                         type: "default",
@@ -1499,7 +929,7 @@ export const QodeCustom59527786: React.FC<
               </div>
             </div>
             {/* name="Report/End" id="616:28979" type="INSTANCE" */}
-            <Flex
+            <QodeCustom61628977
               style={{
                 display: "flex",
                 padding: "40px 0px",
@@ -1509,32 +939,8 @@ export const QodeCustom59527786: React.FC<
                 gap: "20px",
                 alignSelf: "stretch",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-20, #878787)",
-                  fontFamily: "Barlow",
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight: "16px /* 114.286% */",
-                }}
-              >{`END OF REPORT`}</span>
-              <span
-                style={{
-                  width: "484px",
-                  color: "var(--text-text-neutral-20, #878787)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`AI evaluation may not fully capture candidate’s potential.
-Please interpret this assessment with caution.`}</span>
-            </Flex>
+              {...{}}
+            />
           </div>
         </>
       )}
@@ -1613,7 +1019,6 @@ Please interpret this assessment with caution.`}</span>
                         selectIconRight: <Icon.QodeMagnifyingGlass />,
                         onlyIcon: <Icon.QodeChevronLeft />,
                         buttonname: "Source new job",
-                        iconRight: false,
                         selectIconLeft: <Icon.QodePlus />,
                         iconLeft: true,
                         type: "default",
@@ -1802,7 +1207,6 @@ Please interpret this assessment with caution.`}</span>
                     {...{
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
                       iconLeft: true,
-                      iconRight: false,
                       buttonname: "Share report",
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       selectIconLeft: <Icon.QodeLinkSimple />,
@@ -1825,7 +1229,7 @@ Please interpret this assessment with caution.`}</span>
                   }}
                 >
                   {/* name="Overall" id="602:37740" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom60235103
                     style={{
                       display: "flex",
                       width: "285px",
@@ -1840,137 +1244,8 @@ Please interpret this assessment with caution.`}</span>
                         "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     }}
-                  >
-                    {/* name="Status" id="I602:37740;602:35083" type="FRAME" */}
-                    <div
-                      style={{
-                        display: "flex",
-                        padding: "var(--size-size-sizexxs-6px, 6px) 32px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        gap: "10px",
-                        borderRadius: "99px",
-                        background: "var(--green-green-50, #11a620)",
-                        boxShadow: "1px 1px 4px 0px rgba(0, 0, 0, 0.25) inset",
-                      }}
-                    >
-                      <span
-                        style={{
-                          color: "var(--text-text-white, #fff)",
-                          textAlign: "center",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-large, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--lineheight-lineheight-lg, 22px) /* 137.5% */",
-                        }}
-                      >{`Passed`}</span>
-                    </div>
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-30, #656565)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-size-sizemd-20px, 20px)",
-                        fontStyle: "normal",
-                        fontWeight: "600",
-                        lineHeight:
-                          "var(--lineheight-lineheight-xl, 28px) /* 140% */",
-                      }}
-                    >{`Overall score`}</span>
-                    {/* name="Progress__Circle" id="I602:37740;602:35088" type="FRAME" */}
-                    <div style={{ width: "128px", height: "128px" }}>
-                      {/* name="progress-circle" id="I602:37740;602:35089" type="FRAME" */}
-                      <QodeSvgI6023774060235089
-                        style={{
-                          width: "128px",
-                          height: "128px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                      <span
-                        style={{
-                          color: "var(--text-text-neutral-50, #1d1d1d)",
-                          textAlign: "center",
-                          fontFamily:
-                            'var(--font-family-fontfamily, "sf pro display")',
-                          fontSize: "var(--font-size-heading1, 40px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--line-height-lineheighxl, 28px) /* 70% */",
-                        }}
-                      >{`75`}</span>
-                      {/* name="100" id="I602:37740;602:35093" type="FRAME" */}
-                      <div
-                        style={{
-                          display: "inline-flex",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          gap: "8px",
-                        }}
-                      >
-                        {/* name="Line 30" id="I602:37740;602:35094" type="LINE" */}
-                        <Flex
-                          style={{
-                            width: "41px",
-                            height: "1px",
-                            background:
-                              "var(--border-border-neutral-30, #d5d5d5)",
-                          }}
-                        >
-                          {/* name="Line 30" id=I602:37740;602:35094 type=LINE */}
-                          <></>
-                        </Flex>
-                        <span
-                          style={{
-                            alignSelf: "stretch",
-                            color: "var(--text-text-neutral-30, #656565)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "12px",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight: "9px /* 75% */",
-                            letterSpacing: "0.2px",
-                          }}
-                        >{`100`}</span>
-                      </div>
-                    </div>
-                    {/* name="Button" id="I602:37740;602:35650" type="INSTANCE" */}
-                    <QodeButton
-                      style={{
-                        display: "flex",
-                        width: "80px",
-                        height: "var(--size-height-controlheight, 32px)",
-                        padding: "4px 16px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        gap: "8px",
-                        borderRadius: "var(--border-radius-rounded, 999px)",
-                        border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
-                        background: "var(--background-bg-white, #fff)",
-                      }}
-                      {...{
-                        onlyIcon: <Icon.QodeMagnifyingGlass />,
-                        iconRight: false,
-                        selectIconLeft: <Icon.QodePencil />,
-                        selectIconRight: <Icon.QodeMagnifyingGlass />,
-                        buttonname: "Edit",
-                        iconLeft: true,
-                        type: "default",
-                        size: "default",
-                        state: "default",
-                        content: "default",
-                        danger: false,
-                        ghost: false,
-                      }}
-                    />
-                  </Flex>
+                    {...{ property_1: "Pass" }}
+                  />
                   {/* name="Evaluation" id="602:37741" type="FRAME" */}
                   <div
                     style={{
@@ -2034,7 +1309,6 @@ Please interpret this assessment with caution.`}</span>
                         }}
                         {...{
                           onlyIcon: <Icon.QodeMagnifyingGlass />,
-                          iconRight: false,
                           selectIconLeft: <Icon.QodePencil />,
                           selectIconRight: <Icon.QodeMagnifyingGlass />,
                           buttonname: "Edit",
@@ -2060,7 +1334,7 @@ Please interpret this assessment with caution.`}</span>
                       }}
                     >
                       {/* name="Skill" id="602:37747" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -2075,79 +1349,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Communication`}</span>
-                        {/* name="Score" id="I602:37747;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`85`}</span>
-                          {/* name="Line 30" id="I602:37747;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37747;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37748" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -2162,79 +1367,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`PHP Laravel`}</span>
-                        {/* name="Score" id="I602:37748;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`70`}</span>
-                          {/* name="Line 30" id="I602:37748;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37748;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37749" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -2249,79 +1385,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Leadership`}</span>
-                        {/* name="Score" id="I602:37749;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I602:37749;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37749;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37750" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -2336,79 +1403,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Python & Django`}</span>
-                        {/* name="Score" id="I602:37750;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I602:37750;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37750;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37751" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -2423,79 +1421,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Banking experience`}</span>
-                        {/* name="Score" id="I602:37751;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I602:37751;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37751;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37752" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -2510,77 +1439,8 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`PostgreSQL`}</span>
-                        {/* name="Score" id="I602:37752;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I602:37752;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37752;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                     </div>
                   </div>
                 </div>
@@ -2610,7 +1470,7 @@ Please interpret this assessment with caution.`}</span>
                   }}
                 >
                   {/* name=".tab__item" id="595:27839" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -2618,25 +1478,17 @@ Please interpret this assessment with caution.`}</span>
                       alignItems: "center",
                       gap: "var(--size-padding-paddingxs, 8px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I595:27839;296:15494" type="INSTANCE" */}
-                    <Icon.QodeStarChristmas
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-40, #464646)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight: "24px /* 150% */",
-                      }}
-                    >{`Feedbacks`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeStarChristmas />,
+                      showIcon: true,
+                      title: "Feedback",
+                      size: "large",
+                      position: "top",
+                      state: "default",
+                    }}
+                  />
                   {/* name=".tab__item" id="595:27840" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -2646,26 +1498,17 @@ Please interpret this assessment with caution.`}</span>
                       borderBottom:
                         "2px solid var(--border-border-primary-20, #158de2)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I595:27840;296:15486" type="INSTANCE" */}
-                    <Icon.QodeBlockQuote
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-lg, 22px) /* 137.5% */",
-                      }}
-                    >{`Question summary`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeBlockQuote />,
+                      showIcon: true,
+                      title: "Question summary",
+                      size: "large",
+                      position: "top",
+                      state: "active",
+                    }}
+                  />
                   {/* name=".tab__item" id="595:27841" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -2673,23 +1516,15 @@ Please interpret this assessment with caution.`}</span>
                       alignItems: "center",
                       gap: "var(--size-padding-paddingxs, 8px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I595:27841;296:15494" type="INSTANCE" */}
-                    <Icon.QodeVideo
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-40, #464646)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight: "24px /* 150% */",
-                      }}
-                    >{`Video & transcript`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeVideo />,
+                      showIcon: true,
+                      title: "Video & transcript",
+                      size: "large",
+                      position: "top",
+                      state: "default",
+                    }}
+                  />
                 </div>
                 {/* name="outlines" id="595:27842" type="FRAME" */}
                 <div
@@ -2804,7 +1639,7 @@ Please interpret this assessment with caution.`}</span>
                         }}
                       >
                         {/* name="Interview question" id="595:27928" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59527986
                           style={{
                             display: "flex",
                             justifyContent: "flex-end",
@@ -2812,55 +1647,10 @@ Please interpret this assessment with caution.`}</span>
                             gap: "16px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Frame 37328" id="I595:27928;595:27987" type="FRAME" */}
-                          <div
-                            style={{
-                              display: "flex",
-                              width: "20px",
-                              height: "20px",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                              gap: "10px",
-                              borderRadius: "4px",
-                              background: "var(--neutral-gray-10, #e3e3e3)",
-                            }}
-                          >
-                            <span
-                              style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                justifyContent: "center",
-                                flex: "1 0 0",
-                                alignSelf: "stretch",
-                                color: "var(--text-text-neutral-50, #1d1d1d)",
-                                textAlign: "center",
-                                fontFamily:
-                                  'var(--family-family, "sf pro display")',
-                                fontSize: "var(--size-small, 12px)",
-                                fontStyle: "normal",
-                                fontWeight: "700",
-                                lineHeight:
-                                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                              }}
-                            >{`1`}</span>
-                          </div>
-                          <span
-                            style={{
-                              flex: "1 0 0",
-                              color: "var(--text-text-neutral-30, #656565)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`Introduce yourself and summarize your background, focusing on your skills and relevant experience?`}</span>
-                        </Flex>
+                          {...{ state: "View (report)" }}
+                        />
                         {/* name="Report/Response" id="595:28224" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59528222
                           style={{
                             display: "flex",
                             flexDirection: "column",
@@ -2868,90 +1658,8 @@ Please interpret this assessment with caution.`}</span>
                             gap: "4px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Report/Rating" id="I595:28224;595:28209" type="INSTANCE" */}
-                          <Flex
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "2px",
-                              alignSelf: "stretch",
-                            }}
-                          >
-                            {/* name="star" id="I595:28224;595:28209;595:28140" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28224;595:28209;595:28141" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28224;595:28209;595:28142" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28224;595:28209;595:28150" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28224;595:28209;595:28144" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                          </Flex>
-                          <span
-                            style={{
-                              alignSelf: "stretch",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`Candidate provided a clear introduction, highlighting relevant skills and experience. However, the summary lacked depth in certain areas and could have been more concise. `}</span>
-                        </Flex>
+                          {...{}}
+                        />
                       </div>
                       {/* name="-" id="595:27929" type="LINE" */}
                       <Flex
@@ -2975,7 +1683,7 @@ Please interpret this assessment with caution.`}</span>
                         }}
                       >
                         {/* name="Interview question" id="595:27930" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59527986
                           style={{
                             display: "flex",
                             justifyContent: "flex-end",
@@ -2983,55 +1691,10 @@ Please interpret this assessment with caution.`}</span>
                             gap: "16px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Frame 37328" id="I595:27930;595:27987" type="FRAME" */}
-                          <div
-                            style={{
-                              display: "flex",
-                              width: "20px",
-                              height: "20px",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                              gap: "10px",
-                              borderRadius: "4px",
-                              background: "var(--neutral-gray-10, #e3e3e3)",
-                            }}
-                          >
-                            <span
-                              style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                justifyContent: "center",
-                                flex: "1 0 0",
-                                alignSelf: "stretch",
-                                color: "var(--text-text-neutral-50, #1d1d1d)",
-                                textAlign: "center",
-                                fontFamily:
-                                  'var(--family-family, "sf pro display")',
-                                fontSize: "var(--size-small, 12px)",
-                                fontStyle: "normal",
-                                fontWeight: "700",
-                                lineHeight:
-                                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                              }}
-                            >{`2`}</span>
-                          </div>
-                          <span
-                            style={{
-                              flex: "1 0 0",
-                              color: "var(--text-text-neutral-30, #656565)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`Describe a conflict within a team. How did you handle it with different types of team member or stakeholders, and what was the outcome?`}</span>
-                        </Flex>
+                          {...{ state: "View (report)" }}
+                        />
                         {/* name="Report/Response" id="595:28304" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59528222
                           style={{
                             display: "flex",
                             flexDirection: "column",
@@ -3039,90 +1702,8 @@ Please interpret this assessment with caution.`}</span>
                             gap: "4px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Report/Rating" id="I595:28304;595:28209" type="INSTANCE" */}
-                          <Flex
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "2px",
-                              alignSelf: "stretch",
-                            }}
-                          >
-                            {/* name="star" id="I595:28304;595:28209;595:28126" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28304;595:28209;595:28127" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28304;595:28209;595:28128" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28304;595:28209;595:28129" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28304;595:28209;595:28130" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                          </Flex>
-                          <span
-                            style={{
-                              alignSelf: "stretch",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`While candidate’s approach showed a basic understanding of conflict resolution, the response lacked specific details on adapting to different personalities. The outcome was positive, but the resolution process could have been clearer.`}</span>
-                        </Flex>
+                          {...{}}
+                        />
                       </div>
                       {/* name="-" id="595:27931" type="LINE" */}
                       <Flex
@@ -3146,7 +1727,7 @@ Please interpret this assessment with caution.`}</span>
                         }}
                       >
                         {/* name="Interview question" id="595:27932" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59527986
                           style={{
                             display: "flex",
                             justifyContent: "flex-end",
@@ -3154,55 +1735,10 @@ Please interpret this assessment with caution.`}</span>
                             gap: "16px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Frame 37328" id="I595:27932;595:27987" type="FRAME" */}
-                          <div
-                            style={{
-                              display: "flex",
-                              width: "20px",
-                              height: "20px",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                              gap: "10px",
-                              borderRadius: "4px",
-                              background: "var(--neutral-gray-10, #e3e3e3)",
-                            }}
-                          >
-                            <span
-                              style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                justifyContent: "center",
-                                flex: "1 0 0",
-                                alignSelf: "stretch",
-                                color: "var(--text-text-neutral-50, #1d1d1d)",
-                                textAlign: "center",
-                                fontFamily:
-                                  'var(--family-family, "sf pro display")',
-                                fontSize: "var(--size-small, 12px)",
-                                fontStyle: "normal",
-                                fontWeight: "700",
-                                lineHeight:
-                                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                              }}
-                            >{`3`}</span>
-                          </div>
-                          <span
-                            style={{
-                              flex: "1 0 0",
-                              color: "var(--text-text-neutral-30, #656565)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`What’s the most challenging project you’ve led?`}</span>
-                        </Flex>
+                          {...{ state: "View (report)" }}
+                        />
                         {/* name="Report/Response" id="595:28318" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59528222
                           style={{
                             display: "flex",
                             flexDirection: "column",
@@ -3210,90 +1746,8 @@ Please interpret this assessment with caution.`}</span>
                             gap: "4px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Report/Rating" id="I595:28318;595:28209" type="INSTANCE" */}
-                          <Flex
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "2px",
-                              alignSelf: "stretch",
-                            }}
-                          >
-                            {/* name="star" id="I595:28318;595:28209;595:28112" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28318;595:28209;595:28113" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28318;595:28209;595:28114" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28318;595:28209;595:28115" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28318;595:28209;595:28136" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                          </Flex>
-                          <span
-                            style={{
-                              alignSelf: "stretch",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`The candidate described a challenging project they led, highlighting complex problem-solving and strategic planning. They gave clear examples of obstacles and solutions, showcasing strong leadership and successful project outcomes.`}</span>
-                        </Flex>
+                          {...{}}
+                        />
                       </div>
                       {/* name="-" id="595:27933" type="LINE" */}
                       <Flex
@@ -3317,7 +1771,7 @@ Please interpret this assessment with caution.`}</span>
                         }}
                       >
                         {/* name="Interview question" id="595:27934" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59527986
                           style={{
                             display: "flex",
                             justifyContent: "flex-end",
@@ -3325,55 +1779,10 @@ Please interpret this assessment with caution.`}</span>
                             gap: "16px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Frame 37328" id="I595:27934;595:27987" type="FRAME" */}
-                          <div
-                            style={{
-                              display: "flex",
-                              width: "20px",
-                              height: "20px",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                              gap: "10px",
-                              borderRadius: "4px",
-                              background: "var(--neutral-gray-10, #e3e3e3)",
-                            }}
-                          >
-                            <span
-                              style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                justifyContent: "center",
-                                flex: "1 0 0",
-                                alignSelf: "stretch",
-                                color: "var(--text-text-neutral-50, #1d1d1d)",
-                                textAlign: "center",
-                                fontFamily:
-                                  'var(--family-family, "sf pro display")',
-                                fontSize: "var(--size-small, 12px)",
-                                fontStyle: "normal",
-                                fontWeight: "700",
-                                lineHeight:
-                                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                              }}
-                            >{`4`}</span>
-                          </div>
-                          <span
-                            style={{
-                              flex: "1 0 0",
-                              color: "var(--text-text-neutral-30, #656565)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`Explain the SOLID principles in software development. How do they help in writing maintainable and scalable code?`}</span>
-                        </Flex>
+                          {...{ state: "View (report)" }}
+                        />
                         {/* name="Report/Response" id="595:28332" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59528222
                           style={{
                             display: "flex",
                             flexDirection: "column",
@@ -3381,90 +1790,8 @@ Please interpret this assessment with caution.`}</span>
                             gap: "4px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Report/Rating" id="I595:28332;595:28209" type="INSTANCE" */}
-                          <Flex
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "2px",
-                              alignSelf: "stretch",
-                            }}
-                          >
-                            {/* name="star" id="I595:28332;595:28209;595:28112" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28332;595:28209;595:28113" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28332;595:28209;595:28114" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28332;595:28209;595:28115" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28332;595:28209;595:28136" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                          </Flex>
-                          <span
-                            style={{
-                              alignSelf: "stretch",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`The candidate clearly explained the SOLID principles. The response demonstrated a deep understanding of how adhering to these principles improves code quality and maintainability.`}</span>
-                        </Flex>
+                          {...{}}
+                        />
                       </div>
                       {/* name="-" id="595:27935" type="LINE" */}
                       <Flex
@@ -3488,7 +1815,7 @@ Please interpret this assessment with caution.`}</span>
                         }}
                       >
                         {/* name="Interview question" id="595:27936" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59527986
                           style={{
                             display: "flex",
                             justifyContent: "flex-end",
@@ -3496,55 +1823,10 @@ Please interpret this assessment with caution.`}</span>
                             gap: "16px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Frame 37328" id="I595:27936;595:27987" type="FRAME" */}
-                          <div
-                            style={{
-                              display: "flex",
-                              width: "20px",
-                              height: "20px",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                              gap: "10px",
-                              borderRadius: "4px",
-                              background: "var(--neutral-gray-10, #e3e3e3)",
-                            }}
-                          >
-                            <span
-                              style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                justifyContent: "center",
-                                flex: "1 0 0",
-                                alignSelf: "stretch",
-                                color: "var(--text-text-neutral-50, #1d1d1d)",
-                                textAlign: "center",
-                                fontFamily:
-                                  'var(--family-family, "sf pro display")',
-                                fontSize: "var(--size-small, 12px)",
-                                fontStyle: "normal",
-                                fontWeight: "700",
-                                lineHeight:
-                                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                              }}
-                            >{`5`}</span>
-                          </div>
-                          <span
-                            style={{
-                              flex: "1 0 0",
-                              color: "var(--text-text-neutral-30, #656565)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`What is a RESTful API? Can you explain its core components and how it differs from other web service architectures`}</span>
-                        </Flex>
+                          {...{ state: "View (report)" }}
+                        />
                         {/* name="Report/Response" id="595:28346" type="INSTANCE" */}
-                        <Flex
+                        <QodeCustom59528222
                           style={{
                             display: "flex",
                             flexDirection: "column",
@@ -3552,90 +1834,8 @@ Please interpret this assessment with caution.`}</span>
                             gap: "4px",
                             flex: "1 0 0",
                           }}
-                        >
-                          {/* name="Report/Rating" id="I595:28346;595:28209" type="INSTANCE" */}
-                          <Flex
-                            style={{
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "2px",
-                              alignSelf: "stretch",
-                            }}
-                          >
-                            {/* name="star" id="I595:28346;595:28209;595:28140" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28346;595:28209;595:28141" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28346;595:28209;595:28142" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28346;595:28209;595:28150" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                            {/* name="star" id="I595:28346;595:28209;595:28144" type="INSTANCE" */}
-                            <Icon.QodeStar
-                              style={{
-                                display: "flex",
-                                width: "var(--font-size-base, 14px)",
-                                height: "var(--font-size-base, 14px)",
-                                padding: "1.4px 1.221px 1.399px 1.228px",
-                                justifyContent: "center",
-                                alignItems: "center",
-                              }}
-                              {...{}}
-                            />
-                          </Flex>
-                          <span
-                            style={{
-                              alignSelf: "stretch",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-large, 16px)",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "24px /* 150% */",
-                            }}
-                          >{`Candidate contrasted REST with other web service architectures, such as SOAP, highlighting REST’s simplicity, scalability, and use of standard HTTP methods. However, the response lacks elaboration.`}</span>
-                        </Flex>
+                          {...{}}
+                        />
                       </div>
                     </div>
                     {/* name="Button" id="602:37622" type="INSTANCE" */}
@@ -3661,7 +1861,6 @@ Please interpret this assessment with caution.`}</span>
                         selectIconRight: <Icon.QodeMagnifyingGlass />,
                         onlyIcon: <Icon.QodePencil />,
                         buttonname: "Edit",
-                        iconRight: false,
                         selectIconLeft: <Icon.QodePencil />,
                         iconLeft: true,
                         type: "default",
@@ -3677,7 +1876,7 @@ Please interpret this assessment with caution.`}</span>
               </div>
             </div>
             {/* name="Report/End" id="616:29261" type="INSTANCE" */}
-            <Flex
+            <QodeCustom61628977
               style={{
                 display: "flex",
                 padding: "40px 0px",
@@ -3687,32 +1886,8 @@ Please interpret this assessment with caution.`}</span>
                 gap: "20px",
                 alignSelf: "stretch",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-20, #878787)",
-                  fontFamily: "Barlow",
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight: "16px /* 114.286% */",
-                }}
-              >{`END OF REPORT`}</span>
-              <span
-                style={{
-                  width: "484px",
-                  color: "var(--text-text-neutral-20, #878787)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`AI evaluation may not fully capture candidate’s potential.
-Please interpret this assessment with caution.`}</span>
-            </Flex>
+              {...{}}
+            />
           </div>
         </>
       )}
@@ -3791,7 +1966,6 @@ Please interpret this assessment with caution.`}</span>
                         selectIconRight: <Icon.QodeMagnifyingGlass />,
                         onlyIcon: <Icon.QodeChevronLeft />,
                         buttonname: "Source new job",
-                        iconRight: false,
                         selectIconLeft: <Icon.QodePlus />,
                         iconLeft: true,
                         type: "default",
@@ -3980,7 +2154,6 @@ Please interpret this assessment with caution.`}</span>
                     {...{
                       onlyIcon: <Icon.QodeMagnifyingGlass />,
                       iconLeft: true,
-                      iconRight: false,
                       buttonname: "Share report",
                       selectIconRight: <Icon.QodeMagnifyingGlass />,
                       selectIconLeft: <Icon.QodeLinkSimple />,
@@ -4003,7 +2176,7 @@ Please interpret this assessment with caution.`}</span>
                   }}
                 >
                   {/* name="Overall" id="602:37899" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom60235103
                     style={{
                       display: "flex",
                       width: "285px",
@@ -4018,137 +2191,8 @@ Please interpret this assessment with caution.`}</span>
                         "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     }}
-                  >
-                    {/* name="Status" id="I602:37899;602:35083" type="FRAME" */}
-                    <div
-                      style={{
-                        display: "flex",
-                        padding: "var(--size-size-sizexxs-6px, 6px) 32px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        gap: "10px",
-                        borderRadius: "99px",
-                        background: "var(--green-green-50, #11a620)",
-                        boxShadow: "1px 1px 4px 0px rgba(0, 0, 0, 0.25) inset",
-                      }}
-                    >
-                      <span
-                        style={{
-                          color: "var(--text-text-white, #fff)",
-                          textAlign: "center",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-large, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--lineheight-lineheight-lg, 22px) /* 137.5% */",
-                        }}
-                      >{`Passed`}</span>
-                    </div>
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-30, #656565)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-size-sizemd-20px, 20px)",
-                        fontStyle: "normal",
-                        fontWeight: "600",
-                        lineHeight:
-                          "var(--lineheight-lineheight-xl, 28px) /* 140% */",
-                      }}
-                    >{`Overall score`}</span>
-                    {/* name="Progress__Circle" id="I602:37899;602:35088" type="FRAME" */}
-                    <div style={{ width: "128px", height: "128px" }}>
-                      {/* name="progress-circle" id="I602:37899;602:35089" type="FRAME" */}
-                      <QodeSvgI6023789960235089
-                        style={{
-                          width: "128px",
-                          height: "128px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                      <span
-                        style={{
-                          color: "var(--text-text-neutral-50, #1d1d1d)",
-                          textAlign: "center",
-                          fontFamily:
-                            'var(--font-family-fontfamily, "sf pro display")',
-                          fontSize: "var(--font-size-heading1, 40px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--line-height-lineheighxl, 28px) /* 70% */",
-                        }}
-                      >{`75`}</span>
-                      {/* name="100" id="I602:37899;602:35093" type="FRAME" */}
-                      <div
-                        style={{
-                          display: "inline-flex",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          gap: "8px",
-                        }}
-                      >
-                        {/* name="Line 30" id="I602:37899;602:35094" type="LINE" */}
-                        <Flex
-                          style={{
-                            width: "41px",
-                            height: "1px",
-                            background:
-                              "var(--border-border-neutral-30, #d5d5d5)",
-                          }}
-                        >
-                          {/* name="Line 30" id=I602:37899;602:35094 type=LINE */}
-                          <></>
-                        </Flex>
-                        <span
-                          style={{
-                            alignSelf: "stretch",
-                            color: "var(--text-text-neutral-30, #656565)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "12px",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight: "9px /* 75% */",
-                            letterSpacing: "0.2px",
-                          }}
-                        >{`100`}</span>
-                      </div>
-                    </div>
-                    {/* name="Button" id="I602:37899;602:35650" type="INSTANCE" */}
-                    <QodeButton
-                      style={{
-                        display: "flex",
-                        width: "80px",
-                        height: "var(--size-height-controlheight, 32px)",
-                        padding: "4px 16px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        gap: "8px",
-                        borderRadius: "var(--border-radius-rounded, 999px)",
-                        border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
-                        background: "var(--background-bg-white, #fff)",
-                      }}
-                      {...{
-                        onlyIcon: <Icon.QodeMagnifyingGlass />,
-                        iconRight: false,
-                        selectIconLeft: <Icon.QodePencil />,
-                        selectIconRight: <Icon.QodeMagnifyingGlass />,
-                        buttonname: "Edit",
-                        iconLeft: true,
-                        type: "default",
-                        size: "default",
-                        state: "default",
-                        content: "default",
-                        danger: false,
-                        ghost: false,
-                      }}
-                    />
-                  </Flex>
+                    {...{ property_1: "Pass" }}
+                  />
                   {/* name="Evaluation" id="602:37900" type="FRAME" */}
                   <div
                     style={{
@@ -4212,7 +2256,6 @@ Please interpret this assessment with caution.`}</span>
                         }}
                         {...{
                           onlyIcon: <Icon.QodeMagnifyingGlass />,
-                          iconRight: false,
                           selectIconLeft: <Icon.QodePencil />,
                           selectIconRight: <Icon.QodeMagnifyingGlass />,
                           buttonname: "Edit",
@@ -4238,7 +2281,7 @@ Please interpret this assessment with caution.`}</span>
                       }}
                     >
                       {/* name="Skill" id="602:37906" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -4253,79 +2296,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Communication`}</span>
-                        {/* name="Score" id="I602:37906;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`85`}</span>
-                          {/* name="Line 30" id="I602:37906;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37906;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37907" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -4340,79 +2314,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`PHP Laravel`}</span>
-                        {/* name="Score" id="I602:37907;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`70`}</span>
-                          {/* name="Line 30" id="I602:37907;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37907;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37908" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -4427,79 +2332,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Leadership`}</span>
-                        {/* name="Score" id="I602:37908;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I602:37908;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37908;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37909" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -4514,79 +2350,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Python & Django`}</span>
-                        {/* name="Score" id="I602:37909;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I602:37909;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37909;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37910" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -4601,79 +2368,10 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`Banking experience`}</span>
-                        {/* name="Score" id="I602:37910;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I602:37910;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37910;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                       {/* name="Skill" id="602:37911" type="INSTANCE" */}
-                      <Flex
+                      <QodeCustom32840351
                         style={{
                           display: "flex",
                           minWidth: "257px",
@@ -4688,77 +2386,8 @@ Please interpret this assessment with caution.`}</span>
                             "1px solid var(--border-border-primary-10, #64b9f5)",
                           background: "var(--blue-techblue-5, #f8fcff)",
                         }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            maxHeight: "48px",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            flex: "1 0 0",
-                            alignSelf: "stretch",
-                            overflow: "hidden",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            textOverflow: "ellipsis",
-                            whiteSpace: "nowrap",
-                            fontFamily: '"SF Pro Display"',
-                            fontSize: "16px",
-                            fontStyle: "normal",
-                            fontWeight: "500",
-                            lineHeight: "24px /* 150% */",
-                          }}
-                        >{`PostgreSQL`}</span>
-                        {/* name="Score" id="I602:37911;328:40346" type="FRAME" */}
-                        <div
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "flex-end",
-                            alignItems: "flex-end",
-                            gap: "4px",
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: "46px",
-                              height: "29px",
-                              color: "var(--text-text-neutral-50, #1d1d1d)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "var(--size-heading4, 24px)",
-                              fontStyle: "normal",
-                              fontWeight: "600",
-                              lineHeight:
-                                "var(--lineheight-lineheight-h4, 32px) /* 133.333% */",
-                            }}
-                          >{`55`}</span>
-                          {/* name="Line 30" id="I602:37911;328:40348" type="LINE" */}
-                          <Flex
-                            style={{
-                              width: "24px",
-                              height: "1px",
-                              background:
-                                "var(--border-border-neutral-20, #e3e3e3)",
-                            }}
-                          >
-                            {/* name="Line 30" id=I602:37911;328:40348 type=LINE */}
-                            <></>
-                          </Flex>
-                          <span
-                            style={{
-                              color: "var(--text-text-neutral-30, #656565)",
-                              textAlign: "right",
-                              fontFamily:
-                                'var(--family-family, "sf pro display")',
-                              fontSize: "10px",
-                              fontStyle: "normal",
-                              fontWeight: "400",
-                              lineHeight: "9px /* 90% */",
-                            }}
-                          >{`100`}</span>
-                        </div>
-                      </Flex>
+                        {...{}}
+                      />
                     </div>
                   </div>
                 </div>
@@ -4788,7 +2417,7 @@ Please interpret this assessment with caution.`}</span>
                   }}
                 >
                   {/* name=".tab__item" id="598:28571" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -4796,25 +2425,17 @@ Please interpret this assessment with caution.`}</span>
                       alignItems: "center",
                       gap: "var(--size-padding-paddingxs, 8px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I598:28571;296:15494" type="INSTANCE" */}
-                    <Icon.QodeStarChristmas
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-40, #464646)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight: "24px /* 150% */",
-                      }}
-                    >{`Feedbacks`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeStarChristmas />,
+                      showIcon: true,
+                      title: "Feedback",
+                      size: "large",
+                      position: "top",
+                      state: "default",
+                    }}
+                  />
                   {/* name=".tab__item" id="598:28572" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -4822,25 +2443,17 @@ Please interpret this assessment with caution.`}</span>
                       alignItems: "center",
                       gap: "var(--size-padding-paddingxs, 8px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I598:28572;296:15494" type="INSTANCE" */}
-                    <Icon.QodeBlockQuote
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-40, #464646)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight: "24px /* 150% */",
-                      }}
-                    >{`Question summary`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeBlockQuote />,
+                      showIcon: true,
+                      title: "Question summary",
+                      size: "large",
+                      position: "top",
+                      state: "default",
+                    }}
+                  />
                   {/* name=".tab__item" id="598:28573" type="INSTANCE" */}
-                  <Flex
+                  <QodeCustom29615477
                     style={{
                       display: "flex",
                       padding: "16px 0px",
@@ -4850,24 +2463,15 @@ Please interpret this assessment with caution.`}</span>
                       borderBottom:
                         "2px solid var(--border-border-primary-20, #158de2)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I598:28573;296:15486" type="INSTANCE" */}
-                    <Icon.QodeVideo
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-large, 16px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-lg, 22px) /* 137.5% */",
-                      }}
-                    >{`Video & transcript`}</span>
-                  </Flex>
+                    {...{
+                      icon: <Icon.QodeVideo />,
+                      showIcon: true,
+                      title: "Video & transcript",
+                      size: "large",
+                      position: "top",
+                      state: "active",
+                    }}
+                  />
                 </div>
                 {/* name="outlines" id="598:28574" type="FRAME" */}
                 <div
@@ -4927,533 +2531,125 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="Report/Transcript item" id="598:33886" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`AI Interviewer`}</span>
-                      {/* name="summaryContent" id="I598:33886;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Can you start by introducing yourself and summarizing your background, especially focusing on your skills and relevant experience?`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33891" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`Nguyen Quoc Thai`}</span>
-                      {/* name="summaryContent" id="I598:33891;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Of course! I have a strong background in system integration and cloud services. Over the years, I’ve developed and managed complex systems that align with business needs. I’m proficient in technical execution and enjoy collaborating with teams to achieve our goals.`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33896" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`AI Interviewer`}</span>
-                      {/* name="summaryContent" id="I598:33896;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Great, thanks for that. Could you describe a conflict you’ve encountered within a team? How did you handle it with different types of team members or stakeholders, and what was the outcome?`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33900" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`Nguyen Quoc Thai`}</span>
-                      {/* name="summaryContent" id="I598:33900;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Certainly. In a recent project, there was a conflict between team members with differing priorities. I approached this by actively listening to each person’s perspective, facilitating open communication, and finding common ground. This approach helped resolve the conflict effectively and improved overall team cohesion.`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33904" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`AI Interviewer`}</span>
-                      {/* name="summaryContent" id="I598:33904;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`That sounds like a good approach. Now, can you tell me about the most challenging project you’ve led?`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33905" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`Nguyen Quoc Thai`}</span>
-                      {/* name="summaryContent" id="I598:33905;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Sure. One of the most challenging projects I led involved developing a complex system under tight deadlines. I tackled this by breaking down the project into manageable tasks, addressing obstacles creatively, and guiding the team through high-pressure situations. We completed the project successfully and met all our objectives.`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33912" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`AI Interviewer`}</span>
-                      {/* name="summaryContent" id="I598:33912;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Impressive. Can you explain the SOLID principles in software development and how they contribute to writing maintainable and scalable code?`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33913" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`Nguyen Quoc Thai`}</span>
-                      {/* name="summaryContent" id="I598:33913;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Absolutely. The SOLID principles are: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion. These principles help create modular, flexible, and maintainable code by reducing dependencies and improving code organization. They’re essential for writing scalable and robust software.`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33920" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`AI Interviewer`}</span>
-                      {/* name="summaryContent" id="I598:33920;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Finally, what is a RESTful API? Could you explain its core components and how it differs from other web service architectures?`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33921" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`Nguyen Quoc Thai`}</span>
-                      {/* name="summaryContent" id="I598:33921;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Certainly. A RESTful API uses standard HTTP methods like GET, POST, PUT, and DELETE, and is designed to be stateless, meaning each request contains all the information needed. It differs from SOAP in its simplicity and reliance on standard web protocols, making it more scalable and easier to work with.`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33928" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`AI Interviewer`}</span>
-                      {/* name="summaryContent" id="I598:33928;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Thank you for your responses. We will carefully review your answers and get back to you soon with our feedback. Have a great day!`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Report/Transcript item" id="598:33932" type="INSTANCE" */}
-                    <Flex
+                    <QodeCustom59833885
                       style={{
                         display: "flex",
                         alignItems: "flex-start",
                         gap: "60px",
                         alignSelf: "stretch",
                       }}
-                    >
-                      <span
-                        style={{
-                          width: "178px",
-                          color: "var(--text-text-neutral-40, #464646)",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-heading6, 16px)",
-                          fontStyle: "normal",
-                          fontWeight: "600",
-                          lineHeight:
-                            "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
-                        }}
-                      >{`Nguyen Quoc Thai`}</span>
-                      {/* name="summaryContent" id="I598:33932;598:33882" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          flex: "1 0 0",
-                        }}
-                      >
-                        <span
-                          style={{
-                            flex: "1 0 0",
-                            color: "var(--text-text-neutral-40, #464646)",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "400",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Thank you! I appreciate the opportunity.`}</span>
-                      </Flex>
-                    </Flex>
+                      {...{}}
+                    />
                     {/* name="Button" id="602:37683" type="INSTANCE" */}
                     <QodeButton
                       style={{
@@ -5477,7 +2673,6 @@ Please interpret this assessment with caution.`}</span>
                         selectIconRight: <Icon.QodeMagnifyingGlass />,
                         onlyIcon: <Icon.QodePencil />,
                         buttonname: "Edit",
-                        iconRight: false,
                         selectIconLeft: <Icon.QodePencil />,
                         iconLeft: true,
                         type: "default",
@@ -5493,7 +2688,7 @@ Please interpret this assessment with caution.`}</span>
               </div>
             </div>
             {/* name="Report/End" id="616:29435" type="INSTANCE" */}
-            <Flex
+            <QodeCustom61628977
               style={{
                 display: "flex",
                 padding: "40px 0px",
@@ -5503,32 +2698,8 @@ Please interpret this assessment with caution.`}</span>
                 gap: "20px",
                 alignSelf: "stretch",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-20, #878787)",
-                  fontFamily: "Barlow",
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight: "16px /* 114.286% */",
-                }}
-              >{`END OF REPORT`}</span>
-              <span
-                style={{
-                  width: "484px",
-                  color: "var(--text-text-neutral-20, #878787)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`AI evaluation may not fully capture candidate’s potential.
-Please interpret this assessment with caution.`}</span>
-            </Flex>
+              {...{}}
+            />
           </div>
         </>
       )}

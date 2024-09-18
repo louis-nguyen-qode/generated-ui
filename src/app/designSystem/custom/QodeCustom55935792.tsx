@@ -60,7 +60,6 @@ export const QodeCustom55935792: React.FC<
               {...{
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
-                iconRight: false,
                 buttonname: "Upload",
                 selectIconLeft: <Icon.QodeUpload />,
                 iconLeft: true,
@@ -120,10 +119,8 @@ export const QodeCustom55935792: React.FC<
               {...{
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
-                iconRight: false,
                 buttonname: "Uploading...",
                 selectIconLeft: <Icon.QodeUpload />,
-                iconLeft: false,
                 type: "default",
                 size: "small",
                 state: "default",
@@ -180,7 +177,6 @@ export const QodeCustom55935792: React.FC<
               {...{
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
-                iconRight: false,
                 buttonname: "View",
                 selectIconLeft: <Icon.QodeEye />,
                 iconLeft: true,

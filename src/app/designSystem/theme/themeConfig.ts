@@ -4,7 +4,8 @@ import { tokenRef } from "./designToken";
 
 const theme: ThemeConfig = {
   cssVar: {
-    prefix: ''
+    prefix: '',
+    key: '',
   },
   token: {
     ...tokenRef,

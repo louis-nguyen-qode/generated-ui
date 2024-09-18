@@ -83,7 +83,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -169,8 +169,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -232,7 +230,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -318,8 +316,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -381,7 +377,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -467,8 +463,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -530,7 +524,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -616,8 +610,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -679,7 +671,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -765,8 +757,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -829,7 +819,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -915,8 +905,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -978,7 +966,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1064,8 +1052,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1127,7 +1113,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1213,8 +1199,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1276,7 +1260,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1362,8 +1346,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1425,7 +1407,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1511,8 +1493,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1574,7 +1554,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -1659,8 +1639,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1723,7 +1701,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1808,8 +1786,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1871,7 +1847,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -1956,8 +1932,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2019,7 +1993,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2104,8 +2078,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2167,7 +2139,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2252,8 +2224,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2316,7 +2286,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -2401,8 +2371,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2464,7 +2432,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2549,8 +2517,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2612,7 +2578,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2697,8 +2663,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2760,7 +2724,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2845,8 +2809,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2908,7 +2870,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -2993,8 +2955,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3057,7 +3017,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -3142,8 +3102,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3206,7 +3164,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -3291,8 +3249,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3355,7 +3311,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -3440,8 +3396,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3504,7 +3458,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -3589,8 +3543,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3653,7 +3605,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -3738,8 +3690,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3802,7 +3752,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "active",
                   }}
                 />
@@ -3887,8 +3837,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3951,7 +3899,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -4036,8 +3984,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4099,7 +4045,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -4184,8 +4130,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4247,7 +4191,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -4332,8 +4276,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4395,7 +4337,7 @@ export const QodeCustom27892072: React.FC<
                   }}
                   {...{
                     direction: "vertical",
-                    style: "default",
+                    _style: "default",
                     state: "waiting",
                   }}
                 />
@@ -4480,8 +4422,6 @@ export const QodeCustom27892072: React.FC<
                     }}
                     {...{
                       buttonname: "See More",
-                      iconRight: false,
-                      iconLeft: false,
                       type: "text",
                       size: "small",
                       state: "default",

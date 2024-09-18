@@ -73,7 +73,7 @@ export const Qode49027960Page: React.FC<Qode49027960PageProps> = ({
               "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
             background: "var(--background-bg-white, #fff)",
           }}
-          {...{ visisted: false, state: "default" }}
+          {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="490:29041" type="INSTANCE" */}
         <QodeCustom409539
@@ -88,7 +88,7 @@ export const Qode49027960Page: React.FC<Qode49027960PageProps> = ({
               "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
             background: "var(--background-bg-white, #fff)",
           }}
-          {...{ visisted: false, state: "default" }}
+          {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="490:28045" type="INSTANCE" */}
         <QodeCustom409539
@@ -102,7 +102,7 @@ export const Qode49027960Page: React.FC<Qode49027960PageProps> = ({
             borderBottom: "2px solid var(--border-border-neutral-30, #d5d5d5)",
             background: "var(--background-bg-neutral-5, #f8f6f6)",
           }}
-          {...{ visisted: false, state: "hover" }}
+          {...{ state: "hover" }}
         />
         {/* name="Profile/List item" id="490:28046" type="INSTANCE" */}
         <QodeCustom409539
@@ -116,7 +116,7 @@ export const Qode49027960Page: React.FC<Qode49027960PageProps> = ({
             borderBottom: "2px solid var(--border-border-primary-20, #158de2)",
             background: "#F6FBFF",
           }}
-          {...{ visisted: false, state: "active" }}
+          {...{ state: "active" }}
         />
         {/* name="List | Profile" id="434:38159" type="INSTANCE" */}
         <QodeCustom43430029
@@ -282,7 +282,6 @@ export const Qode49027960Page: React.FC<Qode49027960PageProps> = ({
               item_7: "<QodeCustom18912628 />",
               item_5: "<QodeCustom18912628 />",
               item_8: "<QodeCustom18912628 />",
-              button: false,
               items: "7",
             }}
           />
@@ -314,7 +313,6 @@ export const Qode49027960Page: React.FC<Qode49027960PageProps> = ({
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeChevronLeft />,
                 buttonname: "Source new job",
-                iconRight: false,
                 selectIconLeft: <Icon.QodePlus />,
                 iconLeft: true,
                 type: "default",
@@ -364,10 +362,8 @@ export const Qode49027960Page: React.FC<Qode49027960PageProps> = ({
               {...{
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 onlyIcon: <Icon.QodeMagnifyingGlass />,
-                iconRight: false,
                 buttonname: "View JD",
                 selectIconLeft: <Icon.QodeIcons />,
-                iconLeft: false,
                 type: "default",
                 size: "small",
                 state: "default",

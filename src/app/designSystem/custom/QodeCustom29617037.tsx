@@ -3,6 +3,15 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom29615476 } from "@designSystem/custom/QodeCustom29615476"
+import { QodeCustom29615490 } from "@designSystem/custom/QodeCustom29615490"
+import { QodeCustom29615514 } from "@designSystem/custom/QodeCustom29615514"
+import { QodeCustom29615523 } from "@designSystem/custom/QodeCustom29615523"
+import { QodeCustom29615550 } from "@designSystem/custom/QodeCustom29615550"
+import { QodeCustom29615559 } from "@designSystem/custom/QodeCustom29615559"
+import { QodeCustom29615586 } from "@designSystem/custom/QodeCustom29615586"
+import { QodeCustom29615595 } from "@designSystem/custom/QodeCustom29615595"
+
 export interface QodeCustom29617037Props {
   items?: "6" | "5" | "4" | "3" | "2"
   position?: "bottom" | "left" | "right" | "top"
@@ -27,7 +36,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17009" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615476
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -37,21 +46,15 @@ export const QodeCustom29617037: React.FC<
                 borderBottom:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17010" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -59,21 +62,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17011" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -81,21 +78,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17012" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -103,21 +94,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 5" id="296:17013" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -125,21 +110,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 6" id="296:17014" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -147,19 +126,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -176,7 +149,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17232" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615476
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -186,21 +159,15 @@ export const QodeCustom29617037: React.FC<
                 borderBottom:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17233" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -208,21 +175,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17234" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -230,21 +191,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17235" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -252,21 +207,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 5" id="296:17236" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -274,19 +223,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -303,7 +246,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17257" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615476
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -313,21 +256,15 @@ export const QodeCustom29617037: React.FC<
                 borderBottom:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17258" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -335,21 +272,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17259" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -357,21 +288,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17260" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -379,19 +304,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -408,7 +327,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17278" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615476
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -418,21 +337,15 @@ export const QodeCustom29617037: React.FC<
                 borderBottom:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17279" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -440,21 +353,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17280" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -462,19 +369,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -491,7 +392,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17295" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615476
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -501,21 +402,15 @@ export const QodeCustom29617037: React.FC<
                 borderBottom:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17296" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615490
               style={{
                 display: "flex",
                 padding: "12px 0px",
@@ -523,19 +418,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "top",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -552,7 +441,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17688" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615514
               style={{
                 display: "flex",
                 padding:
@@ -562,21 +451,15 @@ export const QodeCustom29617037: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 borderTop: "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17689" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -585,21 +468,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17690" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -608,21 +485,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17691" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -631,21 +502,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 5" id="296:17692" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -654,21 +519,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 6" id="296:17693" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -677,19 +536,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -706,7 +559,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17695" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615514
               style={{
                 display: "flex",
                 padding:
@@ -716,21 +569,15 @@ export const QodeCustom29617037: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 borderTop: "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17696" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -739,21 +586,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17697" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -762,21 +603,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17698" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -785,21 +620,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 5" id="296:17699" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -808,19 +637,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -837,7 +660,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17701" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615514
               style={{
                 display: "flex",
                 padding:
@@ -847,21 +670,15 @@ export const QodeCustom29617037: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 borderTop: "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17702" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -870,21 +687,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17703" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -893,21 +704,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17704" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -916,19 +721,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -945,7 +744,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17706" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615514
               style={{
                 display: "flex",
                 padding:
@@ -955,21 +754,15 @@ export const QodeCustom29617037: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 borderTop: "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17707" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -978,21 +771,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17708" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -1001,19 +788,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1030,7 +811,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17710" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615514
               style={{
                 display: "flex",
                 padding:
@@ -1040,21 +821,15 @@ export const QodeCustom29617037: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 borderTop: "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17711" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615523
               style={{
                 display: "flex",
                 padding:
@@ -1063,19 +838,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "bottom",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1094,7 +863,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17833" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615550
               style={{
                 display: "flex",
                 padding:
@@ -1105,22 +874,15 @@ export const QodeCustom29617037: React.FC<
                 borderRight:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17834" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1129,22 +891,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17835" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1153,22 +908,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17836" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1177,22 +925,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 5" id="296:17837" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1201,22 +942,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 6" id="296:17838" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1225,20 +959,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1257,7 +984,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17840" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615550
               style={{
                 display: "flex",
                 padding:
@@ -1268,22 +995,15 @@ export const QodeCustom29617037: React.FC<
                 borderRight:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17841" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1292,22 +1012,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17842" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1316,22 +1029,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17843" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1340,22 +1046,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 5" id="296:17844" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1364,20 +1063,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1396,7 +1088,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17846" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615550
               style={{
                 display: "flex",
                 padding:
@@ -1407,22 +1099,15 @@ export const QodeCustom29617037: React.FC<
                 borderRight:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17847" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1431,22 +1116,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17848" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1455,22 +1133,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17849" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1479,20 +1150,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1511,7 +1175,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17851" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615550
               style={{
                 display: "flex",
                 padding:
@@ -1522,22 +1186,15 @@ export const QodeCustom29617037: React.FC<
                 borderRight:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17852" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1546,22 +1203,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17853" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1570,20 +1220,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1602,7 +1245,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17855" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615550
               style={{
                 display: "flex",
                 padding:
@@ -1613,22 +1256,15 @@ export const QodeCustom29617037: React.FC<
                 borderRight:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17856" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615559
               style={{
                 display: "flex",
                 padding:
@@ -1637,20 +1273,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  textAlign: "right",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "left",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1669,7 +1298,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17978" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615586
               style={{
                 display: "flex",
                 padding:
@@ -1680,21 +1309,15 @@ export const QodeCustom29617037: React.FC<
                 borderLeft:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17979" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1703,21 +1326,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17980" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1726,21 +1343,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17981" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1749,21 +1360,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 5" id="296:17982" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1772,21 +1377,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 6" id="296:17983" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1795,19 +1394,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1826,7 +1419,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17985" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615586
               style={{
                 display: "flex",
                 padding:
@@ -1837,21 +1430,15 @@ export const QodeCustom29617037: React.FC<
                 borderLeft:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17986" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1860,21 +1447,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17987" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1883,21 +1464,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17988" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1906,21 +1481,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 5" id="296:17989" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1929,19 +1498,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -1960,7 +1523,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17991" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615586
               style={{
                 display: "flex",
                 padding:
@@ -1971,21 +1534,15 @@ export const QodeCustom29617037: React.FC<
                 borderLeft:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17992" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -1994,21 +1551,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17993" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -2017,21 +1568,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 4" id="296:17994" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -2040,19 +1585,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -2071,7 +1610,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:17996" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615586
               style={{
                 display: "flex",
                 padding:
@@ -2082,21 +1621,15 @@ export const QodeCustom29617037: React.FC<
                 borderLeft:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:17997" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -2105,21 +1638,15 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
             {/* name="🧬 tab 3" id="296:17998" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -2128,19 +1655,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -2159,7 +1680,7 @@ export const QodeCustom29617037: React.FC<
             }}
           >
             {/* name="🧬 tab 1" id="296:18000" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615586
               style={{
                 display: "flex",
                 padding:
@@ -2170,21 +1691,15 @@ export const QodeCustom29617037: React.FC<
                 borderLeft:
                   "2px solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "active",
+              }}
+            />
             {/* name="🧬 tab 2" id="296:18001" type="INSTANCE" */}
-            <Flex
+            <QodeCustom29615595
               style={{
                 display: "flex",
                 padding:
@@ -2193,19 +1708,13 @@ export const QodeCustom29617037: React.FC<
                 alignItems: "center",
                 gap: "var(--size-padding-paddingxs, 8px)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tab title`}</span>
-            </Flex>
+              {...{
+                title: "Tab title",
+                size: "default",
+                position: "right",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}

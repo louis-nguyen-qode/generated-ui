@@ -1,17 +1,17 @@
-// id="170:23784"
+// id="426:20481"
 import React from "react"
 import { Flex } from "antd"
 import { Select, SelectProps } from "antd"
 
-export interface QodeSelectProps extends Omit<SelectProps, "title" | "state"> {
-  title?: string
-  state?: "default" | "hover" | "selected" | "selected multiple" | "disabled"
+export interface QodeSelectProps extends Omit<SelectProps, "active" | "size"> {
+  active?: "false" | "true"
+  size?: "default" | "large" | "small"
 }
 
 export const QodeSelect: React.FC<QodeSelectProps> = ({
-  title = "Select menu item",
-  state = "default",
+  active = "false",
+  size = "default",
   ...rest
 }) => {
-  return <Select title={title} state={state} {...rest} />
+  return <Select active={active} size={size} {...rest} />
 }

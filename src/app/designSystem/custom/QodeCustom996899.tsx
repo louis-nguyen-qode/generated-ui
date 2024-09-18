@@ -3,10 +3,12 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeTag } from "@designSystem/ant/QodeTag"
-import QodeSvgI99681318217652 from "@designSystem/icon/svg/QodeSvgI99681318217652"
+import { QodeCustom1828777 } from "@designSystem/custom/QodeCustom1828777"
+import { QodeSelect } from "@designSystem/ant/QodeSelect"
+import { QodeCustom18210113 } from "@designSystem/custom/QodeCustom18210113"
+import { QodeCustom18216941 } from "@designSystem/custom/QodeCustom18216941"
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import QodeSvgI99690718217652 from "@designSystem/icon/svg/QodeSvgI99690718217652"
+import { QodeCustom57057359 } from "@designSystem/custom/QodeCustom57057359"
 
 export interface QodeCustom996899Props {
   showSubject?: boolean
@@ -56,7 +58,7 @@ export const QodeCustom996899: React.FC<
               }}
             >
               {/* name="Input__Label" id="99:6808" type="INSTANCE" */}
-              <Flex
+              <QodeCustom1828777
                 style={{
                   display: "flex",
                   width: "73px",
@@ -64,58 +66,15 @@ export const QodeCustom996899: React.FC<
                   alignItems: "center",
                   gap: "var(--size-padding-paddingxxs, 4px)",
                 }}
-              >
-                {/* name="Icon" id="I99:6808;5769:7203" type="INSTANCE" */}
-                <Icon.QodeClockThree
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Send to`}</span>
-                <span
-                  style={{
-                    color: "var(--text-text-red, #dc3812)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`*`}</span>
-                {/* name="Icon" id="I99:6808;182:6058" type="INSTANCE" */}
-                <Icon.QodeCircleQuestion
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  icon: <Icon.QodeClockThree />,
+                  title: "Send to",
+                  direction: "horizontal",
+                  size: "default",
+                }}
+              />
               {/* name="Select" id="99:6809" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   flexDirection: "column",
@@ -125,107 +84,8 @@ export const QodeCustom996899: React.FC<
                   borderRadius: "var(--border-radius-base, 8px)",
                   border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 }}
-              >
-                {/* name="Input/Select" id="I99:6809;170:26363" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "0px var(--size-padding-paddingsm, 12px)",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxxs, 4px)",
-                    alignSelf: "stretch",
-                    borderRadius: "var(--style-radius-borderradius, 8px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                    background: "var(--neutral-white, #fff)",
-                  }}
-                >
-                  {/* name="Items Wrapper" id="I99:6809;170:26363;170:24392" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      alignContent: "center",
-                      gap: "4px var(--size-padding-paddingxxs, 4px)",
-                      flex: "1 0 0",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    {/* name="tag" id="I99:6809;170:26363;170:24380" type="INSTANCE" */}
-                    <QodeTag
-                      style={{
-                        display: "flex",
-                        height: "24px",
-                        padding: "0px 12px",
-                        alignItems: "center",
-                        gap: "var(--size-size-sizexxs-6px, 6px)",
-                        borderRadius: "4px",
-                        border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
-                        background: "var(--primary-primary-10, #d6eeff)",
-                      }}
-                      {...{
-                        showRIcon: true,
-                        rIcon: <Icon.QodeXmark />,
-                        color: "primary",
-                        state: "default",
-                        size: "Default",
-                        rounded: "False",
-                      }}
-                    />
-                    {/* name="tag" id="I99:6809;170:26363;170:24384" type="INSTANCE" */}
-                    <QodeTag
-                      style={{
-                        display: "flex",
-                        height: "24px",
-                        padding: "0px var(--size-padding-paddingxs, 8px)",
-                        alignItems: "center",
-                        gap: "var(--size-padding-paddingxxs, 4px)",
-                        borderRadius: "var(--style-radius-borderradiussm, 4px)",
-                        border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
-                        background: "var(--primary-primary-10, #d6eeff)",
-                      }}
-                      {...{
-                        showRIcon: true,
-                        rIcon: <Icon.QodeXmark />,
-                        color: "primary",
-                        state: "default",
-                        size: "Default",
-                        rounded: "False",
-                      }}
-                    />
-                    {/* name="tag" id="I99:6809;170:26363;170:24388" type="INSTANCE" */}
-                    <QodeTag
-                      style={{
-                        display: "flex",
-                        height: "24px",
-                        padding: "0px var(--size-padding-paddingxs, 8px)",
-                        alignItems: "center",
-                        gap: "var(--size-padding-paddingxxs, 4px)",
-                        borderRadius: "var(--style-radius-borderradiussm, 4px)",
-                        border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
-                        background: "var(--primary-primary-10, #d6eeff)",
-                      }}
-                      {...{
-                        showRIcon: true,
-                        rIcon: <Icon.QodeXmark />,
-                        color: "primary",
-                        state: "default",
-                        size: "Default",
-                        rounded: "False",
-                      }}
-                    />
-                  </div>
-                  {/* name="Icon" id="I99:6809;170:26363;170:24339" type="INSTANCE" */}
-                  <Icon.QodeChevronDown
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
-              </Flex>
+                {...{ active: false, size: "default" }}
+              />
             </div>
             {/* name="Subject" id="99:6810" type="FRAME" */}
             <div
@@ -238,7 +98,7 @@ export const QodeCustom996899: React.FC<
               }}
             >
               {/* name="Input__Label" id="99:6811" type="INSTANCE" */}
-              <Flex
+              <QodeCustom1828777
                 style={{
                   display: "flex",
                   width: "73px",
@@ -246,58 +106,15 @@ export const QodeCustom996899: React.FC<
                   alignItems: "center",
                   gap: "var(--size-padding-paddingxxs, 4px)",
                 }}
-              >
-                {/* name="Icon" id="I99:6811;5769:7203" type="INSTANCE" */}
-                <Icon.QodeClockThree
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Subject`}</span>
-                <span
-                  style={{
-                    color: "var(--text-text-red, #dc3812)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`*`}</span>
-                {/* name="Icon" id="I99:6811;182:6058" type="INSTANCE" */}
-                <Icon.QodeCircleQuestion
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  icon: <Icon.QodeClockThree />,
+                  title: "Subject",
+                  direction: "horizontal",
+                  size: "default",
+                }}
+              />
               {/* name="Input/Text" id="99:6812" type="INSTANCE" */}
-              <Flex
+              <QodeCustom18210113
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -311,74 +128,22 @@ export const QodeCustom996899: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-              >
-                {/* name="🎰 icon left" id="I99:6812;182:10156" type="INSTANCE" */}
-                <Icon.QodeUser
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px 2.4px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`PRE`}</span>
-                <span
-                  style={{
-                    display: "-webkit-box",
-                    WebkitBoxOrient: "vertical",
-                    WebkitLineClamp: "1",
-                    flex: "1 0 0",
-                    overflow: "hidden",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    textOverflow: "ellipsis",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Senior Software Engineer opportunity - [Company name]`}</span>
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`SUF`}</span>
-                {/* name="🎰 icon right" id="I99:6812;182:10160" type="INSTANCE" */}
-                <Icon.QodeUser
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px 2.4px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showClear: true,
+                  suffix: "SUF",
+                  title:
+                    "Senior Software Engineer opportunity - [Company name]",
+                  prefix: "PRE",
+                  iconRight: <Icon.QodeUser />,
+                  iconLeft: <Icon.QodeUser />,
+                  state: "filled",
+                  status: "default",
+                  size: "default",
+                }}
+              />
             </div>
             {/* name="Input__Text Area" id="99:6813" type="INSTANCE" */}
-            <Flex
+            <QodeCustom18216941
               style={{
                 display: "flex",
                 padding:
@@ -394,129 +159,12 @@ export const QodeCustom996899: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  alignSelf: "stretch",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Write a message...`}</span>
-              {/* name="Resizer" id="I99:6813;182:17652" type="BOOLEAN_OPERATION" */}
-              <QodeSvgI99681318217652
-                style={{
-                  width: "8.354px",
-                  height: "8.354px",
-                  position: "absolute",
-                  left: "589px",
-                  top: "196px",
-                  fill: "var(--color-neutral-text-colortext, #000)",
-                }}
-                {...{}}
-              />
-              {/* name="button" id="I99:6813;3012:28019" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  width: "566px",
-                  justifyContent: "space-between",
-                  alignItems: "flex-start",
-                  position: "absolute",
-                  left: "8px",
-                  bottom: "4px",
-                }}
-              >
-                {/* name="Button" id="I99:6813;3012:28020" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheightsm, 24px)",
-                    padding: "var(--size-padding-paddingxxs, 4px) 0px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxxs, 4px)",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                  }}
-                  {...{
-                    iconRight: false,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeArrowsRotateReverse />,
-                    iconLeft: true,
-                    type: "link",
-                    size: "small",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-                {/* name="vote" id="I99:6813;3012:28021" type="FRAME" */}
-                <div style={{ display: "flex", alignItems: "flex-start" }}>
-                  {/* name="Button" id="I99:6813;3012:28022" type="INSTANCE" */}
-                  <QodeButton
-                    style={{
-                      display: "flex",
-                      width: "24px",
-                      height: "var(--size-height-controlheightsm, 24px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "var(--size-padding-paddingxs, 8px)",
-                      borderRadius: "var(--border-radius-rounded, 999px)",
-                    }}
-                    {...{
-                      onlyIcon: <Icon.QodeThumbsUp />,
-                      iconLeft: false,
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      buttonname: "Rewrite",
-                      iconRight: false,
-                      selectIconLeft: <Icon.QodeIcons />,
-                      type: "text",
-                      size: "small",
-                      state: "default",
-                      content: "icon",
-                      danger: false,
-                      ghost: false,
-                    }}
-                  />
-                  {/* name="Button" id="I99:6813;3012:28023" type="INSTANCE" */}
-                  <QodeButton
-                    style={{
-                      display: "flex",
-                      width: "24px",
-                      height: "var(--size-height-controlheightsm, 24px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "var(--size-padding-paddingxs, 8px)",
-                      borderRadius: "var(--border-radius-rounded, 999px)",
-                    }}
-                    {...{
-                      onlyIcon: <Icon.QodeThumbsDown />,
-                      iconLeft: false,
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      buttonname: "Rewrite",
-                      iconRight: false,
-                      selectIconLeft: <Icon.QodeIcons />,
-                      type: "text",
-                      size: "small",
-                      state: "default",
-                      content: "icon",
-                      danger: false,
-                      ghost: false,
-                    }}
-                  />
-                </div>
-              </div>
-            </Flex>
+              {...{
+                title: "Write a message...",
+                state: "default",
+                size: "default",
+              }}
+            />
             {/* name="Btm" id="99:6814" type="FRAME" */}
             <div
               style={{
@@ -549,9 +197,7 @@ export const QodeCustom996899: React.FC<
                     onlyIcon: <Icon.QodeAngleUp />,
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
                     selectIconLeft: <Icon.QodeIcons />,
-                    iconRight: false,
                     buttonname: "Button",
-                    iconLeft: false,
                     type: "default",
                     size: "small",
                     state: "default",
@@ -561,88 +207,15 @@ export const QodeCustom996899: React.FC<
                   }}
                 />
                 {/* name="Rich text action" id="99:7383" type="INSTANCE" */}
-                <Flex
+                <QodeCustom57057359
                   style={{
                     display: "flex",
                     padding: "8px 0px",
                     alignItems: "center",
                     gap: "12px",
                   }}
-                >
-                  {/* name="w" id="I99:7383;5705:7341" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "4px",
-                    }}
-                  >
-                    {/* name="bold" id="I99:7383;5705:7342" type="INSTANCE" */}
-                    <Icon.QodeBold
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                    {/* name="italic" id="I99:7383;5705:7343" type="INSTANCE" */}
-                    <Icon.QodeItalic
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                    {/* name="underline" id="I99:7383;5705:7344" type="INSTANCE" */}
-                    <Icon.QodeUnderline
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                  </div>
-                  {/* name="divider" id="I99:7383;5705:7345" type="LINE" */}
-                  <Flex
-                    style={{
-                      width: "1px",
-                      height: "12px",
-                      background: "var(--border-border-neutral-30, #d5d5d5)",
-                    }}
-                  >
-                    {/* name="divider" id=I99:7383;5705:7345 type=LINE */}
-                    <></>
-                  </Flex>
-                  {/* name="Frame 2" id="I99:7383;5705:7346" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "4px",
-                    }}
-                  >
-                    {/* name="list-ul" id="I99:7383;5705:7347" type="INSTANCE" */}
-                    <Icon.QodeListUl
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                    {/* name="list-ol" id="I99:7383;5705:7348" type="INSTANCE" */}
-                    <Icon.QodeListOl
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                  </div>
-                  {/* name="divider" id="I99:7383;5705:7349" type="LINE" */}
-                  <Flex
-                    style={{
-                      width: "1px",
-                      height: "12px",
-                      background: "var(--border-border-neutral-30, #d5d5d5)",
-                    }}
-                  >
-                    {/* name="divider" id=I99:7383;5705:7349 type=LINE */}
-                    <></>
-                  </Flex>
-                  {/* name="font" id="I99:7383;5705:7350" type="GROUP" */}
-                  <Flex style={{ width: "20px", height: "20px" }}>
-                    {/* name="link" id="I99:7383;5705:7351" type="INSTANCE" */}
-                    <Icon.QodeLink
-                      style={{ width: "20px", height: "20px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
-                </Flex>
+                  {...{ property_1: "Formatter" }}
+                />
               </div>
               {/* name="Action" id="99:6817" type="FRAME" */}
               <div
@@ -665,7 +238,6 @@ export const QodeCustom996899: React.FC<
                   }}
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    iconRight: false,
                     selectIconLeft: <Icon.QodeVideoPlus />,
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Setup interview",
@@ -696,7 +268,6 @@ export const QodeCustom996899: React.FC<
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
-                    iconRight: false,
                     buttonname: "Send",
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
                     selectIconLeft: <Icon.QodePaperPlaneTop />,
@@ -734,7 +305,7 @@ export const QodeCustom996899: React.FC<
             }}
           >
             {/* name="Input__Text Area" id="99:6907" type="INSTANCE" */}
-            <Flex
+            <QodeCustom18216941
               style={{
                 display: "flex",
                 padding:
@@ -750,129 +321,12 @@ export const QodeCustom996899: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  alignSelf: "stretch",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Write a message...`}</span>
-              {/* name="Resizer" id="I99:6907;182:17652" type="BOOLEAN_OPERATION" */}
-              <QodeSvgI99690718217652
-                style={{
-                  width: "8.354px",
-                  height: "8.354px",
-                  position: "absolute",
-                  left: "589px",
-                  top: "72px",
-                  fill: "var(--color-neutral-text-colortext, #000)",
-                }}
-                {...{}}
-              />
-              {/* name="button" id="I99:6907;3012:28019" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  width: "566px",
-                  justifyContent: "space-between",
-                  alignItems: "flex-start",
-                  position: "absolute",
-                  left: "8px",
-                  bottom: "4px",
-                }}
-              >
-                {/* name="Button" id="I99:6907;3012:28020" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheightsm, 24px)",
-                    padding: "var(--size-padding-paddingxxs, 4px) 0px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxxs, 4px)",
-                    borderRadius: "var(--border-radius-rounded, 999px)",
-                  }}
-                  {...{
-                    iconRight: false,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeArrowsRotateReverse />,
-                    iconLeft: true,
-                    type: "link",
-                    size: "small",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-                {/* name="vote" id="I99:6907;3012:28021" type="FRAME" */}
-                <div style={{ display: "flex", alignItems: "flex-start" }}>
-                  {/* name="Button" id="I99:6907;3012:28022" type="INSTANCE" */}
-                  <QodeButton
-                    style={{
-                      display: "flex",
-                      width: "24px",
-                      height: "var(--size-height-controlheightsm, 24px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "var(--size-padding-paddingxs, 8px)",
-                      borderRadius: "var(--border-radius-rounded, 999px)",
-                    }}
-                    {...{
-                      onlyIcon: <Icon.QodeThumbsUp />,
-                      iconLeft: false,
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      buttonname: "Rewrite",
-                      iconRight: false,
-                      selectIconLeft: <Icon.QodeIcons />,
-                      type: "text",
-                      size: "small",
-                      state: "default",
-                      content: "icon",
-                      danger: false,
-                      ghost: false,
-                    }}
-                  />
-                  {/* name="Button" id="I99:6907;3012:28023" type="INSTANCE" */}
-                  <QodeButton
-                    style={{
-                      display: "flex",
-                      width: "24px",
-                      height: "var(--size-height-controlheightsm, 24px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "var(--size-padding-paddingxs, 8px)",
-                      borderRadius: "var(--border-radius-rounded, 999px)",
-                    }}
-                    {...{
-                      onlyIcon: <Icon.QodeThumbsDown />,
-                      iconLeft: false,
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      buttonname: "Rewrite",
-                      iconRight: false,
-                      selectIconLeft: <Icon.QodeIcons />,
-                      type: "text",
-                      size: "small",
-                      state: "default",
-                      content: "icon",
-                      danger: false,
-                      ghost: false,
-                    }}
-                  />
-                </div>
-              </div>
-            </Flex>
+              {...{
+                title: "Write a message...",
+                state: "default",
+                size: "default",
+              }}
+            />
             {/* name="Btm" id="99:6908" type="FRAME" */}
             <div
               style={{
@@ -905,9 +359,7 @@ export const QodeCustom996899: React.FC<
                     onlyIcon: <Icon.QodeAngleUp />,
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
                     selectIconLeft: <Icon.QodeIcons />,
-                    iconRight: false,
                     buttonname: "Button",
-                    iconLeft: false,
                     type: "default",
                     size: "small",
                     state: "default",
@@ -917,88 +369,15 @@ export const QodeCustom996899: React.FC<
                   }}
                 />
                 {/* name="Rich text action" id="99:6910" type="INSTANCE" */}
-                <Flex
+                <QodeCustom57057359
                   style={{
                     display: "flex",
                     padding: "8px 0px",
                     alignItems: "center",
                     gap: "12px",
                   }}
-                >
-                  {/* name="w" id="I99:6910;5705:7341" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "4px",
-                    }}
-                  >
-                    {/* name="bold" id="I99:6910;5705:7342" type="INSTANCE" */}
-                    <Icon.QodeBold
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                    {/* name="italic" id="I99:6910;5705:7343" type="INSTANCE" */}
-                    <Icon.QodeItalic
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                    {/* name="underline" id="I99:6910;5705:7344" type="INSTANCE" */}
-                    <Icon.QodeUnderline
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                  </div>
-                  {/* name="divider" id="I99:6910;5705:7345" type="LINE" */}
-                  <Flex
-                    style={{
-                      width: "1px",
-                      height: "12px",
-                      background: "var(--border-border-neutral-30, #d5d5d5)",
-                    }}
-                  >
-                    {/* name="divider" id=I99:6910;5705:7345 type=LINE */}
-                    <></>
-                  </Flex>
-                  {/* name="Frame 2" id="I99:6910;5705:7346" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "4px",
-                    }}
-                  >
-                    {/* name="list-ul" id="I99:6910;5705:7347" type="INSTANCE" */}
-                    <Icon.QodeListUl
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                    {/* name="list-ol" id="I99:6910;5705:7348" type="INSTANCE" */}
-                    <Icon.QodeListOl
-                      style={{ width: "20px", height: "20px" }}
-                      {...{}}
-                    />
-                  </div>
-                  {/* name="divider" id="I99:6910;5705:7349" type="LINE" */}
-                  <Flex
-                    style={{
-                      width: "1px",
-                      height: "12px",
-                      background: "var(--border-border-neutral-30, #d5d5d5)",
-                    }}
-                  >
-                    {/* name="divider" id=I99:6910;5705:7349 type=LINE */}
-                    <></>
-                  </Flex>
-                  {/* name="font" id="I99:6910;5705:7350" type="GROUP" */}
-                  <Flex style={{ width: "20px", height: "20px" }}>
-                    {/* name="link" id="I99:6910;5705:7351" type="INSTANCE" */}
-                    <Icon.QodeLink
-                      style={{ width: "20px", height: "20px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
-                </Flex>
+                  {...{ property_1: "Formatter" }}
+                />
               </div>
               {/* name="Action" id="99:6911" type="FRAME" */}
               <div
@@ -1021,7 +400,6 @@ export const QodeCustom996899: React.FC<
                   }}
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    iconRight: false,
                     selectIconLeft: <Icon.QodeVideoPlus />,
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Setup interview",
@@ -1052,7 +430,6 @@ export const QodeCustom996899: React.FC<
                   {...{
                     onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
-                    iconRight: false,
                     buttonname: "Send",
                     selectIconRight: <Icon.QodeMagnifyingGlass />,
                     selectIconLeft: <Icon.QodePaperPlaneTop />,

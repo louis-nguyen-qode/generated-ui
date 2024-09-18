@@ -3,8 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI864880562960 from "@designSystem/icon/svg/QodeSvgI864880562960"
-import QodeSvgI37821104562960 from "@designSystem/icon/svg/QodeSvgI37821104562960"
+import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
+import { QodeCustom773600 } from "@designSystem/custom/QodeCustom773600"
+import { QodeCustom39131653 } from "@designSystem/custom/QodeCustom39131653"
 
 export interface QodeCustom944525Props {
   property_1?: "Header" | "Variant2"
@@ -44,7 +45,7 @@ export const QodeCustom944525: React.FC<
               }}
             >
               {/* name="avatar" id="86:4880" type="INSTANCE" */}
-              <Flex
+              <QodeCustom562954
                 style={{
                   display: "flex",
                   width: "48px",
@@ -56,85 +57,13 @@ export const QodeCustom944525: React.FC<
                   borderRadius: "666px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I86:4880;5629:57" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "24px",
-                    height: "24px",
-                    padding: "2.4px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "12px",
-                    top: "12px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I86:4880;5629:58" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "48px",
-                    height: "48px",
-                    padding: "var(--size-padding-paddingxs, 12px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "12px",
-                    position: "absolute",
-                    borderRadius: "666px",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I86:4880;5629:58 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I86:4880;5629:59" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "9px",
-                    height: "9px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1.5px",
-                    bottom: "1.5px",
-                    borderRadius: "5.333px",
-                    border:
-                      "1.5px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I86:4880;5629:59 type=INSTANCE */}
-                  <></>
-                </Flex>
-                {/* name="opentoWork" id="I86:4880;5629:60" type="FRAME" */}
-                <QodeSvgI864880562960
-                  style={{
-                    width: "48px",
-                    height: "48px",
-                    position: "absolute",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Round",
+                  state: "Default",
+                }}
+              />
               {/* name="Frame 37305" id="86:4881" type="FRAME" */}
               <div
                 style={{
@@ -176,7 +105,7 @@ export const QodeCustom944525: React.FC<
                 style={{ display: "flex", alignItems: "center", gap: "8px" }}
               >
                 {/* name="Contact type" id="86:4886" type="INSTANCE" */}
-                <Flex
+                <QodeCustom773600
                   style={{
                     display: "flex",
                     width: "36px",
@@ -188,30 +117,10 @@ export const QodeCustom944525: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                >
-                  {/* name="linkedin" id="I86:4886;78:7669" type="INSTANCE" */}
-                  <Icon.QodeLinkedin
-                    style={{ width: "24px", height: "24px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  {/* name="Indicator" id="I86:4886;77:3593" type="ELLIPSE" */}
-                  <Flex
-                    style={{
-                      width: "8px",
-                      height: "8px",
-                      position: "absolute",
-                      right: "-2px",
-                      top: "-2px",
-                      borderRadius: "8px",
-                      background: "var(--red-red-40, #f85631)",
-                    }}
-                  >
-                    {/* name="Indicator" id=I86:4886;77:3593 type=ELLIPSE */}
-                    <></>
-                  </Flex>
-                </Flex>
+                  {...{ icon: <Icon.QodeLinkedin />, state: "Default" }}
+                />
                 {/* name="Contact type" id="86:4887" type="INSTANCE" */}
-                <Flex
+                <QodeCustom773600
                   style={{
                     display: "flex",
                     width: "36px",
@@ -223,30 +132,10 @@ export const QodeCustom944525: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                >
-                  {/* name="envelope" id="I86:4887;78:7669" type="INSTANCE" */}
-                  <Icon.QodeEnvelope
-                    style={{ width: "24px", height: "24px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  {/* name="Indicator" id="I86:4887;77:3593" type="ELLIPSE" */}
-                  <Flex
-                    style={{
-                      width: "8px",
-                      height: "8px",
-                      position: "absolute",
-                      right: "-2px",
-                      top: "-2px",
-                      borderRadius: "8px",
-                      background: "var(--red-red-40, #f85631)",
-                    }}
-                  >
-                    {/* name="Indicator" id=I86:4887;77:3593 type=ELLIPSE */}
-                    <></>
-                  </Flex>
-                </Flex>
+                  {...{ icon: <Icon.QodeEnvelope />, state: "Default" }}
+                />
                 {/* name="Contact type" id="86:4888" type="INSTANCE" */}
-                <Flex
+                <QodeCustom773600
                   style={{
                     display: "flex",
                     width: "36px",
@@ -258,28 +147,8 @@ export const QodeCustom944525: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                >
-                  {/* name="phone" id="I86:4888;78:7669" type="INSTANCE" */}
-                  <Icon.QodePhone
-                    style={{ width: "24px", height: "24px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  {/* name="Indicator" id="I86:4888;77:3593" type="ELLIPSE" */}
-                  <Flex
-                    style={{
-                      width: "8px",
-                      height: "8px",
-                      position: "absolute",
-                      right: "-2px",
-                      top: "-2px",
-                      borderRadius: "8px",
-                      background: "var(--red-red-40, #f85631)",
-                    }}
-                  >
-                    {/* name="Indicator" id=I86:4888;77:3593 type=ELLIPSE */}
-                    <></>
-                  </Flex>
-                </Flex>
+                  {...{ icon: <Icon.QodePhone />, state: "Default" }}
+                />
               </div>
               {/* name="🎰 icon" id="86:4889" type="INSTANCE" */}
               <Icon.QodeXmark
@@ -318,7 +187,7 @@ export const QodeCustom944525: React.FC<
               }}
             >
               {/* name="avatar" id="378:21104" type="INSTANCE" */}
-              <Flex
+              <QodeCustom562954
                 style={{
                   display: "flex",
                   width: "48px",
@@ -330,85 +199,13 @@ export const QodeCustom944525: React.FC<
                   borderRadius: "666px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I378:21104;5629:57" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "24px",
-                    height: "24px",
-                    padding: "2.4px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "12px",
-                    top: "12px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I378:21104;5629:58" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "48px",
-                    height: "48px",
-                    padding: "var(--size-padding-paddingxs, 12px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "12px",
-                    position: "absolute",
-                    borderRadius: "666px",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I378:21104;5629:58 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I378:21104;5629:59" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "9px",
-                    height: "9px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1.5px",
-                    bottom: "1.5px",
-                    borderRadius: "5.333px",
-                    border:
-                      "1.5px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I378:21104;5629:59 type=INSTANCE */}
-                  <></>
-                </Flex>
-                {/* name="opentoWork" id="I378:21104;5629:60" type="FRAME" */}
-                <QodeSvgI37821104562960
-                  style={{
-                    width: "48px",
-                    height: "48px",
-                    position: "absolute",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Round",
+                  state: "Default",
+                }}
+              />
               {/* name="Frame 37305" id="378:21105" type="FRAME" */}
               <div
                 style={{
@@ -444,7 +241,7 @@ export const QodeCustom944525: React.FC<
               </div>
             </div>
             {/* name="Finding" id="391:31684" type="INSTANCE" */}
-            <Flex
+            <QodeCustom39131653
               style={{
                 display: "flex",
                 width: "216px",
@@ -457,23 +254,8 @@ export const QodeCustom944525: React.FC<
                 borderRadius: "var(--border-radius-rounded, 999px)",
                 background: "var(--neutral-gray-10, #e3e3e3)",
               }}
-            >
-              {/* name="spinner" id="I391:31684;391:31664" type="INSTANCE" */}
-              <Icon.QodeSpinner
-                style={{ width: "24px", height: "24px", flexShrink: "0" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: '"SF Pro Display"',
-                  fontSize: "16px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "24px /* 150% */",
-                }}
-              >{`Finding contact info`}</span>
-            </Flex>
+              {...{ property_1: "Default" }}
+            />
           </div>
         </>
       )}

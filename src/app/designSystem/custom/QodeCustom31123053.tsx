@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeBadge } from "@designSystem/ant/QodeBadge"
+
 export interface QodeCustom31123053Props {
   status?: "upcoming" | "done" | "rejected"
 }
@@ -21,34 +23,10 @@ export const QodeCustom31123053: React.FC<
             style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}
           >
             {/* name="Badge__Status" id="434:26889" type="INSTANCE" */}
-            <Flex style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              {/* name="Dot" id="I434:26889;124:665" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  width: "var(--size-size-sizexxs-6px, 6px)",
-                  height: "var(--size-size-sizexxs-6px, 6px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  borderRadius: "var(--style-radius-borderradiuslg, 8px)",
-                  background: "var(--background-bg-green-hover, #11a620)",
-                }}
-              >
-                {/* name="Dot" id=I434:26889;124:665 type=FRAME */}
-                <></>
-              </div>
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Upcoming`}</span>
-            </Flex>
+            <QodeBadge
+              style={{ display: "flex", alignItems: "center", gap: "8px" }}
+              {...{ showLabel: true, status: "success" }}
+            />
           </div>
         </>
       )}
@@ -60,34 +38,10 @@ export const QodeCustom31123053: React.FC<
             style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}
           >
             {/* name="Badge__Status" id="434:26991" type="INSTANCE" */}
-            <Flex style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              {/* name="Dot" id="I434:26991;124:683" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  width: "var(--size-size-sizexxs-6px, 6px)",
-                  height: "var(--size-size-sizexxs-6px, 6px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  borderRadius: "var(--style-radius-borderradiuslg, 8px)",
-                  background: "var(--background-bg-primary, #1597f4)",
-                }}
-              >
-                {/* name="Dot" id=I434:26991;124:683 type=FRAME */}
-                <></>
-              </div>
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Interview finished`}</span>
-            </Flex>
+            <QodeBadge
+              style={{ display: "flex", alignItems: "center", gap: "8px" }}
+              {...{ showLabel: true, status: "default" }}
+            />
           </div>
         </>
       )}
@@ -99,34 +53,10 @@ export const QodeCustom31123053: React.FC<
             style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}
           >
             {/* name="Badge__Status" id="434:27079" type="INSTANCE" */}
-            <Flex style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              {/* name="Dot" id="I434:27079;124:674" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  width: "var(--size-size-sizexxs-6px, 6px)",
-                  height: "var(--size-size-sizexxs-6px, 6px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  borderRadius: "var(--style-radius-borderradiuslg, 8px)",
-                  background: "var(--color-error-colorerror, #dc3812)",
-                }}
-              >
-                {/* name="Dot" id=I434:27079;124:674 type=FRAME */}
-                <></>
-              </div>
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Missed`}</span>
-            </Flex>
+            <QodeBadge
+              style={{ display: "flex", alignItems: "center", gap: "8px" }}
+              {...{ showLabel: true, status: "error" }}
+            />
           </div>
         </>
       )}

@@ -4,6 +4,7 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom55930095 } from "@designSystem/custom/QodeCustom55930095"
 
 export interface QodeCustom55930057Props {
   state?: "Upcoming" | "Done" | "Canceled"
@@ -193,7 +194,6 @@ export const QodeCustom55930057: React.FC<
                 }}
                 {...{
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  iconRight: false,
                   selectIconLeft: <Icon.QodePenToSquare />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Edit",
@@ -208,7 +208,7 @@ export const QodeCustom55930057: React.FC<
               />
             </div>
             {/* name="Interview/Badge" id="559:30102" type="INSTANCE" */}
-            <Flex
+            <QodeCustom55930095
               style={{
                 display: "flex",
                 height: "24px",
@@ -228,27 +228,8 @@ export const QodeCustom55930057: React.FC<
                 background:
                   "linear-gradient(101deg, #CDF6FF 2.22%, #B8E1FF 97.78%)",
               }}
-            >
-              {/* name="stars" id="I559:30102;559:30091" type="INSTANCE" */}
-              <Icon.QodeStars
-                style={{
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`AI`}</span>
-            </Flex>
+              {...{}}
+            />
           </div>
         </>
       )}
@@ -430,7 +411,6 @@ export const QodeCustom55930057: React.FC<
                   onlyIcon: <Icon.QodeMagnifyingGlass />,
                   selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "View result",
-                  iconRight: false,
                   iconLeft: true,
                   type: "link",
                   size: "default",
@@ -442,7 +422,7 @@ export const QodeCustom55930057: React.FC<
               />
             </div>
             {/* name="Interview/Badge" id="559:30107" type="INSTANCE" */}
-            <Flex
+            <QodeCustom55930095
               style={{
                 display: "flex",
                 height: "24px",
@@ -462,27 +442,8 @@ export const QodeCustom55930057: React.FC<
                 background:
                   "linear-gradient(101deg, #CDF6FF 2.22%, #B8E1FF 97.78%)",
               }}
-            >
-              {/* name="stars" id="I559:30107;559:30091" type="INSTANCE" */}
-              <Icon.QodeStars
-                style={{
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`AI`}</span>
-            </Flex>
+              {...{}}
+            />
           </div>
         </>
       )}
@@ -599,7 +560,7 @@ export const QodeCustom55930057: React.FC<
               </div>
             </div>
             {/* name="Interview/Badge" id="559:30422" type="INSTANCE" */}
-            <Flex
+            <QodeCustom55930095
               style={{
                 display: "flex",
                 height: "24px",
@@ -619,27 +580,8 @@ export const QodeCustom55930057: React.FC<
                 background:
                   "linear-gradient(101deg, #CDF6FF 2.22%, #B8E1FF 97.78%)",
               }}
-            >
-              {/* name="stars" id="I559:30422;559:30091" type="INSTANCE" */}
-              <Icon.QodeStars
-                style={{
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--text-text-neutral-40, #464646)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`AI`}</span>
-            </Flex>
+              {...{}}
+            />
           </div>
         </>
       )}

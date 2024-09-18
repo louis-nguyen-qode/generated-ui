@@ -3,10 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI4323682562960 from "@designSystem/icon/svg/QodeSvgI4323682562960"
+import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import QodeSvgI49029092562960 from "@designSystem/icon/svg/QodeSvgI49029092562960"
-import QodeSvgI49029137562960 from "@designSystem/icon/svg/QodeSvgI49029137562960"
 
 export interface QodeCustom4323425Props {
   showDelete?: boolean
@@ -47,7 +45,7 @@ export const QodeCustom4323425: React.FC<
               }}
             >
               {/* name="avatar" id="43:23682" type="INSTANCE" */}
-              <Flex
+              <QodeCustom562954
                 style={{
                   display: "flex",
                   width: "36px",
@@ -60,85 +58,13 @@ export const QodeCustom4323425: React.FC<
                   borderRadius: "499.5px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I43:23682;5629:57" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "18px",
-                    height: "18px",
-                    padding: "1.8px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "9px",
-                    top: "9px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I43:23682;5629:58" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "36px",
-                    height: "36px",
-                    padding: "var(--size-padding-paddingxs, 9px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "9px",
-                    position: "absolute",
-                    borderRadius: "499.5px",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I43:23682;5629:58 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I43:23682;5629:59" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "6.75px",
-                    height: "6.75px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1.125px",
-                    bottom: "1.125px",
-                    borderRadius: "4px",
-                    border:
-                      "1.125px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I43:23682;5629:59 type=INSTANCE */}
-                  <></>
-                </Flex>
-                {/* name="opentoWork" id="I43:23682;5629:60" type="FRAME" */}
-                <QodeSvgI4323682562960
-                  style={{
-                    width: "36px",
-                    height: "36px",
-                    position: "absolute",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Round",
+                  state: "Default",
+                }}
+              />
               {/* name="R" id="43:23683" type="FRAME" */}
               <div
                 style={{
@@ -276,44 +202,14 @@ export const QodeCustom4323425: React.FC<
                 }}
               />
               {/* name="Upload CV" id="43:23367" type="INSTANCE" */}
-              <Flex
+              <div
                 style={{
                   display: "flex",
                   width: "124px",
                   alignItems: "flex-start",
                 }}
-              >
-                {/* name="Button" id="I43:23367;11588:3979" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding:
-                      "var(--size-padding-paddingxxs, 4px) var(--size-padding-padding, 16px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxs, 8px)",
-                    flex: "1 0 0",
-                    borderRadius: "var(--style-radius-borderround, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                    background:
-                      "var(--color-neutral-background-colorbgcontainer, #fff)",
-                  }}
-                  {...{
-                    icononly: <Icon.QodeMagnifyingGlass />,
-                    iconR: <Icon.QodeMagnifyingGlass />,
-                    iconL: true,
-                    title: "Upload CV",
-                    type: "default",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-              </Flex>
+                {...{ property_1: "Default" }}
+              />
             </div>
             {/* name="Indicator" id="43:23368" type="ELLIPSE" */}
             <Flex
@@ -353,7 +249,6 @@ export const QodeCustom4323425: React.FC<
                 onlyIcon: <Icon.QodeTrash />,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 selectIconLeft: <Icon.QodeIcons />,
-                iconRight: false,
                 buttonname: "Button",
                 iconLeft: true,
                 type: "default",
@@ -394,7 +289,7 @@ export const QodeCustom4323425: React.FC<
               }}
             >
               {/* name="avatar" id="490:29092" type="INSTANCE" */}
-              <Flex
+              <QodeCustom562954
                 style={{
                   display: "flex",
                   width: "36px",
@@ -407,85 +302,13 @@ export const QodeCustom4323425: React.FC<
                   borderRadius: "499.5px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I490:29092;5629:57" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "18px",
-                    height: "18px",
-                    padding: "1.8px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "9px",
-                    top: "9px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I490:29092;5629:58" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "36px",
-                    height: "36px",
-                    padding: "var(--size-padding-paddingxs, 9px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "9px",
-                    position: "absolute",
-                    borderRadius: "499.5px",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I490:29092;5629:58 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I490:29092;5629:59" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "6.75px",
-                    height: "6.75px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1.125px",
-                    bottom: "1.125px",
-                    borderRadius: "4px",
-                    border:
-                      "1.125px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I490:29092;5629:59 type=INSTANCE */}
-                  <></>
-                </Flex>
-                {/* name="opentoWork" id="I490:29092;5629:60" type="FRAME" */}
-                <QodeSvgI49029092562960
-                  style={{
-                    width: "36px",
-                    height: "36px",
-                    position: "absolute",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Round",
+                  state: "Default",
+                }}
+              />
               {/* name="R" id="490:29093" type="FRAME" */}
               <div
                 style={{
@@ -623,44 +446,14 @@ export const QodeCustom4323425: React.FC<
                 }}
               />
               {/* name="Upload CV" id="246:16856" type="INSTANCE" */}
-              <Flex
+              <div
                 style={{
                   display: "flex",
                   width: "124px",
                   alignItems: "flex-start",
                 }}
-              >
-                {/* name="Button" id="I246:16856;11588:3979" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding:
-                      "var(--size-padding-paddingxxs, 4px) var(--size-padding-padding, 16px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxs, 8px)",
-                    flex: "1 0 0",
-                    borderRadius: "var(--style-radius-borderround, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                    background:
-                      "var(--color-neutral-background-colorbgcontainer, #fff)",
-                  }}
-                  {...{
-                    icononly: <Icon.QodeMagnifyingGlass />,
-                    iconR: <Icon.QodeMagnifyingGlass />,
-                    iconL: true,
-                    title: "Upload CV",
-                    type: "default",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-              </Flex>
+                {...{ property_1: "Default" }}
+              />
             </div>
             {/* name="Indicator" id="246:16857" type="ELLIPSE" */}
             <Flex
@@ -700,7 +493,6 @@ export const QodeCustom4323425: React.FC<
                 onlyIcon: <Icon.QodeTrash />,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 selectIconLeft: <Icon.QodeIcons />,
-                iconRight: false,
                 buttonname: "Button",
                 iconLeft: true,
                 type: "default",
@@ -741,7 +533,7 @@ export const QodeCustom4323425: React.FC<
               }}
             >
               {/* name="avatar" id="490:29137" type="INSTANCE" */}
-              <Flex
+              <QodeCustom562954
                 style={{
                   display: "flex",
                   width: "36px",
@@ -754,85 +546,13 @@ export const QodeCustom4323425: React.FC<
                   borderRadius: "499.5px",
                   background: "var(--color-success-colorsuccesshover, #a3c73e)",
                 }}
-              >
-                <span
-                  style={{
-                    alignSelf: "stretch",
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`AW`}</span>
-                {/* name="user-large" id="I490:29137;5629:57" type="INSTANCE" */}
-                <Icon.QodeUserLarge
-                  style={{
-                    display: "flex",
-                    width: "18px",
-                    height: "18px",
-                    padding: "1.8px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    left: "9px",
-                    top: "9px",
-                  }}
-                  {...{}}
-                />
-                {/* name="img" id="I490:29137;5629:58" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    width: "36px",
-                    height: "36px",
-                    padding: "var(--size-padding-paddingxs, 9px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "9px",
-                    position: "absolute",
-                    borderRadius: "499.5px",
-                    background:
-                      "url(<path-to-image>) lightgray 50% / cover no-repeat, url(<path-to-image>) lightgray 50% / cover no-repeat",
-                  }}
-                >
-                  {/* name="img" id=I490:29137;5629:58 type=FRAME */}
-                  <></>
-                </div>
-                {/* name="Badge" id="I490:29137;5629:59" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "6.75px",
-                    height: "6.75px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    position: "absolute",
-                    right: "1.125px",
-                    bottom: "1.125px",
-                    borderRadius: "4px",
-                    border:
-                      "1.125px solid var(--color-neutral-background-colorbgcontainer, #fff)",
-                    background: "var(--color-error-colorerror, #ff6542)",
-                  }}
-                >
-                  {/* name="Badge" id=I490:29137;5629:59 type=INSTANCE */}
-                  <></>
-                </Flex>
-                {/* name="opentoWork" id="I490:29137;5629:60" type="FRAME" */}
-                <QodeSvgI49029137562960
-                  style={{
-                    width: "36px",
-                    height: "36px",
-                    position: "absolute",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  opentowork: true,
+                  img: true,
+                  type: "Round",
+                  state: "Default",
+                }}
+              />
               {/* name="R" id="490:29138" type="FRAME" */}
               <div
                 style={{
@@ -971,45 +691,15 @@ export const QodeCustom4323425: React.FC<
                 }}
               />
               {/* name="Upload CV" id="43:23397" type="INSTANCE" */}
-              <Flex
+              <div
                 style={{
                   display: "flex",
                   width: "124px",
                   alignItems: "flex-start",
                   flexShrink: "0",
                 }}
-              >
-                {/* name="Button" id="I43:23397;11588:3979" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    display: "flex",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding:
-                      "var(--size-padding-paddingxxs, 4px) var(--size-padding-padding, 16px)",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-padding-paddingxs, 8px)",
-                    flex: "1 0 0",
-                    borderRadius: "var(--style-radius-borderround, 999px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                    background:
-                      "var(--color-neutral-background-colorbgcontainer, #fff)",
-                  }}
-                  {...{
-                    icononly: <Icon.QodeMagnifyingGlass />,
-                    iconR: <Icon.QodeMagnifyingGlass />,
-                    iconL: true,
-                    title: "Upload CV",
-                    type: "default",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
-              </Flex>
+                {...{ property_1: "Default" }}
+              />
             </div>
             {/* name="Indicator" id="43:23398" type="ELLIPSE" */}
             <Flex
@@ -1048,7 +738,6 @@ export const QodeCustom4323425: React.FC<
                 onlyIcon: <Icon.QodeTrash />,
                 selectIconRight: <Icon.QodeMagnifyingGlass />,
                 selectIconLeft: <Icon.QodeIcons />,
-                iconRight: false,
                 buttonname: "Button",
                 iconLeft: true,
                 type: "default",

@@ -55,12 +55,7 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="189:12622" type="INSTANCE" */}
             <Icon.QodeUser
@@ -113,12 +108,7 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="189:12636" type="INSTANCE" */}
             <Icon.QodeUser
@@ -171,12 +161,7 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="189:12642" type="INSTANCE" */}
             <Icon.QodeUser
@@ -229,12 +214,7 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="189:12648" type="INSTANCE" */}
             <Icon.QodeUser
@@ -286,12 +266,7 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="189:12654" type="INSTANCE" */}
             <Icon.QodeUser
@@ -344,12 +319,7 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="189:12658" type="INSTANCE" */}
             <Icon.QodeUser
@@ -402,12 +372,7 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="189:12662" type="INSTANCE" */}
             <Icon.QodeUser
@@ -460,12 +425,7 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-              {...{
-                showTitle: false,
-                title: "Checkbox",
-                status: "inactive",
-                state: "default",
-              }}
+              {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="189:12666" type="INSTANCE" */}
             <Icon.QodeUser

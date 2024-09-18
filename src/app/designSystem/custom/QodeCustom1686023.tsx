@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom1672922 } from "@designSystem/custom/QodeCustom1672922"
+import { QodeCustom1672907 } from "@designSystem/custom/QodeCustom1672907"
+
 export interface QodeCustom1686023Props {
   items?: "2" | "3" | "4" | "5" | "6"
 }
@@ -30,7 +33,7 @@ export const QodeCustom1686023: React.FC<
             }}
           >
             {/* name=".menu__item" id="168:6025" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672922
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -42,22 +45,10 @@ export const QodeCustom1686023: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{ showTitle: true, title: "Navigation Item", state: "hover" }}
+            />
             {/* name=".menu__item" id="168:6026" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -67,21 +58,12 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -102,7 +84,7 @@ export const QodeCustom1686023: React.FC<
             }}
           >
             {/* name=".menu__item" id="168:6028" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672922
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -114,22 +96,10 @@ export const QodeCustom1686023: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{ showTitle: true, title: "Navigation Item", state: "hover" }}
+            />
             {/* name=".menu__item" id="168:6029" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -139,23 +109,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6030" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -165,21 +126,12 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -200,7 +152,7 @@ export const QodeCustom1686023: React.FC<
             }}
           >
             {/* name=".menu__item" id="168:6032" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672922
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -212,22 +164,10 @@ export const QodeCustom1686023: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{ showTitle: true, title: "Navigation Item", state: "hover" }}
+            />
             {/* name=".menu__item" id="168:6033" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -237,23 +177,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6034" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -263,23 +194,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6035" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -289,21 +211,12 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -324,7 +237,7 @@ export const QodeCustom1686023: React.FC<
             }}
           >
             {/* name=".menu__item" id="168:6037" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672922
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -336,22 +249,10 @@ export const QodeCustom1686023: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{ showTitle: true, title: "Navigation Item", state: "hover" }}
+            />
             {/* name=".menu__item" id="168:6038" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -361,23 +262,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6039" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -387,23 +279,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6040" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -413,23 +296,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6041" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -439,21 +313,12 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -474,7 +339,7 @@ export const QodeCustom1686023: React.FC<
             }}
           >
             {/* name=".menu__item" id="168:6043" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672922
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -486,22 +351,10 @@ export const QodeCustom1686023: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{ showTitle: true, title: "Navigation Item", state: "hover" }}
+            />
             {/* name=".menu__item" id="168:6044" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -511,23 +364,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6045" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -537,23 +381,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6046" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -563,23 +398,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6047" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -589,23 +415,14 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
             {/* name=".menu__item" id="168:6048" type="INSTANCE" */}
-            <Flex
+            <QodeCustom1672907
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -615,21 +432,12 @@ export const QodeCustom1686023: React.FC<
                 alignSelf: "stretch",
                 borderRadius: "var(--style-radius-borderradiusxl, 16px)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Navigation Item`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "Navigation Item",
+                state: "default",
+              }}
+            />
           </div>
         </>
       )}

@@ -3,20 +3,23 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom48536870 } from "@designSystem/custom/QodeCustom48536870"
+import { QodeCustom475443 } from "@designSystem/custom/QodeCustom475443"
+
 export interface QodeCustom48612Props {
   urgent?: boolean
   state?: "default" | "hovered"
-  style?: "Simple"
+  _style?: "Simple"
 }
 
 export const QodeCustom48612: React.FC<
   QodeCustom48612Props & { style?: CSSProperties }
-> = ({ urgent = false, state = "default", style = "Simple", ...rest }) => {
+> = ({ urgent = false, state = "default", _style = "Simple", ...rest }) => {
   return (
     <>
       {/* name="Job item" id="4:8612" type="COMPONENT_SET" */}
       {/* id="47:5527" */}
-      {`${state}` === `default` && `${style}` === `Simple` && (
+      {`${state}` === `default` && `${_style}` === `Simple` && (
         <>
           {/* name="State=default, Style=Simple" id="47:5527" type="COMPONENT" */}
           <div
@@ -85,7 +88,7 @@ export const QodeCustom48612: React.FC<
                 }}
               >
                 {/* name="Job/Attributes" id="485:36887" type="INSTANCE" */}
-                <Flex
+                <QodeCustom48536870
                   style={{
                     display: "flex",
                     padding: "4px 12px",
@@ -94,75 +97,8 @@ export const QodeCustom48612: React.FC<
                     borderRadius: "99px",
                     background: "var(--neutral-gray-5, #f8f6f6)",
                   }}
-                >
-                  {/* name="Urgent" id="I485:36887;485:36863" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      padding: "2px var(--size-size-sizexxs-6px, 6px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "10px",
-                      borderRadius: "12px",
-                      background: "var(--neutral-gray-90, #464646)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        color: "#FFF",
-                        textAlign: "center",
-                        fontFamily: '"SF Pro Display"',
-                        fontSize: "10px",
-                        fontStyle: "normal",
-                        fontWeight: "600",
-                        lineHeight: "normal",
-                      }}
-                    >{`URGENT`}</span>
-                  </div>
-                  {/* name="Yoe" id="I485:36887;485:36865" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "12px",
-                    }}
-                  >
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`3 yoe`}</span>
-                    {/* name="Line 3" id="I485:36887;485:36867" type="LINE" */}
-                    <Flex
-                      style={{
-                        width: "1px",
-                        height: "8px",
-                        background: "var(--border-border-neutral-50, #6f6f6f)",
-                      }}
-                    >
-                      {/* name="Line 3" id=I485:36887;485:36867 type=LINE */}
-                      <></>
-                    </Flex>
-                  </div>
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "400",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Vietnam`}</span>
-                </Flex>
+                  {...{ property_1: "full" }}
+                />
                 {/* name="Skills" id="47:5576" type="FRAME" */}
                 <div
                   style={{
@@ -214,7 +150,7 @@ export const QodeCustom48612: React.FC<
                 style={{ display: "flex", alignItems: "center", gap: "12px" }}
               >
                 {/* name="Job/Quick access" id="47:5556" type="INSTANCE" */}
-                <Flex
+                <QodeCustom475443
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -222,26 +158,13 @@ export const QodeCustom48612: React.FC<
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "99px",
                   }}
-                >
-                  {/* name="heart" id="I47:5556;47:5444" type="INSTANCE" */}
-                  <Icon.QodeHeart
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      textDecorationLine: "underline",
-                    }}
-                  >{`12 shortlisted`}</span>
-                </Flex>
+                  {...{
+                    text: "12 shortlisted",
+                    icon: <Icon.QodeHeart />,
+                    state: "Default",
+                    _style: "Text",
+                  }}
+                />
                 {/* name="divider" id="47:5557" type="LINE" */}
                 <Flex
                   style={{
@@ -254,7 +177,7 @@ export const QodeCustom48612: React.FC<
                   <></>
                 </Flex>
                 {/* name="Job/Quick access" id="47:5558" type="INSTANCE" */}
-                <Flex
+                <QodeCustom475443
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -262,26 +185,13 @@ export const QodeCustom48612: React.FC<
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "99px",
                   }}
-                >
-                  {/* name="video" id="I47:5558;47:5444" type="INSTANCE" */}
-                  <Icon.QodeVideo
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      textDecorationLine: "underline",
-                    }}
-                  >{`4 interviewed`}</span>
-                </Flex>
+                  {...{
+                    text: "4 interviewed",
+                    icon: <Icon.QodeVideo />,
+                    state: "Default",
+                    _style: "Text",
+                  }}
+                />
               </div>
               <span
                 style={{
@@ -301,7 +211,7 @@ export const QodeCustom48612: React.FC<
         </>
       )}
       {/* id="47:5588" */}
-      {`${state}` === `hovered` && `${style}` === `Simple` && (
+      {`${state}` === `hovered` && `${_style}` === `Simple` && (
         <>
           {/* name="State=hovered, Style=Simple" id="47:5588" type="COMPONENT" */}
           <div
@@ -371,7 +281,7 @@ export const QodeCustom48612: React.FC<
                 }}
               >
                 {/* name="Job/Attributes" id="485:38056" type="INSTANCE" */}
-                <Flex
+                <QodeCustom48536870
                   style={{
                     display: "flex",
                     width: "130px",
@@ -381,76 +291,8 @@ export const QodeCustom48612: React.FC<
                     borderRadius: "99px",
                     background: "var(--neutral-gray-5, #f8f6f6)",
                   }}
-                >
-                  {/* name="Urgent" id="I485:38056;485:36863" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      padding: "2px var(--size-size-sizexxs-6px, 6px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "10px",
-                      borderRadius: "12px",
-                      background: "var(--neutral-gray-90, #464646)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        color: "#FFF",
-                        textAlign: "center",
-                        fontFamily: '"SF Pro Display"',
-                        fontSize: "10px",
-                        fontStyle: "normal",
-                        fontWeight: "600",
-                        lineHeight: "normal",
-                      }}
-                    >{`URGENT`}</span>
-                  </div>
-                  {/* name="Yoe" id="I485:38056;485:36865" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "12px",
-                    }}
-                  >
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`3 yoe`}</span>
-                    {/* name="Line 3" id="I485:38056;485:36867" type="LINE" */}
-                    <Flex
-                      style={{
-                        width: "1px",
-                        height: "8px",
-                        background: "var(--border-border-neutral-50, #6f6f6f)",
-                      }}
-                    >
-                      {/* name="Line 3" id=I485:38056;485:36867 type=LINE */}
-                      <></>
-                    </Flex>
-                  </div>
-                  <span
-                    style={{
-                      flex: "1 0 0",
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "400",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Vietnam`}</span>
-                </Flex>
+                  {...{ property_1: "full" }}
+                />
                 {/* name="Skills" id="485:38057" type="FRAME" */}
                 <div
                   style={{
@@ -502,7 +344,7 @@ export const QodeCustom48612: React.FC<
                 style={{ display: "flex", alignItems: "center", gap: "12px" }}
               >
                 {/* name="Job/Quick access" id="47:5605" type="INSTANCE" */}
-                <Flex
+                <QodeCustom475443
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -510,26 +352,13 @@ export const QodeCustom48612: React.FC<
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "99px",
                   }}
-                >
-                  {/* name="heart" id="I47:5605;47:5444" type="INSTANCE" */}
-                  <Icon.QodeHeart
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      textDecorationLine: "underline",
-                    }}
-                  >{`12 shortlisted`}</span>
-                </Flex>
+                  {...{
+                    text: "12 shortlisted",
+                    icon: <Icon.QodeHeart />,
+                    state: "Default",
+                    _style: "Text",
+                  }}
+                />
                 {/* name="divider" id="313:24753" type="LINE" */}
                 <Flex
                   style={{
@@ -542,7 +371,7 @@ export const QodeCustom48612: React.FC<
                   <></>
                 </Flex>
                 {/* name="Job/Quick access" id="47:5607" type="INSTANCE" */}
-                <Flex
+                <QodeCustom475443
                   style={{
                     display: "flex",
                     justifyContent: "center",
@@ -550,26 +379,13 @@ export const QodeCustom48612: React.FC<
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "99px",
                   }}
-                >
-                  {/* name="video" id="I47:5607;47:5444" type="INSTANCE" */}
-                  <Icon.QodeVideo
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      textDecorationLine: "underline",
-                    }}
-                  >{`4 interviewed`}</span>
-                </Flex>
+                  {...{
+                    text: "4 interviewed",
+                    icon: <Icon.QodeVideo />,
+                    state: "Default",
+                    _style: "Text",
+                  }}
+                />
               </div>
               <span
                 style={{

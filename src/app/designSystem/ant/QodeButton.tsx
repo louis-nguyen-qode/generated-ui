@@ -1,4 +1,4 @@
-// id="35:13238"
+// id="20:6485"
 import React from "react"
 import { Flex } from "antd"
 import { Button, ButtonProps } from "antd"
@@ -6,12 +6,10 @@ import { Button, ButtonProps } from "antd"
 export interface QodeButtonProps
   extends Omit<
     ButtonProps,
-    | "iconLeft"
-    | "iconRight"
-    | "selectIconRight"
-    | "onlyIcon"
-    | "buttonname"
-    | "selectIconLeft"
+    | "iconL"
+    | "iconR"
+    | "icononly"
+    | "title"
     | "type"
     | "size"
     | "state"
@@ -19,12 +17,10 @@ export interface QodeButtonProps
     | "danger"
     | "ghost"
   > {
-  iconLeft?: boolean
-  iconRight?: boolean
-  selectIconRight?: React.ReactNode
-  onlyIcon?: React.ReactNode
-  buttonname?: string
-  selectIconLeft?: React.ReactNode
+  iconL?: React.ReactNode
+  iconR?: React.ReactNode
+  icononly?: React.ReactNode
+  title?: string
   type?: "primary" | "default" | "dashed" | "text" | "link"
   size?: "default" | "large" | "small"
   state?: "default" | "disabled" | "focus" | "hover" | "pressed"
@@ -34,12 +30,10 @@ export interface QodeButtonProps
 }
 
 export const QodeButton: React.FC<QodeButtonProps> = ({
-  iconLeft = false,
-  iconRight = false,
-  selectIconRight = undefined,
-  onlyIcon = undefined,
-  buttonname = "Button",
-  selectIconLeft = undefined,
+  iconL = undefined,
+  iconR = undefined,
+  icononly = undefined,
+  title = "Button",
   type = "primary",
   size = "default",
   state = "default",
@@ -50,12 +44,10 @@ export const QodeButton: React.FC<QodeButtonProps> = ({
 }) => {
   return (
     <Button
-      iconLeft={iconLeft}
-      iconRight={iconRight}
-      selectIconRight={selectIconRight}
-      onlyIcon={onlyIcon}
-      buttonname={buttonname}
-      selectIconLeft={selectIconLeft}
+      iconL={iconL}
+      iconR={iconR}
+      icononly={icononly}
+      title={title}
       type={type}
       size={size}
       state={state}

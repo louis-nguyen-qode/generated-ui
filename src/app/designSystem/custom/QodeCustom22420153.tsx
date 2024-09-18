@@ -6,6 +6,7 @@ import { Icon } from "@designSystem/icon"
 import QodeSvg22420351 from "@designSystem/icon/svg/QodeSvg22420351"
 import QodeSvg22420355 from "@designSystem/icon/svg/QodeSvg22420355"
 import QodeSvg22116619 from "@designSystem/icon/svg/QodeSvg22116619"
+import { QodeCustom22116416 } from "@designSystem/custom/QodeCustom22116416"
 import QodeSvg22420361 from "@designSystem/icon/svg/QodeSvg22420361"
 import QodeSvg22420363 from "@designSystem/icon/svg/QodeSvg22420363"
 import QodeSvg22420364 from "@designSystem/icon/svg/QodeSvg22420364"
@@ -13,6 +14,7 @@ import QodeSvg22420365 from "@designSystem/icon/svg/QodeSvg22420365"
 import QodeSvg22420367 from "@designSystem/icon/svg/QodeSvg22420367"
 import QodeSvg22420156 from "@designSystem/icon/svg/QodeSvg22420156"
 import QodeSvg22420160 from "@designSystem/icon/svg/QodeSvg22420160"
+import { QodeCustom22116418 } from "@designSystem/custom/QodeCustom22116418"
 import QodeSvg27319116 from "@designSystem/icon/svg/QodeSvg27319116"
 import QodeSvg27319118 from "@designSystem/icon/svg/QodeSvg27319118"
 import QodeSvg27319119 from "@designSystem/icon/svg/QodeSvg27319119"
@@ -152,7 +154,7 @@ export const QodeCustom22420153: React.FC<
               <></>
             </Flex>
             {/* name="Mixer/Legend" id="224:20372" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 transform: "rotate(90deg)",
@@ -160,21 +162,10 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`DEEP DIVE`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:20373" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 transform: "rotate(-90deg)",
@@ -182,61 +173,28 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`QUICK`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:20374" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`TECHNICAL`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:20375" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`BEHAVIORIAL`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Handler" id="224:20360" type="FRAME" */}
             <div style={{ width: "80px", height: "80px", flexShrink: "0" }}>
               {/* name="blur" id="224:20361" type="ELLIPSE" */}
@@ -404,7 +362,7 @@ export const QodeCustom22420153: React.FC<
               <></>
             </Flex>
             {/* name="Mixer/Legend" id="224:20177" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 transform: "rotate(90deg)",
@@ -412,21 +370,10 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`DEEP DIVE`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
             {/* name="Mixer/Legend" id="224:20178" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 transform: "rotate(-90deg)",
@@ -434,61 +381,28 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`QUICK`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:20179" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`TECHNICAL`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
             {/* name="Mixer/Legend" id="224:20180" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`BEHAVIORIAL`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Handler" id="273:19115" type="FRAME" */}
             <div style={{ width: "80px", height: "80px", flexShrink: "0" }}>
               {/* name="blur" id="273:19116" type="ELLIPSE" */}
@@ -656,7 +570,7 @@ export const QodeCustom22420153: React.FC<
               <></>
             </Flex>
             {/* name="Mixer/Legend" id="677:40251" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 transform: "rotate(90deg)",
@@ -664,21 +578,10 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`DEEP DIVE`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
             {/* name="Mixer/Legend" id="677:40252" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 transform: "rotate(-90deg)",
@@ -686,61 +589,28 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`QUICK`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="677:40253" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`TECHNICAL`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
             {/* name="Mixer/Legend" id="677:40254" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`BEHAVIORIAL`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Handler" id="677:40269" type="FRAME" */}
             <div style={{ width: "80px", height: "80px", flexShrink: "0" }}>
               {/* name="blur" id="677:40270" type="ELLIPSE" */}
@@ -977,7 +847,7 @@ export const QodeCustom22420153: React.FC<
               <></>
             </Flex>
             {/* name="Mixer/Legend" id="224:22171" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 transform: "rotate(90deg)",
@@ -985,21 +855,10 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`DEEP DIVE`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
             {/* name="Mixer/Legend" id="224:22172" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 transform: "rotate(-90deg)",
@@ -1007,61 +866,28 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`QUICK`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:22173" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`TECHNICAL`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:22174" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`BEHAVIORIAL`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
           </div>
         </>
       )}
@@ -1229,7 +1055,7 @@ export const QodeCustom22420153: React.FC<
               <></>
             </Flex>
             {/* name="Mixer/Legend" id="224:23387" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 transform: "rotate(90deg)",
@@ -1237,21 +1063,10 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`DEEP DIVE`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:23388" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 transform: "rotate(-90deg)",
@@ -1259,61 +1074,28 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`QUICK`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
             {/* name="Mixer/Legend" id="224:23389" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`TECHNICAL`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:23390" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`BEHAVIORIAL`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
           </div>
         </>
       )}
@@ -1412,7 +1194,7 @@ export const QodeCustom22420153: React.FC<
               <></>
             </Flex>
             {/* name="Mixer/Legend" id="224:23430" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 transform: "rotate(90deg)",
@@ -1420,21 +1202,10 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`DEEP DIVE`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Mixer/Legend" id="224:23431" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 transform: "rotate(-90deg)",
@@ -1442,61 +1213,28 @@ export const QodeCustom22420153: React.FC<
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`QUICK`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
             {/* name="Mixer/Legend" id="224:23432" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116418
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight: "normal",
-                }}
-              >{`TECHNICAL`}</span>
-            </Flex>
+              {...{ state: "Active" }}
+            />
             {/* name="Mixer/Legend" id="224:23433" type="INSTANCE" */}
-            <Flex
+            <QodeCustom22116416
               style={{
                 display: "inline-flex",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "10px",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: '"Barlow Semi Condensed"',
-                  fontSize: "14px",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight: "normal",
-                }}
-              >{`BEHAVIORIAL`}</span>
-            </Flex>
+              {...{ state: "Default" }}
+            />
             {/* name="Handler" id="273:19252" type="FRAME" */}
             <div style={{ width: "80px", height: "80px", flexShrink: "0" }}>
               {/* name="blur" id="273:19253" type="ELLIPSE" */}

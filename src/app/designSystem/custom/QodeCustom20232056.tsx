@@ -3,15 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg20232239 from "@designSystem/icon/svg/QodeSvg20232239"
-import QodeSvg20232249 from "@designSystem/icon/svg/QodeSvg20232249"
-import QodeSvg20232262 from "@designSystem/icon/svg/QodeSvg20232262"
-import QodeSvg20232338 from "@designSystem/icon/svg/QodeSvg20232338"
-import QodeSvg20232348 from "@designSystem/icon/svg/QodeSvg20232348"
-import QodeSvg20232361 from "@designSystem/icon/svg/QodeSvg20232361"
-import QodeSvg20232437 from "@designSystem/icon/svg/QodeSvg20232437"
-import QodeSvg20232447 from "@designSystem/icon/svg/QodeSvg20232447"
-import QodeSvg20232460 from "@designSystem/icon/svg/QodeSvg20232460"
+import { QodeCustom3511358 } from "@designSystem/custom/QodeCustom3511358"
 
 export interface QodeCustom20232056Props {
   rIcon?: React.ReactNode
@@ -451,7 +443,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`Start date`}</span>
               {/* name="Icon Swap" id="202:32239" type="INSTANCE" */}
-              <QodeSvg20232239
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -511,7 +503,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`Start date`}</span>
               {/* name="Icon Swap" id="202:32249" type="INSTANCE" */}
-              <QodeSvg20232249
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -570,7 +562,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`2023-09-02`}</span>
               {/* name="Icon Swap" id="202:32262" type="INSTANCE" */}
-              <QodeSvg20232262
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -628,7 +620,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`Start date`}</span>
               {/* name="Icon Swap" id="202:32338" type="INSTANCE" */}
-              <QodeSvg20232338
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -686,7 +678,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`Start date`}</span>
               {/* name="Icon Swap" id="202:32348" type="INSTANCE" */}
-              <QodeSvg20232348
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -743,7 +735,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`2023-09-02`}</span>
               {/* name="Icon Swap" id="202:32361" type="INSTANCE" */}
-              <QodeSvg20232361
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -801,7 +793,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`Start date`}</span>
               {/* name="Icon Swap" id="202:32437" type="INSTANCE" */}
-              <QodeSvg20232437
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -861,7 +853,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`Start date`}</span>
               {/* name="Icon Swap" id="202:32447" type="INSTANCE" */}
-              <QodeSvg20232447
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -920,7 +912,7 @@ export const QodeCustom20232056: React.FC<
                 }}
               >{`2023-09-02`}</span>
               {/* name="Icon Swap" id="202:32460" type="INSTANCE" */}
-              <QodeSvg20232460
+              <QodeCustom3511358
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />

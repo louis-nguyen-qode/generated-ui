@@ -1,41 +1,29 @@
-// id="188:1042"
+// id="496:30226"
 import React from "react"
 import { Flex } from "antd"
 import { Radio, RadioProps } from "antd"
 
 export interface QodeRadioProps
-  extends Omit<
-    RadioProps,
-    "label" | "iconR" | "iconL" | "state" | "size" | "style" | "position"
-  > {
-  label?: string
-  iconR?: boolean
-  iconL?: boolean
-  state?: "default" | "hover" | "disabled" | "active"
-  size?: "default" | "large" | "small"
-  style?: "outlined" | "solid"
-  position?: "center" | "first" | "last"
+  extends Omit<RadioProps, "showTitle" | "title" | "state" | "checked"> {
+  showTitle?: boolean
+  title?: string
+  state?: "default" | "hover" | "focused" | "disabled"
+  checked?: "false" | "true"
 }
 
 export const QodeRadio: React.FC<QodeRadioProps> = ({
-  label = "Radio",
-  iconR = false,
-  iconL = false,
+  showTitle = true,
+  title = "Radio",
   state = "default",
-  size = "default",
-  style = "outlined",
-  position = "center",
+  checked = "false",
   ...rest
 }) => {
   return (
     <Radio
-      label={label}
-      iconR={iconR}
-      iconL={iconL}
+      showTitle={showTitle}
+      title={title}
       state={state}
-      size={size}
-      style={style}
-      position={position}
+      checked={checked}
       {...rest}
     />
   )
