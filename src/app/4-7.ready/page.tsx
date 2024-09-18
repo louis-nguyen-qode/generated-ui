@@ -26,8 +26,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -49,8 +49,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -72,8 +72,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -95,8 +95,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -118,8 +118,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -140,8 +140,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -163,8 +163,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -186,8 +186,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -209,8 +209,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -232,8 +232,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -254,8 +254,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -277,8 +277,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -300,8 +300,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -323,8 +323,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -346,8 +346,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -368,8 +368,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -391,8 +391,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -414,8 +414,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -435,8 +435,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -458,8 +458,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -480,8 +480,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -503,8 +503,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -526,8 +526,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -547,8 +547,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -570,8 +570,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -592,8 +592,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -615,8 +615,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -638,8 +638,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -659,8 +659,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -682,8 +682,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -703,8 +703,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -726,8 +726,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -749,8 +749,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -770,8 +770,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -791,8 +791,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -812,8 +812,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -835,8 +835,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -858,8 +858,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -879,8 +879,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -900,8 +900,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -921,8 +921,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -944,8 +944,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -967,8 +967,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -988,8 +988,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1009,8 +1009,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1030,8 +1030,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1053,8 +1053,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1076,8 +1076,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1097,8 +1097,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1120,8 +1120,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1141,8 +1141,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1164,8 +1164,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1187,8 +1187,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1208,8 +1208,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1231,8 +1231,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1252,8 +1252,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1275,8 +1275,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1298,8 +1298,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1319,8 +1319,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1342,8 +1342,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1365,8 +1365,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1386,8 +1386,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1407,8 +1407,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1430,8 +1430,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1454,8 +1454,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1477,8 +1477,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1498,8 +1498,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1519,8 +1519,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1542,8 +1542,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1565,8 +1565,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1588,8 +1588,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1609,8 +1609,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1630,8 +1630,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1653,8 +1653,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1676,8 +1676,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: false,
           }}
@@ -1699,8 +1699,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1723,8 +1723,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1747,8 +1747,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1771,8 +1771,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1795,8 +1795,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1817,8 +1817,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1840,8 +1840,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1863,8 +1863,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1886,8 +1886,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1909,8 +1909,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1931,8 +1931,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1954,8 +1954,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -1977,8 +1977,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2000,8 +2000,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2023,8 +2023,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2045,8 +2045,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2069,8 +2069,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2093,8 +2093,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2115,8 +2115,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2139,8 +2139,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2160,8 +2160,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2183,8 +2183,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2206,8 +2206,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2227,8 +2227,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2250,8 +2250,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2271,8 +2271,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2294,8 +2294,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2317,8 +2317,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2338,8 +2338,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2361,8 +2361,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2384,8 +2384,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2408,8 +2408,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2432,8 +2432,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2454,8 +2454,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2476,8 +2476,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2498,8 +2498,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2521,8 +2521,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2544,8 +2544,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2565,8 +2565,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2586,8 +2586,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2608,8 +2608,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2631,8 +2631,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2654,8 +2654,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2675,8 +2675,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2696,8 +2696,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2718,8 +2718,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2742,8 +2742,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2766,8 +2766,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2788,8 +2788,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2812,8 +2812,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2833,8 +2833,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2856,8 +2856,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2879,8 +2879,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2900,8 +2900,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2923,8 +2923,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2944,8 +2944,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2967,8 +2967,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -2990,8 +2990,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3011,8 +3011,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3034,8 +3034,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3058,8 +3058,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3082,8 +3082,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3106,8 +3106,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3130,8 +3130,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3154,8 +3154,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3177,8 +3177,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3200,8 +3200,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3223,8 +3223,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3246,8 +3246,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3269,8 +3269,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3292,8 +3292,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3315,8 +3315,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3338,8 +3338,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3361,8 +3361,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3384,8 +3384,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: false,
           }}
@@ -3409,8 +3409,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3434,8 +3434,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3459,8 +3459,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3483,8 +3483,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3507,8 +3507,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3532,8 +3532,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3557,8 +3557,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3582,8 +3582,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3606,8 +3606,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3630,8 +3630,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3655,8 +3655,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3680,8 +3680,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3705,8 +3705,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3729,8 +3729,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3753,8 +3753,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3778,8 +3778,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3803,8 +3803,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3828,8 +3828,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3853,8 +3853,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3877,8 +3877,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3902,8 +3902,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3927,8 +3927,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3952,8 +3952,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -3977,8 +3977,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4001,8 +4001,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4026,8 +4026,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4051,8 +4051,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4076,8 +4076,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4101,8 +4101,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4125,8 +4125,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4150,8 +4150,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4175,8 +4175,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4200,8 +4200,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4224,8 +4224,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4248,8 +4248,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4273,8 +4273,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4298,8 +4298,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4323,8 +4323,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4347,8 +4347,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4371,8 +4371,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4396,8 +4396,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4421,8 +4421,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4446,8 +4446,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4470,8 +4470,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4494,8 +4494,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4519,8 +4519,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4544,8 +4544,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4569,8 +4569,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4591,8 +4591,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4615,8 +4615,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4640,8 +4640,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4665,8 +4665,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4690,8 +4690,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4712,8 +4712,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4736,8 +4736,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4761,8 +4761,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4786,8 +4786,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4811,8 +4811,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4833,8 +4833,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4857,8 +4857,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4882,8 +4882,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4907,8 +4907,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4932,8 +4932,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4956,8 +4956,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -4980,8 +4980,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5005,8 +5005,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5030,8 +5030,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5055,8 +5055,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5079,8 +5079,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5103,8 +5103,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5128,8 +5128,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5153,8 +5153,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5178,8 +5178,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5202,8 +5202,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5226,8 +5226,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: false,
             ghost: true,
           }}
@@ -5251,8 +5251,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5276,8 +5276,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5301,8 +5301,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5325,8 +5325,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5349,8 +5349,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5374,8 +5374,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5399,8 +5399,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5424,8 +5424,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5448,8 +5448,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5472,8 +5472,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5497,8 +5497,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5522,8 +5522,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5547,8 +5547,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5571,8 +5571,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5595,8 +5595,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5620,8 +5620,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5645,8 +5645,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5670,8 +5670,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5692,8 +5692,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5716,8 +5716,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5741,8 +5741,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5766,8 +5766,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5791,8 +5791,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5813,8 +5813,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5837,8 +5837,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5862,8 +5862,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5887,8 +5887,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5912,8 +5912,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5934,8 +5934,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5958,8 +5958,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -5983,8 +5983,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6008,8 +6008,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6033,8 +6033,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6055,8 +6055,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6079,8 +6079,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6104,8 +6104,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6129,8 +6129,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6154,8 +6154,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6176,8 +6176,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6200,8 +6200,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6225,8 +6225,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6250,8 +6250,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6275,8 +6275,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6297,8 +6297,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6321,8 +6321,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6346,8 +6346,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6371,8 +6371,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6396,8 +6396,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6418,8 +6418,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6442,8 +6442,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6467,8 +6467,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6492,8 +6492,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6517,8 +6517,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6539,8 +6539,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6563,8 +6563,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6588,8 +6588,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6613,8 +6613,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6638,8 +6638,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6660,8 +6660,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6684,8 +6684,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6709,8 +6709,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6734,8 +6734,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6759,8 +6759,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6783,8 +6783,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6807,8 +6807,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6832,8 +6832,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6857,8 +6857,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6882,8 +6882,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6906,8 +6906,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6930,8 +6930,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6955,8 +6955,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -6980,8 +6980,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -7005,8 +7005,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -7029,8 +7029,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -7051,8 +7051,8 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "default",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
-            children: <span style={{color: 'inherit'}}>{"Button"}</span>,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
+            children: <span style={{ color: 'inherit', fontFamily: 'inherit' }}>{"Button"}</span>,
             danger: true,
             ghost: true,
           }}
@@ -7074,7 +7074,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7097,7 +7097,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7120,7 +7120,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7143,7 +7143,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7166,7 +7166,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7188,7 +7188,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7211,7 +7211,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7234,7 +7234,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7257,7 +7257,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7280,7 +7280,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7302,7 +7302,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7325,7 +7325,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7348,7 +7348,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7371,7 +7371,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7394,7 +7394,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7416,7 +7416,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7439,7 +7439,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7462,7 +7462,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7483,7 +7483,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7506,7 +7506,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7528,7 +7528,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7551,7 +7551,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7574,7 +7574,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7595,7 +7595,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7618,7 +7618,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7640,7 +7640,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7663,7 +7663,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7686,7 +7686,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7707,7 +7707,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7730,7 +7730,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7751,7 +7751,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7774,7 +7774,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7797,7 +7797,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7818,7 +7818,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7839,7 +7839,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7860,7 +7860,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7883,7 +7883,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7906,7 +7906,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7927,7 +7927,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7948,7 +7948,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7969,7 +7969,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -7992,7 +7992,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8015,7 +8015,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8036,7 +8036,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8057,7 +8057,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8078,7 +8078,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8101,7 +8101,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8124,7 +8124,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8145,7 +8145,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8168,7 +8168,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8189,7 +8189,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8212,7 +8212,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8235,7 +8235,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8256,7 +8256,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8279,7 +8279,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8300,7 +8300,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8323,7 +8323,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8346,7 +8346,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8367,7 +8367,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8390,7 +8390,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8413,7 +8413,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8434,7 +8434,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8455,7 +8455,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8478,7 +8478,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8501,7 +8501,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8524,7 +8524,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8545,7 +8545,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8566,7 +8566,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8589,7 +8589,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8612,7 +8612,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8635,7 +8635,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8656,7 +8656,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8677,7 +8677,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8700,7 +8700,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8723,7 +8723,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: false,
           }}
@@ -8745,7 +8745,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8768,7 +8768,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8791,7 +8791,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8814,7 +8814,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8837,7 +8837,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8859,7 +8859,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8882,7 +8882,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8905,7 +8905,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8928,7 +8928,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8951,7 +8951,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8973,7 +8973,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -8996,7 +8996,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9019,7 +9019,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9042,7 +9042,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9065,7 +9065,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9086,7 +9086,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9109,7 +9109,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9132,7 +9132,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9153,7 +9153,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9176,7 +9176,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9197,7 +9197,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9220,7 +9220,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9243,7 +9243,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9264,7 +9264,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9287,7 +9287,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9308,7 +9308,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9331,7 +9331,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9354,7 +9354,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9375,7 +9375,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9398,7 +9398,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9420,7 +9420,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9443,7 +9443,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9466,7 +9466,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9487,7 +9487,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9508,7 +9508,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9530,7 +9530,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9553,7 +9553,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9576,7 +9576,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9597,7 +9597,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9618,7 +9618,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9640,7 +9640,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9663,7 +9663,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9686,7 +9686,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9707,7 +9707,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9728,7 +9728,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9749,7 +9749,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9772,7 +9772,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9795,7 +9795,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9816,7 +9816,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9839,7 +9839,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9860,7 +9860,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9883,7 +9883,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9906,7 +9906,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9927,7 +9927,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9950,7 +9950,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9971,7 +9971,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -9994,7 +9994,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10017,7 +10017,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10038,7 +10038,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10061,7 +10061,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10084,7 +10084,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10107,7 +10107,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10130,7 +10130,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10153,7 +10153,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10176,7 +10176,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10199,7 +10199,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10222,7 +10222,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10245,7 +10245,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10268,7 +10268,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10291,7 +10291,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10314,7 +10314,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10337,7 +10337,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10360,7 +10360,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10383,7 +10383,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10406,7 +10406,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: false,
           }}
@@ -10430,7 +10430,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10454,7 +10454,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10478,7 +10478,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10501,7 +10501,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10524,7 +10524,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10548,7 +10548,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10572,7 +10572,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10596,7 +10596,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10619,7 +10619,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10642,7 +10642,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10665,7 +10665,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10688,7 +10688,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10711,7 +10711,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10733,7 +10733,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10755,7 +10755,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10779,7 +10779,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10803,7 +10803,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10827,7 +10827,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10851,7 +10851,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10874,7 +10874,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10898,7 +10898,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10922,7 +10922,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10946,7 +10946,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10970,7 +10970,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -10993,7 +10993,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11016,7 +11016,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11039,7 +11039,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11062,7 +11062,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11085,7 +11085,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11107,7 +11107,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11131,7 +11131,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11155,7 +11155,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11179,7 +11179,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11202,7 +11202,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11225,7 +11225,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11249,7 +11249,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11273,7 +11273,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11297,7 +11297,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11320,7 +11320,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11343,7 +11343,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11366,7 +11366,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11389,7 +11389,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11412,7 +11412,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11434,7 +11434,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11456,7 +11456,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11480,7 +11480,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11504,7 +11504,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11528,7 +11528,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11549,7 +11549,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11572,7 +11572,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11596,7 +11596,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11620,7 +11620,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11644,7 +11644,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11665,7 +11665,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11688,7 +11688,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11711,7 +11711,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11734,7 +11734,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11757,7 +11757,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11777,7 +11777,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11799,7 +11799,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11823,7 +11823,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11847,7 +11847,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11871,7 +11871,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11894,7 +11894,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11917,7 +11917,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11941,7 +11941,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11965,7 +11965,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -11989,7 +11989,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -12012,7 +12012,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -12035,7 +12035,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -12058,7 +12058,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -12081,7 +12081,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -12104,7 +12104,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -12126,7 +12126,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -12148,7 +12148,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: false,
             ghost: true,
           }}
@@ -12172,7 +12172,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12196,7 +12196,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12220,7 +12220,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12243,7 +12243,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12266,7 +12266,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12290,7 +12290,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12314,7 +12314,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12338,7 +12338,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12361,7 +12361,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12384,7 +12384,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12407,7 +12407,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12430,7 +12430,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12453,7 +12453,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12475,7 +12475,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12497,7 +12497,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "default",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12521,7 +12521,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12545,7 +12545,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12569,7 +12569,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12590,7 +12590,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12613,7 +12613,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12637,7 +12637,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12661,7 +12661,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12685,7 +12685,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12706,7 +12706,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12729,7 +12729,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12752,7 +12752,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12775,7 +12775,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12798,7 +12798,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12818,7 +12818,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12840,7 +12840,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "hover",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12864,7 +12864,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12888,7 +12888,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12912,7 +12912,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12933,7 +12933,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12956,7 +12956,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -12980,7 +12980,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13004,7 +13004,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13028,7 +13028,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13049,7 +13049,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13072,7 +13072,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13095,7 +13095,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13118,7 +13118,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13141,7 +13141,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13161,7 +13161,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13183,7 +13183,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "focus",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13207,7 +13207,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13231,7 +13231,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13255,7 +13255,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13276,7 +13276,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13299,7 +13299,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13323,7 +13323,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13347,7 +13347,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13371,7 +13371,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13392,7 +13392,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13415,7 +13415,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13438,7 +13438,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13461,7 +13461,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13484,7 +13484,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13504,7 +13504,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13526,7 +13526,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "pressed",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13550,7 +13550,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13574,7 +13574,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13598,7 +13598,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13621,7 +13621,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13644,7 +13644,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "middle",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13668,7 +13668,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13692,7 +13692,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13716,7 +13716,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13739,7 +13739,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13762,7 +13762,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "large",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13785,7 +13785,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13808,7 +13808,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13831,7 +13831,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13853,7 +13853,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
@@ -13875,7 +13875,7 @@ export const QButton: React.FC<QButtonProps> = ({ ...rest }) => {
             size: "small",
             state: "disabled",
             content: "icon",
-            selectIconLeft: <Icon.QodeMagnifyingGlass />,
+            selectIconRight: <Icon.QodeMagnifyingGlass />,
             danger: true,
             ghost: true,
           }}
