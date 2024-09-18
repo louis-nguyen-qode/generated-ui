@@ -14,7 +14,7 @@ export interface QodeCustom616055Props {
 
 export const QodeCustom616055: React.FC<
   QodeCustom616055Props & { style?: CSSProperties }
-> = ({ color = "color", ...rest }) => {
+> = ({ color = "color", style, ...rest }) => {
   return (
     <>
       {/* name="favicon" id="6160:55" type="COMPONENT_SET" */}
@@ -24,9 +24,12 @@ export const QodeCustom616055: React.FC<
           {/* name="color=color" id="6160:56" type="COMPONENT" */}
           <QodeSvg616056
             style={{
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--line-height-lineheighheading3, 32px)",
-              flexShrink: "0",
+              ...{
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--line-height-lineheighheading3, 32px)",
+                flexShrink: "0",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -38,9 +41,12 @@ export const QodeCustom616055: React.FC<
           {/* name="color=blue" id="6160:75" type="COMPONENT" */}
           <QodeSvg616075
             style={{
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--line-height-lineheighheading3, 32px)",
-              flexShrink: "0",
+              ...{
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--line-height-lineheighheading3, 32px)",
+                flexShrink: "0",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -52,9 +58,12 @@ export const QodeCustom616055: React.FC<
           {/* name="color=black" id="6160:58" type="COMPONENT" */}
           <QodeSvg616058
             style={{
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--line-height-lineheighheading3, 32px)",
-              flexShrink: "0",
+              ...{
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--line-height-lineheighheading3, 32px)",
+                flexShrink: "0",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -66,9 +75,12 @@ export const QodeCustom616055: React.FC<
           {/* name="color=white" id="6160:60" type="COMPONENT" */}
           <QodeSvg616060
             style={{
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--line-height-lineheighheading3, 32px)",
-              flexShrink: "0",
+              ...{
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--line-height-lineheighheading3, 32px)",
+                flexShrink: "0",
+              },
+              ...style,
             }}
             {...{}}
           />

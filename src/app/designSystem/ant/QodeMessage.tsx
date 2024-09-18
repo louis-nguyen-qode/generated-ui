@@ -12,7 +12,10 @@ export interface QodeMessageProps
 export const QodeMessage: React.FC<QodeMessageProps> = ({
   title = "This is a message",
   status = "info",
+  style,
   ...rest
 }) => {
-  return <Message title={title} status={status} {...rest} />
+  return (
+    <Message title={title} status={status} style={{ ...style }} {...rest} />
+  )
 }

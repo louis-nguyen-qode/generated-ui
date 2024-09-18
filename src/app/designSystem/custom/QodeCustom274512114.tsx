@@ -19,6 +19,7 @@ export const QodeCustom274512114: React.FC<
   showLIcon = true,
   property_1 = "default",
   property_2 = "line",
+  style,
   ...rest
 }) => {
   return (
@@ -30,26 +31,35 @@ export const QodeCustom274512114: React.FC<
           {/* name="Property 1=default, Property 2=line" id="2716:1712" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="2716:1713" type="INSTANCE" */}
-            <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeIcons
+              style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+              {...{}}
+            />
             <span
               style={{
-                color:
-                  "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color:
+                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
           </div>
@@ -61,26 +71,35 @@ export const QodeCustom274512114: React.FC<
           {/* name="Property 1=default, Property 2=solid" id="2716:1715" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="2716:1716" type="INSTANCE" */}
-            <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeIcons
+              style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+              {...{}}
+            />
             <span
               style={{
-                color:
-                  "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color:
+                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
           </div>
@@ -92,27 +111,36 @@ export const QodeCustom274512114: React.FC<
           {/* name="Property 1=hover, Property 2=line" id="2716:1718" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              borderBottom:
-                "var(--style-line-width-linewidthbold, 2px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                borderBottom:
+                  "var(--style-line-width-linewidthbold, 2px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="2716:1719" type="INSTANCE" */}
-            <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeIcons
+              style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+              {...{}}
+            />
             <span
               style={{
-                color: "var(--color-neutral-text-colortext, #000)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortext, #000)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
           </div>
@@ -124,28 +152,37 @@ export const QodeCustom274512114: React.FC<
           {/* name="Property 1=hover, Property 2=solid" id="2716:1721" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradiuslg, 8px)",
-              background:
-                "var(--color-neutral-background-colorbgcontainer, #fff)",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradiuslg, 8px)",
+                background:
+                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="2716:1722" type="INSTANCE" */}
-            <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeIcons
+              style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+              {...{}}
+            />
             <span
               style={{
-                color: "var(--color-neutral-text-colortext, #000)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortext, #000)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
           </div>
@@ -157,27 +194,36 @@ export const QodeCustom274512114: React.FC<
           {/* name="Property 1=active, Property 2=line" id="2716:1724" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              borderBottom:
-                "var(--style-line-width-linewidthbold, 2px) solid var(--color-neutral-text-colortext, #000)",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                borderBottom:
+                  "var(--style-line-width-linewidthbold, 2px) solid var(--color-neutral-text-colortext, #000)",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="2716:1725" type="INSTANCE" */}
-            <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeIcons
+              style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+              {...{}}
+            />
             <span
               style={{
-                color: "var(--color-neutral-text-colortext, #000)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortext, #000)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
           </div>
@@ -189,29 +235,38 @@ export const QodeCustom274512114: React.FC<
           {/* name="Property 1=active, Property 2=solid" id="2716:1727" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradiuslg, 8px)",
-              background: "var(--color-primary-colorprimary, #1597f4)",
-              boxShadow:
-                "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradiuslg, 8px)",
+                background: "var(--color-primary-colorprimary, #1597f4)",
+                boxShadow:
+                  "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="2716:1728" type="INSTANCE" */}
-            <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeIcons
+              style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+              {...{}}
+            />
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
           </div>
@@ -223,26 +278,35 @@ export const QodeCustom274512114: React.FC<
           {/* name="Property 1=disabled, Property 2=line" id="2716:1730" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="2716:1731" type="INSTANCE" */}
-            <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeIcons
+              style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+              {...{}}
+            />
             <span
               style={{
-                color:
-                  "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color:
+                    "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
           </div>
@@ -254,26 +318,35 @@ export const QodeCustom274512114: React.FC<
           {/* name="Property 1=disabled, Property 2=solid" id="2716:1733" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-padding-paddingxxs, 4px) var(--size-padding-paddingxs, 8px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="2716:1734" type="INSTANCE" */}
-            <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeIcons
+              style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+              {...{}}
+            />
             <span
               style={{
-                color:
-                  "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color:
+                    "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
           </div>

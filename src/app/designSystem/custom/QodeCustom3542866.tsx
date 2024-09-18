@@ -12,7 +12,7 @@ export interface QodeCustom3542866Props {
 
 export const QodeCustom3542866: React.FC<
   QodeCustom3542866Props & { style?: CSSProperties }
-> = ({ icon = undefined, state = "default", ...rest }) => {
+> = ({ icon = undefined, state = "default", style, ...rest }) => {
   return (
     <>
       {/* name=".floatbutton__item" id="354:2866" type="COMPONENT_SET" */}
@@ -22,18 +22,21 @@ export const QodeCustom3542866: React.FC<
           {/* name="state=default" id="354:2865" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background:
-                "var(--color-neutral-background-colorbgcontainer, #fff)",
+              ...{
+                display: "inline-flex",
+                padding: "var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background:
+                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="354:2862" type="INSTANCE" */}
             <QodeCustom11437490
-              style={{ width: "24px", height: "24px" }}
+              style={{ ...{ width: "24px", height: "24px" }, ...{} }}
               {...{}}
             />
           </div>
@@ -45,18 +48,21 @@ export const QodeCustom3542866: React.FC<
           {/* name="state=hover" id="354:2867" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background:
-                "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
+              ...{
+                display: "inline-flex",
+                padding: "var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background:
+                  "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="354:2868" type="INSTANCE" */}
             <QodeCustom11437490
-              style={{ width: "24px", height: "24px" }}
+              style={{ ...{ width: "24px", height: "24px" }, ...{} }}
               {...{}}
             />
           </div>

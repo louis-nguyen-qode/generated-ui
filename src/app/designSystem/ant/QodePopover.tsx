@@ -31,6 +31,7 @@ export const QodePopover: React.FC<QodePopoverProps> = ({
   description = "Content\nContent",
   showArrow = true,
   placement = "left",
+  style,
   ...rest
 }) => {
   return (
@@ -39,6 +40,7 @@ export const QodePopover: React.FC<QodePopoverProps> = ({
       description={description}
       showArrow={showArrow}
       placement={placement}
+      style={{ ...style }}
       {...rest}
     />
   )

@@ -9,27 +9,33 @@ export interface QodeCustom3511258Props {}
 
 export const QodeCustom3511258: React.FC<
   QodeCustom3511258Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="Left" id="35:11258" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "24px",
-          height: "24px",
-          padding: "1.847px 6.321px 1.851px 4.929px",
-          justifyContent: "center",
-          alignItems: "center",
+          ...{
+            display: "flex",
+            width: "24px",
+            height: "24px",
+            padding: "1.847px 6.321px 1.851px 4.929px",
+            justifyContent: "center",
+            alignItems: "center",
+          },
+          ...style,
         }}
       >
         {/* name="Vector" id="35:11259" type="VECTOR" */}
         <QodeSvg3511259
           style={{
-            width: "12.75px",
-            height: "20.302px",
-            flexShrink: "0",
-            fill: "var(--color-neutral-text-coloricon, rgba(0, 0, 0, 0.45))",
+            ...{
+              width: "12.75px",
+              height: "20.302px",
+              flexShrink: "0",
+              fill: "var(--color-neutral-text-coloricon, rgba(0, 0, 0, 0.45))",
+            },
+            ...{},
           }}
           {...{}}
         />

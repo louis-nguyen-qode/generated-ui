@@ -12,7 +12,8 @@ export interface QodeSkeletonProps
 export const QodeSkeleton: React.FC<QodeSkeletonProps> = ({
   avatar = undefined,
   type = "Basic",
+  style,
   ...rest
 }) => {
-  return <Skeleton avatar={avatar} type={type} {...rest} />
+  return <Skeleton avatar={avatar} type={type} style={{ ...style }} {...rest} />
 }

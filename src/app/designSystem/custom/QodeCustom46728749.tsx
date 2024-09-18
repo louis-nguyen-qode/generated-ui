@@ -20,6 +20,7 @@ export const QodeCustom46728749: React.FC<
   sort = true,
   type = "default",
   align = "left",
+  style,
   ...rest
 }) => {
   return (
@@ -31,49 +32,61 @@ export const QodeCustom46728749: React.FC<
           {/* name="type=default, align=left" id="467:28750" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "228px",
-              height: "46px",
-              padding: "var(--font-size-base, 14px) 16px",
-              alignItems: "center",
-              gap: "4px",
-              flexShrink: "0",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              background: "var(--neutral-gray-5, #f8f6f6)",
+              ...{
+                display: "flex",
+                width: "228px",
+                height: "46px",
+                padding: "var(--font-size-base, 14px) 16px",
+                alignItems: "center",
+                gap: "4px",
+                flexShrink: "0",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                background: "var(--neutral-gray-5, #f8f6f6)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--text-text-neutral-50, #1d1d1d)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "500",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--text-text-neutral-50, #1d1d1d)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Column`}</span>
             {/* name="Table/Sort" id="467:28755" type="INSTANCE" */}
             <QodeCustom5859107
               style={{
-                display: "flex",
-                width: "16px",
-                height: "16px",
-                justifyContent: "center",
-                alignItems: "center",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "16px",
+                  height: "16px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexShrink: "0",
+                },
+                ...{},
               }}
               {...{ property_1: "descending" }}
             />
             {/* name="Table/filter" id="467:28756" type="INSTANCE" */}
             <QodeCustom595998
               style={{
-                width: "16px",
-                height: "16px",
-                position: "absolute",
-                right: "16px",
-                top: "15px",
+                ...{
+                  width: "16px",
+                  height: "16px",
+                  position: "absolute",
+                  right: "16px",
+                  top: "15px",
+                },
+                ...{},
               }}
               {...{ property_1: "Default" }}
             />
@@ -86,50 +99,62 @@ export const QodeCustom46728749: React.FC<
           {/* name="type=default, align=middle" id="467:28751" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "228px",
-              height: "46px",
-              padding: "var(--font-size-base, 14px) 16px",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              flexShrink: "0",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              background: "var(--neutral-gray-5, #f8f6f6)",
+              ...{
+                display: "flex",
+                width: "228px",
+                height: "46px",
+                padding: "var(--font-size-base, 14px) 16px",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "4px",
+                flexShrink: "0",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                background: "var(--neutral-gray-5, #f8f6f6)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--text-text-neutral-50, #1d1d1d)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "500",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--text-text-neutral-50, #1d1d1d)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Column`}</span>
             {/* name="Table/Sort" id="467:28758" type="INSTANCE" */}
             <QodeCustom5859107
               style={{
-                display: "flex",
-                width: "16px",
-                height: "16px",
-                justifyContent: "center",
-                alignItems: "center",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "16px",
+                  height: "16px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  flexShrink: "0",
+                },
+                ...{},
               }}
               {...{ property_1: "descending" }}
             />
             {/* name="Table/filter" id="467:28759" type="INSTANCE" */}
             <QodeCustom595998
               style={{
-                width: "16px",
-                height: "16px",
-                position: "absolute",
-                right: "16px",
-                top: "13px",
+                ...{
+                  width: "16px",
+                  height: "16px",
+                  position: "absolute",
+                  right: "16px",
+                  top: "13px",
+                },
+                ...{},
               }}
               {...{ property_1: "Default" }}
             />
@@ -142,22 +167,28 @@ export const QodeCustom46728749: React.FC<
           {/* name="type=checkbox, align=--" id="467:28752" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "56px",
-              height: "46px",
-              padding: "var(--font-size-base, 14px) 16px",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              flexShrink: "0",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              background: "var(--neutral-gray-5, #f8f6f6)",
+              ...{
+                display: "flex",
+                width: "56px",
+                height: "46px",
+                padding: "var(--font-size-base, 14px) 16px",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "4px",
+                flexShrink: "0",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                background: "var(--neutral-gray-5, #f8f6f6)",
+              },
+              ...style,
             }}
           >
             {/* name="Icon/checkbox" id="467:28760" type="INSTANCE" */}
             <div
-              style={{ width: "24px", height: "24px", flexShrink: "0" }}
+              style={{
+                ...{ width: "24px", height: "24px", flexShrink: "0" },
+                ...{},
+              }}
               {...{ state: "Default" }}
             />
           </div>
@@ -169,20 +200,22 @@ export const QodeCustom46728749: React.FC<
           {/* name="type=blank, align=--" id="467:28753" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "228px",
-              height: "46px",
-              padding: "var(--font-size-base, 14px) 16px",
-              justifyContent: "flex-end",
-              alignItems: "center",
-              gap: "2px",
-              flexShrink: "0",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              background: "var(--neutral-gray-5, #f8f6f6)",
+              ...{
+                display: "flex",
+                width: "228px",
+                height: "46px",
+                padding: "var(--font-size-base, 14px) 16px",
+                justifyContent: "flex-end",
+                alignItems: "center",
+                gap: "2px",
+                flexShrink: "0",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                background: "var(--neutral-gray-5, #f8f6f6)",
+              },
+              ...style,
             }}
           >
-            {/* name="type=blank, align=--" id=467:28753 type=COMPONENT */}
             <></>
           </div>
         </>

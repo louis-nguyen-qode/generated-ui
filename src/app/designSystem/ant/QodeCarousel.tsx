@@ -9,7 +9,8 @@ export interface QodeCarouselProps extends Omit<CarouselProps, "state"> {
 
 export const QodeCarousel: React.FC<QodeCarouselProps> = ({
   state = "active",
+  style,
   ...rest
 }) => {
-  return <Carousel state={state} {...rest} />
+  return <Carousel state={state} style={{ ...style }} {...rest} />
 }

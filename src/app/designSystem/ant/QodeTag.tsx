@@ -31,6 +31,7 @@ export const QodeTag: React.FC<QodeTagProps> = ({
   state = "default",
   size = "Default",
   rounded = "False",
+  style,
   ...rest
 }) => {
   return (
@@ -41,6 +42,7 @@ export const QodeTag: React.FC<QodeTagProps> = ({
       state={state}
       size={size}
       rounded={rounded}
+      style={{ ...style }}
       {...rest}
     />
   )

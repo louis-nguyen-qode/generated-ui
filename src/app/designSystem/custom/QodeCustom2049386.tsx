@@ -125,6 +125,7 @@ export const QodeCustom2049386: React.FC<
   value = "5%",
   size = "default",
   stokeLinecap = "round",
+  style,
   ...rest
 }) => {
   return (
@@ -138,39 +139,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=5%, size=default, stoke linecap=round" id="204:9438" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11871" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "18.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "18.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11872" type="FRAME" */}
                 <QodeSvg20411872
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`5%`}</span>
             </div>
@@ -184,39 +194,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=10%, size=default, stoke linecap=round" id="204:9435" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11895" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "36.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "36.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11896" type="FRAME" */}
                 <QodeSvg20411896
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`10%`}</span>
             </div>
@@ -230,39 +249,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=15%, size=default, stoke linecap=round" id="204:9432" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11904" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "54.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "54.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11905" type="FRAME" */}
                 <QodeSvg20411905
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`15%`}</span>
             </div>
@@ -276,39 +304,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=20%, size=default, stoke linecap=round" id="204:9429" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11886" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "72.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "72.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11887" type="FRAME" */}
                 <QodeSvg20411887
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`20%`}</span>
             </div>
@@ -322,39 +359,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=25%, size=default, stoke linecap=round" id="204:9426" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11898" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "91px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "91px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11899" type="FRAME" */}
                 <QodeSvg20411899
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`25%`}</span>
             </div>
@@ -368,39 +414,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=30%, size=default, stoke linecap=round" id="204:9441" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11880" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "109.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "109.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11881" type="FRAME" */}
                 <QodeSvg20411881
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`30%`}</span>
             </div>
@@ -414,39 +469,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=35%, size=default, stoke linecap=round" id="204:9423" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11907" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "127.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "127.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11908" type="FRAME" */}
                 <QodeSvg20411908
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`35%`}</span>
             </div>
@@ -460,39 +524,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=40%, size=default, stoke linecap=round" id="204:9420" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11889" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "145.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "145.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11890" type="FRAME" */}
                 <QodeSvg20411890
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`40%`}</span>
             </div>
@@ -506,39 +579,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=45%, size=default, stoke linecap=round" id="204:9417" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11877" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "163.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "163.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11878" type="FRAME" */}
                 <QodeSvg20411878
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`45%`}</span>
             </div>
@@ -552,39 +634,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=50%, size=default, stoke linecap=round" id="204:9414" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11883" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "182px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "182px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11884" type="FRAME" */}
                 <QodeSvg20411884
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`50%`}</span>
             </div>
@@ -598,39 +689,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=55%, size=default, stoke linecap=round" id="204:9411" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11847" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "200.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "200.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11848" type="FRAME" */}
                 <QodeSvg20411848
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`55%`}</span>
             </div>
@@ -644,39 +744,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=60%, size=default, stoke linecap=round" id="204:9408" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11868" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "218.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "218.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11869" type="FRAME" */}
                 <QodeSvg20411869
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`60%`}</span>
             </div>
@@ -690,39 +799,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=65%, size=default, stoke linecap=round" id="204:9405" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11865" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "236.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "236.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11866" type="FRAME" */}
                 <QodeSvg20411866
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`65%`}</span>
             </div>
@@ -736,39 +854,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=70%, size=default, stoke linecap=round" id="204:9402" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11859" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "254.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "254.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11860" type="FRAME" */}
                 <QodeSvg20411860
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`70%`}</span>
             </div>
@@ -782,39 +909,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=75%, size=default, stoke linecap=round" id="204:9399" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11853" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "273px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "273px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11854" type="FRAME" */}
                 <QodeSvg20411854
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`75%`}</span>
             </div>
@@ -828,39 +964,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=80%, size=default, stoke linecap=round" id="204:9396" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11874" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "291.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "291.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11875" type="FRAME" */}
                 <QodeSvg20411875
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`80%`}</span>
             </div>
@@ -874,39 +1019,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=85%, size=default, stoke linecap=round" id="204:9393" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11856" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "309.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "309.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11857" type="FRAME" */}
                 <QodeSvg20411857
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`85%`}</span>
             </div>
@@ -920,39 +1074,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=90%, size=default, stoke linecap=round" id="204:9390" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11850" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "327.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "327.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11851" type="FRAME" */}
                 <QodeSvg20411851
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`90%`}</span>
             </div>
@@ -966,39 +1129,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=95%, size=default, stoke linecap=round" id="204:9387" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11892" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "345.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "345.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11893" type="FRAME" */}
                 <QodeSvg20411893
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`95%`}</span>
             </div>
@@ -1012,50 +1184,62 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=Success, size=default, stoke linecap=round" id="204:9563" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "383px",
-                height: "22px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "8px",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "383px",
+                  height: "22px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "8px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
             >
               {/* name="icon" id="204:9564" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "22px",
-                  padding: "3px 0px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
+                  ...{
+                    display: "flex",
+                    width: "16px",
+                    height: "22px",
+                    padding: "3px 0px",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexShrink: "0",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="check-circle" id="204:9565" type="INSTANCE" */}
                 <QodeCustom3510410
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
+                  style={{
+                    ...{ width: "16px", height: "16px", flexShrink: "0" },
+                    ...{},
+                  }}
                   {...{}}
                 />
               </div>
               {/* name="Progress Bar" id="204:11901" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "359px",
-                  padding: "0px 359px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flexShrink: "0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    width: "359px",
+                    padding: "0px 359px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flexShrink: "0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11902" type="FRAME" */}
                 <QodeSvg20411902
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
@@ -1070,50 +1254,62 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=Error, size=default, stoke linecap=round" id="204:9559" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "383px",
-                height: "22px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "8px",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "383px",
+                  height: "22px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "8px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11862" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "359px",
-                  padding: "0px 251px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flexShrink: "0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    width: "359px",
+                    padding: "0px 251px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flexShrink: "0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11863" type="FRAME" */}
                 <QodeSvg20411863
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               {/* name="icon" id="204:9561" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "22px",
-                  padding: "3px 0px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
+                  ...{
+                    display: "flex",
+                    width: "16px",
+                    height: "22px",
+                    padding: "3px 0px",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexShrink: "0",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="close-circle" id="204:9562" type="INSTANCE" */}
                 <QodeCustom3510402
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
+                  style={{
+                    ...{ width: "16px", height: "16px", flexShrink: "0" },
+                    ...{},
+                  }}
                   {...{}}
                 />
               </div>
@@ -1128,39 +1324,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=5%, size=small, stoke linecap=round" id="204:9496" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12240" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "6.9px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "6.9px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12241" type="FRAME" */}
                 <QodeSvg20412241
-                  style={{ height: "6px", alignSelf: "stretch" }}
+                  style={{ ...{ height: "6px", alignSelf: "stretch" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`5%`}</span>
             </div>
@@ -1174,39 +1379,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=10%, size=small, stoke linecap=round" id="204:9493" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12195" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "13.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "13.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12196" type="FRAME" */}
                 <QodeSvg20412196
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`10%`}</span>
             </div>
@@ -1220,39 +1434,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=15%, size=small, stoke linecap=round" id="204:9490" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12213" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "20.7px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "20.7px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12214" type="FRAME" */}
                 <QodeSvg20412214
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`15%`}</span>
             </div>
@@ -1266,39 +1489,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=20%, size=small, stoke linecap=round" id="204:9487" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12255" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "27.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "27.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12256" type="FRAME" */}
                 <QodeSvg20412256
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`20%`}</span>
             </div>
@@ -1312,39 +1544,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=25%, size=small, stoke linecap=round" id="204:9484" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12234" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "34.5px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "34.5px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12235" type="FRAME" */}
                 <QodeSvg20412235
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`25%`}</span>
             </div>
@@ -1358,39 +1599,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=30%, size=small, stoke linecap=round" id="204:9499" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12246" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "41.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "41.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12247" type="FRAME" */}
                 <QodeSvg20412247
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`30%`}</span>
             </div>
@@ -1404,39 +1654,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=35%, size=small, stoke linecap=round" id="204:9481" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12186" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "48.3px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "48.3px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12187" type="FRAME" */}
                 <QodeSvg20412187
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`35%`}</span>
             </div>
@@ -1450,39 +1709,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=40%, size=small, stoke linecap=round" id="204:9478" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12192" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "55.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "55.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12193" type="FRAME" */}
                 <QodeSvg20412193
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`40%`}</span>
             </div>
@@ -1496,39 +1764,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=45%, size=small, stoke linecap=round" id="204:9475" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12225" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "62.1px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "62.1px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12226" type="FRAME" */}
                 <QodeSvg20412226
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`45%`}</span>
             </div>
@@ -1542,39 +1819,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=50%, size=small, stoke linecap=round" id="204:9472" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12174" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "69px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "69px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12175" type="FRAME" */}
                 <QodeSvg20412175
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`50%`}</span>
             </div>
@@ -1588,39 +1874,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=55%, size=small, stoke linecap=round" id="204:9469" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12258" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "75.9px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "75.9px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12259" type="FRAME" */}
                 <QodeSvg20412259
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`55%`}</span>
             </div>
@@ -1634,39 +1929,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=60%, size=small, stoke linecap=round" id="204:9466" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12216" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "82.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "82.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12217" type="FRAME" */}
                 <QodeSvg20412217
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`60%`}</span>
             </div>
@@ -1680,39 +1984,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=65%, size=small, stoke linecap=round" id="204:9463" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12168" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "89.7px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "89.7px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12169" type="FRAME" */}
                 <QodeSvg20412169
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`65%`}</span>
             </div>
@@ -1726,39 +2039,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=70%, size=small, stoke linecap=round" id="204:9460" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12207" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "96.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "96.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12208" type="FRAME" */}
                 <QodeSvg20412208
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`70%`}</span>
             </div>
@@ -1772,39 +2094,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=75%, size=small, stoke linecap=round" id="204:9457" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12228" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "103.5px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "103.5px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12229" type="FRAME" */}
                 <QodeSvg20412229
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`75%`}</span>
             </div>
@@ -1818,39 +2149,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=80%, size=small, stoke linecap=round" id="204:9454" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12252" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "110.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "110.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12253" type="FRAME" */}
                 <QodeSvg20412253
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`80%`}</span>
             </div>
@@ -1864,39 +2204,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=85%, size=small, stoke linecap=round" id="204:9451" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12204" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "117.3px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "117.3px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12205" type="FRAME" */}
                 <QodeSvg20412205
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`85%`}</span>
             </div>
@@ -1910,39 +2259,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=90%, size=small, stoke linecap=round" id="204:9448" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12189" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "124.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "124.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12190" type="FRAME" */}
                 <QodeSvg20412190
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`90%`}</span>
             </div>
@@ -1956,39 +2314,48 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=95%, size=small, stoke linecap=round" id="204:9445" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12198" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "131.1px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "131.1px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12199" type="FRAME" */}
                 <QodeSvg20412199
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`95%`}</span>
             </div>
@@ -2002,46 +2369,58 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=Success, size=small, stoke linecap=round" id="204:9573" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "170px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "170px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12165" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  padding: "0px 138px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    padding: "0px 138px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12166" type="FRAME" */}
                 <QodeSvg20412166
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               {/* name="icon" id="204:9575" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "12px",
-                  height: "22px",
-                  padding: "5px 0px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
+                  ...{
+                    display: "flex",
+                    width: "12px",
+                    height: "22px",
+                    padding: "5px 0px",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexShrink: "0",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="check-circle" id="204:9576" type="INSTANCE" */}
                 <QodeCustom3510410
-                  style={{ width: "12px", height: "12px", flexShrink: "0" }}
+                  style={{
+                    ...{ width: "12px", height: "12px", flexShrink: "0" },
+                    ...{},
+                  }}
                   {...{}}
                 />
               </div>
@@ -2056,46 +2435,58 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=Error, size=small, stoke linecap=round" id="204:9569" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "170px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "170px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12264" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  padding: "0px 30px 0px 74px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  borderRadius: "100px",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    padding: "0px 30px 0px 74px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    borderRadius: "100px",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12265" type="FRAME" */}
                 <QodeSvg20412265
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               {/* name="icon" id="204:9571" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "12px",
-                  height: "22px",
-                  padding: "5px 0px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
+                  ...{
+                    display: "flex",
+                    width: "12px",
+                    height: "22px",
+                    padding: "5px 0px",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexShrink: "0",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="close-circle" id="204:9572" type="INSTANCE" */}
                 <QodeCustom3510402
-                  style={{ width: "12px", height: "12px", flexShrink: "0" }}
+                  style={{
+                    ...{ width: "12px", height: "12px", flexShrink: "0" },
+                    ...{},
+                  }}
                   {...{}}
                 />
               </div>
@@ -2110,38 +2501,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=5%, size=default, stoke linecap=butt" id="204:11923" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11924" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "18.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "18.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11925" type="FRAME" */}
                 <QodeSvg20411925
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`5%`}</span>
             </div>
@@ -2155,38 +2555,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=10%, size=default, stoke linecap=butt" id="204:11928" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11929" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "36.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "36.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11930" type="FRAME" */}
                 <QodeSvg20411930
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`10%`}</span>
             </div>
@@ -2200,38 +2609,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=15%, size=default, stoke linecap=butt" id="204:11933" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11934" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "54.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "54.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11935" type="FRAME" */}
                 <QodeSvg20411935
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`15%`}</span>
             </div>
@@ -2245,38 +2663,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=20%, size=default, stoke linecap=butt" id="204:11938" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11939" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "72.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "72.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11940" type="FRAME" */}
                 <QodeSvg20411940
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`20%`}</span>
             </div>
@@ -2290,38 +2717,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=25%, size=default, stoke linecap=butt" id="204:11943" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11944" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "91px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "91px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11945" type="FRAME" */}
                 <QodeSvg20411945
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`25%`}</span>
             </div>
@@ -2335,38 +2771,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=30%, size=default, stoke linecap=butt" id="204:11948" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11949" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "109.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "109.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11950" type="FRAME" */}
                 <QodeSvg20411950
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`30%`}</span>
             </div>
@@ -2380,38 +2825,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=35%, size=default, stoke linecap=butt" id="204:11953" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11954" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "127.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "127.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11955" type="FRAME" */}
                 <QodeSvg20411955
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`35%`}</span>
             </div>
@@ -2425,38 +2879,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=40%, size=default, stoke linecap=butt" id="204:11958" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11959" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "145.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "145.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11960" type="FRAME" */}
                 <QodeSvg20411960
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`40%`}</span>
             </div>
@@ -2470,38 +2933,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=45%, size=default, stoke linecap=butt" id="204:11963" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11964" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "163.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "163.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11965" type="FRAME" */}
                 <QodeSvg20411965
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`45%`}</span>
             </div>
@@ -2515,38 +2987,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=50%, size=default, stoke linecap=butt" id="204:11968" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11969" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "182px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "182px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11970" type="FRAME" */}
                 <QodeSvg20411970
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`50%`}</span>
             </div>
@@ -2560,38 +3041,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=55%, size=default, stoke linecap=butt" id="204:11973" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11974" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "200.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "200.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11975" type="FRAME" */}
                 <QodeSvg20411975
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`55%`}</span>
             </div>
@@ -2605,38 +3095,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=60%, size=default, stoke linecap=butt" id="204:11978" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11979" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "218.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "218.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11980" type="FRAME" */}
                 <QodeSvg20411980
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`60%`}</span>
             </div>
@@ -2650,38 +3149,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=65%, size=default, stoke linecap=butt" id="204:11983" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11984" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "236.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "236.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11985" type="FRAME" */}
                 <QodeSvg20411985
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`65%`}</span>
             </div>
@@ -2695,38 +3203,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=70%, size=default, stoke linecap=butt" id="204:11988" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11989" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "254.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "254.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11990" type="FRAME" */}
                 <QodeSvg20411990
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`70%`}</span>
             </div>
@@ -2740,38 +3257,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=75%, size=default, stoke linecap=butt" id="204:11993" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11994" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "273px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "273px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:11995" type="FRAME" */}
                 <QodeSvg20411995
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`75%`}</span>
             </div>
@@ -2785,38 +3311,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=80%, size=default, stoke linecap=butt" id="204:11998" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:11999" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "291.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "291.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12000" type="FRAME" */}
                 <QodeSvg20412000
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`80%`}</span>
             </div>
@@ -2830,38 +3365,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=85%, size=default, stoke linecap=butt" id="204:12003" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:12004" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "309.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "309.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12005" type="FRAME" */}
                 <QodeSvg20412005
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`85%`}</span>
             </div>
@@ -2875,38 +3419,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=90%, size=default, stoke linecap=butt" id="204:12008" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:12009" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "327.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "327.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12010" type="FRAME" */}
                 <QodeSvg20412010
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`90%`}</span>
             </div>
@@ -2920,38 +3473,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=95%, size=default, stoke linecap=butt" id="204:12013" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "400px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "400px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:12014" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "345.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "345.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12015" type="FRAME" */}
                 <QodeSvg20412015
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`95%`}</span>
             </div>
@@ -2965,49 +3527,61 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=Success, size=default, stoke linecap=butt" id="204:12018" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "383px",
-                height: "22px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "8px",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "383px",
+                  height: "22px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "8px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
             >
               {/* name="icon" id="204:12019" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "22px",
-                  padding: "3px 0px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
+                  ...{
+                    display: "flex",
+                    width: "16px",
+                    height: "22px",
+                    padding: "3px 0px",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexShrink: "0",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="check-circle" id="204:12020" type="INSTANCE" */}
                 <QodeCustom3510410
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
+                  style={{
+                    ...{ width: "16px", height: "16px", flexShrink: "0" },
+                    ...{},
+                  }}
                   {...{}}
                 />
               </div>
               {/* name="Progress Bar" id="204:12021" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "359px",
-                  padding: "0px 359px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flexShrink: "0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    width: "359px",
+                    padding: "0px 359px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flexShrink: "0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12022" type="FRAME" */}
                 <QodeSvg20412022
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
@@ -3022,49 +3596,61 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=Error, size=default, stoke linecap=butt" id="204:12024" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "383px",
-                height: "22px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "8px",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "383px",
+                  height: "22px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "8px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
             >
               {/* name="Progress Bar" id="204:12025" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "359px",
-                  padding: "0px 251px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flexShrink: "0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    width: "359px",
+                    padding: "0px 251px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flexShrink: "0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12026" type="FRAME" */}
                 <QodeSvg20412026
-                  style={{ width: "50px", height: "8px" }}
+                  style={{ ...{ width: "50px", height: "8px" }, ...{} }}
                   {...{}}
                 />
               </div>
               {/* name="icon" id="204:12028" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "22px",
-                  padding: "3px 0px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
+                  ...{
+                    display: "flex",
+                    width: "16px",
+                    height: "22px",
+                    padding: "3px 0px",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexShrink: "0",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="close-circle" id="204:12029" type="INSTANCE" */}
                 <QodeCustom3510402
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
+                  style={{
+                    ...{ width: "16px", height: "16px", flexShrink: "0" },
+                    ...{},
+                  }}
                   {...{}}
                 />
               </div>
@@ -3079,38 +3665,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=5%, size=small, stoke linecap=butt" id="204:12030" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12210" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "6.9px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "6.9px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12211" type="FRAME" */}
                 <QodeSvg20412211
-                  style={{ height: "6px", alignSelf: "stretch" }}
+                  style={{ ...{ height: "6px", alignSelf: "stretch" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`5%`}</span>
             </div>
@@ -3124,38 +3719,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=10%, size=small, stoke linecap=butt" id="204:12033" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12201" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "13.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "13.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12202" type="FRAME" */}
                 <QodeSvg20412202
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`10%`}</span>
             </div>
@@ -3169,38 +3773,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=15%, size=small, stoke linecap=butt" id="204:12036" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12183" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "20.7px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "20.7px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12184" type="FRAME" */}
                 <QodeSvg20412184
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`15%`}</span>
             </div>
@@ -3214,38 +3827,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=20%, size=small, stoke linecap=butt" id="204:12039" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12222" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "27.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "27.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12223" type="FRAME" */}
                 <QodeSvg20412223
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`20%`}</span>
             </div>
@@ -3259,38 +3881,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=25%, size=small, stoke linecap=butt" id="204:12042" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12177" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "34.5px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "34.5px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12178" type="FRAME" */}
                 <QodeSvg20412178
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`25%`}</span>
             </div>
@@ -3304,38 +3935,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=30%, size=small, stoke linecap=butt" id="204:12045" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12237" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "41.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "41.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12238" type="FRAME" */}
                 <QodeSvg20412238
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`30%`}</span>
             </div>
@@ -3349,38 +3989,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=35%, size=small, stoke linecap=butt" id="204:12048" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12159" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "48.3px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "48.3px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12160" type="FRAME" */}
                 <QodeSvg20412160
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`35%`}</span>
             </div>
@@ -3394,38 +4043,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=40%, size=small, stoke linecap=butt" id="204:12051" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12147" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "55.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "55.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12148" type="FRAME" */}
                 <QodeSvg20412148
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`40%`}</span>
             </div>
@@ -3439,38 +4097,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=45%, size=small, stoke linecap=butt" id="204:12054" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12231" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "62.1px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "62.1px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12232" type="FRAME" */}
                 <QodeSvg20412232
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`45%`}</span>
             </div>
@@ -3484,38 +4151,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=50%, size=small, stoke linecap=butt" id="204:12057" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12243" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "69px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "69px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12244" type="FRAME" */}
                 <QodeSvg20412244
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`50%`}</span>
             </div>
@@ -3529,38 +4205,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=55%, size=small, stoke linecap=butt" id="204:12060" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12141" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "75.9px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "75.9px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12142" type="FRAME" */}
                 <QodeSvg20412142
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`55%`}</span>
             </div>
@@ -3574,38 +4259,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=60%, size=small, stoke linecap=butt" id="204:12063" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12153" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "82.8px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "82.8px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12154" type="FRAME" */}
                 <QodeSvg20412154
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`60%`}</span>
             </div>
@@ -3619,38 +4313,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=65%, size=small, stoke linecap=butt" id="204:12066" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12261" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "89.7px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "89.7px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12262" type="FRAME" */}
                 <QodeSvg20412262
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`65%`}</span>
             </div>
@@ -3664,38 +4367,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=70%, size=small, stoke linecap=butt" id="204:12069" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12219" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "96.6px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "96.6px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12220" type="FRAME" */}
                 <QodeSvg20412220
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`70%`}</span>
             </div>
@@ -3709,38 +4421,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=75%, size=small, stoke linecap=butt" id="204:12072" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12171" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "103.5px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "103.5px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12172" type="FRAME" */}
                 <QodeSvg20412172
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`75%`}</span>
             </div>
@@ -3754,38 +4475,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=80%, size=small, stoke linecap=butt" id="204:12075" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12144" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "110.4px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "110.4px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12145" type="FRAME" */}
                 <QodeSvg20412145
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`80%`}</span>
             </div>
@@ -3799,38 +4529,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=85%, size=small, stoke linecap=butt" id="204:12078" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12180" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "117.3px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "117.3px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12181" type="FRAME" */}
                 <QodeSvg20412181
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`85%`}</span>
             </div>
@@ -3844,38 +4583,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=90%, size=small, stoke linecap=butt" id="204:12081" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12162" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "124.2px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "124.2px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12163" type="FRAME" */}
                 <QodeSvg20412163
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`90%`}</span>
             </div>
@@ -3889,38 +4637,47 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=95%, size=small, stoke linecap=butt" id="204:12084" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "174px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "174px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12156" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  paddingLeft: "131.1px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    paddingLeft: "131.1px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12157" type="FRAME" */}
                 <QodeSvg20412157
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               <span
                 style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  ...{
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
+                    fontStyle: "normal",
+                    fontWeight: "400",
+                    lineHeight:
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
                 }}
               >{`95%`}</span>
             </div>
@@ -3934,45 +4691,57 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=Success, size=small, stoke linecap=butt" id="204:12087" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "170px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "170px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12150" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  padding: "0px 138px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    padding: "0px 138px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12151" type="FRAME" */}
                 <QodeSvg20412151
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               {/* name="icon" id="204:12089" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "12px",
-                  height: "22px",
-                  padding: "5px 0px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
+                  ...{
+                    display: "flex",
+                    width: "12px",
+                    height: "22px",
+                    padding: "5px 0px",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexShrink: "0",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="check-circle" id="204:12090" type="INSTANCE" */}
                 <QodeCustom3510410
-                  style={{ width: "12px", height: "12px", flexShrink: "0" }}
+                  style={{
+                    ...{ width: "12px", height: "12px", flexShrink: "0" },
+                    ...{},
+                  }}
                   {...{}}
                 />
               </div>
@@ -3987,45 +4756,57 @@ export const QodeCustom2049386: React.FC<
             {/* name="value=Error, size=small, stoke linecap=butt" id="204:12091" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "170px",
-                alignItems: "center",
-                gap: "8px",
+                ...{
+                  display: "flex",
+                  width: "170px",
+                  alignItems: "center",
+                  gap: "8px",
+                },
+                ...style,
               }}
             >
               {/* name="Progress" id="204:12249" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  padding: "0px 30px 0px 74px",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  flex: "1 0 0",
-                  background: "var(--neutral-gray-10, #e3e3e3)",
+                  ...{
+                    display: "flex",
+                    padding: "0px 30px 0px 74px",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    flex: "1 0 0",
+                    background: "var(--neutral-gray-10, #e3e3e3)",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="progress-inner" id="204:12250" type="FRAME" */}
                 <QodeSvg20412250
-                  style={{ width: "50px", height: "6px" }}
+                  style={{ ...{ width: "50px", height: "6px" }, ...{} }}
                   {...{}}
                 />
               </div>
               {/* name="icon" id="204:12093" type="FRAME" */}
               <div
                 style={{
-                  display: "flex",
-                  width: "12px",
-                  height: "22px",
-                  padding: "5px 0px",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
+                  ...{
+                    display: "flex",
+                    width: "12px",
+                    height: "22px",
+                    padding: "5px 0px",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    flexShrink: "0",
+                  },
+                  ...{},
                 }}
               >
                 {/* name="close-circle" id="204:12094" type="INSTANCE" */}
                 <QodeCustom3510402
-                  style={{ width: "12px", height: "12px", flexShrink: "0" }}
+                  style={{
+                    ...{ width: "12px", height: "12px", flexShrink: "0" },
+                    ...{},
+                  }}
                   {...{}}
                 />
               </div>

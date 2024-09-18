@@ -9,7 +9,8 @@ export interface QodeRateProps extends Omit<RateProps, "integrity"> {
 
 export const QodeRate: React.FC<QodeRateProps> = ({
   integrity = "full",
+  style,
   ...rest
 }) => {
-  return <Rate integrity={integrity} {...rest} />
+  return <Rate integrity={integrity} style={{ ...style }} {...rest} />
 }

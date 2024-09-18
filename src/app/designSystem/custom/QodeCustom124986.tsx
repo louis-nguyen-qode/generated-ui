@@ -25,7 +25,7 @@ export interface QodeCustom124986Props {
 
 export const QodeCustom124986: React.FC<
   QodeCustom124986Props & { style?: CSSProperties }
-> = ({ title = "Ribbon", color = "daybreak blue", ...rest }) => {
+> = ({ title = "Ribbon", color = "daybreak blue", style, ...rest }) => {
   return (
     <>
       {/* name="Badge__Ribbon" id="124:986" type="COMPONENT_SET" */}
@@ -35,35 +35,44 @@ export const QodeCustom124986: React.FC<
           {/* name="color=daybreak blue" id="124:985" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius:
-                "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
-              background: "var(--daybreak-blue-blue-6, #1677ff)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius:
+                  "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
+                background: "var(--daybreak-blue-blue-6, #1677ff)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Ribbon`}</span>
             {/* name="Arrow" id="124:991" type="VECTOR" */}
             <QodeSvg124991
               style={{
-                width: "8px",
-                height: "6px",
-                position: "absolute",
-                right: "0px",
-                bottom: "-8px",
-                fill: "var(--daybreak-blue-blue-7, #0958d9)",
+                ...{
+                  width: "8px",
+                  height: "6px",
+                  position: "absolute",
+                  right: "0px",
+                  bottom: "-8px",
+                  fill: "var(--daybreak-blue-blue-7, #0958d9)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -76,35 +85,44 @@ export const QodeCustom124986: React.FC<
           {/* name="color=volcano" id="124:994" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius:
-                "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
-              background: "var(--volcano-volcano-6, #fa541c)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius:
+                  "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
+                background: "var(--volcano-volcano-6, #fa541c)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Ribbon`}</span>
             {/* name="Arrow" id="124:996" type="VECTOR" */}
             <QodeSvg124996
               style={{
-                width: "8px",
-                height: "6px",
-                position: "absolute",
-                right: "0px",
-                bottom: "-8px",
-                fill: "var(--volcano-volcano-7, #d4380d)",
+                ...{
+                  width: "8px",
+                  height: "6px",
+                  position: "absolute",
+                  right: "0px",
+                  bottom: "-8px",
+                  fill: "var(--volcano-volcano-7, #d4380d)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -117,35 +135,44 @@ export const QodeCustom124986: React.FC<
           {/* name="color=magenta" id="124:997" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius:
-                "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
-              background: "var(--magenta-magenta-6, #eb2f96)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius:
+                  "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
+                background: "var(--magenta-magenta-6, #eb2f96)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Ribbon`}</span>
             {/* name="Arrow" id="124:999" type="VECTOR" */}
             <QodeSvg124999
               style={{
-                width: "8px",
-                height: "6px",
-                position: "absolute",
-                right: "0px",
-                bottom: "-8px",
-                fill: "var(--magenta-magenta-7, #c41d7f)",
+                ...{
+                  width: "8px",
+                  height: "6px",
+                  position: "absolute",
+                  right: "0px",
+                  bottom: "-8px",
+                  fill: "var(--magenta-magenta-7, #c41d7f)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -158,35 +185,44 @@ export const QodeCustom124986: React.FC<
           {/* name="color=dust red" id="124:1000" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius:
-                "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
-              background: "var(--red-red-6, #cc5135)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius:
+                  "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
+                background: "var(--red-red-6, #cc5135)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Ribbon`}</span>
             {/* name="Arrow" id="124:1002" type="VECTOR" */}
             <QodeSvg1241002
               style={{
-                width: "8px",
-                height: "6px",
-                position: "absolute",
-                right: "0px",
-                bottom: "-8px",
-                fill: "var(--red-red-7, #993d28)",
+                ...{
+                  width: "8px",
+                  height: "6px",
+                  position: "absolute",
+                  right: "0px",
+                  bottom: "-8px",
+                  fill: "var(--red-red-7, #993d28)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -199,35 +235,44 @@ export const QodeCustom124986: React.FC<
           {/* name="color=cyan" id="124:1003" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius:
-                "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
-              background: "var(--cyan-cyan-6, #13c2c2)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius:
+                  "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
+                background: "var(--cyan-cyan-6, #13c2c2)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Ribbon`}</span>
             {/* name="Arrow" id="124:1005" type="VECTOR" */}
             <QodeSvg1241005
               style={{
-                width: "8px",
-                height: "6px",
-                position: "absolute",
-                right: "0px",
-                bottom: "-8px",
-                fill: "var(--cyan-cyan-7, #08979c)",
+                ...{
+                  width: "8px",
+                  height: "6px",
+                  position: "absolute",
+                  right: "0px",
+                  bottom: "-8px",
+                  fill: "var(--cyan-cyan-7, #08979c)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -240,35 +285,44 @@ export const QodeCustom124986: React.FC<
           {/* name="color=polar green" id="124:1006" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius:
-                "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
-              background: "var(--green-green-6, #71940e)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius:
+                  "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
+                background: "var(--green-green-6, #71940e)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Ribbon`}</span>
             {/* name="Arrow" id="124:1008" type="VECTOR" */}
             <QodeSvg1241008
               style={{
-                width: "8px",
-                height: "6px",
-                position: "absolute",
-                right: "0px",
-                bottom: "-8px",
-                fill: "var(--green-green-7, #556f0a)",
+                ...{
+                  width: "8px",
+                  height: "6px",
+                  position: "absolute",
+                  right: "0px",
+                  bottom: "-8px",
+                  fill: "var(--green-green-7, #556f0a)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -281,35 +335,44 @@ export const QodeCustom124986: React.FC<
           {/* name="color=golden purple" id="124:1009" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius:
-                "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
-              background: "var(--purple-purple-6, #722ed1)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius:
+                  "var(--style-radius-borderradiussm, 6px) var(--style-radius-borderradiussm, 6px) 0px var(--style-radius-borderradiussm, 6px)",
+                background: "var(--purple-purple-6, #722ed1)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Ribbon`}</span>
             {/* name="Arrow" id="124:1011" type="VECTOR" */}
             <QodeSvg1241011
               style={{
-                width: "8px",
-                height: "6px",
-                position: "absolute",
-                right: "0px",
-                bottom: "-8px",
-                fill: "var(--purple-purple-7, #531dab)",
+                ...{
+                  width: "8px",
+                  height: "6px",
+                  position: "absolute",
+                  right: "0px",
+                  bottom: "-8px",
+                  fill: "var(--purple-purple-7, #531dab)",
+                },
+                ...{},
               }}
               {...{}}
             />

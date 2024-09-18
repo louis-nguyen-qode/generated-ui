@@ -15,6 +15,7 @@ export const QodeCustom5612157: React.FC<
   subSectionName = "Sub section name",
   section = "Section name",
   type = "Default",
+  style,
   ...rest
 }) => {
   return (
@@ -26,26 +27,32 @@ export const QodeCustom5612157: React.FC<
           {/* name="Type=Default" id="5612:158" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "40px 120px",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              borderRadius: "0px 0px 48px 0px",
-              background:
-                "linear-gradient(90deg, #EAF4FF 2.94%, #EFEBFF 38.71%, #FFFEFB 71.15%, #EBFBFF 99.21%)",
-              boxShadow: "4px 4px 0px 0px #434343",
+              ...{
+                display: "inline-flex",
+                padding: "40px 120px",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                borderRadius: "0px 0px 48px 0px",
+                background:
+                  "linear-gradient(90deg, #EAF4FF 2.94%, #EFEBFF 38.71%, #FFFEFB 71.15%, #EBFBFF 99.21%)",
+                boxShadow: "4px 4px 0px 0px #434343",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--cool-neutrals-100, #1f2a35)",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: "Sora",
-                fontSize: "54px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "normal",
+                ...{
+                  color: "var(--cool-neutrals-100, #1f2a35)",
+                  fontFeatureSettings: "'liga' off, 'clig' off",
+                  fontFamily: "Sora",
+                  fontSize: "54px",
+                  fontStyle: "normal",
+                  fontWeight: "700",
+                  lineHeight: "normal",
+                },
+                ...{},
               }}
             >{`Section name`}</span>
           </div>
@@ -57,26 +64,32 @@ export const QodeCustom5612157: React.FC<
           {/* name="Type=Compact" id="5612:160" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "24px 80px",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              borderRadius: "0px 0px 36px 0px",
-              background:
-                "linear-gradient(90deg, #EAF4FF 2.94%, #EFEBFF 38.71%, #FFFEFB 71.15%, #EBFBFF 99.21%)",
-              boxShadow: "4px 4px 0px 0px #434343",
+              ...{
+                display: "inline-flex",
+                padding: "24px 80px",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                borderRadius: "0px 0px 36px 0px",
+                background:
+                  "linear-gradient(90deg, #EAF4FF 2.94%, #EFEBFF 38.71%, #FFFEFB 71.15%, #EBFBFF 99.21%)",
+                boxShadow: "4px 4px 0px 0px #434343",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--cool-neutrals-100, #1f2a35)",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: "Sora",
-                fontSize: "40px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "normal",
+                ...{
+                  color: "var(--cool-neutrals-100, #1f2a35)",
+                  fontFeatureSettings: "'liga' off, 'clig' off",
+                  fontFamily: "Sora",
+                  fontSize: "40px",
+                  fontStyle: "normal",
+                  fontWeight: "700",
+                  lineHeight: "normal",
+                },
+                ...{},
               }}
             >{`Sub section name`}</span>
           </div>

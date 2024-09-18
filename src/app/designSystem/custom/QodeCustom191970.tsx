@@ -24,6 +24,7 @@ export const QodeCustom191970: React.FC<
   direction = "horizontal",
   _style = "default",
   state = "active",
+  style,
   ...rest
 }) => {
   return (
@@ -37,9 +38,12 @@ export const QodeCustom191970: React.FC<
             {/* name="direction=horizontal, style=default, state=active" id="191:969" type="COMPONENT" */}
             <QodeSvg191969
               style={{
-                width: "160px",
-                height: "var(--size-size-size5xs-1px, 1px)",
-                flexShrink: "0",
+                ...{
+                  width: "160px",
+                  height: "var(--size-size-size5xs-1px, 1px)",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -52,7 +56,10 @@ export const QodeCustom191970: React.FC<
           <>
             {/* name="direction=horizontal, style=bold, state=active" id="191:973" type="COMPONENT" */}
             <QodeSvg191973
-              style={{ width: "160px", height: "3px", flexShrink: "0" }}
+              style={{
+                ...{ width: "160px", height: "3px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -65,9 +72,12 @@ export const QodeCustom191970: React.FC<
             {/* name="direction=horizontal, style=default, state=waiting" id="191:975" type="COMPONENT" */}
             <QodeSvg191975
               style={{
-                width: "160px",
-                height: "var(--size-size-size5xs-1px, 1px)",
-                flexShrink: "0",
+                ...{
+                  width: "160px",
+                  height: "var(--size-size-size5xs-1px, 1px)",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -80,7 +90,10 @@ export const QodeCustom191970: React.FC<
           <>
             {/* name="direction=horizontal, style=bold, state=waiting" id="191:977" type="COMPONENT" */}
             <QodeSvg191977
-              style={{ width: "160px", height: "3px", flexShrink: "0" }}
+              style={{
+                ...{ width: "160px", height: "3px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -93,9 +106,12 @@ export const QodeCustom191970: React.FC<
             {/* name="direction=vertical, style=default, state=active" id="191:979" type="COMPONENT" */}
             <QodeSvg191979
               style={{
-                width: "var(--size-size-size5xs-1px, 1px)",
-                height: "75px",
-                flexShrink: "0",
+                ...{
+                  width: "var(--size-size-size5xs-1px, 1px)",
+                  height: "75px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -108,7 +124,10 @@ export const QodeCustom191970: React.FC<
           <>
             {/* name="direction=vertical, style=bold, state=active" id="191:981" type="COMPONENT" */}
             <QodeSvg191981
-              style={{ width: "3px", height: "75px", flexShrink: "0" }}
+              style={{
+                ...{ width: "3px", height: "75px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -121,9 +140,12 @@ export const QodeCustom191970: React.FC<
             {/* name="direction=vertical, style=default, state=waiting" id="191:983" type="COMPONENT" */}
             <QodeSvg191983
               style={{
-                width: "var(--size-size-size5xs-1px, 1px)",
-                height: "75px",
-                flexShrink: "0",
+                ...{
+                  width: "var(--size-size-size5xs-1px, 1px)",
+                  height: "75px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -136,7 +158,10 @@ export const QodeCustom191970: React.FC<
           <>
             {/* name="direction=vertical, style=bold, state=waiting" id="191:985" type="COMPONENT" */}
             <QodeSvg191985
-              style={{ width: "3px", height: "75px", flexShrink: "0" }}
+              style={{
+                ...{ width: "3px", height: "75px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>

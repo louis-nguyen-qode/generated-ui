@@ -12,7 +12,7 @@ export interface QodeCustom3548199Props {
 
 export const QodeCustom3548199: React.FC<
   QodeCustom3548199Props & { style?: CSSProperties }
-> = ({ open = "no", ...rest }) => {
+> = ({ open = "no", style, ...rest }) => {
   return (
     <>
       {/* name="FloatButton__Menu" id="354:8199" type="COMPONENT_SET" */}
@@ -20,20 +20,28 @@ export const QodeCustom3548199: React.FC<
       {`${open}` === `no` && (
         <>
           {/* name="open=no" id="354:8198" type="COMPONENT" */}
-          <div style={{ display: "inline-flex", alignItems: "flex-start" }}>
+          <div
+            style={{
+              ...{ display: "inline-flex", alignItems: "flex-start" },
+              ...style,
+            }}
+          >
             {/* name="FloatButton" id="354:8155" type="INSTANCE" */}
             <QodeFloatButton
               style={{
-                display: "flex",
-                width: "40px",
-                height: "40px",
-                padding: "var(--size-padding-paddingxs, 8px)",
-                justifyContent: "center",
-                alignItems: "center",
-                borderRadius: "var(--style-radius-borderround, 999px)",
-                background: "var(--color-primary-colorprimary, #1597f4)",
-                boxShadow:
-                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                ...{
+                  display: "flex",
+                  width: "40px",
+                  height: "40px",
+                  padding: "var(--size-padding-paddingxs, 8px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                  background: "var(--color-primary-colorprimary, #1597f4)",
+                  boxShadow:
+                    "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                },
+                ...{},
               }}
               {...{
                 type: "primary",
@@ -51,35 +59,44 @@ export const QodeCustom3548199: React.FC<
           {/* name="open=yes" id="354:8200" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "var(--size-padding-padding, 16px)",
+              ...{
+                display: "inline-flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "var(--size-padding-padding, 16px)",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 float menu" id="354:8204" type="INSTANCE" */}
             <QodeCustom3547070
               style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "flex-start",
-                gap: "var(--size-padding-padding, 16px)",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                  gap: "var(--size-padding-padding, 16px)",
+                },
+                ...{},
               }}
               {...{ type: "circle", items: "6" }}
             />
             {/* name="FloatButton" id="354:8201" type="INSTANCE" */}
             <QodeFloatButton
               style={{
-                display: "flex",
-                width: "40px",
-                height: "40px",
-                padding: "var(--size-padding-paddingxs, 8px)",
-                justifyContent: "center",
-                alignItems: "center",
-                borderRadius: "var(--style-radius-borderround, 999px)",
-                background: "var(--color-primary-colorprimary, #1597f4)",
-                boxShadow:
-                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                ...{
+                  display: "flex",
+                  width: "40px",
+                  height: "40px",
+                  padding: "var(--size-padding-paddingxs, 8px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                  background: "var(--color-primary-colorprimary, #1597f4)",
+                  boxShadow:
+                    "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                },
+                ...{},
               }}
               {...{
                 type: "primary",

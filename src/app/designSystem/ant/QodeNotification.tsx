@@ -21,6 +21,7 @@ export const QodeNotification: React.FC<QodeNotificationProps> = ({
   showButtons = true,
   showIcon = true,
   type = "info",
+  style,
   ...rest
 }) => {
   return (
@@ -30,6 +31,7 @@ export const QodeNotification: React.FC<QodeNotificationProps> = ({
       showButtons={showButtons}
       showIcon={showIcon}
       type={type}
+      style={{ ...style }}
       {...rest}
     />
   )

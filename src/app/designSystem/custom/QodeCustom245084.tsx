@@ -12,51 +12,63 @@ export interface QodeCustom245084Props {}
 
 export const QodeCustom245084: React.FC<
   QodeCustom245084Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="❓Expand=No" id="24:5084" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "608px",
-          paddingBottom: "12px",
-          flexDirection: "column",
-          alignItems: "flex-end",
-          gap: "16px",
-          borderBottom:
-            "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+          ...{
+            display: "flex",
+            width: "608px",
+            paddingBottom: "12px",
+            flexDirection: "column",
+            alignItems: "flex-end",
+            gap: "16px",
+            borderBottom:
+              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+          },
+          ...style,
         }}
       >
         {/* name="body" id="24:5085" type="FRAME" */}
         <div
           style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
+            ...{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+            },
+            ...{},
           }}
         >
           {/* name="Profile/Section header" id="531:30152" type="INSTANCE" */}
           <QodeCustom53130112
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              alignSelf: "stretch",
-              borderRadius: "var(--border-radius-small, 4px)",
+              ...{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                alignSelf: "stretch",
+                borderRadius: "var(--border-radius-small, 4px)",
+              },
+              ...{},
             }}
             {...{ title: "Experience", state: "view" }}
           />
           {/* name="jobItem" id="24:5093" type="INSTANCE" */}
           <QodeCustom244862
             style={{
-              display: "flex",
-              paddingBottom: "var(--size-padding-paddingsm, 12px)",
-              alignItems: "flex-start",
-              gap: "var(--size-margin-marginsm, 12px)",
-              alignSelf: "stretch",
+              ...{
+                display: "flex",
+                paddingBottom: "var(--size-padding-paddingsm, 12px)",
+                alignItems: "flex-start",
+                gap: "var(--size-margin-marginsm, 12px)",
+                alignSelf: "stretch",
+              },
+              ...{},
             }}
             {...{
               location: true,
@@ -72,41 +84,53 @@ export const QodeCustom245084: React.FC<
           {/* name="groupExp" id="24:5094" type="FRAME" */}
           <div
             style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "8px",
-              alignSelf: "stretch",
+              ...{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "8px",
+                alignSelf: "stretch",
+              },
+              ...{},
             }}
           >
             {/* name="companyItem" id="24:5095" type="INSTANCE" */}
             <QodeCustom244887
               style={{
-                display: "flex",
-                alignItems: "flex-start",
-                gap: "var(--size-margin-marginsm, 12px)",
-                alignSelf: "stretch",
+                ...{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  gap: "var(--size-margin-marginsm, 12px)",
+                  alignSelf: "stretch",
+                },
+                ...{},
               }}
               {...{ location: true, companyName: true, logo: "Yes" }}
             />
             {/* name="expItem" id="24:5096" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                paddingLeft: "var(--size-padding-padding, 16px)",
-                flexDirection: "column",
-                alignItems: "flex-start",
-                gap: "8px",
-                alignSelf: "stretch",
+                ...{
+                  display: "flex",
+                  paddingLeft: "var(--size-padding-padding, 16px)",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                  gap: "8px",
+                  alignSelf: "stretch",
+                },
+                ...{},
               }}
             >
               {/* name=".exp_item_vertical" id="24:5097" type="INSTANCE" */}
               <QodeCustom27892072
                 style={{
-                  display: "flex",
-                  alignItems: "flex-start",
-                  gap: "var(--size-padding-paddingxl, 32px)",
-                  alignSelf: "stretch",
+                  ...{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "var(--size-padding-paddingxl, 32px)",
+                    alignSelf: "stretch",
+                  },
+                  ...{},
                 }}
                 {...{
                   button: true,
@@ -122,10 +146,13 @@ export const QodeCustom245084: React.FC<
               {/* name=".exp_item_vertical" id="24:5098" type="INSTANCE" */}
               <QodeCustom27892072
                 style={{
-                  display: "flex",
-                  alignItems: "flex-start",
-                  gap: "var(--size-padding-paddingxl, 32px)",
-                  alignSelf: "stretch",
+                  ...{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "var(--size-padding-paddingxl, 32px)",
+                    alignSelf: "stretch",
+                  },
+                  ...{},
                 }}
                 {...{
                   button: true,
@@ -143,13 +170,16 @@ export const QodeCustom245084: React.FC<
         </div>
         <span
           style={{
-            color: "var(--text-text-neutral-20, #878787)",
-            textAlign: "center",
-            fontFamily: 'var(--font-family-fontfamily, "sf pro display")',
-            fontSize: "var(--font-size-small, 12px)",
-            fontStyle: "normal",
-            fontWeight: "700",
-            lineHeight: "var(--line-height-lineheighsm, 16px) /* 133.333% */",
+            ...{
+              color: "var(--text-text-neutral-20, #878787)",
+              textAlign: "center",
+              fontFamily: 'var(--font-family-fontfamily, "sf pro display")',
+              fontSize: "var(--font-size-small, 12px)",
+              fontStyle: "normal",
+              fontWeight: "700",
+              lineHeight: "var(--line-height-lineheighsm, 16px) /* 133.333% */",
+            },
+            ...{},
           }}
         >{`Show all 3 experiences`}</span>
       </div>

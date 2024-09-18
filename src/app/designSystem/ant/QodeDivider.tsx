@@ -21,6 +21,7 @@ export const QodeDivider: React.FC<QodeDividerProps> = ({
   text = "text",
   orientation = "default",
   dashed = "false",
+  style,
   ...rest
 }) => {
   return (
@@ -30,6 +31,7 @@ export const QodeDivider: React.FC<QodeDividerProps> = ({
       text={text}
       orientation={orientation}
       dashed={dashed}
+      style={{ ...style }}
       {...rest}
     />
   )

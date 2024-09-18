@@ -9,34 +9,43 @@ export interface QodeCustom997620Props {}
 
 export const QodeCustom997620: React.FC<
   QodeCustom997620Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="Email/Content" id="99:7620" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "600px",
-          flexDirection: "column",
-          alignItems: "flex-start",
-          gap: "12px",
+          ...{
+            display: "flex",
+            width: "600px",
+            flexDirection: "column",
+            alignItems: "flex-start",
+            gap: "12px",
+          },
+          ...style,
         }}
       >
         {/* name="Email/From" id="99:7654" type="INSTANCE" */}
         <QodeCustom997639
-          style={{ display: "flex", alignItems: "center", gap: "8px" }}
+          style={{
+            ...{ display: "flex", alignItems: "center", gap: "8px" },
+            ...{},
+          }}
           {...{ from: "Sender" }}
         />
         <span
           style={{
-            alignSelf: "stretch",
-            color: "var(--text-text-neutral-50, #1d1d1d)",
-            fontFamily: 'var(--family-family, "sf pro display")',
-            fontSize: "var(--size-base, 14px)",
-            fontStyle: "normal",
-            fontWeight: "400",
-            lineHeight:
-              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+            ...{
+              alignSelf: "stretch",
+              color: "var(--text-text-neutral-50, #1d1d1d)",
+              fontFamily: 'var(--family-family, "sf pro display")',
+              fontSize: "var(--size-base, 14px)",
+              fontStyle: "normal",
+              fontWeight: "400",
+              lineHeight:
+                "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+            },
+            ...{},
           }}
         >{`Hi Thai,
 

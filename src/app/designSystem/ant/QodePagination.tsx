@@ -14,7 +14,16 @@ export const QodePagination: React.FC<QodePaginationProps> = ({
   total = "Total 85 items",
   type = "basic",
   mini = "false",
+  style,
   ...rest
 }) => {
-  return <Pagination total={total} type={type} mini={mini} {...rest} />
+  return (
+    <Pagination
+      total={total}
+      type={type}
+      mini={mini}
+      style={{ ...style }}
+      {...rest}
+    />
+  )
 }

@@ -11,211 +11,257 @@ export interface QodeCustom7110910Props {}
 
 export const QodeCustom7110910: React.FC<
   QodeCustom7110910Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="Property 1=Default" id="71:10910" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "353px",
-          flexDirection: "column",
-          alignItems: "center",
-          background: "#FFF",
+          ...{
+            display: "flex",
+            width: "353px",
+            flexDirection: "column",
+            alignItems: "center",
+            background: "#FFF",
+          },
+          ...style,
         }}
       >
         {/* name="Profile/List item" id="71:10346" type="INSTANCE" */}
         <QodeCustom409553
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom: "2px solid var(--border-border-primary-20, #158de2)",
-            background: "#F6FBFF",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "2px solid var(--border-border-primary-20, #158de2)",
+              background: "#F6FBFF",
+            },
+            ...{},
           }}
           {...{ state: "active" }}
         />
         {/* name="Profile/List item" id="71:10347" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="71:10348" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="71:10349" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="71:10350" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="71:10555" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="71:10889" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="71:10557" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="71:10558" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Profile/List item" id="71:10559" type="INSTANCE" */}
         <QodeCustom409540
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "12px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
-            background: "var(--background-bg-white, #fff)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              gap: "12px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+              background: "var(--background-bg-white, #fff)",
+            },
+            ...{},
           }}
           {...{ state: "default" }}
         />
         {/* name="Footer" id="71:11438" type="FRAME" */}
         <div
           style={{
-            display: "flex",
-            padding: "12px 16px",
-            justifyContent: "space-between",
-            alignItems: "center",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+            ...{
+              display: "flex",
+              padding: "12px 16px",
+              justifyContent: "space-between",
+              alignItems: "center",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+            },
+            ...{},
           }}
         >
           {/* name="Frame 37294" id="73:7669" type="FRAME" */}
           <div
             style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "flex-start",
+              ...{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "flex-start",
+              },
+              ...{},
             }}
           >
             <span
               style={{
-                color: "var(--text-text-neutral-30, #656565)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "500",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--text-text-neutral-30, #656565)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Page: 1/5`}</span>
           </div>
           {/* name="Pagination" id="71:11991" type="INSTANCE" */}
           <QodePagination
             style={{
-              display: "flex",
-              width: "208px",
-              height: "var(--size-height-controlheightsm, 24px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxxs, 4px)",
+              ...{
+                display: "flex",
+                width: "208px",
+                height: "var(--size-height-controlheightsm, 24px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxxs, 4px)",
+              },
+              ...{},
             }}
             {...{ total: "Total 85 items", type: "basic", mini: true }}
           />

@@ -12,7 +12,8 @@ export interface QodeSegmentedProps
 export const QodeSegmented: React.FC<QodeSegmentedProps> = ({
   items = "2",
   size = "default",
+  style,
   ...rest
 }) => {
-  return <Segmented items={items} size={size} {...rest} />
+  return <Segmented items={items} size={size} style={{ ...style }} {...rest} />
 }

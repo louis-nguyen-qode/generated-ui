@@ -21,6 +21,7 @@ export const QodeFloatButton: React.FC<QodeFloatButtonProps> = ({
   state = "default",
   shape = "square",
   badge = "none",
+  style,
   ...rest
 }) => {
   return (
@@ -30,6 +31,7 @@ export const QodeFloatButton: React.FC<QodeFloatButtonProps> = ({
       state={state}
       shape={shape}
       badge={badge}
+      style={{ ...style }}
       {...rest}
     />
   )

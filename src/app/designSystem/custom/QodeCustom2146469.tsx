@@ -18,7 +18,7 @@ export interface QodeCustom2146469Props {
 
 export const QodeCustom2146469: React.FC<
   QodeCustom2146469Props & { style?: CSSProperties }
-> = ({ size = "default", active = "false", ...rest }) => {
+> = ({ size = "default", active = "false", style, ...rest }) => {
   return (
     <>
       {/* name="TimePicker" id="214:6469" type="COMPONENT_SET" */}
@@ -28,28 +28,34 @@ export const QodeCustom2146469: React.FC<
           {/* name="size=default, active=false" id="214:6470" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="214:6471" type="INSTANCE" */}
             <QodeCustom2145153
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheight, 32px)",
-                padding: "10px var(--size-padding-paddingsm, 12px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                background:
-                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheight, 32px)",
+                  padding: "10px var(--size-padding-paddingsm, 12px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  background:
+                    "var(--color-neutral-background-colorbgcontainer, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select time",
@@ -73,28 +79,34 @@ export const QodeCustom2146469: React.FC<
           {/* name="size=large, active=false" id="214:6472" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="214:6473" type="INSTANCE" */}
             <QodeCustom2145213
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheightlg, 40px)",
-                padding: "10px var(--size-padding-paddingsm, 12px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingsm, 12px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                background:
-                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheightlg, 40px)",
+                  padding: "10px var(--size-padding-paddingsm, 12px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingsm, 12px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  background:
+                    "var(--color-neutral-background-colorbgcontainer, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select time",
@@ -118,28 +130,34 @@ export const QodeCustom2146469: React.FC<
           {/* name="size=small, active=false" id="214:6474" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="214:6475" type="INSTANCE" */}
             <QodeCustom2145273
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheightsm, 24px)",
-                padding: "10px var(--size-padding-paddingxs, 8px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                background:
-                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheightsm, 24px)",
+                  padding: "10px var(--size-padding-paddingxs, 8px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  background:
+                    "var(--color-neutral-background-colorbgcontainer, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select time",
@@ -163,28 +181,34 @@ export const QodeCustom2146469: React.FC<
           {/* name="size=default, active=true" id="214:6476" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="214:6477" type="INSTANCE" */}
             <QodeCustom2145159
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheight, 32px)",
-                padding: "10px var(--size-padding-paddingsm, 12px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
-                background:
-                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheight, 32px)",
+                  padding: "10px var(--size-padding-paddingsm, 12px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                  background:
+                    "var(--color-neutral-background-colorbgcontainer, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select time",
@@ -202,18 +226,21 @@ export const QodeCustom2146469: React.FC<
             {/* name="🧬 dropdown menu" id="214:6478" type="INSTANCE" */}
             <QodeCustom2146293
               style={{
-                display: "flex",
-                width: "170px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                position: "absolute",
-                bottom: "-272px",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                background:
-                  "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
-                boxShadow:
-                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                ...{
+                  display: "flex",
+                  width: "170px",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  position: "absolute",
+                  bottom: "-272px",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  background:
+                    "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
+                  boxShadow:
+                    "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                },
+                ...{},
               }}
               {...{ type: "HH:MM:SS" }}
             />
@@ -226,28 +253,34 @@ export const QodeCustom2146469: React.FC<
           {/* name="size=large, active=true" id="214:6479" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="214:6480" type="INSTANCE" */}
             <QodeCustom2145219
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheightlg, 40px)",
-                padding: "10px var(--size-padding-paddingsm, 12px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingsm, 12px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
-                background:
-                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheightlg, 40px)",
+                  padding: "10px var(--size-padding-paddingsm, 12px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingsm, 12px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                  background:
+                    "var(--color-neutral-background-colorbgcontainer, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select time",
@@ -265,18 +298,21 @@ export const QodeCustom2146469: React.FC<
             {/* name="🧬 dropdown menu" id="214:6481" type="INSTANCE" */}
             <QodeCustom2146293
               style={{
-                display: "flex",
-                width: "170px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                position: "absolute",
-                bottom: "-272px",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                background:
-                  "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
-                boxShadow:
-                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                ...{
+                  display: "flex",
+                  width: "170px",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  position: "absolute",
+                  bottom: "-272px",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  background:
+                    "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
+                  boxShadow:
+                    "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                },
+                ...{},
               }}
               {...{ type: "HH:MM:SS" }}
             />
@@ -289,28 +325,34 @@ export const QodeCustom2146469: React.FC<
           {/* name="size=small, active=true" id="214:6482" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="214:6483" type="INSTANCE" */}
             <QodeCustom2145279
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheightsm, 24px)",
-                padding: "10px var(--size-padding-paddingxs, 8px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
-                background:
-                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheightsm, 24px)",
+                  padding: "10px var(--size-padding-paddingxs, 8px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                  background:
+                    "var(--color-neutral-background-colorbgcontainer, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select time",
@@ -328,18 +370,21 @@ export const QodeCustom2146469: React.FC<
             {/* name="🧬 dropdown menu" id="214:6484" type="INSTANCE" */}
             <QodeCustom2146293
               style={{
-                display: "flex",
-                width: "170px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                position: "absolute",
-                bottom: "-272px",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                background:
-                  "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
-                boxShadow:
-                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                ...{
+                  display: "flex",
+                  width: "170px",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  position: "absolute",
+                  bottom: "-272px",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  background:
+                    "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
+                  boxShadow:
+                    "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                },
+                ...{},
               }}
               {...{ type: "HH:MM:SS" }}
             />

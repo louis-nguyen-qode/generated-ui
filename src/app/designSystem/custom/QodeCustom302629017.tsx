@@ -9,28 +9,34 @@ export interface QodeCustom302629017Props {}
 
 export const QodeCustom302629017: React.FC<
   QodeCustom302629017Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="Circle" id="3026:29017" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "8px",
-          height: "8px",
-          justifyContent: "center",
-          alignItems: "center",
+          ...{
+            display: "flex",
+            width: "8px",
+            height: "8px",
+            justifyContent: "center",
+            alignItems: "center",
+          },
+          ...style,
         }}
       >
         {/* name="Circle" id="3026:29018" type="VECTOR" */}
         <QodeSvg302629018
           style={{
-            width: "8px",
-            height: "8px",
-            flexShrink: "0",
-            fill: "var(--brands-white, #fff)",
-            strokeWidth: "3px",
-            stroke: "var(--brands-gray-900, #18181b)",
+            ...{
+              width: "8px",
+              height: "8px",
+              flexShrink: "0",
+              fill: "var(--brands-white, #fff)",
+              strokeWidth: "3px",
+              stroke: "var(--brands-gray-900, #18181b)",
+            },
+            ...{},
           }}
           {...{}}
         />

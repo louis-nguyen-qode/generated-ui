@@ -20,6 +20,7 @@ export const QodeCustom302629006: React.FC<
   endPoint = undefined,
   startPoint = undefined,
   line = "Solid",
+  style,
   ...rest
 }) => {
   return (
@@ -29,26 +30,40 @@ export const QodeCustom302629006: React.FC<
       {`${line}` === `Solid` && (
         <>
           {/* name="Line=Solid" id="3026:29007" type="COMPONENT" */}
-          <div style={{ width: "91px", height: "8px", flexShrink: "0" }}>
+          <div
+            style={{
+              ...{ width: "91px", height: "8px", flexShrink: "0" },
+              ...style,
+            }}
+          >
             {/* name="Line" id="3026:29008" type="VECTOR" */}
             <QodeSvg302629008
               style={{
-                width: "86.177px",
-                height: "0px",
-                flexShrink: "0",
-                strokeWidth: "1.5px",
-                stroke: "var(--brands-gray-900, #18181b)",
+                ...{
+                  width: "86.177px",
+                  height: "0px",
+                  flexShrink: "0",
+                  strokeWidth: "1.5px",
+                  stroke: "var(--brands-gray-900, #18181b)",
+                },
+                ...{},
               }}
               {...{}}
             />
             {/* name="Arrow" id="3026:29009" type="INSTANCE" */}
             <QodeCustom302629015
-              style={{ width: "8px", height: "8px", flexShrink: "0" }}
+              style={{
+                ...{ width: "8px", height: "8px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
             {/* name="Circle" id="3026:29010" type="INSTANCE" */}
             <QodeCustom302629017
-              style={{ width: "8px", height: "8px", flexShrink: "0" }}
+              style={{
+                ...{ width: "8px", height: "8px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>
@@ -58,26 +73,40 @@ export const QodeCustom302629006: React.FC<
       {`${line}` === `Dashed` && (
         <>
           {/* name="Line=Dashed" id="3026:29011" type="COMPONENT" */}
-          <div style={{ width: "91px", height: "8px", flexShrink: "0" }}>
+          <div
+            style={{
+              ...{ width: "91px", height: "8px", flexShrink: "0" },
+              ...style,
+            }}
+          >
             {/* name="Line" id="3026:29012" type="VECTOR" */}
             <QodeSvg302629012
               style={{
-                width: "86.039px",
-                height: "0px",
-                flexShrink: "0",
-                strokeWidth: "1.5px",
-                stroke: "var(--brands-gray-900, #18181b)",
+                ...{
+                  width: "86.039px",
+                  height: "0px",
+                  flexShrink: "0",
+                  strokeWidth: "1.5px",
+                  stroke: "var(--brands-gray-900, #18181b)",
+                },
+                ...{},
               }}
               {...{}}
             />
             {/* name="Arrow" id="3026:29013" type="INSTANCE" */}
             <QodeCustom302629015
-              style={{ width: "8px", height: "8px", flexShrink: "0" }}
+              style={{
+                ...{ width: "8px", height: "8px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
             {/* name="Circle" id="3026:29014" type="INSTANCE" */}
             <QodeCustom302629017
-              style={{ width: "8px", height: "8px", flexShrink: "0" }}
+              style={{
+                ...{ width: "8px", height: "8px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>

@@ -12,7 +12,15 @@ export interface QodeEmptyProps
 export const QodeEmpty: React.FC<QodeEmptyProps> = ({
   showDescription = true,
   type = "basic",
+  style,
   ...rest
 }) => {
-  return <Empty showDescription={showDescription} type={type} {...rest} />
+  return (
+    <Empty
+      showDescription={showDescription}
+      type={type}
+      style={{ ...style }}
+      {...rest}
+    />
+  )
 }

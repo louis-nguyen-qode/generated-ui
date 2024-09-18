@@ -11,7 +11,8 @@ export interface QodeSelectProps extends Omit<SelectProps, "active" | "size"> {
 export const QodeSelect: React.FC<QodeSelectProps> = ({
   active = "false",
   size = "default",
+  style,
   ...rest
 }) => {
-  return <Select active={active} size={size} {...rest} />
+  return <Select active={active} size={size} style={{ ...style }} {...rest} />
 }

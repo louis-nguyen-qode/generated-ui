@@ -28,6 +28,7 @@ export const QodeDrawer: React.FC<QodeDrawerProps> = ({
   showButtonSecondary = true,
   showClose = true,
   placement = "right",
+  style,
   ...rest
 }) => {
   return (
@@ -38,6 +39,7 @@ export const QodeDrawer: React.FC<QodeDrawerProps> = ({
       showButtonSecondary={showButtonSecondary}
       showClose={showClose}
       placement={placement}
+      style={{ ...style }}
       {...rest}
     />
   )

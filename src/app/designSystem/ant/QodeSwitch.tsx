@@ -18,6 +18,7 @@ export const QodeSwitch: React.FC<QodeSwitchProps> = ({
   active = "true",
   size = "default",
   content = "none",
+  style,
   ...rest
 }) => {
   return (
@@ -27,6 +28,7 @@ export const QodeSwitch: React.FC<QodeSwitchProps> = ({
       active={active}
       size={size}
       content={content}
+      style={{ ...style }}
       {...rest}
     />
   )

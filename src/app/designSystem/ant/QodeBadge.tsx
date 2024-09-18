@@ -14,7 +14,16 @@ export const QodeBadge: React.FC<QodeBadgeProps> = ({
   icon = undefined,
   count = "21",
   type = "dot",
+  style,
   ...rest
 }) => {
-  return <Badge icon={icon} count={count} type={type} {...rest} />
+  return (
+    <Badge
+      icon={icon}
+      count={count}
+      type={type}
+      style={{ ...style }}
+      {...rest}
+    />
+  )
 }

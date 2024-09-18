@@ -43,6 +43,7 @@ export const QodeDatePicker: React.FC<QodeDatePickerProps> = ({
   status = "default",
   size = "default",
   range = "false",
+  style,
   ...rest
 }) => {
   return (
@@ -58,6 +59,7 @@ export const QodeDatePicker: React.FC<QodeDatePickerProps> = ({
       status={status}
       size={size}
       range={range}
+      style={{ ...style }}
       {...rest}
     />
   )

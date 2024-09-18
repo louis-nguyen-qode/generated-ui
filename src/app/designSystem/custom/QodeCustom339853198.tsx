@@ -9,7 +9,7 @@ export interface QodeCustom339853198Props {
 
 export const QodeCustom339853198: React.FC<
   QodeCustom339853198Props & { style?: CSSProperties }
-> = ({ direction = "Vertical", ...rest }) => {
+> = ({ direction = "Vertical", style, ...rest }) => {
   return (
     <>
       {/* name="Scrollbar" id="3398:53198" type="COMPONENT_SET" */}
@@ -19,15 +19,17 @@ export const QodeCustom339853198: React.FC<
           {/* name="Direction=Vertical" id="3398:53197" type="COMPONENT" */}
           <div
             style={{
-              width: "6px",
-              height: "50px",
-              flexShrink: "0",
-              borderRadius: "4px",
-              background:
-                "var(--opacity-black-black-opacity-15, rgba(0, 0, 0, 0.15))",
+              ...{
+                width: "6px",
+                height: "50px",
+                flexShrink: "0",
+                borderRadius: "4px",
+                background:
+                  "var(--opacity-black-black-opacity-15, rgba(0, 0, 0, 0.15))",
+              },
+              ...style,
             }}
           >
-            {/* name="Direction=Vertical" id=3398:53197 type=COMPONENT */}
             <></>
           </div>
         </>
@@ -38,15 +40,17 @@ export const QodeCustom339853198: React.FC<
           {/* name="Direction=Horizontal" id="3398:53196" type="COMPONENT" */}
           <div
             style={{
-              width: "50px",
-              height: "6px",
-              flexShrink: "0",
-              borderRadius: "4px",
-              background:
-                "var(--opacity-black-black-opacity-15, rgba(0, 0, 0, 0.15))",
+              ...{
+                width: "50px",
+                height: "6px",
+                flexShrink: "0",
+                borderRadius: "4px",
+                background:
+                  "var(--opacity-black-black-opacity-15, rgba(0, 0, 0, 0.15))",
+              },
+              ...style,
             }}
           >
-            {/* name="Direction=Horizontal" id=3398:53196 type=COMPONENT */}
             <></>
           </div>
         </>

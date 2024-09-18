@@ -38,6 +38,7 @@ export const QodeCustom61606: React.FC<
   darkmode = "yes",
   orientation = "landscape",
   wordmark = "yes",
+  style,
   ...rest
 }) => {
   return (
@@ -52,34 +53,43 @@ export const QodeCustom61606: React.FC<
             {/* name="type=Default, ?darkmode=yes, orientation=landscape, ?wordmark=yes" id="6160:7" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "294px",
-                height: "99px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "16px",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "294px",
+                  height: "99px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "16px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
             >
               {/* name="symbol" id="6160:8" type="VECTOR" */}
               <QodeSvg61608
                 style={{
-                  width: "114px",
-                  height: "99px",
-                  flexShrink: "0",
-                  fill: "var(--primary-primary-50, #1597f4)",
-                  strokeWidth: "2px",
-                  stroke: "var(--border-border-primary-20, #158de2)",
+                  ...{
+                    width: "114px",
+                    height: "99px",
+                    flexShrink: "0",
+                    fill: "var(--primary-primary-50, #1597f4)",
+                    strokeWidth: "2px",
+                    stroke: "var(--border-border-primary-20, #158de2)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
               {/* name="wordmark" id="6160:9" type="VECTOR" */}
               <QodeSvg61609
                 style={{
-                  width: "164px",
-                  height: "65px",
-                  flexShrink: "0",
-                  fill: "var(--brands-black, #000)",
+                  ...{
+                    width: "164px",
+                    height: "65px",
+                    flexShrink: "0",
+                    fill: "var(--brands-black, #000)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
@@ -94,7 +104,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=Default, ?darkmode=yes, orientation=landscape, ?wordmark=no" id="6160:10" type="COMPONENT" */}
             <QodeSvg616010
-              style={{ width: "100px", height: "100px", flexShrink: "0" }}
+              style={{
+                ...{ width: "100px", height: "100px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -108,34 +121,43 @@ export const QodeCustom61606: React.FC<
             {/* name="type=Default, ?darkmode=no, orientation=landscape, ?wordmark=yes" id="6160:12" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "294px",
-                height: "99px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "16px",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "294px",
+                  height: "99px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "16px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
             >
               {/* name="symbol" id="6160:13" type="VECTOR" */}
               <QodeSvg616013
                 style={{
-                  width: "114px",
-                  height: "99px",
-                  flexShrink: "0",
-                  fill: "var(--primary-primary-50, #1597f4)",
-                  strokeWidth: "2px",
-                  stroke: "var(--border-border-primary-20, #158de2)",
+                  ...{
+                    width: "114px",
+                    height: "99px",
+                    flexShrink: "0",
+                    fill: "var(--primary-primary-50, #1597f4)",
+                    strokeWidth: "2px",
+                    stroke: "var(--border-border-primary-20, #158de2)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
               {/* name="wordmark" id="6160:14" type="VECTOR" */}
               <QodeSvg616014
                 style={{
-                  width: "164px",
-                  height: "65px",
-                  flexShrink: "0",
-                  fill: "var(--brands-white, #fff)",
+                  ...{
+                    width: "164px",
+                    height: "65px",
+                    flexShrink: "0",
+                    fill: "var(--brands-white, #fff)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
@@ -150,7 +172,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=Default, ?darkmode=no, orientation=landscape, ?wordmark=no" id="6160:15" type="COMPONENT" */}
             <QodeSvg616015
-              style={{ width: "100px", height: "100px", flexShrink: "0" }}
+              style={{
+                ...{ width: "100px", height: "100px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -164,33 +189,42 @@ export const QodeCustom61606: React.FC<
             {/* name="type=mono, ?darkmode=yes, orientation=landscape, ?wordmark=yes" id="6160:17" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "294px",
-                height: "99px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "16px",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "294px",
+                  height: "99px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "16px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
             >
               {/* name="symbol" id="6160:18" type="VECTOR" */}
               <QodeSvg616018
                 style={{
-                  width: "114px",
-                  height: "99px",
-                  flexShrink: "0",
-                  fill: "var(--brands-black, #000)",
-                  filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
+                  ...{
+                    width: "114px",
+                    height: "99px",
+                    flexShrink: "0",
+                    fill: "var(--brands-black, #000)",
+                    filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
               {/* name="wordmark" id="6160:19" type="VECTOR" */}
               <QodeSvg616019
                 style={{
-                  width: "164px",
-                  height: "65px",
-                  flexShrink: "0",
-                  fill: "var(--brands-black, #000)",
+                  ...{
+                    width: "164px",
+                    height: "65px",
+                    flexShrink: "0",
+                    fill: "var(--brands-black, #000)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
@@ -205,7 +239,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=mono, ?darkmode=yes, orientation=landscape, ?wordmark=no" id="6160:20" type="COMPONENT" */}
             <QodeSvg616020
-              style={{ width: "100px", height: "100px", flexShrink: "0" }}
+              style={{
+                ...{ width: "100px", height: "100px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -219,34 +256,43 @@ export const QodeCustom61606: React.FC<
             {/* name="type=mono, ?darkmode=no, orientation=landscape, ?wordmark=yes" id="6160:22" type="COMPONENT" */}
             <div
               style={{
-                display: "flex",
-                width: "294px",
-                height: "99px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "16px",
-                flexShrink: "0",
+                ...{
+                  display: "flex",
+                  width: "294px",
+                  height: "99px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "16px",
+                  flexShrink: "0",
+                },
+                ...style,
               }}
             >
               {/* name="symbol" id="6160:23" type="VECTOR" */}
               <QodeSvg616023
                 style={{
-                  width: "114px",
-                  height: "99px",
-                  flexShrink: "0",
-                  fill: "var(--brands-white, #fff)",
-                  strokeWidth: "1px",
-                  stroke: "var(--border-border-primary-20, #158de2)",
+                  ...{
+                    width: "114px",
+                    height: "99px",
+                    flexShrink: "0",
+                    fill: "var(--brands-white, #fff)",
+                    strokeWidth: "1px",
+                    stroke: "var(--border-border-primary-20, #158de2)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
               {/* name="wordmark" id="6160:24" type="VECTOR" */}
               <QodeSvg616024
                 style={{
-                  width: "164px",
-                  height: "65px",
-                  flexShrink: "0",
-                  fill: "var(--brands-white, #fff)",
+                  ...{
+                    width: "164px",
+                    height: "65px",
+                    flexShrink: "0",
+                    fill: "var(--brands-white, #fff)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
@@ -261,7 +307,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=mono, ?darkmode=no, orientation=landscape, ?wordmark=no" id="6160:25" type="COMPONENT" */}
             <QodeSvg616025
-              style={{ width: "100px", height: "100px", flexShrink: "0" }}
+              style={{
+                ...{ width: "100px", height: "100px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -274,7 +323,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=Default, ?darkmode=yes, orientation=portrait, ?wordmark=yes" id="6160:27" type="COMPONENT" */}
             <QodeSvg616027
-              style={{ width: "164px", height: "180px", flexShrink: "0" }}
+              style={{
+                ...{ width: "164px", height: "180px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -287,7 +339,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=Default, ?darkmode=yes, orientation=portrait, ?wordmark=no" id="6160:30" type="COMPONENT" */}
             <QodeSvg616030
-              style={{ width: "100px", height: "100px", flexShrink: "0" }}
+              style={{
+                ...{ width: "100px", height: "100px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -300,7 +355,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=Default, ?darkmode=no, orientation=portrait, ?wordmark=yes" id="6160:32" type="COMPONENT" */}
             <QodeSvg616032
-              style={{ width: "164px", height: "180px", flexShrink: "0" }}
+              style={{
+                ...{ width: "164px", height: "180px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -313,7 +371,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=Default, ?darkmode=no, orientation=portrait, ?wordmark=no" id="6160:35" type="COMPONENT" */}
             <QodeSvg616035
-              style={{ width: "100px", height: "100px", flexShrink: "0" }}
+              style={{
+                ...{ width: "100px", height: "100px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -326,7 +387,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=mono, ?darkmode=yes, orientation=portrait, ?wordmark=yes" id="6160:37" type="COMPONENT" */}
             <QodeSvg616037
-              style={{ width: "164px", height: "180px", flexShrink: "0" }}
+              style={{
+                ...{ width: "164px", height: "180px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -339,7 +403,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=mono, ?darkmode=yes, orientation=portrait, ?wordmark=no" id="6160:40" type="COMPONENT" */}
             <QodeSvg616040
-              style={{ width: "100px", height: "100px", flexShrink: "0" }}
+              style={{
+                ...{ width: "100px", height: "100px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -352,7 +419,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=mono, ?darkmode=no, orientation=portrait, ?wordmark=yes" id="6160:42" type="COMPONENT" */}
             <QodeSvg616042
-              style={{ width: "164px", height: "180px", flexShrink: "0" }}
+              style={{
+                ...{ width: "164px", height: "180px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>
@@ -365,7 +435,10 @@ export const QodeCustom61606: React.FC<
           <>
             {/* name="type=mono, ?darkmode=no, orientation=portrait, ?wordmark=no" id="6160:45" type="COMPONENT" */}
             <QodeSvg616045
-              style={{ width: "100px", height: "100px", flexShrink: "0" }}
+              style={{
+                ...{ width: "100px", height: "100px", flexShrink: "0" },
+                ...style,
+              }}
               {...{}}
             />
           </>

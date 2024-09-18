@@ -7,60 +7,78 @@ export interface QodeCustom59528123Props {}
 
 export const QodeCustom59528123: React.FC<
   QodeCustom59528123Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="Property 1=5" id="595:28123" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "78px",
-          alignItems: "flex-start",
-          gap: "2px",
+          ...{
+            display: "flex",
+            width: "78px",
+            alignItems: "flex-start",
+            gap: "2px",
+          },
+          ...style,
         }}
       >
         {/* name="star" id="595:28112" type="INSTANCE" */}
         <Icon.QodeStar
           style={{
-            width: "var(--font-size-base, 14px)",
-            height: "var(--font-size-base, 14px)",
-            flexShrink: "0",
+            ...{
+              width: "var(--font-size-base, 14px)",
+              height: "var(--font-size-base, 14px)",
+              flexShrink: "0",
+            },
+            ...{},
           }}
           {...{}}
         />
         {/* name="star" id="595:28113" type="INSTANCE" */}
         <Icon.QodeStar
           style={{
-            width: "var(--font-size-base, 14px)",
-            height: "var(--font-size-base, 14px)",
-            flexShrink: "0",
+            ...{
+              width: "var(--font-size-base, 14px)",
+              height: "var(--font-size-base, 14px)",
+              flexShrink: "0",
+            },
+            ...{},
           }}
           {...{}}
         />
         {/* name="star" id="595:28114" type="INSTANCE" */}
         <Icon.QodeStar
           style={{
-            width: "var(--font-size-base, 14px)",
-            height: "var(--font-size-base, 14px)",
-            flexShrink: "0",
+            ...{
+              width: "var(--font-size-base, 14px)",
+              height: "var(--font-size-base, 14px)",
+              flexShrink: "0",
+            },
+            ...{},
           }}
           {...{}}
         />
         {/* name="star" id="595:28115" type="INSTANCE" */}
         <Icon.QodeStar
           style={{
-            width: "var(--font-size-base, 14px)",
-            height: "var(--font-size-base, 14px)",
-            flexShrink: "0",
+            ...{
+              width: "var(--font-size-base, 14px)",
+              height: "var(--font-size-base, 14px)",
+              flexShrink: "0",
+            },
+            ...{},
           }}
           {...{}}
         />
         {/* name="star" id="595:28136" type="INSTANCE" */}
         <Icon.QodeStar
           style={{
-            width: "var(--font-size-base, 14px)",
-            height: "var(--font-size-base, 14px)",
-            flexShrink: "0",
+            ...{
+              width: "var(--font-size-base, 14px)",
+              height: "var(--font-size-base, 14px)",
+              flexShrink: "0",
+            },
+            ...{},
           }}
           {...{}}
         />

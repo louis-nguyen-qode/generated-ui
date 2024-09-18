@@ -39,6 +39,7 @@ export const QodeResult: React.FC<QodeResultProps> = ({
   showDescription = true,
   title = "Title of the result",
   state = "Success",
+  style,
   ...rest
 }) => {
   return (
@@ -50,6 +51,7 @@ export const QodeResult: React.FC<QodeResultProps> = ({
       showDescription={showDescription}
       title={title}
       state={state}
+      style={{ ...style }}
       {...rest}
     />
   )

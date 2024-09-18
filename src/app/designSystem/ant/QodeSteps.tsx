@@ -14,7 +14,16 @@ export const QodeSteps: React.FC<QodeStepsProps> = ({
   step = "2",
   status = "finish",
   size = "default",
+  style,
   ...rest
 }) => {
-  return <Steps step={step} status={status} size={size} {...rest} />
+  return (
+    <Steps
+      step={step}
+      status={status}
+      size={size}
+      style={{ ...style }}
+      {...rest}
+    />
+  )
 }

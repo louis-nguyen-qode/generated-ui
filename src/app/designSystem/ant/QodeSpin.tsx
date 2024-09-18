@@ -19,6 +19,7 @@ export const QodeSpin: React.FC<QodeSpinProps> = ({
   description = "Loading...",
   size = "small",
   customSpinner = "false",
+  style,
   ...rest
 }) => {
   return (
@@ -27,6 +28,7 @@ export const QodeSpin: React.FC<QodeSpinProps> = ({
       description={description}
       size={size}
       customSpinner={customSpinner}
+      style={{ ...style }}
       {...rest}
     />
   )

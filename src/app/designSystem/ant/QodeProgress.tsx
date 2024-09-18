@@ -14,6 +14,7 @@ export const QodeProgress: React.FC<QodeProgressProps> = ({
   size = "mini",
   status = "default",
   strokeLinecap = "round",
+  style,
   ...rest
 }) => {
   return (
@@ -21,6 +22,7 @@ export const QodeProgress: React.FC<QodeProgressProps> = ({
       size={size}
       status={status}
       strokeLinecap={strokeLinecap}
+      style={{ ...style }}
       {...rest}
     />
   )

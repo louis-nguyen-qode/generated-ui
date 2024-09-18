@@ -12,7 +12,7 @@ export interface QodeCustom22116618Props {
 
 export const QodeCustom22116618: React.FC<
   QodeCustom22116618Props & { style?: CSSProperties }
-> = ({ state = "Default", ...rest }) => {
+> = ({ state = "Default", style, ...rest }) => {
   return (
     <>
       {/* name="Mixer/Reset" id="221:16618" type="COMPONENT_SET" */}
@@ -21,7 +21,10 @@ export const QodeCustom22116618: React.FC<
         <>
           {/* name="State=Default" id="221:16619" type="COMPONENT" */}
           <QodeSvg22116619
-            style={{ width: "11px", height: "11px", flexShrink: "0" }}
+            style={{
+              ...{ width: "11px", height: "11px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>
@@ -31,7 +34,10 @@ export const QodeCustom22116618: React.FC<
         <>
           {/* name="State=Variant2" id="221:16621" type="COMPONENT" */}
           <QodeSvg22116621
-            style={{ width: "11px", height: "11px", flexShrink: "0" }}
+            style={{
+              ...{ width: "11px", height: "11px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>

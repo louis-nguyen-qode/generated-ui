@@ -31,6 +31,7 @@ export const QodeAlert: React.FC<QodeAlertProps> = ({
   status = "info",
   banner = "false",
   showDescription = "false",
+  style,
   ...rest
 }) => {
   return (
@@ -42,6 +43,7 @@ export const QodeAlert: React.FC<QodeAlertProps> = ({
       status={status}
       banner={banner}
       showDescription={showDescription}
+      style={{ ...style }}
       {...rest}
     />
   )

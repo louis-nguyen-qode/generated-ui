@@ -13,7 +13,7 @@ export interface QodeCustom20238253Props {
 
 export const QodeCustom20238253: React.FC<
   QodeCustom20238253Props & { style?: CSSProperties }
-> = ({ size = "default", active = "false", ...rest }) => {
+> = ({ size = "default", active = "false", style, ...rest }) => {
   return (
     <>
       {/* name="DatePicker" id="202:38253" type="COMPONENT_SET" */}
@@ -23,28 +23,34 @@ export const QodeCustom20238253: React.FC<
           {/* name="size=default, active=false" id="202:38251" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="202:38245" type="INSTANCE" */}
             <QodeDatePicker
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheight, 32px)",
-                padding: "10px var(--size-padding-paddingsm, 12px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
-                background:
-                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheight, 32px)",
+                  padding: "10px var(--size-padding-paddingsm, 12px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  background:
+                    "var(--color-neutral-background-colorbgcontainer, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select date",
@@ -68,27 +74,33 @@ export const QodeCustom20238253: React.FC<
           {/* name="size=large, active=false" id="202:38969" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="202:38970" type="INSTANCE" */}
             <QodeDatePicker
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheightlg, 40px)",
-                padding: "10px var(--size-padding-paddingsm, 12px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingsm, 12px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                background: "var(--background-bg-white, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheightlg, 40px)",
+                  padding: "10px var(--size-padding-paddingsm, 12px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingsm, 12px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--border-radius-base, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  background: "var(--background-bg-white, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select date",
@@ -113,27 +125,33 @@ export const QodeCustom20238253: React.FC<
           {/* name="size=small, active=false" id="202:39334" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="202:39335" type="INSTANCE" */}
             <QodeDatePicker
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheightsm, 24px)",
-                padding: "10px var(--size-padding-paddingxs, 8px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                background: "var(--background-bg-white, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheightsm, 24px)",
+                  padding: "10px var(--size-padding-paddingxs, 8px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--border-radius-base, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  background: "var(--background-bg-white, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select date",
@@ -157,28 +175,34 @@ export const QodeCustom20238253: React.FC<
           {/* name="size=default, active=true" id="202:38609" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="202:38610" type="INSTANCE" */}
             <QodeDatePicker
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheight, 32px)",
-                padding: "10px var(--size-padding-paddingsm, 12px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
-                background:
-                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheight, 32px)",
+                  padding: "10px var(--size-padding-paddingsm, 12px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
+                  background:
+                    "var(--color-neutral-background-colorbgcontainer, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select date",
@@ -197,19 +221,22 @@ export const QodeCustom20238253: React.FC<
             {/* name="🧬 dropdown menu" id="202:38611" type="INSTANCE" */}
             <QodeCustom20232979
               style={{
-                display: "flex",
-                width: "280px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                position: "absolute",
-                right: "-40px",
-                bottom: "-332px",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                background:
-                  "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
-                boxShadow:
-                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                ...{
+                  display: "flex",
+                  width: "280px",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  position: "absolute",
+                  right: "-40px",
+                  bottom: "-332px",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  background:
+                    "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
+                  boxShadow:
+                    "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                },
+                ...{},
               }}
               {...{
                 monthStartDate: "2020",
@@ -234,27 +261,33 @@ export const QodeCustom20238253: React.FC<
           {/* name="size=large, active=true" id="202:38971" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="202:38972" type="INSTANCE" */}
             <QodeDatePicker
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheightlg, 40px)",
-                padding: "10px var(--size-padding-paddingsm, 12px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingsm, 12px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
-                background: "var(--background-bg-white, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheightlg, 40px)",
+                  padding: "10px var(--size-padding-paddingsm, 12px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingsm, 12px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--border-radius-base, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
+                  background: "var(--background-bg-white, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select date",
@@ -272,19 +305,22 @@ export const QodeCustom20238253: React.FC<
             {/* name="🧬 dropdown menu" id="202:38973" type="INSTANCE" */}
             <QodeCustom20232979
               style={{
-                display: "flex",
-                width: "280px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                position: "absolute",
-                right: "-40px",
-                bottom: "-332px",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                background:
-                  "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
-                boxShadow:
-                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                ...{
+                  display: "flex",
+                  width: "280px",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  position: "absolute",
+                  right: "-40px",
+                  bottom: "-332px",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  background:
+                    "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
+                  boxShadow:
+                    "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                },
+                ...{},
               }}
               {...{
                 monthStartDate: "2020",
@@ -309,27 +345,33 @@ export const QodeCustom20238253: React.FC<
           {/* name="size=small, active=true" id="202:39336" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "4px",
+              ...{
+                display: "flex",
+                width: "240px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "4px",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 input" id="202:39337" type="INSTANCE" */}
             <QodeDatePicker
               style={{
-                display: "flex",
-                height: "var(--size-height-controlheightsm, 24px)",
-                padding: "10px var(--size-padding-paddingxs, 8px)",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                alignSelf: "stretch",
-                borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
-                background: "var(--background-bg-white, #fff)",
+                ...{
+                  display: "flex",
+                  height: "var(--size-height-controlheightsm, 24px)",
+                  padding: "10px var(--size-padding-paddingxs, 8px)",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  alignSelf: "stretch",
+                  borderRadius: "var(--border-radius-base, 8px)",
+                  border:
+                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
+                  background: "var(--background-bg-white, #fff)",
+                },
+                ...{},
               }}
               {...{
                 placeholder: "Select date",
@@ -347,19 +389,22 @@ export const QodeCustom20238253: React.FC<
             {/* name="🧬 dropdown menu" id="202:39338" type="INSTANCE" */}
             <QodeCustom20232979
               style={{
-                display: "flex",
-                width: "280px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                position: "absolute",
-                right: "-40px",
-                bottom: "-332px",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                background:
-                  "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
-                boxShadow:
-                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                ...{
+                  display: "flex",
+                  width: "280px",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  position: "absolute",
+                  right: "-40px",
+                  bottom: "-332px",
+                  borderRadius: "var(--style-radius-borderradius, 8px)",
+                  background:
+                    "var(--color-neutral-background-colorbgelevated, #f8f6f6)",
+                  boxShadow:
+                    "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                },
+                ...{},
               }}
               {...{
                 monthStartDate: "2020",

@@ -32,7 +32,7 @@ export interface QodeCustom3459952Props {
 
 export const QodeCustom3459952: React.FC<
   QodeCustom3459952Props & { style?: CSSProperties }
-> = ({ type = "Pointer", ...rest }) => {
+> = ({ type = "Pointer", style, ...rest }) => {
   return (
     <>
       {/* name="Cursor" id="3459:952" type="COMPONENT_SET" */}
@@ -42,11 +42,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Pointer" id="3459:953" type="COMPONENT" */}
           <QodeSvg3459953
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -58,11 +61,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Pointer pressed" id="3459:958" type="COMPONENT" */}
           <QodeSvg3459958
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -74,11 +80,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Hand open" id="3459:964" type="COMPONENT" */}
           <QodeSvg3459964
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -90,11 +99,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Hand closed" id="3459:969" type="COMPONENT" */}
           <QodeSvg3459969
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -106,11 +118,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Text" id="3459:974" type="COMPONENT" */}
           <QodeSvg3459974
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -122,11 +137,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Text pressed" id="3459:976" type="COMPONENT" */}
           <QodeSvg3459976
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -138,11 +156,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Arrow" id="3459:979" type="COMPONENT" */}
           <QodeSvg3459979
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -154,11 +175,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Arrow not allowed" id="3459:981" type="COMPONENT" */}
           <QodeSvg3459981
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -170,11 +194,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Resize width" id="3459:984" type="COMPONENT" */}
           <QodeSvg3459984
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -186,11 +213,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Resize height" id="3459:986" type="COMPONENT" */}
           <QodeSvg3459986
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />
@@ -202,11 +232,14 @@ export const QodeCustom3459952: React.FC<
           {/* name="Type=Resize diagonal" id="3459:988" type="COMPONENT" */}
           <QodeSvg3459988
             style={{
-              width: "46px",
-              height: "46px",
-              flexShrink: "0",
-              fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
-              backgroundBlendMode: "multiply",
+              ...{
+                width: "46px",
+                height: "46px",
+                flexShrink: "0",
+                fill: "var(--transparent-transparent, rgba(255, 255, 255, 0.00))",
+                backgroundBlendMode: "multiply",
+              },
+              ...style,
             }}
             {...{}}
           />

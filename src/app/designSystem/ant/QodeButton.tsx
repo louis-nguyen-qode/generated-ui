@@ -40,6 +40,7 @@ export const QodeButton: React.FC<QodeButtonProps> = ({
   content = "default",
   danger = "false",
   ghost = "false",
+  style,
   ...rest
 }) => {
   return (
@@ -54,6 +55,7 @@ export const QodeButton: React.FC<QodeButtonProps> = ({
       content={content}
       danger={danger}
       ghost={ghost}
+      style={{ ...style }}
       {...rest}
     />
   )

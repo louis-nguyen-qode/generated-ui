@@ -17,7 +17,7 @@ export interface QodeCustom1377877Props {
 
 export const QodeCustom1377877: React.FC<
   QodeCustom1377877Props & { style?: CSSProperties }
-> = ({ showIcon = true, status = "success", ...rest }) => {
+> = ({ showIcon = true, status = "success", style, ...rest }) => {
   return (
     <>
       {/* name="Tag__Status" id="137:7877" type="COMPONENT_SET" */}
@@ -27,30 +27,36 @@ export const QodeCustom1377877: React.FC<
           {/* name="status=success" id="137:7876" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background: "var(--color-success-colorsuccessbg, #eefff0)",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "4px",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background: "var(--color-success-colorsuccessbg, #eefff0)",
+              },
+              ...style,
             }}
           >
             {/* name="Icon" id="137:7873" type="INSTANCE" */}
             <QodeCustom11436670
-              style={{ width: "12px", height: "12px" }}
+              style={{ ...{ width: "12px", height: "12px" }, ...{} }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-success-colorsuccesstext, #11a620)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-success-colorsuccesstext, #11a620)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`success`}</span>
           </div>
@@ -62,30 +68,36 @@ export const QodeCustom1377877: React.FC<
           {/* name="status=error" id="137:7883" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background: "var(--color-error-colorerrorbg, #fff7f4)",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "4px",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background: "var(--color-error-colorerrorbg, #fff7f4)",
+              },
+              ...style,
             }}
           >
             {/* name="Icon" id="137:7884" type="INSTANCE" */}
             <QodeCustom11436657
-              style={{ width: "12px", height: "12px" }}
+              style={{ ...{ width: "12px", height: "12px" }, ...{} }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-error-colorerrortext, #dc3812)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-error-colorerrortext, #dc3812)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`error`}</span>
           </div>
@@ -97,30 +109,36 @@ export const QodeCustom1377877: React.FC<
           {/* name="status=warning" id="137:7887" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background: "var(--color-warning-colorwarningbg, #fef8ec)",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "4px",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background: "var(--color-warning-colorwarningbg, #fef8ec)",
+              },
+              ...style,
             }}
           >
             {/* name="Icon" id="137:7888" type="INSTANCE" */}
             <QodeCustom11436649
-              style={{ width: "12px", height: "12px" }}
+              style={{ ...{ width: "12px", height: "12px" }, ...{} }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-warning-colorwarningtext, #f5a60c)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-warning-colorwarningtext, #f5a60c)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`warning`}</span>
           </div>
@@ -132,31 +150,37 @@ export const QodeCustom1377877: React.FC<
           {/* name="status=processing" id="137:7891" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background: "var(--color-info-colorinfobg, #f8f6f6)",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "4px",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background: "var(--color-info-colorinfobg, #f8f6f6)",
+              },
+              ...style,
             }}
           >
             {/* name="Icon" id="137:7892" type="INSTANCE" */}
             <QodeCustom11437969
-              style={{ width: "12px", height: "12px" }}
+              style={{ ...{ width: "12px", height: "12px" }, ...{} }}
               {...{}}
             />
             <span
               style={{
-                color:
-                  "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color:
+                    "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`processing`}</span>
           </div>
@@ -168,31 +192,37 @@ export const QodeCustom1377877: React.FC<
           {/* name="status=waiting" id="137:7895" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background:
-                "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "4px",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background:
+                  "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
+              },
+              ...style,
             }}
           >
             {/* name="Icon" id="137:7896" type="INSTANCE" */}
             <QodeCustom11436678
-              style={{ width: "12px", height: "12px" }}
+              style={{ ...{ width: "12px", height: "12px" }, ...{} }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-neutral-text-colortext, #000)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortext, #000)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`waiting`}</span>
           </div>
@@ -204,31 +234,37 @@ export const QodeCustom1377877: React.FC<
           {/* name="status=stop" id="137:7899" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "4px",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background:
-                "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
+              ...{
+                display: "inline-flex",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "4px",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background:
+                  "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
+              },
+              ...style,
             }}
           >
             {/* name="Icon" id="137:7900" type="INSTANCE" */}
             <QodeCustom11436624
-              style={{ width: "12px", height: "12px" }}
+              style={{ ...{ width: "12px", height: "12px" }, ...{} }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-neutral-text-colortext, #000)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortext, #000)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`stop`}</span>
           </div>

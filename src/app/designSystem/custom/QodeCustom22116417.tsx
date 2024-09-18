@@ -9,7 +9,7 @@ export interface QodeCustom22116417Props {
 
 export const QodeCustom22116417: React.FC<
   QodeCustom22116417Props & { style?: CSSProperties }
-> = ({ state = "Default", ...rest }) => {
+> = ({ state = "Default", style, ...rest }) => {
   return (
     <>
       {/* name="Mixer/Legend" id="221:16417" type="COMPONENT_SET" */}
@@ -19,21 +19,27 @@ export const QodeCustom22116417: React.FC<
           {/* name="State=Default" id="221:16416" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
+              ...{
+                display: "inline-flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--text-text-neutral-50, #1d1d1d)",
-                textAlign: "center",
-                fontFamily: '"Barlow Semi Condensed"',
-                fontSize: "14px",
-                fontStyle: "normal",
-                fontWeight: "500",
-                lineHeight: "normal",
+                ...{
+                  color: "var(--text-text-neutral-50, #1d1d1d)",
+                  textAlign: "center",
+                  fontFamily: '"Barlow Semi Condensed"',
+                  fontSize: "14px",
+                  fontStyle: "normal",
+                  fontWeight: "500",
+                  lineHeight: "normal",
+                },
+                ...{},
               }}
             >{`TECHNICAL`}</span>
           </div>
@@ -45,21 +51,27 @@ export const QodeCustom22116417: React.FC<
           {/* name="State=Active" id="221:16418" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
+              ...{
+                display: "inline-flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                color: "var(--text-text-neutral-50, #1d1d1d)",
-                textAlign: "center",
-                fontFamily: '"Barlow Semi Condensed"',
-                fontSize: "14px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "normal",
+                ...{
+                  color: "var(--text-text-neutral-50, #1d1d1d)",
+                  textAlign: "center",
+                  fontFamily: '"Barlow Semi Condensed"',
+                  fontSize: "14px",
+                  fontStyle: "normal",
+                  fontWeight: "700",
+                  lineHeight: "normal",
+                },
+                ...{},
               }}
             >{`TECHNICAL`}</span>
           </div>

@@ -12,7 +12,8 @@ export interface QodeCascaderProps
 export const QodeCascader: React.FC<QodeCascaderProps> = ({
   active = "false",
   size = "default",
+  style,
   ...rest
 }) => {
-  return <Cascader active={active} size={size} {...rest} />
+  return <Cascader active={active} size={size} style={{ ...style }} {...rest} />
 }

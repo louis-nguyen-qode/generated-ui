@@ -1,5 +1,5 @@
 // id="715:39046"
-import React from "react"
+import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
@@ -8,15 +8,18 @@ import { QodeCustom71530774 } from "@designSystem/custom/QodeCustom71530774"
 import { QodeCustom71534739 } from "@designSystem/custom/QodeCustom71534739"
 import { QodeCustom71538701 } from "@designSystem/custom/QodeCustom71538701"
 
-export interface Qode71539046PageProps {}
+export interface Qode71539046PageProps {
+  style?: CSSProperties
+}
 
 export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
+  style,
   ...rest
 }) => {
   return (
     <>
       {/* name="Responsive" id="715:39046" type="SECTION" */}
-      <div style={{}}>
+      <div style={{ ...{}, ...style }}>
         {/* name="Responsive/Job" id="715:30656" type="COMPONENT_SET" */}
         {/* id="715:30655" */}
         {`${screensize}` === `1280` && (
@@ -24,9 +27,12 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1280" id="715:30655" type="COMPONENT" */}
             <QodeCustom71530656
               style={{
-                display: "inline-flex",
-                alignItems: "flex-start",
-                background: "#FFF",
+                ...{
+                  display: "inline-flex",
+                  alignItems: "flex-start",
+                  background: "#FFF",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -38,9 +44,12 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1366" id="715:30654" type="COMPONENT" */}
             <QodeCustom71530656
               style={{
-                display: "inline-flex",
-                alignItems: "flex-start",
-                background: "#FFF",
+                ...{
+                  display: "inline-flex",
+                  alignItems: "flex-start",
+                  background: "#FFF",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -52,12 +61,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1440" id="715:30653" type="COMPONENT" */}
             <QodeCustom71530656
               style={{
-                display: "flex",
-                width: "1440px",
-                height: "1024px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "#FFF",
+                ...{
+                  display: "flex",
+                  width: "1440px",
+                  height: "1024px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "#FFF",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -69,9 +81,12 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1600" id="715:30652" type="COMPONENT" */}
             <QodeCustom71530656
               style={{
-                display: "inline-flex",
-                alignItems: "flex-start",
-                background: "#FFF",
+                ...{
+                  display: "inline-flex",
+                  alignItems: "flex-start",
+                  background: "#FFF",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -84,13 +99,16 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1280" id="715:30773" type="COMPONENT" */}
             <QodeCustom71530774
               style={{
-                display: "flex",
-                width: "1280px",
-                height: "768px",
-                justifyContent: "space-between",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1280px",
+                  height: "768px",
+                  justifyContent: "space-between",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -102,13 +120,16 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1366" id="715:30772" type="COMPONENT" */}
             <QodeCustom71530774
               style={{
-                display: "flex",
-                width: "1366px",
-                height: "768px",
-                justifyContent: "space-between",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1366px",
+                  height: "768px",
+                  justifyContent: "space-between",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -120,13 +141,16 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1440" id="715:30770" type="COMPONENT" */}
             <QodeCustom71530774
               style={{
-                display: "flex",
-                width: "1440px",
-                height: "1024px",
-                justifyContent: "space-between",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1440px",
+                  height: "1024px",
+                  justifyContent: "space-between",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -138,13 +162,16 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1600" id="715:30771" type="COMPONENT" */}
             <QodeCustom71530774
               style={{
-                display: "flex",
-                width: "1600px",
-                height: "900px",
-                justifyContent: "space-between",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1600px",
+                  height: "900px",
+                  justifyContent: "space-between",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -157,12 +184,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1280" id="715:34738" type="COMPONENT" */}
             <QodeCustom71534739
               style={{
-                display: "flex",
-                width: "1280px",
-                height: "768px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1280px",
+                  height: "768px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -174,12 +204,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1366" id="715:34737" type="COMPONENT" */}
             <QodeCustom71534739
               style={{
-                display: "flex",
-                width: "1366px",
-                height: "768px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1366px",
+                  height: "768px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -191,12 +224,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1440" id="715:34736" type="COMPONENT" */}
             <QodeCustom71534739
               style={{
-                display: "flex",
-                width: "1440px",
-                height: "1024px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1440px",
+                  height: "1024px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -208,12 +244,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1600" id="715:34735" type="COMPONENT" */}
             <QodeCustom71534739
               style={{
-                display: "flex",
-                width: "1600px",
-                height: "900px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1600px",
+                  height: "900px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -226,12 +265,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1280" id="715:38700" type="COMPONENT" */}
             <QodeCustom71538701
               style={{
-                display: "flex",
-                width: "1280px",
-                height: "800px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1280px",
+                  height: "800px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -243,12 +285,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1366" id="715:38699" type="COMPONENT" */}
             <QodeCustom71538701
               style={{
-                display: "flex",
-                width: "1366px",
-                height: "768px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1366px",
+                  height: "768px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -260,12 +305,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1440" id="715:38698" type="COMPONENT" */}
             <QodeCustom71538701
               style={{
-                display: "flex",
-                width: "1440px",
-                height: "1024px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1440px",
+                  height: "1024px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />
@@ -277,12 +325,15 @@ export const Qode71539046Page: React.FC<Qode71539046PageProps> = ({
             {/* name="screensize=1600" id="715:38697" type="COMPONENT" */}
             <QodeCustom71538701
               style={{
-                display: "flex",
-                width: "1600px",
-                height: "900px",
-                alignItems: "flex-start",
-                flexShrink: "0",
-                background: "var(--app-bg, #f4f4f6)",
+                ...{
+                  display: "flex",
+                  width: "1600px",
+                  height: "900px",
+                  alignItems: "flex-start",
+                  flexShrink: "0",
+                  background: "var(--app-bg, #f4f4f6)",
+                },
+                ...style,
               }}
               {...{}}
             />

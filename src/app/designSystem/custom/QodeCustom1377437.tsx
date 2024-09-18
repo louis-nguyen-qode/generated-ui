@@ -19,6 +19,7 @@ export const QodeCustom1377437: React.FC<
   title = "Tag",
   type = "default",
   border = "true",
+  style,
   ...rest
 }) => {
   return (
@@ -30,51 +31,63 @@ export const QodeCustom1377437: React.FC<
           {/* name="type=default, border=true" id="137:7436" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              height: "24px",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-margin-marginxxs, 4px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background:
-                "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              ...{
+                display: "inline-flex",
+                height: "24px",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-margin-marginxxs, 4px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background:
+                  "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              },
+              ...style,
             }}
           >
             {/* name="circle-plus" id="2781:17018" type="INSTANCE" */}
             <Icon.QodeCirclePlus
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "1.2px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "1.2px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="2781:17173" type="INSTANCE" */}
             <Icon.QodeXmark
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "2.999px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "2.999px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -87,51 +100,63 @@ export const QodeCustom1377437: React.FC<
           {/* name="type=closable, border=true" id="137:7438" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              height: "24px",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-margin-marginxxs, 4px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background:
-                "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              ...{
+                display: "inline-flex",
+                height: "24px",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-margin-marginxxs, 4px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background:
+                  "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              },
+              ...style,
             }}
           >
             {/* name="circle-plus" id="2781:17020" type="INSTANCE" */}
             <Icon.QodeCirclePlus
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "1.2px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "1.2px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="137:7440" type="INSTANCE" */}
             <Icon.QodeXmark
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "2.999px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "2.999px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -144,52 +169,64 @@ export const QodeCustom1377437: React.FC<
           {/* name="type=new, border=true" id="137:7442" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              height: "24px",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-margin-marginxxs, 4px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+              ...{
+                display: "inline-flex",
+                height: "24px",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-margin-marginxxs, 4px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                border:
+                  "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+              },
+              ...style,
             }}
           >
             {/* name="circle-plus" id="137:7444" type="INSTANCE" */}
             <Icon.QodeCirclePlus
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "1.2px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "1.2px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
             <span
               style={{
-                color:
-                  "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color:
+                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="2781:17176" type="INSTANCE" */}
             <Icon.QodeXmark
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "2.999px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "2.999px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -202,51 +239,63 @@ export const QodeCustom1377437: React.FC<
           {/* name="type=default, border=false" id="137:7758" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              height: "24px",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-margin-marginxxs, 4px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background:
-                "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              ...{
+                display: "inline-flex",
+                height: "24px",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-margin-marginxxs, 4px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background:
+                  "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              },
+              ...style,
             }}
           >
             {/* name="circle-plus" id="2781:17019" type="INSTANCE" */}
             <Icon.QodeCirclePlus
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "1.2px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "1.2px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="2781:17174" type="INSTANCE" */}
             <Icon.QodeXmark
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "2.999px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "2.999px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -259,51 +308,63 @@ export const QodeCustom1377437: React.FC<
           {/* name="type=closable, border=false" id="137:7760" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              height: "24px",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-margin-marginxxs, 4px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background:
-                "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              ...{
+                display: "inline-flex",
+                height: "24px",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-margin-marginxxs, 4px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background:
+                  "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              },
+              ...style,
             }}
           >
             {/* name="circle-plus" id="2781:17021" type="INSTANCE" */}
             <Icon.QodeCirclePlus
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "1.2px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "1.2px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
             <span
               style={{
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="137:7762" type="INSTANCE" */}
             <Icon.QodeXmark
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "2.999px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "2.999px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -316,50 +377,62 @@ export const QodeCustom1377437: React.FC<
           {/* name="type=new, border=false" id="137:7763" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              height: "24px",
-              padding:
-                "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-margin-marginxxs, 4px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
+              ...{
+                display: "inline-flex",
+                height: "24px",
+                padding:
+                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-margin-marginxxs, 4px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+              },
+              ...style,
             }}
           >
             {/* name="circle-plus" id="137:7764" type="INSTANCE" */}
             <Icon.QodeCirclePlus
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "1.2px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "1.2px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />
             <span
               style={{
-                color:
-                  "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-small, 12px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                ...{
+                  color:
+                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-small, 12px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
+                },
+                ...{},
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="2781:17175" type="INSTANCE" */}
             <Icon.QodeXmark
               style={{
-                display: "flex",
-                width: "12px",
-                height: "12px",
-                padding: "2.999px",
-                justifyContent: "center",
-                alignItems: "center",
+                ...{
+                  display: "flex",
+                  width: "12px",
+                  height: "12px",
+                  padding: "2.999px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                },
+                ...{},
               }}
               {...{}}
             />

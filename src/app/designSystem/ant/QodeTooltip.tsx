@@ -28,6 +28,7 @@ export const QodeTooltip: React.FC<QodeTooltipProps> = ({
   title = "Prompt text",
   showArrow = true,
   placement = "left",
+  style,
   ...rest
 }) => {
   return (
@@ -36,6 +37,7 @@ export const QodeTooltip: React.FC<QodeTooltipProps> = ({
       title={title}
       showArrow={showArrow}
       placement={placement}
+      style={{ ...style }}
       {...rest}
     />
   )

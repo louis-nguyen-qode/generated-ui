@@ -12,7 +12,15 @@ export interface QodeAnchorProps
 export const QodeAnchor: React.FC<QodeAnchorProps> = ({
   direction = "vertical",
   links = "2",
+  style,
   ...rest
 }) => {
-  return <Anchor direction={direction} links={links} {...rest} />
+  return (
+    <Anchor
+      direction={direction}
+      links={links}
+      style={{ ...style }}
+      {...rest}
+    />
+  )
 }

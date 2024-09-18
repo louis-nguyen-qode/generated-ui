@@ -12,7 +12,7 @@ export interface QodeCustom1622200Props {
 
 export const QodeCustom1622200: React.FC<
   QodeCustom1622200Props & { style?: CSSProperties }
-> = ({ position = "Bottom", ...rest }) => {
+> = ({ position = "Bottom", style, ...rest }) => {
   return (
     <>
       {/* name="Carousel" id="162:2200" type="COMPONENT_SET" */}
@@ -22,35 +22,43 @@ export const QodeCustom1622200: React.FC<
           {/* name="Position=Bottom" id="162:2199" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "800px",
-              height: "320px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "10px",
-              flexShrink: "0",
+              ...{
+                display: "flex",
+                width: "800px",
+                height: "320px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "10px",
+                flexShrink: "0",
+              },
+              ...style,
             }}
           >
             {/* name="Background" id="162:2188" type="RECTANGLE" */}
             <Flex
               style={{
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                background: "var(--color-primary-colorprimary, #1597f4)",
+                ...{
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  background: "var(--color-primary-colorprimary, #1597f4)",
+                },
+                ...{},
               }}
             >
-              {/* name="Background" id=162:2188 type=RECTANGLE */}
               <></>
             </Flex>
             {/* name="🧬 dots" id="162:2189" type="INSTANCE" */}
             <QodeCustom1621778
               style={{
-                display: "flex",
-                alignItems: "flex-start",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                position: "absolute",
-                left: "352px",
-                bottom: "16px",
+                ...{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  position: "absolute",
+                  left: "352px",
+                  bottom: "16px",
+                },
+                ...{},
               }}
               {...{ direction: "horizontal", items: "4" }}
             />
@@ -63,35 +71,43 @@ export const QodeCustom1622200: React.FC<
           {/* name="Position=Top" id="162:2212" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "800px",
-              height: "320px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "10px",
-              flexShrink: "0",
+              ...{
+                display: "flex",
+                width: "800px",
+                height: "320px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "10px",
+                flexShrink: "0",
+              },
+              ...style,
             }}
           >
             {/* name="Background" id="162:2213" type="RECTANGLE" */}
             <Flex
               style={{
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                background: "var(--color-primary-colorprimary, #1597f4)",
+                ...{
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  background: "var(--color-primary-colorprimary, #1597f4)",
+                },
+                ...{},
               }}
             >
-              {/* name="Background" id=162:2213 type=RECTANGLE */}
               <></>
             </Flex>
             {/* name="🧬 dots" id="162:2214" type="INSTANCE" */}
             <QodeCustom1621778
               style={{
-                display: "flex",
-                alignItems: "flex-start",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                position: "absolute",
-                left: "352px",
-                top: "16px",
+                ...{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  position: "absolute",
+                  left: "352px",
+                  top: "16px",
+                },
+                ...{},
               }}
               {...{ direction: "horizontal", items: "4" }}
             />
@@ -104,36 +120,44 @@ export const QodeCustom1622200: React.FC<
           {/* name="Position=Left" id="162:2223" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "800px",
-              height: "320px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "10px",
-              flexShrink: "0",
+              ...{
+                display: "flex",
+                width: "800px",
+                height: "320px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "10px",
+                flexShrink: "0",
+              },
+              ...style,
             }}
           >
             {/* name="Background" id="162:2224" type="RECTANGLE" */}
             <Flex
               style={{
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                background: "var(--color-primary-colorprimary, #1597f4)",
+                ...{
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  background: "var(--color-primary-colorprimary, #1597f4)",
+                },
+                ...{},
               }}
             >
-              {/* name="Background" id=162:2224 type=RECTANGLE */}
               <></>
             </Flex>
             {/* name="🧬 dots" id="162:2225" type="INSTANCE" */}
             <QodeCustom1621857
               style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "flex-start",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                position: "absolute",
-                left: "16px",
-                top: "142px",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  position: "absolute",
+                  left: "16px",
+                  top: "142px",
+                },
+                ...{},
               }}
               {...{ direction: "vertical", items: "4" }}
             />
@@ -146,36 +170,44 @@ export const QodeCustom1622200: React.FC<
           {/* name="Position=Right" id="162:2242" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "800px",
-              height: "320px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "10px",
-              flexShrink: "0",
+              ...{
+                display: "flex",
+                width: "800px",
+                height: "320px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "10px",
+                flexShrink: "0",
+              },
+              ...style,
             }}
           >
             {/* name="Background" id="162:2243" type="RECTANGLE" */}
             <Flex
               style={{
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                background: "var(--color-primary-colorprimary, #1597f4)",
+                ...{
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  background: "var(--color-primary-colorprimary, #1597f4)",
+                },
+                ...{},
               }}
             >
-              {/* name="Background" id=162:2243 type=RECTANGLE */}
               <></>
             </Flex>
             {/* name="🧬 dots" id="162:2244" type="INSTANCE" */}
             <QodeCustom1621857
               style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "flex-start",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                position: "absolute",
-                right: "16px",
-                top: "142px",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  position: "absolute",
+                  right: "16px",
+                  top: "142px",
+                },
+                ...{},
               }}
               {...{ direction: "vertical", items: "4" }}
             />

@@ -11,39 +11,45 @@ export interface QodeCustom13120Props {}
 
 export const QodeCustom13120: React.FC<
   QodeCustom13120Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="Navbar" id="1:3120" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "84px",
-          height: "800px",
-          flexDirection: "column",
-          alignItems: "center",
-          borderRight:
-            "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-          background: "var(--background-bg-white, #fff)",
+          ...{
+            display: "flex",
+            width: "84px",
+            height: "800px",
+            flexDirection: "column",
+            alignItems: "center",
+            borderRight:
+              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+            background: "var(--background-bg-white, #fff)",
+          },
+          ...style,
         }}
       >
         {/* name="Logo" id="1:3092" type="FRAME" */}
         <div
           style={{
-            display: "flex",
-            padding: "16px 0px",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "4px",
-            alignSelf: "stretch",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+            ...{
+              display: "flex",
+              padding: "16px 0px",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "4px",
+              alignSelf: "stretch",
+              borderBottom:
+                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+            },
+            ...{},
           }}
         >
           {/* name="logo" id="635:31404" type="INSTANCE" */}
           <QodeCustom61606
-            style={{ width: "40px", height: "40px" }}
+            style={{ ...{ width: "40px", height: "40px" }, ...{} }}
             {...{
               type: "Default",
               darkmode: "yes",
@@ -55,60 +61,75 @@ export const QodeCustom13120: React.FC<
         {/* name="V-Menu" id="1:3094" type="FRAME" */}
         <div
           style={{
-            display: "flex",
-            padding: "16px 8px",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "16px",
-            flex: "1 0 0",
-            alignSelf: "stretch",
+            ...{
+              display: "flex",
+              padding: "16px 8px",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "16px",
+              flex: "1 0 0",
+              alignSelf: "stretch",
+            },
+            ...{},
           }}
         >
           {/* name="Navbar/Menu" id="4:124" type="INSTANCE" */}
           <QodeCustom434
             style={{
-              display: "flex",
-              width: "84px",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-size-sizexxs-6px, 6px)",
+              ...{
+                display: "flex",
+                width: "84px",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-size-sizexxs-6px, 6px)",
+              },
+              ...{},
             }}
             {...{ icon: <Icon.QodeCube />, state: "Default" }}
           />
           {/* name="Navbar/Menu" id="16:5813" type="INSTANCE" */}
           <QodeCustom440
             style={{
-              display: "flex",
-              width: "84px",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-size-sizexxs-6px, 6px)",
+              ...{
+                display: "flex",
+                width: "84px",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-size-sizexxs-6px, 6px)",
+              },
+              ...{},
             }}
             {...{ icon: <Icon.QodeBriefcase />, state: "Active" }}
           />
           {/* name="Navbar/Menu" id="4:54" type="INSTANCE" */}
           <QodeCustom434
             style={{
-              display: "flex",
-              width: "84px",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-size-sizexxs-6px, 6px)",
+              ...{
+                display: "flex",
+                width: "84px",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-size-sizexxs-6px, 6px)",
+              },
+              ...{},
             }}
             {...{ icon: <Icon.QodeUserGroup />, state: "Default" }}
           />
           {/* name="Navbar/Menu" id="4:95" type="INSTANCE" */}
           <QodeCustom434
             style={{
-              display: "flex",
-              width: "84px",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--size-size-sizexxs-6px, 6px)",
+              ...{
+                display: "flex",
+                width: "84px",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--size-size-sizexxs-6px, 6px)",
+              },
+              ...{},
             }}
             {...{ icon: <Icon.QodeVideo />, state: "Default" }}
           />
@@ -116,34 +137,43 @@ export const QodeCustom13120: React.FC<
         {/* name="Btm" id="1:3098" type="FRAME" */}
         <div
           style={{
-            display: "flex",
-            padding: "16px 0px",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "8px",
+            ...{
+              display: "flex",
+              padding: "16px 0px",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "8px",
+            },
+            ...{},
           }}
         >
           {/* name="Profile" id="1:3099" type="INSTANCE" */}
           <div
             style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "flex-end",
-              gap: "var(--font-size-large, 16px)",
-              alignSelf: "stretch",
+              ...{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "flex-end",
+                gap: "var(--font-size-large, 16px)",
+                alignSelf: "stretch",
+              },
+              ...{},
             }}
             {...{ _style: "V - Profile", logIn: "No" }}
           />
           {/* name="Profile" id="1:3100" type="INSTANCE" */}
           <div
             style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "flex-end",
-              gap: "var(--font-size-large, 16px)",
-              alignSelf: "stretch",
+              ...{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "flex-end",
+                gap: "var(--font-size-large, 16px)",
+                alignSelf: "stretch",
+              },
+              ...{},
             }}
             {...{ _style: "V - Profile", logIn: "No" }}
           />

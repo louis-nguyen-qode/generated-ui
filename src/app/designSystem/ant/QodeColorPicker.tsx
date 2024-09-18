@@ -16,6 +16,7 @@ export const QodeColorPicker: React.FC<QodeColorPickerProps> = ({
   showTitle = true,
   state = "default",
   size = "default",
+  style,
   ...rest
 }) => {
   return (
@@ -24,6 +25,7 @@ export const QodeColorPicker: React.FC<QodeColorPickerProps> = ({
       showTitle={showTitle}
       state={state}
       size={size}
+      style={{ ...style }}
       {...rest}
     />
   )

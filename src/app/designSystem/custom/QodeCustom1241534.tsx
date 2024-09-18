@@ -33,7 +33,7 @@ export interface QodeCustom1241534Props {
 
 export const QodeCustom1241534: React.FC<
   QodeCustom1241534Props & { style?: CSSProperties }
-> = ({ title = "Prompt text", color = "volcano", ...rest }) => {
+> = ({ title = "Prompt text", color = "volcano", style, ...rest }) => {
   return (
     <>
       {/* name="Tooltip__Colorful" id="124:1534" type="COMPONENT_SET" */}
@@ -43,38 +43,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=volcano" id="124:1533" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--volcano-volcano-6, #fa541c)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--volcano-volcano-6, #fa541c)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1329" type="VECTOR" */}
             <QodeSvg1241329
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--volcano-volcano-6, #fa541c)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--volcano-volcano-6, #fa541c)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -87,38 +96,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=sunset orange" id="124:1538" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--sunset-orange-orange-6, #fa8c16)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--sunset-orange-orange-6, #fa8c16)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1540" type="VECTOR" */}
             <QodeSvg1241540
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--sunset-orange-orange-6, #fa8c16)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--sunset-orange-orange-6, #fa8c16)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -131,38 +149,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=calendula gold" id="124:1541" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--gold-gold-6, #cc8135)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--gold-gold-6, #cc8135)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1543" type="VECTOR" */}
             <QodeSvg1241543
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--gold-gold-6, #cc8135)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--gold-gold-6, #cc8135)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -175,38 +202,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=sunrise yellow" id="124:1544" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--sunrise-yellow-yellow-6, #fadb14)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--sunrise-yellow-yellow-6, #fadb14)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1546" type="VECTOR" */}
             <QodeSvg1241546
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--sunrise-yellow-yellow-6, #fadb14)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--sunrise-yellow-yellow-6, #fadb14)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -219,38 +255,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=lime" id="124:1547" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--lime-lime-6, #a0d911)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--lime-lime-6, #a0d911)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1549" type="VECTOR" */}
             <QodeSvg1241549
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--lime-lime-6, #a0d911)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--lime-lime-6, #a0d911)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -263,38 +308,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=polar green" id="124:1550" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--green-green-6, #71940e)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--green-green-6, #71940e)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1552" type="VECTOR" */}
             <QodeSvg1241552
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--green-green-6, #71940e)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--green-green-6, #71940e)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -307,38 +361,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=cyan" id="124:1553" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--cyan-cyan-6, #13c2c2)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--cyan-cyan-6, #13c2c2)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1555" type="VECTOR" */}
             <QodeSvg1241555
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--cyan-cyan-6, #13c2c2)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--cyan-cyan-6, #13c2c2)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -351,38 +414,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=daybreak blue" id="124:1556" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--daybreak-blue-blue-6, #1677ff)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--daybreak-blue-blue-6, #1677ff)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1558" type="VECTOR" */}
             <QodeSvg1241558
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--daybreak-blue-blue-6, #1677ff)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--daybreak-blue-blue-6, #1677ff)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -395,38 +467,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=geek blue" id="124:1559" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--geek-blue-geekblue-6, #2f54eb)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--geek-blue-geekblue-6, #2f54eb)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1561" type="VECTOR" */}
             <QodeSvg1241561
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--geek-blue-geekblue-6, #2f54eb)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--geek-blue-geekblue-6, #2f54eb)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -439,38 +520,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=Golden Purple" id="124:1562" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--purple-purple-6, #722ed1)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--purple-purple-6, #722ed1)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1564" type="VECTOR" */}
             <QodeSvg1241564
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--purple-purple-6, #722ed1)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--purple-purple-6, #722ed1)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -483,38 +573,47 @@ export const QodeCustom1241534: React.FC<
           {/* name="color=Magneta" id="124:1565" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              maxWidth: "240px",
-              padding: "6px var(--size-padding-paddingxs, 8px)",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "var(--style-radius-borderradius, 8px)",
-              background: "var(--magenta-magenta-6, #eb2f96)",
-              boxShadow:
-                "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              ...{
+                display: "inline-flex",
+                maxWidth: "240px",
+                padding: "6px var(--size-padding-paddingxs, 8px)",
+                justifyContent: "center",
+                alignItems: "center",
+                borderRadius: "var(--style-radius-borderradius, 8px)",
+                background: "var(--magenta-magenta-6, #eb2f96)",
+                boxShadow:
+                  "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortextsolid, #fff)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortextsolid, #fff)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Prompt text`}</span>
             {/* name="arrow" id="124:1567" type="VECTOR" */}
             <QodeSvg1241567
               style={{
-                width: "16px",
-                height: "8px",
-                position: "absolute",
-                left: "35px",
-                bottom: "-8px",
-                fill: "var(--magenta-magenta-6, #eb2f96)",
+                ...{
+                  width: "16px",
+                  height: "8px",
+                  position: "absolute",
+                  left: "35px",
+                  bottom: "-8px",
+                  fill: "var(--magenta-magenta-6, #eb2f96)",
+                },
+                ...{},
               }}
               {...{}}
             />

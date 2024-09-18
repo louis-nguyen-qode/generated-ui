@@ -14,7 +14,16 @@ export const QodeTabs: React.FC<QodeTabsProps> = ({
   slot = undefined,
   position = "top",
   size = "default",
+  style,
   ...rest
 }) => {
-  return <Tabs slot={slot} position={position} size={size} {...rest} />
+  return (
+    <Tabs
+      slot={slot}
+      position={position}
+      size={size}
+      style={{ ...style }}
+      {...rest}
+    />
+  )
 }

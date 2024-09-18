@@ -10,39 +10,48 @@ export interface QodeCustom4325730Props {}
 
 export const QodeCustom4325730: React.FC<
   QodeCustom4325730Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="Property 1=Default" id="43:25730" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "806px",
-          alignItems: "flex-start",
-          gap: "24px",
+          ...{
+            display: "flex",
+            width: "806px",
+            alignItems: "flex-start",
+            gap: "24px",
+          },
+          ...style,
         }}
       >
         {/* name="Wrap" id="43:25731" type="FRAME" */}
         <div
           style={{
-            display: "flex",
-            alignItems: "flex-start",
-            gap: "16px",
-            flex: "1 0 0",
+            ...{
+              display: "flex",
+              alignItems: "flex-start",
+              gap: "16px",
+              flex: "1 0 0",
+            },
+            ...{},
           }}
         >
           {/* name="avatar" id="43:25732" type="INSTANCE" */}
           <QodeCustom562954
             style={{
-              display: "flex",
-              width: "72px",
-              height: "72px",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "var(--font-size-large, 16px)",
-              borderRadius: "999px",
-              background: "var(--color-success-colorsuccesshover, #a3c73e)",
+              ...{
+                display: "flex",
+                width: "72px",
+                height: "72px",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "var(--font-size-large, 16px)",
+                borderRadius: "999px",
+                background: "var(--color-success-colorsuccesshover, #a3c73e)",
+              },
+              ...{},
             }}
             {...{
               opentowork: true,
@@ -54,83 +63,104 @@ export const QodeCustom4325730: React.FC<
           {/* name="Wrap" id="43:25733" type="FRAME" */}
           <div
             style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              gap: "8px",
-              flex: "1 0 0",
+              ...{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                gap: "8px",
+                flex: "1 0 0",
+              },
+              ...{},
             }}
           >
             {/* name="Name yoe" id="43:25734" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "4px",
-                alignSelf: "stretch",
+                ...{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "4px",
+                  alignSelf: "stretch",
+                },
+                ...{},
               }}
             >
               <span
                 style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-neutral-10, #bfbfbf)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-heading6, 16px)",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight: "var(--lineheight-lineheight-h6, 22px)",
+                  ...{
+                    flex: "1 0 0",
+                    color: "var(--text-text-neutral-10, #bfbfbf)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-heading6, 16px)",
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    lineHeight: "var(--lineheight-lineheight-h6, 22px)",
+                  },
+                  ...{},
                 }}
               >{`Nguyen Quoc Thai · 12 YoE`}</span>
             </div>
             {/* name="Brief" id="47:6603" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                paddingRight: "24px",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "flex-start",
-                gap: "2px",
-                alignSelf: "stretch",
+                ...{
+                  display: "flex",
+                  paddingRight: "24px",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "flex-start",
+                  gap: "2px",
+                  alignSelf: "stretch",
+                },
+                ...{},
               }}
             >
               <span
                 style={{
-                  alignSelf: "stretch",
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Senior Software Developer at The Chemico Vietnam`}</span>
-              {/* name="Location" id="47:6605" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "4px",
-                  alignSelf: "stretch",
-                }}
-              >
-                {/* name="location-dot" id="69:8761" type="INSTANCE" */}
-                <Icon.QodeLocationDot
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-40, #464646)",
+                  ...{
+                    alignSelf: "stretch",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
                     fontWeight: "400",
                     lineHeight:
                       "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                  },
+                  ...{},
+                }}
+              >{`Senior Software Developer at The Chemico Vietnam`}</span>
+              {/* name="Location" id="47:6605" type="FRAME" */}
+              <div
+                style={{
+                  ...{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "4px",
+                    alignSelf: "stretch",
+                  },
+                  ...{},
+                }}
+              >
+                {/* name="location-dot" id="69:8761" type="INSTANCE" */}
+                <Icon.QodeLocationDot
+                  style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+                  {...{}}
+                />
+                <span
+                  style={{
+                    ...{
+                      flex: "1 0 0",
+                      color: "var(--text-text-neutral-40, #464646)",
+                      fontFamily: 'var(--family-family, "sf pro display")',
+                      fontSize: "var(--size-base, 14px)",
+                      fontStyle: "normal",
+                      fontWeight: "400",
+                      lineHeight:
+                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                    },
+                    ...{},
                   }}
                 >{`Ho Chi Minh city, Vietnam`}</span>
               </div>
@@ -140,15 +170,18 @@ export const QodeCustom4325730: React.FC<
         {/* name="Button" id="43:25741" type="INSTANCE" */}
         <QodeButton
           style={{
-            display: "flex",
-            height: "var(--size-height-controlheight, 32px)",
-            padding: "4px 16px",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "8px",
-            borderRadius: "var(--border-radius-rounded, 999px)",
-            border: "1px solid var(--border-border-primary-30, #107ecc)",
-            background: "var(--background-bg-primary, #1597f4)",
+            ...{
+              display: "flex",
+              height: "var(--size-height-controlheight, 32px)",
+              padding: "4px 16px",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "8px",
+              borderRadius: "var(--border-radius-rounded, 999px)",
+              border: "1px solid var(--border-border-primary-30, #107ecc)",
+              background: "var(--background-bg-primary, #1597f4)",
+            },
+            ...{},
           }}
           {...{
             onlyIcon: <Icon.QodeMagnifyingGlass />,

@@ -21,6 +21,7 @@ export const QodeCustom150221: React.FC<
   icon = undefined,
   title = "Breadcrumb link",
   state = "default",
+  style,
   ...rest
 }) => {
   return (
@@ -32,59 +33,77 @@ export const QodeCustom150221: React.FC<
           {/* name="state=default" id="150:213" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxxs, 4px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxxs, 4px)",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxxs, 4px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxxs, 4px)",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+              },
+              ...style,
             }}
           >
             {/* name="Icon Wrapper" id="150:203" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                padding: "var(--size-padding-paddingxxs, 4px) 0px",
-                alignItems: "flex-start",
+                ...{
+                  display: "flex",
+                  padding: "var(--size-padding-paddingxxs, 4px) 0px",
+                  alignItems: "flex-start",
+                },
+                ...{},
               }}
             >
               {/* name="🎰 icon" id="150:201" type="INSTANCE" */}
               <Icon.QodeHouse
                 style={{
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
+                  ...{
+                    width: "var(--font-size-base, 14px)",
+                    height: "var(--font-size-base, 14px)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
             </div>
             <span
               style={{
-                color:
-                  "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color:
+                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Breadcrumb link`}</span>
             {/* name="Icon Wrapper" id="150:232" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                padding: "var(--size-padding-paddingxxs, 4px) 0px",
-                alignItems: "flex-start",
+                ...{
+                  display: "flex",
+                  padding: "var(--size-padding-paddingxxs, 4px) 0px",
+                  alignItems: "flex-start",
+                },
+                ...{},
               }}
             >
               {/* name="Dropdown Icon" id="150:233" type="INSTANCE" */}
               <Icon.QodeChevronDown
                 style={{
-                  display: "flex",
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                  padding: "4.898px 2.098px 3.501px 2.098px",
-                  justifyContent: "center",
-                  alignItems: "center",
+                  ...{
+                    display: "flex",
+                    width: "var(--font-size-base, 14px)",
+                    height: "var(--font-size-base, 14px)",
+                    padding: "4.898px 2.098px 3.501px 2.098px",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
@@ -98,59 +117,77 @@ export const QodeCustom150221: React.FC<
           {/* name="state=hover" id="150:222" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxxs, 4px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxxs, 4px)",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
-              background: "var(--color-primary-colorprimarybg, #f8fcff)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxxs, 4px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxxs, 4px)",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+                background: "var(--color-primary-colorprimarybg, #f8fcff)",
+              },
+              ...style,
             }}
           >
             {/* name="Icon Wrapper" id="150:223" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                padding: "var(--size-padding-paddingxxs, 4px) 0px",
-                alignItems: "flex-start",
+                ...{
+                  display: "flex",
+                  padding: "var(--size-padding-paddingxxs, 4px) 0px",
+                  alignItems: "flex-start",
+                },
+                ...{},
               }}
             >
               {/* name="🎰 icon" id="150:224" type="INSTANCE" */}
               <Icon.QodeHouse
                 style={{
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
+                  ...{
+                    width: "var(--font-size-base, 14px)",
+                    height: "var(--font-size-base, 14px)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
             </div>
             <span
               style={{
-                color: "var(--color-primary-colorprimary, #1597f4)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-primary-colorprimary, #1597f4)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Breadcrumb link`}</span>
             {/* name="Icon Wrapper" id="150:235" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                padding: "var(--size-padding-paddingxxs, 4px) 0px",
-                alignItems: "flex-start",
+                ...{
+                  display: "flex",
+                  padding: "var(--size-padding-paddingxxs, 4px) 0px",
+                  alignItems: "flex-start",
+                },
+                ...{},
               }}
             >
               {/* name="Dropdown Icon" id="150:236" type="INSTANCE" */}
               <Icon.QodeChevronDown
                 style={{
-                  display: "flex",
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                  padding: "4.898px 2.098px 3.501px 2.098px",
-                  justifyContent: "center",
-                  alignItems: "center",
+                  ...{
+                    display: "flex",
+                    width: "var(--font-size-base, 14px)",
+                    height: "var(--font-size-base, 14px)",
+                    padding: "4.898px 2.098px 3.501px 2.098px",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
@@ -164,58 +201,76 @@ export const QodeCustom150221: React.FC<
           {/* name="state=current" id="150:227" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "0px var(--size-padding-paddingxxs, 4px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxxs, 4px)",
-              borderRadius: "var(--style-radius-borderradiussm, 6px)",
+              ...{
+                display: "inline-flex",
+                padding: "0px var(--size-padding-paddingxxs, 4px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxxs, 4px)",
+                borderRadius: "var(--style-radius-borderradiussm, 6px)",
+              },
+              ...style,
             }}
           >
             {/* name="Icon Wrapper" id="150:228" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                padding: "var(--size-padding-paddingxxs, 4px) 0px",
-                alignItems: "flex-start",
+                ...{
+                  display: "flex",
+                  padding: "var(--size-padding-paddingxxs, 4px) 0px",
+                  alignItems: "flex-start",
+                },
+                ...{},
               }}
             >
               {/* name="🎰 icon" id="150:229" type="INSTANCE" */}
               <Icon.QodeHouse
                 style={{
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
+                  ...{
+                    width: "var(--font-size-base, 14px)",
+                    height: "var(--font-size-base, 14px)",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />
             </div>
             <span
               style={{
-                color: "var(--color-primary-colorprimary, #1597f4)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  color: "var(--color-primary-colorprimary, #1597f4)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Breadcrumb link`}</span>
             {/* name="Icon Wrapper" id="150:238" type="FRAME" */}
             <div
               style={{
-                display: "flex",
-                padding: "var(--size-padding-paddingxxs, 4px) 0px",
-                alignItems: "flex-start",
+                ...{
+                  display: "flex",
+                  padding: "var(--size-padding-paddingxxs, 4px) 0px",
+                  alignItems: "flex-start",
+                },
+                ...{},
               }}
             >
               {/* name="Dropdown Icon" id="150:239" type="INSTANCE" */}
               <Icon.QodeChevronDown
                 style={{
-                  display: "flex",
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                  padding: "4.898px 2.098px 3.501px 2.098px",
-                  justifyContent: "center",
-                  alignItems: "center",
+                  ...{
+                    display: "flex",
+                    width: "var(--font-size-base, 14px)",
+                    height: "var(--font-size-base, 14px)",
+                    padding: "4.898px 2.098px 3.501px 2.098px",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  },
+                  ...{},
                 }}
                 {...{}}
               />

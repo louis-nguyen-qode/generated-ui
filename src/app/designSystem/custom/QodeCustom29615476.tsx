@@ -7,31 +7,40 @@ export interface QodeCustom29615476Props {}
 
 export const QodeCustom29615476: React.FC<
   QodeCustom29615476Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="size=default, position=top, state=active" id="296:15476" type="COMPONENT" */}
       <div
         style={{
-          display: "inline-flex",
-          padding: "12px 0px",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "var(--size-padding-paddingxs, 8px)",
-          borderBottom: "2px solid var(--border-border-primary-20, #158de2)",
+          ...{
+            display: "inline-flex",
+            padding: "12px 0px",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "var(--size-padding-paddingxs, 8px)",
+            borderBottom: "2px solid var(--border-border-primary-20, #158de2)",
+          },
+          ...style,
         }}
       >
         {/* name="🎰 icon" id="296:15484" type="INSTANCE" */}
-        <Icon.QodeIcons style={{ width: "16px", height: "16px" }} {...{}} />
+        <Icon.QodeIcons
+          style={{ ...{ width: "16px", height: "16px" }, ...{} }}
+          {...{}}
+        />
         <span
           style={{
-            color: "var(--text-text-neutral-50, #1d1d1d)",
-            fontFamily: 'var(--family-family, "sf pro display")',
-            fontSize: "var(--size-base, 14px)",
-            fontStyle: "normal",
-            fontWeight: "700",
-            lineHeight:
-              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+            ...{
+              color: "var(--text-text-neutral-50, #1d1d1d)",
+              fontFamily: 'var(--family-family, "sf pro display")',
+              fontSize: "var(--size-base, 14px)",
+              fontStyle: "normal",
+              fontWeight: "700",
+              lineHeight:
+                "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+            },
+            ...{},
           }}
         >{`Tab title`}</span>
       </div>

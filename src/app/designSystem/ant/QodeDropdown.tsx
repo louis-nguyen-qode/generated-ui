@@ -12,7 +12,8 @@ export interface QodeDropdownProps
 export const QodeDropdown: React.FC<QodeDropdownProps> = ({
   type = "basic inline",
   active = "false",
+  style,
   ...rest
 }) => {
-  return <Dropdown type={type} active={active} {...rest} />
+  return <Dropdown type={type} active={active} style={{ ...style }} {...rest} />
 }

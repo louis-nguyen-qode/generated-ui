@@ -11,7 +11,7 @@ export interface QodeCustom17026536Props {
 
 export const QodeCustom17026536: React.FC<
   QodeCustom17026536Props & { style?: CSSProperties }
-> = ({ number = "1", state = "default", size = "default", ...rest }) => {
+> = ({ number = "1", state = "default", size = "default", style, ...rest }) => {
   return (
     <>
       {/* name=".pagination__number" id="170:26536" type="COMPONENT_SET" */}
@@ -21,32 +21,38 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=default, size=default" id="170:26535" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--size-height-controlheight, 32px)",
-              padding: "var(--size-padding-paddingxxs, 4px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
+              ...{
+                display: "flex",
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--size-height-controlheight, 32px)",
+                padding: "var(--size-padding-paddingxxs, 4px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-neutral-50, #1d1d1d)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-neutral-50, #1d1d1d)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -58,34 +64,40 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=hover, size=default" id="170:26539" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--size-height-controlheight, 32px)",
-              padding: "var(--size-padding-paddingxxs, 4px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
-              background:
-                "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              ...{
+                display: "flex",
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--size-height-controlheight, 32px)",
+                padding: "var(--size-padding-paddingxxs, 4px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+                background:
+                  "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-neutral-50, #1d1d1d)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-neutral-50, #1d1d1d)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -97,34 +109,40 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=active, size=default" id="170:26541" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--size-height-controlheight, 32px)",
-              padding: "var(--size-padding-paddingxxs, 4px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
-              background:
-                "var(--color-neutral-background-colorbgspotlight, rgba(0, 0, 0, 0.88))",
+              ...{
+                display: "flex",
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--size-height-controlheight, 32px)",
+                padding: "var(--size-padding-paddingxxs, 4px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+                background:
+                  "var(--color-neutral-background-colorbgspotlight, rgba(0, 0, 0, 0.88))",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-white, #fff)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-white, #fff)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -136,32 +154,38 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=disabled, size=default" id="170:26543" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--size-height-controlheight, 32px)",
-              padding: "var(--size-padding-paddingxxs, 4px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
+              ...{
+                display: "flex",
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--size-height-controlheight, 32px)",
+                padding: "var(--size-padding-paddingxxs, 4px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-placeholder, #a7a7a7)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-placeholder, #a7a7a7)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -173,34 +197,40 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=active disabled, size=default" id="170:26545" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "var(--line-height-lineheighheading3, 32px)",
-              height: "var(--size-height-controlheight, 32px)",
-              padding: "var(--size-padding-paddingxxs, 4px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
-              background:
-                "var(--color-neutral-fill-colorfill, rgba(0, 0, 0, 0.15))",
+              ...{
+                display: "flex",
+                width: "var(--line-height-lineheighheading3, 32px)",
+                height: "var(--size-height-controlheight, 32px)",
+                padding: "var(--size-padding-paddingxxs, 4px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+                background:
+                  "var(--color-neutral-fill-colorfill, rgba(0, 0, 0, 0.15))",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-placeholder, #a7a7a7)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-placeholder, #a7a7a7)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -212,31 +242,37 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=default, size=small" id="170:26547" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "24px",
-              height: "var(--size-height-controlheightsm, 24px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
+              ...{
+                display: "flex",
+                width: "24px",
+                height: "var(--size-height-controlheightsm, 24px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-neutral-50, #1d1d1d)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-neutral-50, #1d1d1d)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -248,33 +284,39 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=hover, size=small" id="170:26549" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "24px",
-              height: "var(--size-height-controlheightsm, 24px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
-              background:
-                "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              ...{
+                display: "flex",
+                width: "24px",
+                height: "var(--size-height-controlheightsm, 24px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+                background:
+                  "var(--color-neutral-fill-colorfillsecondary, rgba(0, 0, 0, 0.06))",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-neutral-50, #1d1d1d)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-neutral-50, #1d1d1d)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -286,33 +328,39 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=active, size=small" id="170:26551" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "24px",
-              height: "var(--size-height-controlheightsm, 24px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
-              background:
-                "var(--color-neutral-background-colorbgspotlight, rgba(0, 0, 0, 0.88))",
+              ...{
+                display: "flex",
+                width: "24px",
+                height: "var(--size-height-controlheightsm, 24px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+                background:
+                  "var(--color-neutral-background-colorbgspotlight, rgba(0, 0, 0, 0.88))",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-white, #fff)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-white, #fff)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -324,31 +372,37 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=disabled, size=small" id="170:26553" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "24px",
-              height: "var(--size-height-controlheightsm, 24px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
+              ...{
+                display: "flex",
+                width: "24px",
+                height: "var(--size-height-controlheightsm, 24px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-placeholder, #a7a7a7)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-placeholder, #a7a7a7)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>
@@ -360,33 +414,39 @@ export const QodeCustom17026536: React.FC<
           {/* name="state=active disabled, size=small" id="170:26555" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "24px",
-              height: "var(--size-height-controlheightsm, 24px)",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderround, 999px)",
-              background:
-                "var(--color-neutral-fill-colorfill, rgba(0, 0, 0, 0.15))",
+              ...{
+                display: "flex",
+                width: "24px",
+                height: "var(--size-height-controlheightsm, 24px)",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderround, 999px)",
+                background:
+                  "var(--color-neutral-fill-colorfill, rgba(0, 0, 0, 0.15))",
+              },
+              ...style,
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "var(--text-text-placeholder, #a7a7a7)",
-                textAlign: "center",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  flex: "1 0 0",
+                  alignSelf: "stretch",
+                  color: "var(--text-text-placeholder, #a7a7a7)",
+                  textAlign: "center",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`1`}</span>
           </div>

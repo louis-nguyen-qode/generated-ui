@@ -9,27 +9,33 @@ export interface QodeCustom562926Props {}
 
 export const QodeCustom562926: React.FC<
   QodeCustom562926Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="linkedin" id="5629:26" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "24px",
-          height: "24px",
-          padding: "3.6px",
-          justifyContent: "center",
-          alignItems: "center",
+          ...{
+            display: "flex",
+            width: "24px",
+            height: "24px",
+            padding: "3.6px",
+            justifyContent: "center",
+            alignItems: "center",
+          },
+          ...style,
         }}
       >
         {/* name="Vector" id="5629:27" type="VECTOR" */}
         <QodeSvg562927
           style={{
-            width: "16.8px",
-            height: "16.8px",
-            flexShrink: "0",
-            fill: "var(--color-neutral-text-colortext, rgba(0, 0, 0, 0.88))",
+            ...{
+              width: "16.8px",
+              height: "16.8px",
+              flexShrink: "0",
+              fill: "var(--color-neutral-text-colortext, rgba(0, 0, 0, 0.88))",
+            },
+            ...{},
           }}
           {...{}}
         />

@@ -12,7 +12,15 @@ export interface QodeTypographyProps
 export const QodeTypography: React.FC<QodeTypographyProps> = ({
   title = "Link",
   underlined = "False",
+  style,
   ...rest
 }) => {
-  return <Typography title={title} underlined={underlined} {...rest} />
+  return (
+    <Typography
+      title={title}
+      underlined={underlined}
+      style={{ ...style }}
+      {...rest}
+    />
+  )
 }

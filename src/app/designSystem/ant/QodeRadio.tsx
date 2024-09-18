@@ -16,6 +16,7 @@ export const QodeRadio: React.FC<QodeRadioProps> = ({
   title = "Radio",
   state = "default",
   checked = "false",
+  style,
   ...rest
 }) => {
   return (
@@ -24,6 +25,7 @@ export const QodeRadio: React.FC<QodeRadioProps> = ({
       title={title}
       state={state}
       checked={checked}
+      style={{ ...style }}
       {...rest}
     />
   )

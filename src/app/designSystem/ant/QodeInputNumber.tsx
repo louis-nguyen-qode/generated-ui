@@ -40,6 +40,7 @@ export const QodeInputNumber: React.FC<QodeInputNumberProps> = ({
   state = "default",
   status = "default",
   size = "default",
+  style,
   ...rest
 }) => {
   return (
@@ -54,6 +55,7 @@ export const QodeInputNumber: React.FC<QodeInputNumberProps> = ({
       state={state}
       status={status}
       size={size}
+      style={{ ...style }}
       {...rest}
     />
   )

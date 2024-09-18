@@ -9,7 +9,7 @@ export interface QodeCustom5859107Props {
 
 export const QodeCustom5859107: React.FC<
   QodeCustom5859107Props & { style?: CSSProperties }
-> = ({ property_1 = "descending", ...rest }) => {
+> = ({ property_1 = "descending", style, ...rest }) => {
   return (
     <>
       {/* name="Table/Sort" id="5859:107" type="COMPONENT_SET" */}
@@ -19,17 +19,23 @@ export const QodeCustom5859107: React.FC<
           {/* name="Property 1=descending" id="5859:106" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "16px",
-              height: "16px",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
+              ...{
+                display: "flex",
+                width: "16px",
+                height: "16px",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+              },
+              ...style,
             }}
           >
             {/* name="arrow-down" id="5859:95" type="INSTANCE" */}
             <Icon.QodeArrowDown
-              style={{ width: "16px", height: "16px", flexShrink: "0" }}
+              style={{
+                ...{ width: "16px", height: "16px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>
@@ -41,17 +47,23 @@ export const QodeCustom5859107: React.FC<
           {/* name="Property 1=ascending" id="5859:105" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "16px",
-              height: "16px",
-              justifyContent: "center",
-              alignItems: "center",
-              flexShrink: "0",
+              ...{
+                display: "flex",
+                width: "16px",
+                height: "16px",
+                justifyContent: "center",
+                alignItems: "center",
+                flexShrink: "0",
+              },
+              ...style,
             }}
           >
             {/* name="arrow-up" id="5859:102" type="INSTANCE" */}
             <Icon.QodeArrowUp
-              style={{ width: "16px", height: "16px", flexShrink: "0" }}
+              style={{
+                ...{ width: "16px", height: "16px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>

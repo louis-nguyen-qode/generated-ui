@@ -14,7 +14,16 @@ export const QodeMenu: React.FC<QodeMenuProps> = ({
   items = "2",
   mode = "inline",
   collapsed = "false",
+  style,
   ...rest
 }) => {
-  return <Menu items={items} mode={mode} collapsed={collapsed} {...rest} />
+  return (
+    <Menu
+      items={items}
+      mode={mode}
+      collapsed={collapsed}
+      style={{ ...style }}
+      {...rest}
+    />
+  )
 }

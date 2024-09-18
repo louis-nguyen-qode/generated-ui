@@ -12,7 +12,10 @@ export interface QodeAutoCompleteProps
 export const QodeAutoComplete: React.FC<QodeAutoCompleteProps> = ({
   active = "no",
   size = "default",
+  style,
   ...rest
 }) => {
-  return <AutoComplete active={active} size={size} {...rest} />
+  return (
+    <AutoComplete active={active} size={size} style={{ ...style }} {...rest} />
+  )
 }

@@ -9,27 +9,33 @@ export interface QodeCustom63012059Props {}
 
 export const QodeCustom63012059: React.FC<
   QodeCustom63012059Props & { style?: CSSProperties }
-> = ({ ...rest }) => {
+> = ({ style, ...rest }) => {
   return (
     <>
       {/* name="list-tree" id="630:12059" type="COMPONENT" */}
       <div
         style={{
-          display: "flex",
-          width: "24px",
-          height: "24px",
-          padding: "2.25px 0px",
-          justifyContent: "center",
-          alignItems: "center",
+          ...{
+            display: "flex",
+            width: "24px",
+            height: "24px",
+            padding: "2.25px 0px",
+            justifyContent: "center",
+            alignItems: "center",
+          },
+          ...style,
         }}
       >
         {/* name="Vector" id="630:11301" type="VECTOR" */}
         <QodeSvg63011301
           style={{
-            width: "24px",
-            height: "19.5px",
-            flexShrink: "0",
-            fill: "var(--color-neutral-text-colortext, #000)",
+            ...{
+              width: "24px",
+              height: "19.5px",
+              flexShrink: "0",
+              fill: "var(--color-neutral-text-colortext, #000)",
+            },
+            ...{},
           }}
           {...{}}
         />

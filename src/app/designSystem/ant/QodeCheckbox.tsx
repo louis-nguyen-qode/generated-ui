@@ -16,6 +16,7 @@ export const QodeCheckbox: React.FC<QodeCheckboxProps> = ({
   title = "Checkbox",
   status = "active",
   state = "default",
+  style,
   ...rest
 }) => {
   return (
@@ -24,6 +25,7 @@ export const QodeCheckbox: React.FC<QodeCheckboxProps> = ({
       title={title}
       status={status}
       state={state}
+      style={{ ...style }}
       {...rest}
     />
   )

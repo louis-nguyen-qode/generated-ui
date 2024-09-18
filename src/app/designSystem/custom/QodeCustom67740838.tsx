@@ -9,7 +9,7 @@ export interface QodeCustom67740838Props {
 
 export const QodeCustom67740838: React.FC<
   QodeCustom67740838Props & { style?: CSSProperties }
-> = ({ property_1 = "Default", ...rest }) => {
+> = ({ property_1 = "Default", style, ...rest }) => {
   return (
     <>
       {/* name="Generating" id="677:40838" type="COMPONENT_SET" */}
@@ -19,20 +19,23 @@ export const QodeCustom67740838: React.FC<
           {/* name="Property 1=Default" id="677:40839" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "8px",
-              alignItems: "center",
-              gap: "10px",
-              borderRadius: "var(--border-radius-rounded, 999px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              background: "var(--neutral-white, #fff)",
-              boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
+              ...{
+                display: "inline-flex",
+                padding: "8px",
+                alignItems: "center",
+                gap: "10px",
+                borderRadius: "var(--border-radius-rounded, 999px)",
+                border:
+                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                background: "var(--neutral-white, #fff)",
+                boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
+              },
+              ...style,
             }}
           >
             {/* name="spinner" id="677:40840" type="INSTANCE" */}
             <Icon.QodeSpinner
-              style={{ width: "24px", height: "24px" }}
+              style={{ ...{ width: "24px", height: "24px" }, ...{} }}
               {...{}}
             />
           </div>
@@ -44,23 +47,29 @@ export const QodeCustom67740838: React.FC<
           {/* name="Property 1=Variant2" id="677:40842" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "8px",
-              alignItems: "center",
-              gap: "10px",
-              borderRadius: "999px",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              background: "var(--neutral-white, #fff)",
-              boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
+              ...{
+                display: "inline-flex",
+                padding: "8px",
+                alignItems: "center",
+                gap: "10px",
+                borderRadius: "999px",
+                border:
+                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                background: "var(--neutral-white, #fff)",
+                boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
+              },
+              ...style,
             }}
           >
             {/* name="spinner" id="677:40843" type="INSTANCE" */}
             <Icon.QodeSpinner
               style={{
-                width: "24px",
-                height: "24px",
-                transform: "rotate(-90deg)",
+                ...{
+                  width: "24px",
+                  height: "24px",
+                  transform: "rotate(-90deg)",
+                },
+                ...{},
               }}
               {...{}}
             />
@@ -73,20 +82,23 @@ export const QodeCustom67740838: React.FC<
           {/* name="Property 1=Variant3" id="677:40845" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "8px",
-              alignItems: "center",
-              gap: "10px",
-              borderRadius: "var(--border-radius-rounded, 999px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              background: "var(--neutral-white, #fff)",
-              boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
+              ...{
+                display: "inline-flex",
+                padding: "8px",
+                alignItems: "center",
+                gap: "10px",
+                borderRadius: "var(--border-radius-rounded, 999px)",
+                border:
+                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                background: "var(--neutral-white, #fff)",
+                boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
+              },
+              ...style,
             }}
           >
             {/* name="spinner" id="677:40846" type="INSTANCE" */}
             <Icon.QodeSpinner
-              style={{ width: "24px", height: "24px" }}
+              style={{ ...{ width: "24px", height: "24px" }, ...{} }}
               {...{}}
             />
           </div>
@@ -98,23 +110,29 @@ export const QodeCustom67740838: React.FC<
           {/* name="Property 1=Variant4" id="677:40848" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              padding: "8px",
-              alignItems: "center",
-              gap: "10px",
-              borderRadius: "var(--border-radius-rounded, 999px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-              background: "var(--neutral-white, #fff)",
-              boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
+              ...{
+                display: "inline-flex",
+                padding: "8px",
+                alignItems: "center",
+                gap: "10px",
+                borderRadius: "var(--border-radius-rounded, 999px)",
+                border:
+                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                background: "var(--neutral-white, #fff)",
+                boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
+              },
+              ...style,
             }}
           >
             {/* name="spinner" id="677:40849" type="INSTANCE" */}
             <Icon.QodeSpinner
               style={{
-                width: "24px",
-                height: "24px",
-                transform: "rotate(90deg)",
+                ...{
+                  width: "24px",
+                  height: "24px",
+                  transform: "rotate(90deg)",
+                },
+                ...{},
               }}
               {...{}}
             />

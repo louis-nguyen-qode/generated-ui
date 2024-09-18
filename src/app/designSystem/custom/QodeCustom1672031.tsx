@@ -15,7 +15,7 @@ export interface QodeCustom1672031Props {
 
 export const QodeCustom1672031: React.FC<
   QodeCustom1672031Props & { style?: CSSProperties }
-> = ({ items = "2", theme = "line", ...rest }) => {
+> = ({ items = "2", theme = "line", style, ...rest }) => {
   return (
     <>
       {/* name="Menu__TopNavigation" id="167:2031" type="COMPONENT_SET" */}
@@ -25,25 +25,31 @@ export const QodeCustom1672031: React.FC<
           {/* name="items=2, theme=line" id="167:2030" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              alignItems: "flex-start",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
-              background:
-                "var(--color-neutral-background-colorbgcontainer, #fff)",
+              ...{
+                display: "inline-flex",
+                alignItems: "flex-start",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
+                background:
+                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 item 1" id="167:2021" type="INSTANCE" */}
             <QodeCustom1671997
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderBottom:
-                  "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
-                background: "var(--primary-primary-50, #1597f4)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderBottom:
+                    "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -55,11 +61,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2025" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -77,25 +86,31 @@ export const QodeCustom1672031: React.FC<
           {/* name="items=3, theme=line" id="167:2044" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              alignItems: "flex-start",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
-              background:
-                "var(--color-neutral-background-colorbgcontainer, #fff)",
+              ...{
+                display: "inline-flex",
+                alignItems: "flex-start",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
+                background:
+                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 item 1" id="167:2045" type="INSTANCE" */}
             <QodeCustom1671997
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderBottom:
-                  "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
-                background: "var(--primary-primary-50, #1597f4)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderBottom:
+                    "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -107,11 +122,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2046" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -123,11 +141,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 3" id="167:2053" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -145,25 +166,31 @@ export const QodeCustom1672031: React.FC<
           {/* name="items=4, theme=line" id="167:2057" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              alignItems: "flex-start",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
-              background:
-                "var(--color-neutral-background-colorbgcontainer, #fff)",
+              ...{
+                display: "inline-flex",
+                alignItems: "flex-start",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
+                background:
+                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 item 1" id="167:2058" type="INSTANCE" */}
             <QodeCustom1671997
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderBottom:
-                  "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
-                background: "var(--primary-primary-50, #1597f4)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderBottom:
+                    "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -175,11 +202,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2059" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -191,11 +221,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 3" id="167:2060" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -207,11 +240,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 4" id="167:2070" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -229,25 +265,31 @@ export const QodeCustom1672031: React.FC<
           {/* name="items=5, theme=line" id="167:2074" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              alignItems: "flex-start",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
-              background:
-                "var(--color-neutral-background-colorbgcontainer, #fff)",
+              ...{
+                display: "inline-flex",
+                alignItems: "flex-start",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
+                background:
+                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 item 1" id="167:2075" type="INSTANCE" */}
             <QodeCustom1671997
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderBottom:
-                  "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
-                background: "var(--primary-primary-50, #1597f4)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderBottom:
+                    "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -259,11 +301,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2076" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -275,11 +320,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 3" id="167:2077" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -291,11 +339,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 4" id="167:2078" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -307,11 +358,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 5" id="167:2091" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -329,25 +383,31 @@ export const QodeCustom1672031: React.FC<
           {/* name="items=6, theme=line" id="167:2095" type="COMPONENT" */}
           <div
             style={{
-              display: "inline-flex",
-              alignItems: "flex-start",
-              borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
-              background:
-                "var(--color-neutral-background-colorbgcontainer, #fff)",
+              ...{
+                display: "inline-flex",
+                alignItems: "flex-start",
+                borderBottom:
+                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorsplit, rgba(0, 0, 0, 0.06))",
+                background:
+                  "var(--color-neutral-background-colorbgcontainer, #fff)",
+              },
+              ...style,
             }}
           >
             {/* name="🧬 item 1" id="167:2096" type="INSTANCE" */}
             <QodeCustom1671997
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderBottom:
-                  "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
-                background: "var(--primary-primary-50, #1597f4)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderBottom:
+                    "var(--style-line-width-linewidthbold, 2px) solid var(--color-primary-colorprimary, #1597f4)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -359,11 +419,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2097" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -375,11 +438,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 3" id="167:2098" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -391,11 +457,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 4" id="167:2099" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -407,11 +476,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 5" id="167:2100" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -423,11 +495,14 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 6" id="167:2116" type="INSTANCE" */}
             <QodeCustom1671983
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingsm, 12px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -443,19 +518,27 @@ export const QodeCustom1672031: React.FC<
       {`${items}` === `2` && `${theme}` === `box` && (
         <>
           {/* name="items=2, theme=box" id="167:2219" type="COMPONENT" */}
-          <div style={{ display: "inline-flex", alignItems: "flex-start" }}>
+          <div
+            style={{
+              ...{ display: "inline-flex", alignItems: "flex-start" },
+              ...style,
+            }}
+          >
             {/* name="🧬 item 1" id="167:2220" type="INSTANCE" */}
             <QodeCustom1672011
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
-                background: "var(--primary-primary-50, #1597f4)",
-                boxShadow:
-                  "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                  boxShadow:
+                    "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -467,12 +550,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2221" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -488,19 +574,27 @@ export const QodeCustom1672031: React.FC<
       {`${items}` === `3` && `${theme}` === `box` && (
         <>
           {/* name="items=3, theme=box" id="167:2222" type="COMPONENT" */}
-          <div style={{ display: "inline-flex", alignItems: "flex-start" }}>
+          <div
+            style={{
+              ...{ display: "inline-flex", alignItems: "flex-start" },
+              ...style,
+            }}
+          >
             {/* name="🧬 item 1" id="167:2223" type="INSTANCE" */}
             <QodeCustom1672011
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
-                background: "var(--primary-primary-50, #1597f4)",
-                boxShadow:
-                  "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                  boxShadow:
+                    "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -512,12 +606,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2224" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -529,12 +626,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 3" id="167:2225" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -550,19 +650,27 @@ export const QodeCustom1672031: React.FC<
       {`${items}` === `4` && `${theme}` === `box` && (
         <>
           {/* name="items=4, theme=box" id="167:2226" type="COMPONENT" */}
-          <div style={{ display: "inline-flex", alignItems: "flex-start" }}>
+          <div
+            style={{
+              ...{ display: "inline-flex", alignItems: "flex-start" },
+              ...style,
+            }}
+          >
             {/* name="🧬 item 1" id="167:2227" type="INSTANCE" */}
             <QodeCustom1672011
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
-                background: "var(--primary-primary-50, #1597f4)",
-                boxShadow:
-                  "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                  boxShadow:
+                    "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -574,12 +682,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2228" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -591,12 +702,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 3" id="167:2229" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -608,12 +722,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 4" id="167:2230" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -629,19 +746,27 @@ export const QodeCustom1672031: React.FC<
       {`${items}` === `5` && `${theme}` === `box` && (
         <>
           {/* name="items=5, theme=box" id="167:2231" type="COMPONENT" */}
-          <div style={{ display: "inline-flex", alignItems: "flex-start" }}>
+          <div
+            style={{
+              ...{ display: "inline-flex", alignItems: "flex-start" },
+              ...style,
+            }}
+          >
             {/* name="🧬 item 1" id="167:2232" type="INSTANCE" */}
             <QodeCustom1672011
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
-                background: "var(--primary-primary-50, #1597f4)",
-                boxShadow:
-                  "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                  boxShadow:
+                    "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -653,12 +778,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2233" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -670,12 +798,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 3" id="167:2234" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -687,12 +818,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 4" id="167:2235" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -704,12 +838,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 5" id="167:2236" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -725,19 +862,27 @@ export const QodeCustom1672031: React.FC<
       {`${items}` === `6` && `${theme}` === `box` && (
         <>
           {/* name="items=6, theme=box" id="167:2237" type="COMPONENT" */}
-          <div style={{ display: "inline-flex", alignItems: "flex-start" }}>
+          <div
+            style={{
+              ...{ display: "inline-flex", alignItems: "flex-start" },
+              ...style,
+            }}
+          >
             {/* name="🧬 item 1" id="167:2238" type="INSTANCE" */}
             <QodeCustom1672011
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
-                background: "var(--primary-primary-50, #1597f4)",
-                boxShadow:
-                  "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                  background: "var(--primary-primary-50, #1597f4)",
+                  boxShadow:
+                    "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -749,12 +894,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 2" id="167:2239" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -766,12 +914,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 3" id="167:2240" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -783,12 +934,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 4" id="167:2241" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -800,12 +954,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 5" id="167:2242" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",
@@ -817,12 +974,15 @@ export const QodeCustom1672031: React.FC<
             {/* name="🧬 item 6" id="167:2243" type="INSTANCE" */}
             <QodeCustom267732414
               style={{
-                display: "flex",
-                padding:
-                  "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
-                alignItems: "center",
-                gap: "var(--size-padding-paddingxs, 8px)",
-                borderRadius: "var(--style-radius-borderround, 999px)",
+                ...{
+                  display: "flex",
+                  padding:
+                    "var(--size-padding-paddingxs, 8px) var(--size-padding-padding, 16px)",
+                  alignItems: "center",
+                  gap: "var(--size-padding-paddingxs, 8px)",
+                  borderRadius: "var(--style-radius-borderround, 999px)",
+                },
+                ...{},
               }}
               {...{
                 title: "Navigation Item",

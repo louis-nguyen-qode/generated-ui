@@ -32,6 +32,7 @@ export const QodeCustom1672908: React.FC<
   title = "Navigation Item",
   icon = undefined,
   state = "default",
+  style,
   ...rest
 }) => {
   return (
@@ -43,37 +44,49 @@ export const QodeCustom1672908: React.FC<
           {/* name="state=default" id="167:2907" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              height: "var(--size-height-controlheightlg, 40px)",
-              padding: "0px var(--size-padding-padding, 16px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxs, 8px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+              ...{
+                display: "flex",
+                width: "240px",
+                height: "var(--size-height-controlheightlg, 40px)",
+                padding: "0px var(--size-padding-padding, 16px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxs, 8px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="167:2911" type="INSTANCE" */}
             <QodeCustom63010804
-              style={{ width: "16px", height: "16px", flexShrink: "0" }}
+              style={{
+                ...{ width: "16px", height: "16px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
             <span
               style={{
-                flex: "1 0 0",
-                color:
-                  "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color:
+                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:2986" type="INSTANCE" */}
             <QodeCustom6308727
-              style={{ width: "12px", height: "12px", flexShrink: "0" }}
+              style={{
+                ...{ width: "12px", height: "12px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>
@@ -85,38 +98,50 @@ export const QodeCustom1672908: React.FC<
           {/* name="state=hover" id="167:2922" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              height: "var(--size-height-controlheightlg, 40px)",
-              padding: "0px var(--size-padding-padding, 16px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxs, 8px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiusxl, 16px)",
-              background:
-                "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
+              ...{
+                display: "flex",
+                width: "240px",
+                height: "var(--size-height-controlheightlg, 40px)",
+                padding: "0px var(--size-padding-padding, 16px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxs, 8px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+                background:
+                  "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="167:2923" type="INSTANCE" */}
             <QodeCustom63010804
-              style={{ width: "16px", height: "16px", flexShrink: "0" }}
+              style={{
+                ...{ width: "16px", height: "16px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortext, #000)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortext, #000)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:2988" type="INSTANCE" */}
             <QodeCustom6308727
-              style={{ width: "12px", height: "12px", flexShrink: "0" }}
+              style={{
+                ...{ width: "12px", height: "12px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>
@@ -128,40 +153,52 @@ export const QodeCustom1672908: React.FC<
           {/* name="state=active" id="167:2926" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              height: "var(--size-height-controlheightlg, 40px)",
-              padding: "0px var(--size-padding-padding, 16px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxs, 8px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiusxl, 16px)",
-              background:
-                "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
-              boxShadow:
-                "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+              ...{
+                display: "flex",
+                width: "240px",
+                height: "var(--size-height-controlheightlg, 40px)",
+                padding: "0px var(--size-padding-padding, 16px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxs, 8px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+                background:
+                  "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
+                boxShadow:
+                  "0px 2px 4px 0px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px 0px rgba(0, 0, 0, 0.03)",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="167:2927" type="INSTANCE" */}
             <QodeCustom63010804
-              style={{ width: "16px", height: "16px", flexShrink: "0" }}
+              style={{
+                ...{ width: "16px", height: "16px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-neutral-text-colortext, #000)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-neutral-text-colortext, #000)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "700",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:2990" type="INSTANCE" */}
             <QodeCustom6308727
-              style={{ width: "12px", height: "12px", flexShrink: "0" }}
+              style={{
+                ...{ width: "12px", height: "12px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>
@@ -173,36 +210,48 @@ export const QodeCustom1672908: React.FC<
           {/* name="state=child active" id="167:3057" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              height: "var(--size-height-controlheightlg, 40px)",
-              padding: "0px var(--size-padding-padding, 16px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxs, 8px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+              ...{
+                display: "flex",
+                width: "240px",
+                height: "var(--size-height-controlheightlg, 40px)",
+                padding: "0px var(--size-padding-padding, 16px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxs, 8px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="167:3058" type="INSTANCE" */}
             <QodeCustom63010804
-              style={{ width: "16px", height: "16px", flexShrink: "0" }}
+              style={{
+                ...{ width: "16px", height: "16px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-primary-colorprimarytext, #1597f4)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-primary-colorprimarytext, #1597f4)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:3060" type="INSTANCE" */}
             <QodeCustom6308727
-              style={{ width: "12px", height: "12px", flexShrink: "0" }}
+              style={{
+                ...{ width: "12px", height: "12px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>
@@ -214,38 +263,50 @@ export const QodeCustom1672908: React.FC<
           {/* name="state=child active hover" id="167:3061" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              height: "var(--size-height-controlheightlg, 40px)",
-              padding: "0px var(--size-padding-padding, 16px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxs, 8px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiusxl, 16px)",
-              background:
-                "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
+              ...{
+                display: "flex",
+                width: "240px",
+                height: "var(--size-height-controlheightlg, 40px)",
+                padding: "0px var(--size-padding-padding, 16px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxs, 8px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+                background:
+                  "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="167:3062" type="INSTANCE" */}
             <QodeCustom63010804
-              style={{ width: "16px", height: "16px", flexShrink: "0" }}
+              style={{
+                ...{ width: "16px", height: "16px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
             <span
               style={{
-                flex: "1 0 0",
-                color: "var(--color-primary-colorprimarytext, #1597f4)",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color: "var(--color-primary-colorprimarytext, #1597f4)",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:3064" type="INSTANCE" */}
             <QodeCustom6308727
-              style={{ width: "12px", height: "12px", flexShrink: "0" }}
+              style={{
+                ...{ width: "12px", height: "12px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>
@@ -257,37 +318,49 @@ export const QodeCustom1672908: React.FC<
           {/* name="state=disabled" id="167:2934" type="COMPONENT" */}
           <div
             style={{
-              display: "flex",
-              width: "240px",
-              height: "var(--size-height-controlheightlg, 40px)",
-              padding: "0px var(--size-padding-padding, 16px)",
-              alignItems: "center",
-              gap: "var(--size-padding-paddingxs, 8px)",
-              flexShrink: "0",
-              borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+              ...{
+                display: "flex",
+                width: "240px",
+                height: "var(--size-height-controlheightlg, 40px)",
+                padding: "0px var(--size-padding-padding, 16px)",
+                alignItems: "center",
+                gap: "var(--size-padding-paddingxs, 8px)",
+                flexShrink: "0",
+                borderRadius: "var(--style-radius-borderradiusxl, 16px)",
+              },
+              ...style,
             }}
           >
             {/* name="🎰 icon" id="167:2935" type="INSTANCE" */}
             <QodeCustom63010804
-              style={{ width: "16px", height: "16px", flexShrink: "0" }}
+              style={{
+                ...{ width: "16px", height: "16px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
             <span
               style={{
-                flex: "1 0 0",
-                color:
-                  "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                fontFamily: 'var(--family-family, "sf pro display")',
-                fontSize: "var(--size-base, 14px)",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight:
-                  "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                ...{
+                  flex: "1 0 0",
+                  color:
+                    "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
+                  fontFamily: 'var(--family-family, "sf pro display")',
+                  fontSize: "var(--size-base, 14px)",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  lineHeight:
+                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
+                },
+                ...{},
               }}
             >{`Navigation Item`}</span>
             {/* name="🎰 action" id="167:2992" type="INSTANCE" */}
             <QodeCustom6308727
-              style={{ width: "12px", height: "12px", flexShrink: "0" }}
+              style={{
+                ...{ width: "12px", height: "12px", flexShrink: "0" },
+                ...{},
+              }}
               {...{}}
             />
           </div>

@@ -12,7 +12,8 @@ export interface QodeMentionsProps
 export const QodeMentions: React.FC<QodeMentionsProps> = ({
   active = "no",
   size = "default",
+  style,
   ...rest
 }) => {
-  return <Mentions active={active} size={size} {...rest} />
+  return <Mentions active={active} size={size} style={{ ...style }} {...rest} />
 }

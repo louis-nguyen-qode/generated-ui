@@ -24,7 +24,7 @@ export interface QodeCustom476985Props {
 
 export const QodeCustom476985: React.FC<
   QodeCustom476985Props & { style?: CSSProperties }
-> = ({ state = "Default", ...rest }) => {
+> = ({ state = "Default", style, ...rest }) => {
   return (
     <>
       {/* name="Icon/checkbox" id="47:6985" type="COMPONENT_SET" */}
@@ -33,7 +33,10 @@ export const QodeCustom476985: React.FC<
         <>
           {/* name="State=Default" id="47:6986" type="COMPONENT" */}
           <QodeSvg476986
-            style={{ width: "20px", height: "20px", flexShrink: "0" }}
+            style={{
+              ...{ width: "20px", height: "20px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>
@@ -43,7 +46,10 @@ export const QodeCustom476985: React.FC<
         <>
           {/* name="State=Hover" id="47:6987" type="COMPONENT" */}
           <QodeSvg476987
-            style={{ width: "20px", height: "20px", flexShrink: "0" }}
+            style={{
+              ...{ width: "20px", height: "20px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>
@@ -53,7 +59,10 @@ export const QodeCustom476985: React.FC<
         <>
           {/* name="State=Focus" id="47:6988" type="COMPONENT" */}
           <QodeSvg476988
-            style={{ width: "20px", height: "20px", flexShrink: "0" }}
+            style={{
+              ...{ width: "20px", height: "20px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>
@@ -63,7 +72,10 @@ export const QodeCustom476985: React.FC<
         <>
           {/* name="State=Selected" id="47:6989" type="COMPONENT" */}
           <QodeSvg476989
-            style={{ width: "20px", height: "20px", flexShrink: "0" }}
+            style={{
+              ...{ width: "20px", height: "20px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>
@@ -73,7 +85,10 @@ export const QodeCustom476985: React.FC<
         <>
           {/* name="State=Disabled selected" id="47:6990" type="COMPONENT" */}
           <QodeSvg476990
-            style={{ width: "20px", height: "20px", flexShrink: "0" }}
+            style={{
+              ...{ width: "20px", height: "20px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>
@@ -83,7 +98,10 @@ export const QodeCustom476985: React.FC<
         <>
           {/* name="State=Intermediate" id="47:6991" type="COMPONENT" */}
           <QodeSvg476991
-            style={{ width: "20px", height: "20px", flexShrink: "0" }}
+            style={{
+              ...{ width: "20px", height: "20px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>
@@ -93,7 +111,10 @@ export const QodeCustom476985: React.FC<
         <>
           {/* name="State=Disabled" id="47:6992" type="COMPONENT" */}
           <QodeSvg476992
-            style={{ width: "20px", height: "20px", flexShrink: "0" }}
+            style={{
+              ...{ width: "20px", height: "20px", flexShrink: "0" },
+              ...style,
+            }}
             {...{}}
           />
         </>

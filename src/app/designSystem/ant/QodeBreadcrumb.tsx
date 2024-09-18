@@ -9,7 +9,8 @@ export interface QodeBreadcrumbProps extends Omit<BreadcrumbProps, "count"> {
 
 export const QodeBreadcrumb: React.FC<QodeBreadcrumbProps> = ({
   count = "2",
+  style,
   ...rest
 }) => {
-  return <Breadcrumb count={count} {...rest} />
+  return <Breadcrumb count={count} style={{ ...style }} {...rest} />
 }

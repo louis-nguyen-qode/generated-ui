@@ -33,6 +33,7 @@ export const QodePopconfirm: React.FC<QodePopconfirmProps> = ({
   icon = undefined,
   showArrow = true,
   placement = "left",
+  style,
   ...rest
 }) => {
   return (
@@ -42,6 +43,7 @@ export const QodePopconfirm: React.FC<QodePopconfirmProps> = ({
       icon={icon}
       showArrow={showArrow}
       placement={placement}
+      style={{ ...style }}
       {...rest}
     />
   )
