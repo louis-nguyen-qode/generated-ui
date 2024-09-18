@@ -26,6 +26,7 @@ export const QodeCustom475527: React.FC<
             border:
               "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
             background: "var(--background-bg-white, #fff)",
+            overflow: "hidden",
           },
           ...style,
         }}

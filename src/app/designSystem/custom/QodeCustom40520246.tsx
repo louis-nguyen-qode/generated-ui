@@ -33,6 +33,7 @@ export const QodeCustom40520246: React.FC<
                 border:
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
+                overflow: "hidden",
               },
               ...style,
             }}
@@ -338,6 +339,7 @@ export const QodeCustom40520246: React.FC<
                 background: "var(--background-bg-white, #fff)",
                 boxShadow:
                   "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
+                overflow: "hidden",
               },
               ...style,
             }}
