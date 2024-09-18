@@ -61,7 +61,7 @@ export const QodeButton: React.FC<QodeButtonProps> = ({
       }}
       {...rest}
     >
-      {buttonname}
+      {content === 'default' && buttonname}
     </Button>
   );
 };

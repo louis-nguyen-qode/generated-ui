@@ -35,7 +35,7 @@ export const Qode22419424Page: React.FC<Qode22419424PageProps> = ({
             ...{
               display: "flex",
               width: "84px",
-              
+              height: "100%",
               flexDirection: "column",
               alignItems: "center",
               borderRight:
@@ -67,9 +67,11 @@ export const Qode22419424Page: React.FC<Qode22419424PageProps> = ({
             style={{
               ...{
                 height: "40px",
-                
-                flexShrink: "0",
+                display: "flex",
                 alignSelf: "stretch",
+                alignItems: "center",
+                justifyItems: "stretch",
+                justifyContent: "space-between"
               },
               ...{},
             }}

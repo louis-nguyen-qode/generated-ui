@@ -22,6 +22,7 @@ const QodeSvgI4853971824110294325732562960: React.FC<IconProps> = ({
       viewBox="0 0 72 72"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      style={{ position: "absolute" }}
     >
       <path
         fillRule="evenodd"

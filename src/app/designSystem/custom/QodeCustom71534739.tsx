@@ -41,7 +41,7 @@ export const QodeCustom71534739: React.FC<
                 ...{
                   display: "flex",
                   width: "84px",
-                  height: "800px",
+                  height: "100%",
                   flexDirection: "column",
                   alignItems: "center",
                   flexShrink: "0",
@@ -169,6 +169,7 @@ export const QodeCustom71534739: React.FC<
                 ...{
                   display: "flex",
                   width: "84px",
+                  height: "100%",
                   flexDirection: "column",
                   alignItems: "center",
                   flexShrink: "0",
@@ -297,6 +298,7 @@ export const QodeCustom71534739: React.FC<
                 ...{
                   display: "flex",
                   width: "84px",
+                  height: "100%",
                   flexDirection: "column",
                   alignItems: "center",
                   flexShrink: "0",
@@ -425,6 +427,7 @@ export const QodeCustom71534739: React.FC<
                 ...{
                   display: "flex",
                   width: "84px",
+                  height: "100%",
                   flexDirection: "column",
                   alignItems: "center",
                   flexShrink: "0",

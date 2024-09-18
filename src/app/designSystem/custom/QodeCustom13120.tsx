@@ -20,7 +20,7 @@ export const QodeCustom13120: React.FC<
           ...{
             display: "flex",
             width: "84px",
-            
+            height: "100%",
             flexDirection: "column",
             alignItems: "center",
             borderRight:

@@ -19,7 +19,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
   return (
     <>
       {/* name="states" id="490:27949" type="SECTION" */}
-      <div style={{ ...{}, ...style }}>
+      <div style={{ ...{ display: "flex", gap: 12, flexDirection: "column" }, ...style }}>
         {/* name="Shortlisted/List item" id="490:27809" type="INSTANCE" */}
         <QodeCustom4323425
           style={{

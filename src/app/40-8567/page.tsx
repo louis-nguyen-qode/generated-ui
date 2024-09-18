@@ -39,7 +39,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({
             ...{
               display: "flex",
               width: "84px",
-              
+              height: "100%",
               flexDirection: "column",
               alignItems: "center",
               flexShrink: "0",
@@ -158,7 +158,6 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({
                 style={{
                   ...{
                     display: "flex",
-                    width: "70px",
                     height: "var(--size-height-controlheightsm, 24px)",
                     padding: "4px 8px",
                     justifyContent: "center",

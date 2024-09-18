@@ -44,7 +44,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
               ...{
                 display: "flex",
                 width: "84px",
-                
+                height: "100%",
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
