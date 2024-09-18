@@ -5,7 +5,6 @@ import { Icon } from "@designSystem/icon"
 
 import QodeSvg21923526 from "@designSystem/icon/svg/QodeSvg21923526"
 import QodeSvg21923826 from "@designSystem/icon/svg/QodeSvg21923826"
-import QodeSvg21923842 from "@designSystem/icon/svg/QodeSvg21923842"
 import QodeSvg21923844 from "@designSystem/icon/svg/QodeSvg21923844"
 import QodeSvg21923879 from "@designSystem/icon/svg/QodeSvg21923879"
 import QodeSvg21923885 from "@designSystem/icon/svg/QodeSvg21923885"
@@ -193,7 +192,7 @@ export const QodeCustom21621816: React.FC<
                 }}
               >
                 {/* name="users" id="219:23842" type="INSTANCE" */}
-                <QodeSvg21923842
+                <Icon.QodeUsers
                   style={{ width: "16px", height: "16px", flexShrink: "0" }}
                   {...{}}
                 />

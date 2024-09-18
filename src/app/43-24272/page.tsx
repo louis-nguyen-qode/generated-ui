@@ -3,14 +3,14 @@ import React from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI432427363531404 from "@designSystem/icon/svg/QodeSvgI432427363531404"
+import { QodeCustom61606 } from "@designSystem/custom/QodeCustom61606"
 import { QodeCustom433 } from "@designSystem/custom/QodeCustom433"
-import QodeSvgI4324273130995007119191143115 from "@designSystem/icon/svg/QodeSvgI4324273130995007119191143115"
-import QodeSvgI4324273131005007119191143115 from "@designSystem/icon/svg/QodeSvgI4324273131005007119191143115"
-import QodeSvgI4324277272038139 from "@designSystem/icon/svg/QodeSvgI4324277272038139"
-import QodeSvgI43242783513236 from "@designSystem/icon/svg/QodeSvgI43242783513236"
+import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom272038011 } from "@designSystem/custom/QodeCustom272038011"
 import { QodeCustom48612 } from "@designSystem/custom/QodeCustom48612"
+import { QodeCustom17127011 } from "@designSystem/custom/QodeCustom17127011"
 import { QodeCustom34019060 } from "@designSystem/custom/QodeCustom34019060"
+import { QodeCustom565626441 } from "@designSystem/custom/QodeCustom565626441"
 
 export interface Qode4324272PageProps {}
 
@@ -58,7 +58,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
             }}
           >
             {/* name="logo" id="I43:24273;635:31404" type="INSTANCE" */}
-            <QodeSvgI432427363531404
+            <QodeCustom61606
               style={{ width: "40px", height: "40px" }}
               {...{
                 type: "Default",
@@ -90,7 +90,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
               }}
-              {...{ state: "Default" }}
+              {...{ icon: <Icon.QodeCube />, state: "Default" }}
             />
             {/* name="Navbar/Menu" id="I43:24273;16:5813" type="INSTANCE" */}
             <QodeCustom433
@@ -102,7 +102,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
               }}
-              {...{ state: "Active" }}
+              {...{ icon: <Icon.QodeBriefcase />, state: "Active" }}
             />
             {/* name="Navbar/Menu" id="I43:24273;4:54" type="INSTANCE" */}
             <QodeCustom433
@@ -114,7 +114,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
               }}
-              {...{ state: "Default" }}
+              {...{ icon: <Icon.QodeUserGroup />, state: "Default" }}
             />
             {/* name="Navbar/Menu" id="I43:24273;4:95" type="INSTANCE" */}
             <QodeCustom433
@@ -126,7 +126,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
               }}
-              {...{ state: "Default" }}
+              {...{ icon: <Icon.QodeVideo />, state: "Default" }}
             />
           </div>
           {/* name="Btm" id="I43:24273;1:3098" type="FRAME" */}
@@ -151,7 +151,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
               }}
             >
               {/* name="Button" id="I43:24273;1:3099;5007:11919" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightlg, 40px)",
@@ -166,13 +166,19 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                   background:
                     "var(--color-gold-purple-colorgoldpurplebg, #f9f0ff)",
                 }}
-              >
-                {/* name="🎰 icon" id="I43:24273;1:3099;5007:11919;114:3115" type="INSTANCE" */}
-                <QodeSvgI4324273130995007119191143115
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  icononly: "630:15277",
+                  iconR: <Icon.QodeMagnifyingGlass />,
+                  title: "Button",
+                  iconL: false,
+                  type: "default",
+                  size: "large",
+                  state: "default",
+                  content: "icon",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </Flex>
             {/* name="Profile" id="I43:24273;1:3100" type="INSTANCE" */}
             <Flex
@@ -186,7 +192,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
               }}
             >
               {/* name="Button" id="I43:24273;1:3100;5007:11919" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightlg, 40px)",
@@ -201,13 +207,19 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 }}
-              >
-                {/* name="user" id="I43:24273;1:3100;5007:11919;114:3115" type="INSTANCE" */}
-                <QodeSvgI4324273131005007119191143115
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  icononly: <Icon.QodeUser />,
+                  iconR: <Icon.QodeMagnifyingGlass />,
+                  title: "Button",
+                  iconL: false,
+                  type: "default",
+                  size: "large",
+                  state: "default",
+                  content: "icon",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </Flex>
           </div>
         </Flex>
@@ -240,7 +252,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
               }}
             >{`My jobs`}</span>
             {/* name="Search bar" id="43:24277" type="INSTANCE" */}
-            <Flex
+            <QodeCustom272038011
               style={{
                 display: "flex",
                 width: "480px",
@@ -255,72 +267,23 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon left" id="I43:24277;2720:38139" type="INSTANCE" */}
-              <QodeSvgI4324277272038139
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-large, 16px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight: "24px /* 150% */",
-                }}
-              >{`PRE`}</span>
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-large, 16px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight: "24px /* 150% */",
-                }}
-              >{`Search`}</span>
-              <span
-                style={{
-                  color:
-                    "var(--color-neutral-text-colortextdescription, rgba(0, 0, 0, 0.65))",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-large, 16px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight: "24px /* 150% */",
-                }}
-              >{`SUF`}</span>
-              {/* name="🎰 icon right" id="I43:24277;2720:38143" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "1.6px 2.4px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
-                }}
-              >
-                {/* name="Vector" id="I43:24277;2720:38143;2828:6396" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "11.2px",
-                    height: "12.8px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-text-colortext, #000)",
-                  }}
-                >
-                  {/* name="Vector" id=I43:24277;2720:38143;2828:6396 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </Flex>
+              {...{
+                showIconRight: false,
+                suffix: "SUF",
+                showSuffix: false,
+                title: "Search",
+                prefix: "PRE",
+                iconRight: <Icon.QodeUser />,
+                showPrefix: false,
+                iconLeft: <Icon.QodeMagnifyingGlass />,
+                showIconLeft: true,
+                state: "default",
+                status: "default",
+                size: "large",
+              }}
+            />
             {/* name="Button" id="43:24278" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "135px",
@@ -334,50 +297,21 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                 border: "1px solid var(--border-border-primary-30, #107ecc)",
                 background: "var(--background-bg-primary, #1597f4)",
               }}
-            >
-              {/* name="plus" id="I43:24278;35:13236" type="INSTANCE" */}
-              <QodeSvgI43242783513236
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--text-text-white, #fff)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Add job`}</span>
-              {/* name="🎰 icon" id="I43:24278;2906:15123" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "1.6px 1.601px 1.598px 1.6px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
-                }}
-              >
-                {/* name="Vector" id="I43:24278;2906:15123;2828:3908" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "12.799px",
-                    height: "12.802px",
-                    flexShrink: "0",
-                    fill: "var(--background-bg-white, #fff)",
-                  }}
-                >
-                  {/* name="Vector" id=I43:24278;2906:15123;2828:3908 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </Flex>
+              {...{
+                onlyIcon: <Icon.QodeMagnifyingGlass />,
+                iconLeft: true,
+                iconRight: false,
+                buttonname: "Add job",
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                selectIconLeft: <Icon.QodePlus />,
+                type: "primary",
+                size: "default",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
           {/* name="Job list" id="121:9762" type="FRAME" */}
           <div
@@ -585,7 +519,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
               />
             </div>
             {/* name="Pagination" id="121:9776" type="INSTANCE" */}
-            <Flex
+            <QodeCustom17127011
               style={{
                 display: "flex",
                 width: "556px",
@@ -594,449 +528,8 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
                 alignItems: "center",
                 gap: "var(--size-padding-padding, 16px)",
               }}
-            >
-              {/* name="Pagination Wrapper" id="I121:9776;171:27143" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                {/* name="🧬 left" id="I121:9776;171:27101" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "32px",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "var(--size-padding-paddingxxs, 4px)",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    borderRadius: "var(--style-radius-borderradius, 8px)",
-                  }}
-                >
-                  {/* name="chevron-left" id="I121:9776;171:27101;171:26630" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      flexShrink: "0",
-                    }}
-                  >
-                    {/* name="Vector" id="I121:9776;171:27101;171:26630;2828:1370" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "5.601px",
-                        height: "9.803px",
-                        flexShrink: "0",
-                        fill: "var(--neutral-gray-100, #1d1d1d)",
-                      }}
-                    >
-                      {/* name="Vector" id=I121:9776;171:27101;171:26630;2828:1370 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                </Flex>
-                {/* name="pages" id="I121:9776;2747:12254" type="FRAME" */}
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "var(--size-margin-marginxs, 8px)",
-                    flex: "1 0 0",
-                  }}
-                >
-                  {/* name="🧬 item 1" id="I121:9776;171:27102" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        flex: "1 0 0",
-                        alignSelf: "stretch",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`1`}</span>
-                  </Flex>
-                  {/* name="🧬 item 2" id="I121:9776;171:27117" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                    }}
-                  >
-                    {/* name="Icon" id="I121:9776;171:27117;171:26735" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        width: "var(--font-size-base, 14px)",
-                        height: "var(--font-size-base, 14px)",
-                        flexShrink: "0",
-                      }}
-                    >
-                      {/* name="Vector" id="I121:9776;171:27117;171:26735;2828:2298" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "9.45px",
-                          height: "2.45px",
-                          flexShrink: "0",
-                          fill: "var(--text-text-neutral-50, #1d1d1d)",
-                        }}
-                      >
-                        {/* name="Vector" id=I121:9776;171:27117;171:26735;2828:2298 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
-                  {/* name="🧬 item 3" id="I121:9776;171:27103" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        flex: "1 0 0",
-                        alignSelf: "stretch",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`4`}</span>
-                  </Flex>
-                  {/* name="🧬 item 4" id="I121:9776;171:27104" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        flex: "1 0 0",
-                        alignSelf: "stretch",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`5`}</span>
-                  </Flex>
-                  {/* name=".pagination__number" id="I121:9776;171:27105" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderround, 999px)",
-                      background: "var(--neutral-gray-100, #1d1d1d)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        flex: "1 0 0",
-                        alignSelf: "stretch",
-                        color: "#FFF",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`6`}</span>
-                  </Flex>
-                  {/* name="🧬 item 6" id="I121:9776;171:27106" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        flex: "1 0 0",
-                        alignSelf: "stretch",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`7`}</span>
-                  </Flex>
-                  {/* name="🧬 item 7" id="I121:9776;171:27123" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        flex: "1 0 0",
-                        alignSelf: "stretch",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`8`}</span>
-                  </Flex>
-                  {/* name="🧬 item 8" id="I121:9776;171:27125" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                    }}
-                  >
-                    {/* name="Icon" id="I121:9776;171:27125;171:26735" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        width: "var(--font-size-base, 14px)",
-                        height: "var(--font-size-base, 14px)",
-                        flexShrink: "0",
-                      }}
-                    >
-                      {/* name="Vector" id="I121:9776;171:27125;171:26735;2828:2298" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "9.45px",
-                          height: "2.45px",
-                          flexShrink: "0",
-                          fill: "var(--text-text-neutral-50, #1d1d1d)",
-                        }}
-                      >
-                        {/* name="Vector" id=I121:9776;171:27125;171:26735;2828:2298 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
-                  {/* name="🧬 item 9" id="I121:9776;171:27129" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "32px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "var(--size-padding-paddingxxs, 4px)",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        flex: "1 0 0",
-                        alignSelf: "stretch",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`50`}</span>
-                  </Flex>
-                </div>
-                {/* name="🧬 right" id="I121:9776;171:27107" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "32px",
-                    height: "var(--size-height-controlheight, 32px)",
-                    padding: "var(--size-padding-paddingxxs, 4px)",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    borderRadius: "var(--style-radius-borderradius, 8px)",
-                  }}
-                >
-                  {/* name="chevron-right" id="I121:9776;171:27107;171:26641" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      flexShrink: "0",
-                    }}
-                  >
-                    {/* name="Vector" id="I121:9776;171:27107;171:26641;2828:1372" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "5.601px",
-                        height: "9.803px",
-                        flexShrink: "0",
-                        fill: "var(--neutral-gray-100, #1d1d1d)",
-                      }}
-                    >
-                      {/* name="Vector" id=I121:9776;171:27107;171:26641;2828:1372 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                </Flex>
-              </div>
-              {/* name="Jumper Wrapper" id="I121:9776;171:27131" type="FRAME" */}
-              <div
-                style={{ display: "flex", alignItems: "center", gap: "8px" }}
-              >
-                {/* name="🧬 select 1" id="I121:9776;171:27132" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "108px",
-                    flexDirection: "column",
-                    alignItems: "flex-start",
-                    gap: "var(--size-padding-paddingxxs, 4px)",
-                    borderRadius: "var(--border-radius-base, 8px)",
-                    border:
-                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
-                  }}
-                >
-                  {/* name="Input/Select" id="I121:9776;171:27132;170:26363" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "0px var(--size-padding-paddingsm, 12px)",
-                      alignItems: "center",
-                      gap: "var(--size-padding-paddingxxs, 4px)",
-                      alignSelf: "stretch",
-                      borderRadius: "var(--style-radius-borderradius, 8px)",
-                      border:
-                        "var(--style-line-width-linewidth, 1px) solid rgba(0, 0, 0, 0.15)",
-                      background: "#FFF",
-                    }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`12 / page`}</span>
-                    {/* name="Icon" id="I121:9776;171:27132;170:26363;170:24281" type="INSTANCE" */}
-                    <Flex style={{ width: "16px", height: "16px" }}>
-                      {/* name="Vector" id="I121:9776;171:27132;170:26363;170:24281;630:7560" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "14.005px",
-                          height: "8.002px",
-                          flexShrink: "0",
-                          fill: "rgba(0, 0, 0, 0.45)",
-                        }}
-                      >
-                        {/* name="Vector" id=I121:9776;171:27132;170:26363;170:24281;630:7560 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
-                </Flex>
-              </div>
-            </Flex>
+              {...{ total: "Total 85 items", type: "more", mini: false }}
+            />
           </div>
         </div>
         {/* name="Modal/Add job" id="216:16036" type="INSTANCE" */}
@@ -1074,7 +567,7 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
           }}
         >
           {/* name="Modal/Header" id="I246:16813;119:7203" type="INSTANCE" */}
-          <Flex
+          <QodeCustom565626441
             style={{
               display: "flex",
               height: "52px",
@@ -1086,106 +579,8 @@ export const Qode4324272Page: React.FC<Qode4324272PageProps> = ({
               borderBottom:
                 "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
             }}
-          >
-            {/* name="Symbol" id="I246:16813;119:7203;5656:26413" type="FRAME" */}
-            <div
-              style={{
-                display: "flex",
-                width: "24px",
-                height: "24px",
-                padding: "3px",
-                justifyContent: "center",
-                alignItems: "center",
-                borderRadius: "var(--style-radius-borderradius, 8px)",
-                background:
-                  "var(--color-neutral-background-controlitembgactive, #eaeff8)",
-              }}
-            >
-              {/* name="icons" id="I246:16813;119:7203;5656:26414" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  padding: "1.5px 1.498px 1.5px 1.5px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flex: "1 0 0",
-                  alignSelf: "stretch",
-                }}
-              >
-                {/* name="Vector" id="I246:16813;119:7203;5656:26414;630:10668" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "15.002px",
-                    height: "15px",
-                    fill: "var(--color-primary-colorprimarytext, #2d64bc)",
-                  }}
-                >
-                  {/* name="Vector" id=I246:16813;119:7203;5656:26414;630:10668 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </div>
-            {/* name="content" id="I246:16813;119:7203;5656:26415" type="FRAME" */}
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "flex-end",
-                flex: "1 0 0",
-              }}
-            >
-              <span
-                style={{
-                  alignSelf: "stretch",
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-size-sizemd-20px, 20px)",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  lineHeight:
-                    "var(--lineheight-lineheight-xl, 28px) /* 140% */",
-                }}
-              >{`Senior Software Engineer`}</span>
-              <span
-                style={{
-                  alignSelf: "stretch",
-                  color:
-                    "var(--color-neutral-text-colortextlabel, rgba(0, 0, 0, 0.88))",
-                  fontFamily: 'var(--font-family-fontfamily, "sf pro display")',
-                  fontSize: "var(--font-size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                }}
-              >{`Accessibility`}</span>
-            </div>
-            {/* name="xmark" id="I246:16813;119:7203;5656:26418" type="INSTANCE" */}
-            <Flex
-              style={{
-                display: "flex",
-                width: "24px",
-                height: "24px",
-                padding: "5.997px",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              {/* name="Vector" id="I246:16813;119:7203;5656:26418;2828:6658" type="VECTOR" */}
-              <Flex
-                style={{
-                  width: "12.006px",
-                  height: "12.006px",
-                  flexShrink: "0",
-                  fill: "var(--color-neutral-text-colortext, rgba(0, 0, 0, 0.88))",
-                }}
-              >
-                {/* name="Vector" id=I246:16813;119:7203;5656:26418;2828:6658 type=VECTOR */}
-                <></>
-              </Flex>
-            </Flex>
-          </Flex>
+            {...{ size: "lg" }}
+          />
           {/* name="body" id="I246:16813;119:7204" type="FRAME" */}
           <div
             style={{

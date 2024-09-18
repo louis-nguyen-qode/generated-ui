@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeInput } from "@designSystem/ant/QodeInput"
+
 export interface QodeCustom18327962Props {
   showPre?: boolean
   title?: string
@@ -36,7 +38,7 @@ export const QodeCustom18327962: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:27932" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -49,19 +51,15 @@ export const QodeCustom18327962: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`http://`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "http://",
+                showSelect: false,
+                showIcon: false,
+                tab: "pre",
+                size: "default",
+              }}
+            />
             {/* name="Input / Basic" id="183:28039" type="FRAME" */}
             <div
               style={{
@@ -92,7 +90,7 @@ export const QodeCustom18327962: React.FC<
               >{`Input`}</span>
             </div>
             {/* name="🧬 post" id="183:27933" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -105,19 +103,15 @@ export const QodeCustom18327962: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`.com`}</span>
-            </Flex>
+              {...{
+                showIcon: false,
+                showSelect: false,
+                title: ".com",
+                showTitle: true,
+                tab: "post",
+                size: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -137,7 +131,7 @@ export const QodeCustom18327962: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:27964" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -150,19 +144,15 @@ export const QodeCustom18327962: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`http://`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "http://",
+                showSelect: false,
+                showIcon: false,
+                tab: "pre",
+                size: "large",
+              }}
+            />
             {/* name="Input / Basic" id="183:28047" type="FRAME" */}
             <div
               style={{
@@ -192,7 +182,7 @@ export const QodeCustom18327962: React.FC<
               >{`Input`}</span>
             </div>
             {/* name="🧬 post" id="183:27966" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -205,19 +195,15 @@ export const QodeCustom18327962: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`.com`}</span>
-            </Flex>
+              {...{
+                showIcon: false,
+                showSelect: false,
+                title: ".com",
+                showTitle: true,
+                tab: "post",
+                size: "large",
+              }}
+            />
           </div>
         </>
       )}
@@ -237,7 +223,7 @@ export const QodeCustom18327962: React.FC<
             }}
           >
             {/* name="🧬 pre" id="183:27985" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -250,19 +236,15 @@ export const QodeCustom18327962: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`http://`}</span>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "http://",
+                showSelect: false,
+                showIcon: false,
+                tab: "pre",
+                size: "small",
+              }}
+            />
             {/* name="Input / Basic" id="183:28055" type="FRAME" */}
             <div
               style={{
@@ -293,7 +275,7 @@ export const QodeCustom18327962: React.FC<
               >{`Input`}</span>
             </div>
             {/* name="🧬 post" id="183:27987" type="INSTANCE" */}
-            <Flex
+            <QodeInput
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -306,19 +288,15 @@ export const QodeCustom18327962: React.FC<
                 background:
                   "var(--color-neutral-fill-colorfillquaternary, rgba(0, 0, 0, 0.02))",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--color-neutral-text-colortext, #000)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`.com`}</span>
-            </Flex>
+              {...{
+                showIcon: false,
+                showSelect: false,
+                title: ".com",
+                showTitle: true,
+                tab: "post",
+                size: "small",
+              }}
+            />
           </div>
         </>
       )}

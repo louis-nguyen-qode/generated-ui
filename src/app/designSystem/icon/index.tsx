@@ -3810,8 +3810,8 @@ const createFunctions = <T extends string>(names: T[]): Record<FunctionName, Rea
   const result = {} as Record<FunctionName, React.FC<IconProps>>;
   names.forEach(name => {
     const key: FunctionName = `Qode${name.split('-').map(e => capitalizeFirstLetter(e)).join('')}` as FunctionName;
-    result[key] = ({ style: { width, height, fontSize } = { width: undefined, height: undefined, fontSize: 'inherit' } }) => (<i
-      style={{ fontSize: !!width || !!height ? width || height : fontSize || 'inherit' }}
+    result[key] = ({ style: { width, height, fontSize, ...rest } = { width: undefined, height: undefined, fontSize: 'inherit' } }) => (<i
+      style={{ fontSize: !!width || !!height ? width || height : fontSize || 'inherit', ...rest }}
       className={`icon-${name}`}
     />);
   });

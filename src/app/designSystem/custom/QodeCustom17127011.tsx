@@ -3,6 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodePagination } from "@designSystem/ant/QodePagination"
 import QodeSvgI171271321702636317024281 from "@designSystem/icon/svg/QodeSvgI171271321702636317024281"
 import QodeSvgI171271581702636317024281 from "@designSystem/icon/svg/QodeSvgI171271581702636317024281"
 import QodeSvgI171270341702636317024281 from "@designSystem/icon/svg/QodeSvgI171270341702636317024281"
@@ -348,7 +349,7 @@ export const QodeCustom17127011: React.FC<
                   >{`1`}</span>
                 </Flex>
                 {/* name="🧬 item 2" id="171:27117" type="INSTANCE" */}
-                <Flex
+                <QodePagination
                   style={{
                     display: "flex",
                     width: "var(--line-height-lineheighheading3, 32px)",
@@ -359,17 +360,8 @@ export const QodeCustom17127011: React.FC<
                     alignItems: "center",
                     borderRadius: "var(--style-radius-borderradius, 8px)",
                   }}
-                >
-                  {/* name="Icon" id="I171:27117;171:26735" type="INSTANCE" */}
-                  <Icon.QodeEllipsis
-                    style={{
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{ state: "default", direction: "left" }}
+                />
                 {/* name="🧬 item 3" id="171:27103" type="INSTANCE" */}
                 <Flex
                   style={{
@@ -527,7 +519,7 @@ export const QodeCustom17127011: React.FC<
                   >{`8`}</span>
                 </Flex>
                 {/* name="🧬 item 8" id="171:27125" type="INSTANCE" */}
-                <Flex
+                <QodePagination
                   style={{
                     display: "flex",
                     width: "var(--line-height-lineheighheading3, 32px)",
@@ -538,17 +530,8 @@ export const QodeCustom17127011: React.FC<
                     alignItems: "center",
                     borderRadius: "var(--style-radius-borderradius, 8px)",
                   }}
-                >
-                  {/* name="Icon" id="I171:27125;171:26735" type="INSTANCE" */}
-                  <Icon.QodeEllipsis
-                    style={{
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{ state: "default", direction: "left" }}
+                />
                 {/* name="🧬 item 9" id="171:27129" type="INSTANCE" */}
                 <Flex
                   style={{
@@ -869,7 +852,7 @@ export const QodeCustom17127011: React.FC<
                   >{`5`}</span>
                 </Flex>
                 {/* name="🧬 item 6" id="171:27154" type="INSTANCE" */}
-                <Flex
+                <QodePagination
                   style={{
                     display: "flex",
                     width: "var(--line-height-lineheighheading3, 32px)",
@@ -880,17 +863,8 @@ export const QodeCustom17127011: React.FC<
                     alignItems: "center",
                     borderRadius: "var(--style-radius-borderradius, 8px)",
                   }}
-                >
-                  {/* name="Icon" id="I171:27154;171:26735" type="INSTANCE" */}
-                  <Icon.QodeEllipsis
-                    style={{
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{ state: "default", direction: "left" }}
+                />
                 {/* name="🧬 item 7" id="171:27155" type="INSTANCE" */}
                 <Flex
                   style={{
@@ -2316,7 +2290,7 @@ export const QodeCustom17127011: React.FC<
                   >{`1`}</span>
                 </Flex>
                 {/* name="🧬 item 2" id="171:27253" type="INSTANCE" */}
-                <Flex
+                <QodePagination
                   style={{
                     display: "flex",
                     width: "24px",
@@ -2327,17 +2301,8 @@ export const QodeCustom17127011: React.FC<
                     alignItems: "center",
                     borderRadius: "var(--style-radius-borderradius, 8px)",
                   }}
-                >
-                  {/* name="Icon" id="I171:27253;171:26735" type="INSTANCE" */}
-                  <Icon.QodeEllipsis
-                    style={{
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{ state: "default", direction: "left" }}
+                />
                 {/* name="🧬 item 3" id="171:27254" type="INSTANCE" */}
                 <Flex
                   style={{
@@ -2494,7 +2459,7 @@ export const QodeCustom17127011: React.FC<
                   >{`8`}</span>
                 </Flex>
                 {/* name="🧬 item 8" id="171:27259" type="INSTANCE" */}
-                <Flex
+                <QodePagination
                   style={{
                     display: "flex",
                     width: "24px",
@@ -2505,17 +2470,8 @@ export const QodeCustom17127011: React.FC<
                     alignItems: "center",
                     borderRadius: "var(--style-radius-borderradius, 8px)",
                   }}
-                >
-                  {/* name="Icon" id="I171:27259;171:26735" type="INSTANCE" */}
-                  <Icon.QodeEllipsis
-                    style={{
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{ state: "default", direction: "left" }}
+                />
                 {/* name="🧬 item 9" id="171:27260" type="INSTANCE" */}
                 <Flex
                   style={{
@@ -2837,7 +2793,7 @@ export const QodeCustom17127011: React.FC<
                   >{`5`}</span>
                 </Flex>
                 {/* name="🧬 item 6" id="171:27272" type="INSTANCE" */}
-                <Flex
+                <QodePagination
                   style={{
                     display: "flex",
                     width: "24px",
@@ -2848,17 +2804,8 @@ export const QodeCustom17127011: React.FC<
                     alignItems: "center",
                     borderRadius: "var(--style-radius-borderradius, 8px)",
                   }}
-                >
-                  {/* name="Icon" id="I171:27272;171:26735" type="INSTANCE" */}
-                  <Icon.QodeEllipsis
-                    style={{
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{ state: "default", direction: "left" }}
+                />
                 {/* name="🧬 item 7" id="171:27273" type="INSTANCE" */}
                 <Flex
                   style={{

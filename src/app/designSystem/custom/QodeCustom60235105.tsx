@@ -4,11 +4,9 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvg60235089 from "@designSystem/icon/svg/QodeSvg60235089"
-import QodeSvgI602356501141808 from "@designSystem/icon/svg/QodeSvgI602356501141808"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 import QodeSvg60235134 from "@designSystem/icon/svg/QodeSvg60235134"
-import QodeSvgI602356431141808 from "@designSystem/icon/svg/QodeSvgI602356431141808"
 import QodeSvg60235155 from "@designSystem/icon/svg/QodeSvg60235155"
-import QodeSvgI602351621141808 from "@designSystem/icon/svg/QodeSvgI602351621141808"
 
 export interface QodeCustom60235105Props {
   property_1?: "Pass" | "Fail" | "Need review"
@@ -130,7 +128,7 @@ export const QodeCustom60235105: React.FC<
               </div>
             </div>
             {/* name="Button" id="602:35650" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "80px",
@@ -144,50 +142,21 @@ export const QodeCustom60235105: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="pencil" id="I602:35650;114:1808" type="INSTANCE" */}
-              <QodeSvgI602356501141808
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Edit`}</span>
-              {/* name="🎰 icon" id="I602:35650;2906:15520" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "1.6px 1.601px 1.598px 1.6px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
-                }}
-              >
-                {/* name="Vector" id="I602:35650;2906:15520;2828:3908" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "12.799px",
-                    height: "12.802px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-text-colortext, #000)",
-                  }}
-                >
-                  {/* name="Vector" id=I602:35650;2906:15520;2828:3908 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </Flex>
+              {...{
+                onlyIcon: <Icon.QodeMagnifyingGlass />,
+                iconRight: false,
+                selectIconLeft: <Icon.QodePencil />,
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                buttonname: "Edit",
+                iconLeft: true,
+                type: "default",
+                size: "default",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -301,7 +270,7 @@ export const QodeCustom60235105: React.FC<
               </div>
             </div>
             {/* name="Button" id="602:35643" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "80px",
@@ -315,50 +284,21 @@ export const QodeCustom60235105: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="pencil" id="I602:35643;114:1808" type="INSTANCE" */}
-              <QodeSvgI602356431141808
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Edit`}</span>
-              {/* name="🎰 icon" id="I602:35643;2906:15520" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "1.6px 1.601px 1.598px 1.6px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
-                }}
-              >
-                {/* name="Vector" id="I602:35643;2906:15520;2828:3908" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "12.799px",
-                    height: "12.802px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-text-colortext, #000)",
-                  }}
-                >
-                  {/* name="Vector" id=I602:35643;2906:15520;2828:3908 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </Flex>
+              {...{
+                onlyIcon: <Icon.QodeMagnifyingGlass />,
+                iconRight: false,
+                selectIconLeft: <Icon.QodePencil />,
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                buttonname: "Edit",
+                iconLeft: true,
+                type: "default",
+                size: "default",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -472,7 +412,7 @@ export const QodeCustom60235105: React.FC<
               </div>
             </div>
             {/* name="Button" id="602:35162" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "80px",
@@ -486,50 +426,21 @@ export const QodeCustom60235105: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="pencil" id="I602:35162;114:1808" type="INSTANCE" */}
-              <QodeSvgI602351621141808
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Edit`}</span>
-              {/* name="🎰 icon" id="I602:35162;2906:15520" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "1.6px 1.601px 1.598px 1.6px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
-                }}
-              >
-                {/* name="Vector" id="I602:35162;2906:15520;2828:3908" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "12.799px",
-                    height: "12.802px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-text-colortext, #000)",
-                  }}
-                >
-                  {/* name="Vector" id=I602:35162;2906:15520;2828:3908 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </Flex>
+              {...{
+                onlyIcon: <Icon.QodeMagnifyingGlass />,
+                iconRight: false,
+                selectIconLeft: <Icon.QodePencil />,
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                buttonname: "Edit",
+                iconLeft: true,
+                type: "default",
+                size: "default",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}

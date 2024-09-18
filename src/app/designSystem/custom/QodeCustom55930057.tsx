@@ -3,16 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg55934893 from "@designSystem/icon/svg/QodeSvg55934893"
-import QodeSvg55930354 from "@designSystem/icon/svg/QodeSvg55930354"
-import QodeSvgI559296991141808 from "@designSystem/icon/svg/QodeSvgI559296991141808"
-import QodeSvgI5593010255930091 from "@designSystem/icon/svg/QodeSvgI5593010255930091"
-import QodeSvg55935183 from "@designSystem/icon/svg/QodeSvg55935183"
-import QodeSvg55935190 from "@designSystem/icon/svg/QodeSvg55935190"
-import QodeSvgI559307341141820 from "@designSystem/icon/svg/QodeSvgI559307341141820"
-import QodeSvgI5593010755930091 from "@designSystem/icon/svg/QodeSvgI5593010755930091"
-import QodeSvg55935420 from "@designSystem/icon/svg/QodeSvg55935420"
-import QodeSvgI5593042255930091 from "@designSystem/icon/svg/QodeSvgI5593042255930091"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom55930057Props {
   state?: "Upcoming" | "Done" | "Canceled"
@@ -97,7 +88,7 @@ export const QodeCustom55930057: React.FC<
                   }}
                 >
                   {/* name="calendar-days" id="559:34893" type="INSTANCE" */}
-                  <QodeSvg55934893
+                  <Icon.QodeCalendarDays
                     style={{ width: "16px", height: "16px" }}
                     {...{}}
                   />
@@ -165,7 +156,7 @@ export const QodeCustom55930057: React.FC<
                       }}
                     >
                       {/* name="link-simple" id="559:30354" type="INSTANCE" */}
-                      <QodeSvg55930354
+                      <Icon.QodeLinkSimple
                         style={{ width: "16px", height: "16px" }}
                         {...{}}
                       />
@@ -186,7 +177,7 @@ export const QodeCustom55930057: React.FC<
                 </div>
               </div>
               {/* name="Button" id="559:29699" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   width: "100px",
@@ -200,50 +191,21 @@ export const QodeCustom55930057: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-              >
-                {/* name="pen-to-square" id="I559:29699;114:1808" type="INSTANCE" */}
-                <QodeSvgI559296991141808
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Edit`}</span>
-                {/* name="🎰 icon" id="I559:29699;2906:15520" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px 1.601px 1.598px 1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                >
-                  {/* name="Vector" id="I559:29699;2906:15520;2828:3908" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "12.799px",
-                      height: "12.802px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-text-colortext, #000)",
-                    }}
-                  >
-                    {/* name="Vector" id=I559:29699;2906:15520;2828:3908 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-              </Flex>
+                {...{
+                  onlyIcon: <Icon.QodeMagnifyingGlass />,
+                  iconRight: false,
+                  selectIconLeft: <Icon.QodePenToSquare />,
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  buttonname: "Edit",
+                  iconLeft: true,
+                  type: "default",
+                  size: "default",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </div>
             {/* name="Interview/Badge" id="559:30102" type="INSTANCE" */}
             <Flex
@@ -268,7 +230,7 @@ export const QodeCustom55930057: React.FC<
               }}
             >
               {/* name="stars" id="I559:30102;559:30091" type="INSTANCE" */}
-              <QodeSvgI5593010255930091
+              <Icon.QodeStars
                 style={{
                   width: "var(--font-size-base, 14px)",
                   height: "var(--font-size-base, 14px)",
@@ -363,7 +325,7 @@ export const QodeCustom55930057: React.FC<
                   }}
                 >
                   {/* name="calendar-days" id="559:35183" type="INSTANCE" */}
-                  <QodeSvg55935183
+                  <Icon.QodeCalendarDays
                     style={{ width: "16px", height: "16px" }}
                     {...{}}
                   />
@@ -431,7 +393,7 @@ export const QodeCustom55930057: React.FC<
                       }}
                     >
                       {/* name="link-simple" id="559:35190" type="INSTANCE" */}
-                      <QodeSvg55935190
+                      <Icon.QodeLinkSimple
                         style={{ width: "16px", height: "16px" }}
                         {...{}}
                       />
@@ -452,7 +414,7 @@ export const QodeCustom55930057: React.FC<
                 </div>
               </div>
               {/* name="Button" id="559:30734" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   width: "98px",
@@ -463,50 +425,21 @@ export const QodeCustom55930057: React.FC<
                   gap: "8px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
-              >
-                {/* name="eye" id="I559:30734;114:1820" type="INSTANCE" */}
-                <QodeSvgI559307341141820
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-primary-30, #158de2)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`View result`}</span>
-                {/* name="🎰 icon" id="I559:30734;2906:16273" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px 1.601px 1.598px 1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                >
-                  {/* name="Vector" id="I559:30734;2906:16273;2828:3908" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "12.799px",
-                      height: "12.802px",
-                      flexShrink: "0",
-                      fill: "var(--background-bg-primary, #1597f4)",
-                    }}
-                  >
-                    {/* name="Vector" id=I559:30734;2906:16273;2828:3908 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-              </Flex>
+                {...{
+                  selectIconLeft: <Icon.QodeEye />,
+                  onlyIcon: <Icon.QodeMagnifyingGlass />,
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  buttonname: "View result",
+                  iconRight: false,
+                  iconLeft: true,
+                  type: "link",
+                  size: "default",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </div>
             {/* name="Interview/Badge" id="559:30107" type="INSTANCE" */}
             <Flex
@@ -531,7 +464,7 @@ export const QodeCustom55930057: React.FC<
               }}
             >
               {/* name="stars" id="I559:30107;559:30091" type="INSTANCE" */}
-              <QodeSvgI5593010755930091
+              <Icon.QodeStars
                 style={{
                   width: "var(--font-size-base, 14px)",
                   height: "var(--font-size-base, 14px)",
@@ -625,7 +558,7 @@ export const QodeCustom55930057: React.FC<
                   }}
                 >
                   {/* name="calendar-days" id="559:35420" type="INSTANCE" */}
-                  <QodeSvg55935420
+                  <Icon.QodeCalendarDays
                     style={{ width: "16px", height: "16px" }}
                     {...{}}
                   />
@@ -688,7 +621,7 @@ export const QodeCustom55930057: React.FC<
               }}
             >
               {/* name="stars" id="I559:30422;559:30091" type="INSTANCE" */}
-              <QodeSvgI5593042255930091
+              <Icon.QodeStars
                 style={{
                   width: "var(--font-size-base, 14px)",
                   height: "var(--font-size-base, 14px)",

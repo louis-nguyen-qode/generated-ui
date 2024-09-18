@@ -10,7 +10,6 @@ import QodeSvg22420361 from "@designSystem/icon/svg/QodeSvg22420361"
 import QodeSvg22420363 from "@designSystem/icon/svg/QodeSvg22420363"
 import QodeSvg22420364 from "@designSystem/icon/svg/QodeSvg22420364"
 import QodeSvg22420365 from "@designSystem/icon/svg/QodeSvg22420365"
-import QodeSvg22420366 from "@designSystem/icon/svg/QodeSvg22420366"
 import QodeSvg22420367 from "@designSystem/icon/svg/QodeSvg22420367"
 import QodeSvg22420156 from "@designSystem/icon/svg/QodeSvg22420156"
 import QodeSvg22420160 from "@designSystem/icon/svg/QodeSvg22420160"
@@ -18,7 +17,6 @@ import QodeSvg27319116 from "@designSystem/icon/svg/QodeSvg27319116"
 import QodeSvg27319118 from "@designSystem/icon/svg/QodeSvg27319118"
 import QodeSvg27319119 from "@designSystem/icon/svg/QodeSvg27319119"
 import QodeSvg27319120 from "@designSystem/icon/svg/QodeSvg27319120"
-import QodeSvg27319121 from "@designSystem/icon/svg/QodeSvg27319121"
 import QodeSvg27319122 from "@designSystem/icon/svg/QodeSvg27319122"
 import QodeSvg67740238 from "@designSystem/icon/svg/QodeSvg67740238"
 import QodeSvg67740242 from "@designSystem/icon/svg/QodeSvg67740242"
@@ -26,7 +24,6 @@ import QodeSvg67740270 from "@designSystem/icon/svg/QodeSvg67740270"
 import QodeSvg67740272 from "@designSystem/icon/svg/QodeSvg67740272"
 import QodeSvg67740273 from "@designSystem/icon/svg/QodeSvg67740273"
 import QodeSvg67740274 from "@designSystem/icon/svg/QodeSvg67740274"
-import QodeSvg67740275 from "@designSystem/icon/svg/QodeSvg67740275"
 import QodeSvg67740276 from "@designSystem/icon/svg/QodeSvg67740276"
 import QodeSvg22422150 from "@designSystem/icon/svg/QodeSvg22422150"
 import QodeSvg22422154 from "@designSystem/icon/svg/QodeSvg22422154"
@@ -34,7 +31,6 @@ import QodeSvg22422160 from "@designSystem/icon/svg/QodeSvg22422160"
 import QodeSvg22422162 from "@designSystem/icon/svg/QodeSvg22422162"
 import QodeSvg22422163 from "@designSystem/icon/svg/QodeSvg22422163"
 import QodeSvg22422164 from "@designSystem/icon/svg/QodeSvg22422164"
-import QodeSvg22422165 from "@designSystem/icon/svg/QodeSvg22422165"
 import QodeSvg22422166 from "@designSystem/icon/svg/QodeSvg22422166"
 import QodeSvg22423366 from "@designSystem/icon/svg/QodeSvg22423366"
 import QodeSvg22423370 from "@designSystem/icon/svg/QodeSvg22423370"
@@ -42,7 +38,6 @@ import QodeSvg22423376 from "@designSystem/icon/svg/QodeSvg22423376"
 import QodeSvg22423378 from "@designSystem/icon/svg/QodeSvg22423378"
 import QodeSvg22423379 from "@designSystem/icon/svg/QodeSvg22423379"
 import QodeSvg22423380 from "@designSystem/icon/svg/QodeSvg22423380"
-import QodeSvg22423381 from "@designSystem/icon/svg/QodeSvg22423381"
 import QodeSvg22423382 from "@designSystem/icon/svg/QodeSvg22423382"
 import QodeSvg22423409 from "@designSystem/icon/svg/QodeSvg22423409"
 import QodeSvg22423413 from "@designSystem/icon/svg/QodeSvg22423413"
@@ -50,7 +45,6 @@ import QodeSvg27319253 from "@designSystem/icon/svg/QodeSvg27319253"
 import QodeSvg27319255 from "@designSystem/icon/svg/QodeSvg27319255"
 import QodeSvg27319256 from "@designSystem/icon/svg/QodeSvg27319256"
 import QodeSvg27319257 from "@designSystem/icon/svg/QodeSvg27319257"
-import QodeSvg27319258 from "@designSystem/icon/svg/QodeSvg27319258"
 import QodeSvg27319259 from "@designSystem/icon/svg/QodeSvg27319259"
 
 export interface QodeCustom22420153Props {
@@ -295,7 +289,7 @@ export const QodeCustom22420153: React.FC<
                   {...{}}
                 />
                 {/* name="video" id="224:20366" type="INSTANCE" */}
-                <QodeSvg22420366
+                <Icon.QodeVideo
                   style={{ width: "20px", height: "20px", flexShrink: "0" }}
                   {...{}}
                 />
@@ -547,7 +541,7 @@ export const QodeCustom22420153: React.FC<
                   {...{}}
                 />
                 {/* name="video" id="273:19121" type="INSTANCE" */}
-                <QodeSvg27319121
+                <Icon.QodeVideo
                   style={{ width: "20px", height: "20px", flexShrink: "0" }}
                   {...{}}
                 />
@@ -799,7 +793,7 @@ export const QodeCustom22420153: React.FC<
                   {...{}}
                 />
                 {/* name="ellipsis" id="677:40275" type="INSTANCE" */}
-                <QodeSvg67740275
+                <Icon.QodeEllipsis
                   style={{ width: "20px", height: "20px", flexShrink: "0" }}
                   {...{}}
                 />
@@ -909,7 +903,7 @@ export const QodeCustom22420153: React.FC<
                   {...{}}
                 />
                 {/* name="video" id="224:22165" type="INSTANCE" */}
-                <QodeSvg22422165
+                <Icon.QodeVideo
                   style={{ width: "20px", height: "20px", flexShrink: "0" }}
                   {...{}}
                 />
@@ -1161,7 +1155,7 @@ export const QodeCustom22420153: React.FC<
                   {...{}}
                 />
                 {/* name="video" id="224:23381" type="INSTANCE" */}
-                <QodeSvg22423381
+                <Icon.QodeVideo
                   style={{ width: "20px", height: "20px", flexShrink: "0" }}
                   {...{}}
                 />
@@ -1555,7 +1549,7 @@ export const QodeCustom22420153: React.FC<
                   {...{}}
                 />
                 {/* name="video" id="273:19258" type="INSTANCE" */}
-                <QodeSvg27319258
+                <Icon.QodeVideo
                   style={{ width: "20px", height: "20px", flexShrink: "0" }}
                   {...{}}
                 />

@@ -3,9 +3,6 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg67733619 from "@designSystem/icon/svg/QodeSvg67733619"
-import QodeSvg67733729 from "@designSystem/icon/svg/QodeSvg67733729"
-
 export interface QodeCustom55930096Props {
   property_1?: "AI" | "Human"
 }
@@ -37,7 +34,7 @@ export const QodeCustom55930096: React.FC<
             }}
           >
             {/* name="stars" id="677:33619" type="INSTANCE" */}
-            <QodeSvg67733619
+            <Icon.QodeStars
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
               {...{}}
             />
@@ -64,7 +61,7 @@ export const QodeCustom55930096: React.FC<
             }}
           >
             {/* name="user" id="677:33729" type="INSTANCE" */}
-            <QodeSvg67733729
+            <Icon.QodeUser
               style={{
                 width: "var(--font-size-base, 14px)",
                 height: "var(--font-size-base, 14px)",

@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeButton } from "@designSystem/ant/QodeButton"
+
 export interface QodeCustom245031Props {
   showedit?: boolean
   showMore?: "Yes" | "No"
@@ -126,7 +128,7 @@ export const QodeCustom245031: React.FC<
                   >{`Accessibility`}</span>
                 </div>
                 {/* name="Button" id="24:5040" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     height: "var(--size-height-controlheight, 32px)",
@@ -141,69 +143,19 @@ export const QodeCustom245031: React.FC<
                     background:
                       "var(--color-neutral-background-colorbgcontainer, #fff)",
                   }}
-                >
-                  {/* name="pencil" id="I24:5040;114:1808" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "16px",
-                      height: "16px",
-                      padding: "1.599px 1.616px 1.614px 1.6px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    {/* name="Vector" id="I24:5040;114:1808;2828:4448" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "12.784px",
-                        height: "12.787px",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-text-colortext, #000)",
-                      }}
-                    >
-                      {/* name="Vector" id=I24:5040;114:1808;2828:4448 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                  <span
-                    style={{
-                      color: "var(--color-neutral-text-colortext, #000)",
-                      textAlign: "center",
-                      fontFamily:
-                        'var(--font-family-fontfamily, "sf pro display")',
-                      fontSize: "var(--font-size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--line-height-lineheight, 20px) /* 142.857% */",
-                    }}
-                  >{`Edit`}</span>
-                  {/* name="🎰 icon" id="I24:5040;2906:15520" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "16px",
-                      height: "16px",
-                      padding: "1.6px 1.601px 1.598px 1.6px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    {/* name="Vector" id="I24:5040;2906:15520;2828:3908" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "12.799px",
-                        height: "12.802px",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-text-colortext, #000)",
-                      }}
-                    >
-                      {/* name="Vector" id=I24:5040;2906:15520;2828:3908 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                </Flex>
+                  {...{
+                    icononly: <Icon.QodeMagnifyingGlass />,
+                    iconR: <Icon.QodeMagnifyingGlass />,
+                    iconL: true,
+                    title: "Edit",
+                    type: "default",
+                    size: "default",
+                    state: "default",
+                    content: "default",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
               {/* name="body" id="24:5041" type="FRAME" */}
               <div
@@ -242,7 +194,7 @@ export const QodeCustom245031: React.FC<
                     }}
                   >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea `}</span>
                   {/* name="Button" id="24:5044" type="INSTANCE" */}
-                  <Flex
+                  <QodeButton
                     style={{
                       display: "flex",
                       justifyContent: "center",
@@ -250,69 +202,19 @@ export const QodeCustom245031: React.FC<
                       gap: "var(--size-padding-paddingxxs, 4px)",
                       borderRadius: "var(--style-radius-borderround, 999px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I24:5044;114:1873" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "16px",
-                        height: "16px",
-                        padding: "1.599px 1.599px 1.599px 1.6px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
-                      {/* name="Vector" id="I24:5044;114:1873;2828:3516" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "12.801px",
-                          height: "12.803px",
-                          flexShrink: "0",
-                          fill: "var(--color-neutral-text-colortext, #000)",
-                        }}
-                      >
-                        {/* name="Vector" id=I24:5044;114:1873;2828:3516 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                    <span
-                      style={{
-                        color: "var(--text-text-neutral-20, #878787)",
-                        textAlign: "center",
-                        fontFamily:
-                          'var(--font-family-fontfamily, "sf pro display")',
-                        fontSize: "var(--font-size-small, 12px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                      }}
-                    >{`See more`}</span>
-                    {/* name="🎰 icon" id="I24:5044;2906:15870" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "16px",
-                        height: "16px",
-                        padding: "1.6px 1.601px 1.598px 1.6px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
-                      {/* name="Vector" id="I24:5044;2906:15870;2828:3908" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "12.799px",
-                          height: "12.802px",
-                          flexShrink: "0",
-                          fill: "var(--color-neutral-text-colortext, #000)",
-                        }}
-                      >
-                        {/* name="Vector" id=I24:5044;2906:15870;2828:3908 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
+                    {...{
+                      icononly: <Icon.QodeMagnifyingGlass />,
+                      title: "See more",
+                      iconR: <Icon.QodeMagnifyingGlass />,
+                      iconL: false,
+                      type: "text",
+                      size: "small",
+                      state: "default",
+                      content: "default",
+                      danger: false,
+                      ghost: false,
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -431,7 +333,7 @@ export const QodeCustom245031: React.FC<
                   >{`Accessibility`}</span>
                 </div>
                 {/* name="Button" id="24:5053" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     height: "var(--size-height-controlheight, 32px)",
@@ -446,69 +348,19 @@ export const QodeCustom245031: React.FC<
                     background:
                       "var(--color-neutral-background-colorbgcontainer, #fff)",
                   }}
-                >
-                  {/* name="pencil" id="I24:5053;114:1808" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "16px",
-                      height: "16px",
-                      padding: "1.599px 1.616px 1.614px 1.6px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    {/* name="Vector" id="I24:5053;114:1808;2828:4448" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "12.784px",
-                        height: "12.787px",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-text-colortext, #000)",
-                      }}
-                    >
-                      {/* name="Vector" id=I24:5053;114:1808;2828:4448 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                  <span
-                    style={{
-                      color: "var(--color-neutral-text-colortext, #000)",
-                      textAlign: "center",
-                      fontFamily:
-                        'var(--font-family-fontfamily, "sf pro display")',
-                      fontSize: "var(--font-size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--line-height-lineheight, 20px) /* 142.857% */",
-                    }}
-                  >{`Edit`}</span>
-                  {/* name="🎰 icon" id="I24:5053;2906:15520" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "16px",
-                      height: "16px",
-                      padding: "1.6px 1.601px 1.598px 1.6px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    {/* name="Vector" id="I24:5053;2906:15520;2828:3908" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "12.799px",
-                        height: "12.802px",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-text-colortext, #000)",
-                      }}
-                    >
-                      {/* name="Vector" id=I24:5053;2906:15520;2828:3908 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                </Flex>
+                  {...{
+                    icononly: <Icon.QodeMagnifyingGlass />,
+                    iconR: <Icon.QodeMagnifyingGlass />,
+                    iconL: true,
+                    title: "Edit",
+                    type: "default",
+                    size: "default",
+                    state: "default",
+                    content: "default",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
               {/* name="body" id="24:5054" type="FRAME" */}
               <div
@@ -534,7 +386,7 @@ export const QodeCustom245031: React.FC<
                 >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}</span>
               </div>
               {/* name="Button" id="24:5056" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightsm, 24px)",
@@ -544,69 +396,19 @@ export const QodeCustom245031: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                 }}
-              >
-                {/* name="🎰 icon" id="I24:5056;114:1873" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.599px 1.599px 1.599px 1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  {/* name="Vector" id="I24:5056;114:1873;2828:3516" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "12.801px",
-                      height: "12.803px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-text-colortext, #000)",
-                    }}
-                  >
-                    {/* name="Vector" id=I24:5056;114:1873;2828:3516 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-20, #878787)",
-                    textAlign: "center",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--line-height-lineheighsm, 16px) /* 133.333% */",
-                  }}
-                >{`See Less`}</span>
-                {/* name="🎰 icon" id="I24:5056;2906:15870" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px 1.601px 1.598px 1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  {/* name="Vector" id="I24:5056;2906:15870;2828:3908" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "12.799px",
-                      height: "12.802px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-text-colortext, #000)",
-                    }}
-                  >
-                    {/* name="Vector" id=I24:5056;2906:15870;2828:3908 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-              </Flex>
+                {...{
+                  icononly: <Icon.QodeMagnifyingGlass />,
+                  title: "See Less",
+                  iconR: <Icon.QodeMagnifyingGlass />,
+                  iconL: false,
+                  type: "text",
+                  size: "small",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </div>
           </div>
         </>

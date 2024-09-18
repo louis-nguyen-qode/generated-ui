@@ -4,12 +4,9 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom4323425 } from "@designSystem/custom/QodeCustom4323425"
-import QodeSvgI434380055612142 from "@designSystem/icon/svg/QodeSvgI434380055612142"
-import QodeSvgI500269745612142 from "@designSystem/icon/svg/QodeSvgI500269745612142"
-import QodeSvgI233236045612142 from "@designSystem/icon/svg/QodeSvgI233236045612142"
+import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom5612132 } from "@designSystem/custom/QodeCustom5612132"
 import { QodeCustom945729 } from "@designSystem/custom/QodeCustom945729"
-import QodeSvgI500269665612135 from "@designSystem/icon/svg/QodeSvgI500269665612135"
-import QodeSvgI500275605612135 from "@designSystem/icon/svg/QodeSvgI500275605612135"
 
 export interface Qode49027949PageProps {}
 
@@ -180,7 +177,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
               }}
             >
               {/* name="Button" id="233:17204" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -193,70 +190,23 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-              >
-                {/* name="🎰 icon" id="I233:17204;114:1808" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.599px 1.599px 1.599px 1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  {/* name="Vector" id="I233:17204;114:1808;2828:3516" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "12.801px",
-                      height: "12.803px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-text-colortext, #000)",
-                    }}
-                  >
-                    {/* name="Vector" id=I233:17204;114:1808;2828:3516 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Cancel`}</span>
-                {/* name="🎰 icon" id="I233:17204;2906:15520" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px 1.601px 1.598px 1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  {/* name="Vector" id="I233:17204;2906:15520;2828:3908" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "12.799px",
-                      height: "12.802px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-text-colortext, #000)",
-                    }}
-                  >
-                    {/* name="Vector" id=I233:17204;2906:15520;2828:3908 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-              </Flex>
+                {...{
+                  onlyIcon: <Icon.QodeMagnifyingGlass />,
+                  iconRight: false,
+                  selectIconLeft: <Icon.QodeIcons />,
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  buttonname: "Cancel",
+                  iconLeft: false,
+                  type: "default",
+                  size: "default",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
               {/* name="Button" id="233:17205" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   width: "96px",
@@ -269,75 +219,26 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
                   border: "1px solid var(--border-border-primary-30, #107ecc)",
                   background: "var(--background-bg-primary, #1597f4)",
                 }}
-              >
-                {/* name="🎰 icon" id="I233:17205;35:13236" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.599px 1.599px 1.599px 1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                >
-                  {/* name="Vector" id="I233:17205;35:13236;2828:3516" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "12.801px",
-                      height: "12.803px",
-                      flexShrink: "0",
-                      fill: "var(--background-bg-white, #fff)",
-                    }}
-                  >
-                    {/* name="Vector" id=I233:17205;35:13236;2828:3516 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-                <span
-                  style={{
-                    color: "var(--text-text-white, #fff)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Remove`}</span>
-                {/* name="🎰 icon" id="I233:17205;2906:15123" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "16px",
-                    height: "16px",
-                    padding: "1.6px 1.601px 1.598px 1.6px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                >
-                  {/* name="Vector" id="I233:17205;2906:15123;2828:3908" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "12.799px",
-                      height: "12.802px",
-                      flexShrink: "0",
-                      fill: "var(--background-bg-white, #fff)",
-                    }}
-                  >
-                    {/* name="Vector" id=I233:17205;2906:15123;2828:3908 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-              </Flex>
+                {...{
+                  onlyIcon: <Icon.QodeMagnifyingGlass />,
+                  iconLeft: false,
+                  iconRight: false,
+                  buttonname: "Remove",
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  selectIconLeft: <Icon.QodeIcons />,
+                  type: "primary",
+                  size: "default",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </div>
           </div>
         </div>
         {/* name="Flow description" id="434:38005" type="INSTANCE" */}
-        <Flex
+        <QodeCustom5612132
           style={{
             display: "flex",
             width: "528px",
@@ -347,41 +248,15 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
             background: "var(--text-text-dark-400, #2a2a2a)",
             boxShadow: "4px 4px 0px 0px rgba(21, 21, 21, 0.80)",
           }}
-        >
-          {/* name="Title" id="I434:38005;5612:141" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "20px 40px",
-              alignItems: "center",
-              gap: "10px",
-              alignSelf: "stretch",
-              borderTop: "var(--border-radius-small, 4px) solid #8D33FF",
-              borderBottom: "var(--border-radius-small, 4px) solid #8D33FF",
-              background: "var(--white, #fff)",
-              boxShadow: "3px 3px 0px 0px #434343",
-            }}
-          >
-            {/* name="Frame" id="I434:38005;5612:142" type="FRAME" */}
-            <QodeSvgI434380055612142
-              style={{ width: "24px", height: "24px" }}
-              {...{}}
-            />
-            <span
-              style={{
-                color: "var(--text-text-dark-400, #2a2a2a)",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: "Sora",
-                fontSize: "36px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "normal",
-              }}
-            >{`End of result`}</span>
-          </div>
-        </Flex>
+          {...{
+            flowName: "End of result",
+            content: "Description",
+            type: "Only title",
+            size: "Default",
+          }}
+        />
         {/* name="Flow description" id="500:26974" type="INSTANCE" */}
-        <Flex
+        <QodeCustom5612132
           style={{
             display: "flex",
             width: "528px",
@@ -391,41 +266,15 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
             background: "var(--text-text-dark-400, #2a2a2a)",
             boxShadow: "4px 4px 0px 0px rgba(21, 21, 21, 0.80)",
           }}
-        >
-          {/* name="Title" id="I500:26974;5612:141" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "20px 40px",
-              alignItems: "center",
-              gap: "10px",
-              alignSelf: "stretch",
-              borderTop: "var(--border-radius-small, 4px) solid #8D33FF",
-              borderBottom: "var(--border-radius-small, 4px) solid #8D33FF",
-              background: "var(--white, #fff)",
-              boxShadow: "3px 3px 0px 0px #434343",
-            }}
-          >
-            {/* name="Frame" id="I500:26974;5612:142" type="FRAME" */}
-            <QodeSvgI500269745612142
-              style={{ width: "24px", height: "24px" }}
-              {...{}}
-            />
-            <span
-              style={{
-                color: "var(--text-text-dark-400, #2a2a2a)",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: "Sora",
-                fontSize: "36px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "normal",
-              }}
-            >{`States`}</span>
-          </div>
-        </Flex>
+          {...{
+            flowName: "States",
+            content: "Description",
+            type: "Only title",
+            size: "Default",
+          }}
+        />
         {/* name="Flow description" id="233:23604" type="INSTANCE" */}
-        <Flex
+        <QodeCustom5612132
           style={{
             display: "inline-flex",
             flexDirection: "column",
@@ -434,39 +283,13 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
             background: "var(--text-text-dark-400, #2a2a2a)",
             boxShadow: "4px 4px 0px 0px rgba(21, 21, 21, 0.80)",
           }}
-        >
-          {/* name="Title" id="I233:23604;5612:141" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "20px 40px",
-              alignItems: "center",
-              gap: "10px",
-              alignSelf: "stretch",
-              borderTop: "var(--border-radius-small, 4px) solid #8D33FF",
-              borderBottom: "var(--border-radius-small, 4px) solid #8D33FF",
-              background: "var(--white, #fff)",
-              boxShadow: "3px 3px 0px 0px #434343",
-            }}
-          >
-            {/* name="Frame" id="I233:23604;5612:142" type="FRAME" */}
-            <QodeSvgI233236045612142
-              style={{ width: "24px", height: "24px" }}
-              {...{}}
-            />
-            <span
-              style={{
-                color: "var(--text-text-dark-400, #2a2a2a)",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: "Sora",
-                fontSize: "36px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "normal",
-              }}
-            >{`Remove from shortlist`}</span>
-          </div>
-        </Flex>
+          {...{
+            flowName: "Remove from shortlist",
+            content: "Description",
+            type: "Only title",
+            size: "Default",
+          }}
+        />
         {/* name="List | Shortlisted" id="434:37679" type="INSTANCE" */}
         <QodeCustom945729
           style={{
@@ -482,7 +305,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           {...{ property_1: "End" }}
         />
         {/* name="Flow description" id="500:26966" type="INSTANCE" */}
-        <Flex
+        <QodeCustom5612132
           style={{
             display: "flex",
             width: "541px",
@@ -492,63 +315,13 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
             background: "var(--gray-neutrals-80, #4a4a4a)",
             boxShadow: "4px 4px 0px 0px rgba(21, 21, 21, 0.80)",
           }}
-        >
-          {/* name="Title" id="I500:26966;5612:134" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "20px 40px",
-              alignItems: "center",
-              gap: "10px",
-              alignSelf: "stretch",
-              borderTop: "var(--border-radius-small, 4px) solid #8D33FF",
-              borderBottom: "var(--border-radius-small, 4px) solid #8D33FF",
-              background: "var(--white, #fff)",
-              boxShadow: "3px 3px 0px 0px #434343",
-            }}
-          >
-            {/* name="Frame" id="I500:26966;5612:135" type="FRAME" */}
-            <QodeSvgI500269665612135
-              style={{ width: "24px", height: "24px" }}
-              {...{}}
-            />
-            <span
-              style={{
-                color: "var(--text-text-dark-400, #2a2a2a)",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: "Sora",
-                fontSize: "36px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "normal",
-              }}
-            >{`Pagination`}</span>
-          </div>
-          {/* name="Content" id="I500:26966;5612:138" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "40px 74px",
-              alignItems: "flex-start",
-              gap: "10px",
-              alignSelf: "stretch",
-            }}
-          >
-            <span
-              style={{
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "#FFF",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: '"Be Vietnam Pro"',
-                fontSize: "28px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "36px /* 128.571% */",
-              }}
-            >{`15 / page`}</span>
-          </div>
-        </Flex>
+          {...{
+            flowName: "Pagination",
+            content: "15 / page",
+            type: "Default",
+            size: "Default",
+          }}
+        />
         {/* name="List | Shortlisted" id="500:27568" type="INSTANCE" */}
         <QodeCustom945729
           style={{
@@ -578,7 +351,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           {...{ property_1: "End" }}
         />
         {/* name="Flow description" id="500:27560" type="INSTANCE" */}
-        <Flex
+        <QodeCustom5612132
           style={{
             display: "flex",
             width: "664px",
@@ -588,65 +361,14 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
             background: "var(--gray-neutrals-80, #4a4a4a)",
             boxShadow: "4px 4px 0px 0px rgba(21, 21, 21, 0.80)",
           }}
-        >
-          {/* name="Title" id="I500:27560;5612:134" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "20px 40px",
-              alignItems: "center",
-              gap: "10px",
-              alignSelf: "stretch",
-              borderTop: "var(--border-radius-small, 4px) solid #8D33FF",
-              borderBottom: "var(--border-radius-small, 4px) solid #8D33FF",
-              background: "var(--white, #fff)",
-              boxShadow: "3px 3px 0px 0px #434343",
-            }}
-          >
-            {/* name="Frame" id="I500:27560;5612:135" type="FRAME" */}
-            <QodeSvgI500275605612135
-              style={{ width: "24px", height: "24px" }}
-              {...{}}
-            />
-            <span
-              style={{
-                color: "var(--text-text-dark-400, #2a2a2a)",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: "Sora",
-                fontSize: "36px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "normal",
-              }}
-            >{`Search in shortlist`}</span>
-          </div>
-          {/* name="Content" id="I500:27560;5612:138" type="FRAME" */}
-          <div
-            style={{
-              display: "flex",
-              padding: "40px 74px",
-              alignItems: "flex-start",
-              gap: "10px",
-              alignSelf: "stretch",
-            }}
-          >
-            <span
-              style={{
-                flex: "1 0 0",
-                alignSelf: "stretch",
-                color: "#FFF",
-                fontFeatureSettings: "'liga' off, 'clig' off",
-                fontFamily: '"Be Vietnam Pro"',
-                fontSize: "28px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "36px /* 128.571% */",
-              }}
-            >{`Still show pagination if search result has more than 15 items
-
-Start search when user stops typing (500 ms)`}</span>
-          </div>
-        </Flex>
+          {...{
+            flowName: "Search in shortlist",
+            content:
+              "Still show pagination if search result has more than 15 items\n\nStart search when user stops typing (500 ms)",
+            type: "Default",
+            size: "Default",
+          }}
+        />
       </div>
     </>
   )

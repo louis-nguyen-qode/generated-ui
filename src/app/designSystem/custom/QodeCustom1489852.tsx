@@ -3,13 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg1489854 from "@designSystem/icon/svg/QodeSvg1489854"
 import QodeSvgI149954218217664 from "@designSystem/icon/svg/QodeSvgI149954218217664"
-import QodeSvgI616380911143130 from "@designSystem/icon/svg/QodeSvgI616380911143130"
-import QodeSvg62929451 from "@designSystem/icon/svg/QodeSvg62929451"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 import QodeSvgI6292945218217658 from "@designSystem/icon/svg/QodeSvgI6292945218217658"
-import QodeSvgI629294531143130 from "@designSystem/icon/svg/QodeSvgI629294531143130"
-import QodeSvgI629295441141876 from "@designSystem/icon/svg/QodeSvgI629295441141876"
 
 export interface QodeCustom1489852Props {
   state?: "View" | "Edit" | "View (report)" | "New question"
@@ -158,7 +154,7 @@ export const QodeCustom1489852: React.FC<
             }}
           >
             {/* name="bars" id="148:9854" type="INSTANCE" */}
-            <QodeSvg1489854
+            <Icon.QodeBars
               style={{ width: "20px", height: "20px", flexShrink: "0" }}
               {...{}}
             />
@@ -216,7 +212,7 @@ export const QodeCustom1489852: React.FC<
                 }}
               >
                 {/* name="Button" id="I149:9542;3012:28133" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     height: "var(--size-height-controlheightsm, 24px)",
@@ -226,72 +222,25 @@ export const QodeCustom1489852: React.FC<
                     gap: "var(--size-padding-paddingxxs, 4px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I149:9542;3012:28133;114:1876" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.099px 1.757px 2.101px 1.748px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    {/* name="Vector" id="I149:9542;3012:28133;114:1876;2828:408" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "10.496px",
-                        height: "9.799px",
-                        flexShrink: "0",
-                        fill: "var(--color-primary-colorprimary, #1597f4)",
-                      }}
-                    >
-                      {/* name="Vector" id=I149:9542;3012:28133;114:1876;2828:408 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                  <span
-                    style={{
-                      color: "var(--text-text-primary-30, #158de2)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-small, 12px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                    }}
-                  >{`Rewrite`}</span>
-                  {/* name="🎰 icon" id="I149:9542;3012:28133;2906:16275" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "1.4px 1.401px 1.398px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    {/* name="Vector" id="I149:9542;3012:28133;2906:16275;2828:3908" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "11.199px",
-                        height: "11.202px",
-                        flexShrink: "0",
-                        fill: "var(--color-primary-colorprimary, #1597f4)",
-                      }}
-                    >
-                      {/* name="Vector" id=I149:9542;3012:28133;2906:16275;2828:3908 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                </Flex>
+                  {...{
+                    iconRight: false,
+                    selectIconRight: <Icon.QodeMagnifyingGlass />,
+                    onlyIcon: <Icon.QodeMagnifyingGlass />,
+                    buttonname: "Rewrite",
+                    selectIconLeft: <Icon.QodeArrowsRotateReverse />,
+                    iconLeft: true,
+                    type: "link",
+                    size: "small",
+                    state: "default",
+                    content: "default",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
                 {/* name="vote" id="I149:9542;3012:28134" type="FRAME" */}
                 <div style={{ display: "flex", alignItems: "flex-start" }}>
                   {/* name="Button" id="I149:9542;3012:28135" type="INSTANCE" */}
-                  <Flex
+                  <QodeButton
                     style={{
                       display: "flex",
                       width: "24px",
@@ -302,35 +251,23 @@ export const QodeCustom1489852: React.FC<
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I149:9542;3012:28135;114:3136" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "var(--font-size-base, 14px)",
-                        height: "var(--font-size-base, 14px)",
-                        padding: "2.099px 1.4px 2.1px 1.4px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        flexShrink: "0",
-                      }}
-                    >
-                      {/* name="Vector" id="I149:9542;3012:28135;114:3136;2828:5918" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "11.2px",
-                          height: "9.801px",
-                          flexShrink: "0",
-                          fill: "var(--color-neutral-text-colortext, #000)",
-                        }}
-                      >
-                        {/* name="Vector" id=I149:9542;3012:28135;114:3136;2828:5918 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
+                    {...{
+                      onlyIcon: <Icon.QodeThumbsUp />,
+                      iconLeft: false,
+                      selectIconRight: <Icon.QodeMagnifyingGlass />,
+                      buttonname: "Rewrite",
+                      iconRight: false,
+                      selectIconLeft: <Icon.QodeIcons />,
+                      type: "text",
+                      size: "small",
+                      state: "default",
+                      content: "icon",
+                      danger: false,
+                      ghost: false,
+                    }}
+                  />
                   {/* name="Button" id="I149:9542;3012:28136" type="INSTANCE" */}
-                  <Flex
+                  <QodeButton
                     style={{
                       display: "flex",
                       width: "24px",
@@ -341,38 +278,26 @@ export const QodeCustom1489852: React.FC<
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I149:9542;3012:28136;114:3136" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "var(--font-size-base, 14px)",
-                        height: "var(--font-size-base, 14px)",
-                        padding: "2.1px 1.4px 2.099px 1.4px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        flexShrink: "0",
-                      }}
-                    >
-                      {/* name="Vector" id="I149:9542;3012:28136;114:3136;2828:5916" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "11.2px",
-                          height: "9.801px",
-                          flexShrink: "0",
-                          fill: "var(--color-neutral-text-colortext, #000)",
-                        }}
-                      >
-                        {/* name="Vector" id=I149:9542;3012:28136;114:3136;2828:5916 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
+                    {...{
+                      onlyIcon: <Icon.QodeThumbsDown />,
+                      iconLeft: false,
+                      selectIconRight: <Icon.QodeMagnifyingGlass />,
+                      buttonname: "Rewrite",
+                      iconRight: false,
+                      selectIconLeft: <Icon.QodeIcons />,
+                      type: "text",
+                      size: "small",
+                      state: "default",
+                      content: "icon",
+                      danger: false,
+                      ghost: false,
+                    }}
+                  />
                 </div>
               </div>
             </Flex>
             {/* name="Button" id="616:38091" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "24px",
@@ -387,17 +312,21 @@ export const QodeCustom1489852: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon" id="I616:38091;114:3130" type="INSTANCE" */}
-              <QodeSvgI616380911143130
-                style={{
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                  flexShrink: "0",
-                }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                onlyIcon: <Icon.QodeTrash />,
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                selectIconLeft: <Icon.QodeIcons />,
+                iconRight: false,
+                buttonname: "Button",
+                iconLeft: false,
+                type: "default",
+                size: "small",
+                state: "default",
+                content: "icon",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -425,7 +354,7 @@ export const QodeCustom1489852: React.FC<
               }}
             >
               {/* name="bars" id="629:29451" type="INSTANCE" */}
-              <QodeSvg62929451
+              <Icon.QodeBars
                 style={{ width: "20px", height: "20px" }}
                 {...{}}
               />
@@ -496,7 +425,7 @@ export const QodeCustom1489852: React.FC<
                   }}
                 >
                   {/* name="Button" id="I629:29452;3012:28123" type="INSTANCE" */}
-                  <Flex
+                  <QodeButton
                     style={{
                       display: "flex",
                       height: "var(--size-height-controlheightsm, 24px)",
@@ -506,72 +435,25 @@ export const QodeCustom1489852: React.FC<
                       gap: "var(--size-padding-paddingxxs, 4px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                     }}
-                  >
-                    {/* name="🎰 icon" id="I629:29452;3012:28123;114:1876" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "var(--font-size-base, 14px)",
-                        height: "var(--font-size-base, 14px)",
-                        padding: "2.099px 1.757px 2.101px 1.748px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
-                      {/* name="Vector" id="I629:29452;3012:28123;114:1876;2828:408" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "10.496px",
-                          height: "9.799px",
-                          flexShrink: "0",
-                          fill: "var(--color-primary-colorprimary, #1597f4)",
-                        }}
-                      >
-                        {/* name="Vector" id=I629:29452;3012:28123;114:1876;2828:408 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                    <span
-                      style={{
-                        color: "var(--text-text-primary-30, #158de2)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-small, 12px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                      }}
-                    >{`Rewrite`}</span>
-                    {/* name="🎰 icon" id="I629:29452;3012:28123;2906:16275" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "var(--font-size-base, 14px)",
-                        height: "var(--font-size-base, 14px)",
-                        padding: "1.4px 1.401px 1.398px 1.4px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
-                      {/* name="Vector" id="I629:29452;3012:28123;2906:16275;2828:3908" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "11.199px",
-                          height: "11.202px",
-                          flexShrink: "0",
-                          fill: "var(--color-primary-colorprimary, #1597f4)",
-                        }}
-                      >
-                        {/* name="Vector" id=I629:29452;3012:28123;2906:16275;2828:3908 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
+                    {...{
+                      iconRight: false,
+                      selectIconRight: <Icon.QodeMagnifyingGlass />,
+                      onlyIcon: <Icon.QodeMagnifyingGlass />,
+                      buttonname: "Rewrite",
+                      selectIconLeft: <Icon.QodeArrowsRotateReverse />,
+                      iconLeft: true,
+                      type: "link",
+                      size: "small",
+                      state: "default",
+                      content: "default",
+                      danger: false,
+                      ghost: false,
+                    }}
+                  />
                   {/* name="vote" id="I629:29452;3012:28124" type="FRAME" */}
                   <div style={{ display: "flex", alignItems: "flex-start" }}>
                     {/* name="Button" id="I629:29452;3012:28125" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "24px",
@@ -582,35 +464,23 @@ export const QodeCustom1489852: React.FC<
                         gap: "var(--size-padding-paddingxs, 8px)",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                       }}
-                    >
-                      {/* name="🎰 icon" id="I629:29452;3012:28125;114:3136" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          width: "var(--font-size-base, 14px)",
-                          height: "var(--font-size-base, 14px)",
-                          padding: "2.099px 1.4px 2.1px 1.4px",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          flexShrink: "0",
-                        }}
-                      >
-                        {/* name="Vector" id="I629:29452;3012:28125;114:3136;2828:5918" type="VECTOR" */}
-                        <Flex
-                          style={{
-                            width: "11.2px",
-                            height: "9.801px",
-                            flexShrink: "0",
-                            fill: "var(--color-neutral-text-colortext, #000)",
-                          }}
-                        >
-                          {/* name="Vector" id=I629:29452;3012:28125;114:3136;2828:5918 type=VECTOR */}
-                          <></>
-                        </Flex>
-                      </Flex>
-                    </Flex>
+                      {...{
+                        onlyIcon: <Icon.QodeThumbsUp />,
+                        iconLeft: false,
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        buttonname: "Rewrite",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodeIcons />,
+                        type: "text",
+                        size: "small",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                     {/* name="Button" id="I629:29452;3012:28126" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "24px",
@@ -621,38 +491,26 @@ export const QodeCustom1489852: React.FC<
                         gap: "var(--size-padding-paddingxs, 8px)",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                       }}
-                    >
-                      {/* name="🎰 icon" id="I629:29452;3012:28126;114:3136" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          width: "var(--font-size-base, 14px)",
-                          height: "var(--font-size-base, 14px)",
-                          padding: "2.1px 1.4px 2.099px 1.4px",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          flexShrink: "0",
-                        }}
-                      >
-                        {/* name="Vector" id="I629:29452;3012:28126;114:3136;2828:5916" type="VECTOR" */}
-                        <Flex
-                          style={{
-                            width: "11.2px",
-                            height: "9.801px",
-                            flexShrink: "0",
-                            fill: "var(--color-neutral-text-colortext, #000)",
-                          }}
-                        >
-                          {/* name="Vector" id=I629:29452;3012:28126;114:3136;2828:5916 type=VECTOR */}
-                          <></>
-                        </Flex>
-                      </Flex>
-                    </Flex>
+                      {...{
+                        onlyIcon: <Icon.QodeThumbsDown />,
+                        iconLeft: false,
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        buttonname: "Rewrite",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodeIcons />,
+                        type: "text",
+                        size: "small",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                   </div>
                 </div>
               </Flex>
               {/* name="Button" id="629:29453" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   width: "24px",
@@ -666,17 +524,21 @@ export const QodeCustom1489852: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-              >
-                {/* name="🎰 icon" id="I629:29453;114:3130" type="INSTANCE" */}
-                <QodeSvgI629294531143130
-                  style={{
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    flexShrink: "0",
-                  }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  onlyIcon: <Icon.QodeTrash />,
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  selectIconLeft: <Icon.QodeIcons />,
+                  iconRight: false,
+                  buttonname: "Button",
+                  iconLeft: false,
+                  type: "default",
+                  size: "small",
+                  state: "default",
+                  content: "icon",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </div>
             {/* name="Frame 37414" id="629:29551" type="FRAME" */}
             <div
@@ -690,7 +552,7 @@ export const QodeCustom1489852: React.FC<
               }}
             >
               {/* name="Button" id="629:29544" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   width: "61px",
@@ -701,54 +563,21 @@ export const QodeCustom1489852: React.FC<
                   gap: "4px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
-              >
-                {/* name="🎰 icon" id="I629:29544;114:1876" type="INSTANCE" */}
-                <QodeSvgI629295441141876
-                  style={{
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    flexShrink: "0",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-primary-30, #158de2)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`Suggest`}</span>
-                {/* name="🎰 icon" id="I629:29544;2906:16275" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    padding: "1.4px 1.401px 1.398px 1.4px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                >
-                  {/* name="Vector" id="I629:29544;2906:16275;2828:3908" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "11.199px",
-                      height: "11.202px",
-                      flexShrink: "0",
-                      fill: "var(--background-bg-primary, #1597f4)",
-                    }}
-                  >
-                    {/* name="Vector" id=I629:29544;2906:16275;2828:3908 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-              </Flex>
+                {...{
+                  iconRight: false,
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  onlyIcon: <Icon.QodeMagnifyingGlass />,
+                  buttonname: "Suggest",
+                  selectIconLeft: <Icon.QodeStarChristmas />,
+                  iconLeft: true,
+                  type: "link",
+                  size: "small",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </div>
           </div>
         </>

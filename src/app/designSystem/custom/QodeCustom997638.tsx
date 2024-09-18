@@ -54,7 +54,7 @@ export const QodeCustom997638: React.FC<
                 }}
               >{`AW`}</span>
               {/* name="user-large" id="I99:7645;5629:57" type="INSTANCE" */}
-              <Flex
+              <Icon.QodeUserLarge
                 style={{
                   display: "flex",
                   width: "var(--font-size-base, 14px)",
@@ -66,20 +66,8 @@ export const QodeCustom997638: React.FC<
                   left: "7px",
                   top: "7px",
                 }}
-              >
-                {/* name="Vector" id="I99:7645;5629:57;2828:6334" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "11.2px",
-                    height: "11.2px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-background-colorbgcontainer, #fff)",
-                  }}
-                >
-                  {/* name="Vector" id=I99:7645;5629:57;2828:6334 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
+                {...{}}
+              />
               {/* name="img" id="I99:7645;5629:58" type="FRAME" */}
               <div
                 style={{

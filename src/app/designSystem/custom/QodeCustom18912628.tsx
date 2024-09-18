@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCheckbox } from "@designSystem/ant/QodeCheckbox"
+
 export interface QodeCustom18912628Props {
   submenu?: boolean
   title?: string
@@ -45,7 +47,7 @@ export const QodeCustom18912628: React.FC<
             }}
           >
             {/* name="Checkbox" id="2759:31841" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -53,23 +55,13 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I2759:31841;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I2759:31841;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             {/* name="🎰 icon" id="189:12622" type="INSTANCE" */}
             <Icon.QodeUser
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
@@ -113,7 +105,7 @@ export const QodeCustom18912628: React.FC<
             }}
           >
             {/* name="Checkbox" id="2759:31842" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -121,23 +113,13 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I2759:31842;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I2759:31842;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             {/* name="🎰 icon" id="189:12636" type="INSTANCE" */}
             <Icon.QodeUser
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
@@ -181,7 +163,7 @@ export const QodeCustom18912628: React.FC<
             }}
           >
             {/* name="Checkbox" id="2759:31843" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -189,23 +171,13 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I2759:31843;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I2759:31843;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             {/* name="🎰 icon" id="189:12642" type="INSTANCE" */}
             <Icon.QodeUser
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
@@ -249,7 +221,7 @@ export const QodeCustom18912628: React.FC<
             }}
           >
             {/* name="Checkbox" id="2759:31844" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -257,23 +229,13 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I2759:31844;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I2759:31844;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             {/* name="🎰 icon" id="189:12648" type="INSTANCE" */}
             <Icon.QodeUser
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
@@ -316,7 +278,7 @@ export const QodeCustom18912628: React.FC<
             }}
           >
             {/* name="Checkbox" id="2759:31845" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -324,23 +286,13 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I2759:31845;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I2759:31845;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             {/* name="🎰 icon" id="189:12654" type="INSTANCE" */}
             <Icon.QodeUser
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
@@ -384,7 +336,7 @@ export const QodeCustom18912628: React.FC<
             }}
           >
             {/* name="Checkbox" id="2759:31846" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -392,23 +344,13 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I2759:31846;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I2759:31846;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             {/* name="🎰 icon" id="189:12658" type="INSTANCE" */}
             <Icon.QodeUser
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
@@ -452,7 +394,7 @@ export const QodeCustom18912628: React.FC<
             }}
           >
             {/* name="Checkbox" id="2759:31847" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -460,23 +402,13 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I2759:31847;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I2759:31847;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             {/* name="🎰 icon" id="189:12662" type="INSTANCE" */}
             <Icon.QodeUser
               style={{ width: "16px", height: "16px", flexShrink: "0" }}
@@ -520,7 +452,7 @@ export const QodeCustom18912628: React.FC<
             }}
           >
             {/* name="Checkbox" id="2759:31848" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -528,23 +460,13 @@ export const QodeCustom18912628: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I2759:31848;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I2759:31848;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             {/* name="🎰 icon" id="189:12666" type="INSTANCE" */}
             <Icon.QodeUser
               style={{ width: "16px", height: "16px", flexShrink: "0" }}

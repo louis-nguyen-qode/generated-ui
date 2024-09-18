@@ -4,12 +4,7 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvgI864880562960 from "@designSystem/icon/svg/QodeSvgI864880562960"
-import QodeSvgI864886787669 from "@designSystem/icon/svg/QodeSvgI864886787669"
-import QodeSvgI864887787669 from "@designSystem/icon/svg/QodeSvgI864887787669"
-import QodeSvgI864888787669 from "@designSystem/icon/svg/QodeSvgI864888787669"
-import QodeSvg864889 from "@designSystem/icon/svg/QodeSvg864889"
 import QodeSvgI37821104562960 from "@designSystem/icon/svg/QodeSvgI37821104562960"
-import QodeSvgI3913168439131664 from "@designSystem/icon/svg/QodeSvgI3913168439131664"
 
 export interface QodeCustom944525Props {
   property_1?: "Header" | "Variant2"
@@ -77,7 +72,7 @@ export const QodeCustom944525: React.FC<
                   }}
                 >{`AW`}</span>
                 {/* name="user-large" id="I86:4880;5629:57" type="INSTANCE" */}
-                <Flex
+                <Icon.QodeUserLarge
                   style={{
                     display: "flex",
                     width: "24px",
@@ -89,20 +84,8 @@ export const QodeCustom944525: React.FC<
                     left: "12px",
                     top: "12px",
                   }}
-                >
-                  {/* name="Vector" id="I86:4880;5629:57;2828:6334" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "19.2px",
-                      height: "19.2px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-background-colorbgcontainer, #fff)",
-                    }}
-                  >
-                    {/* name="Vector" id=I86:4880;5629:57;2828:6334 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
+                  {...{}}
+                />
                 {/* name="img" id="I86:4880;5629:58" type="FRAME" */}
                 <div
                   style={{
@@ -207,7 +190,7 @@ export const QodeCustom944525: React.FC<
                   }}
                 >
                   {/* name="linkedin" id="I86:4886;78:7669" type="INSTANCE" */}
-                  <QodeSvgI864886787669
+                  <Icon.QodeLinkedin
                     style={{ width: "24px", height: "24px", flexShrink: "0" }}
                     {...{}}
                   />
@@ -242,7 +225,7 @@ export const QodeCustom944525: React.FC<
                   }}
                 >
                   {/* name="envelope" id="I86:4887;78:7669" type="INSTANCE" */}
-                  <QodeSvgI864887787669
+                  <Icon.QodeEnvelope
                     style={{ width: "24px", height: "24px", flexShrink: "0" }}
                     {...{}}
                   />
@@ -277,7 +260,7 @@ export const QodeCustom944525: React.FC<
                   }}
                 >
                   {/* name="phone" id="I86:4888;78:7669" type="INSTANCE" */}
-                  <QodeSvgI864888787669
+                  <Icon.QodePhone
                     style={{ width: "24px", height: "24px", flexShrink: "0" }}
                     {...{}}
                   />
@@ -299,7 +282,7 @@ export const QodeCustom944525: React.FC<
                 </Flex>
               </div>
               {/* name="🎰 icon" id="86:4889" type="INSTANCE" */}
-              <QodeSvg864889
+              <Icon.QodeXmark
                 style={{ width: "24px", height: "24px" }}
                 {...{}}
               />
@@ -363,7 +346,7 @@ export const QodeCustom944525: React.FC<
                   }}
                 >{`AW`}</span>
                 {/* name="user-large" id="I378:21104;5629:57" type="INSTANCE" */}
-                <Flex
+                <Icon.QodeUserLarge
                   style={{
                     display: "flex",
                     width: "24px",
@@ -375,20 +358,8 @@ export const QodeCustom944525: React.FC<
                     left: "12px",
                     top: "12px",
                   }}
-                >
-                  {/* name="Vector" id="I378:21104;5629:57;2828:6334" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "19.2px",
-                      height: "19.2px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-background-colorbgcontainer, #fff)",
-                    }}
-                  >
-                    {/* name="Vector" id=I378:21104;5629:57;2828:6334 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
+                  {...{}}
+                />
                 {/* name="img" id="I378:21104;5629:58" type="FRAME" */}
                 <div
                   style={{
@@ -488,7 +459,7 @@ export const QodeCustom944525: React.FC<
               }}
             >
               {/* name="spinner" id="I391:31684;391:31664" type="INSTANCE" */}
-              <QodeSvgI3913168439131664
+              <Icon.QodeSpinner
                 style={{ width: "24px", height: "24px", flexShrink: "0" }}
                 {...{}}
               />

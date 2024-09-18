@@ -3,10 +3,6 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg475444 from "@designSystem/icon/svg/QodeSvg475444"
-import QodeSvg48531742 from "@designSystem/icon/svg/QodeSvg48531742"
-import QodeSvg40529319 from "@designSystem/icon/svg/QodeSvg40529319"
-
 export interface QodeCustom6418Props {
   text?: string
   icon?: React.ReactNode
@@ -40,7 +36,7 @@ export const QodeCustom6418: React.FC<
             }}
           >
             {/* name="heart" id="47:5444" type="INSTANCE" */}
-            <QodeSvg475444 style={{ width: "16px", height: "16px" }} {...{}} />
+            <Icon.QodeHeart style={{ width: "16px", height: "16px" }} {...{}} />
             <span
               style={{
                 color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -72,10 +68,7 @@ export const QodeCustom6418: React.FC<
             }}
           >
             {/* name="heart" id="485:31742" type="INSTANCE" */}
-            <QodeSvg48531742
-              style={{ width: "16px", height: "16px" }}
-              {...{}}
-            />
+            <Icon.QodeHeart style={{ width: "16px", height: "16px" }} {...{}} />
             <span
               style={{
                 color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -105,10 +98,7 @@ export const QodeCustom6418: React.FC<
             }}
           >
             {/* name="heart" id="405:29319" type="INSTANCE" */}
-            <QodeSvg40529319
-              style={{ width: "16px", height: "16px" }}
-              {...{}}
-            />
+            <Icon.QodeHeart style={{ width: "16px", height: "16px" }} {...{}} />
             <span
               style={{
                 color: "var(--text-text-primary-30, #158de2)",

@@ -3,10 +3,6 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg479 from "@designSystem/icon/svg/QodeSvg479"
-import QodeSvg490 from "@designSystem/icon/svg/QodeSvg490"
-import QodeSvg493 from "@designSystem/icon/svg/QodeSvg493"
-
 export interface QodeCustom433Props {
   icon?: React.ReactNode
   state?: "Active" | "Default" | "Hovered"
@@ -48,7 +44,7 @@ export const QodeCustom433: React.FC<
               }}
             >
               {/* name="briefcase" id="4:79" type="INSTANCE" */}
-              <QodeSvg479
+              <Icon.QodeBriefcase
                 style={{ width: "24px", height: "24px", flexShrink: "0" }}
                 {...{}}
               />
@@ -99,7 +95,7 @@ export const QodeCustom433: React.FC<
               }}
             >
               {/* name="briefcase" id="4:90" type="INSTANCE" */}
-              <QodeSvg490
+              <Icon.QodeBriefcase
                 style={{ width: "24px", height: "24px", flexShrink: "0" }}
                 {...{}}
               />
@@ -150,7 +146,7 @@ export const QodeCustom433: React.FC<
               }}
             >
               {/* name="briefcase" id="4:93" type="INSTANCE" */}
-              <QodeSvg493
+              <Icon.QodeBriefcase
                 style={{ width: "24px", height: "24px", flexShrink: "0" }}
                 {...{}}
               />

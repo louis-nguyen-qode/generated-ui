@@ -3,14 +3,6 @@ import React from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg44047528 from "@designSystem/icon/svg/QodeSvg44047528"
-import QodeSvg44047531 from "@designSystem/icon/svg/QodeSvg44047531"
-import QodeSvg44047536 from "@designSystem/icon/svg/QodeSvg44047536"
-import QodeSvg44047538 from "@designSystem/icon/svg/QodeSvg44047538"
-import QodeSvg44047535 from "@designSystem/icon/svg/QodeSvg44047535"
-import QodeSvg44047537 from "@designSystem/icon/svg/QodeSvg44047537"
-import QodeSvg44047534 from "@designSystem/icon/svg/QodeSvg44047534"
-
 export interface Qode44047002PageProps {}
 
 export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
@@ -51,7 +43,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
             {/* name="Step" id="440:47549" type="FRAME" */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               {/* name="circle-check" id="440:47528" type="INSTANCE" */}
-              <QodeSvg44047528
+              <Icon.QodeCircleCheck
                 style={{ width: "24px", height: "24px" }}
                 {...{}}
               />
@@ -124,7 +116,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
                 style={{ display: "flex", alignItems: "center", gap: "12px" }}
               >
                 {/* name="circle-check" id="440:47531" type="INSTANCE" */}
-                <QodeSvg44047531
+                <Icon.QodeCircleCheck
                   style={{ width: "24px", height: "24px", opacity: "0.1" }}
                   {...{}}
                 />
@@ -194,7 +186,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
             {/* name="Step" id="440:47551" type="FRAME" */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               {/* name="circle-check" id="440:47536" type="INSTANCE" */}
-              <QodeSvg44047536
+              <Icon.QodeCircleCheck
                 style={{ width: "24px", height: "24px", opacity: "0.1" }}
                 {...{}}
               />
@@ -261,7 +253,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
             {/* name="Step" id="440:47552" type="FRAME" */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               {/* name="circle-check" id="440:47538" type="INSTANCE" */}
-              <QodeSvg44047538
+              <Icon.QodeCircleCheck
                 style={{ width: "24px", height: "24px", opacity: "0.1" }}
                 {...{}}
               />
@@ -328,7 +320,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
             {/* name="Step" id="440:47553" type="FRAME" */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               {/* name="circle-check" id="440:47535" type="INSTANCE" */}
-              <QodeSvg44047535
+              <Icon.QodeCircleCheck
                 style={{ width: "24px", height: "24px", opacity: "0.1" }}
                 {...{}}
               />
@@ -395,7 +387,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
             {/* name="Step" id="440:47554" type="FRAME" */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               {/* name="circle-check" id="440:47537" type="INSTANCE" */}
-              <QodeSvg44047537
+              <Icon.QodeCircleCheck
                 style={{ width: "24px", height: "24px", opacity: "0.1" }}
                 {...{}}
               />
@@ -464,7 +456,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
             {/* name="Step" id="440:47555" type="FRAME" */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               {/* name="circle-check" id="440:47534" type="INSTANCE" */}
-              <QodeSvg44047534
+              <Icon.QodeCircleCheck
                 style={{ width: "24px", height: "24px", opacity: "0.1" }}
                 {...{}}
               />

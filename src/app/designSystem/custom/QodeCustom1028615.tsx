@@ -3,10 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg1028674 from "@designSystem/icon/svg/QodeSvg1028674"
 import QodeSvg1028675 from "@designSystem/icon/svg/QodeSvg1028675"
-import QodeSvgI10287071141808 from "@designSystem/icon/svg/QodeSvgI10287071141808"
-import QodeSvgI10287083513236 from "@designSystem/icon/svg/QodeSvgI10287083513236"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom1028615Props {
   _3?: boolean
@@ -190,7 +188,7 @@ I came across your profile and was impressed by your experience as a Senior Soft
                     }}
                   >{`AW`}</span>
                   {/* name="user-large" id="I102:8487;99:7654;99:7645;5629:57" type="INSTANCE" */}
-                  <Flex
+                  <Icon.QodeUserLarge
                     style={{
                       display: "flex",
                       width: "var(--font-size-base, 14px)",
@@ -202,20 +200,8 @@ I came across your profile and was impressed by your experience as a Senior Soft
                       left: "7px",
                       top: "7px",
                     }}
-                  >
-                    {/* name="Vector" id="I102:8487;99:7654;99:7645;5629:57;2828:6334" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "11.2px",
-                        height: "11.2px",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-background-colorbgcontainer, #fff)",
-                      }}
-                    >
-                      {/* name="Vector" id=I102:8487;99:7654;99:7645;5629:57;2828:6334 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
+                    {...{}}
+                  />
                   {/* name="img" id="I102:8487;99:7654;99:7645;5629:58" type="FRAME" */}
                   <div
                     style={{
@@ -508,7 +494,7 @@ Hung`}</span>
                     }}
                   >{`AW`}</span>
                   {/* name="user-large" id="I102:8503;99:7654;99:7645;5629:57" type="INSTANCE" */}
-                  <Flex
+                  <Icon.QodeUserLarge
                     style={{
                       display: "flex",
                       width: "var(--font-size-base, 14px)",
@@ -520,20 +506,8 @@ Hung`}</span>
                       left: "7px",
                       top: "7px",
                     }}
-                  >
-                    {/* name="Vector" id="I102:8503;99:7654;99:7645;5629:57;2828:6334" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "11.2px",
-                        height: "11.2px",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-background-colorbgcontainer, #fff)",
-                      }}
-                    >
-                      {/* name="Vector" id=I102:8503;99:7654;99:7645;5629:57;2828:6334 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
+                    {...{}}
+                  />
                   {/* name="img" id="I102:8503;99:7654;99:7645;5629:58" type="FRAME" */}
                   <div
                     style={{
@@ -758,7 +732,7 @@ Thai.`}</span>
                     <></>
                   </Flex>
                   {/* name="envelope" id="102:8674" type="INSTANCE" */}
-                  <QodeSvg1028674
+                  <Icon.QodeEnvelope
                     style={{ width: "24px", height: "24px", flexShrink: "0" }}
                     {...{}}
                   />
@@ -792,7 +766,7 @@ Start by sending an email and track your email sequences here.`}</span>
                 }}
               >
                 {/* name="Button" id="102:8707" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "154px",
@@ -806,52 +780,23 @@ Start by sending an email and track your email sequences here.`}</span>
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                >
-                  {/* name="up-right-from-square" id="I102:8707;114:1808" type="INSTANCE" */}
-                  <QodeSvgI10287071141808
-                    style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`View profile`}</span>
-                  {/* name="🎰 icon" id="I102:8707;2906:15520" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "16px",
-                      height: "16px",
-                      padding: "1.6px 1.601px 1.598px 1.6px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                  >
-                    {/* name="Vector" id="I102:8707;2906:15520;2828:3908" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "12.799px",
-                        height: "12.802px",
-                        flexShrink: "0",
-                        fill: "var(--color-neutral-text-colortext, #000)",
-                      }}
-                    >
-                      {/* name="Vector" id=I102:8707;2906:15520;2828:3908 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                </Flex>
+                  {...{
+                    onlyIcon: <Icon.QodeMagnifyingGlass />,
+                    iconRight: false,
+                    selectIconLeft: <Icon.QodeUpRightFromSquare />,
+                    selectIconRight: <Icon.QodeMagnifyingGlass />,
+                    buttonname: "View profile",
+                    iconLeft: true,
+                    type: "default",
+                    size: "default",
+                    state: "default",
+                    content: "default",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
                 {/* name="Button" id="102:8708" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "154px",
@@ -865,50 +810,21 @@ Start by sending an email and track your email sequences here.`}</span>
                       "1px solid var(--border-border-primary-30, #107ecc)",
                     background: "var(--background-bg-primary, #1597f4)",
                   }}
-                >
-                  {/* name="user-plus" id="I102:8708;35:13236" type="INSTANCE" */}
-                  <QodeSvgI10287083513236
-                    style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                    {...{}}
-                  />
-                  <span
-                    style={{
-                      color: "var(--text-text-white, #fff)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Send request`}</span>
-                  {/* name="🎰 icon" id="I102:8708;2906:15123" type="INSTANCE" */}
-                  <Flex
-                    style={{
-                      display: "flex",
-                      width: "16px",
-                      height: "16px",
-                      padding: "1.6px 1.601px 1.598px 1.6px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                  >
-                    {/* name="Vector" id="I102:8708;2906:15123;2828:3908" type="VECTOR" */}
-                    <Flex
-                      style={{
-                        width: "12.799px",
-                        height: "12.802px",
-                        flexShrink: "0",
-                        fill: "var(--background-bg-white, #fff)",
-                      }}
-                    >
-                      {/* name="Vector" id=I102:8708;2906:15123;2828:3908 type=VECTOR */}
-                      <></>
-                    </Flex>
-                  </Flex>
-                </Flex>
+                  {...{
+                    onlyIcon: <Icon.QodeMagnifyingGlass />,
+                    iconLeft: true,
+                    iconRight: false,
+                    buttonname: "Send request",
+                    selectIconRight: <Icon.QodeMagnifyingGlass />,
+                    selectIconLeft: <Icon.QodeUserPlus />,
+                    type: "primary",
+                    size: "default",
+                    state: "default",
+                    content: "default",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </div>
           </div>

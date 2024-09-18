@@ -107,7 +107,7 @@ export const QodeCustom244922: React.FC<
                   }}
                 >{`AW`}</span>
                 {/* name="user-large" id="I24:4927;2785:8296" type="INSTANCE" */}
-                <Flex
+                <Icon.QodeUserLarge
                   style={{
                     display: "flex",
                     width: "12px",
@@ -119,20 +119,8 @@ export const QodeCustom244922: React.FC<
                     left: "6px",
                     top: "6px",
                   }}
-                >
-                  {/* name="Vector" id="I24:4927;2785:8296;2828:6334" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "9.6px",
-                      height: "9.6px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-background-colorbgcontainer, #fff)",
-                    }}
-                  >
-                    {/* name="Vector" id=I24:4927;2785:8296;2828:6334 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
+                  {...{}}
+                />
                 {/* name="img" id="I24:4927;2785:8297" type="FRAME" */}
                 <div
                   style={{
@@ -284,7 +272,7 @@ export const QodeCustom244922: React.FC<
                   }}
                 >{`AW`}</span>
                 {/* name="user-large" id="I24:4934;2785:8296" type="INSTANCE" */}
-                <Flex
+                <Icon.QodeUserLarge
                   style={{
                     display: "flex",
                     width: "12px",
@@ -296,20 +284,8 @@ export const QodeCustom244922: React.FC<
                     left: "6px",
                     top: "6px",
                   }}
-                >
-                  {/* name="Vector" id="I24:4934;2785:8296;2828:6334" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "9.6px",
-                      height: "9.6px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-background-colorbgcontainer, #fff)",
-                    }}
-                  >
-                    {/* name="Vector" id=I24:4934;2785:8296;2828:6334 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
+                  {...{}}
+                />
                 {/* name="img" id="I24:4934;2785:8297" type="FRAME" */}
                 <div
                   style={{

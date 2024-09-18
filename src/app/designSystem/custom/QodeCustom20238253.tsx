@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeDatePicker } from "@designSystem/ant/QodeDatePicker"
+import { QodeButton } from "@designSystem/ant/QodeButton"
+
 export interface QodeCustom20238253Props {
   size?: "default" | "large" | "small"
   active?: "false" | "true"
@@ -28,7 +31,7 @@ export const QodeCustom20238253: React.FC<
             }}
           >
             {/* name="🧬 input" id="202:38245" type="INSTANCE" */}
-            <Flex
+            <QodeDatePicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -43,25 +46,19 @@ export const QodeCustom20238253: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Select date`}</span>
-              {/* name="Icon Right" id="I202:38245;202:29870" type="INSTANCE" */}
-              <Icon.QodeCalendarDays
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                placeholder: "Select date",
+                date: "2023-09-02",
+                startPlaceholder: "Start date",
+                startDate: "2023-09-02",
+                endPlaceholder: "End date",
+                endDate: "2023-09-09",
+                state: "default",
+                status: "default",
+                size: "default",
+                range: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -79,7 +76,7 @@ export const QodeCustom20238253: React.FC<
             }}
           >
             {/* name="🧬 input" id="202:38970" type="INSTANCE" */}
-            <Flex
+            <QodeDatePicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -93,24 +90,20 @@ export const QodeCustom20238253: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-large, 16px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight: "24px /* 150% */",
-                }}
-              >{`Select date`}</span>
-              {/* name="Icon Right" id="I202:38970;202:29996" type="INSTANCE" */}
-              <Icon.QodeCalendarDays
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                placeholder: "Select date",
+                startDate: "2023-09-02",
+                startPlaceholder: "Start date",
+                date: "2023-09-02",
+                rIcon: true,
+                endDate: "2023-09-09",
+                endPlaceholder: "End date",
+                state: "default",
+                status: "default",
+                size: "large",
+                range: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -128,7 +121,7 @@ export const QodeCustom20238253: React.FC<
             }}
           >
             {/* name="🧬 input" id="202:39335" type="INSTANCE" */}
-            <Flex
+            <QodeDatePicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -142,25 +135,19 @@ export const QodeCustom20238253: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Select date`}</span>
-              {/* name="Icon Right" id="I202:39335;202:30122" type="INSTANCE" */}
-              <Icon.QodeCalendarDays
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                placeholder: "Select date",
+                endPlaceholder: "End date",
+                date: "2023-09-02",
+                startPlaceholder: "Start date",
+                startDate: "2023-09-02",
+                endDate: "2023-09-09",
+                state: "default",
+                status: "default",
+                size: "small",
+                range: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -178,7 +165,7 @@ export const QodeCustom20238253: React.FC<
             }}
           >
             {/* name="🧬 input" id="202:38610" type="INSTANCE" */}
-            <Flex
+            <QodeDatePicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -193,39 +180,20 @@ export const QodeCustom20238253: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Select date`}</span>
-              {/* name="Icon Right" id="I202:38610;202:29882" type="INSTANCE" */}
-              <Icon.QodeCalendarDays
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              {/* name="Focus Ring" id="I202:38610;202:29883" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "240px",
-                  height: "var(--line-height-lineheighheading3, 32px)",
-                  position: "absolute",
-                  borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
-                }}
-              >
-                {/* name="Focus Ring" id=I202:38610;202:29883 type=RECTANGLE */}
-                <></>
-              </Flex>
-            </Flex>
+              {...{
+                placeholder: "Select date",
+                endPlaceholder: "End date",
+                date: "2023-09-02",
+                rIcon: true,
+                endDate: "2023-09-09",
+                startPlaceholder: "Start date",
+                startDate: "2023-09-02",
+                state: "focused",
+                status: "default",
+                size: "default",
+                range: false,
+              }}
+            />
             {/* name="🧬 dropdown menu" id="202:38611" type="INSTANCE" */}
             <Flex
               style={{
@@ -2430,7 +2398,7 @@ export const QodeCustom20238253: React.FC<
                 }}
               >
                 {/* name="Button" id="I202:38611;202:33189" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     height: "var(--size-height-controlheight, 32px)",
@@ -2440,20 +2408,18 @@ export const QodeCustom20238253: React.FC<
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-primary-30, #158de2)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Button`}</span>
-                </Flex>
+                  {...{
+                    buttonname: "Button",
+                    iconRight: false,
+                    iconLeft: false,
+                    type: "link",
+                    size: "default",
+                    state: "default",
+                    content: "default",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </Flex>
           </div>
@@ -2473,7 +2439,7 @@ export const QodeCustom20238253: React.FC<
             }}
           >
             {/* name="🧬 input" id="202:38972" type="INSTANCE" */}
-            <Flex
+            <QodeDatePicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -2487,38 +2453,19 @@ export const QodeCustom20238253: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-large, 16px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight: "24px /* 150% */",
-                }}
-              >{`Select date`}</span>
-              {/* name="Icon Right" id="I202:38972;202:30008" type="INSTANCE" */}
-              <Icon.QodeCalendarDays
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              {/* name="Focus Ring" id="I202:38972;202:30009" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "240px",
-                  height: "40px",
-                  position: "absolute",
-                  borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
-                }}
-              >
-                {/* name="Focus Ring" id=I202:38972;202:30009 type=RECTANGLE */}
-                <></>
-              </Flex>
-            </Flex>
+              {...{
+                placeholder: "Select date",
+                date: "2023-09-02",
+                startPlaceholder: "Start date",
+                startDate: "2023-09-02",
+                endPlaceholder: "End date",
+                endDate: "2023-09-09",
+                state: "focused",
+                status: "default",
+                size: "large",
+                range: false,
+              }}
+            />
             {/* name="🧬 dropdown menu" id="202:38973" type="INSTANCE" */}
             <Flex
               style={{
@@ -4723,7 +4670,7 @@ export const QodeCustom20238253: React.FC<
                 }}
               >
                 {/* name="Button" id="I202:38973;202:33189" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     height: "var(--size-height-controlheight, 32px)",
@@ -4733,20 +4680,18 @@ export const QodeCustom20238253: React.FC<
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-primary-30, #158de2)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Button`}</span>
-                </Flex>
+                  {...{
+                    buttonname: "Button",
+                    iconRight: false,
+                    iconLeft: false,
+                    type: "link",
+                    size: "default",
+                    state: "default",
+                    content: "default",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </Flex>
           </div>
@@ -4766,7 +4711,7 @@ export const QodeCustom20238253: React.FC<
             }}
           >
             {/* name="🧬 input" id="202:39337" type="INSTANCE" */}
-            <Flex
+            <QodeDatePicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -4780,39 +4725,19 @@ export const QodeCustom20238253: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              <span
-                style={{
-                  flex: "1 0 0",
-                  color: "var(--text-text-placeholder, #a7a7a7)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "400",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Select date`}</span>
-              {/* name="Icon Right" id="I202:39337;202:30134" type="INSTANCE" */}
-              <Icon.QodeCalendarDays
-                style={{ width: "16px", height: "16px" }}
-                {...{}}
-              />
-              {/* name="Focus Ring" id="I202:39337;202:30135" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "240px",
-                  height: "24px",
-                  position: "absolute",
-                  borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
-                }}
-              >
-                {/* name="Focus Ring" id=I202:39337;202:30135 type=RECTANGLE */}
-                <></>
-              </Flex>
-            </Flex>
+              {...{
+                placeholder: "Select date",
+                startDate: "2023-09-02",
+                startPlaceholder: "Start date",
+                date: "2023-09-02",
+                endDate: "2023-09-09",
+                endPlaceholder: "End date",
+                state: "focused",
+                status: "default",
+                size: "small",
+                range: false,
+              }}
+            />
             {/* name="🧬 dropdown menu" id="202:39338" type="INSTANCE" */}
             <Flex
               style={{
@@ -7017,7 +6942,7 @@ export const QodeCustom20238253: React.FC<
                 }}
               >
                 {/* name="Button" id="I202:39338;202:33189" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     height: "var(--size-height-controlheight, 32px)",
@@ -7027,20 +6952,18 @@ export const QodeCustom20238253: React.FC<
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-primary-30, #158de2)",
-                      textAlign: "center",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "700",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Button`}</span>
-                </Flex>
+                  {...{
+                    buttonname: "Button",
+                    iconRight: false,
+                    iconLeft: false,
+                    type: "link",
+                    size: "default",
+                    state: "default",
+                    content: "default",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </Flex>
           </div>

@@ -4,6 +4,7 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvg1893019 from "@designSystem/icon/svg/QodeSvg1893019"
+import { QodeInputNumber } from "@designSystem/ant/QodeInputNumber"
 import QodeSvg1893344 from "@designSystem/icon/svg/QodeSvg1893344"
 import QodeSvg1893429 from "@designSystem/icon/svg/QodeSvg1893429"
 
@@ -102,7 +103,7 @@ export const QodeCustom1893037: React.FC<
               >{`1677FF`}</span>
             </Flex>
             {/* name="🧬 input number" id="189:3005" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "56px",
@@ -114,33 +115,18 @@ export const QodeCustom1893037: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3005;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`100%`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "100%",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
           </div>
         </>
       )}
@@ -183,7 +169,7 @@ export const QodeCustom1893037: React.FC<
               />
             </div>
             {/* name="🧬 input number" id="189:3346" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "55.25px",
@@ -196,35 +182,20 @@ export const QodeCustom1893037: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3346;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`215`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "215",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
             {/* name="🧬 input number" id="189:3372" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "55.25px",
@@ -237,35 +208,20 @@ export const QodeCustom1893037: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3372;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`91%`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "91%",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
             {/* name="🧬 input number" id="189:3390" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "55.25px",
@@ -278,35 +234,20 @@ export const QodeCustom1893037: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3390;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`100%`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "100%",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
             {/* name="🧬 input number" id="189:3408" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "55.25px",
@@ -319,33 +260,18 @@ export const QodeCustom1893037: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3408;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`100%`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "100%",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
           </div>
         </>
       )}
@@ -388,7 +314,7 @@ export const QodeCustom1893037: React.FC<
               />
             </div>
             {/* name="🧬 input number" id="189:3430" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "55.25px",
@@ -401,35 +327,20 @@ export const QodeCustom1893037: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3430;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`22`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "22",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
             {/* name="🧬 input number" id="189:3431" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "55.25px",
@@ -442,35 +353,20 @@ export const QodeCustom1893037: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3431;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`119`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "119",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
             {/* name="🧬 input number" id="189:3432" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "55.25px",
@@ -483,35 +379,20 @@ export const QodeCustom1893037: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3432;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`255`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "255",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
             {/* name="🧬 input number" id="189:3433" type="INSTANCE" */}
-            <Flex
+            <QodeInputNumber
               style={{
                 display: "flex",
                 width: "55.25px",
@@ -524,33 +405,18 @@ export const QodeCustom1893037: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Content" id="I189:3433;186:3219" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  height: "var(--size-height-controlheightsm, 24px)",
-                  paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  gap: "var(--size-padding-paddingxs, 8px)",
-                  flex: "1 0 0",
-                }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`100%`}</span>
-              </div>
-            </Flex>
+              {...{
+                showPreTab: false,
+                number: "100%",
+                prefix: "PRE",
+                showPostTab: false,
+                showPrefix: false,
+                showIconLeft: false,
+                state: "filled",
+                status: "default",
+                size: "small",
+              }}
+            />
           </div>
         </>
       )}

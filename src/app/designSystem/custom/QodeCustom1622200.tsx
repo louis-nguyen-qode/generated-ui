@@ -3,8 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg162794 from "@designSystem/icon/svg/QodeSvg162794"
-import QodeSvg162796 from "@designSystem/icon/svg/QodeSvg162796"
+import { QodeCarousel } from "@designSystem/ant/QodeCarousel"
 
 export interface QodeCustom1622200Props {
   position?: "Bottom" | "Top" | "Left" | "Right"
@@ -54,22 +53,22 @@ export const QodeCustom1622200: React.FC<
               }}
             >
               {/* name="🧬 dot 1" id="I162:2189;162:1779" type="INSTANCE" */}
-              <QodeSvg162794
+              <QodeCarousel
                 style={{ width: "24px", height: "3px" }}
                 {...{ state: "active" }}
               />
               {/* name="🧬 dot 2" id="I162:2189;162:1780" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
               {/* name="🧬 dot 3" id="I162:2189;162:1781" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
               {/* name="🧬 dot 4" id="I162:2189;162:1785" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
@@ -115,22 +114,22 @@ export const QodeCustom1622200: React.FC<
               }}
             >
               {/* name="🧬 dot 1" id="I162:2214;162:1779" type="INSTANCE" */}
-              <QodeSvg162794
+              <QodeCarousel
                 style={{ width: "24px", height: "3px" }}
                 {...{ state: "active" }}
               />
               {/* name="🧬 dot 2" id="I162:2214;162:1780" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
               {/* name="🧬 dot 3" id="I162:2214;162:1781" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
               {/* name="🧬 dot 4" id="I162:2214;162:1785" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
@@ -177,22 +176,22 @@ export const QodeCustom1622200: React.FC<
               }}
             >
               {/* name="🧬 dot 1" id="I162:2225;162:1858" type="INSTANCE" */}
-              <QodeSvg162794
+              <QodeCarousel
                 style={{ width: "24px", height: "3px" }}
                 {...{ state: "active" }}
               />
               {/* name="🧬 dot 2" id="I162:2225;162:1859" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
               {/* name="🧬 dot 3" id="I162:2225;162:1860" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
               {/* name="🧬 dot 4" id="I162:2225;162:1861" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
@@ -239,22 +238,22 @@ export const QodeCustom1622200: React.FC<
               }}
             >
               {/* name="🧬 dot 1" id="I162:2244;162:1858" type="INSTANCE" */}
-              <QodeSvg162794
+              <QodeCarousel
                 style={{ width: "24px", height: "3px" }}
                 {...{ state: "active" }}
               />
               {/* name="🧬 dot 2" id="I162:2244;162:1859" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
               {/* name="🧬 dot 3" id="I162:2244;162:1860" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />
               {/* name="🧬 dot 4" id="I162:2244;162:1861" type="INSTANCE" */}
-              <QodeSvg162796
+              <QodeCarousel
                 style={{ width: "16px", height: "3px", opacity: "0.3" }}
                 {...{ state: "default" }}
               />

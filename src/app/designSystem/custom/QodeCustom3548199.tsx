@@ -3,14 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI35481553546732 from "@designSystem/icon/svg/QodeSvgI35481553546732"
-import QodeSvgI354820435470663546730 from "@designSystem/icon/svg/QodeSvgI354820435470663546730"
-import QodeSvgI354820435472453546730 from "@designSystem/icon/svg/QodeSvgI354820435472453546730"
-import QodeSvgI354820435472503546730 from "@designSystem/icon/svg/QodeSvgI354820435472503546730"
-import QodeSvgI354820435472533546730 from "@designSystem/icon/svg/QodeSvgI354820435472533546730"
-import QodeSvgI354820435472563546730 from "@designSystem/icon/svg/QodeSvgI354820435472563546730"
-import QodeSvgI354820435472593546730 from "@designSystem/icon/svg/QodeSvgI354820435472593546730"
-import QodeSvgI35482013546732 from "@designSystem/icon/svg/QodeSvgI35482013546732"
+import { QodeFloatButton } from "@designSystem/ant/QodeFloatButton"
 
 export interface QodeCustom3548199Props {
   open?: "no" | "yes"
@@ -28,7 +21,7 @@ export const QodeCustom3548199: React.FC<
           {/* name="open=no" id="354:8198" type="COMPONENT" */}
           <div style={{ display: "inline-flex", alignItems: "flex-start" }}>
             {/* name="FloatButton" id="354:8155" type="INSTANCE" */}
-            <Flex
+            <QodeFloatButton
               style={{
                 display: "flex",
                 width: "40px",
@@ -41,13 +34,13 @@ export const QodeCustom3548199: React.FC<
                 boxShadow:
                   "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
               }}
-            >
-              {/* name="🎰 icon" id="I354:8155;354:6732" type="INSTANCE" */}
-              <QodeSvgI35481553546732
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                type: "primary",
+                state: "default",
+                shape: "circle",
+                badge: "none",
+              }}
+            />
           </div>
         </>
       )}
@@ -73,7 +66,7 @@ export const QodeCustom3548199: React.FC<
               }}
             >
               {/* name="🧬 item 1" id="I354:8204;354:7066" type="INSTANCE" */}
-              <Flex
+              <QodeFloatButton
                 style={{
                   display: "flex",
                   width: "40px",
@@ -87,15 +80,15 @@ export const QodeCustom3548199: React.FC<
                   boxShadow:
                     "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
                 }}
-              >
-                {/* name="🎰 icon" id="I354:8204;354:7066;354:6730" type="INSTANCE" */}
-                <QodeSvgI354820435470663546730
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  type: "default",
+                  state: "default",
+                  shape: "circle",
+                  badge: "none",
+                }}
+              />
               {/* name="🧬 item 2" id="I354:8204;354:7245" type="INSTANCE" */}
-              <Flex
+              <QodeFloatButton
                 style={{
                   display: "flex",
                   width: "40px",
@@ -109,15 +102,15 @@ export const QodeCustom3548199: React.FC<
                   boxShadow:
                     "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
                 }}
-              >
-                {/* name="🎰 icon" id="I354:8204;354:7245;354:6730" type="INSTANCE" */}
-                <QodeSvgI354820435472453546730
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  type: "default",
+                  state: "default",
+                  shape: "circle",
+                  badge: "none",
+                }}
+              />
               {/* name="🧬 item 3" id="I354:8204;354:7250" type="INSTANCE" */}
-              <Flex
+              <QodeFloatButton
                 style={{
                   display: "flex",
                   width: "40px",
@@ -131,15 +124,15 @@ export const QodeCustom3548199: React.FC<
                   boxShadow:
                     "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
                 }}
-              >
-                {/* name="🎰 icon" id="I354:8204;354:7250;354:6730" type="INSTANCE" */}
-                <QodeSvgI354820435472503546730
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  type: "default",
+                  state: "default",
+                  shape: "circle",
+                  badge: "none",
+                }}
+              />
               {/* name="🧬 item 4" id="I354:8204;354:7253" type="INSTANCE" */}
-              <Flex
+              <QodeFloatButton
                 style={{
                   display: "flex",
                   width: "40px",
@@ -153,15 +146,15 @@ export const QodeCustom3548199: React.FC<
                   boxShadow:
                     "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
                 }}
-              >
-                {/* name="🎰 icon" id="I354:8204;354:7253;354:6730" type="INSTANCE" */}
-                <QodeSvgI354820435472533546730
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  type: "default",
+                  state: "default",
+                  shape: "circle",
+                  badge: "none",
+                }}
+              />
               {/* name="🧬 item 5" id="I354:8204;354:7256" type="INSTANCE" */}
-              <Flex
+              <QodeFloatButton
                 style={{
                   display: "flex",
                   width: "40px",
@@ -175,15 +168,15 @@ export const QodeCustom3548199: React.FC<
                   boxShadow:
                     "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
                 }}
-              >
-                {/* name="🎰 icon" id="I354:8204;354:7256;354:6730" type="INSTANCE" */}
-                <QodeSvgI354820435472563546730
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  type: "default",
+                  state: "default",
+                  shape: "circle",
+                  badge: "none",
+                }}
+              />
               {/* name="🧬 item last" id="I354:8204;354:7259" type="INSTANCE" */}
-              <Flex
+              <QodeFloatButton
                 style={{
                   display: "flex",
                   width: "40px",
@@ -197,16 +190,16 @@ export const QodeCustom3548199: React.FC<
                   boxShadow:
                     "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
                 }}
-              >
-                {/* name="🎰 icon" id="I354:8204;354:7259;354:6730" type="INSTANCE" */}
-                <QodeSvgI354820435472593546730
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  type: "default",
+                  state: "default",
+                  shape: "circle",
+                  badge: "none",
+                }}
+              />
             </Flex>
             {/* name="FloatButton" id="354:8201" type="INSTANCE" */}
-            <Flex
+            <QodeFloatButton
               style={{
                 display: "flex",
                 width: "40px",
@@ -219,13 +212,13 @@ export const QodeCustom3548199: React.FC<
                 boxShadow:
                   "0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)",
               }}
-            >
-              {/* name="🎰 icon" id="I354:8201;354:6732" type="INSTANCE" */}
-              <QodeSvgI35482013546732
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                type: "primary",
+                state: "default",
+                shape: "circle",
+                badge: "none",
+              }}
+            />
           </div>
         </>
       )}

@@ -3,10 +3,6 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI588034272038039 from "@designSystem/icon/svg/QodeSvgI588034272038039"
-import QodeSvgI58825317024281 from "@designSystem/icon/svg/QodeSvgI58825317024281"
-import QodeSvgI58829017024186 from "@designSystem/icon/svg/QodeSvgI58829017024186"
-
 export interface QodeCustom588089Props {
   property_1?: "Default"
 }
@@ -51,7 +47,7 @@ export const QodeCustom588089: React.FC<
               }}
             >
               {/* name="🎰 icon left" id="I58:8034;2720:38039" type="INSTANCE" */}
-              <QodeSvgI588034272038039
+              <Icon.QodeMagnifyingGlass
                 style={{ width: "16px", height: "16px" }}
                 {...{}}
               />
@@ -91,7 +87,7 @@ export const QodeCustom588089: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="I58:8034;2720:38043" type="INSTANCE" */}
-              <Flex
+              <Icon.QodeUser
                 style={{
                   display: "flex",
                   width: "16px",
@@ -100,20 +96,8 @@ export const QodeCustom588089: React.FC<
                   justifyContent: "center",
                   alignItems: "center",
                 }}
-              >
-                {/* name="Vector" id="I58:8034;2720:38043;2828:6396" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "11.2px",
-                    height: "12.8px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-text-colortext, #000)",
-                  }}
-                >
-                  {/* name="Vector" id=I58:8034;2720:38043;2828:6396 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
+                {...{}}
+              />
             </Flex>
             {/* name="Input/Select" id="58:8253" type="INSTANCE" */}
             <Flex
@@ -149,7 +133,7 @@ export const QodeCustom588089: React.FC<
                 }}
               >{`Ho Chi Minh city, Vietnam`}</span>
               {/* name="Icon" id="I58:8253;170:24281" type="INSTANCE" */}
-              <QodeSvgI58825317024281
+              <Icon.QodeChevronDown
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />
@@ -183,7 +167,7 @@ export const QodeCustom588089: React.FC<
                 }}
               >{`Years of Experience`}</span>
               {/* name="Icon" id="I58:8290;170:24186" type="INSTANCE" */}
-              <QodeSvgI58829017024186
+              <Icon.QodeChevronDown
                 style={{ width: "16px", height: "16px", flexShrink: "0" }}
                 {...{}}
               />

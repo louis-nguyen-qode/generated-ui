@@ -3,11 +3,6 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg67740840 from "@designSystem/icon/svg/QodeSvg67740840"
-import QodeSvg67740843 from "@designSystem/icon/svg/QodeSvg67740843"
-import QodeSvg67740846 from "@designSystem/icon/svg/QodeSvg67740846"
-import QodeSvg67740849 from "@designSystem/icon/svg/QodeSvg67740849"
-
 export interface QodeCustom67740838Props {
   property_1?: "Default" | "Variant2" | "Variant3" | "Variant4"
 }
@@ -36,7 +31,7 @@ export const QodeCustom67740838: React.FC<
             }}
           >
             {/* name="spinner" id="677:40840" type="INSTANCE" */}
-            <QodeSvg67740840
+            <Icon.QodeSpinner
               style={{ width: "24px", height: "24px" }}
               {...{}}
             />
@@ -61,7 +56,7 @@ export const QodeCustom67740838: React.FC<
             }}
           >
             {/* name="spinner" id="677:40843" type="INSTANCE" */}
-            <QodeSvg67740843
+            <Icon.QodeSpinner
               style={{
                 width: "24px",
                 height: "24px",
@@ -90,7 +85,7 @@ export const QodeCustom67740838: React.FC<
             }}
           >
             {/* name="spinner" id="677:40846" type="INSTANCE" */}
-            <QodeSvg67740846
+            <Icon.QodeSpinner
               style={{ width: "24px", height: "24px" }}
               {...{}}
             />
@@ -115,7 +110,7 @@ export const QodeCustom67740838: React.FC<
             }}
           >
             {/* name="spinner" id="677:40849" type="INSTANCE" */}
-            <QodeSvg67740849
+            <Icon.QodeSpinner
               style={{
                 width: "24px",
                 height: "24px",

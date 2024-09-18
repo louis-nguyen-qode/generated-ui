@@ -4,7 +4,7 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvg1642949 from "@designSystem/icon/svg/QodeSvg1642949"
-import QodeSvg1642647 from "@designSystem/icon/svg/QodeSvg1642647"
+import { QodeRate } from "@designSystem/ant/QodeRate"
 
 export interface QodeCustom1642669Props {
   items?: "5" | "4" | "3"
@@ -151,7 +151,7 @@ export const QodeCustom1642669: React.FC<
             style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}
           >
             {/* name="🧬 star 1" id="164:2934" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -159,7 +159,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 2" id="164:2935" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -167,7 +167,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 3" id="164:2936" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -185,7 +185,7 @@ export const QodeCustom1642669: React.FC<
             style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}
           >
             {/* name="🧬 star 1" id="164:2938" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -193,7 +193,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 2" id="164:2939" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -201,7 +201,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 3" id="164:2940" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -209,7 +209,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 4" id="164:2941" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -227,7 +227,7 @@ export const QodeCustom1642669: React.FC<
             style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}
           >
             {/* name="🧬 star 1" id="164:2943" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -235,7 +235,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 2" id="164:2944" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -243,7 +243,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 3" id="164:2945" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -251,7 +251,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 4" id="164:2946" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -259,7 +259,7 @@ export const QodeCustom1642669: React.FC<
               {...{ integrity: "zero" }}
             />
             {/* name="🧬 star 5" id="164:2947" type="INSTANCE" */}
-            <QodeSvg1642647
+            <QodeRate
               style={{
                 width: "24px",
                 height: "var(--size-height-controlheightsm, 24px)",

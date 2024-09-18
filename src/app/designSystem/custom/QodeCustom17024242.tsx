@@ -3,42 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI300927861562546063 from "@designSystem/icon/svg/QodeSvgI300927861562546063"
-import QodeSvgI300927879562546063 from "@designSystem/icon/svg/QodeSvgI300927879562546063"
-import QodeSvgI300927897562546063 from "@designSystem/icon/svg/QodeSvgI300927897562546063"
-import QodeSvgI17024380562546063 from "@designSystem/icon/svg/QodeSvgI17024380562546063"
-import QodeSvgI17024384562546063 from "@designSystem/icon/svg/QodeSvgI17024384562546063"
-import QodeSvgI17024388562546063 from "@designSystem/icon/svg/QodeSvgI17024388562546063"
-import QodeSvgI17024394562546063 from "@designSystem/icon/svg/QodeSvgI17024394562546063"
-import QodeSvgI17024395562546063 from "@designSystem/icon/svg/QodeSvgI17024395562546063"
-import QodeSvgI17024396562546063 from "@designSystem/icon/svg/QodeSvgI17024396562546063"
-import QodeSvgI17024416562546063 from "@designSystem/icon/svg/QodeSvgI17024416562546063"
-import QodeSvgI17024417562546063 from "@designSystem/icon/svg/QodeSvgI17024417562546063"
-import QodeSvgI17024418562546063 from "@designSystem/icon/svg/QodeSvgI17024418562546063"
-import QodeSvgI300927867562546063 from "@designSystem/icon/svg/QodeSvgI300927867562546063"
-import QodeSvgI300927880562546063 from "@designSystem/icon/svg/QodeSvgI300927880562546063"
-import QodeSvgI300927898562546063 from "@designSystem/icon/svg/QodeSvgI300927898562546063"
-import QodeSvgI17024590562546063 from "@designSystem/icon/svg/QodeSvgI17024590562546063"
-import QodeSvgI17024591562546063 from "@designSystem/icon/svg/QodeSvgI17024591562546063"
-import QodeSvgI17024592562546063 from "@designSystem/icon/svg/QodeSvgI17024592562546063"
-import QodeSvgI300627198562546063 from "@designSystem/icon/svg/QodeSvgI300627198562546063"
-import QodeSvgI300627199562546063 from "@designSystem/icon/svg/QodeSvgI300627199562546063"
-import QodeSvgI300627200562546063 from "@designSystem/icon/svg/QodeSvgI300627200562546063"
-import QodeSvgI17024602562546063 from "@designSystem/icon/svg/QodeSvgI17024602562546063"
-import QodeSvgI17024603562546063 from "@designSystem/icon/svg/QodeSvgI17024603562546063"
-import QodeSvgI17024604562546063 from "@designSystem/icon/svg/QodeSvgI17024604562546063"
-import QodeSvgI300927868562546063 from "@designSystem/icon/svg/QodeSvgI300927868562546063"
-import QodeSvgI300927881562546063 from "@designSystem/icon/svg/QodeSvgI300927881562546063"
-import QodeSvgI300927899562546063 from "@designSystem/icon/svg/QodeSvgI300927899562546063"
-import QodeSvgI17024815562546063 from "@designSystem/icon/svg/QodeSvgI17024815562546063"
-import QodeSvgI17024816562546063 from "@designSystem/icon/svg/QodeSvgI17024816562546063"
-import QodeSvgI17024817562546063 from "@designSystem/icon/svg/QodeSvgI17024817562546063"
-import QodeSvgI300627232562546063 from "@designSystem/icon/svg/QodeSvgI300627232562546063"
-import QodeSvgI300627233562546063 from "@designSystem/icon/svg/QodeSvgI300627233562546063"
-import QodeSvgI300627234562546063 from "@designSystem/icon/svg/QodeSvgI300627234562546063"
-import QodeSvgI17024827562546063 from "@designSystem/icon/svg/QodeSvgI17024827562546063"
-import QodeSvgI17024828562546063 from "@designSystem/icon/svg/QodeSvgI17024828562546063"
-import QodeSvgI17024829562546063 from "@designSystem/icon/svg/QodeSvgI17024829562546063"
+import { QodeTag } from "@designSystem/ant/QodeTag"
 
 export interface QodeCustom17024242Props {
   iconr?: boolean
@@ -1000,7 +965,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27861" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -1012,24 +977,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27861;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927861562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -1086,7 +1041,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27879" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -1098,24 +1053,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27879;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927879562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -1171,7 +1116,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27897" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "18px",
@@ -1183,24 +1128,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27897;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927897562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -1268,7 +1203,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="170:24380" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -1280,26 +1215,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24380;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024380562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24384" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -1311,26 +1236,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24384;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024384562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24388" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -1342,24 +1257,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24388;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024388562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24339" type="INSTANCE" */}
               <Icon.QodeChevronDown
@@ -1403,7 +1308,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="170:24394" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -1415,26 +1320,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24394;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024394562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24395" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -1446,26 +1341,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24395;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024395562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24396" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -1477,24 +1362,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24396;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024396562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24342" type="INSTANCE" */}
               <Icon.QodeChevronDown
@@ -1539,7 +1414,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="170:24416" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "18px",
@@ -1551,26 +1426,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24416;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024416562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24417" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "18px",
@@ -1582,26 +1447,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24417;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024417562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24418" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "18px",
@@ -1613,24 +1468,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24418;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024418562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24345" type="INSTANCE" */}
               <Icon.QodeChevronDown
@@ -3353,7 +3198,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27867" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -3365,24 +3210,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27867;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927867562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -3438,7 +3273,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27880" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -3450,24 +3285,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27880;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927880562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -3522,7 +3347,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27898" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "18px",
@@ -3534,24 +3359,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27898;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927898562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -3618,7 +3433,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="170:24590" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "22px",
@@ -3630,26 +3445,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24590;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024590562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24591" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "22px",
@@ -3661,26 +3466,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24591;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024591562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24592" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "22px",
@@ -3692,24 +3487,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24592;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024592562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24593" type="INSTANCE" */}
               <Icon.QodeChevronDown
@@ -3752,7 +3537,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="3006:27198" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -3764,26 +3549,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I3006:27198;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI300627198562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="3006:27199" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -3795,26 +3570,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I3006:27199;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI300627199562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="3006:27200" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -3826,24 +3591,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I3006:27200;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI300627200562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24599" type="INSTANCE" */}
               <Icon.QodeChevronDown
@@ -3887,7 +3642,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="170:24602" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "var(--size-height-controheightxs, 16px)",
@@ -3899,26 +3654,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24602;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024602562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24603" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "var(--size-height-controheightxs, 16px)",
@@ -3930,26 +3675,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24603;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024603562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24604" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "var(--size-height-controheightxs, 16px)",
@@ -3961,24 +3696,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24604;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024604562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24605" type="INSTANCE" */}
               <Icon.QodeChevronDown
@@ -5705,7 +5430,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27868" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -5717,24 +5442,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27868;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927868562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -5791,7 +5506,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27881" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -5803,24 +5518,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27881;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927881562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -5876,7 +5581,7 @@ export const QodeCustom17024242: React.FC<
               }}
             >
               {/* name="tag" id="3009:27899" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "18px",
@@ -5888,24 +5593,14 @@ export const QodeCustom17024242: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3009:27899;5625:46063" type="INSTANCE" */}
-                <QodeSvgI300927899562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -5973,7 +5668,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="170:24815" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -5985,26 +5680,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24815;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024815562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24816" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -6016,26 +5701,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24816;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024816562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24817" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "22px",
@@ -6047,24 +5722,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24817;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024817562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24818" type="INSTANCE" */}
               <Icon.QodeChevronDown
@@ -6108,7 +5773,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="3006:27232" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -6120,26 +5785,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I3006:27232;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI300627232562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="3006:27233" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -6151,26 +5806,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I3006:27233;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI300627233562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="3006:27234" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "24px",
@@ -6182,24 +5827,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I3006:27234;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI300627234562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24824" type="INSTANCE" */}
               <Icon.QodeChevronDown
@@ -6244,7 +5879,7 @@ export const QodeCustom17024242: React.FC<
                 }}
               >
                 {/* name="tag" id="170:24827" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "var(--size-height-controheightxs, 16px)",
@@ -6256,26 +5891,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24827;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024827562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24828" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "var(--size-height-controheightxs, 16px)",
@@ -6287,26 +5912,16 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24828;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024828562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
                 {/* name="tag" id="170:24829" type="INSTANCE" */}
-                <Flex
+                <QodeTag
                   style={{
                     display: "flex",
                     height: "var(--size-height-controheightxs, 16px)",
@@ -6318,24 +5933,14 @@ export const QodeCustom17024242: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   }}
-                >
-                  <span
-                    style={{
-                      color: "var(--text-text-neutral-50, #1d1d1d)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-base, 14px)",
-                      fontStyle: "normal",
-                      fontWeight: "500",
-                      lineHeight:
-                        "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                    }}
-                  >{`Tag`}</span>
-                  {/* name="xmark" id="I170:24829;5625:46063" type="INSTANCE" */}
-                  <QodeSvgI17024829562546063
-                    style={{ width: "16px", height: "16px" }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    showRIcon: true,
+                    color: "primary",
+                    state: "default",
+                    size: "Default",
+                    rounded: "False",
+                  }}
+                />
               </div>
               {/* name="Icon" id="170:24830" type="INSTANCE" */}
               <Icon.QodeChevronDown

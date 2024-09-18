@@ -24,7 +24,7 @@ const QodeSvgI677408662242236167740276: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
-        cx="24.5455"
+        cx="24.5453"
         cy="24.5455"
         r="23.5455"
         stroke="#C6C6C6"

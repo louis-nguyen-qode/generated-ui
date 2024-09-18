@@ -3,14 +3,12 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCheckbox } from "@designSystem/ant/QodeCheckbox"
 import QodeSvg1895401 from "@designSystem/icon/svg/QodeSvg1895401"
 import QodeSvg1895417 from "@designSystem/icon/svg/QodeSvg1895417"
 import QodeSvg1895424 from "@designSystem/icon/svg/QodeSvg1895424"
-import QodeSvgI1895440146180 from "@designSystem/icon/svg/QodeSvgI1895440146180"
 import QodeSvg1895442 from "@designSystem/icon/svg/QodeSvg1895442"
-import QodeSvgI1895444146191 from "@designSystem/icon/svg/QodeSvgI1895444146191"
 import QodeSvg1895446 from "@designSystem/icon/svg/QodeSvg1895446"
-import QodeSvgI1895448146201 from "@designSystem/icon/svg/QodeSvgI1895448146201"
 import QodeSvg1895450 from "@designSystem/icon/svg/QodeSvg1895450"
 
 export interface QodeCustom1895406Props {
@@ -51,7 +49,7 @@ export const QodeCustom1895406: React.FC<
             }}
           >
             {/* name="Checkbox" id="189:5384" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -59,23 +57,13 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I189:5384;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I189:5384;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             <span
               style={{
                 flex: "1 0 0",
@@ -120,7 +108,7 @@ export const QodeCustom1895406: React.FC<
             }}
           >
             {/* name="Checkbox" id="189:5415" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -128,23 +116,13 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I189:5415;146:827" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-white, #fff)",
-                }}
-              >
-                {/* name="Check" id=I189:5415;146:827 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "default",
+              }}
+            />
             <span
               style={{
                 flex: "1 0 0",
@@ -186,7 +164,7 @@ export const QodeCustom1895406: React.FC<
             }}
           >
             {/* name="Checkbox" id="189:5422" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -194,23 +172,13 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I189:5422;146:840" type="FRAME" */}
-              <div
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-                  background: "var(--background-bg-disabled, #e3e3e3)",
-                }}
-              >
-                {/* name="Check" id=I189:5422;146:840 type=FRAME */}
-                <></>
-              </div>
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "inactive",
+                state: "disabled",
+              }}
+            />
             <span
               style={{
                 flex: "1 0 0",
@@ -255,7 +223,7 @@ export const QodeCustom1895406: React.FC<
             }}
           >
             {/* name="Checkbox" id="189:5440" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -263,20 +231,13 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I189:5440;146:180" type="FRAME" */}
-              <QodeSvgI1895440146180
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  fill: "var(--background-bg-primary, #1597f4)",
-                  strokeWidth: "1px",
-                  stroke: "var(--border-border-primary-20, #158de2)",
-                }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "active",
+                state: "default",
+              }}
+            />
             <span
               style={{
                 flex: "1 0 0",
@@ -320,7 +281,7 @@ export const QodeCustom1895406: React.FC<
             }}
           >
             {/* name="Checkbox" id="189:5444" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -328,18 +289,13 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I189:5444;146:191" type="FRAME" */}
-              <QodeSvgI1895444146191
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  fill: "var(--border-border-focused-primary, #82c8fa)",
-                }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "active",
+                state: "hover",
+              }}
+            />
             <span
               style={{
                 flex: "1 0 0",
@@ -381,7 +337,7 @@ export const QodeCustom1895406: React.FC<
             }}
           >
             {/* name="Checkbox" id="189:5448" type="INSTANCE" */}
-            <Flex
+            <QodeCheckbox
               style={{
                 display: "flex",
                 width: "95px",
@@ -389,20 +345,13 @@ export const QodeCustom1895406: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
               }}
-            >
-              {/* name="Check" id="I189:5448;146:201" type="FRAME" */}
-              <QodeSvgI1895448146201
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  flexShrink: "0",
-                  fill: "var(--background-bg-disabled, #e3e3e3)",
-                  strokeWidth: "1px",
-                  stroke: "var(--border-border-neutral-30, #d5d5d5)",
-                }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                showTitle: false,
+                title: "Checkbox",
+                status: "active",
+                state: "disabled",
+              }}
+            />
             <span
               style={{
                 flex: "1 0 0",

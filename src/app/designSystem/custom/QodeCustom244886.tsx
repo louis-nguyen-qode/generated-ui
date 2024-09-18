@@ -3,8 +3,6 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI244893268140498 from "@designSystem/icon/svg/QodeSvgI244893268140498"
-
 export interface QodeCustom244886Props {
   location?: string
   companyName?: string
@@ -65,7 +63,7 @@ export const QodeCustom244886: React.FC<
                 }}
               >{`AW`}</span>
               {/* name="user-large" id="I24:4888;2681:40498" type="INSTANCE" */}
-              <Flex
+              <Icon.QodeUserLarge
                 style={{
                   display: "flex",
                   width: "21px",
@@ -77,20 +75,8 @@ export const QodeCustom244886: React.FC<
                   left: "10.5px",
                   top: "10.5px",
                 }}
-              >
-                {/* name="Vector" id="I24:4888;2681:40498;2828:6334" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "16.8px",
-                    height: "16.8px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-background-colorbgcontainer, #fff)",
-                  }}
-                >
-                  {/* name="Vector" id=I24:4888;2681:40498;2828:6334 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
+                {...{}}
+              />
               {/* name="img" id="I24:4888;2681:40501" type="FRAME" */}
               <div
                 style={{
@@ -241,7 +227,7 @@ export const QodeCustom244886: React.FC<
                 }}
               >{`AW`}</span>
               {/* name="buildings" id="I24:4893;2681:40498" type="INSTANCE" */}
-              <QodeSvgI244893268140498
+              <Icon.QodeBuildings
                 style={{
                   width: "21px",
                   height: "21px",

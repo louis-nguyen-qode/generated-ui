@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeButton } from "@designSystem/ant/QodeButton"
+
 export interface QodeCustom53130111Props {
   title?: string
   state?: "editable" | "view"
@@ -53,7 +55,7 @@ export const QodeCustom53130111: React.FC<
               }}
             >{`Accessibility`}</span>
             {/* name="Button" id="531:30083" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "48px",
@@ -68,70 +70,21 @@ export const QodeCustom53130111: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="🎰 icon" id="I531:30083;114:1867" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                  padding: "1.399px 1.399px 1.399px 1.4px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
-                }}
-              >
-                {/* name="Vector" id="I531:30083;114:1867;2828:3516" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "11.201px",
-                    height: "11.202px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-text-colortext, #000)",
-                  }}
-                >
-                  {/* name="Vector" id=I531:30083;114:1867;2828:3516 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`Edit`}</span>
-              {/* name="🎰 icon" id="I531:30083;2906:15522" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "var(--font-size-base, 14px)",
-                  height: "var(--font-size-base, 14px)",
-                  padding: "1.4px 1.401px 1.398px 1.4px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
-                }}
-              >
-                {/* name="Vector" id="I531:30083;2906:15522;2828:3908" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "11.199px",
-                    height: "11.202px",
-                    flexShrink: "0",
-                    fill: "var(--color-neutral-text-colortext, #000)",
-                  }}
-                >
-                  {/* name="Vector" id=I531:30083;2906:15522;2828:3908 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </Flex>
+              {...{
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                onlyIcon: <Icon.QodeMagnifyingGlass />,
+                iconRight: false,
+                buttonname: "Edit",
+                selectIconLeft: <Icon.QodeIcons />,
+                iconLeft: false,
+                type: "default",
+                size: "small",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}

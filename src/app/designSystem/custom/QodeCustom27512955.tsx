@@ -3,10 +3,12 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeColorPicker } from "@designSystem/ant/QodeColorPicker"
 import QodeSvg1892958 from "@designSystem/icon/svg/QodeSvg1892958"
 import QodeSvg1894419 from "@designSystem/icon/svg/QodeSvg1894419"
 import QodeSvg1894422 from "@designSystem/icon/svg/QodeSvg1894422"
 import QodeSvgI2751295818945111893019 from "@designSystem/icon/svg/QodeSvgI2751295818945111893019"
+import { QodeInputNumber } from "@designSystem/ant/QodeInputNumber"
 import QodeSvgI275129581894659 from "@designSystem/icon/svg/QodeSvgI275129581894659"
 import QodeSvgI2751353518945111893019 from "@designSystem/icon/svg/QodeSvgI2751353518945111893019"
 import QodeSvgI275135351894659 from "@designSystem/icon/svg/QodeSvgI275135351894659"
@@ -37,7 +39,7 @@ export const QodeCustom27512955: React.FC<
             }}
           >
             {/* name="🧬 trigger" id="275:12644" type="INSTANCE" */}
-            <Flex
+            <QodeColorPicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -50,40 +52,13 @@ export const QodeCustom27512955: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Color" id="I275:12644;189:2666" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  borderRadius: "var(--style-radius-borderradiussm, 6px)",
-                  background: "var(--color-primary-colorprimary, #1597f4)",
-                }}
-              >
-                {/* name="Color" id=I275:12644;189:2666 type=RECTANGLE */}
-                <></>
-              </Flex>
-              {/* name="Text Wrapper" id="I275:12644;189:2682" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  paddingRight: "var(--size-padding-paddingxxs, 4px)",
-                  alignItems: "center",
-                }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`#1677FF`}</span>
-              </div>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "#1677FF",
+                state: "default",
+                size: "default",
+              }}
+            />
           </div>
         </>
       )}
@@ -100,7 +75,7 @@ export const QodeCustom27512955: React.FC<
             }}
           >
             {/* name="🧬 trigger" id="275:12957" type="INSTANCE" */}
-            <Flex
+            <QodeColorPicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -113,40 +88,13 @@ export const QodeCustom27512955: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Color" id="I275:12957;189:2666" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "24px",
-                  height: "24px",
-                  borderRadius: "var(--style-radius-borderradiussm, 6px)",
-                  background: "var(--color-primary-colorprimary, #1597f4)",
-                }}
-              >
-                {/* name="Color" id=I275:12957;189:2666 type=RECTANGLE */}
-                <></>
-              </Flex>
-              {/* name="Text Wrapper" id="I275:12957;189:2682" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  paddingRight: "var(--size-padding-paddingxxs, 4px)",
-                  alignItems: "center",
-                }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`#1677FF`}</span>
-              </div>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "#1677FF",
+                state: "default",
+                size: "default",
+              }}
+            />
             {/* name="🧬 dropdown menu" id="275:12958" type="INSTANCE" */}
             <Flex
               style={{
@@ -322,7 +270,7 @@ export const QodeCustom27512955: React.FC<
                   >{`1677FF`}</span>
                 </Flex>
                 {/* name="🧬 input number" id="I275:12958;189:4511;189:3005" type="INSTANCE" */}
-                <Flex
+                <QodeInputNumber
                   style={{
                     display: "flex",
                     width: "56px",
@@ -333,33 +281,18 @@ export const QodeCustom27512955: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                >
-                  {/* name="Content" id="I275:12958;189:4511;189:3005;186:3219" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      height: "var(--size-height-controlheightsm, 24px)",
-                      paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "var(--size-padding-paddingxs, 8px)",
-                      flex: "1 0 0",
-                    }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`100%`}</span>
-                  </div>
-                </Flex>
+                  {...{
+                    showPreTab: false,
+                    number: "100%",
+                    prefix: "PRE",
+                    showPostTab: false,
+                    showPrefix: false,
+                    showIconLeft: false,
+                    state: "filled",
+                    status: "default",
+                    size: "small",
+                  }}
+                />
               </Flex>
               {/* name="Arrow" id="I275:12958;189:4659" type="VECTOR" */}
               <QodeSvgI275129581894659
@@ -390,7 +323,7 @@ export const QodeCustom27512955: React.FC<
             }}
           >
             {/* name="🧬 trigger" id="275:13532" type="INSTANCE" */}
-            <Flex
+            <QodeColorPicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -403,39 +336,13 @@ export const QodeCustom27512955: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Color" id="I275:13532;189:2677" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "var(--line-height-lineheighheading3, 32px)",
-                  height: "var(--size-height-controlheight, 32px)",
-                  borderRadius: "var(--style-radius-borderradiussm, 6px)",
-                  background: "var(--color-primary-colorprimary, #1597f4)",
-                }}
-              >
-                {/* name="Color" id=I275:13532;189:2677 type=RECTANGLE */}
-                <></>
-              </Flex>
-              {/* name="Text Wrapper" id="I275:13532;189:2683" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  paddingRight: "var(--size-padding-paddingxxs, 4px)",
-                  alignItems: "center",
-                }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-large, 16px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight: "24px /* 150% */",
-                  }}
-                >{`#1677FF`}</span>
-              </div>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "#1677FF",
+                state: "default",
+                size: "large",
+              }}
+            />
           </div>
         </>
       )}
@@ -452,7 +359,7 @@ export const QodeCustom27512955: React.FC<
             }}
           >
             {/* name="🧬 trigger" id="275:13534" type="INSTANCE" */}
-            <Flex
+            <QodeColorPicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightlg, 40px)",
@@ -465,39 +372,13 @@ export const QodeCustom27512955: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Color" id="I275:13534;189:2677" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "var(--line-height-lineheighheading3, 32px)",
-                  height: "var(--size-height-controlheight, 32px)",
-                  borderRadius: "var(--style-radius-borderradiussm, 6px)",
-                  background: "var(--color-primary-colorprimary, #1597f4)",
-                }}
-              >
-                {/* name="Color" id=I275:13534;189:2677 type=RECTANGLE */}
-                <></>
-              </Flex>
-              {/* name="Text Wrapper" id="I275:13534;189:2683" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  paddingRight: "var(--size-padding-paddingxxs, 4px)",
-                  alignItems: "center",
-                }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-large, 16px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight: "24px /* 150% */",
-                  }}
-                >{`#1677FF`}</span>
-              </div>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "#1677FF",
+                state: "default",
+                size: "large",
+              }}
+            />
             {/* name="🧬 dropdown menu" id="275:13535" type="INSTANCE" */}
             <Flex
               style={{
@@ -673,7 +554,7 @@ export const QodeCustom27512955: React.FC<
                   >{`1677FF`}</span>
                 </Flex>
                 {/* name="🧬 input number" id="I275:13535;189:4511;189:3005" type="INSTANCE" */}
-                <Flex
+                <QodeInputNumber
                   style={{
                     display: "flex",
                     width: "56px",
@@ -684,33 +565,18 @@ export const QodeCustom27512955: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                >
-                  {/* name="Content" id="I275:13535;189:4511;189:3005;186:3219" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      height: "var(--size-height-controlheightsm, 24px)",
-                      paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "var(--size-padding-paddingxs, 8px)",
-                      flex: "1 0 0",
-                    }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`100%`}</span>
-                  </div>
-                </Flex>
+                  {...{
+                    showPreTab: false,
+                    number: "100%",
+                    prefix: "PRE",
+                    showPostTab: false,
+                    showPrefix: false,
+                    showIconLeft: false,
+                    state: "filled",
+                    status: "default",
+                    size: "small",
+                  }}
+                />
               </Flex>
               {/* name="Arrow" id="I275:13535;189:4659" type="VECTOR" */}
               <QodeSvgI275135351894659
@@ -741,7 +607,7 @@ export const QodeCustom27512955: React.FC<
             }}
           >
             {/* name="🧬 trigger" id="275:13633" type="INSTANCE" */}
-            <Flex
+            <QodeColorPicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -754,40 +620,13 @@ export const QodeCustom27512955: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Color" id="I275:13633;189:2680" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "16px",
-                  height: "16px",
-                  borderRadius: "var(--style-radius-borderradiusxs, 4px)",
-                  background: "var(--color-primary-colorprimary, #1597f4)",
-                }}
-              >
-                {/* name="Color" id=I275:13633;189:2680 type=RECTANGLE */}
-                <></>
-              </Flex>
-              {/* name="Text Wrapper" id="I275:13633;189:2685" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  paddingRight: "var(--size-padding-paddingxxs, 4px)",
-                  alignItems: "center",
-                }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`#1677FF`}</span>
-              </div>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "#1677FF",
+                state: "default",
+                size: "small",
+              }}
+            />
           </div>
         </>
       )}
@@ -804,7 +643,7 @@ export const QodeCustom27512955: React.FC<
             }}
           >
             {/* name="🧬 trigger" id="275:13635" type="INSTANCE" */}
-            <Flex
+            <QodeColorPicker
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -817,40 +656,13 @@ export const QodeCustom27512955: React.FC<
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               }}
-            >
-              {/* name="Color" id="I275:13635;189:2680" type="RECTANGLE" */}
-              <Flex
-                style={{
-                  width: "16px",
-                  height: "16px",
-                  borderRadius: "var(--style-radius-borderradiusxs, 4px)",
-                  background: "var(--color-primary-colorprimary, #1597f4)",
-                }}
-              >
-                {/* name="Color" id=I275:13635;189:2680 type=RECTANGLE */}
-                <></>
-              </Flex>
-              {/* name="Text Wrapper" id="I275:13635;189:2685" type="FRAME" */}
-              <div
-                style={{
-                  display: "flex",
-                  paddingRight: "var(--size-padding-paddingxxs, 4px)",
-                  alignItems: "center",
-                }}
-              >
-                <span
-                  style={{
-                    color: "var(--color-neutral-text-colortext, #000)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`#1677FF`}</span>
-              </div>
-            </Flex>
+              {...{
+                showTitle: true,
+                title: "#1677FF",
+                state: "default",
+                size: "small",
+              }}
+            />
             {/* name="🧬 dropdown menu" id="275:13636" type="INSTANCE" */}
             <Flex
               style={{
@@ -1026,7 +838,7 @@ export const QodeCustom27512955: React.FC<
                   >{`1677FF`}</span>
                 </Flex>
                 {/* name="🧬 input number" id="I275:13636;189:4511;189:3005" type="INSTANCE" */}
-                <Flex
+                <QodeInputNumber
                   style={{
                     display: "flex",
                     width: "56px",
@@ -1037,33 +849,18 @@ export const QodeCustom27512955: React.FC<
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "var(--background-bg-white, #fff)",
                   }}
-                >
-                  {/* name="Content" id="I275:13636;189:4511;189:3005;186:3219" type="FRAME" */}
-                  <div
-                    style={{
-                      display: "flex",
-                      height: "var(--size-height-controlheightsm, 24px)",
-                      paddingLeft: "var(--size-padding-paddingxs, 8px)",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "var(--size-padding-paddingxs, 8px)",
-                      flex: "1 0 0",
-                    }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`100%`}</span>
-                  </div>
-                </Flex>
+                  {...{
+                    showPreTab: false,
+                    number: "100%",
+                    prefix: "PRE",
+                    showPostTab: false,
+                    showPrefix: false,
+                    showIconLeft: false,
+                    state: "filled",
+                    status: "default",
+                    size: "small",
+                  }}
+                />
               </Flex>
               {/* name="Arrow" id="I275:13636;189:4659" type="VECTOR" */}
               <QodeSvgI275136361894659

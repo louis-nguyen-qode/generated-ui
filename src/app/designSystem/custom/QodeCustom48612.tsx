@@ -3,13 +3,6 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg475569 from "@designSystem/icon/svg/QodeSvg475569"
-import QodeSvgI475556475444 from "@designSystem/icon/svg/QodeSvgI475556475444"
-import QodeSvgI475558475444 from "@designSystem/icon/svg/QodeSvgI475558475444"
-import QodeSvg48532244 from "@designSystem/icon/svg/QodeSvg48532244"
-import QodeSvgI475605475444 from "@designSystem/icon/svg/QodeSvgI475605475444"
-import QodeSvgI475607475444 from "@designSystem/icon/svg/QodeSvgI475607475444"
-
 export interface QodeCustom48612Props {
   urgent?: boolean
   state?: "default" | "hovered"
@@ -75,7 +68,7 @@ export const QodeCustom48612: React.FC<
                   }}
                 >{`Sales Consultant`}</span>
                 {/* name="arrow-up-right" id="47:5569" type="INSTANCE" */}
-                <QodeSvg475569
+                <Icon.QodeArrowUpRight
                   style={{ width: "24px", height: "24px" }}
                   {...{}}
                 />
@@ -231,7 +224,7 @@ export const QodeCustom48612: React.FC<
                   }}
                 >
                   {/* name="heart" id="I47:5556;47:5444" type="INSTANCE" */}
-                  <QodeSvgI475556475444
+                  <Icon.QodeHeart
                     style={{ width: "16px", height: "16px" }}
                     {...{}}
                   />
@@ -271,7 +264,7 @@ export const QodeCustom48612: React.FC<
                   }}
                 >
                   {/* name="video" id="I47:5558;47:5444" type="INSTANCE" */}
-                  <QodeSvgI475558475444
+                  <Icon.QodeVideo
                     style={{ width: "16px", height: "16px" }}
                     {...{}}
                   />
@@ -361,7 +354,7 @@ export const QodeCustom48612: React.FC<
                   }}
                 >{`Sales Consultant`}</span>
                 {/* name="arrow-up-right" id="485:32244" type="INSTANCE" */}
-                <QodeSvg48532244
+                <Icon.QodeArrowUpRight
                   style={{ width: "24px", height: "24px" }}
                   {...{}}
                 />
@@ -519,7 +512,7 @@ export const QodeCustom48612: React.FC<
                   }}
                 >
                   {/* name="heart" id="I47:5605;47:5444" type="INSTANCE" */}
-                  <QodeSvgI475605475444
+                  <Icon.QodeHeart
                     style={{ width: "16px", height: "16px" }}
                     {...{}}
                   />
@@ -559,7 +552,7 @@ export const QodeCustom48612: React.FC<
                   }}
                 >
                   {/* name="video" id="I47:5607;47:5444" type="INSTANCE" */}
-                  <QodeSvgI475607475444
+                  <Icon.QodeVideo
                     style={{ width: "16px", height: "16px" }}
                     {...{}}
                   />

@@ -3,9 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI11362281143100 from "@designSystem/icon/svg/QodeSvgI11362281143100"
-import QodeSvgI11362451143100 from "@designSystem/icon/svg/QodeSvgI11362451143100"
-import QodeSvgI292189021143100 from "@designSystem/icon/svg/QodeSvgI292189021143100"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom1136232Props {
   showRight?: boolean
@@ -74,7 +72,7 @@ export const QodeCustom1136232: React.FC<
               >{`Heading`}</span>
             </div>
             {/* name="Button" id="113:6228" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "32px",
@@ -90,13 +88,21 @@ export const QodeCustom1136232: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="chevron-left" id="I113:6228;114:3100" type="INSTANCE" */}
-              <QodeSvgI11362281143100
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                onlyIcon: <Icon.QodeChevronLeft />,
+                buttonname: "Source new job",
+                iconRight: false,
+                selectIconLeft: <Icon.QodePlus />,
+                iconLeft: true,
+                type: "default",
+                size: "default",
+                state: "default",
+                content: "icon",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -130,7 +136,7 @@ export const QodeCustom1136232: React.FC<
               }}
             >{`Heading`}</span>
             {/* name="Button" id="113:6245" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "32px",
@@ -146,15 +152,23 @@ export const QodeCustom1136232: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="chevron-left" id="I113:6245;114:3100" type="INSTANCE" */}
-              <QodeSvgI11362451143100
-                style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                {...{}}
-              />
-            </Flex>
+              {...{
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                onlyIcon: <Icon.QodeChevronLeft />,
+                buttonname: "Source new job",
+                iconRight: false,
+                selectIconLeft: <Icon.QodePlus />,
+                iconLeft: true,
+                type: "default",
+                size: "default",
+                state: "default",
+                content: "icon",
+                danger: false,
+                ghost: false,
+              }}
+            />
             {/* name="Button" id="292:18545" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 width: "32px",
@@ -170,33 +184,21 @@ export const QodeCustom1136232: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               }}
-            >
-              {/* name="chevron-left" id="I292:18545;114:3100" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "2.398px 5.598px 2.398px 4.001px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  flexShrink: "0",
-                }}
-              >
-                {/* name="Vector" id="I292:18545;114:3100;2828:1370" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "6.401px",
-                    height: "11.204px",
-                    flexShrink: "0",
-                    fill: "var(--neutral-gray-95, #383838)",
-                  }}
-                >
-                  {/* name="Vector" id=I292:18545;114:3100;2828:1370 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </Flex>
+              {...{
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                onlyIcon: <Icon.QodeChevronLeft />,
+                buttonname: "Source new job",
+                iconRight: false,
+                selectIconLeft: <Icon.QodePlus />,
+                iconLeft: true,
+                type: "default",
+                size: "default",
+                state: "default",
+                content: "icon",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -221,7 +223,7 @@ export const QodeCustom1136232: React.FC<
             {/* name="Frame 37336" id="292:18911" type="FRAME" */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               {/* name="Button" id="292:18902" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   width: "32px",
@@ -236,13 +238,21 @@ export const QodeCustom1136232: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-              >
-                {/* name="chevron-left" id="I292:18902;114:3100" type="INSTANCE" */}
-                <QodeSvgI292189021143100
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  onlyIcon: <Icon.QodeChevronLeft />,
+                  buttonname: "Source new job",
+                  iconRight: false,
+                  selectIconLeft: <Icon.QodePlus />,
+                  iconLeft: true,
+                  type: "default",
+                  size: "default",
+                  state: "default",
+                  content: "icon",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
               {/* name="Title" id="292:18908" type="FRAME" */}
               <div
                 style={{
@@ -280,7 +290,7 @@ export const QodeCustom1136232: React.FC<
               </div>
             </div>
             {/* name="Button" id="292:18912" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheight, 32px)",
@@ -292,68 +302,21 @@ export const QodeCustom1136232: React.FC<
                 border: "1px solid var(--border-border-primary-30, #107ecc)",
                 background: "var(--background-bg-primary, #1597f4)",
               }}
-            >
-              {/* name="🎰 icon" id="I292:18912;35:13236" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "1.599px 1.599px 1.599px 1.6px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                {/* name="Vector" id="I292:18912;35:13236;2828:3516" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "12.801px",
-                    height: "12.803px",
-                    flexShrink: "0",
-                    fill: "var(--background-bg-white, #fff)",
-                  }}
-                >
-                  {/* name="Vector" id=I292:18912;35:13236;2828:3516 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-              <span
-                style={{
-                  color: "var(--text-text-white, #fff)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Button`}</span>
-              {/* name="🎰 icon" id="I292:18912;2906:15123" type="INSTANCE" */}
-              <Flex
-                style={{
-                  display: "flex",
-                  width: "16px",
-                  height: "16px",
-                  padding: "1.6px 1.601px 1.598px 1.6px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                {/* name="Vector" id="I292:18912;2906:15123;2828:3908" type="VECTOR" */}
-                <Flex
-                  style={{
-                    width: "12.799px",
-                    height: "12.802px",
-                    flexShrink: "0",
-                    fill: "var(--background-bg-white, #fff)",
-                  }}
-                >
-                  {/* name="Vector" id=I292:18912;2906:15123;2828:3908 type=VECTOR */}
-                  <></>
-                </Flex>
-              </Flex>
-            </Flex>
+              {...{
+                selectIconLeft: <Icon.QodeIcons />,
+                buttonname: "Button",
+                selectIconRight: <Icon.QodeMagnifyingGlass />,
+                iconRight: false,
+                iconLeft: false,
+                onlyIcon: <Icon.QodeMagnifyingGlass />,
+                type: "primary",
+                size: "default",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}

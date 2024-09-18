@@ -4,22 +4,12 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvg312610382 from "@designSystem/icon/svg/QodeSvg312610382"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 import QodeSvg312610392 from "@designSystem/icon/svg/QodeSvg312610392"
 import QodeSvg312610403 from "@designSystem/icon/svg/QodeSvg312610403"
 import QodeSvg312610414 from "@designSystem/icon/svg/QodeSvg312610414"
-import QodeSvgI312610739562546063 from "@designSystem/icon/svg/QodeSvgI312610739562546063"
-import QodeSvgI312610740562546063 from "@designSystem/icon/svg/QodeSvgI312610740562546063"
-import QodeSvgI312610833562546063 from "@designSystem/icon/svg/QodeSvgI312610833562546063"
-import QodeSvgI312610839562546063 from "@designSystem/icon/svg/QodeSvgI312610839562546063"
-import QodeSvgI312610845562546063 from "@designSystem/icon/svg/QodeSvgI312610845562546063"
-import QodeSvgI312610851562546063 from "@designSystem/icon/svg/QodeSvgI312610851562546063"
+import { QodeTag } from "@designSystem/ant/QodeTag"
 import QodeSvg312610424 from "@designSystem/icon/svg/QodeSvg312610424"
-import QodeSvgI312610781562546063 from "@designSystem/icon/svg/QodeSvgI312610781562546063"
-import QodeSvgI312610782562546063 from "@designSystem/icon/svg/QodeSvgI312610782562546063"
-import QodeSvgI312610857562546063 from "@designSystem/icon/svg/QodeSvgI312610857562546063"
-import QodeSvgI312610863562546063 from "@designSystem/icon/svg/QodeSvgI312610863562546063"
-import QodeSvgI312610869562546063 from "@designSystem/icon/svg/QodeSvgI312610869562546063"
-import QodeSvgI312610875562546063 from "@designSystem/icon/svg/QodeSvgI312610875562546063"
 import QodeSvg312610434 from "@designSystem/icon/svg/QodeSvg312610434"
 
 export interface QodeCustom312610322Props {
@@ -92,7 +82,7 @@ export const QodeCustom312610322: React.FC<
               }}
             >
               {/* name="Button" id="3126:10386" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightsm, 24px)",
@@ -102,36 +92,22 @@ export const QodeCustom312610322: React.FC<
                   gap: "4px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
-              >
-                {/* name="🎰 icon" id="I3126:10386;114:1876" type="INSTANCE" */}
-                <Icon.QodeArrowsRotateReverse
-                  style={{
-                    display: "flex",
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    padding: "2.099px 1.757px 2.101px 1.748px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-primary-30, #158de2)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`Rewrite`}</span>
-              </Flex>
+                {...{
+                  iconRight: false,
+                  buttonname: "Rewrite",
+                  iconLeft: true,
+                  type: "link",
+                  size: "small",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
               {/* name="vote" id="3126:10387" type="FRAME" */}
               <div style={{ display: "flex", alignItems: "flex-start" }}>
                 {/* name="Button" id="3126:10388" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -142,23 +118,20 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10388;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsUp
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.099px 1.4px 2.1px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
                 {/* name="Button" id="3126:10389" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -169,21 +142,18 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10389;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsDown
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.1px 1.4px 2.099px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </div>
           </div>
@@ -247,7 +217,7 @@ export const QodeCustom312610322: React.FC<
               }}
             >
               {/* name="Button" id="3126:10396" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightsm, 24px)",
@@ -257,36 +227,22 @@ export const QodeCustom312610322: React.FC<
                   gap: "4px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
-              >
-                {/* name="🎰 icon" id="I3126:10396;114:1876" type="INSTANCE" */}
-                <Icon.QodeArrowsRotateReverse
-                  style={{
-                    display: "flex",
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    padding: "2.099px 1.757px 2.101px 1.748px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-primary-30, #158de2)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`Rewrite`}</span>
-              </Flex>
+                {...{
+                  iconRight: false,
+                  buttonname: "Rewrite",
+                  iconLeft: true,
+                  type: "link",
+                  size: "small",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
               {/* name="vote" id="3126:10397" type="FRAME" */}
               <div style={{ display: "flex", alignItems: "flex-start" }}>
                 {/* name="Button" id="3126:10398" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -297,23 +253,20 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10398;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsUp
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.099px 1.4px 2.1px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
                 {/* name="Button" id="3126:10399" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -324,21 +277,18 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10399;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsDown
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.1px 1.4px 2.099px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </div>
           </div>
@@ -416,7 +366,7 @@ export const QodeCustom312610322: React.FC<
               }}
             >
               {/* name="Button" id="3126:10407" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightsm, 24px)",
@@ -426,36 +376,22 @@ export const QodeCustom312610322: React.FC<
                   gap: "4px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
-              >
-                {/* name="🎰 icon" id="I3126:10407;114:1876" type="INSTANCE" */}
-                <Icon.QodeArrowsRotateReverse
-                  style={{
-                    display: "flex",
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    padding: "2.099px 1.757px 2.101px 1.748px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-primary-30, #158de2)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`Rewrite`}</span>
-              </Flex>
+                {...{
+                  iconRight: false,
+                  buttonname: "Rewrite",
+                  iconLeft: true,
+                  type: "link",
+                  size: "small",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
               {/* name="vote" id="3126:10408" type="FRAME" */}
               <div style={{ display: "flex", alignItems: "flex-start" }}>
                 {/* name="Button" id="3126:10409" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -466,23 +402,20 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10409;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsUp
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.099px 1.4px 2.1px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
                 {/* name="Button" id="3126:10410" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -493,21 +426,18 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10410;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsDown
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.1px 1.4px 2.099px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </div>
           </div>
@@ -572,7 +502,7 @@ export const QodeCustom312610322: React.FC<
               }}
             >
               {/* name="Button" id="3126:10418" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightsm, 24px)",
@@ -582,36 +512,22 @@ export const QodeCustom312610322: React.FC<
                   gap: "4px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
-              >
-                {/* name="🎰 icon" id="I3126:10418;114:1876" type="INSTANCE" */}
-                <Icon.QodeArrowsRotateReverse
-                  style={{
-                    display: "flex",
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    padding: "2.099px 1.757px 2.101px 1.748px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-primary-30, #158de2)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`Rewrite`}</span>
-              </Flex>
+                {...{
+                  iconRight: false,
+                  buttonname: "Rewrite",
+                  iconLeft: true,
+                  type: "link",
+                  size: "small",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
               {/* name="vote" id="3126:10419" type="FRAME" */}
               <div style={{ display: "flex", alignItems: "flex-start" }}>
                 {/* name="Button" id="3126:10420" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -622,23 +538,20 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10420;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsUp
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.099px 1.4px 2.1px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
                 {/* name="Button" id="3126:10421" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -649,21 +562,18 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10421;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsDown
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.1px 1.4px 2.099px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </div>
             {/* name="tags" id="3126:10738" type="FRAME" */}
@@ -679,7 +589,7 @@ export const QodeCustom312610322: React.FC<
               }}
             >
               {/* name="Tag" id="3126:10739" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -691,26 +601,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10739;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610739562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10740" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -722,26 +622,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10740;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610740562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10833" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -753,26 +643,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10833;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610833562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10839" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -784,26 +664,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10839;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610839562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10845" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -815,26 +685,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10845;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610845562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10851" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -846,24 +706,14 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10851;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610851562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               <span
                 style={{
                   flex: "1 0 0",
@@ -925,7 +775,7 @@ export const QodeCustom312610322: React.FC<
               }}
             >
               {/* name="Button" id="3126:10428" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightsm, 24px)",
@@ -935,36 +785,22 @@ export const QodeCustom312610322: React.FC<
                   gap: "4px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
                 }}
-              >
-                {/* name="🎰 icon" id="I3126:10428;114:1876" type="INSTANCE" */}
-                <Icon.QodeArrowsRotateReverse
-                  style={{
-                    display: "flex",
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    padding: "2.099px 1.757px 2.101px 1.748px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                  {...{}}
-                />
-                <span
-                  style={{
-                    color: "var(--text-text-primary-30, #158de2)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`Rewrite`}</span>
-              </Flex>
+                {...{
+                  iconRight: false,
+                  buttonname: "Rewrite",
+                  iconLeft: true,
+                  type: "link",
+                  size: "small",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
               {/* name="vote" id="3126:10429" type="FRAME" */}
               <div style={{ display: "flex", alignItems: "flex-start" }}>
                 {/* name="Button" id="3126:10430" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -975,23 +811,20 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10430;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsUp
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.099px 1.4px 2.1px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
                 {/* name="Button" id="3126:10431" type="INSTANCE" */}
-                <Flex
+                <QodeButton
                   style={{
                     display: "flex",
                     width: "24px",
@@ -1002,21 +835,18 @@ export const QodeCustom312610322: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                   }}
-                >
-                  {/* name="🎰 icon" id="I3126:10431;114:3136" type="INSTANCE" */}
-                  <Icon.QodeThumbsDown
-                    style={{
-                      display: "flex",
-                      width: "var(--font-size-base, 14px)",
-                      height: "var(--font-size-base, 14px)",
-                      padding: "2.1px 1.4px 2.099px 1.4px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      flexShrink: "0",
-                    }}
-                    {...{}}
-                  />
-                </Flex>
+                  {...{
+                    iconLeft: false,
+                    buttonname: "Rewrite",
+                    iconRight: false,
+                    type: "text",
+                    size: "small",
+                    state: "default",
+                    content: "icon",
+                    danger: false,
+                    ghost: false,
+                  }}
+                />
               </div>
             </div>
             {/* name="tags" id="3126:10780" type="FRAME" */}
@@ -1032,7 +862,7 @@ export const QodeCustom312610322: React.FC<
               }}
             >
               {/* name="Tag" id="3126:10781" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -1044,26 +874,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10781;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610781562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10782" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -1075,26 +895,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10782;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610782562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10857" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -1106,26 +916,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10857;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610857562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10863" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -1137,26 +937,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10863;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610863562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10869" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -1168,26 +958,16 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10869;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610869562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
               {/* name="Tag" id="3126:10875" type="INSTANCE" */}
-              <Flex
+              <QodeTag
                 style={{
                   display: "flex",
                   height: "30px",
@@ -1199,24 +979,14 @@ export const QodeCustom312610322: React.FC<
                     "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 }}
-              >
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "500",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Tag`}</span>
-                {/* name="xmark" id="I3126:10875;5625:46063" type="INSTANCE" */}
-                <QodeSvgI312610875562546063
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  showRIcon: true,
+                  color: "primary",
+                  state: "default",
+                  size: "Default",
+                  rounded: "False",
+                }}
+              />
             </div>
           </div>
         </>

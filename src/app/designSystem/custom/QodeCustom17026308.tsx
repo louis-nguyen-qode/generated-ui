@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeSelect } from "@designSystem/ant/QodeSelect"
+
 export interface QodeCustom17026308Props {
   active?: "false" | "true"
   size?: "default" | "large" | "small"
@@ -242,7 +244,7 @@ export const QodeCustom17026308: React.FC<
               }}
             >
               {/* name="🧬 item 1" id="I170:26301;170:23924" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -253,22 +255,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 2" id="I170:26301;170:23925" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -279,22 +269,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 3" id="I170:26301;170:23926" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -305,22 +283,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 4" id="I170:26301;170:23930" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -331,20 +297,8 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
             </Flex>
           </div>
         </>
@@ -424,7 +378,7 @@ export const QodeCustom17026308: React.FC<
               }}
             >
               {/* name="🧬 item 1" id="I170:26311;170:23924" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -435,22 +389,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 2" id="I170:26311;170:23925" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -461,22 +403,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 3" id="I170:26311;170:23926" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -487,22 +417,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 4" id="I170:26311;170:23930" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -513,20 +431,8 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
             </Flex>
           </div>
         </>
@@ -607,7 +513,7 @@ export const QodeCustom17026308: React.FC<
               }}
             >
               {/* name="🧬 item 1" id="I170:26321;170:23924" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -618,22 +524,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 2" id="I170:26321;170:23925" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -644,22 +538,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 3" id="I170:26321;170:23926" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -670,22 +552,10 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
               {/* name="🧬 item 4" id="I170:26321;170:23930" type="INSTANCE" */}
-              <Flex
+              <QodeSelect
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheight, 32px)",
@@ -696,20 +566,8 @@ export const QodeCustom17026308: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                 }}
-              >
-                <span
-                  style={{
-                    flex: "1 0 0",
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-base, 14px)",
-                    fontStyle: "normal",
-                    fontWeight: "400",
-                    lineHeight:
-                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                  }}
-                >{`Select menu item`}</span>
-              </Flex>
+                {...{ title: "Select menu item", state: "default" }}
+              />
             </Flex>
           </div>
         </>

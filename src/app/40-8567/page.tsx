@@ -3,12 +3,9 @@ import React from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI40856863531404 from "@designSystem/icon/svg/QodeSvgI40856863531404"
+import { QodeCustom61606 } from "@designSystem/custom/QodeCustom61606"
 import { QodeCustom433 } from "@designSystem/custom/QodeCustom433"
-import QodeSvgI408568130995007119191143115 from "@designSystem/icon/svg/QodeSvgI408568130995007119191143115"
-import QodeSvgI408568131005007119191143115 from "@designSystem/icon/svg/QodeSvgI408568131005007119191143115"
-import QodeSvgI4387301143100 from "@designSystem/icon/svg/QodeSvgI4387301143100"
-import QodeSvg438733 from "@designSystem/icon/svg/QodeSvg438733"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 import { QodeCustom438720 } from "@designSystem/custom/QodeCustom438720"
 import { QodeCustom588089 } from "@designSystem/custom/QodeCustom588089"
 import { QodeCustom43430029 } from "@designSystem/custom/QodeCustom43430029"
@@ -58,7 +55,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
             }}
           >
             {/* name="logo" id="I40:8568;635:31404" type="INSTANCE" */}
-            <QodeSvgI40856863531404
+            <QodeCustom61606
               style={{ width: "40px", height: "40px" }}
               {...{
                 type: "Default",
@@ -90,7 +87,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
               }}
-              {...{ state: "Default" }}
+              {...{ icon: <Icon.QodeCube />, state: "Default" }}
             />
             {/* name="Navbar/Menu" id="I40:8568;16:5813" type="INSTANCE" */}
             <QodeCustom433
@@ -102,7 +99,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
               }}
-              {...{ state: "Active" }}
+              {...{ icon: <Icon.QodeBriefcase />, state: "Active" }}
             />
             {/* name="Navbar/Menu" id="I40:8568;4:54" type="INSTANCE" */}
             <QodeCustom433
@@ -114,7 +111,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
               }}
-              {...{ state: "Default" }}
+              {...{ icon: <Icon.QodeUserGroup />, state: "Default" }}
             />
             {/* name="Navbar/Menu" id="I40:8568;4:95" type="INSTANCE" */}
             <QodeCustom433
@@ -126,7 +123,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                 alignItems: "center",
                 gap: "var(--size-size-sizexxs-6px, 6px)",
               }}
-              {...{ state: "Default" }}
+              {...{ icon: <Icon.QodeVideo />, state: "Default" }}
             />
           </div>
           {/* name="Btm" id="I40:8568;1:3098" type="FRAME" */}
@@ -151,7 +148,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
               }}
             >
               {/* name="Button" id="I40:8568;1:3099;5007:11919" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightlg, 40px)",
@@ -166,13 +163,19 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                   background:
                     "var(--color-gold-purple-colorgoldpurplebg, #f9f0ff)",
                 }}
-              >
-                {/* name="🎰 icon" id="I40:8568;1:3099;5007:11919;114:3115" type="INSTANCE" */}
-                <QodeSvgI408568130995007119191143115
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  icononly: "630:15277",
+                  iconR: <Icon.QodeMagnifyingGlass />,
+                  title: "Button",
+                  iconL: false,
+                  type: "default",
+                  size: "large",
+                  state: "default",
+                  content: "icon",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </Flex>
             {/* name="Profile" id="I40:8568;1:3100" type="INSTANCE" */}
             <Flex
@@ -186,7 +189,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
               }}
             >
               {/* name="Button" id="I40:8568;1:3100;5007:11919" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   height: "var(--size-height-controlheightlg, 40px)",
@@ -201,13 +204,19 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 }}
-              >
-                {/* name="user" id="I40:8568;1:3100;5007:11919;114:3115" type="INSTANCE" */}
-                <QodeSvgI408568131005007119191143115
-                  style={{ width: "16px", height: "16px" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  icononly: <Icon.QodeUser />,
+                  iconR: <Icon.QodeMagnifyingGlass />,
+                  title: "Button",
+                  iconL: false,
+                  type: "default",
+                  size: "large",
+                  state: "default",
+                  content: "icon",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </Flex>
           </div>
         </Flex>
@@ -241,7 +250,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
             {/* name="Wrap" id="43:8729" type="FRAME" */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
               {/* name="Button" id="43:8730" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   width: "32px",
@@ -256,13 +265,21 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-              >
-                {/* name="chevron-left" id="I43:8730;114:3100" type="INSTANCE" */}
-                <QodeSvgI4387301143100
-                  style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                  {...{}}
-                />
-              </Flex>
+                {...{
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  onlyIcon: <Icon.QodeChevronLeft />,
+                  buttonname: "Source new job",
+                  iconRight: false,
+                  selectIconLeft: <Icon.QodePlus />,
+                  iconLeft: true,
+                  type: "default",
+                  size: "default",
+                  state: "default",
+                  content: "icon",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
               {/* name="Title" id="43:8731" type="FRAME" */}
               <div
                 style={{ display: "flex", alignItems: "center", gap: "4px" }}
@@ -281,13 +298,13 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                   }}
                 >{`Senior Software Developer `}</span>
                 {/* name="angle-down" id="43:8733" type="INSTANCE" */}
-                <QodeSvg438733
+                <Icon.QodeAngleDown
                   style={{ width: "20px", height: "20px" }}
                   {...{}}
                 />
               </div>
               {/* name="Button" id="43:8734" type="INSTANCE" */}
-              <Flex
+              <QodeButton
                 style={{
                   display: "flex",
                   width: "70px",
@@ -301,70 +318,21 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({ ...rest }) => {
                     "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 }}
-              >
-                {/* name="🎰 icon" id="I43:8734;114:1867" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    padding: "1.399px 1.399px 1.399px 1.4px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                >
-                  {/* name="Vector" id="I43:8734;114:1867;2828:3516" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "11.201px",
-                      height: "11.202px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-text-colortext, #000)",
-                    }}
-                  >
-                    {/* name="Vector" id=I43:8734;114:1867;2828:3516 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-                <span
-                  style={{
-                    color: "var(--text-text-neutral-50, #1d1d1d)",
-                    textAlign: "center",
-                    fontFamily: 'var(--family-family, "sf pro display")',
-                    fontSize: "var(--size-small, 12px)",
-                    fontStyle: "normal",
-                    fontWeight: "700",
-                    lineHeight:
-                      "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                  }}
-                >{`View JD`}</span>
-                {/* name="🎰 icon" id="I43:8734;2906:15522" type="INSTANCE" */}
-                <Flex
-                  style={{
-                    display: "flex",
-                    width: "var(--font-size-base, 14px)",
-                    height: "var(--font-size-base, 14px)",
-                    padding: "1.4px 1.401px 1.398px 1.4px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexShrink: "0",
-                  }}
-                >
-                  {/* name="Vector" id="I43:8734;2906:15522;2828:3908" type="VECTOR" */}
-                  <Flex
-                    style={{
-                      width: "11.199px",
-                      height: "11.202px",
-                      flexShrink: "0",
-                      fill: "var(--color-neutral-text-colortext, #000)",
-                    }}
-                  >
-                    {/* name="Vector" id=I43:8734;2906:15522;2828:3908 type=VECTOR */}
-                    <></>
-                  </Flex>
-                </Flex>
-              </Flex>
+                {...{
+                  selectIconRight: <Icon.QodeMagnifyingGlass />,
+                  onlyIcon: <Icon.QodeMagnifyingGlass />,
+                  iconRight: false,
+                  buttonname: "View JD",
+                  selectIconLeft: <Icon.QodeIcons />,
+                  iconLeft: false,
+                  type: "default",
+                  size: "small",
+                  state: "default",
+                  content: "default",
+                  danger: false,
+                  ghost: false,
+                }}
+              />
             </div>
             {/* name="Special button/Shortlist" id="433:23549" type="INSTANCE" */}
             <QodeCustom438720

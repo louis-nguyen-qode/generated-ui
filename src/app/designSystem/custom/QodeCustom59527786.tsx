@@ -3,47 +3,10 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvgI590303471143100 from "@designSystem/icon/svg/QodeSvgI590303471143100"
-import QodeSvg59030352 from "@designSystem/icon/svg/QodeSvg59030352"
-import QodeSvg59030356 from "@designSystem/icon/svg/QodeSvg59030356"
-import QodeSvg59030360 from "@designSystem/icon/svg/QodeSvg59030360"
-import QodeSvgI590303633513236 from "@designSystem/icon/svg/QodeSvgI590303633513236"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 import QodeSvgI6023516960235089 from "@designSystem/icon/svg/QodeSvgI6023516960235089"
-import QodeSvgI60235169602356501141808 from "@designSystem/icon/svg/QodeSvgI60235169602356501141808"
-import QodeSvgI602357681141808 from "@designSystem/icon/svg/QodeSvgI602357681141808"
-import QodeSvgI5903039429615486 from "@designSystem/icon/svg/QodeSvgI5903039429615486"
-import QodeSvgI5903039529615494 from "@designSystem/icon/svg/QodeSvgI5903039529615494"
-import QodeSvgI5903039629615494 from "@designSystem/icon/svg/QodeSvgI5903039629615494"
-import QodeSvgI602372811143100 from "@designSystem/icon/svg/QodeSvgI602372811143100"
-import QodeSvgI602373051143100 from "@designSystem/icon/svg/QodeSvgI602373051143100"
-import QodeSvgI602373251143100 from "@designSystem/icon/svg/QodeSvgI602373251143100"
-import QodeSvgI595277921143100 from "@designSystem/icon/svg/QodeSvgI595277921143100"
-import QodeSvg59527797 from "@designSystem/icon/svg/QodeSvg59527797"
-import QodeSvg59527801 from "@designSystem/icon/svg/QodeSvg59527801"
-import QodeSvg59527805 from "@designSystem/icon/svg/QodeSvg59527805"
-import QodeSvgI595278083513236 from "@designSystem/icon/svg/QodeSvgI595278083513236"
 import QodeSvgI6023774060235089 from "@designSystem/icon/svg/QodeSvgI6023774060235089"
-import QodeSvgI60237740602356501141808 from "@designSystem/icon/svg/QodeSvgI60237740602356501141808"
-import QodeSvgI602377451141808 from "@designSystem/icon/svg/QodeSvgI602377451141808"
-import QodeSvgI5952783929615494 from "@designSystem/icon/svg/QodeSvgI5952783929615494"
-import QodeSvgI5952784029615486 from "@designSystem/icon/svg/QodeSvgI5952784029615486"
-import QodeSvgI5952784129615494 from "@designSystem/icon/svg/QodeSvgI5952784129615494"
-import QodeSvg59828435 from "@designSystem/icon/svg/QodeSvg59828435"
-import QodeSvg59828425 from "@designSystem/icon/svg/QodeSvg59828425"
-import QodeSvgI602376221143100 from "@designSystem/icon/svg/QodeSvgI602376221143100"
-import QodeSvgI598285241143100 from "@designSystem/icon/svg/QodeSvgI598285241143100"
-import QodeSvg59828529 from "@designSystem/icon/svg/QodeSvg59828529"
-import QodeSvg59828533 from "@designSystem/icon/svg/QodeSvg59828533"
-import QodeSvg59828537 from "@designSystem/icon/svg/QodeSvg59828537"
-import QodeSvgI598285403513236 from "@designSystem/icon/svg/QodeSvgI598285403513236"
 import QodeSvgI6023789960235089 from "@designSystem/icon/svg/QodeSvgI6023789960235089"
-import QodeSvgI60237899602356501141808 from "@designSystem/icon/svg/QodeSvgI60237899602356501141808"
-import QodeSvgI602379041141808 from "@designSystem/icon/svg/QodeSvgI602379041141808"
-import QodeSvgI5982857129615494 from "@designSystem/icon/svg/QodeSvgI5982857129615494"
-import QodeSvgI5982857229615494 from "@designSystem/icon/svg/QodeSvgI5982857229615494"
-import QodeSvgI5982857329615486 from "@designSystem/icon/svg/QodeSvgI5982857329615486"
-import QodeSvg59833751 from "@designSystem/icon/svg/QodeSvg59833751"
-import QodeSvgI602376831143100 from "@designSystem/icon/svg/QodeSvgI602376831143100"
 
 export interface QodeCustom59527786Props {
   property_1?: "Default" | "Variant2" | "Variant3"
@@ -111,7 +74,7 @@ export const QodeCustom59527786: React.FC<
                     }}
                   >
                     {/* name="Button" id="590:30347" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "32px",
@@ -126,17 +89,21 @@ export const QodeCustom59527786: React.FC<
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="chevron-left" id="I590:30347;114:3100" type="INSTANCE" */}
-                      <QodeSvgI590303471143100
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                    </Flex>
+                      {...{
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        onlyIcon: <Icon.QodeChevronLeft />,
+                        buttonname: "Source new job",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePlus />,
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                     {/* name="Wrap" id="590:30348" type="FRAME" */}
                     <div
                       style={{
@@ -175,7 +142,7 @@ export const QodeCustom59527786: React.FC<
                           }}
                         >
                           {/* name="briefcase" id="590:30352" type="INSTANCE" */}
-                          <QodeSvg59030352
+                          <Icon.QodeBriefcase
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -197,7 +164,7 @@ export const QodeCustom59527786: React.FC<
                             }}
                           >{`Technical Consultant`}</span>
                           {/* name="iconLeft" id="590:30354" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -206,20 +173,8 @@ export const QodeCustom59527786: React.FC<
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I590:30354;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I590:30354;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                         {/* name="itemInfo" id="590:30355" type="FRAME" */}
                         <div
@@ -230,7 +185,7 @@ export const QodeCustom59527786: React.FC<
                           }}
                         >
                           {/* name="calendar-days" id="590:30356" type="INSTANCE" */}
-                          <QodeSvg59030356
+                          <Icon.QodeCalendarDays
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -252,7 +207,7 @@ export const QodeCustom59527786: React.FC<
                             }}
                           >{`Jun 24, 2024 - 10:30 AM`}</span>
                           {/* name="iconLeft" id="590:30358" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -261,20 +216,8 @@ export const QodeCustom59527786: React.FC<
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I590:30358;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I590:30358;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                         {/* name="itemInfo" id="590:30359" type="FRAME" */}
                         <div
@@ -285,7 +228,7 @@ export const QodeCustom59527786: React.FC<
                           }}
                         >
                           {/* name="clock-rotate-left" id="590:30360" type="INSTANCE" */}
-                          <QodeSvg59030360
+                          <Icon.QodeClockRotateLeft
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -307,7 +250,7 @@ export const QodeCustom59527786: React.FC<
                             }}
                           >{`38 minutes 28 seconds`}</span>
                           {/* name="iconLeft" id="590:30362" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -316,26 +259,14 @@ export const QodeCustom59527786: React.FC<
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I590:30362;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I590:30362;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                       </div>
                     </div>
                   </div>
                   {/* name="Button" id="590:30363" type="INSTANCE" */}
-                  <Flex
+                  <QodeButton
                     style={{
                       display: "flex",
                       height: "var(--size-height-controlheight, 32px)",
@@ -348,49 +279,21 @@ export const QodeCustom59527786: React.FC<
                         "1px solid var(--border-border-primary-30, #107ecc)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="link-simple" id="I590:30363;35:13236" type="INSTANCE" */}
-                    <QodeSvgI590303633513236
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`Share report`}</span>
-                    {/* name="🎰 icon" id="I590:30363;2906:15123" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "16px",
-                        height: "16px",
-                        padding: "1.6px 1.601px 1.598px 1.6px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
-                      {/* name="Vector" id="I590:30363;2906:15123;2828:3908" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "12.799px",
-                          height: "12.802px",
-                          flexShrink: "0",
-                          fill: "var(--background-bg-white, #fff)",
-                        }}
-                      >
-                        {/* name="Vector" id=I590:30363;2906:15123;2828:3908 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
+                    {...{
+                      onlyIcon: <Icon.QodeMagnifyingGlass />,
+                      iconLeft: true,
+                      iconRight: false,
+                      buttonname: "Share report",
+                      selectIconRight: <Icon.QodeMagnifyingGlass />,
+                      selectIconLeft: <Icon.QodeLinkSimple />,
+                      type: "primary",
+                      size: "default",
+                      state: "default",
+                      content: "default",
+                      danger: false,
+                      ghost: false,
+                    }}
+                  />
                 </div>
                 {/* name="scoreOverall" id="590:30364" type="FRAME" */}
                 <div
@@ -518,7 +421,7 @@ export const QodeCustom59527786: React.FC<
                       </div>
                     </div>
                     {/* name="Button" id="I602:35169;602:35650" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "80px",
@@ -532,54 +435,21 @@ export const QodeCustom59527786: React.FC<
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="pencil" id="I602:35169;602:35650;114:1808" type="INSTANCE" */}
-                      <QodeSvgI60235169602356501141808
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                      <span
-                        style={{
-                          color: "var(--text-text-neutral-50, #1d1d1d)",
-                          textAlign: "center",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-base, 14px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                        }}
-                      >{`Edit`}</span>
-                      {/* name="🎰 icon" id="I602:35169;602:35650;2906:15520" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          width: "16px",
-                          height: "16px",
-                          padding: "1.6px 1.601px 1.598px 1.6px",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          flexShrink: "0",
-                        }}
-                      >
-                        {/* name="Vector" id="I602:35169;602:35650;2906:15520;2828:3908" type="VECTOR" */}
-                        <Flex
-                          style={{
-                            width: "12.799px",
-                            height: "12.802px",
-                            flexShrink: "0",
-                            fill: "var(--color-neutral-text-colortext, #000)",
-                          }}
-                        >
-                          {/* name="Vector" id=I602:35169;602:35650;2906:15520;2828:3908 type=VECTOR */}
-                          <></>
-                        </Flex>
-                      </Flex>
-                    </Flex>
+                      {...{
+                        onlyIcon: <Icon.QodeMagnifyingGlass />,
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePencil />,
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        buttonname: "Edit",
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "default",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                   </Flex>
                   {/* name="Evaluation" id="590:30380" type="FRAME" */}
                   <div
@@ -628,7 +498,7 @@ export const QodeCustom59527786: React.FC<
                         >{`Candidate performance`}</span>
                       </div>
                       {/* name="Button" id="602:35768" type="INSTANCE" */}
-                      <Flex
+                      <QodeButton
                         style={{
                           display: "flex",
                           width: "80px",
@@ -642,55 +512,21 @@ export const QodeCustom59527786: React.FC<
                             "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                           background: "var(--background-bg-white, #fff)",
                         }}
-                      >
-                        {/* name="pencil" id="I602:35768;114:1808" type="INSTANCE" */}
-                        <QodeSvgI602357681141808
-                          style={{
-                            width: "16px",
-                            height: "16px",
-                            flexShrink: "0",
-                          }}
-                          {...{}}
-                        />
-                        <span
-                          style={{
-                            color: "var(--text-text-neutral-50, #1d1d1d)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "700",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Edit`}</span>
-                        {/* name="🎰 icon" id="I602:35768;2906:15520" type="INSTANCE" */}
-                        <Flex
-                          style={{
-                            display: "flex",
-                            width: "16px",
-                            height: "16px",
-                            padding: "1.6px 1.601px 1.598px 1.6px",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            flexShrink: "0",
-                          }}
-                        >
-                          {/* name="Vector" id="I602:35768;2906:15520;2828:3908" type="VECTOR" */}
-                          <Flex
-                            style={{
-                              width: "12.799px",
-                              height: "12.802px",
-                              flexShrink: "0",
-                              fill: "var(--color-neutral-text-colortext, #000)",
-                            }}
-                          >
-                            {/* name="Vector" id=I602:35768;2906:15520;2828:3908 type=VECTOR */}
-                            <></>
-                          </Flex>
-                        </Flex>
-                      </Flex>
+                        {...{
+                          onlyIcon: <Icon.QodeMagnifyingGlass />,
+                          iconRight: false,
+                          selectIconLeft: <Icon.QodePencil />,
+                          selectIconRight: <Icon.QodeMagnifyingGlass />,
+                          buttonname: "Edit",
+                          iconLeft: true,
+                          type: "default",
+                          size: "default",
+                          state: "default",
+                          content: "default",
+                          danger: false,
+                          ghost: false,
+                        }}
+                      />
                     </div>
                     {/* name="Skills" id="590:30385" type="FRAME" */}
                     <div
@@ -1266,7 +1102,7 @@ export const QodeCustom59527786: React.FC<
                     }}
                   >
                     {/* name="🎰 icon" id="I590:30394;296:15486" type="INSTANCE" */}
-                    <QodeSvgI5903039429615486
+                    <Icon.QodeStarChristmas
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -1293,7 +1129,7 @@ export const QodeCustom59527786: React.FC<
                     }}
                   >
                     {/* name="🎰 icon" id="I590:30395;296:15494" type="INSTANCE" */}
-                    <QodeSvgI5903039529615494
+                    <Icon.QodeBlockQuote
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -1319,7 +1155,7 @@ export const QodeCustom59527786: React.FC<
                     }}
                   >
                     {/* name="🎰 icon" id="I590:30396;296:15494" type="INSTANCE" */}
-                    <QodeSvgI5903039629615494
+                    <Icon.QodeVideo
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -1416,7 +1252,7 @@ export const QodeCustom59527786: React.FC<
                         }}
                       >{`Candidate demonstrated strong technical expertise, particularly in system integration and cloud services, offering insightful answers to technical questions.  Problem-solving skills were impressive, as they effectively addressed complex scenarios and proposed practical solutions. Additionally, candidate communicated their ideas clearly and confidently, making their approach and thought process easy to follow.`}</span>
                       {/* name="Button" id="602:37281" type="INSTANCE" */}
-                      <Flex
+                      <QodeButton
                         style={{
                           display: "flex",
                           width: "32px",
@@ -1434,17 +1270,21 @@ export const QodeCustom59527786: React.FC<
                             "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                           background: "var(--background-bg-white, #fff)",
                         }}
-                      >
-                        {/* name="pencil" id="I602:37281;114:3100" type="INSTANCE" */}
-                        <QodeSvgI602372811143100
-                          style={{
-                            width: "16px",
-                            height: "16px",
-                            flexShrink: "0",
-                          }}
-                          {...{}}
-                        />
-                      </Flex>
+                        {...{
+                          selectIconRight: <Icon.QodeMagnifyingGlass />,
+                          onlyIcon: <Icon.QodePencil />,
+                          buttonname: "Edit",
+                          iconRight: false,
+                          selectIconLeft: <Icon.QodePencil />,
+                          iconLeft: true,
+                          type: "default",
+                          size: "default",
+                          state: "default",
+                          content: "icon",
+                          danger: false,
+                          ghost: false,
+                        }}
+                      />
                     </div>
                   </div>
                   {/* name="Feedback" id="590:30404" type="FRAME" */}
@@ -1517,7 +1357,7 @@ export const QodeCustom59527786: React.FC<
                       >{`Candidate could improve in articulating how technical solutions align with business objectives and customer needs, demonstrating room for growth in business acumen. Although technically proficient, their experience in managing client expectations and building rapport could also benefit from further development.`}</span>
                     </div>
                     {/* name="Button" id="602:37305" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "32px",
@@ -1535,17 +1375,21 @@ export const QodeCustom59527786: React.FC<
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="pencil" id="I602:37305;114:3100" type="INSTANCE" */}
-                      <QodeSvgI602373051143100
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                    </Flex>
+                      {...{
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        onlyIcon: <Icon.QodePencil />,
+                        buttonname: "Edit",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePencil />,
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                   </div>
                   {/* name="Feedback" id="590:30408" type="FRAME" */}
                   <div
@@ -1617,7 +1461,7 @@ export const QodeCustom59527786: React.FC<
                       >{`Ability to produce detailed technical documentation requires improvement to ensure clarity and completeness. Additionally, their project management skills, particularly in planning, scheduling, and resource allocation, need further development.`}</span>
                     </div>
                     {/* name="Button" id="602:37325" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "32px",
@@ -1635,17 +1479,21 @@ export const QodeCustom59527786: React.FC<
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="pencil" id="I602:37325;114:3100" type="INSTANCE" */}
-                      <QodeSvgI602373251143100
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                    </Flex>
+                      {...{
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        onlyIcon: <Icon.QodePencil />,
+                        buttonname: "Edit",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePencil />,
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -1746,7 +1594,7 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="Button" id="595:27792" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "32px",
@@ -1761,17 +1609,21 @@ Please interpret this assessment with caution.`}</span>
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="chevron-left" id="I595:27792;114:3100" type="INSTANCE" */}
-                      <QodeSvgI595277921143100
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                    </Flex>
+                      {...{
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        onlyIcon: <Icon.QodeChevronLeft />,
+                        buttonname: "Source new job",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePlus />,
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                     {/* name="Wrap" id="595:27793" type="FRAME" */}
                     <div
                       style={{
@@ -1810,7 +1662,7 @@ Please interpret this assessment with caution.`}</span>
                           }}
                         >
                           {/* name="briefcase" id="595:27797" type="INSTANCE" */}
-                          <QodeSvg59527797
+                          <Icon.QodeBriefcase
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -1832,7 +1684,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >{`Technical Consultant`}</span>
                           {/* name="iconLeft" id="595:27799" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -1841,20 +1693,8 @@ Please interpret this assessment with caution.`}</span>
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I595:27799;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I595:27799;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                         {/* name="itemInfo" id="595:27800" type="FRAME" */}
                         <div
@@ -1865,7 +1705,7 @@ Please interpret this assessment with caution.`}</span>
                           }}
                         >
                           {/* name="calendar-days" id="595:27801" type="INSTANCE" */}
-                          <QodeSvg59527801
+                          <Icon.QodeCalendarDays
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -1887,7 +1727,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >{`Jun 24, 2024 - 10:30 AM`}</span>
                           {/* name="iconLeft" id="595:27803" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -1896,20 +1736,8 @@ Please interpret this assessment with caution.`}</span>
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I595:27803;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I595:27803;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                         {/* name="itemInfo" id="595:27804" type="FRAME" */}
                         <div
@@ -1920,7 +1748,7 @@ Please interpret this assessment with caution.`}</span>
                           }}
                         >
                           {/* name="clock-rotate-left" id="595:27805" type="INSTANCE" */}
-                          <QodeSvg59527805
+                          <Icon.QodeClockRotateLeft
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -1942,7 +1770,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >{`38 minutes 28 seconds`}</span>
                           {/* name="iconLeft" id="595:27807" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -1951,26 +1779,14 @@ Please interpret this assessment with caution.`}</span>
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I595:27807;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I595:27807;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                       </div>
                     </div>
                   </div>
                   {/* name="Button" id="595:27808" type="INSTANCE" */}
-                  <Flex
+                  <QodeButton
                     style={{
                       display: "flex",
                       height: "var(--size-height-controlheight, 32px)",
@@ -1983,49 +1799,21 @@ Please interpret this assessment with caution.`}</span>
                         "1px solid var(--border-border-primary-30, #107ecc)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="link-simple" id="I595:27808;35:13236" type="INSTANCE" */}
-                    <QodeSvgI595278083513236
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`Share report`}</span>
-                    {/* name="🎰 icon" id="I595:27808;2906:15123" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "16px",
-                        height: "16px",
-                        padding: "1.6px 1.601px 1.598px 1.6px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
-                      {/* name="Vector" id="I595:27808;2906:15123;2828:3908" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "12.799px",
-                          height: "12.802px",
-                          flexShrink: "0",
-                          fill: "var(--background-bg-white, #fff)",
-                        }}
-                      >
-                        {/* name="Vector" id=I595:27808;2906:15123;2828:3908 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
+                    {...{
+                      onlyIcon: <Icon.QodeMagnifyingGlass />,
+                      iconLeft: true,
+                      iconRight: false,
+                      buttonname: "Share report",
+                      selectIconRight: <Icon.QodeMagnifyingGlass />,
+                      selectIconLeft: <Icon.QodeLinkSimple />,
+                      type: "primary",
+                      size: "default",
+                      state: "default",
+                      content: "default",
+                      danger: false,
+                      ghost: false,
+                    }}
+                  />
                 </div>
                 {/* name="scoreOverall" id="602:37739" type="FRAME" */}
                 <div
@@ -2153,7 +1941,7 @@ Please interpret this assessment with caution.`}</span>
                       </div>
                     </div>
                     {/* name="Button" id="I602:37740;602:35650" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "80px",
@@ -2167,54 +1955,21 @@ Please interpret this assessment with caution.`}</span>
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="pencil" id="I602:37740;602:35650;114:1808" type="INSTANCE" */}
-                      <QodeSvgI60237740602356501141808
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                      <span
-                        style={{
-                          color: "var(--text-text-neutral-50, #1d1d1d)",
-                          textAlign: "center",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-base, 14px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                        }}
-                      >{`Edit`}</span>
-                      {/* name="🎰 icon" id="I602:37740;602:35650;2906:15520" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          width: "16px",
-                          height: "16px",
-                          padding: "1.6px 1.601px 1.598px 1.6px",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          flexShrink: "0",
-                        }}
-                      >
-                        {/* name="Vector" id="I602:37740;602:35650;2906:15520;2828:3908" type="VECTOR" */}
-                        <Flex
-                          style={{
-                            width: "12.799px",
-                            height: "12.802px",
-                            flexShrink: "0",
-                            fill: "var(--color-neutral-text-colortext, #000)",
-                          }}
-                        >
-                          {/* name="Vector" id=I602:37740;602:35650;2906:15520;2828:3908 type=VECTOR */}
-                          <></>
-                        </Flex>
-                      </Flex>
-                    </Flex>
+                      {...{
+                        onlyIcon: <Icon.QodeMagnifyingGlass />,
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePencil />,
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        buttonname: "Edit",
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "default",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                   </Flex>
                   {/* name="Evaluation" id="602:37741" type="FRAME" */}
                   <div
@@ -2263,7 +2018,7 @@ Please interpret this assessment with caution.`}</span>
                         >{`Candidate performance`}</span>
                       </div>
                       {/* name="Button" id="602:37745" type="INSTANCE" */}
-                      <Flex
+                      <QodeButton
                         style={{
                           display: "flex",
                           width: "80px",
@@ -2277,55 +2032,21 @@ Please interpret this assessment with caution.`}</span>
                             "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                           background: "var(--background-bg-white, #fff)",
                         }}
-                      >
-                        {/* name="pencil" id="I602:37745;114:1808" type="INSTANCE" */}
-                        <QodeSvgI602377451141808
-                          style={{
-                            width: "16px",
-                            height: "16px",
-                            flexShrink: "0",
-                          }}
-                          {...{}}
-                        />
-                        <span
-                          style={{
-                            color: "var(--text-text-neutral-50, #1d1d1d)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "700",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Edit`}</span>
-                        {/* name="🎰 icon" id="I602:37745;2906:15520" type="INSTANCE" */}
-                        <Flex
-                          style={{
-                            display: "flex",
-                            width: "16px",
-                            height: "16px",
-                            padding: "1.6px 1.601px 1.598px 1.6px",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            flexShrink: "0",
-                          }}
-                        >
-                          {/* name="Vector" id="I602:37745;2906:15520;2828:3908" type="VECTOR" */}
-                          <Flex
-                            style={{
-                              width: "12.799px",
-                              height: "12.802px",
-                              flexShrink: "0",
-                              fill: "var(--color-neutral-text-colortext, #000)",
-                            }}
-                          >
-                            {/* name="Vector" id=I602:37745;2906:15520;2828:3908 type=VECTOR */}
-                            <></>
-                          </Flex>
-                        </Flex>
-                      </Flex>
+                        {...{
+                          onlyIcon: <Icon.QodeMagnifyingGlass />,
+                          iconRight: false,
+                          selectIconLeft: <Icon.QodePencil />,
+                          selectIconRight: <Icon.QodeMagnifyingGlass />,
+                          buttonname: "Edit",
+                          iconLeft: true,
+                          type: "default",
+                          size: "default",
+                          state: "default",
+                          content: "default",
+                          danger: false,
+                          ghost: false,
+                        }}
+                      />
                     </div>
                     {/* name="Skills" id="602:37746" type="FRAME" */}
                     <div
@@ -2899,7 +2620,7 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="🎰 icon" id="I595:27839;296:15494" type="INSTANCE" */}
-                    <QodeSvgI5952783929615494
+                    <Icon.QodeStarChristmas
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -2927,7 +2648,7 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="🎰 icon" id="I595:27840;296:15486" type="INSTANCE" */}
-                    <QodeSvgI5952784029615486
+                    <Icon.QodeBlockQuote
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -2954,7 +2675,7 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="🎰 icon" id="I595:27841;296:15494" type="INSTANCE" */}
-                    <QodeSvgI5952784129615494
+                    <Icon.QodeVideo
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -3016,7 +2737,7 @@ Please interpret this assessment with caution.`}</span>
                         }}
                       >
                         {/* name="circle-question" id="598:28435" type="INSTANCE" */}
-                        <QodeSvg59828435
+                        <Icon.QodeCircleQuestion
                           style={{ width: "20px", height: "20px" }}
                           {...{}}
                         />
@@ -3044,7 +2765,7 @@ Please interpret this assessment with caution.`}</span>
                         }}
                       >
                         {/* name="message-minus" id="598:28425" type="INSTANCE" */}
-                        <QodeSvg59828425
+                        <Icon.QodeMessageMinus
                           style={{ width: "20px", height: "20px" }}
                           {...{}}
                         />
@@ -3158,7 +2879,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >
                             {/* name="star" id="I595:28224;595:28209;595:28140" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3167,22 +2888,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28224;595:28209;595:28140;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28224;595:28209;595:28140;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28224;595:28209;595:28141" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3191,22 +2900,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28224;595:28209;595:28141;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28224;595:28209;595:28141;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28224;595:28209;595:28142" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3215,22 +2912,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28224;595:28209;595:28142;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28224;595:28209;595:28142;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28224;595:28209;595:28150" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3239,22 +2924,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28224;595:28209;595:28150;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--neutral-gray-10, #e3e3e3)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28224;595:28209;595:28150;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28224;595:28209;595:28144" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3263,20 +2936,8 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28224;595:28209;595:28144;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--neutral-gray-10, #e3e3e3)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28224;595:28209;595:28144;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                           </Flex>
                           <span
                             style={{
@@ -3389,7 +3050,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >
                             {/* name="star" id="I595:28304;595:28209;595:28126" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3398,22 +3059,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28304;595:28209;595:28126;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28304;595:28209;595:28126;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28304;595:28209;595:28127" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3422,22 +3071,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28304;595:28209;595:28127;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28304;595:28209;595:28127;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28304;595:28209;595:28128" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3446,22 +3083,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28304;595:28209;595:28128;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28304;595:28209;595:28128;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28304;595:28209;595:28129" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3470,22 +3095,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28304;595:28209;595:28129;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28304;595:28209;595:28129;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28304;595:28209;595:28130" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3494,20 +3107,8 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28304;595:28209;595:28130;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--neutral-gray-10, #e3e3e3)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28304;595:28209;595:28130;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                           </Flex>
                           <span
                             style={{
@@ -3620,7 +3221,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >
                             {/* name="star" id="I595:28318;595:28209;595:28112" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3629,22 +3230,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28318;595:28209;595:28112;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28318;595:28209;595:28112;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28318;595:28209;595:28113" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3653,22 +3242,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28318;595:28209;595:28113;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28318;595:28209;595:28113;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28318;595:28209;595:28114" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3677,22 +3254,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28318;595:28209;595:28114;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28318;595:28209;595:28114;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28318;595:28209;595:28115" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3701,22 +3266,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28318;595:28209;595:28115;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28318;595:28209;595:28115;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28318;595:28209;595:28136" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3725,20 +3278,8 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28318;595:28209;595:28136;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28318;595:28209;595:28136;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                           </Flex>
                           <span
                             style={{
@@ -3851,7 +3392,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >
                             {/* name="star" id="I595:28332;595:28209;595:28112" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3860,22 +3401,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28332;595:28209;595:28112;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28332;595:28209;595:28112;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28332;595:28209;595:28113" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3884,22 +3413,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28332;595:28209;595:28113;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28332;595:28209;595:28113;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28332;595:28209;595:28114" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3908,22 +3425,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28332;595:28209;595:28114;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28332;595:28209;595:28114;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28332;595:28209;595:28115" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3932,22 +3437,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28332;595:28209;595:28115;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28332;595:28209;595:28115;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28332;595:28209;595:28136" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -3956,20 +3449,8 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28332;595:28209;595:28136;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28332;595:28209;595:28136;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                           </Flex>
                           <span
                             style={{
@@ -4082,7 +3563,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >
                             {/* name="star" id="I595:28346;595:28209;595:28140" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -4091,22 +3572,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28346;595:28209;595:28140;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28346;595:28209;595:28140;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28346;595:28209;595:28141" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -4115,22 +3584,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28346;595:28209;595:28141;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28346;595:28209;595:28141;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28346;595:28209;595:28142" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -4139,22 +3596,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28346;595:28209;595:28142;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--background-bg-primary, #1597f4)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28346;595:28209;595:28142;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28346;595:28209;595:28150" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -4163,22 +3608,10 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28346;595:28209;595:28150;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--neutral-gray-10, #e3e3e3)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28346;595:28209;595:28150;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                             {/* name="star" id="I595:28346;595:28209;595:28144" type="INSTANCE" */}
-                            <Flex
+                            <Icon.QodeStar
                               style={{
                                 display: "flex",
                                 width: "var(--font-size-base, 14px)",
@@ -4187,20 +3620,8 @@ Please interpret this assessment with caution.`}</span>
                                 justifyContent: "center",
                                 alignItems: "center",
                               }}
-                            >
-                              {/* name="Vector" id="I595:28346;595:28209;595:28144;2828:5666" type="VECTOR" */}
-                              <Flex
-                                style={{
-                                  width: "11.551px",
-                                  height: "11.201px",
-                                  flexShrink: "0",
-                                  fill: "var(--neutral-gray-10, #e3e3e3)",
-                                }}
-                              >
-                                {/* name="Vector" id=I595:28346;595:28209;595:28144;2828:5666 type=VECTOR */}
-                                <></>
-                              </Flex>
-                            </Flex>
+                              {...{}}
+                            />
                           </Flex>
                           <span
                             style={{
@@ -4218,7 +3639,7 @@ Please interpret this assessment with caution.`}</span>
                       </div>
                     </div>
                     {/* name="Button" id="602:37622" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "32px",
@@ -4236,17 +3657,21 @@ Please interpret this assessment with caution.`}</span>
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="pencil" id="I602:37622;114:3100" type="INSTANCE" */}
-                      <QodeSvgI602376221143100
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                    </Flex>
+                      {...{
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        onlyIcon: <Icon.QodePencil />,
+                        buttonname: "Edit",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePencil />,
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -4347,7 +3772,7 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="Button" id="598:28524" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "32px",
@@ -4362,17 +3787,21 @@ Please interpret this assessment with caution.`}</span>
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="chevron-left" id="I598:28524;114:3100" type="INSTANCE" */}
-                      <QodeSvgI598285241143100
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                    </Flex>
+                      {...{
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        onlyIcon: <Icon.QodeChevronLeft />,
+                        buttonname: "Source new job",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePlus />,
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                     {/* name="Wrap" id="598:28525" type="FRAME" */}
                     <div
                       style={{
@@ -4411,7 +3840,7 @@ Please interpret this assessment with caution.`}</span>
                           }}
                         >
                           {/* name="briefcase" id="598:28529" type="INSTANCE" */}
-                          <QodeSvg59828529
+                          <Icon.QodeBriefcase
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -4433,7 +3862,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >{`Technical Consultant`}</span>
                           {/* name="iconLeft" id="598:28531" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -4442,20 +3871,8 @@ Please interpret this assessment with caution.`}</span>
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I598:28531;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I598:28531;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                         {/* name="itemInfo" id="598:28532" type="FRAME" */}
                         <div
@@ -4466,7 +3883,7 @@ Please interpret this assessment with caution.`}</span>
                           }}
                         >
                           {/* name="calendar-days" id="598:28533" type="INSTANCE" */}
-                          <QodeSvg59828533
+                          <Icon.QodeCalendarDays
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -4488,7 +3905,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >{`Jun 24, 2024 - 10:30 AM`}</span>
                           {/* name="iconLeft" id="598:28535" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -4497,20 +3914,8 @@ Please interpret this assessment with caution.`}</span>
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I598:28535;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I598:28535;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                         {/* name="itemInfo" id="598:28536" type="FRAME" */}
                         <div
@@ -4521,7 +3926,7 @@ Please interpret this assessment with caution.`}</span>
                           }}
                         >
                           {/* name="clock-rotate-left" id="598:28537" type="INSTANCE" */}
-                          <QodeSvg59828537
+                          <Icon.QodeClockRotateLeft
                             style={{ width: "16px", height: "16px" }}
                             {...{}}
                           />
@@ -4543,7 +3948,7 @@ Please interpret this assessment with caution.`}</span>
                             }}
                           >{`38 minutes 28 seconds`}</span>
                           {/* name="iconLeft" id="598:28539" type="INSTANCE" */}
-                          <Flex
+                          <Icon.QodePencil
                             style={{
                               display: "flex",
                               width: "16px",
@@ -4552,26 +3957,14 @@ Please interpret this assessment with caution.`}</span>
                               justifyContent: "center",
                               alignItems: "center",
                             }}
-                          >
-                            {/* name="Vector" id="I598:28539;2828:4448" type="VECTOR" */}
-                            <Flex
-                              style={{
-                                width: "12.784px",
-                                height: "12.787px",
-                                flexShrink: "0",
-                                fill: "var(--color-neutral-text-colortextplaceholder, rgba(0, 0, 0, 0.45))",
-                              }}
-                            >
-                              {/* name="Vector" id=I598:28539;2828:4448 type=VECTOR */}
-                              <></>
-                            </Flex>
-                          </Flex>
+                            {...{}}
+                          />
                         </div>
                       </div>
                     </div>
                   </div>
                   {/* name="Button" id="598:28540" type="INSTANCE" */}
-                  <Flex
+                  <QodeButton
                     style={{
                       display: "flex",
                       height: "var(--size-height-controlheight, 32px)",
@@ -4584,49 +3977,21 @@ Please interpret this assessment with caution.`}</span>
                         "1px solid var(--border-border-primary-30, #107ecc)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="link-simple" id="I598:28540;35:13236" type="INSTANCE" */}
-                    <QodeSvgI598285403513236
-                      style={{ width: "16px", height: "16px" }}
-                      {...{}}
-                    />
-                    <span
-                      style={{
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`Share report`}</span>
-                    {/* name="🎰 icon" id="I598:28540;2906:15123" type="INSTANCE" */}
-                    <Flex
-                      style={{
-                        display: "flex",
-                        width: "16px",
-                        height: "16px",
-                        padding: "1.6px 1.601px 1.598px 1.6px",
-                        justifyContent: "center",
-                        alignItems: "center",
-                      }}
-                    >
-                      {/* name="Vector" id="I598:28540;2906:15123;2828:3908" type="VECTOR" */}
-                      <Flex
-                        style={{
-                          width: "12.799px",
-                          height: "12.802px",
-                          flexShrink: "0",
-                          fill: "var(--background-bg-white, #fff)",
-                        }}
-                      >
-                        {/* name="Vector" id=I598:28540;2906:15123;2828:3908 type=VECTOR */}
-                        <></>
-                      </Flex>
-                    </Flex>
-                  </Flex>
+                    {...{
+                      onlyIcon: <Icon.QodeMagnifyingGlass />,
+                      iconLeft: true,
+                      iconRight: false,
+                      buttonname: "Share report",
+                      selectIconRight: <Icon.QodeMagnifyingGlass />,
+                      selectIconLeft: <Icon.QodeLinkSimple />,
+                      type: "primary",
+                      size: "default",
+                      state: "default",
+                      content: "default",
+                      danger: false,
+                      ghost: false,
+                    }}
+                  />
                 </div>
                 {/* name="scoreOverall" id="602:37898" type="FRAME" */}
                 <div
@@ -4754,7 +4119,7 @@ Please interpret this assessment with caution.`}</span>
                       </div>
                     </div>
                     {/* name="Button" id="I602:37899;602:35650" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "80px",
@@ -4768,54 +4133,21 @@ Please interpret this assessment with caution.`}</span>
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="pencil" id="I602:37899;602:35650;114:1808" type="INSTANCE" */}
-                      <QodeSvgI60237899602356501141808
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                      <span
-                        style={{
-                          color: "var(--text-text-neutral-50, #1d1d1d)",
-                          textAlign: "center",
-                          fontFamily: 'var(--family-family, "sf pro display")',
-                          fontSize: "var(--size-base, 14px)",
-                          fontStyle: "normal",
-                          fontWeight: "700",
-                          lineHeight:
-                            "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                        }}
-                      >{`Edit`}</span>
-                      {/* name="🎰 icon" id="I602:37899;602:35650;2906:15520" type="INSTANCE" */}
-                      <Flex
-                        style={{
-                          display: "flex",
-                          width: "16px",
-                          height: "16px",
-                          padding: "1.6px 1.601px 1.598px 1.6px",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          flexShrink: "0",
-                        }}
-                      >
-                        {/* name="Vector" id="I602:37899;602:35650;2906:15520;2828:3908" type="VECTOR" */}
-                        <Flex
-                          style={{
-                            width: "12.799px",
-                            height: "12.802px",
-                            flexShrink: "0",
-                            fill: "var(--color-neutral-text-colortext, #000)",
-                          }}
-                        >
-                          {/* name="Vector" id=I602:37899;602:35650;2906:15520;2828:3908 type=VECTOR */}
-                          <></>
-                        </Flex>
-                      </Flex>
-                    </Flex>
+                      {...{
+                        onlyIcon: <Icon.QodeMagnifyingGlass />,
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePencil />,
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        buttonname: "Edit",
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "default",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                   </Flex>
                   {/* name="Evaluation" id="602:37900" type="FRAME" */}
                   <div
@@ -4864,7 +4196,7 @@ Please interpret this assessment with caution.`}</span>
                         >{`Candidate performance`}</span>
                       </div>
                       {/* name="Button" id="602:37904" type="INSTANCE" */}
-                      <Flex
+                      <QodeButton
                         style={{
                           display: "flex",
                           width: "80px",
@@ -4878,55 +4210,21 @@ Please interpret this assessment with caution.`}</span>
                             "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                           background: "var(--background-bg-white, #fff)",
                         }}
-                      >
-                        {/* name="pencil" id="I602:37904;114:1808" type="INSTANCE" */}
-                        <QodeSvgI602379041141808
-                          style={{
-                            width: "16px",
-                            height: "16px",
-                            flexShrink: "0",
-                          }}
-                          {...{}}
-                        />
-                        <span
-                          style={{
-                            color: "var(--text-text-neutral-50, #1d1d1d)",
-                            textAlign: "center",
-                            fontFamily:
-                              'var(--family-family, "sf pro display")',
-                            fontSize: "var(--size-base, 14px)",
-                            fontStyle: "normal",
-                            fontWeight: "700",
-                            lineHeight:
-                              "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                          }}
-                        >{`Edit`}</span>
-                        {/* name="🎰 icon" id="I602:37904;2906:15520" type="INSTANCE" */}
-                        <Flex
-                          style={{
-                            display: "flex",
-                            width: "16px",
-                            height: "16px",
-                            padding: "1.6px 1.601px 1.598px 1.6px",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            flexShrink: "0",
-                          }}
-                        >
-                          {/* name="Vector" id="I602:37904;2906:15520;2828:3908" type="VECTOR" */}
-                          <Flex
-                            style={{
-                              width: "12.799px",
-                              height: "12.802px",
-                              flexShrink: "0",
-                              fill: "var(--color-neutral-text-colortext, #000)",
-                            }}
-                          >
-                            {/* name="Vector" id=I602:37904;2906:15520;2828:3908 type=VECTOR */}
-                            <></>
-                          </Flex>
-                        </Flex>
-                      </Flex>
+                        {...{
+                          onlyIcon: <Icon.QodeMagnifyingGlass />,
+                          iconRight: false,
+                          selectIconLeft: <Icon.QodePencil />,
+                          selectIconRight: <Icon.QodeMagnifyingGlass />,
+                          buttonname: "Edit",
+                          iconLeft: true,
+                          type: "default",
+                          size: "default",
+                          state: "default",
+                          content: "default",
+                          danger: false,
+                          ghost: false,
+                        }}
+                      />
                     </div>
                     {/* name="Skills" id="602:37905" type="FRAME" */}
                     <div
@@ -5500,7 +4798,7 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="🎰 icon" id="I598:28571;296:15494" type="INSTANCE" */}
-                    <QodeSvgI5982857129615494
+                    <Icon.QodeStarChristmas
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -5526,7 +4824,7 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="🎰 icon" id="I598:28572;296:15494" type="INSTANCE" */}
-                    <QodeSvgI5982857229615494
+                    <Icon.QodeBlockQuote
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -5554,7 +4852,7 @@ Please interpret this assessment with caution.`}</span>
                     }}
                   >
                     {/* name="🎰 icon" id="I598:28573;296:15486" type="INSTANCE" */}
-                    <QodeSvgI5982857329615486
+                    <Icon.QodeVideo
                       style={{ width: "16px", height: "16px" }}
                       {...{}}
                     />
@@ -5607,7 +4905,7 @@ Please interpret this assessment with caution.`}</span>
                       }}
                     >
                       {/* name="play" id="598:33751" type="INSTANCE" */}
-                      <QodeSvg59833751
+                      <Icon.QodePlay
                         style={{ width: "32px", height: "32px" }}
                         {...{}}
                       />
@@ -6157,7 +5455,7 @@ Please interpret this assessment with caution.`}</span>
                       </Flex>
                     </Flex>
                     {/* name="Button" id="602:37683" type="INSTANCE" */}
-                    <Flex
+                    <QodeButton
                       style={{
                         display: "flex",
                         width: "32px",
@@ -6175,17 +5473,21 @@ Please interpret this assessment with caution.`}</span>
                           "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       }}
-                    >
-                      {/* name="pencil" id="I602:37683;114:3100" type="INSTANCE" */}
-                      <QodeSvgI602376831143100
-                        style={{
-                          width: "16px",
-                          height: "16px",
-                          flexShrink: "0",
-                        }}
-                        {...{}}
-                      />
-                    </Flex>
+                      {...{
+                        selectIconRight: <Icon.QodeMagnifyingGlass />,
+                        onlyIcon: <Icon.QodePencil />,
+                        buttonname: "Edit",
+                        iconRight: false,
+                        selectIconLeft: <Icon.QodePencil />,
+                        iconLeft: true,
+                        type: "default",
+                        size: "default",
+                        state: "default",
+                        content: "icon",
+                        danger: false,
+                        ghost: false,
+                      }}
+                    />
                   </div>
                 </div>
               </div>

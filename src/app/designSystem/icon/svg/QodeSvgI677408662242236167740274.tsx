@@ -24,7 +24,7 @@ const QodeSvgI677408662242236167740274: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
-        cx="28.8486"
+        cx="28.8484"
         cy="28.8488"
         r="28.1818"
         fill="url(#paint0_radial_756_18763)"
@@ -36,7 +36,7 @@ const QodeSvgI677408662242236167740274: React.FC<IconProps> = ({
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(28.8486 28.8488) rotate(90) scale(28.1818)"
+          gradientTransform="translate(28.8484 28.8488) rotate(90) scale(28.1818)"
         >
           <stop stop-color="#646464" />
           <stop offset="1" stop-color="#272727" />

@@ -24,7 +24,7 @@ const QodeSvgI677405042242236167740273: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
-        cx="33.9998"
+        cx="34.0001"
         cy="34.0003"
         r="33.3333"
         fill="url(#paint0_linear_756_33217)"
@@ -32,9 +32,9 @@ const QodeSvgI677405042242236167740273: React.FC<IconProps> = ({
       <defs>
         <linearGradient
           id="paint0_linear_756_33217"
-          x1="33.9998"
+          x1="34.0001"
           y1="0.666992"
-          x2="33.9998"
+          x2="34.0001"
           y2="67.3337"
           gradientUnits="userSpaceOnUse"
         >

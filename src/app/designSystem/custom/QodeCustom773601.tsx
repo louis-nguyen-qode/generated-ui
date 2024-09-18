@@ -3,11 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import QodeSvg787669 from "@designSystem/icon/svg/QodeSvg787669"
 import QodeSvg773593 from "@designSystem/icon/svg/QodeSvg773593"
-import QodeSvg944470 from "@designSystem/icon/svg/QodeSvg944470"
 import QodeSvg944494 from "@designSystem/icon/svg/QodeSvg944494"
-import QodeSvg787680 from "@designSystem/icon/svg/QodeSvg787680"
 import QodeSvg944495 from "@designSystem/icon/svg/QodeSvg944495"
 
 export interface QodeCustom773601Props {
@@ -45,7 +42,7 @@ export const QodeCustom773601: React.FC<
             }}
           >
             {/* name="linkedin" id="78:7669" type="INSTANCE" */}
-            <QodeSvg787669
+            <Icon.QodeLinkedin
               style={{ width: "24px", height: "24px", flexShrink: "0" }}
               {...{}}
             />
@@ -82,7 +79,7 @@ export const QodeCustom773601: React.FC<
             }}
           >
             {/* name="linkedin" id="94:4470" type="INSTANCE" */}
-            <QodeSvg944470
+            <Icon.QodeLinkedin
               style={{ width: "24px", height: "24px", flexShrink: "0" }}
               {...{}}
             />
@@ -119,7 +116,7 @@ export const QodeCustom773601: React.FC<
             }}
           >
             {/* name="linkedin" id="78:7680" type="INSTANCE" */}
-            <QodeSvg787680
+            <Icon.QodeLinkedin
               style={{ width: "24px", height: "24px", flexShrink: "0" }}
               {...{}}
             />

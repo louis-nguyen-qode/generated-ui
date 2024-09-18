@@ -3,7 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeTag } from "@designSystem/ant/QodeTag"
 import QodeSvg561045759 from "@designSystem/icon/svg/QodeSvg561045759"
+import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom561045693Props {
   badge?: React.ReactNode
@@ -312,7 +314,7 @@ export const QodeCustom561045693: React.FC<
             }}
           >
             {/* name="Tag" id="5868:117" type="INSTANCE" */}
-            <Flex
+            <QodeTag
               style={{
                 display: "flex",
                 height: "24px",
@@ -324,21 +326,16 @@ export const QodeCustom561045693: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                 background: "var(--primary-primary-10, #d6eeff)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tag`}</span>
-            </Flex>
+              {...{
+                showRIcon: true,
+                color: "primary",
+                state: "default",
+                size: "rouned",
+                rounded: "True",
+              }}
+            />
             {/* name="Tag" id="5868:122" type="INSTANCE" */}
-            <Flex
+            <QodeTag
               style={{
                 display: "flex",
                 height: "24px",
@@ -350,19 +347,14 @@ export const QodeCustom561045693: React.FC<
                   "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
                 background: "var(--primary-primary-10, #d6eeff)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-neutral-50, #1d1d1d)",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-base, 14px)",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  lineHeight:
-                    "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                }}
-              >{`Tag`}</span>
-            </Flex>
+              {...{
+                showRIcon: true,
+                color: "primary",
+                state: "default",
+                size: "rouned",
+                rounded: "True",
+              }}
+            />
           </div>
         </>
       )}
@@ -498,7 +490,7 @@ export const QodeCustom561045693: React.FC<
             }}
           >
             {/* name="Button" id="5610:50770" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -510,20 +502,18 @@ export const QodeCustom561045693: React.FC<
                 border: "1px solid var(--border-border-primary-30, #107ecc)",
                 background: "var(--background-bg-primary, #1597f4)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-white, #fff)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`Button`}</span>
-            </Flex>
+              {...{
+                buttonname: "Button",
+                iconLeft: false,
+                iconRight: false,
+                type: "primary",
+                size: "small",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}
@@ -548,7 +538,7 @@ export const QodeCustom561045693: React.FC<
             }}
           >
             {/* name="Button" id="5610:50782" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -561,22 +551,20 @@ export const QodeCustom561045693: React.FC<
                 border:
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-primary-30, #158de2)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`Button`}</span>
-            </Flex>
+              {...{
+                iconLeft: false,
+                buttonname: "Button",
+                iconRight: false,
+                type: "primary",
+                size: "small",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: true,
+              }}
+            />
             {/* name="Button" id="5610:50776" type="INSTANCE" */}
-            <Flex
+            <QodeButton
               style={{
                 display: "flex",
                 height: "var(--size-height-controlheightsm, 24px)",
@@ -588,20 +576,18 @@ export const QodeCustom561045693: React.FC<
                 border: "1px solid var(--border-border-primary-30, #107ecc)",
                 background: "var(--background-bg-primary, #1597f4)",
               }}
-            >
-              <span
-                style={{
-                  color: "var(--text-text-white, #fff)",
-                  textAlign: "center",
-                  fontFamily: 'var(--family-family, "sf pro display")',
-                  fontSize: "var(--size-small, 12px)",
-                  fontStyle: "normal",
-                  fontWeight: "700",
-                  lineHeight:
-                    "var(--lineheight-lineheight-sm, 16px) /* 133.333% */",
-                }}
-              >{`Button`}</span>
-            </Flex>
+              {...{
+                buttonname: "Button",
+                iconLeft: false,
+                iconRight: false,
+                type: "primary",
+                size: "small",
+                state: "default",
+                content: "default",
+                danger: false,
+                ghost: false,
+              }}
+            />
           </div>
         </>
       )}

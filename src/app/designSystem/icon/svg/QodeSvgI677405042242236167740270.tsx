@@ -25,7 +25,7 @@ const QodeSvgI677405042242236167740270: React.FC<IconProps> = ({
     >
       <g filter="url(#filter0_f_756_33214)">
         <circle
-          cx="44.9998"
+          cx="45.0001"
           cy="45.0003"
           r="38.3333"
           fill="#9C9C9C"
@@ -35,7 +35,7 @@ const QodeSvgI677405042242236167740270: React.FC<IconProps> = ({
       <defs>
         <filter
           id="filter0_f_756_33214"
-          x="-0.000163555"
+          x="8.05855e-05"
           y="0.000324726"
           width={width}
           height={height}

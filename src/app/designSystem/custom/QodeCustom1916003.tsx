@@ -3,6 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeSteps } from "@designSystem/ant/QodeSteps"
 import QodeSvg191975 from "@designSystem/icon/svg/QodeSvg191975"
 import QodeSvg191973 from "@designSystem/icon/svg/QodeSvg191973"
 import QodeSvg191977 from "@designSystem/icon/svg/QodeSvg191977"
@@ -53,7 +54,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:5981;191:1082" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -65,21 +66,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -147,7 +135,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:5991;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -157,21 +145,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -256,7 +231,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6051;191:1082" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -268,21 +243,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -350,7 +312,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6052;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -360,21 +322,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -442,7 +391,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6069;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -452,21 +401,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -551,7 +487,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6079;191:1082" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -563,21 +499,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -645,7 +568,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6080;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -655,21 +578,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -737,7 +647,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6081;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -747,21 +657,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -829,7 +726,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6106;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -839,21 +736,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -938,7 +822,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6116;191:1082" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -950,21 +834,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -1032,7 +903,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6117;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -1042,21 +913,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -1124,7 +982,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6118;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -1134,21 +992,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -1216,7 +1061,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6119;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -1226,21 +1071,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -1308,7 +1140,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6152;191:1092" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -1318,21 +1150,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -1417,7 +1236,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6162;191:1190" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -1429,21 +1248,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -1489,7 +1295,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6163;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -1499,21 +1305,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -1576,7 +1369,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6165;191:1190" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -1588,21 +1381,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -1648,7 +1428,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6166;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -1658,21 +1438,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -1718,7 +1485,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6167;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -1728,21 +1495,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -1805,7 +1559,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6169;191:1190" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -1817,21 +1571,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -1877,7 +1618,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6170;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -1887,21 +1628,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -1947,7 +1675,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6171;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -1957,21 +1685,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -2017,7 +1732,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6172;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -2027,21 +1742,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -2104,7 +1806,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6174;191:1190" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -2116,21 +1818,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-white, #fff)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "700",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-50, #1d1d1d)",
@@ -2176,7 +1865,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6175;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -2186,21 +1875,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -2246,7 +1922,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6176;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -2256,21 +1932,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -2316,7 +1979,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6177;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -2326,21 +1989,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -2386,7 +2036,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6178;191:1197" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -2396,21 +2046,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   <span
                     style={{
                       color: "var(--text-text-neutral-40, #464646)",
@@ -3274,7 +2911,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6422;191:1631" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "10px",
@@ -3286,10 +2923,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6422;191:1631 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6422;191:1632" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -3367,7 +3002,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6423;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -3377,10 +3012,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6423;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6423;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -3470,7 +3103,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6425;191:1631" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "10px",
@@ -3482,10 +3115,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6425;191:1631 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6425;191:1632" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -3563,7 +3194,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6426;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -3573,10 +3204,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6426;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6426;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -3654,7 +3283,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6427;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -3664,10 +3293,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6427;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6427;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -3757,7 +3384,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6429;191:1631" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "10px",
@@ -3769,10 +3396,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6429;191:1631 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6429;191:1632" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -3850,7 +3475,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6430;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -3860,10 +3485,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6430;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6430;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -3941,7 +3564,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6431;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -3951,10 +3574,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6431;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6431;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -4032,7 +3653,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6432;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -4042,10 +3663,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6432;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6432;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -4135,7 +3754,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6434;191:1631" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "10px",
@@ -4147,10 +3766,8 @@ export const QodeCustom1916003: React.FC<
                         "1px solid var(--border-border-primary-20, #158de2)",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6434;191:1631 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "process", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6434;191:1632" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -4228,7 +3845,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6435;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -4238,10 +3855,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6435;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6435;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -4319,7 +3934,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6436;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -4329,10 +3944,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6436;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6436;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -4410,7 +4023,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6437;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -4420,10 +4033,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6437;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6437;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -4501,7 +4112,7 @@ export const QodeCustom1916003: React.FC<
                     }}
                   />
                   {/* name=".steps__item_progress" id="I191:6438;191:1641" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -4511,10 +4122,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--neutral-gray-40, #a7a7a7)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:6438;191:1641 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6438;191:1642" type="INSTANCE" */}
                   <QodeSvg191977
                     style={{ height: "3px", flex: "1 0 0" }}
@@ -4604,7 +4213,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6846;191:4406" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -4614,13 +4223,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="Icon" id="I191:6846;191:4406;191:798" type="INSTANCE" */}
-                    <Icon.QodeCircleCheck
-                      style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6846;191:4407" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -4695,7 +4299,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6847;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -4705,21 +4309,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6847;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -4813,7 +4404,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6849;191:4406" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -4823,13 +4414,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="Icon" id="I191:6849;191:4406;191:798" type="INSTANCE" */}
-                    <Icon.QodeCircleCheck
-                      style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6849;191:4407" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -4904,7 +4490,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6850;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -4914,21 +4500,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6850;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5003,7 +4576,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6851;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5013,21 +4586,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6851;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5119,7 +4679,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6853;191:4406" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5129,13 +4689,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="Icon" id="I191:6853;191:4406;191:798" type="INSTANCE" */}
-                    <Icon.QodeCircleCheck
-                      style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6853;191:4407" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5210,7 +4765,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6854;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5220,21 +4775,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6854;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5309,7 +4851,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6855;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5319,21 +4861,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6855;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5408,7 +4937,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6856;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5418,21 +4947,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6856;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5524,7 +5040,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6858;191:4406" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5534,13 +5050,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="Icon" id="I191:6858;191:4406;191:798" type="INSTANCE" */}
-                    <Icon.QodeCircleCheck
-                      style={{ width: "16px", height: "16px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6858;191:4407" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5614,7 +5125,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6859;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5624,21 +5135,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6859;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5712,7 +5210,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6860;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5722,21 +5220,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6860;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5810,7 +5295,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6861;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5820,21 +5305,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6861;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -5908,7 +5380,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:6862;191:4416" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "var(--line-height-lineheighheading3, 32px)",
@@ -5918,21 +5390,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "default" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:6862;191:4417" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6026,7 +5485,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7088;191:4513" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6036,13 +5495,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="Icon" id="I191:7088;191:4513;191:822" type="INSTANCE" */}
-                    <Icon.QodeCircleCheck
-                      style={{ width: "12px", height: "12px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7088;191:4514" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6115,7 +5569,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7089;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6125,21 +5579,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7089;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6231,7 +5672,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7091;191:4513" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6241,13 +5682,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="Icon" id="I191:7091;191:4513;191:822" type="INSTANCE" */}
-                    <Icon.QodeCircleCheck
-                      style={{ width: "12px", height: "12px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7091;191:4514" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6320,7 +5756,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7092;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6330,21 +5766,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7092;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6417,7 +5840,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7093;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6427,21 +5850,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7093;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6531,7 +5941,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7095;191:4513" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6541,13 +5951,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="Icon" id="I191:7095;191:4513;191:822" type="INSTANCE" */}
-                    <Icon.QodeCircleCheck
-                      style={{ width: "12px", height: "12px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7095;191:4514" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6619,7 +6024,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7096;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6629,21 +6034,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7096;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6715,7 +6107,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7097;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6725,21 +6117,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7097;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6811,7 +6190,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7098;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6821,21 +6200,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7098;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -6925,7 +6291,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7100;191:4513" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -6935,13 +6301,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-primary, #1597f4)",
                     }}
-                  >
-                    {/* name="Icon" id="I191:7100;191:4513;191:822" type="INSTANCE" */}
-                    <Icon.QodeCircleCheck
-                      style={{ width: "12px", height: "12px", flexShrink: "0" }}
-                      {...{}}
-                    />
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7100;191:4514" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7013,7 +6374,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7101;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -7023,21 +6384,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7101;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7109,7 +6457,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7102;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -7119,21 +6467,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7102;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7205,7 +6540,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7103;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -7215,21 +6550,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7103;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7301,7 +6623,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7104;191:4520" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "24px",
@@ -7311,21 +6633,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-neutral-10, #e3e3e3)",
                     }}
-                  >
-                    <span
-                      style={{
-                        flex: "1 0 0",
-                        color: "var(--text-text-neutral-40, #464646)",
-                        textAlign: "center",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-base, 14px)",
-                        fontStyle: "normal",
-                        fontWeight: "400",
-                        lineHeight:
-                          "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
-                      }}
-                    >{`2`}</span>
-                  </Flex>
+                    {...{ step: "2", status: "wait", size: "small" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7104;191:4521" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7418,7 +6727,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7330;191:4629" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -7428,10 +6737,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7330;191:4629 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7330;191:4630" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7506,7 +6813,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7331;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -7516,10 +6823,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7331;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7331;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7613,7 +6918,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7333;191:4629" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -7623,10 +6928,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7333;191:4629 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7333;191:4630" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7701,7 +7004,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7334;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -7711,10 +7014,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7334;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7334;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7789,7 +7090,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7335;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -7799,10 +7100,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7335;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7335;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7894,7 +7193,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7337;191:4629" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -7904,10 +7203,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7337;191:4629 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7337;191:4630" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -7981,7 +7278,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7338;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -7991,10 +7288,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7338;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7338;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -8068,7 +7363,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7339;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -8078,10 +7373,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7339;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7339;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -8155,7 +7448,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7340;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -8165,10 +7458,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7340;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7340;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -8260,7 +7551,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7342;191:4629" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -8270,10 +7561,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7342;191:4629 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7342;191:4630" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -8347,7 +7636,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7343;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -8357,10 +7646,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7343;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7343;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -8434,7 +7721,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7344;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -8444,10 +7731,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7344;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7344;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -8521,7 +7806,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7345;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -8531,10 +7816,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7345;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7345;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
@@ -8608,7 +7891,7 @@ export const QodeCustom1916003: React.FC<
                   }}
                 >
                   {/* name=".steps__item_progress" id="I191:7346;191:4636" type="INSTANCE" */}
-                  <Flex
+                  <QodeSteps
                     style={{
                       display: "flex",
                       width: "8px",
@@ -8618,10 +7901,8 @@ export const QodeCustom1916003: React.FC<
                       borderRadius: "999px",
                       background: "var(--background-bg-green-hover, #11a620)",
                     }}
-                  >
-                    {/* name=".steps__item_progress" id=I191:7346;191:4636 type=INSTANCE */}
-                    <></>
-                  </Flex>
+                    {...{ step: "2", status: "finish", size: "dot" }}
+                  />
                   {/* name=".steps__item_tail" id="I191:7346;191:4637" type="INSTANCE" */}
                   <QodeSvg191983
                     style={{
