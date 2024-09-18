@@ -3796,7 +3796,7 @@ import React, { CSSProperties } from 'react';
 import { capitalizeFirstLetter } from '../util/string';
 
 interface IconProps {
-  fontSize?: CSSProperties['fontSize'];
+  style?: CSSProperties;
 }
 
 type ConvertToCamelCase<S extends string> = S extends `${infer P}-${infer R}`
@@ -3810,8 +3810,8 @@ const createFunctions = <T extends string>(names: T[]): Record<FunctionName, Rea
   const result = {} as Record<FunctionName, React.FC<IconProps>>;
   names.forEach(name => {
     const key: FunctionName = `Qode${name.split('-').map(e => capitalizeFirstLetter(e)).join('')}` as FunctionName;
-    result[key] = ({ fontSize }) => (<i
-      style={{ fontSize }}
+    result[key] = ({ style: { width, height, fontSize } = { width: undefined, height: undefined, fontSize: 'inherit' } }) => (<i
+      style={{ fontSize: !!width || !!height ? width || height : fontSize || 'inherit' }}
       className={`icon-${name}`}
     />);
   });

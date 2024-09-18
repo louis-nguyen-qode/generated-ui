@@ -1,0 +1,36 @@
+// id='2653:50946'
+import React from "react"
+
+interface IconProps {
+  style?: {
+    width?: string
+    height?: string
+    [key: string]: any
+  }
+}
+
+const QodeSvg265350946: React.FC<IconProps> = ({
+  style: { width, height } = {
+    width: "18",
+    height: "24",
+  },
+}) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 19 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M15.7884 20.218C14.2635 22.3965 11.9649 24 9.2002 24C6.43545 24 4.13693 22.3965 2.61198 20.218C1.08262 18.0332 0.200195 15.1214 0.200195 12C0.200195 8.87855 1.08262 5.96681 2.61198 3.78201C4.13693 1.60352 6.43545 0 9.2002 0C11.9649 0 14.2635 1.60352 15.7884 3.78201C17.3178 5.96681 18.2002 8.87855 18.2002 12C18.2002 15.1214 17.3178 18.0332 15.7884 20.218ZM9.2002 22C13.0662 22 16.2002 17.5228 16.2002 12C16.2002 6.47715 13.0662 2 9.2002 2C5.3342 2 2.2002 6.47715 2.2002 12C2.2002 17.5228 5.3342 22 9.2002 22Z"
+        fill="#C1C3C3"
+      />
+    </svg>
+  )
+}
+
+export default QodeSvg265350946
