@@ -24,7 +24,7 @@ export const QodeCustom4325453: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "806px",
+                
                 alignItems: "flex-start",
                 gap: "24px",
               },
@@ -215,7 +215,7 @@ export const QodeCustom4325453: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "806px",
+                
                 alignItems: "flex-start",
                 gap: "24px",
               },
@@ -393,7 +393,7 @@ export const QodeCustom4325453: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "806px",
+                
                 alignItems: "flex-start",
                 gap: "24px",
               },
@@ -611,7 +611,7 @@ export const QodeCustom4325453: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "806px",
+                
                 alignItems: "flex-start",
                 gap: "24px",
               },

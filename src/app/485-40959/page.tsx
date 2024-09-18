@@ -30,8 +30,8 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "1280px",
-              height: "800px",
+              
+              
               alignItems: "flex-start",
               background: "var(--app-bg, #f4f4f6)",
             },
@@ -44,7 +44,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
               ...{
                 display: "flex",
                 width: "84px",
-                height: "800px",
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -79,7 +79,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
                   display: "flex",
                   width: "1116px",
                   height: "42px",
-                  maxWidth: "1276px",
+                  
                   paddingRight: "441px",
                   alignItems: "center",
                   gap: "408px",
@@ -95,7 +95,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
               style={{
                 ...{
                   display: "flex",
-                  maxWidth: "1276px",
+                  
                   alignItems: "flex-start",
                   flex: "1 0 0",
                   alignSelf: "stretch",
@@ -151,7 +151,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "640px",
+              
               height: "220px",
               flexDirection: "column",
               justifyContent: "center",
@@ -306,7 +306,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "640px",
+              
               flexDirection: "column",
               alignItems: "center",
               borderRadius: "0px 0px 0px 12px",
@@ -696,7 +696,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "640px",
+              
               flexDirection: "column",
               alignItems: "center",
               borderRadius: "0px 0px 0px 12px",
@@ -1146,7 +1146,7 @@ export const Qode48540959Page: React.FC<Qode48540959PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "640px",
+              
               flexDirection: "column",
               alignItems: "center",
               borderRadius: "0px 0px 0px 12px",

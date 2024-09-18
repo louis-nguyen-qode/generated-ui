@@ -22,7 +22,7 @@ export const Qode71530651Page: React.FC<Qode71530651PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "806px",
+              
               alignItems: "flex-start",
               gap: "24px",
             },
@@ -35,7 +35,7 @@ export const Qode71530651Page: React.FC<Qode71530651PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "806px",
+              
               alignItems: "flex-start",
               gap: "24px",
             },
@@ -48,7 +48,7 @@ export const Qode71530651Page: React.FC<Qode71530651PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "806px",
+              
               alignItems: "flex-start",
               gap: "24px",
             },
@@ -61,7 +61,7 @@ export const Qode71530651Page: React.FC<Qode71530651PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "806px",
+              
               alignItems: "flex-start",
               gap: "24px",
             },

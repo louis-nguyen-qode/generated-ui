@@ -25,7 +25,7 @@ export const QodeCustom245118: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
+                
                 paddingBottom: "12px",
                 flexDirection: "column",
                 alignItems: "flex-end",
@@ -94,7 +94,7 @@ export const QodeCustom245118: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
+                
                 paddingBottom: "12px",
                 flexDirection: "column",
                 alignItems: "flex-end",

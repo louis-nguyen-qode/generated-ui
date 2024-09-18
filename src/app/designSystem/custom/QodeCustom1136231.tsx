@@ -19,7 +19,7 @@ export const QodeCustom1136231: React.FC<
             display: "flex",
             width: "1116px",
             height: "42px",
-            maxWidth: "1276px",
+            
             paddingRight: "521px",
             alignItems: "center",
             gap: "488px",

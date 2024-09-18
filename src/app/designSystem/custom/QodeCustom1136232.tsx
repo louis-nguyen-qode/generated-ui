@@ -26,7 +26,7 @@ export const QodeCustom1136232: React.FC<
                 display: "flex",
                 width: "1116px",
                 height: "42px",
-                maxWidth: "1276px",
+                
                 paddingRight: "521px",
                 alignItems: "center",
                 gap: "488px",
@@ -130,7 +130,7 @@ export const QodeCustom1136232: React.FC<
                 display: "flex",
                 width: "1116px",
                 height: "42px",
-                maxWidth: "1276px",
+                
                 padding: "5px 520px 5px 0px",
                 alignItems: "center",
                 gap: "489px",
@@ -237,7 +237,7 @@ export const QodeCustom1136232: React.FC<
                 display: "flex",
                 width: "1116px",
                 height: "42px",
-                maxWidth: "1276px",
+                
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "926px",

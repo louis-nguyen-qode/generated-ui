@@ -11,7 +11,7 @@ import { QodePagination } from "@designSystem/ant/QodePagination"
 
 export interface Qode20312574PageProps {
   style?: CSSProperties
-}
+ }
 
 export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
   style,
@@ -36,7 +36,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
             ...{
               display: "flex",
               width: "84px",
-              height: "1028px",
+  
               flexDirection: "column",
               alignItems: "center",
               borderRight:
@@ -68,7 +68,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
             style={{
               ...{
                 height: "40px",
-                maxWidth: "1276px",
+  
                 flexShrink: "0",
                 alignSelf: "stretch",
               },
@@ -158,7 +158,7 @@ export const Qode20312574Page: React.FC<Qode20312574PageProps> = ({
             style={{
               ...{
                 display: "flex",
-                maxWidth: "1276px",
+  
                 flexDirection: "column",
                 alignItems: "center",
                 gap: "20px",

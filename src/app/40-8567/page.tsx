@@ -25,8 +25,8 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({
         style={{
           ...{
             display: "flex",
-            width: "1280px",
-            height: "800px",
+            
+            
             alignItems: "flex-start",
             background: "var(--app-bg, #f4f4f6)",
           },
@@ -39,7 +39,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({
             ...{
               display: "flex",
               width: "84px",
-              height: "800px",
+              
               flexDirection: "column",
               alignItems: "center",
               flexShrink: "0",
@@ -56,7 +56,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "1196px",
+              
               padding: "24px 40px 0px 40px",
               flexDirection: "column",
               alignItems: "center",
@@ -74,7 +74,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({
               ...{
                 display: "flex",
                 height: "42px",
-                maxWidth: "1276px",
+                
                 justifyContent: "space-between",
                 alignItems: "center",
                 alignSelf: "stretch",
@@ -211,7 +211,7 @@ export const Qode408567Page: React.FC<Qode408567PageProps> = ({
             style={{
               ...{
                 display: "flex",
-                maxWidth: "1276px",
+                
                 flexDirection: "column",
                 alignItems: "flex-start",
                 flex: "1 0 0",

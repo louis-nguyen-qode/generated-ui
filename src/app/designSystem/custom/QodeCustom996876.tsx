@@ -22,7 +22,7 @@ export const QodeCustom996876: React.FC<
         style={{
           ...{
             display: "flex",
-            width: "640px",
+            
             height: "375px",
             padding: "16px 20px",
             flexDirection: "column",

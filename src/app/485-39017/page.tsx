@@ -25,8 +25,8 @@ export const Qode48539017Page: React.FC<Qode48539017PageProps> = ({
         style={{
           ...{
             display: "flex",
-            width: "1280px",
-            height: "800px",
+            
+            
             alignItems: "flex-start",
             background: "#FFF",
           },
@@ -39,7 +39,7 @@ export const Qode48539017Page: React.FC<Qode48539017PageProps> = ({
             ...{
               display: "flex",
               width: "84px",
-              height: "800px",
+              
               flexDirection: "column",
               alignItems: "center",
               flexShrink: "0",
@@ -70,7 +70,7 @@ export const Qode48539017Page: React.FC<Qode48539017PageProps> = ({
           {/* name="Header" id="485:39020" type="FRAME" */}
           <div
             style={{
-              ...{ height: "40px", maxWidth: "1276px", alignSelf: "stretch" },
+              ...{ height: "40px",  alignSelf: "stretch" },
               ...{},
             }}
           >
@@ -157,7 +157,7 @@ export const Qode48539017Page: React.FC<Qode48539017PageProps> = ({
             style={{
               ...{
                 display: "flex",
-                maxWidth: "1276px",
+                
                 flexDirection: "column",
                 alignItems: "center",
                 gap: "20px",
@@ -404,7 +404,7 @@ export const Qode48539017Page: React.FC<Qode48539017PageProps> = ({
               style={{
                 ...{
                   display: "flex",
-                  width: "556px",
+                  
                   paddingBottom: "32px",
                   justifyContent: "center",
                   alignItems: "center",
@@ -421,8 +421,8 @@ export const Qode48539017Page: React.FC<Qode48539017PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "1280px",
-              height: "800px",
+              
+              
               justifyContent: "center",
               alignItems: "center",
               position: "absolute",

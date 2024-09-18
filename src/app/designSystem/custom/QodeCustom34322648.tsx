@@ -32,7 +32,7 @@ export const QodeCustom34322648: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "500px",
+                
                 flexDirection: "column",
                 alignItems: "flex-start",
                 borderRadius: "var(--style-radius-borderradius, 8px)",
@@ -208,7 +208,7 @@ export const QodeCustom34322648: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "500px",
+                
                 flexDirection: "column",
                 alignItems: "flex-start",
                 borderRadius: "var(--style-radius-borderradius, 8px)",
@@ -279,7 +279,7 @@ export const QodeCustom34322648: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "500px",
+                
                 flexDirection: "column",
                 alignItems: "flex-start",
                 borderRadius: "var(--style-radius-borderradius, 8px)",
@@ -368,7 +368,7 @@ export const QodeCustom34322648: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "500px",
+                
                 flexDirection: "column",
                 alignItems: "flex-start",
                 borderRadius: "var(--style-radius-borderradius, 8px)",

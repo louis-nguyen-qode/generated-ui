@@ -44,8 +44,8 @@ export const QodeCustom787793: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
@@ -107,8 +107,8 @@ export const QodeCustom787793: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -195,8 +195,8 @@ export const QodeCustom787793: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -440,8 +440,8 @@ Send a connection request to start the conversation.`}</span>
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -889,8 +889,8 @@ Send a connection request to start the conversation.`}</span>
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -1088,8 +1088,8 @@ Start by sending an email and track your email sequences here.`}</span>
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -1236,7 +1236,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   height: "375px",
                   padding: "16px 20px",
                   flexDirection: "column",
@@ -1267,8 +1267,8 @@ Start by sending an email and track your email sequences here.`}</span>
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -1344,7 +1344,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   padding: "20px",
                   flexDirection: "column",
                   alignItems: "flex-start",
@@ -1363,7 +1363,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   height: "163px",
                   padding: "16px 20px",
                   flexDirection: "column",
@@ -1394,8 +1394,8 @@ Start by sending an email and track your email sequences here.`}</span>
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -1471,7 +1471,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   padding: "20px",
                   flexDirection: "column",
                   alignItems: "flex-start",
@@ -1490,7 +1490,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   height: "163px",
                   padding: "16px 20px",
                   flexDirection: "column",
@@ -1521,8 +1521,8 @@ Start by sending an email and track your email sequences here.`}</span>
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -1598,7 +1598,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   padding: "20px",
                   flexDirection: "column",
                   alignItems: "flex-start",
@@ -1617,7 +1617,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   height: "375px",
                   padding: "16px 20px",
                   flexDirection: "column",
@@ -1644,8 +1644,8 @@ Start by sending an email and track your email sequences here.`}</span>
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -1721,7 +1721,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   padding: "20px",
                   flexDirection: "column",
                   alignItems: "flex-start",
@@ -1740,7 +1740,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   height: "163px",
                   padding: "16px 20px",
                   flexDirection: "column",
@@ -1771,8 +1771,8 @@ Start by sending an email and track your email sequences here.`}</span>
             style={{
               ...{
                 display: "flex",
-                width: "640px",
-                height: "800px",
+                
+                
                 flexDirection: "column",
                 alignItems: "center",
                 flexShrink: "0",
@@ -1848,7 +1848,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   padding: "20px",
                   flexDirection: "column",
                   alignItems: "flex-start",
@@ -1867,7 +1867,7 @@ Start by sending an email and track your email sequences here.`}</span>
               style={{
                 ...{
                   display: "flex",
-                  width: "640px",
+                  
                   height: "163px",
                   padding: "16px 20px",
                   flexDirection: "column",

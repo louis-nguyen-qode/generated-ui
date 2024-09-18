@@ -26,7 +26,7 @@ export const QodeCustom71534739: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "1280px",
+                
                 height: "768px",
                 alignItems: "flex-start",
                 flexShrink: "0",

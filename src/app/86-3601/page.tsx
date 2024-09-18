@@ -23,8 +23,8 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
         style={{
           ...{
             display: "flex",
-            width: "1280px",
-            height: "800px",
+            
+            
             alignItems: "flex-start",
             background: "var(--app-bg, #f4f4f6)",
           },
@@ -37,7 +37,7 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
             ...{
               display: "flex",
               width: "84px",
-              height: "800px",
+              
               flexDirection: "column",
               alignItems: "center",
               flexShrink: "0",
@@ -54,7 +54,7 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
           style={{
             ...{
               display: "flex",
-              height: "800px",
+              
               padding: "24px 40px 0px 40px",
               flexDirection: "column",
               alignItems: "flex-start",
@@ -72,7 +72,7 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
                 display: "flex",
                 width: "1116px",
                 height: "42px",
-                maxWidth: "1276px",
+                
                 paddingRight: "476.5px",
                 alignItems: "center",
                 gap: "443.5px",
@@ -89,7 +89,7 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
             style={{
               ...{
                 display: "flex",
-                maxWidth: "1276px",
+                
                 flexDirection: "column",
                 alignItems: "flex-start",
                 flex: "1 0 0",
@@ -138,7 +138,7 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
                     flexDirection: "column",
                     alignItems: "center",
                     gap: "20px",
-                    flex: "1 0 0",
+                    flex: "1",
                     alignSelf: "stretch",
                     borderLeft:
                       "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",

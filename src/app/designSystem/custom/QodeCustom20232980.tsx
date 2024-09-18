@@ -1780,7 +1780,7 @@ export const QodeCustom20232980: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "560px",
+                
                 justifyContent: "center",
                 alignItems: "center",
                 borderRadius: "var(--style-radius-borderradius, 8px)",
@@ -5825,7 +5825,7 @@ export const QodeCustom20232980: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "560px",
+                
                 justifyContent: "center",
                 alignItems: "center",
                 borderRadius: "var(--style-radius-borderradius, 8px)",
@@ -7498,7 +7498,7 @@ export const QodeCustom20232980: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "560px",
+                
                 justifyContent: "center",
                 alignItems: "center",
                 borderRadius: "var(--style-radius-borderradius, 8px)",

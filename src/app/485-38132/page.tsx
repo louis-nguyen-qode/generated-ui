@@ -25,8 +25,8 @@ export const Qode48538132Page: React.FC<Qode48538132PageProps> = ({
         style={{
           ...{
             display: "flex",
-            width: "1280px",
-            height: "800px",
+            
+            
             alignItems: "flex-start",
             background: "#FFF",
           },
@@ -70,7 +70,7 @@ export const Qode48538132Page: React.FC<Qode48538132PageProps> = ({
           {/* name="Header" id="485:38135" type="FRAME" */}
           <div
             style={{
-              ...{ height: "40px", maxWidth: "1276px", alignSelf: "stretch" },
+              ...{ height: "40px",  alignSelf: "stretch" },
               ...{},
             }}
           >
@@ -157,7 +157,7 @@ export const Qode48538132Page: React.FC<Qode48538132PageProps> = ({
             style={{
               ...{
                 display: "flex",
-                maxWidth: "1276px",
+                
                 flexDirection: "column",
                 alignItems: "center",
                 gap: "20px",

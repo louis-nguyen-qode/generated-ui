@@ -14,7 +14,7 @@ import { QodeCustom245141 } from "@designSystem/custom/QodeCustom245141"
 import { QodeCustom245195 } from "@designSystem/custom/QodeCustom245195"
 import { QodeCustom245168 } from "@designSystem/custom/QodeCustom245168"
 
-export interface QodeCustom204899Props {}
+export interface QodeCustom204899Props { }
 
 export const QodeCustom204899: React.FC<
   QodeCustom204899Props & { style?: CSSProperties }
@@ -24,20 +24,17 @@ export const QodeCustom204899: React.FC<
       {/* name="Property 1=Default" id="20:4899" type="COMPONENT" */}
       <div
         style={{
-          ...{
-            display: "flex",
-            width: "760px",
-            height: "1884px",
-            padding: "20px",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "20px",
-            flexShrink: "0",
-            borderLeft:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
-            background: "var(--background-bg-white, #fff)",
-          },
-          ...style,
+          display: "flex",
+          width: "760px",
+          height: "1884px",
+          padding: "20px",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "20px",
+          flexShrink: "0",
+          borderLeft:
+            "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+          background: "var(--background-bg-white, #fff)",
         }}
       >
         {/* name="Profile/Header" id="24:11029" type="INSTANCE" */}
@@ -616,7 +613,7 @@ export const QodeCustom204899: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
+                
                 paddingBottom: "12px",
                 flexDirection: "column",
                 alignItems: "flex-end",
@@ -633,7 +630,7 @@ export const QodeCustom204899: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
+                
                 paddingBottom: "12px",
                 flexDirection: "column",
                 alignItems: "flex-end",
@@ -650,7 +647,7 @@ export const QodeCustom204899: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
+                
                 paddingBottom: "12px",
                 flexDirection: "column",
                 alignItems: "flex-end",

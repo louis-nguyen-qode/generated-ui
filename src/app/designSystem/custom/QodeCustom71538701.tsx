@@ -26,8 +26,8 @@ export const QodeCustom71538701: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "1280px",
-                height: "800px",
+                
+                
                 alignItems: "flex-start",
                 flexShrink: "0",
                 background: "var(--app-bg, #f4f4f6)",
@@ -76,7 +76,7 @@ export const QodeCustom71538701: React.FC<
                     display: "flex",
                     width: "1116px",
                     height: "42px",
-                    maxWidth: "1276px",
+                    
                     paddingRight: "476.5px",
                     alignItems: "center",
                     gap: "443.5px",
@@ -92,7 +92,7 @@ export const QodeCustom71538701: React.FC<
                 style={{
                   ...{
                     display: "flex",
-                    maxWidth: "1276px",
+                    
                     flexDirection: "column",
                     alignItems: "flex-start",
                     flex: "1 0 0",
@@ -216,7 +216,7 @@ export const QodeCustom71538701: React.FC<
                     display: "flex",
                     width: "1116px",
                     height: "42px",
-                    maxWidth: "1276px",
+                    
                     paddingRight: "476.5px",
                     alignItems: "center",
                     gap: "443.5px",
@@ -232,7 +232,7 @@ export const QodeCustom71538701: React.FC<
                 style={{
                   ...{
                     display: "flex",
-                    maxWidth: "1276px",
+                    
                     flexDirection: "column",
                     alignItems: "flex-start",
                     flex: "1 0 0",
@@ -356,7 +356,7 @@ export const QodeCustom71538701: React.FC<
                     display: "flex",
                     width: "1116px",
                     height: "42px",
-                    maxWidth: "1276px",
+                    
                     paddingRight: "476.5px",
                     alignItems: "center",
                     gap: "443.5px",
@@ -372,7 +372,7 @@ export const QodeCustom71538701: React.FC<
                 style={{
                   ...{
                     display: "flex",
-                    maxWidth: "1276px",
+                    
                     flexDirection: "column",
                     alignItems: "flex-start",
                     flex: "1 0 0",
@@ -496,7 +496,7 @@ export const QodeCustom71538701: React.FC<
                     display: "flex",
                     width: "1116px",
                     height: "42px",
-                    maxWidth: "1276px",
+                    
                     paddingRight: "476.5px",
                     alignItems: "center",
                     gap: "443.5px",
@@ -512,7 +512,7 @@ export const QodeCustom71538701: React.FC<
                 style={{
                   ...{
                     display: "flex",
-                    maxWidth: "1276px",
+                    
                     flexDirection: "column",
                     alignItems: "flex-start",
                     flex: "1 0 0",
