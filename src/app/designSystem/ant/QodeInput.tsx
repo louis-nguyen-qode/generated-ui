@@ -51,18 +51,11 @@ export const QodeInput: React.FC<QodeInputProps> = ({
 }) => {
   return (
     <Input
-      showIconRight={showIconRight}
-      suffix={suffix}
-      showSuffix={showSuffix}
+      suffix={iconRight}
       title={title}
-      prefix={prefix}
-      iconRight={iconRight}
-      showPrefix={showPrefix}
-      iconLeft={iconLeft}
-      showIconLeft={showIconLeft}
-      state={state}
-      status={status}
-      size={size}
+      prefix={iconLeft}
+      status={status === "default" ? "" : status}
+      size={size === "default" ? "middle" : size}
       style={{ ...style }}
       {...rest}
     />

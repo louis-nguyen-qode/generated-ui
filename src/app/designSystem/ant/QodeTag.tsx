@@ -11,14 +11,14 @@ export interface QodeTagProps
   rIcon?: React.ReactNode
   showRIcon?: boolean
   color?:
-    | "primary"
-    | "neutral"
-    | "magenta"
-    | "golden purple"
-    | "cyan"
-    | "polar green"
-    | "lime"
-    | "calendula gold"
+  | "primary"
+  | "neutral"
+  | "magenta"
+  | "golden purple"
+  | "cyan"
+  | "polar green"
+  | "lime"
+  | "calendula gold"
   state?: "default" | "hover"
   size?: "Default" | "rouned" | "small"
   rounded?: "False" | "True"
@@ -32,18 +32,29 @@ export const QodeTag: React.FC<QodeTagProps> = ({
   size = "Default",
   rounded = "False",
   style,
+  children,
   ...rest
 }) => {
   return (
     <Tag
-      rIcon={rIcon}
-      showRIcon={showRIcon}
+      // icon={rIcon}
       color={color}
-      state={state}
-      size={size}
-      rounded={rounded}
+      itemType={state}
       style={{ ...style }}
       {...rest}
-    />
+    >
+      {
+        children || (
+          <span style={{
+            color: "var(--text-text-neutral-50, #1D1D1D)",
+            fontFamily: "var(--family-family, \"SF Pro Display\")",
+            fontSize: "var(--size-base, 14px)",
+            fontStyle: "normal",
+            fontWeight: "500",
+            lineHeight: "var(--lineheight-lineheight-base, 20px) /* 142.857% */"
+          }}>Java</span>
+        )
+      }
+    </Tag>
   )
 }
