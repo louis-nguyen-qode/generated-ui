@@ -52,6 +52,7 @@ export const QodeCustom562954: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--style-radius-borderround, 999px)",
                 background: "var(--color-success-colorsuccesshover, #a3c73e)",
+                position: "relative",
               },
               ...style,
             }}
@@ -161,6 +162,7 @@ export const QodeCustom562954: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--style-radius-borderradius, 8px)",
                 background: "var(--color-success-colorsuccesshover, #a3c73e)",
+                position: "relative",
               },
               ...style,
             }}
@@ -257,6 +259,7 @@ export const QodeCustom562954: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--style-radius-borderround, 999px)",
                 background: "var(--color-success-colorsuccesshover, #a3c73e)",
+                position: "relative",
               },
               ...style,
             }}
@@ -382,6 +385,7 @@ export const QodeCustom562954: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--style-radius-borderradius, 8px)",
                 background: "var(--color-success-colorsuccesshover, #a3c73e)",
+                position: "relative",
               },
               ...style,
             }}

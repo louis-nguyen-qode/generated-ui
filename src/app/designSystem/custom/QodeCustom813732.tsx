@@ -61,7 +61,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "52px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -228,7 +227,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "52px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -394,7 +392,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "52px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -430,7 +427,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "52px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -576,7 +572,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "52px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -612,7 +607,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "52px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -758,7 +752,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "52px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -794,7 +787,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "52px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -940,7 +932,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "52px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -1106,7 +1097,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "52px",
                 padding: "var(--size-padding-paddingxs, 8px)",
                 alignItems: "flex-start",
@@ -1163,7 +1153,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "64px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -1327,7 +1316,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "64px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -1491,7 +1479,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "64px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -1525,7 +1512,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "64px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -1671,7 +1657,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "64px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -1705,7 +1690,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "64px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -1851,7 +1835,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "64px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -1885,7 +1868,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "64px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -2031,7 +2013,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "64px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -2195,7 +2176,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "64px",
                 padding: "var(--size-padding-paddingxs, 8px)",
                 alignItems: "flex-start",
@@ -2250,7 +2230,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "44px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -2415,7 +2394,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "44px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -2580,7 +2558,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "44px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -2615,7 +2592,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "44px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -2761,7 +2737,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "44px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -2796,7 +2771,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "44px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -2942,7 +2916,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "44px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -2977,7 +2950,6 @@ export const QodeCustom813732: React.FC<
             <Flex
               style={{
                 ...{
-                  width: "240px",
                   height: "44px",
                   position: "absolute",
                   borderRadius: "8px",
@@ -3123,7 +3095,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "44px",
                 padding:
                   "var(--size-padding-paddingxs, 8px) var(--size-padding-paddingxs, 8px) var(--size-padding-paddinglg, 24px) var(--size-padding-paddingxs, 8px)",
@@ -3288,7 +3259,6 @@ export const QodeCustom813732: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "240px",
                 height: "44px",
                 padding: "var(--size-padding-paddingxs, 8px)",
                 alignItems: "flex-start",

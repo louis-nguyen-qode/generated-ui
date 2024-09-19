@@ -349,10 +349,12 @@ export const QodeCustom53139576: React.FC<
                 <div
                   style={{
                     ...{
+                      height: "40px",
                       display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
                       alignSelf: "stretch",
+                      alignItems: "center",
+                      justifyItems: "stretch",
+                      justifyContent: "space-between"
                     },
                     ...{},
                   }}
@@ -891,10 +893,12 @@ export const QodeCustom53139576: React.FC<
                 <div
                   style={{
                     ...{
+                      height: "40px",
                       display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
                       alignSelf: "stretch",
+                      alignItems: "center",
+                      justifyItems: "stretch",
+                      justifyContent: "space-between"
                     },
                     ...{},
                   }}
@@ -1000,10 +1004,12 @@ export const QodeCustom53139576: React.FC<
                 <div
                   style={{
                     ...{
+                      height: "40px",
                       display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
                       alignSelf: "stretch",
+                      alignItems: "center",
+                      justifyItems: "stretch",
+                      justifyContent: "space-between"
                     },
                     ...{},
                   }}
@@ -1388,7 +1394,7 @@ export const QodeCustom53139576: React.FC<
                   <Flex
                     style={{
                       ...{
-                        width: "600px",
+
                         height: "1px",
                         background: "var(--border-border-neutral-20, #e3e3e3)",
                       },
@@ -1548,7 +1554,7 @@ export const QodeCustom53139576: React.FC<
                   <Flex
                     style={{
                       ...{
-                        width: "600px",
+
                         height: "1px",
                         background: "var(--border-border-neutral-20, #e3e3e3)",
                       },
@@ -1654,7 +1660,7 @@ export const QodeCustom53139576: React.FC<
                   <Flex
                     style={{
                       ...{
-                        width: "600px",
+
                         height: "1px",
                         background: "var(--border-border-neutral-20, #e3e3e3)",
                       },
@@ -2128,10 +2134,12 @@ export const QodeCustom53139576: React.FC<
                 <div
                   style={{
                     ...{
+                      height: "40px",
                       display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
                       alignSelf: "stretch",
+                      alignItems: "center",
+                      justifyItems: "stretch",
+                      justifyContent: "space-between"
                     },
                     ...{},
                   }}
@@ -2237,10 +2245,12 @@ export const QodeCustom53139576: React.FC<
                 <div
                   style={{
                     ...{
+                      height: "40px",
                       display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
                       alignSelf: "stretch",
+                      alignItems: "center",
+                      justifyItems: "stretch",
+                      justifyContent: "space-between"
                     },
                     ...{},
                   }}
@@ -2442,10 +2452,12 @@ export const QodeCustom53139576: React.FC<
                 <div
                   style={{
                     ...{
+                      height: "40px",
                       display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
                       alignSelf: "stretch",
+                      alignItems: "center",
+                      justifyItems: "stretch",
+                      justifyContent: "space-between"
                     },
                     ...{},
                   }}

@@ -18,7 +18,7 @@ export const QodeCustom565626440: React.FC<
         style={{
           ...{
             display: "flex",
-            width: "600px",
+            
             height: "52px",
             padding: "12px 20px",
             justifyContent: "flex-end",

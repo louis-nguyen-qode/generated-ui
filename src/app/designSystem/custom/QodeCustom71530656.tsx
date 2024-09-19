@@ -39,6 +39,7 @@ export const QodeCustom71530656: React.FC<
                 ...{
                   display: "flex",
                   width: "84px",
+                  height: "100%",
                   flexDirection: "column",
                   alignItems: "center",
                   alignSelf: "stretch",
@@ -443,6 +444,7 @@ export const QodeCustom71530656: React.FC<
                 ...{
                   display: "flex",
                   width: "84px",
+                  height: "100%",
                   flexDirection: "column",
                   alignItems: "center",
                   alignSelf: "stretch",
@@ -475,9 +477,11 @@ export const QodeCustom71530656: React.FC<
                 style={{
                   ...{
                     height: "40px",
-                    
-                    flexShrink: "0",
+                    display: "flex",
                     alignSelf: "stretch",
+                    alignItems: "center",
+                    justifyItems: "stretch",
+                    justifyContent: "space-between"
                   },
                   ...{},
                 }}
@@ -850,6 +854,7 @@ export const QodeCustom71530656: React.FC<
                 ...{
                   display: "flex",
                   width: "84px",
+                  height: "100%",
                   flexDirection: "column",
                   alignItems: "center",
                   flexShrink: "0",
@@ -884,9 +889,11 @@ export const QodeCustom71530656: React.FC<
                 style={{
                   ...{
                     height: "40px",
-                    
-                    flexShrink: "0",
+                    display: "flex",
                     alignSelf: "stretch",
+                    alignItems: "center",
+                    justifyItems: "stretch",
+                    justifyContent: "space-between"
                   },
                   ...{},
                 }}
@@ -1255,6 +1262,7 @@ export const QodeCustom71530656: React.FC<
                 ...{
                   display: "flex",
                   width: "84px",
+                  height: "100%",
                   flexDirection: "column",
                   alignItems: "center",
                   alignSelf: "stretch",
@@ -1287,9 +1295,11 @@ export const QodeCustom71530656: React.FC<
                 style={{
                   ...{
                     height: "40px",
-                    
-                    flexShrink: "0",
+                    display: "flex",
                     alignSelf: "stretch",
+                    alignItems: "center",
+                    justifyItems: "stretch",
+                    justifyContent: "space-between"
                   },
                   ...{},
                 }}

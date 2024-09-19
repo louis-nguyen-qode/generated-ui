@@ -23,7 +23,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
   return (
     <>
       {/* name="Search & Filter" id="58:16084" type="SECTION" */}
-      <div style={{ ...{}, ...style }}>
+      <div style={{ ...{ display: "flex", gap: 12, flexDirection: "column" }, ...style }}>
         {/* name="Search filter" id="58:15969" type="INSTANCE" */}
         <QodeCustom588089
           style={{

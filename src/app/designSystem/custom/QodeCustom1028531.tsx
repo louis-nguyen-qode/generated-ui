@@ -49,7 +49,7 @@ export const QodeCustom1028531: React.FC<
         <Flex
           style={{
             ...{
-              width: "600px",
+              
               height: "1px",
               background: "var(--border-border-neutral-20, #e3e3e3)",
             },
@@ -76,7 +76,7 @@ export const QodeCustom1028531: React.FC<
         <Flex
           style={{
             ...{
-              width: "600px",
+              
               height: "1px",
               background: "var(--border-border-neutral-20, #e3e3e3)",
             },
@@ -103,7 +103,7 @@ export const QodeCustom1028531: React.FC<
         <Flex
           style={{
             ...{
-              width: "600px",
+              
               height: "1px",
               background: "var(--border-border-neutral-20, #e3e3e3)",
             },

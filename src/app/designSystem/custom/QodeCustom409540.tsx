@@ -54,6 +54,7 @@ export const QodeCustom409540: React.FC<
                 gap: "var(--font-size-large, 16px)",
                 borderRadius: "499.5px",
                 background: "var(--color-success-colorsuccesshover, #a3c73e)",
+                position: "relative",
               },
               ...{},
             }}

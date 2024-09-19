@@ -428,7 +428,6 @@ export const Qode49027960Page: React.FC<Qode49027960PageProps> = ({
               style={{
                 ...{
                   display: "flex",
-                  width: "70px",
                   height: "var(--size-height-controlheightsm, 24px)",
                   padding: "4px 8px",
                   justifyContent: "center",

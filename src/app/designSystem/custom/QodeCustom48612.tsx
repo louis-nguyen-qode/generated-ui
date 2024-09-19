@@ -352,7 +352,6 @@ export const QodeCustom48612: React.FC<
                   style={{
                     ...{
                       display: "flex",
-                      width: "130px",
                       padding: "4px 12px",
                       alignItems: "center",
                       gap: "12px",
