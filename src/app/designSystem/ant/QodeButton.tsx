@@ -1,7 +1,7 @@
 // id="20:6485"
-import React from "react"
-import { Flex } from "antd"
-import { Button, ButtonProps } from "antd"
+import React from "react";
+import { Button, ButtonProps } from "antd";
+import { SizeType } from "antd/es/config-provider/SizeContext";
 
 export interface QodeButtonProps
   extends Omit<
@@ -12,21 +12,19 @@ export interface QodeButtonProps
     | "title"
     | "type"
     | "size"
-    | "state"
     | "content"
     | "danger"
     | "ghost"
   > {
-  iconL?: React.ReactNode
-  iconR?: React.ReactNode
-  icononly?: React.ReactNode
-  title?: string
-  type?: "primary" | "default" | "dashed" | "text" | "link"
-  size?: "default" | "large" | "small"
-  state?: "default" | "disabled" | "focus" | "hover" | "pressed"
-  content?: "default" | "icon"
-  danger?: "false" | "true"
-  ghost?: "false" | "true"
+  iconL?: React.ReactNode;
+  iconR?: React.ReactNode;
+  icononly?: React.ReactNode;
+  title?: string;
+  type?: "primary" | "default" | "dashed" | "text" | "link";
+  size?: SizeType;
+  content?: "default" | "icon";
+  danger?: boolean;
+  ghost?:  boolean;
 }
 
 export const QodeButton: React.FC<QodeButtonProps> = ({
@@ -35,28 +33,25 @@ export const QodeButton: React.FC<QodeButtonProps> = ({
   icononly = undefined,
   title = "Button",
   type = "primary",
-  size = "default",
-  state = "default",
+  size = "middle",
   content = "default",
-  danger = "false",
-  ghost = "false",
+  danger = false,
+  ghost = false,
   style,
   ...rest
 }) => {
   return (
     <Button
-      iconL={iconL}
-      iconR={iconR}
-      icononly={icononly}
-      title={title}
+      icon={iconL}
+      iconPosition={iconR ? "end" : "start"}
+      title={icononly ? title : undefined}
       type={type}
       size={size}
-      state={state}
       content={content}
       danger={danger}
       ghost={ghost}
       style={{ ...style }}
       {...rest}
     />
-  )
-}
+  );
+};
