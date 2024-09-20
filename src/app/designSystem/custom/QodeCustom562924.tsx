@@ -1,14 +1,12 @@
 // id="5629:24"
-import React, { CSSProperties } from "react"
-import { Flex } from "antd"
-import { Icon } from "@designSystem/icon"
+import React, { CSSProperties } from "react";
 
-import QodeSvg562925 from "@designSystem/icon/svg/QodeSvg562925"
+import QodeSvg562925_UserProfile from "@/app/designSystem/icon/svg/QodeSvg562925";
 
-export interface QodeCustom562924Props {}
+export interface QodeCustom562924_UserProfileProps {}
 
-export const QodeCustom562924: React.FC<
-  QodeCustom562924Props & { style?: CSSProperties }
+export const QodeCustom562924_UserProfile: React.FC<
+  QodeCustom562924_UserProfileProps & { style?: CSSProperties }
 > = ({ style, ...rest }) => {
   return (
     <>
@@ -27,11 +25,11 @@ export const QodeCustom562924: React.FC<
         }}
       >
         {/* name="Vector" id="5629:25" type="VECTOR" */}
-        <QodeSvg562925
+        <QodeSvg562925_UserProfile
           style={{
             ...{
-              width: "19.2px",
-              height: "19.2px",
+              width: style?.width, 
+              height: style?.height, 
               flexShrink: "0",
               fill: "var(--color-neutral-text-colortext, rgba(0, 0, 0, 0.88))",
             },
@@ -41,5 +39,5 @@ export const QodeCustom562924: React.FC<
         />
       </div>
     </>
-  )
-}
+  );
+};

@@ -1,15 +1,15 @@
 // id="43:25730"
-import React, { CSSProperties } from "react"
-import { Flex } from "antd"
-import { Icon } from "@designSystem/icon"
+import React, { CSSProperties } from "react";
+import { Flex } from "antd";
+import { Icon } from "@designSystem/icon";
 
-import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954";
+import { QodeButton } from "@designSystem/ant/QodeButton";
 
-export interface QodeCustom4325730Props {}
+export interface QodeCustom4325730_ProfileHeaderProps {}
 
-export const QodeCustom4325730: React.FC<
-  QodeCustom4325730Props & { style?: CSSProperties }
+export const QodeCustom4325730_ProfileHeader: React.FC<
+  QodeCustom4325730_ProfileHeaderProps & { style?: CSSProperties }
 > = ({ style, ...rest }) => {
   return (
     <>
@@ -18,7 +18,7 @@ export const QodeCustom4325730: React.FC<
         style={{
           ...{
             display: "flex",
-            
+
             alignItems: "flex-start",
             gap: "24px",
           },
@@ -42,8 +42,6 @@ export const QodeCustom4325730: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "72px",
-                height: "72px",
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
@@ -56,9 +54,11 @@ export const QodeCustom4325730: React.FC<
             }}
             {...{
               opentowork: true,
-              img: true,
               type: "Round",
-              state: "Default",
+              state: "Hover",
+              // img: "https://i.pravatar.cc/300",
+              width: "72",
+              height: "72",
             }}
           />
           {/* name="Wrap" id="43:25733" type="FRAME" */}
@@ -200,5 +200,5 @@ export const QodeCustom4325730: React.FC<
         />
       </div>
     </>
-  )
-}
+  );
+};

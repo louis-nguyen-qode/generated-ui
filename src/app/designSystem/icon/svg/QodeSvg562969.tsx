@@ -9,7 +9,7 @@ interface IconProps {
   }
 }
 
-const QodeSvg562969: React.FC<IconProps> = ({
+const QodeSvg562969_CandidateAvatarHoverOutline: React.FC<IconProps> = ({
   style: { width, height } = {
     width: "36",
     height: "36",
@@ -28,4 +28,4 @@ const QodeSvg562969: React.FC<IconProps> = ({
   )
 }
 
-export default QodeSvg562969
+export default QodeSvg562969_CandidateAvatarHoverOutline

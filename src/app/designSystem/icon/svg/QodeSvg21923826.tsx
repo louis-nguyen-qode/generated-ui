@@ -1,12 +1,12 @@
 // id='219:23826'
-import React from "react"
+import React from "react";
 
 interface IconProps {
   style?: {
-    width?: string | number
-    height?: string | number
-    [key: string]: any
-  }
+    width?: string | number;
+    height?: string | number;
+    [key: string]: string | number | undefined;
+  };
 }
 
 const QodeSvg21923826: React.FC<IconProps> = ({
@@ -28,7 +28,7 @@ const QodeSvg21923826: React.FC<IconProps> = ({
       <circle cx="12.7998" cy="12" r="5.5" stroke="white" />
       <circle cx="12.7998" cy="12" r="3" fill="white" />
     </svg>
-  )
-}
+  );
+};
 
-export default QodeSvg21923826
+export default QodeSvg21923826;

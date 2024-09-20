@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom4325730 } from "@designSystem/custom/QodeCustom4325730"
+import { QodeCustom4325730_ProfileHeader } from "@designSystem/custom/QodeCustom4325730_ProfileHeader"
 import { QodeTag } from "@designSystem/ant/QodeTag"
 import { QodeCustom405376 } from "@designSystem/custom/QodeCustom405376"
 import { QodeCustom21621817 } from "@designSystem/custom/QodeCustom21621817"
@@ -38,7 +38,7 @@ export const QodeCustom204899: React.FC<
         }}
       >
         {/* name="Profile/Header" id="24:11029" type="INSTANCE" */}
-        <QodeCustom4325730
+        <QodeCustom4325730_ProfileHeader
           style={{
             ...{
               display: "flex",

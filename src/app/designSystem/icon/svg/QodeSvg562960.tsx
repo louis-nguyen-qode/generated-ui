@@ -9,7 +9,7 @@ interface IconProps {
   }
 }
 
-const QodeSvg562960: React.FC<IconProps> = ({
+const QodeSvg562960_OpenToWork: React.FC<IconProps> = ({
   style: { width, height } = {
     width: "32",
     height: "32",
@@ -97,4 +97,4 @@ const QodeSvg562960: React.FC<IconProps> = ({
   )
 }
 
-export default QodeSvg562960
+export default QodeSvg562960_OpenToWork
