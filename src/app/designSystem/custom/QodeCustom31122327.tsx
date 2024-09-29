@@ -3,8 +3,11 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeButton } from "@designSystem/ant/QodeButton"
-import { QodeTag } from "@designSystem/ant/QodeTag"
+import { QodeCustom228149019 } from "@designSystem/custom/QodeCustom228149019"
+import { QodeCustom228149016 } from "@designSystem/custom/QodeCustom228149016"
+import { QodeCustom30718968 } from "@designSystem/custom/QodeCustom30718968"
+import { QodeCustom32828486 } from "@designSystem/custom/QodeCustom32828486"
+import { QodeCustom32828506 } from "@designSystem/custom/QodeCustom32828506"
 
 export interface QodeCustom31122327Props {
   showCanceled?: boolean
@@ -40,7 +43,7 @@ export const QodeCustom31122327: React.FC<
                 alignItems: "flex-start",
                 gap: "20px",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                  "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
@@ -153,7 +156,7 @@ export const QodeCustom31122327: React.FC<
                 </div>
               </div>
               {/* name="Button" id="311:22203" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149019
                 style={{
                   ...{
                     display: "flex",
@@ -168,9 +171,6 @@ export const QodeCustom31122327: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconLeft: <Icon.QodeEye />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "View result",
                   iconLeft: true,
                   type: "link",
@@ -199,7 +199,7 @@ export const QodeCustom31122327: React.FC<
                 alignItems: "flex-start",
                 gap: "20px",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                  "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
@@ -326,7 +326,7 @@ export const QodeCustom31122327: React.FC<
                 </div>
               </div>
               {/* name="Button" id="313:26709" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149019
                 style={{
                   ...{
                     display: "flex",
@@ -341,9 +341,6 @@ export const QodeCustom31122327: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconLeft: <Icon.QodeEye />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "View result",
                   iconLeft: true,
                   type: "link",
@@ -372,7 +369,7 @@ export const QodeCustom31122327: React.FC<
                 alignItems: "flex-start",
                 gap: "20px",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                  "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
@@ -485,7 +482,7 @@ export const QodeCustom31122327: React.FC<
                 </div>
               </div>
               {/* name="Button" id="311:22757" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149016
                 style={{
                   ...{
                     display: "flex",
@@ -497,15 +494,12 @@ export const QodeCustom31122327: React.FC<
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodePenToSquare />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Edit",
                   iconLeft: true,
                   type: "default",
@@ -543,7 +537,7 @@ export const QodeCustom31122327: React.FC<
                 }}
               >
                 {/* name="link-simple" id="346:23118" type="INSTANCE" */}
-                <Icon.QodeLinkSimple
+                <QodeCustom30718968
                   style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                   {...{}}
                 />
@@ -578,7 +572,7 @@ export const QodeCustom31122327: React.FC<
                 }}
               >
                 {/* name="Tag" id="311:22762" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom32828486
                   style={{
                     ...{
                       display: "flex",
@@ -587,15 +581,13 @@ export const QodeCustom31122327: React.FC<
                       alignItems: "center",
                       gap: "var(--size-size-sizexxs-6px, 6px)",
                       borderRadius: "4px",
-                      border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                      border: "1px solid var(--primary-primary-40, #64b9f5)",
                       background: "var(--primary-primary-10, #d6eeff)",
                     },
                     ...{},
                   }}
                   {...{
                     showRIcon: true,
-                    rIcon: <Icon.QodeXmark />,
                     color: "primary",
                     state: "default",
                     size: "small",
@@ -603,7 +595,7 @@ export const QodeCustom31122327: React.FC<
                   }}
                 />
                 {/* name="Tag" id="311:22763" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom32828506
                   style={{
                     ...{
                       display: "flex",
@@ -620,7 +612,6 @@ export const QodeCustom31122327: React.FC<
                   }}
                   {...{
                     showRIcon: true,
-                    rIcon: <Icon.QodeXmark />,
                     color: "neutral",
                     state: "default",
                     size: "small",
@@ -628,7 +619,7 @@ export const QodeCustom31122327: React.FC<
                   }}
                 />
                 {/* name="Tag" id="313:24579" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom32828506
                   style={{
                     ...{
                       display: "flex",
@@ -645,7 +636,6 @@ export const QodeCustom31122327: React.FC<
                   }}
                   {...{
                     showRIcon: true,
-                    rIcon: <Icon.QodeXmark />,
                     color: "neutral",
                     state: "default",
                     size: "small",
@@ -653,7 +643,7 @@ export const QodeCustom31122327: React.FC<
                   }}
                 />
                 {/* name="Tag" id="346:23360" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom32828506
                   style={{
                     ...{
                       display: "flex",
@@ -670,7 +660,6 @@ export const QodeCustom31122327: React.FC<
                   }}
                   {...{
                     showRIcon: true,
-                    rIcon: <Icon.QodeXmark />,
                     color: "neutral",
                     state: "default",
                     size: "small",
@@ -678,7 +667,7 @@ export const QodeCustom31122327: React.FC<
                   }}
                 />
                 {/* name="Tag" id="346:23488" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom32828506
                   style={{
                     ...{
                       display: "flex",
@@ -695,7 +684,6 @@ export const QodeCustom31122327: React.FC<
                   }}
                   {...{
                     showRIcon: true,
-                    rIcon: <Icon.QodeXmark />,
                     color: "neutral",
                     state: "default",
                     size: "small",
@@ -703,7 +691,7 @@ export const QodeCustom31122327: React.FC<
                   }}
                 />
                 {/* name="Tag" id="346:23517" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom32828506
                   style={{
                     ...{
                       display: "flex",
@@ -720,7 +708,6 @@ export const QodeCustom31122327: React.FC<
                   }}
                   {...{
                     showRIcon: true,
-                    rIcon: <Icon.QodeXmark />,
                     color: "neutral",
                     state: "default",
                     size: "small",
@@ -728,7 +715,7 @@ export const QodeCustom31122327: React.FC<
                   }}
                 />
                 {/* name="Tag" id="346:23612" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom32828506
                   style={{
                     ...{
                       display: "flex",
@@ -745,7 +732,6 @@ export const QodeCustom31122327: React.FC<
                   }}
                   {...{
                     showRIcon: true,
-                    rIcon: <Icon.QodeXmark />,
                     color: "neutral",
                     state: "default",
                     size: "small",

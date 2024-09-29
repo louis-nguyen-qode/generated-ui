@@ -70,13 +70,12 @@ export const QodeCustom438720: React.FC<
                   ...{
                     color: "var(--text-text-white, #fff)",
                     textAlign: "right",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-base, 14px)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
                     fontWeight: "700",
                     lineHeight:
-                      "var(--line-height-lineheight, 20px) /* 142.857% */",
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
                   },
                   ...{},
                 }}
@@ -140,13 +139,12 @@ export const QodeCustom438720: React.FC<
                   ...{
                     color: "var(--text-text-white, #fff)",
                     textAlign: "right",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-base, 14px)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
                     fontWeight: "700",
                     lineHeight:
-                      "var(--line-height-lineheight, 20px) /* 142.857% */",
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
                   },
                   ...{},
                 }}
@@ -212,13 +210,12 @@ export const QodeCustom438720: React.FC<
                   ...{
                     color: "var(--text-text-white, #fff)",
                     textAlign: "right",
-                    fontFamily:
-                      'var(--font-family-fontfamily, "sf pro display")',
-                    fontSize: "var(--font-size-base, 14px)",
+                    fontFamily: 'var(--family-family, "sf pro display")',
+                    fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
                     fontWeight: "700",
                     lineHeight:
-                      "var(--line-height-lineheight, 20px) /* 142.857% */",
+                      "var(--lineheight-lineheight-base, 20px) /* 142.857% */",
                   },
                   ...{},
                 }}

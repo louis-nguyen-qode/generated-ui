@@ -46,12 +46,12 @@ export const QodeCustom71534739: React.FC<
                   alignItems: "center",
                   flexShrink: "0",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                    "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
-              {...{}}
+              {...{ property_1: "Default" }}
             />
             {/* name="b" id="715:33620" type="FRAME" */}
             <div
@@ -134,12 +134,12 @@ export const QodeCustom71534739: React.FC<
                       alignSelf: "stretch",
                       borderRadius: "0px 12px 0px 0px",
                       borderLeft:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
-                  {...{ property_1: "Default" }}
+                  {...{ type: "Source - Default" }}
                 />
               </div>
             </div>
@@ -174,12 +174,12 @@ export const QodeCustom71534739: React.FC<
                   flexShrink: "0",
                   alignSelf: "stretch",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                    "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
-              {...{}}
+              {...{ property_1: "Default" }}
             />
             {/* name="b" id="434:34171" type="FRAME" */}
             <div
@@ -262,12 +262,12 @@ export const QodeCustom71534739: React.FC<
                       alignSelf: "stretch",
                       borderRadius: "0px 12px 0px 0px",
                       borderLeft:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
-                  {...{ property_1: "Default" }}
+                  {...{ type: "Source - Default" }}
                 />
               </div>
             </div>
@@ -302,12 +302,12 @@ export const QodeCustom71534739: React.FC<
                   flexShrink: "0",
                   alignSelf: "stretch",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                    "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
-              {...{}}
+              {...{ property_1: "Default" }}
             />
             {/* name="b" id="434:34734" type="FRAME" */}
             <div
@@ -355,7 +355,7 @@ export const QodeCustom71534739: React.FC<
                     borderRadius:
                       "var(--border-radius-large, 12px) var(--border-radius-large, 12px) 0px 0px",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   },
                   ...{},
                 }}
@@ -390,12 +390,12 @@ export const QodeCustom71534739: React.FC<
                       alignSelf: "stretch",
                       borderRadius: "0px 12px 0px 0px",
                       borderLeft:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
-                  {...{ property_1: "Default" }}
+                  {...{ type: "Source - Default" }}
                 />
               </div>
             </div>
@@ -430,12 +430,12 @@ export const QodeCustom71534739: React.FC<
                   flexShrink: "0",
                   alignSelf: "stretch",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                    "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
-              {...{}}
+              {...{ property_1: "Default" }}
             />
             {/* name="b" id="434:36409" type="FRAME" */}
             <div
@@ -483,7 +483,7 @@ export const QodeCustom71534739: React.FC<
                     borderRadius:
                       "var(--border-radius-large, 12px) var(--border-radius-large, 12px) 0px 0px",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   },
                   ...{},
                 }}
@@ -518,12 +518,12 @@ export const QodeCustom71534739: React.FC<
                       alignSelf: "stretch",
                       borderRadius: "0px 12px 0px 0px",
                       borderLeft:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
-                  {...{ property_1: "Default" }}
+                  {...{ type: "Source - Default" }}
                 />
               </div>
             </div>

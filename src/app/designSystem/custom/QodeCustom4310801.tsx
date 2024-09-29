@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom1147 } from "@designSystem/custom/QodeCustom1147"
 
 export interface QodeCustom4310801Props {
   property_1?: "Default" | "Variant2" | "Variant3"
@@ -26,7 +26,7 @@ export const QodeCustom4310801: React.FC<
             }}
           >
             {/* name="Button" id="43:10803" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom1147
               style={{
                 ...{
                   display: "flex",
@@ -39,15 +39,13 @@ export const QodeCustom4310801: React.FC<
                   flex: "1 0 0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
                 ...{},
               }}
               {...{
-                icononly: <Icon.QodeMagnifyingGlass />,
-                iconR: <Icon.QodeMagnifyingGlass />,
                 iconL: true,
                 title: "Upload CV",
                 type: "default",
@@ -72,7 +70,7 @@ export const QodeCustom4310801: React.FC<
             }}
           >
             {/* name="Button" id="43:10805" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom1147
               style={{
                 ...{
                   display: "flex",
@@ -85,15 +83,13 @@ export const QodeCustom4310801: React.FC<
                   flex: "1 0 0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
                 ...{},
               }}
               {...{
-                icononly: <Icon.QodeMagnifyingGlass />,
-                iconR: <Icon.QodeMagnifyingGlass />,
                 iconL: true,
                 title: "Uploading",
                 type: "default",
@@ -118,7 +114,7 @@ export const QodeCustom4310801: React.FC<
             }}
           >
             {/* name="Button" id="43:10807" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom1147
               style={{
                 ...{
                   display: "flex",
@@ -131,15 +127,13 @@ export const QodeCustom4310801: React.FC<
                   flex: "1 0 0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
                 ...{},
               }}
               {...{
-                icononly: <Icon.QodeMagnifyingGlass />,
-                iconR: <Icon.QodeMagnifyingGlass />,
                 iconL: true,
                 title: "View CV",
                 type: "default",

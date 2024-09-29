@@ -65,8 +65,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -84,8 +83,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -103,8 +101,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -122,8 +119,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -141,8 +137,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -160,8 +155,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -179,8 +173,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -198,8 +191,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -217,8 +209,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -236,8 +227,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -255,8 +245,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -372,8 +361,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},
@@ -391,8 +379,7 @@ export const QodeCustom43429672: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--neutral-white, #fff)",
                 },
                 ...{},

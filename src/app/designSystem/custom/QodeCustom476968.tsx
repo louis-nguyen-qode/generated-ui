@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom476964 } from "@designSystem/custom/QodeCustom476964"
+
 export interface QodeCustom476968Props {
   size?: "28" | "L" | "32"
 }
@@ -28,8 +30,7 @@ export const QodeCustom476968: React.FC<
                 alignItems: "center",
                 flexShrink: "0",
                 borderRadius: "4px",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-gray-50, #1a1a1a)",
+                border: "1px solid var(--border-border-gray-50, #1a1a1a)",
                 background:
                   "linear-gradient(316deg, #D1D1D1 0.71%, #ECECEC 99.29%)",
               },
@@ -37,7 +38,7 @@ export const QodeCustom476968: React.FC<
             }}
           >
             {/* name="remix-icons/fill/media/image-fill" id="47:6972" type="INSTANCE" */}
-            <div
+            <QodeCustom476964
               style={{
                 ...{
                   display: "flex",
@@ -69,8 +70,7 @@ export const QodeCustom476968: React.FC<
                 alignItems: "center",
                 flexShrink: "0",
                 borderRadius: "4px",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-gray-50, #1a1a1a)",
+                border: "1px solid var(--border-border-gray-50, #1a1a1a)",
                 background:
                   "linear-gradient(316deg, #D1D1D1 0.71%, #ECECEC 99.29%)",
               },
@@ -78,7 +78,7 @@ export const QodeCustom476968: React.FC<
             }}
           >
             {/* name="remix-icons/fill/media/image-fill" id="47:6973" type="INSTANCE" */}
-            <div
+            <QodeCustom476964
               style={{
                 ...{
                   display: "flex",
@@ -110,8 +110,7 @@ export const QodeCustom476968: React.FC<
                 alignItems: "center",
                 flexShrink: "0",
                 borderRadius: "4px",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-gray-50, #1a1a1a)",
+                border: "1px solid var(--border-border-gray-50, #1a1a1a)",
                 background:
                   "linear-gradient(316deg, #D1D1D1 0.71%, #ECECEC 99.29%)",
               },
@@ -119,7 +118,7 @@ export const QodeCustom476968: React.FC<
             }}
           >
             {/* name="remix-icons/fill/media/image-fill" id="47:6974" type="INSTANCE" */}
-            <div
+            <QodeCustom476964
               style={{
                 ...{
                   display: "flex",

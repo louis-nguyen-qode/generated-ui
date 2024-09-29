@@ -3,7 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom124630 } from "@designSystem/custom/QodeCustom124630"
+import { QodeCustom12055 } from "@designSystem/custom/QodeCustom12055"
+import { QodeCustom12062 } from "@designSystem/custom/QodeCustom12062"
 import QodeSvg12077 from "@designSystem/icon/svg/QodeSvg12077"
 import QodeSvg12086 from "@designSystem/icon/svg/QodeSvg12086"
 import QodeSvg12091 from "@designSystem/icon/svg/QodeSvg12091"
@@ -72,7 +73,7 @@ export const QodeCustom12071: React.FC<
               }}
             >{`AW`}</span>
             {/* name="user-large" id="1:2074" type="INSTANCE" */}
-            <Icon.QodeUserLarge
+            <QodeCustom12055
               style={{
                 ...{
                   width: "16px",
@@ -107,7 +108,7 @@ export const QodeCustom12071: React.FC<
               <></>
             </div>
             {/* name="Badge" id="1:2076" type="INSTANCE" */}
-            <QodeCustom124630
+            <QodeCustom12062
               style={{
                 ...{
                   display: "flex",
@@ -120,12 +121,12 @@ export const QodeCustom12071: React.FC<
                   bottom: "1px",
                   borderRadius: "var(--style-radius-borderradiuslg, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
+                    "1px solid var(--color-neutral-background-colorbgcontainer, #fff)",
                   background: "var(--color-error-colorerror, #ff6542)",
                 },
                 ...{},
               }}
-              {...{ count: "21", icon: <Icon.QodeLinkedin />, type: "dot" }}
+              {...{ count: "21", type: "dot" }}
             />
             {/* name="opentoWork" id="1:2077" type="FRAME" */}
             <QodeSvg12077
@@ -177,7 +178,7 @@ export const QodeCustom12071: React.FC<
               }}
             >{`AW`}</span>
             {/* name="user-large" id="1:2082" type="INSTANCE" */}
-            <Icon.QodeUserLarge
+            <QodeCustom12055
               style={{
                 ...{
                   width: "16px",
@@ -212,7 +213,7 @@ export const QodeCustom12071: React.FC<
               <></>
             </div>
             {/* name="Badge" id="1:2084" type="INSTANCE" */}
-            <QodeCustom124630
+            <QodeCustom12062
               style={{
                 ...{
                   display: "flex",
@@ -225,12 +226,12 @@ export const QodeCustom12071: React.FC<
                   bottom: "1px",
                   borderRadius: "var(--style-radius-borderradiuslg, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
+                    "1px solid var(--color-neutral-background-colorbgcontainer, #fff)",
                   background: "var(--color-error-colorerror, #ff6542)",
                 },
                 ...{},
               }}
-              {...{ count: "21", icon: <Icon.QodeLinkedin />, type: "dot" }}
+              {...{ count: "21", type: "dot" }}
             />
           </div>
         </>
@@ -289,7 +290,7 @@ export const QodeCustom12071: React.FC<
               }}
             >{`AW`}</span>
             {/* name="user-large" id="1:2088" type="INSTANCE" */}
-            <Icon.QodeUserLarge
+            <QodeCustom12055
               style={{
                 ...{
                   width: "16px",
@@ -324,7 +325,7 @@ export const QodeCustom12071: React.FC<
               <></>
             </div>
             {/* name="Badge" id="1:2090" type="INSTANCE" */}
-            <QodeCustom124630
+            <QodeCustom12062
               style={{
                 ...{
                   display: "flex",
@@ -337,12 +338,12 @@ export const QodeCustom12071: React.FC<
                   bottom: "1px",
                   borderRadius: "var(--style-radius-borderradiuslg, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
+                    "1px solid var(--color-neutral-background-colorbgcontainer, #fff)",
                   background: "var(--color-error-colorerror, #ff6542)",
                 },
                 ...{},
               }}
-              {...{ count: "21", icon: <Icon.QodeLinkedin />, type: "dot" }}
+              {...{ count: "21", type: "dot" }}
             />
             {/* name="opentoWork" id="1:2091" type="FRAME" */}
             <QodeSvg12091
@@ -388,7 +389,7 @@ export const QodeCustom12071: React.FC<
                   top: "-2px",
                   borderRadius: "10px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...{},
               }}
@@ -412,7 +413,7 @@ export const QodeCustom12071: React.FC<
               }}
             >{`AW`}</span>
             {/* name="user-large" id="1:2097" type="INSTANCE" */}
-            <Icon.QodeUserLarge
+            <QodeCustom12055
               style={{
                 ...{
                   width: "16px",
@@ -447,7 +448,7 @@ export const QodeCustom12071: React.FC<
               <></>
             </div>
             {/* name="Badge" id="1:2099" type="INSTANCE" */}
-            <QodeCustom124630
+            <QodeCustom12062
               style={{
                 ...{
                   display: "flex",
@@ -460,12 +461,12 @@ export const QodeCustom12071: React.FC<
                   bottom: "1px",
                   borderRadius: "var(--style-radius-borderradiuslg, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
+                    "1px solid var(--color-neutral-background-colorbgcontainer, #fff)",
                   background: "var(--color-error-colorerror, #ff6542)",
                 },
                 ...{},
               }}
-              {...{ count: "21", icon: <Icon.QodeLinkedin />, type: "dot" }}
+              {...{ count: "21", type: "dot" }}
             />
           </div>
         </>

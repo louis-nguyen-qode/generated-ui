@@ -3,6 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom125237195 } from "@designSystem/custom/QodeCustom125237195"
 import QodeSvg773593 from "@designSystem/icon/svg/QodeSvg773593"
 import QodeSvg944494 from "@designSystem/icon/svg/QodeSvg944494"
 import QodeSvg944495 from "@designSystem/icon/svg/QodeSvg944495"
@@ -38,15 +39,14 @@ export const QodeCustom773601: React.FC<
                 alignItems: "center",
                 gap: "10px",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "var(--background-bg-white, #fff)",
               },
               ...style,
             }}
           >
             {/* name="linkedin" id="78:7669" type="INSTANCE" */}
-            <Icon.QodeLinkedin
+            <QodeCustom125237195
               style={{
                 ...{ width: "24px", height: "24px", flexShrink: "0" },
                 ...{},
@@ -84,15 +84,14 @@ export const QodeCustom773601: React.FC<
                 alignItems: "center",
                 gap: "10px",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-20, #158de2)",
+                border: "1px solid var(--border-border-primary-20, #158de2)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
             }}
           >
             {/* name="linkedin" id="94:4470" type="INSTANCE" */}
-            <Icon.QodeLinkedin
+            <QodeCustom125237195
               style={{
                 ...{ width: "24px", height: "24px", flexShrink: "0" },
                 ...{},
@@ -130,15 +129,14 @@ export const QodeCustom773601: React.FC<
                 alignItems: "center",
                 gap: "10px",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-30, #107ecc)",
+                border: "1px solid var(--border-border-primary-30, #107ecc)",
                 background: "var(--background-bg-primary, #1597f4)",
               },
               ...style,
             }}
           >
             {/* name="linkedin" id="78:7680" type="INSTANCE" */}
-            <Icon.QodeLinkedin
+            <QodeCustom125237195
               style={{
                 ...{ width: "24px", height: "24px", flexShrink: "0" },
                 ...{},

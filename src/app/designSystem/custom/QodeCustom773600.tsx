@@ -3,6 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom125237195 } from "@designSystem/custom/QodeCustom125237195"
 import QodeSvg773593 from "@designSystem/icon/svg/QodeSvg773593"
 
 export interface QodeCustom773600Props {}
@@ -22,15 +23,14 @@ export const QodeCustom773600: React.FC<
             alignItems: "center",
             gap: "10px",
             borderRadius: "var(--border-radius-base, 8px)",
-            border:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+            border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
             background: "var(--background-bg-white, #fff)",
           },
           ...style,
         }}
       >
         {/* name="linkedin" id="78:7669" type="INSTANCE" */}
-        <Icon.QodeLinkedin
+        <QodeCustom125237195
           style={{
             ...{ width: "24px", height: "24px", flexShrink: "0" },
             ...{},

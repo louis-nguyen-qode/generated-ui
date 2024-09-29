@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom66712 } from "@designSystem/custom/QodeCustom66712"
+
 export interface QodeCustom42620443Props {
   title?: string
   state?: "default" | "hover" | "selected" | "selected multiple" | "disabled"
@@ -168,7 +170,7 @@ export const QodeCustom42620443: React.FC<
               }}
             >{`Select menu item`}</span>
             {/* name="check" id="426:20453" type="INSTANCE" */}
-            <Icon.QodeCheck
+            <QodeCustom66712
               style={{
                 ...{ width: "20px", height: "20px", flexShrink: "0" },
                 ...{},

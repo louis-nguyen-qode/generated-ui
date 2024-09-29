@@ -3,7 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeBadge } from "@designSystem/ant/QodeBadge"
+import { QodeCustom32839533 } from "@designSystem/custom/QodeCustom32839533"
+import { QodeCustom43426798 } from "@designSystem/custom/QodeCustom43426798"
 
 export interface QodeCustom54532247Props {}
 
@@ -49,7 +50,7 @@ export const QodeCustom54532247: React.FC<
             }}
           >
             {/* name="briefcase" id="545:32237" type="INSTANCE" */}
-            <Icon.QodeBriefcase
+            <QodeCustom32839533
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />
@@ -101,7 +102,7 @@ export const QodeCustom54532247: React.FC<
           </div>
         </div>
         {/* name="Badge__Status" id="545:32242" type="INSTANCE" */}
-        <QodeBadge
+        <QodeCustom43426798
           style={{
             ...{ display: "flex", alignItems: "center", gap: "8px" },
             ...{},

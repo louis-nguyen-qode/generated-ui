@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom306005 } from "@designSystem/custom/QodeCustom306005"
+
 export interface QodeCustom59528123Props {}
 
 export const QodeCustom59528123: React.FC<
@@ -23,7 +25,7 @@ export const QodeCustom59528123: React.FC<
         }}
       >
         {/* name="star" id="595:28112" type="INSTANCE" */}
-        <Icon.QodeStar
+        <QodeCustom306005
           style={{
             ...{
               width: "var(--font-size-base, 14px)",
@@ -35,7 +37,7 @@ export const QodeCustom59528123: React.FC<
           {...{}}
         />
         {/* name="star" id="595:28113" type="INSTANCE" */}
-        <Icon.QodeStar
+        <QodeCustom306005
           style={{
             ...{
               width: "var(--font-size-base, 14px)",
@@ -47,7 +49,7 @@ export const QodeCustom59528123: React.FC<
           {...{}}
         />
         {/* name="star" id="595:28114" type="INSTANCE" */}
-        <Icon.QodeStar
+        <QodeCustom306005
           style={{
             ...{
               width: "var(--font-size-base, 14px)",
@@ -59,7 +61,7 @@ export const QodeCustom59528123: React.FC<
           {...{}}
         />
         {/* name="star" id="595:28115" type="INSTANCE" */}
-        <Icon.QodeStar
+        <QodeCustom306005
           style={{
             ...{
               width: "var(--font-size-base, 14px)",
@@ -71,7 +73,7 @@ export const QodeCustom59528123: React.FC<
           {...{}}
         />
         {/* name="star" id="595:28136" type="INSTANCE" */}
-        <Icon.QodeStar
+        <QodeCustom306005
           style={{
             ...{
               width: "var(--font-size-base, 14px)",

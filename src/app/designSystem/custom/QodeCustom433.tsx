@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom130 } from "@designSystem/custom/QodeCustom130"
+
 export interface QodeCustom433Props {
   icon?: React.ReactNode
   state?: "Active" | "Default" | "Hovered"
@@ -50,7 +52,7 @@ export const QodeCustom433: React.FC<
               }}
             >
               {/* name="briefcase" id="4:79" type="INSTANCE" */}
-              <Icon.QodeBriefcase
+              <QodeCustom130
                 style={{
                   ...{ width: "24px", height: "24px", flexShrink: "0" },
                   ...{},
@@ -113,7 +115,7 @@ export const QodeCustom433: React.FC<
               }}
             >
               {/* name="briefcase" id="4:90" type="INSTANCE" */}
-              <Icon.QodeBriefcase
+              <QodeCustom130
                 style={{
                   ...{ width: "24px", height: "24px", flexShrink: "0" },
                   ...{},
@@ -176,7 +178,7 @@ export const QodeCustom433: React.FC<
               }}
             >
               {/* name="briefcase" id="4:93" type="INSTANCE" */}
-              <Icon.QodeBriefcase
+              <QodeCustom130
                 style={{
                   ...{ width: "24px", height: "24px", flexShrink: "0" },
                   ...{},

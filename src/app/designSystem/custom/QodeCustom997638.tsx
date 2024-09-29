@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
+import { QodeCustom266995 } from "@designSystem/custom/QodeCustom266995"
 
 export interface QodeCustom997638Props {
   from?: "Recipient" | "Sender"
@@ -31,7 +31,7 @@ export const QodeCustom997638: React.FC<
             }}
           >
             {/* name="avatar" id="99:7645" type="INSTANCE" */}
-            <QodeCustom562954
+            <QodeCustom266995
               style={{
                 ...{
                   display: "flex",

@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom63292 } from "@designSystem/custom/QodeCustom63292"
+
 export interface QodeCustom53135983Props {
   icon?: React.ReactNode
   showIcon?: boolean
@@ -48,7 +50,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36020" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -90,7 +92,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36022" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -132,7 +134,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36024" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -172,7 +174,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36026" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -212,7 +214,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36028" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -251,7 +253,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36030" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -292,7 +294,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36032" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -332,7 +334,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36034" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -372,7 +374,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36036" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -415,7 +417,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36038" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -457,7 +459,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36040" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -500,7 +502,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36042" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -541,7 +543,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36044" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -581,7 +583,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36046" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -621,7 +623,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36048" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -662,7 +664,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36050" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -702,7 +704,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36052" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -742,7 +744,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36054" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -785,7 +787,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36056" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -829,7 +831,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36058" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -873,7 +875,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36060" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -915,7 +917,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36062" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -957,7 +959,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36064" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -998,7 +1000,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36066" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1040,7 +1042,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36068" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1082,7 +1084,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36070" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1123,7 +1125,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36072" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1167,7 +1169,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36074" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1210,7 +1212,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36076" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1253,7 +1255,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36078" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1294,7 +1296,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36080" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1335,7 +1337,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36082" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1375,7 +1377,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36084" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1416,7 +1418,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36086" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1457,7 +1459,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36088" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1497,7 +1499,7 @@ export const QodeCustom53135983: React.FC<
               }}
             >
               {/* name="🎰 icon" id="531:36090" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom63292
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />

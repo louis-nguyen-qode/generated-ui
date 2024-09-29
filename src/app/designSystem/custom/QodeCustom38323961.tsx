@@ -3,6 +3,10 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom161270 } from "@designSystem/custom/QodeCustom161270"
+import { QodeCustom161272 } from "@designSystem/custom/QodeCustom161272"
+import { QodeCustom161274 } from "@designSystem/custom/QodeCustom161274"
+
 export interface QodeCustom38323961Props {
   showIconRight?: boolean
   suffix?: string
@@ -59,15 +63,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24016" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -123,7 +126,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24020" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -159,15 +162,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
+                  border: "1px solid var(--border-border-neutral-50, #6f6f6f)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24021" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -223,7 +225,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24025" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -259,15 +261,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
+                  border: "1px solid var(--border-border-neutral-50, #6f6f6f)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24026" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -323,7 +324,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24030" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -347,7 +348,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -375,15 +376,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
+                  border: "1px solid var(--border-border-neutral-50, #6f6f6f)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24032" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -439,7 +439,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24036" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -463,7 +463,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -491,15 +491,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24038" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -555,7 +554,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24042" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -591,15 +590,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24043" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -657,7 +655,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24047" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -693,15 +691,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24048" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -757,7 +754,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24052" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -773,7 +770,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24053" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -801,15 +798,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24054" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -865,7 +861,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24058" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -881,7 +877,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24059" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -909,15 +905,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24060" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -973,7 +968,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24064" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -996,8 +991,7 @@ export const QodeCustom38323961: React.FC<
                     height: "32px",
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-10, #fa866c)",
+                    border: "1px solid var(--border-border-red-10, #fa866c)",
                   },
                   ...{},
                 }}
@@ -1005,7 +999,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Error" id="383:24066" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1033,15 +1027,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24067" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1097,7 +1090,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24071" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -1120,8 +1113,7 @@ export const QodeCustom38323961: React.FC<
                     height: "32px",
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-10, #fa866c)",
+                    border: "1px solid var(--border-border-red-10, #fa866c)",
                   },
                   ...{},
                 }}
@@ -1129,7 +1121,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Error" id="383:24073" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1157,15 +1149,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24074" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1221,7 +1212,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24078" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -1237,7 +1228,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24079" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1265,15 +1256,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24080" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1331,7 +1321,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24084" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -1347,7 +1337,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24085" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1376,14 +1366,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24086" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1439,7 +1429,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24090" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -1455,7 +1445,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24091" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1484,14 +1474,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24092" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1547,7 +1537,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24096" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -1563,7 +1553,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24097" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1592,14 +1582,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24098" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1655,7 +1645,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24102" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -1679,7 +1669,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -1687,7 +1677,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Warning" id="383:24104" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1716,14 +1706,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24105" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1779,7 +1769,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24109" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -1803,7 +1793,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -1811,7 +1801,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Warning" id="383:24111" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1840,14 +1830,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24112" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1903,7 +1893,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24116" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -1919,7 +1909,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24117" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1947,15 +1937,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "8px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24118" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2013,7 +2002,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24122" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2029,7 +2018,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24123" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2057,15 +2046,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24124" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2118,7 +2106,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24128" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2154,15 +2142,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24129" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2215,7 +2202,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24133" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2251,15 +2238,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
+                  border: "1px solid var(--border-border-neutral-50, #6f6f6f)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24134" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2312,7 +2298,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24138" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2336,7 +2322,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -2364,15 +2350,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
+                  border: "1px solid var(--border-border-neutral-50, #6f6f6f)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24140" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2425,7 +2410,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24144" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2449,7 +2434,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -2477,15 +2462,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24146" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2538,7 +2522,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24150" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2574,15 +2558,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24151" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2637,7 +2620,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24155" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2673,15 +2656,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24156" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2734,7 +2716,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24160" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2750,7 +2732,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24161" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2778,15 +2760,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24162" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2839,7 +2820,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24166" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2855,7 +2836,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24167" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2883,15 +2864,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24168" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2944,7 +2924,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24172" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -2968,7 +2948,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -2976,7 +2956,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Error" id="383:24174" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3004,15 +2984,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24175" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3065,7 +3044,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24179" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3089,7 +3068,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -3097,7 +3076,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Error" id="383:24181" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3125,15 +3104,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24182" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3186,7 +3164,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24186" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3202,7 +3180,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24187" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3230,15 +3208,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24188" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3293,7 +3270,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24192" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3309,7 +3286,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24193" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3338,14 +3315,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24194" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3398,7 +3375,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24198" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3414,7 +3391,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24199" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3443,14 +3420,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24200" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3503,7 +3480,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24204" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3519,7 +3496,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24205" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3548,14 +3525,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24206" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3608,7 +3585,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24210" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3632,7 +3609,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -3640,7 +3617,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Warning" id="383:24212" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3669,14 +3646,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24213" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3729,7 +3706,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24217" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3753,7 +3730,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -3761,7 +3738,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Warning" id="383:24219" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3790,14 +3767,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24220" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3850,7 +3827,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24224" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3866,7 +3843,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24225" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3894,15 +3871,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingsm, 12px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24226" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3957,7 +3933,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24230" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -3973,7 +3949,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24231" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4001,15 +3977,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24232" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4065,7 +4040,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24236" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4101,15 +4076,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24237" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4165,7 +4139,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24241" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4201,15 +4175,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
+                  border: "1px solid var(--border-border-neutral-50, #6f6f6f)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24242" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4265,7 +4238,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24246" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4289,7 +4262,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -4317,15 +4290,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
+                  border: "1px solid var(--border-border-neutral-50, #6f6f6f)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24248" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4381,7 +4353,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24252" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4405,7 +4377,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -4433,15 +4405,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24254" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4497,7 +4468,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24258" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4533,15 +4504,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24259" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4599,7 +4569,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24263" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4635,15 +4605,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24264" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4699,7 +4668,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24268" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4715,7 +4684,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24269" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4743,15 +4712,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24270" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4807,7 +4775,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24274" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4823,7 +4791,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24275" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4851,15 +4819,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24276" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4915,7 +4882,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24280" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -4939,7 +4906,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -4947,7 +4914,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Error" id="383:24282" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4975,15 +4942,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24283" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5039,7 +5005,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24287" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5063,7 +5029,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -5071,7 +5037,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Error" id="383:24289" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5099,15 +5065,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-red-20, #dc3812)",
+                  border: "1px solid var(--border-border-red-20, #dc3812)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24290" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5163,7 +5128,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24294" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5179,7 +5144,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24295" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5207,15 +5172,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24296" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5273,7 +5237,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24300" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5289,7 +5253,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Error" id="383:24301" type="INSTANCE" */}
-              <Icon.QodeCircleX
+              <QodeCustom161272
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5318,14 +5282,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24302" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5381,7 +5345,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24306" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5397,7 +5361,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24307" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5426,14 +5390,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24308" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5489,7 +5453,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24312" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5505,7 +5469,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24313" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5534,14 +5498,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24314" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5597,7 +5561,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24318" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5621,7 +5585,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -5629,7 +5593,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Warning" id="383:24320" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5658,14 +5622,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24321" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5721,7 +5685,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24325" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5745,7 +5709,7 @@ export const QodeCustom38323961: React.FC<
                     position: "absolute",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   },
                   ...{},
                 }}
@@ -5753,7 +5717,7 @@ export const QodeCustom38323961: React.FC<
                 <></>
               </Flex>
               {/* name="Warning" id="383:24327" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5782,14 +5746,14 @@ export const QodeCustom38323961: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #f5a60c)",
+                    "1px solid var(--color-warning-colorwarning, #f5a60c)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24328" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5845,7 +5809,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24332" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5861,7 +5825,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24333" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5889,15 +5853,14 @@ export const QodeCustom38323961: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-disabled, #d5d5d5)",
+                  border: "1px solid var(--border-border-disabled, #d5d5d5)",
                   background: "var(--background-bg-disabled, #e3e3e3)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon left" id="383:24334" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5955,7 +5918,7 @@ export const QodeCustom38323961: React.FC<
                 }}
               >{`SUF`}</span>
               {/* name="🎰 icon right" id="383:24338" type="INSTANCE" */}
-              <Icon.QodeUser
+              <QodeCustom161270
                 style={{
                   ...{
                     display: "flex",
@@ -5971,7 +5934,7 @@ export const QodeCustom38323961: React.FC<
                 {...{}}
               />
               {/* name="Warning" id="383:24339" type="INSTANCE" */}
-              <Icon.QodeCircleExclamation
+              <QodeCustom161274
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},

@@ -3,6 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom4743 } from "@designSystem/custom/QodeCustom4743"
 import { QodeCustom475443 } from "@designSystem/custom/QodeCustom475443"
 
 export interface QodeCustom40520246Props {
@@ -30,8 +31,7 @@ export const QodeCustom40520246: React.FC<
                 flexDirection: "column",
                 alignItems: "flex-start",
                 borderRadius: "12px",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--background-bg-white, #fff)",
               },
               ...style,
@@ -80,7 +80,7 @@ export const QodeCustom40520246: React.FC<
                   }}
                 >{`Sales Consultant`}</span>
                 {/* name="arrow-up-right" id="405:20272" type="INSTANCE" */}
-                <Icon.QodeArrowUpRight
+                <QodeCustom4743
                   style={{ ...{ width: "24px", height: "24px" }, ...{} }}
                   {...{}}
                 />
@@ -263,7 +263,6 @@ export const QodeCustom40520246: React.FC<
                   }}
                   {...{
                     text: "125 shortlisted",
-                    icon: <Icon.QodeHeart />,
                     state: "Default",
                     _style: "Text",
                   }}
@@ -295,7 +294,6 @@ export const QodeCustom40520246: React.FC<
                   }}
                   {...{
                     text: "44 interviewed",
-                    icon: <Icon.QodeVideo />,
                     state: "Default",
                     _style: "Text",
                   }}
@@ -385,7 +383,7 @@ export const QodeCustom40520246: React.FC<
                   }}
                 >{`Sales Consultant`}</span>
                 {/* name="arrow-up-right" id="405:20293" type="INSTANCE" */}
-                <Icon.QodeArrowUpRight
+                <QodeCustom4743
                   style={{ ...{ width: "24px", height: "24px" }, ...{} }}
                   {...{}}
                 />
@@ -568,7 +566,6 @@ export const QodeCustom40520246: React.FC<
                   }}
                   {...{
                     text: "125 shortlisted",
-                    icon: <Icon.QodeHeart />,
                     state: "Default",
                     _style: "Text",
                   }}
@@ -600,7 +597,6 @@ export const QodeCustom40520246: React.FC<
                   }}
                   {...{
                     text: "44 interviewed",
-                    icon: <Icon.QodeVideo />,
                     state: "Default",
                     _style: "Text",
                   }}

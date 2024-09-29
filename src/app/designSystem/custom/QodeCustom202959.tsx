@@ -3,7 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeTag } from "@designSystem/ant/QodeTag"
+import { QodeCustom166457 } from "@designSystem/custom/QodeCustom166457"
+import { QodeCustom166515 } from "@designSystem/custom/QodeCustom166515"
 
 export interface QodeCustom202959Props {
   iconr?: boolean
@@ -48,7 +49,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -73,7 +74,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3096" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -102,7 +103,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -127,7 +128,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3098" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -156,7 +157,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -181,7 +182,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3100" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -210,7 +211,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -235,7 +236,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3102" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -264,7 +265,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -289,7 +290,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3104" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -318,7 +319,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -343,7 +344,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3106" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -372,7 +373,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -397,7 +398,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3108" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -442,7 +443,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -467,7 +468,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3111" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -512,7 +513,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -537,7 +538,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3114" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -582,7 +583,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -606,7 +607,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3117" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -635,7 +636,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -659,7 +660,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3119" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -688,7 +689,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -712,7 +713,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3121" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -741,7 +742,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -766,7 +767,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3123" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -795,7 +796,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -820,7 +821,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3125" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -849,7 +850,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -874,7 +875,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3127" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -903,7 +904,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -928,7 +929,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3129" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -957,7 +958,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -982,7 +983,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3131" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -1011,7 +1012,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1036,7 +1037,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3133" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1065,7 +1066,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1090,7 +1091,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3135" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1119,7 +1120,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1144,7 +1145,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3137" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -1173,7 +1174,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1198,7 +1199,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3139" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1227,7 +1228,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1235,7 +1236,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3140" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -1251,7 +1252,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -1275,7 +1275,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3142" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1320,7 +1320,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1328,7 +1328,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3144" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -1344,7 +1344,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -1368,7 +1367,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3146" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -1413,7 +1412,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1421,7 +1420,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3148" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -1437,7 +1436,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -1461,7 +1459,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3150" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1506,7 +1504,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1528,7 +1526,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3153" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1543,16 +1541,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3154" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1567,16 +1559,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3155" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1591,17 +1577,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3156" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1630,7 +1610,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1652,7 +1632,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3158" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1667,16 +1647,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3159" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1691,16 +1665,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3160" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1715,17 +1683,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3161" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -1755,7 +1717,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1777,7 +1739,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3163" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1792,16 +1754,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3164" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1816,16 +1772,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3165" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -1840,17 +1790,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3166" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1879,7 +1823,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -1904,7 +1848,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3168" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -1933,7 +1877,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -1958,7 +1902,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3170" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -1987,7 +1931,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -2012,7 +1956,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3172" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2041,7 +1985,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2066,7 +2010,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3174" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2095,7 +2039,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2120,7 +2064,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3176" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -2149,7 +2093,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2174,7 +2118,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3178" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2203,7 +2147,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2228,7 +2172,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3180" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2257,7 +2201,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2282,7 +2226,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3182" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -2311,7 +2255,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2336,7 +2280,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3184" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2365,7 +2309,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2390,7 +2334,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3186" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2435,7 +2379,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2460,7 +2404,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3189" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -2505,7 +2449,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2530,7 +2474,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3192" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2575,7 +2519,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2599,7 +2543,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3195" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2628,7 +2572,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2652,7 +2596,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3197" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -2681,7 +2625,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2705,7 +2649,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3199" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2734,7 +2678,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -2759,7 +2703,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3201" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2788,7 +2732,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -2813,7 +2757,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3203" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -2842,7 +2786,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -2867,7 +2811,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3205" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2896,7 +2840,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2921,7 +2865,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3207" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -2950,7 +2894,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2975,7 +2919,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3209" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -3004,7 +2948,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3029,7 +2973,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3211" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3058,7 +3002,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3083,7 +3027,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3213" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3112,7 +3056,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3137,7 +3081,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3215" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -3166,7 +3110,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3191,7 +3135,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3217" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3220,7 +3164,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3245,7 +3189,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3219" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3290,7 +3234,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3315,7 +3259,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3222" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -3360,7 +3304,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3385,7 +3329,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3225" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3430,7 +3374,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3454,7 +3398,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3228" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3483,7 +3427,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3507,7 +3451,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3230" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -3536,7 +3480,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3560,7 +3504,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3232" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3589,7 +3533,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -3614,7 +3558,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3234" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3643,7 +3587,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -3668,7 +3612,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3236" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -3697,7 +3641,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -3722,7 +3666,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3238" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3751,7 +3695,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3776,7 +3720,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3240" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3805,7 +3749,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3830,7 +3774,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3242" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -3859,7 +3803,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3884,7 +3828,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3244" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3913,7 +3857,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3938,7 +3882,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3246" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -3967,7 +3911,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3992,7 +3936,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3248" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -4021,7 +3965,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4046,7 +3990,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3250" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4075,7 +4019,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4083,7 +4027,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3251" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -4099,7 +4043,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -4123,7 +4066,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3253" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4168,7 +4111,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4176,7 +4119,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3255" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -4192,7 +4135,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -4216,7 +4158,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3257" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -4261,7 +4203,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4269,7 +4211,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3259" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -4285,7 +4227,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -4309,7 +4250,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3261" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4354,7 +4295,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4376,7 +4317,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3264" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4391,16 +4332,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3265" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4415,16 +4350,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3266" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4439,17 +4368,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3267" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4478,7 +4401,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4500,7 +4423,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3269" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4515,16 +4438,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3270" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4539,16 +4456,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3271" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4563,17 +4474,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3272" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -4603,7 +4508,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4625,7 +4530,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3274" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4640,16 +4545,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3275" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4664,16 +4563,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3276" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -4688,17 +4581,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3277" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4727,7 +4614,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -4752,7 +4639,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3279" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4781,7 +4668,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -4806,7 +4693,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3281" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -4835,7 +4722,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -4860,7 +4747,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3283" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4889,7 +4776,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4914,7 +4801,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3285" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -4943,7 +4830,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4968,7 +4855,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3287" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -4997,7 +4884,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5022,7 +4909,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3289" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5051,7 +4938,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5076,7 +4963,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3291" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5105,7 +4992,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5130,7 +5017,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3293" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -5159,7 +5046,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5184,7 +5071,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3295" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5213,7 +5100,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5238,7 +5125,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3297" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5283,7 +5170,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5308,7 +5195,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3300" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -5353,7 +5240,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5378,7 +5265,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3303" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5423,7 +5310,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5447,7 +5334,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3306" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5476,7 +5363,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5500,7 +5387,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3308" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -5529,7 +5416,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-warning-colorwarning, #fa9f42)",
+                    "1px solid var(--color-warning-colorwarning, #fa9f42)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5553,7 +5440,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3310" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5582,7 +5469,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -5607,7 +5494,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3312" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5636,7 +5523,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -5661,7 +5548,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3314" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -5690,7 +5577,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -5715,7 +5602,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3316" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5744,7 +5631,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5769,7 +5656,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3318" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5798,7 +5685,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5823,7 +5710,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3320" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -5852,7 +5739,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5877,7 +5764,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3322" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5905,8 +5792,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5931,7 +5817,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3324" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -5959,8 +5845,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5985,7 +5870,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3326" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -6013,8 +5898,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6039,7 +5923,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3328" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6067,8 +5951,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6093,7 +5976,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3330" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6137,8 +6020,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6163,7 +6045,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3333" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -6207,8 +6089,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6233,7 +6114,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3336" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6277,8 +6158,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6302,7 +6182,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3339" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6330,8 +6210,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6355,7 +6234,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3341" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -6383,8 +6262,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6408,7 +6286,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3343" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6437,7 +6315,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -6462,7 +6340,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3345" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6491,7 +6369,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -6516,7 +6394,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3347" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -6545,7 +6423,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -6570,7 +6448,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3349" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6599,7 +6477,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6624,7 +6502,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3351" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6653,7 +6531,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6678,7 +6556,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3353" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -6707,7 +6585,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6732,7 +6610,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3355" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6760,8 +6638,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6786,7 +6663,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3357" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6814,8 +6691,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6840,7 +6716,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3359" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -6868,8 +6744,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6894,7 +6769,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3361" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -6922,8 +6797,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6931,7 +6805,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3362" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -6947,7 +6821,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -6971,7 +6844,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3364" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7015,8 +6888,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7024,7 +6896,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3366" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -7040,7 +6912,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -7064,7 +6935,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3368" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -7108,8 +6979,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7117,7 +6987,7 @@ export const QodeCustom202959: React.FC<
               }}
             >
               {/* name="tag" id="20:3370" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom166515
                 style={{
                   ...{
                     display: "flex",
@@ -7133,7 +7003,6 @@ export const QodeCustom202959: React.FC<
                 }}
                 {...{
                   title: "Tag",
-                  icon: <Icon.QodeIcons />,
                   rIcon: true,
                   color: "🔸 primary",
                   state: "default",
@@ -7157,7 +7026,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3372" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7201,8 +7070,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7224,7 +7092,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3375" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7239,16 +7107,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3376" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7263,16 +7125,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3377" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7287,17 +7143,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3378" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7325,8 +7175,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7348,7 +7197,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3380" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7363,16 +7212,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3381" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7387,16 +7230,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3382" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7411,17 +7248,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3383" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -7450,8 +7281,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7473,7 +7303,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >
                 {/* name="tag" id="20:3385" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7488,16 +7318,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3386" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7512,16 +7336,10 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
                 {/* name="tag" id="20:3387" type="INSTANCE" */}
-                <QodeTag
+                <QodeCustom166515
                   style={{
                     ...{
                       display: "flex",
@@ -7536,17 +7354,11 @@ export const QodeCustom202959: React.FC<
                     },
                     ...{},
                   }}
-                  {...{
-                    title: true,
-                    rIcon: <Icon.QodeXmark />,
-                    icon: <Icon.QodeIcons />,
-                    color: "🔸 primary",
-                    state: "default",
-                  }}
+                  {...{ title: true, color: "🔸 primary", state: "default" }}
                 />
               </div>
               {/* name="Icon" id="20:3388" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7575,7 +7387,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -7600,7 +7412,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3390" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7629,7 +7441,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -7654,7 +7466,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3392" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -7683,7 +7495,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -7708,7 +7520,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3394" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7737,7 +7549,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7762,7 +7574,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3396" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7791,7 +7603,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7816,7 +7628,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3398" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -7845,7 +7657,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7870,7 +7682,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3400" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7898,8 +7710,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7924,7 +7735,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3402" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -7952,8 +7763,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7978,7 +7788,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3404" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -8006,8 +7816,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8032,7 +7841,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3406" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -8060,8 +7869,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8086,7 +7894,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3408" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -8130,8 +7938,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8156,7 +7963,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3411" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -8200,8 +8007,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8226,7 +8032,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3414" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -8270,8 +8076,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8295,7 +8100,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3417" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -8323,8 +8128,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8348,7 +8152,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3419" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -8376,8 +8180,7 @@ export const QodeCustom202959: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8401,7 +8204,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3421" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -8430,7 +8233,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -8455,7 +8258,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3423" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},
@@ -8484,7 +8287,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -8509,7 +8312,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3425" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -8538,7 +8341,7 @@ export const QodeCustom202959: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
                 },
@@ -8563,7 +8366,7 @@ export const QodeCustom202959: React.FC<
                 }}
               >{`Select`}</span>
               {/* name="Icon" id="20:3427" type="INSTANCE" */}
-              <Icon.QodeChevronDown
+              <QodeCustom166457
                 style={{
                   ...{ width: "16px", height: "16px", flexShrink: "0" },
                   ...{},

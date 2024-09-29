@@ -5,7 +5,7 @@ import { Icon } from "@designSystem/icon"
 
 import { QodeCustom13120 } from "@designSystem/custom/QodeCustom13120"
 import { QodeInput } from "@designSystem/ant/QodeInput"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149015 } from "@designSystem/custom/QodeCustom228149015"
 import { QodeCustom475527 } from "@designSystem/custom/QodeCustom475527"
 import { QodePagination } from "@designSystem/ant/QodePagination"
 
@@ -43,12 +43,12 @@ export const QodeCustom71530656: React.FC<
                   alignItems: "center",
                   alignSelf: "stretch",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                    "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
-              {...{}}
+              {...{ property_1: "Default" }}
             />
             {/* name="Body" id="189:19145" type="FRAME" */}
             <div
@@ -106,7 +106,7 @@ export const QodeCustom71530656: React.FC<
                       gap: "12px",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
@@ -115,8 +115,6 @@ export const QodeCustom71530656: React.FC<
                     suffix: "SUF",
                     title: "Search",
                     prefix: "PRE",
-                    iconRight: <Icon.QodeUser />,
-                    iconLeft: <Icon.QodeMagnifyingGlass />,
                     showIconLeft: true,
                     state: "default",
                     status: "default",
@@ -124,7 +122,7 @@ export const QodeCustom71530656: React.FC<
                   }}
                 />
                 {/* name="Button" id="189:19149" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149015
                   style={{
                     ...{
                       display: "flex",
@@ -142,11 +140,8 @@ export const QodeCustom71530656: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
                     buttonname: "Add job",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodePlus />,
                     type: "primary",
                     size: "default",
                     state: "default",
@@ -197,7 +192,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -215,7 +210,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -233,7 +228,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -251,7 +246,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -269,7 +264,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -287,7 +282,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -305,7 +300,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -323,7 +318,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -341,7 +336,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -359,7 +354,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -377,7 +372,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -395,7 +390,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -447,12 +442,12 @@ export const QodeCustom71530656: React.FC<
                   alignItems: "center",
                   alignSelf: "stretch",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                    "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
-              {...{}}
+              {...{ property_1: "Default" }}
             />
             {/* name="b" id="183:10493" type="FRAME" */}
             <div
@@ -497,7 +492,7 @@ export const QodeCustom71530656: React.FC<
                   }}
                 >{`My jobs`}</span>
                 {/* name="Button" id="183:12837" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149015
                   style={{
                     ...{
                       display: "flex",
@@ -516,11 +511,8 @@ export const QodeCustom71530656: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
                     buttonname: "Add job",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodePlus />,
                     type: "primary",
                     size: "default",
                     state: "default",
@@ -543,7 +535,7 @@ export const QodeCustom71530656: React.FC<
                       flexShrink: "0",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
@@ -552,8 +544,6 @@ export const QodeCustom71530656: React.FC<
                     suffix: "SUF",
                     title: "Search",
                     prefix: "PRE",
-                    iconRight: <Icon.QodeUser />,
-                    iconLeft: <Icon.QodeMagnifyingGlass />,
                     showIconLeft: true,
                     state: "default",
                     status: "default",
@@ -602,7 +592,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -620,7 +610,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -638,7 +628,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -656,7 +646,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -674,7 +664,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -692,7 +682,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -710,7 +700,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -728,7 +718,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -746,7 +736,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -764,7 +754,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -782,7 +772,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -800,7 +790,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -855,12 +845,12 @@ export const QodeCustom71530656: React.FC<
                   flexShrink: "0",
                   alignSelf: "stretch",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                    "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
-              {...{}}
+              {...{ property_1: "Default" }}
             />
             {/* name="b" id="183:10974" type="FRAME" */}
             <div
@@ -906,7 +896,7 @@ export const QodeCustom71530656: React.FC<
                   }}
                 >{`My jobs`}</span>
                 {/* name="Button" id="183:12823" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149015
                   style={{
                     ...{
                       display: "flex",
@@ -925,11 +915,8 @@ export const QodeCustom71530656: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
                     buttonname: "Add job",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodePlus />,
                     type: "primary",
                     size: "default",
                     state: "default",
@@ -952,7 +939,7 @@ export const QodeCustom71530656: React.FC<
                       flexShrink: "0",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
@@ -961,8 +948,6 @@ export const QodeCustom71530656: React.FC<
                     suffix: "SUF",
                     title: "Search",
                     prefix: "PRE",
-                    iconRight: <Icon.QodeUser />,
-                    iconLeft: <Icon.QodeMagnifyingGlass />,
                     showIconLeft: true,
                     state: "default",
                     status: "default",
@@ -1010,7 +995,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1028,7 +1013,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1046,7 +1031,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1064,7 +1049,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1082,7 +1067,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1100,7 +1085,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1118,7 +1103,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1136,7 +1121,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1154,7 +1139,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1172,7 +1157,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1190,7 +1175,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1208,7 +1193,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1259,12 +1244,12 @@ export const QodeCustom71530656: React.FC<
                   alignItems: "center",
                   alignSelf: "stretch",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                    "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
-              {...{}}
+              {...{ property_1: "Default" }}
             />
             {/* name="b" id="183:11455" type="FRAME" */}
             <div
@@ -1309,7 +1294,7 @@ export const QodeCustom71530656: React.FC<
                   }}
                 >{`My jobs`}</span>
                 {/* name="Button" id="183:11459" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149015
                   style={{
                     ...{
                       display: "flex",
@@ -1328,11 +1313,8 @@ export const QodeCustom71530656: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
                     buttonname: "Add job",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodePlus />,
                     type: "primary",
                     size: "default",
                     state: "default",
@@ -1355,7 +1337,7 @@ export const QodeCustom71530656: React.FC<
                       flexShrink: "0",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
@@ -1364,8 +1346,6 @@ export const QodeCustom71530656: React.FC<
                     suffix: "SUF",
                     title: "Search",
                     prefix: "PRE",
-                    iconRight: <Icon.QodeUser />,
-                    iconLeft: <Icon.QodeMagnifyingGlass />,
                     showIconLeft: true,
                     state: "default",
                     status: "default",
@@ -1414,7 +1394,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1432,7 +1412,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1450,7 +1430,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1468,7 +1448,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1486,7 +1466,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1504,7 +1484,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1522,7 +1502,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1540,7 +1520,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1558,7 +1538,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1576,7 +1556,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1594,7 +1574,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -1612,7 +1592,7 @@ export const QodeCustom71530656: React.FC<
                         alignItems: "flex-start",
                         borderRadius: "var(--border-radius-large, 12px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},

@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom13120 } from "@designSystem/custom/QodeCustom13120"
+import { QodeCustom207249109 } from "@designSystem/custom/QodeCustom207249109"
 import { QodeCustom1136232 } from "@designSystem/custom/QodeCustom1136232"
 import { QodeCustom43430029 } from "@designSystem/custom/QodeCustom43430029"
 import { QodeCustom4325081 } from "@designSystem/custom/QodeCustom4325081"
@@ -32,7 +32,7 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
         }}
       >
         {/* name="Navbar" id="86:3602" type="INSTANCE" */}
-        <QodeCustom13120
+        <QodeCustom207249109
           style={{
             ...{
               display: "flex",
@@ -41,13 +41,12 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
               flexDirection: "column",
               alignItems: "center",
               flexShrink: "0",
-              borderRight:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              borderRight: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{}}
+          {...{ property_1: "Variant2" }}
         />
         {/* name="b" id="86:3603" type="FRAME" */}
         <div
@@ -141,12 +140,12 @@ export const Qode863601Page: React.FC<Qode863601PageProps> = ({
                     flex: "1 0 0",
                     alignSelf: "stretch",
                     borderLeft:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
-                {...{ property_1: "Default" }}
+                {...{ type: "Source - Default" }}
               />
             </div>
           </div>

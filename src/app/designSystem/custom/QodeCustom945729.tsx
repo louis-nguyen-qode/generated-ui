@@ -49,8 +49,7 @@ export const QodeCustom945729: React.FC<
                   gap: "8px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
@@ -59,8 +58,6 @@ export const QodeCustom945729: React.FC<
                 suffix: "SUF",
                 title: "Search name",
                 prefix: "PRE",
-                iconRight: <Icon.QodeUser />,
-                iconLeft: <Icon.QodeMagnifyingGlass />,
                 showIconLeft: true,
                 state: "default",
                 status: "default",
@@ -72,7 +69,6 @@ export const QodeCustom945729: React.FC<
               style={{
                 ...{
                   display: "flex",
-                  height: "1278px",
                   flexDirection: "column",
                   alignItems: "flex-start",
                   gap: "var(--size-size-sizexxs-6px, 6px)",
@@ -97,7 +93,7 @@ export const QodeCustom945729: React.FC<
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "active" }}
+                {...{ showDelete: true, property_1: "active", verified: false }}
               />
               {/* name="Shortlisted/List item" id="94:4617" type="INSTANCE" */}
               <QodeCustom4323424
@@ -110,12 +106,16 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
               {/* name="Shortlisted/List item" id="94:4618" type="INSTANCE" */}
               <QodeCustom4323424
@@ -128,12 +128,16 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
               {/* name="Shortlisted/List item" id="94:4619" type="INSTANCE" */}
               <QodeCustom4323424
@@ -146,12 +150,16 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
               {/* name="Shortlisted/List item" id="94:4620" type="INSTANCE" */}
               <QodeCustom4323424
@@ -164,12 +172,16 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
               {/* name="Shortlisted/List item" id="295:19392" type="INSTANCE" */}
               <QodeCustom4323424
@@ -182,14 +194,18 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
-              {/* name="Shortlisted/List item" id="295:19393" type="INSTANCE" */}
+              {/* name="Shortlisted/List item" id="2099:93214" type="INSTANCE" */}
               <QodeCustom4323424
                 style={{
                   ...{
@@ -200,14 +216,18 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
-              {/* name="Shortlisted/List item" id="295:19394" type="INSTANCE" */}
+              {/* name="Shortlisted/List item" id="2099:96054" type="INSTANCE" */}
               <QodeCustom4323424
                 style={{
                   ...{
@@ -218,14 +238,18 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
-              {/* name="Shortlisted/List item" id="295:19395" type="INSTANCE" */}
+              {/* name="Shortlisted/List item" id="2099:98901" type="INSTANCE" */}
               <QodeCustom4323424
                 style={{
                   ...{
@@ -236,14 +260,18 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
-              {/* name="Shortlisted/List item" id="295:19396" type="INSTANCE" */}
+              {/* name="Shortlisted/List item" id="2099:101748" type="INSTANCE" */}
               <QodeCustom4323424
                 style={{
                   ...{
@@ -254,12 +282,16 @@ export const QodeCustom945729: React.FC<
                     alignSelf: "stretch",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "#FFF",
                   },
                   ...{},
                 }}
-                {...{ showDelete: true, property_1: "default" }}
+                {...{
+                  showDelete: true,
+                  property_1: "default",
+                  verified: false,
+                }}
               />
               {/* name="Footer" id="434:31776" type="FRAME" */}
               <div
@@ -289,6 +321,7 @@ export const QodeCustom945729: React.FC<
                   <span
                     style={{
                       ...{
+                        width: "56px",
                         color: "var(--text-text-neutral-30, #656565)",
                         textAlign: "center",
                         fontFamily: 'var(--family-family, "sf pro display")',
@@ -355,8 +388,7 @@ export const QodeCustom945729: React.FC<
                   flexShrink: "0",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
@@ -365,8 +397,6 @@ export const QodeCustom945729: React.FC<
                 suffix: "SUF",
                 title: "Search name",
                 prefix: "PRE",
-                iconRight: <Icon.QodeUser />,
-                iconLeft: <Icon.QodeMagnifyingGlass />,
                 showIconLeft: true,
                 state: "default",
                 status: "default",
@@ -388,7 +418,7 @@ export const QodeCustom945729: React.FC<
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "active" }}
+              {...{ showDelete: true, property_1: "active", verified: false }}
             />
             {/* name="Shortlisted/List item" id="434:33153" type="INSTANCE" */}
             <QodeCustom4323424
@@ -400,13 +430,12 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
             {/* name="Shortlisted/List item" id="434:33566" type="INSTANCE" */}
             <QodeCustom4323424
@@ -418,13 +447,12 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
             {/* name="End of list" id="434:33563" type="INSTANCE" */}
             <QodeCustom43430284
@@ -474,8 +502,7 @@ export const QodeCustom945729: React.FC<
                   gap: "8px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
@@ -484,15 +511,13 @@ export const QodeCustom945729: React.FC<
                 suffix: "SUF",
                 title: "Search name",
                 prefix: "PRE",
-                iconRight: <Icon.QodeUser />,
-                iconLeft: <Icon.QodeMagnifyingGlass />,
                 showIconLeft: true,
                 state: "default",
                 status: "default",
                 size: "default",
               }}
             />
-            {/* name="Shortlisted/List item" id="295:25357" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82878" type="INSTANCE" */}
             <QodeCustom4323423
               style={{
                 ...{
@@ -507,9 +532,9 @@ export const QodeCustom945729: React.FC<
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "active" }}
+              {...{ showDelete: true, property_1: "active", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25358" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82879" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -519,15 +544,14 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25359" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82880" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -537,15 +561,14 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25360" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82881" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -555,15 +578,14 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25361" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82882" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -573,15 +595,14 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25362" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82883" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -591,15 +612,14 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25363" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82884" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -609,15 +629,14 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25364" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82885" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -627,15 +646,14 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25365" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:82886" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -645,15 +663,14 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
-            {/* name="Shortlisted/List item" id="295:25366" type="INSTANCE" */}
+            {/* name="Shortlisted/List item" id="2099:83279" type="INSTANCE" */}
             <QodeCustom4323424
               style={{
                 ...{
@@ -663,13 +680,12 @@ export const QodeCustom945729: React.FC<
                   gap: "24px",
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "#FFF",
                 },
                 ...{},
               }}
-              {...{ showDelete: true, property_1: "default" }}
+              {...{ showDelete: true, property_1: "default", verified: false }}
             />
             {/* name="Footer" id="434:33129" type="FRAME" */}
             <div

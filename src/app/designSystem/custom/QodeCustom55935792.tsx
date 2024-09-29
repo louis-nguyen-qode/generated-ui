@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149026 } from "@designSystem/custom/QodeCustom228149026"
 
 export interface QodeCustom55935792Props {
   property_1?: "Default" | "Variant2" | "Variant3"
@@ -28,7 +28,7 @@ export const QodeCustom55935792: React.FC<
                 justifyContent: "space-between",
                 alignItems: "center",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
@@ -48,7 +48,7 @@ export const QodeCustom55935792: React.FC<
               }}
             >{`CV`}</span>
             {/* name="Button" id="559:35784" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149026
               style={{
                 ...{
                   display: "flex",
@@ -60,17 +60,13 @@ export const QodeCustom55935792: React.FC<
                   gap: "4px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
               {...{
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Upload",
-                selectIconLeft: <Icon.QodeUpload />,
                 iconLeft: true,
                 type: "default",
                 size: "small",
@@ -96,7 +92,7 @@ export const QodeCustom55935792: React.FC<
                 justifyContent: "space-between",
                 alignItems: "center",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
@@ -116,7 +112,7 @@ export const QodeCustom55935792: React.FC<
               }}
             >{`CV`}</span>
             {/* name="Button" id="559:35795" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149026
               style={{
                 ...{
                   display: "flex",
@@ -128,17 +124,13 @@ export const QodeCustom55935792: React.FC<
                   gap: "4px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
               {...{
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Uploading...",
-                selectIconLeft: <Icon.QodeUpload />,
                 type: "default",
                 size: "small",
                 state: "default",
@@ -163,7 +155,7 @@ export const QodeCustom55935792: React.FC<
                 justifyContent: "space-between",
                 alignItems: "center",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
@@ -183,7 +175,7 @@ export const QodeCustom55935792: React.FC<
               }}
             >{`CV`}</span>
             {/* name="Button" id="559:35803" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149026
               style={{
                 ...{
                   display: "flex",
@@ -195,17 +187,13 @@ export const QodeCustom55935792: React.FC<
                   gap: "4px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
               {...{
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "View",
-                selectIconLeft: <Icon.QodeEye />,
                 iconLeft: true,
                 type: "default",
                 size: "small",

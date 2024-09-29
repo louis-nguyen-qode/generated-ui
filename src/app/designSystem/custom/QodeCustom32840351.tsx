@@ -10,7 +10,7 @@ export const QodeCustom32840351: React.FC<
 > = ({ style, ...rest }) => {
   return (
     <>
-      {/* name="Skill" id="328:40351" type="COMPONENT" */}
+      {/* name="Assess/Skill" id="328:40351" type="COMPONENT" */}
       <div
         style={{
           ...{

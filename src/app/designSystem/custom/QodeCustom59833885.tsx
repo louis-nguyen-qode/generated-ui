@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom59833754 } from "@designSystem/custom/QodeCustom59833754"
+
 export interface QodeCustom59833885Props {}
 
 export const QodeCustom59833885: React.FC<
@@ -38,7 +40,7 @@ export const QodeCustom59833885: React.FC<
           }}
         >{`Interviewer`}</span>
         {/* name="summaryContent" id="598:33882" type="INSTANCE" */}
-        <div
+        <QodeCustom59833754
           style={{
             ...{ display: "flex", alignItems: "flex-start", flex: "1 0 0" },
             ...{},

@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom14423 } from "@designSystem/custom/QodeCustom14423"
+
 export interface QodeCustom6418Props {
   text?: string
   icon?: React.ReactNode
@@ -40,7 +42,7 @@ export const QodeCustom6418: React.FC<
             }}
           >
             {/* name="heart" id="47:5444" type="INSTANCE" */}
-            <Icon.QodeHeart
+            <QodeCustom14423
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />
@@ -81,7 +83,7 @@ export const QodeCustom6418: React.FC<
             }}
           >
             {/* name="heart" id="485:31742" type="INSTANCE" */}
-            <Icon.QodeHeart
+            <QodeCustom14423
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />
@@ -120,7 +122,7 @@ export const QodeCustom6418: React.FC<
             }}
           >
             {/* name="heart" id="405:29319" type="INSTANCE" */}
-            <Icon.QodeHeart
+            <QodeCustom14423
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />

@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom12058 } from "@designSystem/custom/QodeCustom12058"
+
 export interface QodeCustom12061Props {
   icon?: React.ReactNode
   count?: string
@@ -30,7 +32,7 @@ export const QodeCustom12061: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--style-radius-borderradiuslg, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
+                  "1px solid var(--color-neutral-background-colorbgcontainer, #fff)",
                 background: "var(--color-error-colorerror, #ff6542)",
               },
               ...style,
@@ -55,7 +57,7 @@ export const QodeCustom12061: React.FC<
                 flexShrink: "0",
                 borderRadius: "999px",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
+                  "1px solid var(--color-neutral-background-colorbgcontainer, #fff)",
                 background: "var(--color-error-colorerror, #ff6542)",
               },
               ...style,
@@ -94,7 +96,7 @@ export const QodeCustom12061: React.FC<
                 flexShrink: "0",
                 borderRadius: "900px",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
+                  "1px solid var(--color-neutral-background-colorbgcontainer, #fff)",
                 background: "var(--color-error-colorerror, #ff6542)",
               },
               ...style,
@@ -131,14 +133,14 @@ export const QodeCustom12061: React.FC<
                 alignItems: "center",
                 borderRadius: "900px",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-background-colorbgcontainer, #fff)",
+                  "1px solid var(--color-neutral-background-colorbgcontainer, #fff)",
                 background: "var(--color-error-colorerror, #ff6542)",
               },
               ...style,
             }}
           >
             {/* name="linkedin" id="1:2068" type="INSTANCE" */}
-            <Icon.QodeLinkedin
+            <QodeCustom12058
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />

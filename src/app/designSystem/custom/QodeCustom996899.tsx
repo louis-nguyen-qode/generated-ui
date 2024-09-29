@@ -3,12 +3,14 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom1828777 } from "@designSystem/custom/QodeCustom1828777"
+import { QodeCustom1408523 } from "@designSystem/custom/QodeCustom1408523"
 import { QodeSelect } from "@designSystem/ant/QodeSelect"
-import { QodeCustom18210113 } from "@designSystem/custom/QodeCustom18210113"
-import { QodeCustom18216941 } from "@designSystem/custom/QodeCustom18216941"
-import { QodeButton } from "@designSystem/ant/QodeButton"
-import { QodeCustom57057359 } from "@designSystem/custom/QodeCustom57057359"
+import { QodeCustom38323966 } from "@designSystem/custom/QodeCustom38323966"
+import { QodeCustom813733 } from "@designSystem/custom/QodeCustom813733"
+import { QodeCustom228149326 } from "@designSystem/custom/QodeCustom228149326"
+import { QodeCustom996730 } from "@designSystem/custom/QodeCustom996730"
+import { QodeCustom228149016 } from "@designSystem/custom/QodeCustom228149016"
+import { QodeCustom228149015 } from "@designSystem/custom/QodeCustom228149015"
 
 export interface QodeCustom996899Props {
   showSubject?: boolean
@@ -44,8 +46,7 @@ export const QodeCustom996899: React.FC<
                 alignItems: "center",
                 gap: "12px",
                 flexShrink: "0",
-                borderTop:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                borderTop: "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--neutral-gray-5, #f8f6f6)",
               },
               ...style,
@@ -65,7 +66,7 @@ export const QodeCustom996899: React.FC<
               }}
             >
               {/* name="Input__Label" id="99:6808" type="INSTANCE" */}
-              <QodeCustom1828777
+              <QodeCustom1408523
                 style={{
                   ...{
                     display: "flex",
@@ -77,7 +78,6 @@ export const QodeCustom996899: React.FC<
                   ...{},
                 }}
                 {...{
-                  icon: <Icon.QodeClockThree />,
                   title: "Send to",
                   direction: "horizontal",
                   size: "default",
@@ -115,7 +115,7 @@ export const QodeCustom996899: React.FC<
               }}
             >
               {/* name="Input__Label" id="99:6811" type="INSTANCE" */}
-              <QodeCustom1828777
+              <QodeCustom1408523
                 style={{
                   ...{
                     display: "flex",
@@ -127,14 +127,13 @@ export const QodeCustom996899: React.FC<
                   ...{},
                 }}
                 {...{
-                  icon: <Icon.QodeClockThree />,
                   title: "Subject",
                   direction: "horizontal",
                   size: "default",
                 }}
               />
               {/* name="Input/Text" id="99:6812" type="INSTANCE" */}
-              <QodeCustom18210113
+              <QodeCustom38323966
                 style={{
                   ...{
                     display: "flex",
@@ -146,7 +145,7 @@ export const QodeCustom996899: React.FC<
                     flex: "1 0 0",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
@@ -157,8 +156,6 @@ export const QodeCustom996899: React.FC<
                   title:
                     "Senior Software Engineer opportunity - [Company name]",
                   prefix: "PRE",
-                  iconRight: <Icon.QodeUser />,
-                  iconLeft: <Icon.QodeUser />,
                   state: "filled",
                   status: "default",
                   size: "default",
@@ -166,7 +163,7 @@ export const QodeCustom996899: React.FC<
               />
             </div>
             {/* name="Input__Text Area" id="99:6813" type="INSTANCE" */}
-            <QodeCustom18216941
+            <QodeCustom813733
               style={{
                 ...{
                   display: "flex",
@@ -179,7 +176,7 @@ export const QodeCustom996899: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -211,7 +208,7 @@ export const QodeCustom996899: React.FC<
                 }}
               >
                 {/* name="Button" id="99:7382" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149326
                   style={{
                     ...{
                       display: "flex",
@@ -223,15 +220,12 @@ export const QodeCustom996899: React.FC<
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeAngleUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodeIcons />,
                     buttonname: "Button",
                     type: "default",
                     size: "small",
@@ -242,7 +236,7 @@ export const QodeCustom996899: React.FC<
                   }}
                 />
                 {/* name="Rich text action" id="99:7383" type="INSTANCE" */}
-                <QodeCustom57057359
+                <QodeCustom996730
                   style={{
                     ...{
                       display: "flex",
@@ -263,7 +257,7 @@ export const QodeCustom996899: React.FC<
                 }}
               >
                 {/* name="Button" id="99:6818" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149016
                   style={{
                     ...{
                       display: "flex",
@@ -275,15 +269,12 @@ export const QodeCustom996899: React.FC<
                       gap: "8px",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodeVideoPlus />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Setup interview",
                     iconLeft: true,
                     type: "default",
@@ -295,7 +286,7 @@ export const QodeCustom996899: React.FC<
                   }}
                 />
                 {/* name="Button" id="99:6819" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149015
                   style={{
                     ...{
                       display: "flex",
@@ -313,11 +304,8 @@ export const QodeCustom996899: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
                     buttonname: "Send",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodePaperPlaneTop />,
                     type: "primary",
                     size: "default",
                     state: "default",
@@ -347,15 +335,14 @@ export const QodeCustom996899: React.FC<
                 alignItems: "center",
                 gap: "12px",
                 flexShrink: "0",
-                borderTop:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                borderTop: "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--neutral-gray-5, #f8f6f6)",
               },
               ...style,
             }}
           >
             {/* name="Input__Text Area" id="99:6907" type="INSTANCE" */}
-            <QodeCustom18216941
+            <QodeCustom813733
               style={{
                 ...{
                   display: "flex",
@@ -368,7 +355,7 @@ export const QodeCustom996899: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -400,7 +387,7 @@ export const QodeCustom996899: React.FC<
                 }}
               >
                 {/* name="Button" id="99:6909" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149326
                   style={{
                     ...{
                       display: "flex",
@@ -412,15 +399,12 @@ export const QodeCustom996899: React.FC<
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeAngleUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodeIcons />,
                     buttonname: "Button",
                     type: "default",
                     size: "small",
@@ -431,7 +415,7 @@ export const QodeCustom996899: React.FC<
                   }}
                 />
                 {/* name="Rich text action" id="99:6910" type="INSTANCE" */}
-                <QodeCustom57057359
+                <QodeCustom996730
                   style={{
                     ...{
                       display: "flex",
@@ -452,7 +436,7 @@ export const QodeCustom996899: React.FC<
                 }}
               >
                 {/* name="Button" id="99:6912" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149016
                   style={{
                     ...{
                       display: "flex",
@@ -464,15 +448,12 @@ export const QodeCustom996899: React.FC<
                       gap: "8px",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodeVideoPlus />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Setup interview",
                     iconLeft: true,
                     type: "default",
@@ -484,7 +465,7 @@ export const QodeCustom996899: React.FC<
                   }}
                 />
                 {/* name="Button" id="99:6913" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149015
                   style={{
                     ...{
                       display: "flex",
@@ -502,11 +483,8 @@ export const QodeCustom996899: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
                     buttonname: "Send",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodePaperPlaneTop />,
                     type: "primary",
                     size: "default",
                     state: "default",

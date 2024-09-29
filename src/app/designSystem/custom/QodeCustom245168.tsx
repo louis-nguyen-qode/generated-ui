@@ -4,6 +4,7 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom53130112 } from "@designSystem/custom/QodeCustom53130112"
+import { QodeCustom277832 } from "@designSystem/custom/QodeCustom277832"
 import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom245168Props {}
@@ -54,7 +55,7 @@ export const QodeCustom245168: React.FC<
               },
               ...{},
             }}
-            {...{ title: "Volunteering", state: "view" }}
+            {...{ edit: true, title: "Volunteering", state: "view" }}
           />
           {/* name="educationItem" id="24:5177" type="FRAME" */}
           <div
@@ -69,7 +70,7 @@ export const QodeCustom245168: React.FC<
             }}
           >
             {/* name="avatar" id="24:5178" type="INSTANCE" */}
-            <div
+            <QodeCustom277832
               style={{
                 ...{
                   display: "flex",
@@ -197,7 +198,7 @@ export const QodeCustom245168: React.FC<
                     gap: "var(--size-padding-paddingxxs, 4px)",
                     borderRadius: "var(--style-radius-borderround, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                      "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                     background:
                       "var(--color-neutral-background-colorbgcontainer, #fff)",
                   },
@@ -205,7 +206,6 @@ export const QodeCustom245168: React.FC<
                 }}
                 {...{
                   iconR: true,
-                  icononly: <Icon.QodeMagnifyingGlass />,
                   title: "Show credential",
                   type: "default",
                   size: "small",

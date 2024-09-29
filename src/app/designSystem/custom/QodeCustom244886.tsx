@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom277831 } from "@designSystem/custom/QodeCustom277831"
+
 export interface QodeCustom244886Props {
   location?: string
   companyName?: string
@@ -37,7 +39,7 @@ export const QodeCustom244886: React.FC<
             }}
           >
             {/* name="avatar" id="24:4888" type="INSTANCE" */}
-            <div
+            <QodeCustom277831
               style={{
                 ...{
                   display: "flex",
@@ -122,7 +124,7 @@ export const QodeCustom244886: React.FC<
             }}
           >
             {/* name="avatar" id="24:4893" type="INSTANCE" */}
-            <div
+            <QodeCustom277831
               style={{
                 ...{
                   display: "flex",

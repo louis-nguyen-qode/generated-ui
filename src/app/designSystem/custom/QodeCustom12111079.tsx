@@ -3,7 +3,14 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom29615477 } from "@designSystem/custom/QodeCustom29615477"
+import { QodeCustom12110969 } from "@designSystem/custom/QodeCustom12110969"
+import { QodeCustom12110972 } from "@designSystem/custom/QodeCustom12110972"
+import { QodeCustom12110978 } from "@designSystem/custom/QodeCustom12110978"
+import { QodeCustom12110981 } from "@designSystem/custom/QodeCustom12110981"
+import { QodeCustom12110987 } from "@designSystem/custom/QodeCustom12110987"
+import { QodeCustom12110990 } from "@designSystem/custom/QodeCustom12110990"
+import { QodeCustom12110996 } from "@designSystem/custom/QodeCustom12110996"
+import { QodeCustom12110999 } from "@designSystem/custom/QodeCustom12110999"
 
 export interface QodeCustom12111079Props {
   items?: "6" | "5" | "4" | "3" | "2"
@@ -26,13 +33,13 @@ export const QodeCustom12111079: React.FC<
                 display: "inline-flex",
                 alignItems: "flex-start",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11100" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110969
               style={{
                 ...{
                   display: "flex",
@@ -47,7 +54,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -55,7 +61,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11101" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -68,7 +74,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -76,7 +81,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11102" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -89,7 +94,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -97,7 +101,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11103" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -110,7 +114,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -118,7 +121,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 5" id="121:11104" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -131,7 +134,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -139,7 +141,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 6" id="121:11105" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -152,7 +154,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -172,13 +173,13 @@ export const QodeCustom12111079: React.FC<
                 display: "inline-flex",
                 alignItems: "flex-start",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11106" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110969
               style={{
                 ...{
                   display: "flex",
@@ -193,7 +194,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -201,7 +201,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11107" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -214,7 +214,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -222,7 +221,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11108" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -235,7 +234,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -243,7 +241,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11109" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -256,7 +254,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -264,7 +261,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 5" id="121:11110" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -277,7 +274,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -297,13 +293,13 @@ export const QodeCustom12111079: React.FC<
                 display: "inline-flex",
                 alignItems: "flex-start",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11111" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110969
               style={{
                 ...{
                   display: "flex",
@@ -318,7 +314,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -326,7 +321,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11112" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -339,7 +334,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -347,7 +341,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11113" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -360,7 +354,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -368,7 +361,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11114" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -381,7 +374,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -401,13 +393,13 @@ export const QodeCustom12111079: React.FC<
                 display: "inline-flex",
                 alignItems: "flex-start",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11115" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110969
               style={{
                 ...{
                   display: "flex",
@@ -422,7 +414,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -430,7 +421,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11116" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -443,7 +434,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -451,7 +441,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11117" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -464,7 +454,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -484,13 +473,13 @@ export const QodeCustom12111079: React.FC<
                 display: "inline-flex",
                 alignItems: "flex-start",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11118" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110969
               style={{
                 ...{
                   display: "flex",
@@ -505,7 +494,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -513,7 +501,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11119" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110972
               style={{
                 ...{
                   display: "flex",
@@ -526,7 +514,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "top",
@@ -545,14 +532,13 @@ export const QodeCustom12111079: React.FC<
               ...{
                 display: "inline-flex",
                 alignItems: "flex-start",
-                borderTop:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                borderTop: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11120" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110978
               style={{
                 ...{
                   display: "flex",
@@ -567,7 +553,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -575,7 +560,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11121" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -588,7 +573,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -596,7 +580,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11122" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -609,7 +593,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -617,7 +600,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11123" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -630,7 +613,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -638,7 +620,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 5" id="121:11124" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -651,7 +633,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -659,7 +640,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 6" id="121:11125" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -672,7 +653,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -691,14 +671,13 @@ export const QodeCustom12111079: React.FC<
               ...{
                 display: "inline-flex",
                 alignItems: "flex-start",
-                borderTop:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                borderTop: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11126" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110978
               style={{
                 ...{
                   display: "flex",
@@ -713,7 +692,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -721,7 +699,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11127" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -734,7 +712,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -742,7 +719,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11128" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -755,7 +732,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -763,7 +739,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11129" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -776,7 +752,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -784,7 +759,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 5" id="121:11130" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -797,7 +772,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -816,14 +790,13 @@ export const QodeCustom12111079: React.FC<
               ...{
                 display: "inline-flex",
                 alignItems: "flex-start",
-                borderTop:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                borderTop: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11131" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110978
               style={{
                 ...{
                   display: "flex",
@@ -838,7 +811,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -846,7 +818,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11132" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -859,7 +831,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -867,7 +838,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11133" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -880,7 +851,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -888,7 +858,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11134" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -901,7 +871,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -920,14 +889,13 @@ export const QodeCustom12111079: React.FC<
               ...{
                 display: "inline-flex",
                 alignItems: "flex-start",
-                borderTop:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                borderTop: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11135" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110978
               style={{
                 ...{
                   display: "flex",
@@ -942,7 +910,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -950,7 +917,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11136" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -963,7 +930,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -971,7 +937,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11137" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -984,7 +950,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -1003,14 +968,13 @@ export const QodeCustom12111079: React.FC<
               ...{
                 display: "inline-flex",
                 alignItems: "flex-start",
-                borderTop:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                borderTop: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11138" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110978
               style={{
                 ...{
                   display: "flex",
@@ -1025,7 +989,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -1033,7 +996,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11139" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110981
               style={{
                 ...{
                   display: "flex",
@@ -1046,7 +1009,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "bottom",
@@ -1068,13 +1030,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-end",
                 gap: "var(--size-padding-padding, 16px)",
                 borderRight:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11140" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110987
               style={{
                 ...{
                   display: "flex",
@@ -1089,7 +1051,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1097,7 +1058,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11141" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1110,7 +1071,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1118,7 +1078,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11142" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1131,7 +1091,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1139,7 +1098,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11143" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1152,7 +1111,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1160,7 +1118,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 5" id="121:11144" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1173,7 +1131,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1181,7 +1138,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 6" id="121:11145" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1194,7 +1151,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1216,13 +1172,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-end",
                 gap: "var(--size-padding-padding, 16px)",
                 borderRight:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11146" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110987
               style={{
                 ...{
                   display: "flex",
@@ -1237,7 +1193,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1245,7 +1200,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11147" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1258,7 +1213,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1266,7 +1220,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11148" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1279,7 +1233,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1287,7 +1240,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11149" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1300,7 +1253,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1308,7 +1260,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 5" id="121:11150" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1321,7 +1273,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1343,13 +1294,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-end",
                 gap: "var(--size-padding-padding, 16px)",
                 borderRight:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11151" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110987
               style={{
                 ...{
                   display: "flex",
@@ -1364,7 +1315,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1372,7 +1322,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11152" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1385,7 +1335,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1393,7 +1342,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11153" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1406,7 +1355,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1414,7 +1362,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11154" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1427,7 +1375,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1449,13 +1396,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-end",
                 gap: "var(--size-padding-padding, 16px)",
                 borderRight:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11155" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110987
               style={{
                 ...{
                   display: "flex",
@@ -1470,7 +1417,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1478,7 +1424,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11156" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1491,7 +1437,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1499,7 +1444,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11157" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1512,7 +1457,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1534,13 +1478,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-end",
                 gap: "var(--size-padding-padding, 16px)",
                 borderRight:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11158" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110987
               style={{
                 ...{
                   display: "flex",
@@ -1555,7 +1499,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1563,7 +1506,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11159" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110990
               style={{
                 ...{
                   display: "flex",
@@ -1576,7 +1519,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "left",
@@ -1598,13 +1540,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-start",
                 gap: "var(--size-padding-padding, 16px)",
                 borderLeft:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11160" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110996
               style={{
                 ...{
                   display: "flex",
@@ -1619,7 +1561,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1627,7 +1568,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11161" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1640,7 +1581,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1648,7 +1588,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11162" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1661,7 +1601,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1669,7 +1608,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11163" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1682,7 +1621,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1690,7 +1628,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 5" id="121:11164" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1703,7 +1641,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1711,7 +1648,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 6" id="121:11165" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1724,7 +1661,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1746,13 +1682,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-start",
                 gap: "var(--size-padding-padding, 16px)",
                 borderLeft:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11166" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110996
               style={{
                 ...{
                   display: "flex",
@@ -1767,7 +1703,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1775,7 +1710,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11167" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1788,7 +1723,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1796,7 +1730,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11168" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1809,7 +1743,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1817,7 +1750,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11169" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1830,7 +1763,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1838,7 +1770,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 5" id="121:11170" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1851,7 +1783,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1873,13 +1804,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-start",
                 gap: "var(--size-padding-padding, 16px)",
                 borderLeft:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11171" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110996
               style={{
                 ...{
                   display: "flex",
@@ -1894,7 +1825,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1902,7 +1832,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11172" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1915,7 +1845,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1923,7 +1852,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11173" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1936,7 +1865,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1944,7 +1872,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 4" id="121:11174" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -1957,7 +1885,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -1979,13 +1906,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-start",
                 gap: "var(--size-padding-padding, 16px)",
                 borderLeft:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11175" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110996
               style={{
                 ...{
                   display: "flex",
@@ -2000,7 +1927,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -2008,7 +1934,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11176" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -2021,7 +1947,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -2029,7 +1954,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 3" id="121:11177" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -2042,7 +1967,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -2064,13 +1988,13 @@ export const QodeCustom12111079: React.FC<
                 alignItems: "flex-start",
                 gap: "var(--size-padding-padding, 16px)",
                 borderLeft:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
               },
               ...style,
             }}
           >
             {/* name="🧬 tab 1" id="121:11178" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110996
               style={{
                 ...{
                   display: "flex",
@@ -2085,7 +2009,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",
@@ -2093,7 +2016,7 @@ export const QodeCustom12111079: React.FC<
               }}
             />
             {/* name="🧬 tab 2" id="121:11179" type="INSTANCE" */}
-            <QodeCustom29615477
+            <QodeCustom12110999
               style={{
                 ...{
                   display: "flex",
@@ -2106,7 +2029,6 @@ export const QodeCustom12111079: React.FC<
                 ...{},
               }}
               {...{
-                icon: <Icon.QodeIcons />,
                 title: "Tab title",
                 size: "default",
                 position: "right",

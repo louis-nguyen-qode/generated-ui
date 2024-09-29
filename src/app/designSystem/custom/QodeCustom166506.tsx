@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom193 } from "@designSystem/custom/QodeCustom193"
+import { QodeCustom166463 } from "@designSystem/custom/QodeCustom166463"
+
 export interface QodeCustom166506Props {
   lIcon?: boolean
   icon?: React.ReactNode
@@ -57,7 +60,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6508" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -85,7 +88,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6510" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -124,7 +127,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6512" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -153,7 +156,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6514" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -191,7 +194,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6516" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -219,7 +222,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6518" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -257,7 +260,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6520" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -285,7 +288,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6522" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -323,7 +326,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6524" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -351,7 +354,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6526" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -389,7 +392,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6528" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -417,7 +420,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6530" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -455,7 +458,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6532" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -483,7 +486,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6534" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -521,7 +524,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6536" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -549,7 +552,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6538" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -587,7 +590,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6540" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -616,7 +619,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6542" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -656,7 +659,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6544" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -684,7 +687,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6546" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -722,7 +725,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6548" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -750,7 +753,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6550" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -791,7 +794,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6552" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -820,7 +823,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6554" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -858,7 +861,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6556" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -886,7 +889,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6558" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -926,7 +929,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6560" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -954,7 +957,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6562" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -992,7 +995,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6564" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1020,7 +1023,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6566" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1060,7 +1063,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6568" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1088,7 +1091,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6570" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1126,7 +1129,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6572" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1154,7 +1157,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6574" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1194,7 +1197,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6576" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1222,7 +1225,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6578" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1260,7 +1263,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6580" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1288,7 +1291,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6582" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1328,7 +1331,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6584" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1356,7 +1359,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6586" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1394,7 +1397,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6588" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1422,7 +1425,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6590" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1462,7 +1465,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6592" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1490,7 +1493,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6594" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1528,7 +1531,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6596" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1556,7 +1559,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6598" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1596,7 +1599,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6600" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1624,7 +1627,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6602" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1662,7 +1665,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6604" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1690,7 +1693,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6606" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1730,7 +1733,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6608" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1759,7 +1762,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6610" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",
@@ -1797,7 +1800,7 @@ export const QodeCustom166506: React.FC<
             }}
           >
             {/* name="icons" id="16:6612" type="INSTANCE" */}
-            <Icon.QodeIcons
+            <QodeCustom193
               style={{
                 ...{
                   display: "flex",
@@ -1825,7 +1828,7 @@ export const QodeCustom166506: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="16:6614" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{
                   display: "flex",

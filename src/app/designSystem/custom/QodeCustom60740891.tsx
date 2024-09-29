@@ -3,8 +3,13 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeSteps } from "@designSystem/ant/QodeSteps"
-import { QodeCustom191970 } from "@designSystem/custom/QodeCustom191970"
+import { QodeCustom60740862 } from "@designSystem/custom/QodeCustom60740862"
+import QodeSvg1308527 from "@designSystem/icon/svg/QodeSvg1308527"
+import QodeSvg1308529 from "@designSystem/icon/svg/QodeSvg1308529"
+import { QodeCustom60740864 } from "@designSystem/custom/QodeCustom60740864"
+import { QodeCustom60740867 } from "@designSystem/custom/QodeCustom60740867"
+import { QodeCustom60740869 } from "@designSystem/custom/QodeCustom60740869"
+import { QodeCustom60740872 } from "@designSystem/custom/QodeCustom60740872"
 
 export interface QodeCustom60740891Props {
   description?: boolean
@@ -60,7 +65,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40923" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740862
                   style={{
                     ...{
                       display: "flex",
@@ -76,14 +81,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40924" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308527
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -175,7 +174,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40929" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740862
                   style={{
                     ...{
                       display: "flex",
@@ -191,14 +190,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40930" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -290,7 +283,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40935" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740864
                   style={{
                     ...{
                       display: "flex",
@@ -306,14 +299,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "wait", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40936" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -405,7 +392,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40941" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740862
                   style={{
                     ...{
                       display: "flex",
@@ -421,14 +408,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40942" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -520,7 +501,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40947" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740862
                   style={{
                     ...{
                       display: "flex",
@@ -536,14 +517,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40948" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -635,7 +610,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40953" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740862
                   style={{
                     ...{
                       display: "flex",
@@ -651,14 +626,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40954" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308527
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -750,7 +719,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40959" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740862
                   style={{
                     ...{
                       display: "flex",
@@ -766,14 +735,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40960" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -865,7 +828,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40965" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740864
                   style={{
                     ...{
                       display: "flex",
@@ -881,14 +844,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "wait", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40966" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -980,7 +937,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40971" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740862
                   style={{
                     ...{
                       display: "flex",
@@ -996,14 +953,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40972" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1095,7 +1046,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40977" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740862
                   style={{
                     ...{
                       display: "flex",
@@ -1111,14 +1062,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="607:40978" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "34px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "34px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1210,7 +1155,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40983" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740867
                   style={{
                     ...{
                       display: "flex",
@@ -1226,14 +1171,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:40984" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "27px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308527
+                  style={{ ...{ width: "1px", height: "27px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1323,7 +1262,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40989" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740867
                   style={{
                     ...{
                       display: "flex",
@@ -1339,14 +1278,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:40990" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "27px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "27px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1436,7 +1369,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:40995" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740869
                   style={{
                     ...{
                       display: "flex",
@@ -1452,14 +1385,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "wait", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:40996" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "27px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "27px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1549,7 +1476,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41001" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740867
                   style={{
                     ...{
                       display: "flex",
@@ -1565,14 +1492,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:41002" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "27px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "27px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1662,7 +1583,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41007" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740867
                   style={{
                     ...{
                       display: "flex",
@@ -1678,14 +1599,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:41008" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "27px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "27px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1775,7 +1690,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41013" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740867
                   style={{
                     ...{
                       display: "flex",
@@ -1791,14 +1706,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:41014" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "28px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308527
+                  style={{ ...{ width: "1px", height: "28px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1888,7 +1797,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41019" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740867
                   style={{
                     ...{
                       display: "flex",
@@ -1904,14 +1813,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:41020" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "28px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "28px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2001,7 +1904,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41025" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740869
                   style={{
                     ...{
                       display: "flex",
@@ -2017,14 +1920,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "wait", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:41026" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "28px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "28px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2114,7 +2011,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41031" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740867
                   style={{
                     ...{
                       display: "flex",
@@ -2130,14 +2027,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:41032" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "28px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "28px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2227,7 +2118,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41037" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740867
                   style={{
                     ...{
                       display: "flex",
@@ -2243,14 +2134,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="607:41038" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "28px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "28px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2341,7 +2226,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41043" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -2357,14 +2242,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41044" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "44px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308527
+                  style={{ ...{ width: "1px", height: "44px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2456,7 +2335,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41049" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -2472,14 +2351,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41050" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "43px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "43px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2571,7 +2444,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41055" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -2587,14 +2460,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41056" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "44px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "44px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2686,7 +2553,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41061" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -2702,14 +2569,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41062" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "44px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "44px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2801,7 +2662,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41067" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -2817,14 +2678,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41068" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "44px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "44px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2916,7 +2771,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41073" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -2932,14 +2787,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41074" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "44px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308527
+                  style={{ ...{ width: "1px", height: "44px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3031,7 +2880,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41079" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -3047,14 +2896,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41080" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "43px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "43px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3146,7 +2989,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41085" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -3162,14 +3005,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41086" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "44px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "44px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3261,7 +3098,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41091" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -3277,14 +3114,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41092" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "44px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "44px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3376,7 +3207,7 @@ export const QodeCustom60740891: React.FC<
                 }}
               >
                 {/* name=".steps__item_progress" id="607:41097" type="INSTANCE" */}
-                <QodeSteps
+                <QodeCustom60740872
                   style={{
                     ...{
                       display: "flex",
@@ -3392,14 +3223,8 @@ export const QodeCustom60740891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="607:41098" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      height: "44px",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg1308529
+                  style={{ ...{ width: "1px", height: "44px" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",

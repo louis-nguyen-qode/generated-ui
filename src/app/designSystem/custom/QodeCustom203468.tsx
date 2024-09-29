@@ -3,8 +3,13 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom17024242 } from "@designSystem/custom/QodeCustom17024242"
-import { QodeCustom17023908 } from "@designSystem/custom/QodeCustom17023908"
+import { QodeCustom202960 } from "@designSystem/custom/QodeCustom202960"
+import { QodeCustom202961 } from "@designSystem/custom/QodeCustom202961"
+import { QodeCustom202962 } from "@designSystem/custom/QodeCustom202962"
+import { QodeCustom202966 } from "@designSystem/custom/QodeCustom202966"
+import { QodeCustom203445 } from "@designSystem/custom/QodeCustom203445"
+import { QodeCustom202967 } from "@designSystem/custom/QodeCustom202967"
+import { QodeCustom202968 } from "@designSystem/custom/QodeCustom202968"
 
 export interface QodeCustom203468Props {
   active?: "false" | "true"
@@ -34,7 +39,7 @@ export const QodeCustom203468: React.FC<
             }}
           >
             {/* name="🧬 input" id="20:3475" type="INSTANCE" */}
-            <QodeCustom17024242
+            <QodeCustom202960
               style={{
                 ...{
                   display: "flex",
@@ -45,7 +50,7 @@ export const QodeCustom203468: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -53,7 +58,6 @@ export const QodeCustom203468: React.FC<
               }}
               {...{
                 title: "Select",
-                iconr: <Icon.QodeChevronDown />,
                 state: "default",
                 size: "default",
                 type: "basic",
@@ -80,7 +84,7 @@ export const QodeCustom203468: React.FC<
             }}
           >
             {/* name="🧬 input" id="20:3476" type="INSTANCE" */}
-            <QodeCustom17024242
+            <QodeCustom202961
               style={{
                 ...{
                   display: "flex",
@@ -91,7 +95,7 @@ export const QodeCustom203468: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -99,7 +103,6 @@ export const QodeCustom203468: React.FC<
               }}
               {...{
                 title: "Select",
-                iconr: <Icon.QodeChevronDown />,
                 state: "default",
                 size: "large",
                 type: "basic",
@@ -126,7 +129,7 @@ export const QodeCustom203468: React.FC<
             }}
           >
             {/* name="🧬 input" id="20:3477" type="INSTANCE" */}
-            <QodeCustom17024242
+            <QodeCustom202962
               style={{
                 ...{
                   display: "flex",
@@ -137,7 +140,7 @@ export const QodeCustom203468: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderradius, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -145,7 +148,6 @@ export const QodeCustom203468: React.FC<
               }}
               {...{
                 title: "Select",
-                iconr: <Icon.QodeChevronDown />,
                 state: "default",
                 size: "small",
                 type: "basic",
@@ -172,7 +174,7 @@ export const QodeCustom203468: React.FC<
             }}
           >
             {/* name="🧬 input" id="20:3478" type="INSTANCE" */}
-            <QodeCustom17024242
+            <QodeCustom202966
               style={{
                 ...{
                   display: "flex",
@@ -183,7 +185,7 @@ export const QodeCustom203468: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -191,7 +193,6 @@ export const QodeCustom203468: React.FC<
               }}
               {...{
                 title: "Select",
-                iconr: <Icon.QodeChevronDown />,
                 state: "active",
                 size: "default",
                 type: "basic",
@@ -199,7 +200,7 @@ export const QodeCustom203468: React.FC<
               }}
             />
             {/* name="🧬 dropdown menu" id="20:3479" type="INSTANCE" */}
-            <QodeCustom17023908
+            <QodeCustom203445
               style={{
                 ...{
                   display: "flex",
@@ -237,7 +238,7 @@ export const QodeCustom203468: React.FC<
             }}
           >
             {/* name="🧬 input" id="20:3480" type="INSTANCE" */}
-            <QodeCustom17024242
+            <QodeCustom202967
               style={{
                 ...{
                   display: "flex",
@@ -248,7 +249,7 @@ export const QodeCustom203468: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -256,7 +257,6 @@ export const QodeCustom203468: React.FC<
               }}
               {...{
                 title: "Select",
-                iconr: <Icon.QodeChevronDown />,
                 state: "active",
                 size: "large",
                 type: "basic",
@@ -264,7 +264,7 @@ export const QodeCustom203468: React.FC<
               }}
             />
             {/* name="🧬 dropdown menu" id="20:3481" type="INSTANCE" */}
-            <QodeCustom17023908
+            <QodeCustom203445
               style={{
                 ...{
                   display: "flex",
@@ -302,7 +302,7 @@ export const QodeCustom203468: React.FC<
             }}
           >
             {/* name="🧬 input" id="20:3482" type="INSTANCE" */}
-            <QodeCustom17024242
+            <QodeCustom202968
               style={{
                 ...{
                   display: "flex",
@@ -313,7 +313,7 @@ export const QodeCustom203468: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -321,7 +321,6 @@ export const QodeCustom203468: React.FC<
               }}
               {...{
                 title: "Select",
-                iconr: <Icon.QodeChevronDown />,
                 state: "active",
                 size: "small",
                 type: "basic",
@@ -329,7 +328,7 @@ export const QodeCustom203468: React.FC<
               }}
             />
             {/* name="🧬 dropdown menu" id="20:3483" type="INSTANCE" */}
-            <QodeCustom17023908
+            <QodeCustom203445
               style={{
                 ...{
                   display: "flex",

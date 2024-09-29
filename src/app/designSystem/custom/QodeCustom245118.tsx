@@ -61,7 +61,7 @@ export const QodeCustom245118: React.FC<
                   },
                   ...{},
                 }}
-                {...{ title: "Education", state: "view" }}
+                {...{ edit: true, title: "Education", state: "view" }}
               />
               {/* name="educationItem" id="24:5128" type="INSTANCE" */}
               <QodeCustom244900
@@ -130,7 +130,7 @@ export const QodeCustom245118: React.FC<
                   },
                   ...{},
                 }}
-                {...{ title: "Education", state: "view" }}
+                {...{ edit: true, title: "Education", state: "view" }}
               />
               {/* name="educationItem" id="24:5138" type="INSTANCE" */}
               <QodeCustom244900

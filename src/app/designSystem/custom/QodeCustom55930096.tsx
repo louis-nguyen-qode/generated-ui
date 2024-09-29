@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom13410465 } from "@designSystem/custom/QodeCustom13410465"
+import { QodeCustom161270 } from "@designSystem/custom/QodeCustom161270"
+
 export interface QodeCustom55930096Props {
   property_1?: "AI" | "Human"
 }
@@ -29,7 +32,7 @@ export const QodeCustom55930096: React.FC<
                 flexShrink: "0",
                 borderRadius: "0px 0px 0px 12px",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-focused-primary, #82c8fa)",
+                  "1px solid var(--border-border-focused-primary, #82c8fa)",
                 background:
                   "linear-gradient(163deg, #B8E1FF 0.63%, #CDF6FF 76.87%)",
               },
@@ -37,7 +40,7 @@ export const QodeCustom55930096: React.FC<
             }}
           >
             {/* name="stars" id="677:33619" type="INSTANCE" */}
-            <Icon.QodeStars
+            <QodeCustom13410465
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -62,15 +65,14 @@ export const QodeCustom55930096: React.FC<
                 alignItems: "center",
                 flexShrink: "0",
                 borderRadius: "0px 0px 0px 12px",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                 background: "#E8E8E8",
               },
               ...style,
             }}
           >
             {/* name="user" id="677:33729" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",

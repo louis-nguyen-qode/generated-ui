@@ -3,7 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom12080 } from "@designSystem/custom/QodeCustom12080"
+import { QodeCustom1195 } from "@designSystem/custom/QodeCustom1195"
 
 export interface QodeCustom244861Props {
   location?: string
@@ -50,7 +51,7 @@ export const QodeCustom244861: React.FC<
             }}
           >
             {/* name="avatar" id="24:4863" type="INSTANCE" */}
-            <div
+            <QodeCustom12080
               style={{
                 ...{
                   display: "flex",
@@ -203,7 +204,7 @@ export const QodeCustom244861: React.FC<
                   }}
                 >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}</span>
                 {/* name="Button" id="24:4872" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom1195
                   style={{
                     ...{
                       display: "flex",
@@ -215,9 +216,7 @@ export const QodeCustom244861: React.FC<
                     ...{},
                   }}
                   {...{
-                    icononly: <Icon.QodeMagnifyingGlass />,
                     title: "See More",
-                    iconR: <Icon.QodeMagnifyingGlass />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -250,7 +249,7 @@ export const QodeCustom244861: React.FC<
             }}
           >
             {/* name="avatar" id="24:4874" type="INSTANCE" */}
-            <div
+            <QodeCustom12080
               style={{
                 ...{
                   display: "flex",
@@ -398,7 +397,7 @@ export const QodeCustom244861: React.FC<
                   }}
                 >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}</span>
                 {/* name="Button" id="24:4883" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom1195
                   style={{
                     ...{
                       display: "flex",
@@ -410,9 +409,7 @@ export const QodeCustom244861: React.FC<
                     ...{},
                   }}
                   {...{
-                    icononly: <Icon.QodeMagnifyingGlass />,
                     title: "See Less",
-                    iconR: <Icon.QodeMagnifyingGlass />,
                     type: "text",
                     size: "small",
                     state: "default",

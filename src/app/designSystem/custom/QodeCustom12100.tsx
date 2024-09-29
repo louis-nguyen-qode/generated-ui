@@ -3,7 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom1167 } from "@designSystem/custom/QodeCustom1167"
+import { QodeCustom11401 } from "@designSystem/custom/QodeCustom11401"
+import { QodeCustom12072 } from "@designSystem/custom/QodeCustom12072"
 
 export interface QodeCustom12100Props {
   _style?: "H - Profile" | "V - Profile"
@@ -32,7 +34,7 @@ export const QodeCustom12100: React.FC<
             }}
           >
             {/* name="Button" id="1:2102" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom1167
               style={{
                 ...{
                   display: "flex",
@@ -44,16 +46,14 @@ export const QodeCustom12100: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
                 ...{},
               }}
               {...{
-                icononly: <Icon.QodeMagnifyingGlass />,
                 title: "Log In",
-                iconR: <Icon.QodeMagnifyingGlass />,
                 type: "default",
                 size: "large",
                 state: "default",
@@ -82,7 +82,7 @@ export const QodeCustom12100: React.FC<
             }}
           >
             {/* name="Button" id="1:2104" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom11401
               style={{
                 ...{
                   display: "flex",
@@ -94,15 +94,13 @@ export const QodeCustom12100: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
                 ...{},
               }}
               {...{
-                icononly: <Icon.QodeUser />,
-                iconR: <Icon.QodeMagnifyingGlass />,
                 title: "Button",
                 type: "default",
                 size: "large",
@@ -131,7 +129,7 @@ export const QodeCustom12100: React.FC<
             }}
           >
             {/* name="avatar" id="1:2106" type="INSTANCE" */}
-            <div
+            <QodeCustom12072
               style={{
                 ...{
                   display: "flex",
@@ -168,7 +166,7 @@ export const QodeCustom12100: React.FC<
             }}
           >
             {/* name="avatar" id="1:2108" type="INSTANCE" */}
-            <div
+            <QodeCustom12072
               style={{
                 ...{
                   display: "flex",

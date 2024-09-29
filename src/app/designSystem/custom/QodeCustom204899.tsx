@@ -4,7 +4,9 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom4325730 } from "@designSystem/custom/QodeCustom4325730"
-import { QodeTag } from "@designSystem/ant/QodeTag"
+import { QodeCustom32828485 } from "@designSystem/custom/QodeCustom32828485"
+import { QodeCustom32828505 } from "@designSystem/custom/QodeCustom32828505"
+import { QodeCustom306005 } from "@designSystem/custom/QodeCustom306005"
 import { QodeCustom405376 } from "@designSystem/custom/QodeCustom405376"
 import { QodeCustom21621817 } from "@designSystem/custom/QodeCustom21621817"
 import { QodeCustom21923501 } from "@designSystem/custom/QodeCustom21923501"
@@ -21,7 +23,7 @@ export const QodeCustom204899: React.FC<
 > = ({ style, ...rest }) => {
   return (
     <>
-      {/* name="Property 1=Default" id="20:4899" type="COMPONENT" */}
+      {/* name="type=Source - Default" id="20:4899" type="COMPONENT" */}
       <div
         style={{
           ...{
@@ -33,8 +35,7 @@ export const QodeCustom204899: React.FC<
             alignItems: "center",
             gap: "20px",
             flexShrink: "0",
-            borderLeft:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+            borderLeft: "1px solid var(--border-border-neutral-30, #d5d5d5)",
             background: "var(--background-bg-white, #fff)",
           },
           ...style,
@@ -94,7 +95,7 @@ export const QodeCustom204899: React.FC<
               }}
             >
               {/* name="Tag" id="24:4378" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828485
                 style={{
                   ...{
                     display: "flex",
@@ -103,14 +104,12 @@ export const QodeCustom204899: React.FC<
                     alignItems: "center",
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "4px",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                    border: "1px solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   },
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "primary",
                   state: "default",
                   size: "Default",
@@ -118,7 +117,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4438" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828485
                 style={{
                   ...{
                     display: "flex",
@@ -127,14 +126,12 @@ export const QodeCustom204899: React.FC<
                     alignItems: "center",
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "4px",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                    border: "1px solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   },
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "primary",
                   state: "default",
                   size: "Default",
@@ -142,7 +139,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4414" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828485
                 style={{
                   ...{
                     display: "flex",
@@ -151,14 +148,12 @@ export const QodeCustom204899: React.FC<
                     alignItems: "center",
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "4px",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                    border: "1px solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   },
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "primary",
                   state: "default",
                   size: "Default",
@@ -166,7 +161,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="34:7205" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828485
                 style={{
                   ...{
                     display: "flex",
@@ -175,14 +170,12 @@ export const QodeCustom204899: React.FC<
                     alignItems: "center",
                     gap: "var(--size-size-sizexxs-6px, 6px)",
                     borderRadius: "4px",
-                    border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                    border: "1px solid var(--primary-primary-40, #64b9f5)",
                     background: "var(--primary-primary-10, #d6eeff)",
                   },
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "primary",
                   state: "default",
                   size: "Default",
@@ -190,7 +183,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4384" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -206,7 +199,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -214,7 +206,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4402" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -230,7 +222,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -238,7 +229,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4426" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -254,7 +245,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -262,7 +252,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4420" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -278,7 +268,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -286,7 +275,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4432" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -302,7 +291,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -310,7 +298,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4408" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -326,7 +314,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -334,7 +321,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4372" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -350,7 +337,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -358,7 +344,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4390" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -374,7 +360,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -382,7 +367,7 @@ export const QodeCustom204899: React.FC<
                 }}
               />
               {/* name="Tag" id="24:4366" type="INSTANCE" */}
-              <QodeTag
+              <QodeCustom32828505
                 style={{
                   ...{
                     display: "flex",
@@ -398,7 +383,6 @@ export const QodeCustom204899: React.FC<
                   ...{},
                 }}
                 {...{
-                  rIcon: <Icon.QodeXmark />,
                   color: "neutral",
                   state: "default",
                   size: "Default",
@@ -462,27 +446,27 @@ export const QodeCustom204899: React.FC<
                 }}
               >
                 {/* name="star" id="30:6017" type="INSTANCE" */}
-                <Icon.QodeStar
+                <QodeCustom306005
                   style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                   {...{}}
                 />
                 {/* name="star" id="30:6015" type="INSTANCE" */}
-                <Icon.QodeStar
+                <QodeCustom306005
                   style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                   {...{}}
                 />
                 {/* name="star" id="30:6013" type="INSTANCE" */}
-                <Icon.QodeStar
+                <QodeCustom306005
                   style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                   {...{}}
                 />
                 {/* name="star" id="40:7554" type="INSTANCE" */}
-                <Icon.QodeStar
+                <QodeCustom306005
                   style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                   {...{}}
                 />
                 {/* name="star" id="30:6009" type="INSTANCE" */}
-                <Icon.QodeStar
+                <QodeCustom306005
                   style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                   {...{}}
                 />
@@ -616,11 +600,11 @@ export const QodeCustom204899: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
                 paddingBottom: "12px",
                 flexDirection: "column",
                 alignItems: "flex-end",
                 gap: "16px",
+                alignSelf: "stretch",
                 borderBottom:
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
               },
@@ -633,11 +617,11 @@ export const QodeCustom204899: React.FC<
             style={{
               ...{
                 display: "flex",
-                width: "640px",
                 paddingBottom: "12px",
                 flexDirection: "column",
                 alignItems: "flex-end",
                 gap: "var(--size-margin-margin, 16px)",
+                alignSelf: "stretch",
                 borderBottom:
                   "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
               },

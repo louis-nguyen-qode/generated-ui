@@ -3,7 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom63010804 } from "@designSystem/custom/QodeCustom63010804"
+import { QodeCustom165961 } from "@designSystem/custom/QodeCustom165961"
+import { QodeCustom166463 } from "@designSystem/custom/QodeCustom166463"
 
 export interface QodeCustom23316645Props {
   size?: "md" | "lg"
@@ -55,7 +56,7 @@ export const QodeCustom23316645: React.FC<
               }}
             >
               {/* name="icons" id="233:16649" type="INSTANCE" */}
-              <QodeCustom63010804
+              <QodeCustom165961
                 style={{
                   ...{
                     display: "flex",
@@ -117,7 +118,7 @@ export const QodeCustom23316645: React.FC<
               >{`Accessibility`}</span>
             </div>
             {/* name="xmark" id="233:16653" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{ width: "24px", height: "24px", flexShrink: "0" },
                 ...{},
@@ -167,7 +168,7 @@ export const QodeCustom23316645: React.FC<
               }}
             >
               {/* name="icons" id="233:16655" type="INSTANCE" */}
-              <QodeCustom63010804
+              <QodeCustom165961
                 style={{
                   ...{
                     display: "flex",
@@ -229,7 +230,7 @@ export const QodeCustom23316645: React.FC<
               >{`Accessibility`}</span>
             </div>
             {/* name="xmark" id="233:16659" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom166463
               style={{
                 ...{ width: "24px", height: "24px", flexShrink: "0" },
                 ...{},

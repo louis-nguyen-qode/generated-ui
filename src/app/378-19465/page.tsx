@@ -3,11 +3,12 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom13120 } from "@designSystem/custom/QodeCustom13120"
-import { QodeCustom1828777 } from "@designSystem/custom/QodeCustom1828777"
-import { QodeCustom18210113 } from "@designSystem/custom/QodeCustom18210113"
-import { QodeTag } from "@designSystem/ant/QodeTag"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom207249109 } from "@designSystem/custom/QodeCustom207249109"
+import { QodeCustom130 } from "@designSystem/custom/QodeCustom130"
+import { QodeCustom1408522 } from "@designSystem/custom/QodeCustom1408522"
+import { QodeCustom38323961 } from "@designSystem/custom/QodeCustom38323961"
+import { QodeCustom32828476 } from "@designSystem/custom/QodeCustom32828476"
+import { QodeCustom228149014 } from "@designSystem/custom/QodeCustom228149014"
 
 export interface Qode37819465PageProps {
   style?: CSSProperties
@@ -33,7 +34,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
         }}
       >
         {/* name="Navbar" id="378:19466" type="INSTANCE" */}
-        <QodeCustom13120
+        <QodeCustom207249109
           style={{
             ...{
               display: "flex",
@@ -42,13 +43,12 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
               flexDirection: "column",
               alignItems: "center",
               flexShrink: "0",
-              borderRight:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              borderRight: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{}}
+          {...{ property_1: "Variant2" }}
         />
         {/* name="Body" id="378:19467" type="FRAME" */}
         <div
@@ -111,7 +111,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                 }}
               >
                 {/* name="briefcase" id="378:19736" type="INSTANCE" */}
-                <Icon.QodeBriefcase
+                <QodeCustom130
                   style={{
                     ...{ width: "24px", height: "24px", flexShrink: "0" },
                     ...{},
@@ -173,7 +173,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                   }}
                 >
                   {/* name="Input__Label" id="378:19528" type="INSTANCE" */}
-                  <QodeCustom1828777
+                  <QodeCustom1408522
                     style={{
                       ...{
                         display: "flex",
@@ -185,7 +185,6 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                       ...{},
                     }}
                     {...{
-                      icon: <Icon.QodeBriefcase />,
                       title: "Job title",
                       showIcon: true,
                       required: true,
@@ -194,7 +193,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                     }}
                   />
                   {/* name="Input/Text" id="378:19529" type="INSTANCE" */}
-                  <QodeCustom18210113
+                  <QodeCustom38323961
                     style={{
                       ...{
                         display: "flex",
@@ -206,7 +205,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                         alignSelf: "stretch",
                         borderRadius: "var(--border-radius-base, 8px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -216,8 +215,6 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                       suffix: "SUF",
                       title: "Senior Software Engineer",
                       prefix: "PRE",
-                      iconRight: <Icon.QodeCalendarDays />,
-                      iconLeft: <Icon.QodeUser />,
                       state: "filled",
                       status: "default",
                       size: "default",
@@ -237,7 +234,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                   }}
                 >
                   {/* name="Input__Label" id="378:19531" type="INSTANCE" */}
-                  <QodeCustom1828777
+                  <QodeCustom1408522
                     style={{
                       ...{
                         display: "flex",
@@ -249,7 +246,6 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                       ...{},
                     }}
                     {...{
-                      icon: <Icon.QodeLocationDot />,
                       title: "Location",
                       showIcon: true,
                       required: true,
@@ -258,7 +254,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                     }}
                   />
                   {/* name="Input/Text" id="378:19532" type="INSTANCE" */}
-                  <QodeCustom18210113
+                  <QodeCustom38323961
                     style={{
                       ...{
                         display: "flex",
@@ -270,7 +266,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                         alignSelf: "stretch",
                         borderRadius: "var(--border-radius-base, 8px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -280,8 +276,6 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                       suffix: "SUF",
                       title: "Ho Chi Minh city, Vietnam",
                       prefix: "PRE",
-                      iconRight: <Icon.QodeCalendarDays />,
-                      iconLeft: <Icon.QodeUser />,
                       state: "filled",
                       status: "default",
                       size: "default",
@@ -301,7 +295,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                   }}
                 >
                   {/* name="Input__Label" id="378:19534" type="INSTANCE" */}
-                  <QodeCustom1828777
+                  <QodeCustom1408522
                     style={{
                       ...{
                         display: "flex",
@@ -313,7 +307,6 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                       ...{},
                     }}
                     {...{
-                      icon: <Icon.QodePenRuler />,
                       title: "Requirements",
                       showIcon: true,
                       direction: "horizontal",
@@ -335,7 +328,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                     }}
                   >
                     {/* name="Input/Text" id="378:19536" type="INSTANCE" */}
-                    <QodeCustom18210113
+                    <QodeCustom38323961
                       style={{
                         ...{
                           display: "flex",
@@ -348,7 +341,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                           alignSelf: "stretch",
                           borderRadius: "var(--border-radius-base, 8px)",
                           border:
-                            "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                            "1px solid var(--border-border-neutral-30, #d5d5d5)",
                           background: "var(--background-bg-white, #fff)",
                         },
                         ...{},
@@ -358,8 +351,6 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                         suffix: "SUF",
                         title: "Add skills",
                         prefix: "PRE",
-                        iconRight: <Icon.QodeArrowTurnDownLeft />,
-                        iconLeft: <Icon.QodeUser />,
                         showClear: true,
                         state: "default",
                         status: "default",
@@ -381,7 +372,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                       }}
                     >
                       {/* name="Tag" id="378:19538" type="INSTANCE" */}
-                      <QodeTag
+                      <QodeCustom32828476
                         style={{
                           ...{
                             display: "flex",
@@ -391,14 +382,13 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                             gap: "var(--size-size-sizexxs-6px, 6px)",
                             borderRadius: "4px",
                             border:
-                              "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                              "1px solid var(--primary-primary-40, #64b9f5)",
                             background: "var(--primary-primary-10, #d6eeff)",
                           },
                           ...{},
                         }}
                         {...{
                           showRIcon: true,
-                          rIcon: <Icon.QodeXmark />,
                           color: "primary",
                           state: "default",
                           size: "Default",
@@ -406,7 +396,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                         }}
                       />
                       {/* name="Tag" id="378:19539" type="INSTANCE" */}
-                      <QodeTag
+                      <QodeCustom32828476
                         style={{
                           ...{
                             display: "flex",
@@ -416,14 +406,13 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                             gap: "var(--size-size-sizexxs-6px, 6px)",
                             borderRadius: "4px",
                             border:
-                              "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                              "1px solid var(--primary-primary-40, #64b9f5)",
                             background: "var(--primary-primary-10, #d6eeff)",
                           },
                           ...{},
                         }}
                         {...{
                           showRIcon: true,
-                          rIcon: <Icon.QodeXmark />,
                           color: "primary",
                           state: "default",
                           size: "Default",
@@ -431,7 +420,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                         }}
                       />
                       {/* name="Tag" id="378:19540" type="INSTANCE" */}
-                      <QodeTag
+                      <QodeCustom32828476
                         style={{
                           ...{
                             display: "flex",
@@ -441,14 +430,13 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                             gap: "var(--size-size-sizexxs-6px, 6px)",
                             borderRadius: "4px",
                             border:
-                              "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                              "1px solid var(--primary-primary-40, #64b9f5)",
                             background: "var(--primary-primary-10, #d6eeff)",
                           },
                           ...{},
                         }}
                         {...{
                           showRIcon: true,
-                          rIcon: <Icon.QodeXmark />,
                           color: "primary",
                           state: "default",
                           size: "Default",
@@ -456,7 +444,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                         }}
                       />
                       {/* name="Tag" id="378:19541" type="INSTANCE" */}
-                      <QodeTag
+                      <QodeCustom32828476
                         style={{
                           ...{
                             display: "flex",
@@ -466,14 +454,13 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                             gap: "var(--size-size-sizexxs-6px, 6px)",
                             borderRadius: "4px",
                             border:
-                              "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                              "1px solid var(--primary-primary-40, #64b9f5)",
                             background: "var(--primary-primary-10, #d6eeff)",
                           },
                           ...{},
                         }}
                         {...{
                           showRIcon: true,
-                          rIcon: <Icon.QodeXmark />,
                           color: "primary",
                           state: "default",
                           size: "Default",
@@ -498,7 +485,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                 }}
               >
                 {/* name="Button" id="378:19587" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -510,15 +497,12 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                       flex: "1 0 0",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodeChevronLeft />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Back",
                     type: "default",
                     size: "default",
@@ -529,7 +513,7 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                   }}
                 />
                 {/* name="Button" id="378:19588" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -547,11 +531,8 @@ export const Qode37819465Page: React.FC<Qode37819465PageProps> = ({
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
                     buttonname: "Find candidates",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodeMagnifyingGlass />,
                     type: "primary",
                     size: "default",
                     state: "default",

@@ -4,7 +4,8 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom53130112 } from "@designSystem/custom/QodeCustom53130112"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom277832 } from "@designSystem/custom/QodeCustom277832"
+import { QodeCustom228149026 } from "@designSystem/custom/QodeCustom228149026"
 
 export interface QodeCustom245141Props {}
 
@@ -54,7 +55,11 @@ export const QodeCustom245141: React.FC<
               },
               ...{},
             }}
-            {...{ title: "Licenses & Certifications", state: "view" }}
+            {...{
+              edit: true,
+              title: "Licenses & Certifications",
+              state: "view",
+            }}
           />
           {/* name="educationItem" id="24:5150" type="FRAME" */}
           <div
@@ -69,7 +74,7 @@ export const QodeCustom245141: React.FC<
             }}
           >
             {/* name="avatar" id="24:5151" type="INSTANCE" */}
-            <div
+            <QodeCustom277832
               style={{
                 ...{
                   display: "flex",
@@ -185,7 +190,7 @@ export const QodeCustom245141: React.FC<
                 >{`Credential ID`}</span>
               </div>
               {/* name="Button" id="67:3161" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149026
                 style={{
                   ...{
                     display: "flex",
@@ -196,17 +201,14 @@ export const QodeCustom245141: React.FC<
                     gap: "4px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeUpRightFromSquare />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   iconRight: true,
                   buttonname: "Show credentials",
-                  selectIconLeft: <Icon.QodeMagnifyingGlass />,
                   type: "default",
                   size: "small",
                   state: "default",

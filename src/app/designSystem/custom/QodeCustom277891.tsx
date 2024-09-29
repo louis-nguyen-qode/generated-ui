@@ -4,8 +4,9 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeSteps } from "@designSystem/ant/QodeSteps"
-import { QodeCustom191970 } from "@designSystem/custom/QodeCustom191970"
+import QodeSvg166020 from "@designSystem/icon/svg/QodeSvg166020"
 import { QodeButton } from "@designSystem/ant/QodeButton"
+import QodeSvg166024 from "@designSystem/icon/svg/QodeSvg166024"
 
 export interface QodeCustom277891Props {
   button?: boolean
@@ -85,14 +86,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:7924" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166020
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -206,9 +201,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -272,14 +265,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "process", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:7934" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -393,9 +380,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -460,14 +445,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "wait", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:7944" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -581,9 +560,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -647,14 +624,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "error", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:7954" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -768,9 +739,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -834,14 +803,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "progress", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:7964" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -955,9 +918,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1022,14 +983,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "finish", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:7974" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166020
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1143,9 +1098,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1209,14 +1162,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "process", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:7984" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1330,9 +1277,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1397,14 +1342,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "wait", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:7994" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1518,9 +1457,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1584,14 +1521,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "error", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:8004" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1705,9 +1636,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1771,14 +1700,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "progress", size: "default" }}
                 />
                 {/* name=".steps__item_tail" id="27:8014" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -1892,9 +1815,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -1958,14 +1879,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8024" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166020
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2078,9 +1993,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2145,14 +2058,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "process", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8034" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2265,9 +2172,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2332,14 +2237,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "wait", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8044" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2452,9 +2351,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2518,14 +2415,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "error", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8054" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2638,9 +2529,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2704,14 +2593,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "progress", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8064" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -2824,9 +2707,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -2891,14 +2772,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "finish", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8074" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166020
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3011,9 +2886,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3077,14 +2950,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "process", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8084" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3197,9 +3064,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3264,14 +3129,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "wait", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8094" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3384,9 +3243,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3450,14 +3307,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "error", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8104" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3570,9 +3421,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3636,14 +3485,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "progress", size: "small" }}
                 />
                 {/* name=".steps__item_tail" id="27:8114" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3756,9 +3599,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -3823,14 +3664,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8124" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166020
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -3943,9 +3778,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4010,14 +3843,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "process", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8134" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -4130,9 +3957,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4198,14 +4023,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "wait", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8144" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -4318,9 +4137,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4385,14 +4202,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "error", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8154" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -4505,9 +4316,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4572,14 +4381,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "progress", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8164" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -4692,9 +4495,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4759,14 +4560,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "finish", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8174" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166020
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -4879,9 +4674,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -4946,14 +4739,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "process", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8184" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -5066,9 +4853,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -5133,14 +4918,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "wait", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8194" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -5253,9 +5032,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -5319,14 +5096,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "error", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8204" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -5439,9 +5210,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -5505,14 +5274,8 @@ export const QodeCustom277891: React.FC<
                   {...{ step: "2", status: "progress", size: "dot" }}
                 />
                 {/* name=".steps__item_tail" id="27:8214" type="INSTANCE" */}
-                <QodeCustom191970
-                  style={{
-                    ...{
-                      width: "var(--size-size-size5xs-1px, 1px)",
-                      flex: "1 0 0",
-                    },
-                    ...{},
-                  }}
+                <QodeSvg166024
+                  style={{ ...{ width: "1px", flex: "1 0 0" }, ...{} }}
                   {...{
                     direction: "vertical",
                     _style: "default",
@@ -5625,9 +5388,7 @@ export const QodeCustom277891: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See More",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",

@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom39131660 } from "@designSystem/custom/QodeCustom39131660"
+
 export interface QodeCustom39131653Props {}
 
 export const QodeCustom39131653: React.FC<
@@ -10,30 +12,25 @@ export const QodeCustom39131653: React.FC<
 > = ({ style, ...rest }) => {
   return (
     <>
-      {/* name="Property 1=Default" id="391:31653" type="COMPONENT" */}
+      {/* name="Property 1=Default, size=md" id="391:31653" type="COMPONENT" */}
       <div
         style={{
           ...{
-            display: "flex",
-            width: "216px",
-            height: "40px",
+            display: "inline-flex",
             padding: "8px 24px",
             justifyContent: "center",
-            alignItems: "flex-start",
+            alignItems: "center",
             gap: "8px",
-            flexShrink: "0",
             borderRadius: "var(--border-radius-rounded, 999px)",
+            border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
             background: "var(--neutral-gray-10, #e3e3e3)",
           },
           ...style,
         }}
       >
         {/* name="spinner" id="391:31664" type="INSTANCE" */}
-        <Icon.QodeSpinner
-          style={{
-            ...{ width: "24px", height: "24px", flexShrink: "0" },
-            ...{},
-          }}
+        <QodeCustom39131660
+          style={{ ...{ width: "24px", height: "24px" }, ...{} }}
           {...{}}
         />
         <span

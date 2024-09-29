@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom34019238 } from "@designSystem/custom/QodeCustom34019238"
+import { QodeCustom31828332 } from "@designSystem/custom/QodeCustom31828332"
+
 export interface QodeCustom34019240Props {
   property_1?: "descending" | "ascending"
 }
@@ -31,7 +34,7 @@ export const QodeCustom34019240: React.FC<
             }}
           >
             {/* name="arrow-down" id="340:19243" type="INSTANCE" */}
-            <Icon.QodeArrowDown
+            <QodeCustom34019238
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -59,7 +62,7 @@ export const QodeCustom34019240: React.FC<
             }}
           >
             {/* name="arrow-up" id="340:19244" type="INSTANCE" */}
-            <Icon.QodeArrowUp
+            <QodeCustom31828332
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},

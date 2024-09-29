@@ -4,7 +4,8 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvg813755 from "@designSystem/icon/svg/QodeSvg813755"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom783572 } from "@designSystem/custom/QodeCustom783572"
+import { QodeCustom783871 } from "@designSystem/custom/QodeCustom783871"
 import QodeSvg813764 from "@designSystem/icon/svg/QodeSvg813764"
 import QodeSvg813774 from "@designSystem/icon/svg/QodeSvg813774"
 import QodeSvg813784 from "@designSystem/icon/svg/QodeSvg813784"
@@ -71,7 +72,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -125,7 +126,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3759" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -139,10 +140,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -160,7 +158,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3761" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -175,10 +173,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -188,7 +183,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3762" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -203,10 +198,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -236,8 +228,7 @@ export const QodeCustom813732: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -291,7 +282,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3768" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -305,10 +296,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -326,7 +314,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3770" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -341,10 +329,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -354,7 +339,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3771" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -369,10 +354,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -402,8 +384,7 @@ export const QodeCustom813732: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -435,7 +416,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryborder, #b2dfff)",
+                    "1px solid var(--color-primary-colorprimaryborder, #b2dfff)",
                 },
                 ...{},
               }}
@@ -473,7 +454,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3778" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -487,10 +468,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -508,7 +486,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3780" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -523,10 +501,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -536,7 +511,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3781" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -551,10 +526,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -584,8 +556,7 @@ export const QodeCustom813732: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #dc3812)",
+                border: "1px solid var(--color-error-colorerror, #dc3812)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -617,7 +588,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorborder, #ffb7a7)",
+                    "1px solid var(--color-error-colorerrorborder, #ffb7a7)",
                 },
                 ...{},
               }}
@@ -655,7 +626,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3788" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -669,10 +640,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -690,7 +658,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3790" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -705,10 +673,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -718,7 +683,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3791" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -733,10 +698,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -766,8 +728,7 @@ export const QodeCustom813732: React.FC<
                 gap: "var(--size-padding-paddingxs, 8px)",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -799,7 +760,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryborder, #b2dfff)",
+                    "1px solid var(--color-primary-colorprimaryborder, #b2dfff)",
                 },
                 ...{},
               }}
@@ -837,7 +798,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3798" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -851,10 +812,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -872,7 +830,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3800" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -887,10 +845,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -900,7 +855,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3801" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -915,10 +870,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -949,7 +901,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -1003,7 +955,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3807" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -1017,10 +969,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -1038,7 +987,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3809" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1053,10 +1002,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1066,7 +1012,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3810" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1081,10 +1027,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1114,7 +1057,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
               },
@@ -1171,7 +1114,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -1224,7 +1167,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3820" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -1238,10 +1181,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -1259,7 +1199,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3822" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1274,10 +1214,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1287,7 +1224,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3823" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1302,10 +1239,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1334,8 +1268,7 @@ export const QodeCustom813732: React.FC<
                 alignItems: "flex-start",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -1388,7 +1321,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3829" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -1402,10 +1335,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -1423,7 +1353,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3831" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1438,10 +1368,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1451,7 +1378,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3832" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1466,10 +1393,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1498,8 +1422,7 @@ export const QodeCustom813732: React.FC<
                 alignItems: "flex-start",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -1530,7 +1453,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryborder, #b2dfff)",
+                    "1px solid var(--color-primary-colorprimaryborder, #b2dfff)",
                 },
                 ...{},
               }}
@@ -1568,7 +1491,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3839" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -1582,10 +1505,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -1603,7 +1523,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3841" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1618,10 +1538,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1631,7 +1548,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3842" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1646,10 +1563,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1678,8 +1592,7 @@ export const QodeCustom813732: React.FC<
                 alignItems: "flex-start",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #dc3812)",
+                border: "1px solid var(--color-error-colorerror, #dc3812)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -1710,7 +1623,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorborder, #ffb7a7)",
+                    "1px solid var(--color-error-colorerrorborder, #ffb7a7)",
                 },
                 ...{},
               }}
@@ -1748,7 +1661,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3849" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -1762,10 +1675,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -1783,7 +1693,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3851" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1798,10 +1708,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1811,7 +1718,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3852" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1826,10 +1733,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1858,8 +1762,7 @@ export const QodeCustom813732: React.FC<
                 alignItems: "flex-start",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -1890,7 +1793,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryborder, #b2dfff)",
+                    "1px solid var(--color-primary-colorprimaryborder, #b2dfff)",
                 },
                 ...{},
               }}
@@ -1928,7 +1831,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3859" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -1942,10 +1845,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -1963,7 +1863,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3861" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -1978,10 +1878,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -1991,7 +1888,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3862" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2006,10 +1903,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2039,7 +1933,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -2092,7 +1986,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3868" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -2106,10 +2000,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -2127,7 +2018,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3870" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2142,10 +2033,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2155,7 +2043,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3871" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2170,10 +2058,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2202,7 +2087,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
               },
@@ -2258,7 +2143,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -2312,7 +2197,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3881" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -2326,10 +2211,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -2347,7 +2229,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3883" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2362,10 +2244,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2375,7 +2254,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3884" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2390,10 +2269,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2422,8 +2298,7 @@ export const QodeCustom813732: React.FC<
                 alignItems: "flex-start",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -2477,7 +2352,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3890" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -2491,10 +2366,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -2512,7 +2384,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3892" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2527,10 +2399,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2540,7 +2409,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3893" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2555,10 +2424,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2587,8 +2453,7 @@ export const QodeCustom813732: React.FC<
                 alignItems: "flex-start",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -2620,7 +2485,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryborder, #b2dfff)",
+                    "1px solid var(--color-primary-colorprimaryborder, #b2dfff)",
                 },
                 ...{},
               }}
@@ -2658,7 +2523,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3900" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -2672,10 +2537,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -2693,7 +2555,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3902" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2708,10 +2570,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2721,7 +2580,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3903" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2736,10 +2595,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2768,8 +2624,7 @@ export const QodeCustom813732: React.FC<
                 alignItems: "flex-start",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #dc3812)",
+                border: "1px solid var(--color-error-colorerror, #dc3812)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -2801,7 +2656,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorborder, #ffb7a7)",
+                    "1px solid var(--color-error-colorerrorborder, #ffb7a7)",
                 },
                 ...{},
               }}
@@ -2839,7 +2694,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3910" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -2853,10 +2708,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -2874,7 +2726,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3912" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2889,10 +2741,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2902,7 +2751,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3913" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -2917,10 +2766,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -2949,8 +2795,7 @@ export const QodeCustom813732: React.FC<
                 alignItems: "flex-start",
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                border: "1px solid var(--color-primary-colorprimary, #1597f4)",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -2982,7 +2827,7 @@ export const QodeCustom813732: React.FC<
                   position: "absolute",
                   borderRadius: "8px",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryborder, #b2dfff)",
+                    "1px solid var(--color-primary-colorprimaryborder, #b2dfff)",
                 },
                 ...{},
               }}
@@ -3020,7 +2865,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3920" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -3034,10 +2879,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -3055,7 +2897,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3922" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -3070,10 +2912,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -3083,7 +2922,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3923" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -3098,10 +2937,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -3131,7 +2967,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-background-colorbgcontainer, #fff)",
               },
@@ -3185,7 +3021,7 @@ export const QodeCustom813732: React.FC<
               }}
             >
               {/* name="Button" id="81:3929" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom783572
                 style={{
                   ...{
                     display: "flex",
@@ -3199,10 +3035,7 @@ export const QodeCustom813732: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Rewrite",
-                  selectIconLeft: <Icon.QodeArrowsRotateReverse />,
                   iconLeft: true,
                   type: "link",
                   size: "small",
@@ -3220,7 +3053,7 @@ export const QodeCustom813732: React.FC<
                 }}
               >
                 {/* name="Button" id="81:3931" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -3235,10 +3068,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsUp />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -3248,7 +3078,7 @@ export const QodeCustom813732: React.FC<
                   }}
                 />
                 {/* name="Button" id="81:3932" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom783871
                   style={{
                     ...{
                       display: "flex",
@@ -3263,10 +3093,7 @@ export const QodeCustom813732: React.FC<
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeThumbsDown />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
                     buttonname: "Rewrite",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "text",
                     size: "small",
                     state: "default",
@@ -3295,7 +3122,7 @@ export const QodeCustom813732: React.FC<
                 flexShrink: "0",
                 borderRadius: "var(--border-radius-base, 8px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 background:
                   "var(--color-neutral-fill-colorfilltertiary, rgba(0, 0, 0, 0.04))",
               },

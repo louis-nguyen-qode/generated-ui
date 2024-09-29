@@ -3,7 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149316 } from "@designSystem/custom/QodeCustom228149316"
+import { QodeCustom228149015 } from "@designSystem/custom/QodeCustom228149015"
 
 export interface QodeCustom1136232Props {
   showRight?: boolean
@@ -84,7 +85,7 @@ export const QodeCustom1136232: React.FC<
               >{`Heading`}</span>
             </div>
             {/* name="Button" id="113:6228" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149316
               style={{
                 ...{
                   display: "flex",
@@ -97,17 +98,13 @@ export const QodeCustom1136232: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
               {...{
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                onlyIcon: <Icon.QodeChevronLeft />,
                 buttonname: "Source new job",
-                selectIconLeft: <Icon.QodePlus />,
                 iconLeft: true,
                 type: "default",
                 size: "default",
@@ -157,7 +154,7 @@ export const QodeCustom1136232: React.FC<
               }}
             >{`Heading`}</span>
             {/* name="Button" id="113:6245" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149316
               style={{
                 ...{
                   display: "flex",
@@ -170,17 +167,13 @@ export const QodeCustom1136232: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
               {...{
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                onlyIcon: <Icon.QodeChevronLeft />,
                 buttonname: "Source new job",
-                selectIconLeft: <Icon.QodePlus />,
                 iconLeft: true,
                 type: "default",
                 size: "default",
@@ -191,7 +184,7 @@ export const QodeCustom1136232: React.FC<
               }}
             />
             {/* name="Button" id="292:18545" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149316
               style={{
                 ...{
                   display: "flex",
@@ -204,17 +197,13 @@ export const QodeCustom1136232: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
               {...{
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                onlyIcon: <Icon.QodeChevronLeft />,
                 buttonname: "Source new job",
-                selectIconLeft: <Icon.QodePlus />,
                 iconLeft: true,
                 type: "default",
                 size: "default",
@@ -256,7 +245,7 @@ export const QodeCustom1136232: React.FC<
               }}
             >
               {/* name="Button" id="292:18902" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149316
                 style={{
                   ...{
                     display: "flex",
@@ -269,16 +258,13 @@ export const QodeCustom1136232: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeChevronLeft />,
                   buttonname: "Source new job",
-                  selectIconLeft: <Icon.QodePlus />,
                   iconLeft: true,
                   type: "default",
                   size: "default",
@@ -334,7 +320,7 @@ export const QodeCustom1136232: React.FC<
               </div>
             </div>
             {/* name="Button" id="292:18912" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149015
               style={{
                 ...{
                   display: "flex",
@@ -350,10 +336,7 @@ export const QodeCustom1136232: React.FC<
                 ...{},
               }}
               {...{
-                selectIconLeft: <Icon.QodeIcons />,
                 buttonname: "Button",
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 type: "primary",
                 size: "default",
                 state: "default",

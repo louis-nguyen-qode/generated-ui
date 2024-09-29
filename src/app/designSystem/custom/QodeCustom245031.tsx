@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom63010804 } from "@designSystem/custom/QodeCustom63010804"
+import { QodeCustom165961 } from "@designSystem/custom/QodeCustom165961"
 import { QodeButton } from "@designSystem/ant/QodeButton"
 
 export interface QodeCustom245031Props {
@@ -80,7 +80,7 @@ export const QodeCustom245031: React.FC<
                   }}
                 >
                   {/* name="icons" id="24:5036" type="INSTANCE" */}
-                  <QodeCustom63010804
+                  <QodeCustom165961
                     style={{
                       ...{
                         display: "flex",
@@ -154,15 +154,13 @@ export const QodeCustom245031: React.FC<
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--style-radius-borderround, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                        "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                       background:
                         "var(--color-neutral-background-colorbgcontainer, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    icononly: <Icon.QodeMagnifyingGlass />,
-                    iconR: <Icon.QodeMagnifyingGlass />,
                     iconL: true,
                     title: "Edit",
                     type: "default",
@@ -232,9 +230,7 @@ export const QodeCustom245031: React.FC<
                       ...{},
                     }}
                     {...{
-                      icononly: <Icon.QodeMagnifyingGlass />,
                       title: "See more",
-                      iconR: <Icon.QodeMagnifyingGlass />,
                       type: "text",
                       size: "small",
                       state: "default",
@@ -312,7 +308,7 @@ export const QodeCustom245031: React.FC<
                   }}
                 >
                   {/* name="icons" id="24:5049" type="INSTANCE" */}
-                  <QodeCustom63010804
+                  <QodeCustom165961
                     style={{
                       ...{
                         display: "flex",
@@ -386,15 +382,13 @@ export const QodeCustom245031: React.FC<
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--style-radius-borderround, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                        "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                       background:
                         "var(--color-neutral-background-colorbgcontainer, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    icononly: <Icon.QodeMagnifyingGlass />,
-                    iconR: <Icon.QodeMagnifyingGlass />,
                     iconL: true,
                     title: "Edit",
                     type: "default",
@@ -450,9 +444,7 @@ export const QodeCustom245031: React.FC<
                   ...{},
                 }}
                 {...{
-                  icononly: <Icon.QodeMagnifyingGlass />,
                   title: "See Less",
-                  iconR: <Icon.QodeMagnifyingGlass />,
                   type: "text",
                   size: "small",
                   state: "default",

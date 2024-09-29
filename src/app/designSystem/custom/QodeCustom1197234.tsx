@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom565626441 } from "@designSystem/custom/QodeCustom565626441"
+import { QodeCustom23316645 } from "@designSystem/custom/QodeCustom23316645"
 
 export interface QodeCustom1197234Props {}
 
@@ -12,7 +12,7 @@ export const QodeCustom1197234: React.FC<
 > = ({ style, ...rest }) => {
   return (
     <>
-      {/* name="Modal/View JD/Modal/View JD/View JD" id="119:7234" type="COMPONENT" */}
+      {/* name="Modal/View JD" id="119:7234" type="COMPONENT" */}
       <div
         style={{
           ...{
@@ -30,7 +30,7 @@ export const QodeCustom1197234: React.FC<
         }}
       >
         {/* name="Modal/Header" id="119:7203" type="INSTANCE" */}
-        <QodeCustom565626441
+        <QodeCustom23316645
           style={{
             ...{
               display: "flex",
@@ -75,8 +75,7 @@ export const QodeCustom1197234: React.FC<
                 alignItems: "center",
                 gap: "4px",
                 borderRadius: "var(--border-radius-base, 8px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                border: "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--neutral-gray-5, #f8f6f6)",
               },
               ...{},

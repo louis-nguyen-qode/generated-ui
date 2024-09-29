@@ -3,6 +3,15 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom996394 } from "@designSystem/custom/QodeCustom996394"
+import { QodeCustom996396 } from "@designSystem/custom/QodeCustom996396"
+import { QodeCustom996398 } from "@designSystem/custom/QodeCustom996398"
+import { QodeCustom996400 } from "@designSystem/custom/QodeCustom996400"
+import { QodeCustom996402 } from "@designSystem/custom/QodeCustom996402"
+import { QodeCustom814181 } from "@designSystem/custom/QodeCustom814181"
+import { QodeCustom814164 } from "@designSystem/custom/QodeCustom814164"
+import { QodeCustom814177 } from "@designSystem/custom/QodeCustom814177"
+
 export interface QodeCustom996729Props {
   property_1?: "Formatter" | "Chat"
 }
@@ -37,17 +46,17 @@ export const QodeCustom996729: React.FC<
               }}
             >
               {/* name="bold" id="99:6733" type="INSTANCE" */}
-              <Icon.QodeBold
+              <QodeCustom996394
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />
               {/* name="italic" id="99:6734" type="INSTANCE" */}
-              <Icon.QodeItalic
+              <QodeCustom996396
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />
               {/* name="underline" id="99:6735" type="INSTANCE" */}
-              <Icon.QodeUnderline
+              <QodeCustom996398
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />
@@ -73,12 +82,12 @@ export const QodeCustom996729: React.FC<
               }}
             >
               {/* name="list-ul" id="99:6738" type="INSTANCE" */}
-              <Icon.QodeListUl
+              <QodeCustom996400
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />
               {/* name="list-ol" id="99:6739" type="INSTANCE" */}
-              <Icon.QodeListOl
+              <QodeCustom996402
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />
@@ -104,7 +113,7 @@ export const QodeCustom996729: React.FC<
               }}
             >
               {/* name="link" id="99:6742" type="INSTANCE" */}
-              <Icon.QodeLink
+              <QodeCustom814181
                 style={{
                   ...{ width: "20px", height: "20px", flexShrink: "0" },
                   ...{},
@@ -138,17 +147,17 @@ export const QodeCustom996729: React.FC<
               }}
             >
               {/* name="image" id="99:6744" type="INSTANCE" */}
-              <Icon.QodeImage
+              <QodeCustom814164
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />
               {/* name="face-smile" id="99:6745" type="INSTANCE" */}
-              <Icon.QodeFaceSmile
+              <QodeCustom814177
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />
               {/* name="link" id="99:6746" type="INSTANCE" */}
-              <Icon.QodeLink
+              <QodeCustom814181
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />

@@ -3,7 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeBadge } from "@designSystem/ant/QodeBadge"
+import { QodeCustom43426798 } from "@designSystem/custom/QodeCustom43426798"
+import { QodeCustom43426802 } from "@designSystem/custom/QodeCustom43426802"
+import { QodeCustom43426799 } from "@designSystem/custom/QodeCustom43426799"
 
 export interface QodeCustom31123053Props {
   status?: "upcoming" | "done" | "rejected"
@@ -26,7 +28,7 @@ export const QodeCustom31123053: React.FC<
             }}
           >
             {/* name="Badge__Status" id="434:26889" type="INSTANCE" */}
-            <QodeBadge
+            <QodeCustom43426798
               style={{
                 ...{ display: "flex", alignItems: "center", gap: "8px" },
                 ...{},
@@ -47,7 +49,7 @@ export const QodeCustom31123053: React.FC<
             }}
           >
             {/* name="Badge__Status" id="434:26991" type="INSTANCE" */}
-            <QodeBadge
+            <QodeCustom43426802
               style={{
                 ...{ display: "flex", alignItems: "center", gap: "8px" },
                 ...{},
@@ -68,7 +70,7 @@ export const QodeCustom31123053: React.FC<
             }}
           >
             {/* name="Badge__Status" id="434:27079" type="INSTANCE" */}
-            <QodeBadge
+            <QodeCustom43426799
               style={{
                 ...{ display: "flex", alignItems: "center", gap: "8px" },
                 ...{},

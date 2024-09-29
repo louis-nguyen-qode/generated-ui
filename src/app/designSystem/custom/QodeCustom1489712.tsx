@@ -4,13 +4,14 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvg14410325 from "@designSystem/icon/svg/QodeSvg14410325"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149026 } from "@designSystem/custom/QodeCustom228149026"
 import QodeSvg14310008 from "@designSystem/icon/svg/QodeSvg14310008"
 import QodeSvg14310012 from "@designSystem/icon/svg/QodeSvg14310012"
 import QodeSvg1489377 from "@designSystem/icon/svg/QodeSvg1489377"
 import QodeSvg1489379 from "@designSystem/icon/svg/QodeSvg1489379"
 import QodeSvg1489380 from "@designSystem/icon/svg/QodeSvg1489380"
 import QodeSvg1489381 from "@designSystem/icon/svg/QodeSvg1489381"
+import { QodeCustom14599 } from "@designSystem/custom/QodeCustom14599"
 import QodeSvg1489383 from "@designSystem/icon/svg/QodeSvg1489383"
 import QodeSvg14310024 from "@designSystem/icon/svg/QodeSvg14310024"
 import { QodeTooltip } from "@designSystem/ant/QodeTooltip"
@@ -158,7 +159,7 @@ export const QodeCustom1489712: React.FC<
                   }}
                 >
                   {/* name="Button" id="148:9008" type="INSTANCE" */}
-                  <QodeButton
+                  <QodeCustom228149026
                     style={{
                       ...{
                         display: "flex",
@@ -169,16 +170,13 @@ export const QodeCustom1489712: React.FC<
                         gap: "4px",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                          "1px solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
                     }}
                     {...{
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      onlyIcon: <Icon.QodeMagnifyingGlass />,
                       buttonname: "Screening",
-                      selectIconLeft: <Icon.QodePenToSquare />,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -188,7 +186,7 @@ export const QodeCustom1489712: React.FC<
                     }}
                   />
                   {/* name="Button" id="148:9085" type="INSTANCE" */}
-                  <QodeButton
+                  <QodeCustom228149026
                     style={{
                       ...{
                         display: "flex",
@@ -199,16 +197,13 @@ export const QodeCustom1489712: React.FC<
                         gap: "4px",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                          "1px solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
                     }}
                     {...{
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      onlyIcon: <Icon.QodeMagnifyingGlass />,
                       buttonname: "Deep-dive",
-                      selectIconLeft: <Icon.QodePenToSquare />,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -243,7 +238,7 @@ export const QodeCustom1489712: React.FC<
                       flexShrink: "0",
                       borderRadius: "0px 4px 0px 0px",
                       border:
-                        "var(--style-line-width-linewidth, 1px) dashed var(--border-border-neutral-50, #6f6f6f)",
+                        "1px dashed var(--border-border-neutral-50, #6f6f6f)",
                       background: "#FFF",
                     },
                     ...{},
@@ -343,7 +338,7 @@ export const QodeCustom1489712: React.FC<
                         {...{}}
                       />
                       {/* name="video" id="148:9382" type="INSTANCE" */}
-                      <Icon.QodeVideo
+                      <QodeCustom14599
                         style={{
                           ...{ width: "12px", height: "12px", flexShrink: "0" },
                           ...{},
@@ -584,7 +579,7 @@ export const QodeCustom1489712: React.FC<
                   }}
                 >
                   {/* name="Button" id="148:9723" type="INSTANCE" */}
-                  <QodeButton
+                  <QodeCustom228149026
                     style={{
                       ...{
                         display: "flex",
@@ -595,16 +590,13 @@ export const QodeCustom1489712: React.FC<
                         gap: "4px",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                          "1px solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
                     }}
                     {...{
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      onlyIcon: <Icon.QodeMagnifyingGlass />,
                       buttonname: "Screening",
-                      selectIconLeft: <Icon.QodePenToSquare />,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -614,7 +606,7 @@ export const QodeCustom1489712: React.FC<
                     }}
                   />
                   {/* name="Button" id="148:9724" type="INSTANCE" */}
-                  <QodeButton
+                  <QodeCustom228149026
                     style={{
                       ...{
                         display: "flex",
@@ -625,16 +617,13 @@ export const QodeCustom1489712: React.FC<
                         gap: "4px",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                          "1px solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
                     }}
                     {...{
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      onlyIcon: <Icon.QodeMagnifyingGlass />,
                       buttonname: "Deep-dive",
-                      selectIconLeft: <Icon.QodePenToSquare />,
                       type: "default",
                       size: "small",
                       state: "default",
@@ -669,7 +658,7 @@ export const QodeCustom1489712: React.FC<
                       flexShrink: "0",
                       borderRadius: "0px 4px 0px 0px",
                       border:
-                        "var(--style-line-width-linewidth, 1px) dashed var(--border-border-neutral-50, #6f6f6f)",
+                        "1px dashed var(--border-border-neutral-50, #6f6f6f)",
                       background: "#FFF",
                     },
                     ...{},
@@ -769,7 +758,7 @@ export const QodeCustom1489712: React.FC<
                         {...{}}
                       />
                       {/* name="video" id="166:9202" type="INSTANCE" */}
-                      <Icon.QodeVideo
+                      <QodeCustom14599
                         style={{
                           ...{ width: "12px", height: "12px", flexShrink: "0" },
                           ...{},

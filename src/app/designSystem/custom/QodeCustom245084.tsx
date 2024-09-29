@@ -6,7 +6,7 @@ import { Icon } from "@designSystem/icon"
 import { QodeCustom53130112 } from "@designSystem/custom/QodeCustom53130112"
 import { QodeCustom244862 } from "@designSystem/custom/QodeCustom244862"
 import { QodeCustom244887 } from "@designSystem/custom/QodeCustom244887"
-import { QodeCustom27892072 } from "@designSystem/custom/QodeCustom27892072"
+import { QodeCustom277914 } from "@designSystem/custom/QodeCustom277914"
 
 export interface QodeCustom245084Props {}
 
@@ -56,7 +56,7 @@ export const QodeCustom245084: React.FC<
               },
               ...{},
             }}
-            {...{ title: "Experience", state: "view" }}
+            {...{ edit: true, title: "Experience", state: "view" }}
           />
           {/* name="jobItem" id="24:5093" type="INSTANCE" */}
           <QodeCustom244862
@@ -122,7 +122,7 @@ export const QodeCustom245084: React.FC<
               }}
             >
               {/* name=".exp_item_vertical" id="24:5097" type="INSTANCE" */}
-              <QodeCustom27892072
+              <QodeCustom277914
                 style={{
                   ...{
                     display: "flex",
@@ -144,7 +144,7 @@ export const QodeCustom245084: React.FC<
                 }}
               />
               {/* name=".exp_item_vertical" id="24:5098" type="INSTANCE" */}
-              <QodeCustom27892072
+              <QodeCustom277914
                 style={{
                   ...{
                     display: "flex",

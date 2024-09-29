@@ -3,8 +3,12 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom199059991 } from "@designSystem/custom/QodeCustom199059991"
+import { QodeCustom182845845 } from "@designSystem/custom/QodeCustom182845845"
+import { QodeCustom698757 } from "@designSystem/custom/QodeCustom698757"
+import { QodeCustom228149015 } from "@designSystem/custom/QodeCustom228149015"
+import { QodeCustom228149315 } from "@designSystem/custom/QodeCustom228149315"
+import { QodeCustom228149016 } from "@designSystem/custom/QodeCustom228149016"
 
 export interface QodeCustom4325453Props {
   property_1?: "Default" | "In shortlisted" | "Shortlist" | "Variant5"
@@ -43,29 +47,19 @@ export const QodeCustom4325453: React.FC<
                 ...{},
               }}
             >
-              {/* name="avatar" id="43:25732" type="INSTANCE" */}
-              <QodeCustom562954
+              {/* name="Profile/Avatar" id="1990:60052" type="INSTANCE" */}
+              <QodeCustom199059991
                 style={{
                   ...{
                     display: "flex",
                     width: "72px",
                     height: "72px",
-                    flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "center",
-                    gap: "var(--font-size-large, 16px)",
-                    borderRadius: "999px",
-                    background:
-                      "var(--color-success-colorsuccesshover, #a3c73e)",
                   },
                   ...{},
                 }}
-                {...{
-                  opentowork: true,
-                  img: true,
-                  type: "Round",
-                  state: "Default",
-                }}
+                {...{ verified: false, size: "72" }}
               />
               {/* name="Wrap" id="43:25733" type="FRAME" */}
               <div
@@ -86,12 +80,28 @@ export const QodeCustom4325453: React.FC<
                     ...{
                       display: "flex",
                       alignItems: "center",
-                      gap: "4px",
+                      gap: "8px",
                       alignSelf: "stretch",
                     },
                     ...{},
                   }}
                 >
+                  {/* name="Icon/Verified profile" id="1828:49124" type="INSTANCE" */}
+                  <QodeCustom182845845
+                    style={{
+                      ...{
+                        display: "flex",
+                        padding: "2px",
+                        alignItems: "center",
+                        gap: "10px",
+                        borderRadius: "24px",
+                        border: "1px solid #1597F4",
+                        background: "#EEF8FF",
+                      },
+                      ...{},
+                    }}
+                    {...{ property_1: "2" }}
+                  />
                   <span
                     style={{
                       ...{
@@ -151,7 +161,7 @@ export const QodeCustom4325453: React.FC<
                     }}
                   >
                     {/* name="location-dot" id="69:8761" type="INSTANCE" */}
-                    <Icon.QodeLocationDot
+                    <QodeCustom698757
                       style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                       {...{}}
                     />
@@ -175,7 +185,7 @@ export const QodeCustom4325453: React.FC<
               </div>
             </div>
             {/* name="Button" id="43:25741" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149015
               style={{
                 ...{
                   display: "flex",
@@ -191,11 +201,8 @@ export const QodeCustom4325453: React.FC<
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 iconLeft: true,
                 buttonname: "Shortlist",
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                selectIconLeft: <Icon.QodeHeart />,
                 type: "primary",
                 size: "default",
                 state: "default",
@@ -234,29 +241,19 @@ export const QodeCustom4325453: React.FC<
                 ...{},
               }}
             >
-              {/* name="avatar" id="47:6685" type="INSTANCE" */}
-              <QodeCustom562954
+              {/* name="Profile/Avatar" id="1990:60473" type="INSTANCE" */}
+              <QodeCustom199059991
                 style={{
                   ...{
                     display: "flex",
                     width: "72px",
                     height: "72px",
-                    flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "center",
-                    gap: "var(--font-size-large, 16px)",
-                    borderRadius: "999px",
-                    background:
-                      "var(--color-success-colorsuccesshover, #a3c73e)",
                   },
                   ...{},
                 }}
-                {...{
-                  opentowork: true,
-                  img: true,
-                  type: "Round",
-                  state: "Default",
-                }}
+                {...{ verified: false, size: "72" }}
               />
               {/* name="Wrap" id="20:4767" type="FRAME" */}
               <div
@@ -271,20 +268,49 @@ export const QodeCustom4325453: React.FC<
                   ...{},
                 }}
               >
-                <span
+                {/* name="Name yoe" id="1828:48297" type="FRAME" */}
+                <div
                   style={{
                     ...{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "8px",
                       alignSelf: "stretch",
-                      color: "var(--text-text-neutral-10, #bfbfbf)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-heading6, 16px)",
-                      fontStyle: "normal",
-                      fontWeight: "600",
-                      lineHeight: "var(--lineheight-lineheight-h6, 22px)",
                     },
                     ...{},
                   }}
-                >{`Nguyen Quoc Thai · 12 YoE`}</span>
+                >
+                  {/* name="Icon/Verified profile" id="1828:49321" type="INSTANCE" */}
+                  <QodeCustom182845845
+                    style={{
+                      ...{
+                        display: "flex",
+                        padding: "2px",
+                        alignItems: "center",
+                        gap: "10px",
+                        borderRadius: "24px",
+                        border: "1px solid #1597F4",
+                        background: "#EEF8FF",
+                      },
+                      ...{},
+                    }}
+                    {...{ property_1: "2" }}
+                  />
+                  <span
+                    style={{
+                      ...{
+                        flex: "1 0 0",
+                        color: "var(--text-text-neutral-10, #bfbfbf)",
+                        fontFamily: 'var(--family-family, "sf pro display")',
+                        fontSize: "var(--size-heading6, 16px)",
+                        fontStyle: "normal",
+                        fontWeight: "600",
+                        lineHeight: "var(--lineheight-lineheight-h6, 22px)",
+                      },
+                      ...{},
+                    }}
+                  >{`Nguyen Quoc Thai · 12 YoE`}</span>
+                </div>
                 {/* name="Brief" id="47:6571" type="FRAME" */}
                 <div
                   style={{
@@ -328,7 +354,7 @@ export const QodeCustom4325453: React.FC<
                     }}
                   >
                     {/* name="location-dot" id="69:8788" type="INSTANCE" */}
-                    <Icon.QodeLocationDot
+                    <QodeCustom698757
                       style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                       {...{}}
                     />
@@ -352,7 +378,7 @@ export const QodeCustom4325453: React.FC<
               </div>
             </div>
             {/* name="Button" id="20:6104" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149315
               style={{
                 ...{
                   display: "flex",
@@ -369,10 +395,7 @@ export const QodeCustom4325453: React.FC<
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeHeart />,
                 buttonname: "Shortlist",
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                selectIconLeft: <Icon.QodeHeart />,
                 iconLeft: true,
                 type: "primary",
                 size: "default",
@@ -412,29 +435,19 @@ export const QodeCustom4325453: React.FC<
                 ...{},
               }}
             >
-              {/* name="avatar" id="43:25456" type="INSTANCE" */}
-              <QodeCustom562954
+              {/* name="Profile/Avatar" id="1990:60503" type="INSTANCE" */}
+              <QodeCustom199059991
                 style={{
                   ...{
                     display: "flex",
                     width: "72px",
                     height: "72px",
-                    flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "center",
-                    gap: "var(--font-size-large, 16px)",
-                    borderRadius: "999px",
-                    background:
-                      "var(--color-success-colorsuccesshover, #a3c73e)",
                   },
                   ...{},
                 }}
-                {...{
-                  opentowork: true,
-                  img: true,
-                  type: "Round",
-                  state: "Default",
-                }}
+                {...{ verified: false, size: "72" }}
               />
               {/* name="Wrap" id="43:25457" type="FRAME" */}
               <div
@@ -449,20 +462,49 @@ export const QodeCustom4325453: React.FC<
                   ...{},
                 }}
               >
-                <span
+                {/* name="Name yoe" id="1828:48324" type="FRAME" */}
+                <div
                   style={{
                     ...{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "8px",
                       alignSelf: "stretch",
-                      color: "var(--text-text-neutral-10, #bfbfbf)",
-                      fontFamily: 'var(--family-family, "sf pro display")',
-                      fontSize: "var(--size-heading6, 16px)",
-                      fontStyle: "normal",
-                      fontWeight: "600",
-                      lineHeight: "var(--lineheight-lineheight-h6, 22px)",
                     },
                     ...{},
                   }}
-                >{`Nguyen Quoc Thai · 12 YoE`}</span>
+                >
+                  {/* name="Icon/Verified profile" id="1828:49329" type="INSTANCE" */}
+                  <QodeCustom182845845
+                    style={{
+                      ...{
+                        display: "flex",
+                        padding: "2px",
+                        alignItems: "center",
+                        gap: "10px",
+                        borderRadius: "24px",
+                        border: "1px solid #1597F4",
+                        background: "#EEF8FF",
+                      },
+                      ...{},
+                    }}
+                    {...{ property_1: "2" }}
+                  />
+                  <span
+                    style={{
+                      ...{
+                        flex: "1 0 0",
+                        color: "var(--text-text-neutral-10, #bfbfbf)",
+                        fontFamily: 'var(--family-family, "sf pro display")',
+                        fontSize: "var(--size-heading6, 16px)",
+                        fontStyle: "normal",
+                        fontWeight: "600",
+                        lineHeight: "var(--lineheight-lineheight-h6, 22px)",
+                      },
+                      ...{},
+                    }}
+                  >{`Nguyen Quoc Thai · 12 YoE`}</span>
+                </div>
                 {/* name="Brief" id="43:25461" type="FRAME" */}
                 <div
                   style={{
@@ -506,7 +548,7 @@ export const QodeCustom4325453: React.FC<
                     }}
                   >
                     {/* name="location-dot" id="69:8824" type="INSTANCE" */}
-                    <Icon.QodeLocationDot
+                    <QodeCustom698757
                       style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                       {...{}}
                     />
@@ -537,7 +579,7 @@ export const QodeCustom4325453: React.FC<
               }}
             >
               {/* name="Button" id="43:25465" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149016
                 style={{
                   ...{
                     display: "flex",
@@ -548,15 +590,12 @@ export const QodeCustom4325453: React.FC<
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodeMagnifyingGlass />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Similar profiles",
                   iconLeft: true,
                   type: "default",
@@ -568,7 +607,7 @@ export const QodeCustom4325453: React.FC<
                 }}
               />
               {/* name="Button" id="43:25480" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149015
                 style={{
                   ...{
                     display: "flex",
@@ -586,11 +625,8 @@ export const QodeCustom4325453: React.FC<
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   iconLeft: true,
                   buttonname: "Contact",
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodePaperPlane />,
                   type: "primary",
                   size: "default",
                   state: "default",
@@ -630,43 +666,20 @@ export const QodeCustom4325453: React.FC<
                 ...{},
               }}
             >
-              {/* name="Frame 37315" id="336:18939" type="FRAME" */}
-              <div
+              {/* name="Profile/Avatar" id="1990:60697" type="INSTANCE" */}
+              <QodeCustom199059991
                 style={{
                   ...{
                     display: "flex",
-                    flexDirection: "column",
+                    width: "72px",
+                    height: "72px",
+                    justifyContent: "center",
                     alignItems: "center",
-                    gap: "4px",
                   },
                   ...{},
                 }}
-              >
-                {/* name="avatar" id="311:23365" type="INSTANCE" */}
-                <QodeCustom562954
-                  style={{
-                    ...{
-                      display: "flex",
-                      width: "72px",
-                      height: "72px",
-                      flexDirection: "column",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "var(--font-size-large, 16px)",
-                      borderRadius: "999px",
-                      background:
-                        "var(--color-success-colorsuccesshover, #a3c73e)",
-                    },
-                    ...{},
-                  }}
-                  {...{
-                    opentowork: true,
-                    img: true,
-                    type: "Round",
-                    state: "Default",
-                  }}
-                />
-              </div>
+                {...{ verified: false, size: "72" }}
+              />
               {/* name="Wrap" id="311:23366" type="FRAME" */}
               <div
                 style={{
@@ -680,46 +693,48 @@ export const QodeCustom4325453: React.FC<
                   ...{},
                 }}
               >
-                {/* name="Name yoe" id="311:23367" type="FRAME" */}
+                {/* name="Name yoe" id="1828:48409" type="FRAME" */}
                 <div
                   style={{
                     ...{
                       display: "flex",
                       alignItems: "center",
-                      gap: "4px",
+                      gap: "8px",
                       alignSelf: "stretch",
                     },
                     ...{},
                   }}
                 >
-                  <span
+                  {/* name="Icon/Verified profile" id="1828:49365" type="INSTANCE" */}
+                  <QodeCustom182845845
                     style={{
                       ...{
-                        color: "var(--text-text-neutral-50, #1d1d1d)",
-                        fontFamily: 'var(--family-family, "sf pro display")',
-                        fontSize: "var(--size-size-sizemd-20px, 20px)",
-                        fontStyle: "normal",
-                        fontWeight: "600",
-                        lineHeight:
-                          "var(--lineheight-lineheight-xl, 28px) /* 140% */",
+                        display: "flex",
+                        padding: "2px",
+                        alignItems: "center",
+                        gap: "10px",
+                        borderRadius: "24px",
+                        border: "1px solid #1597F4",
+                        background: "#EEF8FF",
                       },
                       ...{},
                     }}
-                  >{`Nguyen Quoc Thai`}</span>
+                    {...{ property_1: "2" }}
+                  />
                   <span
                     style={{
                       ...{
-                        color: "var(--text-text-neutral-20, #878787)",
+                        flex: "1 0 0",
+                        color: "var(--text-text-neutral-10, #bfbfbf)",
                         fontFamily: 'var(--family-family, "sf pro display")',
                         fontSize: "var(--size-heading6, 16px)",
                         fontStyle: "normal",
                         fontWeight: "600",
-                        lineHeight:
-                          "var(--lineheight-lineheight-h6, 22px) /* 137.5% */",
+                        lineHeight: "var(--lineheight-lineheight-h6, 22px)",
                       },
                       ...{},
                     }}
-                  >{`· 12 YoE`}</span>
+                  >{`Nguyen Quoc Thai · 12 YoE`}</span>
                 </div>
                 {/* name="Brief" id="311:23370" type="FRAME" */}
                 <div
@@ -764,7 +779,7 @@ export const QodeCustom4325453: React.FC<
                     }}
                   >
                     {/* name="location-dot" id="311:23373" type="INSTANCE" */}
-                    <Icon.QodeLocationDot
+                    <QodeCustom698757
                       style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                       {...{}}
                     />
@@ -795,7 +810,7 @@ export const QodeCustom4325453: React.FC<
               }}
             >
               {/* name="Button" id="311:23376" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149016
                 style={{
                   ...{
                     display: "flex",
@@ -807,15 +822,12 @@ export const QodeCustom4325453: React.FC<
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodePaperPlane />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Contact",
                   iconLeft: true,
                   type: "default",
@@ -827,7 +839,7 @@ export const QodeCustom4325453: React.FC<
                 }}
               />
               {/* name="Button" id="311:23377" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149015
                 style={{
                   ...{
                     display: "flex",
@@ -845,11 +857,8 @@ export const QodeCustom4325453: React.FC<
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   iconLeft: true,
                   buttonname: "New interview",
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodePlus />,
                   type: "primary",
                   size: "default",
                   state: "default",

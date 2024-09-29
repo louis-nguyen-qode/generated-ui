@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom17023784 } from "@designSystem/custom/QodeCustom17023784"
+import { QodeCustom42620444 } from "@designSystem/custom/QodeCustom42620444"
 
 export interface QodeCustom42620455Props {
   items?: "2" | "3" | "4" | "5" | "6"
@@ -36,7 +36,7 @@ export const QodeCustom42620455: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="426:20461" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -53,7 +53,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="426:20462" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -93,7 +93,7 @@ export const QodeCustom42620455: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="426:20463" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -110,7 +110,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="426:20464" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -127,7 +127,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 3" id="426:20465" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -167,7 +167,7 @@ export const QodeCustom42620455: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="426:20466" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -184,7 +184,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="426:20467" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -201,7 +201,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 3" id="426:20468" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -218,7 +218,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 4" id="426:20469" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -258,7 +258,7 @@ export const QodeCustom42620455: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="426:20470" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -275,7 +275,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="426:20471" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -292,7 +292,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 3" id="426:20472" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -309,7 +309,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 4" id="426:20473" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -326,7 +326,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 5" id="426:20474" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -366,7 +366,7 @@ export const QodeCustom42620455: React.FC<
             }}
           >
             {/* name="🧬 item 1" id="426:20475" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -383,7 +383,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 2" id="426:20476" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -400,7 +400,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 3" id="426:20477" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -417,7 +417,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 4" id="426:20478" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -434,7 +434,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 5" id="426:20479" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",
@@ -451,7 +451,7 @@ export const QodeCustom42620455: React.FC<
               {...{ title: "Select menu item", state: "default" }}
             />
             {/* name="🧬 item 6" id="426:20480" type="INSTANCE" */}
-            <QodeCustom17023784
+            <QodeCustom42620444
               style={{
                 ...{
                   display: "flex",

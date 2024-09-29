@@ -54,7 +54,7 @@ export const QodeCustom245119: React.FC<
               },
               ...{},
             }}
-            {...{ title: "Education", state: "view" }}
+            {...{ edit: true, title: "Education", state: "view" }}
           />
           {/* name="educationItem" id="24:5128" type="INSTANCE" */}
           <QodeCustom244900

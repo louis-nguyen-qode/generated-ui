@@ -4,7 +4,7 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom67733735 } from "@designSystem/custom/QodeCustom67733735"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149028 } from "@designSystem/custom/QodeCustom228149028"
 
 export interface QodeCustom67733915Props {}
 
@@ -147,7 +147,7 @@ export const QodeCustom67733915: React.FC<
               }}
             >{`Description`}</span>
             {/* name="Button" id="677:33824" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149028
               style={{
                 ...{
                   display: "flex",
@@ -159,10 +159,7 @@ export const QodeCustom67733915: React.FC<
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "See More",
-                selectIconLeft: <Icon.QodeIcons />,
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
                 type: "text",
                 size: "small",
                 state: "default",

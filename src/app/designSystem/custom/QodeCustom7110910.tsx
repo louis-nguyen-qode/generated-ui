@@ -43,7 +43,7 @@ export const QodeCustom7110910: React.FC<
             },
             ...{},
           }}
-          {...{ state: "active" }}
+          {...{ state: "active", verified: false }}
         />
         {/* name="Profile/List item" id="71:10347" type="INSTANCE" */}
         <QodeCustom409540
@@ -56,12 +56,12 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
         {/* name="Profile/List item" id="71:10348" type="INSTANCE" */}
         <QodeCustom409540
@@ -74,12 +74,12 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
         {/* name="Profile/List item" id="71:10349" type="INSTANCE" */}
         <QodeCustom409540
@@ -92,12 +92,12 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
         {/* name="Profile/List item" id="71:10350" type="INSTANCE" */}
         <QodeCustom409540
@@ -110,14 +110,14 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
-        {/* name="Profile/List item" id="71:10555" type="INSTANCE" */}
+        {/* name="Profile/List item" id="2099:66480" type="INSTANCE" */}
         <QodeCustom409540
           style={{
             ...{
@@ -128,14 +128,14 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
-        {/* name="Profile/List item" id="71:10889" type="INSTANCE" */}
+        {/* name="Profile/List item" id="2099:66481" type="INSTANCE" */}
         <QodeCustom409540
           style={{
             ...{
@@ -146,14 +146,14 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
-        {/* name="Profile/List item" id="71:10557" type="INSTANCE" */}
+        {/* name="Profile/List item" id="2099:66482" type="INSTANCE" */}
         <QodeCustom409540
           style={{
             ...{
@@ -164,14 +164,14 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
-        {/* name="Profile/List item" id="71:10558" type="INSTANCE" */}
+        {/* name="Profile/List item" id="2099:66483" type="INSTANCE" */}
         <QodeCustom409540
           style={{
             ...{
@@ -182,14 +182,14 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
-        {/* name="Profile/List item" id="71:10559" type="INSTANCE" */}
+        {/* name="Profile/List item" id="2099:66484" type="INSTANCE" */}
         <QodeCustom409540
           style={{
             ...{
@@ -200,12 +200,12 @@ export const QodeCustom7110910: React.FC<
               gap: "12px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{ state: "default" }}
+          {...{ state: "default", verified: false }}
         />
         {/* name="Footer" id="71:11438" type="FRAME" */}
         <div
@@ -217,7 +217,7 @@ export const QodeCustom7110910: React.FC<
               alignItems: "center",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                "1px solid var(--border-border-neutral-20, #e3e3e3)",
             },
             ...{},
           }}

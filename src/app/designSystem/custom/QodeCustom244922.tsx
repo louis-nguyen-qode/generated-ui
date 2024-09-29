@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom277832 } from "@designSystem/custom/QodeCustom277832"
+
 export interface QodeCustom244922Props {
   edit?: boolean
   description?: boolean
@@ -88,7 +90,7 @@ export const QodeCustom244922: React.FC<
               }}
             >
               {/* name="avatar" id="24:4927" type="INSTANCE" */}
-              <div
+              <QodeCustom277832
                 style={{
                   ...{
                     display: "flex",
@@ -211,7 +213,7 @@ export const QodeCustom244922: React.FC<
               }}
             >
               {/* name="avatar" id="24:4934" type="INSTANCE" */}
-              <div
+              <QodeCustom277832
                 style={{
                   ...{
                     display: "flex",

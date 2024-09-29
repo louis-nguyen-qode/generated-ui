@@ -3,6 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom1308489 } from "@designSystem/custom/QodeCustom1308489"
 import QodeSvg66431806 from "@designSystem/icon/svg/QodeSvg66431806"
 import QodeSvg67733736 from "@designSystem/icon/svg/QodeSvg67733736"
 
@@ -34,7 +35,7 @@ export const QodeCustom66431668: React.FC<
             }}
           >
             {/* name="circle-check" id="664:31653" type="INSTANCE" */}
-            <Icon.QodeCircleCheck
+            <QodeCustom1308489
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},

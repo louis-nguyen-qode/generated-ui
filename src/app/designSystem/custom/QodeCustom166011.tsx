@@ -38,11 +38,7 @@ export const QodeCustom166011: React.FC<
             {/* name="direction=horizontal, style=default, state=active" id="16:6012" type="COMPONENT" */}
             <QodeSvg166012
               style={{
-                ...{
-                  width: "160px",
-                  height: "var(--size-size-size5xs-1px, 1px)",
-                  flexShrink: "0",
-                },
+                ...{ width: "160px", height: "1px", flexShrink: "0" },
                 ...style,
               }}
               {...{}}
@@ -72,11 +68,7 @@ export const QodeCustom166011: React.FC<
             {/* name="direction=horizontal, style=default, state=waiting" id="16:6016" type="COMPONENT" */}
             <QodeSvg166016
               style={{
-                ...{
-                  width: "160px",
-                  height: "var(--size-size-size5xs-1px, 1px)",
-                  flexShrink: "0",
-                },
+                ...{ width: "160px", height: "1px", flexShrink: "0" },
                 ...style,
               }}
               {...{}}
@@ -106,11 +98,7 @@ export const QodeCustom166011: React.FC<
             {/* name="direction=vertical, style=default, state=active" id="16:6020" type="COMPONENT" */}
             <QodeSvg166020
               style={{
-                ...{
-                  width: "var(--size-size-size5xs-1px, 1px)",
-                  height: "75px",
-                  flexShrink: "0",
-                },
+                ...{ width: "1px", height: "75px", flexShrink: "0" },
                 ...style,
               }}
               {...{}}
@@ -140,11 +128,7 @@ export const QodeCustom166011: React.FC<
             {/* name="direction=vertical, style=default, state=waiting" id="16:6024" type="COMPONENT" */}
             <QodeSvg166024
               style={{
-                ...{
-                  width: "var(--size-size-size5xs-1px, 1px)",
-                  height: "75px",
-                  flexShrink: "0",
-                },
+                ...{ width: "1px", height: "75px", flexShrink: "0" },
                 ...style,
               }}
               {...{}}

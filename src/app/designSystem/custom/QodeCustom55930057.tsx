@@ -3,8 +3,11 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom14010094 } from "@designSystem/custom/QodeCustom14010094"
+import { QodeCustom30718968 } from "@designSystem/custom/QodeCustom30718968"
+import { QodeCustom228149016 } from "@designSystem/custom/QodeCustom228149016"
 import { QodeCustom55930095 } from "@designSystem/custom/QodeCustom55930095"
+import { QodeCustom228149019 } from "@designSystem/custom/QodeCustom228149019"
 
 export interface QodeCustom55930057Props {
   state?: "Upcoming" | "Done" | "Canceled"
@@ -31,7 +34,7 @@ export const QodeCustom55930057: React.FC<
                 gap: "16px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
@@ -107,7 +110,7 @@ export const QodeCustom55930057: React.FC<
                   }}
                 >
                   {/* name="calendar-days" id="559:34893" type="INSTANCE" */}
-                  <Icon.QodeCalendarDays
+                  <QodeCustom14010094
                     style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                     {...{}}
                   />
@@ -191,7 +194,7 @@ export const QodeCustom55930057: React.FC<
                       }}
                     >
                       {/* name="link-simple" id="559:30354" type="INSTANCE" */}
-                      <Icon.QodeLinkSimple
+                      <QodeCustom30718968
                         style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                         {...{}}
                       />
@@ -216,7 +219,7 @@ export const QodeCustom55930057: React.FC<
                 </div>
               </div>
               {/* name="Button" id="559:29699" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149016
                 style={{
                   ...{
                     display: "flex",
@@ -228,15 +231,12 @@ export const QodeCustom55930057: React.FC<
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodePenToSquare />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Edit",
                   iconLeft: true,
                   type: "default",
@@ -262,11 +262,11 @@ export const QodeCustom55930057: React.FC<
                   left: "26px",
                   borderRadius: "0px 0px 6px 6px",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   borderBottom:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   borderLeft:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   background:
                     "linear-gradient(101deg, #CDF6FF 2.22%, #B8E1FF 97.78%)",
                 },
@@ -292,7 +292,7 @@ export const QodeCustom55930057: React.FC<
                 gap: "16px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
@@ -368,7 +368,7 @@ export const QodeCustom55930057: React.FC<
                   }}
                 >
                   {/* name="calendar-days" id="559:35183" type="INSTANCE" */}
-                  <Icon.QodeCalendarDays
+                  <QodeCustom14010094
                     style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                     {...{}}
                   />
@@ -452,7 +452,7 @@ export const QodeCustom55930057: React.FC<
                       }}
                     >
                       {/* name="link-simple" id="559:35190" type="INSTANCE" */}
-                      <Icon.QodeLinkSimple
+                      <QodeCustom30718968
                         style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                         {...{}}
                       />
@@ -477,7 +477,7 @@ export const QodeCustom55930057: React.FC<
                 </div>
               </div>
               {/* name="Button" id="559:30734" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149019
                 style={{
                   ...{
                     display: "flex",
@@ -492,9 +492,6 @@ export const QodeCustom55930057: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconLeft: <Icon.QodeEye />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "View result",
                   iconLeft: true,
                   type: "link",
@@ -520,11 +517,11 @@ export const QodeCustom55930057: React.FC<
                   left: "26px",
                   borderRadius: "0px 0px 6px 6px",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   borderBottom:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   borderLeft:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   background:
                     "linear-gradient(101deg, #CDF6FF 2.22%, #B8E1FF 97.78%)",
                 },
@@ -550,7 +547,7 @@ export const QodeCustom55930057: React.FC<
                 gap: "16px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
@@ -625,7 +622,7 @@ export const QodeCustom55930057: React.FC<
                   }}
                 >
                   {/* name="calendar-days" id="559:35420" type="INSTANCE" */}
-                  <Icon.QodeCalendarDays
+                  <QodeCustom14010094
                     style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                     {...{}}
                   />
@@ -687,11 +684,11 @@ export const QodeCustom55930057: React.FC<
                   left: "26px",
                   borderRadius: "0px 0px 6px 6px",
                   borderRight:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   borderBottom:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   borderLeft:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+                    "1px solid var(--border-border-primary-10, #64b9f5)",
                   background:
                     "linear-gradient(101deg, #CDF6FF 2.22%, #B8E1FF 97.78%)",
                 },

@@ -3,9 +3,10 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
+import { QodeCustom266995 } from "@designSystem/custom/QodeCustom266995"
 import { QodeCustom31123052 } from "@designSystem/custom/QodeCustom31123052"
 import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom4310802 } from "@designSystem/custom/QodeCustom4310802"
 
 export interface QodeCustom30717711Props {}
 
@@ -44,7 +45,7 @@ export const QodeCustom30717711: React.FC<
           }}
         >
           {/* name="avatar" id="307:17838" type="INSTANCE" */}
-          <QodeCustom562954
+          <QodeCustom266995
             style={{
               ...{
                 display: "flex",
@@ -148,9 +149,6 @@ export const QodeCustom30717711: React.FC<
               ...{},
             }}
             {...{
-              icononly: <Icon.QodeMagnifyingGlass />,
-              iconL: <Icon.QodePlus />,
-              iconR: <Icon.QodeMagnifyingGlass />,
               title: "Add notes",
               type: "primary",
               size: "default",
@@ -161,7 +159,7 @@ export const QodeCustom30717711: React.FC<
             }}
           />
           {/* name="Upload CV" id="307:17725" type="INSTANCE" */}
-          <div
+          <QodeCustom4310802
             style={{
               ...{
                 display: "flex",

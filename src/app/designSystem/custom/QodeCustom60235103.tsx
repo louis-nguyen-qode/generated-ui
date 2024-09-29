@@ -4,7 +4,7 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import QodeSvg60235089 from "@designSystem/icon/svg/QodeSvg60235089"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149016 } from "@designSystem/custom/QodeCustom228149016"
 
 export interface QodeCustom60235103Props {}
 
@@ -146,7 +146,7 @@ export const QodeCustom60235103: React.FC<
           </div>
         </div>
         {/* name="Button" id="602:35650" type="INSTANCE" */}
-        <QodeButton
+        <QodeCustom228149016
           style={{
             ...{
               display: "flex",
@@ -157,16 +157,12 @@ export const QodeCustom60235103: React.FC<
               alignItems: "center",
               gap: "8px",
               borderRadius: "var(--border-radius-rounded, 999px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+              border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
           {...{
-            onlyIcon: <Icon.QodeMagnifyingGlass />,
-            selectIconLeft: <Icon.QodePencil />,
-            selectIconRight: <Icon.QodeMagnifyingGlass />,
             buttonname: "Edit",
             iconLeft: true,
             type: "default",

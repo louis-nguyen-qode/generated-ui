@@ -3,8 +3,11 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
+import { QodeCustom198747736 } from "@designSystem/custom/QodeCustom198747736"
+import { QodeCustom698757 } from "@designSystem/custom/QodeCustom698757"
 import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom4310802 } from "@designSystem/custom/QodeCustom4310802"
+import { QodeCustom228149326 } from "@designSystem/custom/QodeCustom228149326"
 
 export interface QodeCustom4323424Props {}
 
@@ -13,18 +16,17 @@ export const QodeCustom4323424: React.FC<
 > = ({ style, ...rest }) => {
   return (
     <>
-      {/* name="Property 1=default" id="43:23424" type="COMPONENT" */}
+      {/* name="Property 1=default, verified=false" id="43:23424" type="COMPONENT" */}
       <div
         style={{
           ...{
             display: "flex",
-            width: "358px",
+            width: "352px",
             padding: "12px 16px",
             alignItems: "flex-start",
             gap: "24px",
             borderRadius: "var(--border-radius-base, 8px)",
-            border:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+            border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
             background: "#FFF",
           },
           ...style,
@@ -43,29 +45,20 @@ export const QodeCustom4323424: React.FC<
             ...{},
           }}
         >
-          {/* name="avatar" id="43:23682" type="INSTANCE" */}
-          <QodeCustom562954
+          {/* name="Profile/Avatar" id="1987:50993" type="INSTANCE" */}
+          <QodeCustom198747736
             style={{
               ...{
                 display: "flex",
-                width: "36px",
-                height: "36px",
-                flexDirection: "column",
+                width: "38px",
+                height: "38px",
                 justifyContent: "center",
                 alignItems: "center",
-                gap: "var(--font-size-large, 16px)",
                 flexShrink: "0",
-                borderRadius: "499.5px",
-                background: "var(--color-success-colorsuccesshover, #a3c73e)",
               },
               ...{},
             }}
-            {...{
-              opentowork: true,
-              img: true,
-              type: "Round",
-              state: "Default",
-            }}
+            {...{ verified: false, size: "38" }}
           />
           {/* name="R" id="43:23683" type="FRAME" */}
           <div
@@ -97,6 +90,7 @@ export const QodeCustom4323424: React.FC<
               <span
                 style={{
                   ...{
+                    maxHeight: "var(--line-height-lineheight, 22px)",
                     color: "var(--text-text-neutral-40, #464646)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-heading6, 16px)",
@@ -142,8 +136,13 @@ export const QodeCustom4323424: React.FC<
             <span
               style={{
                 ...{
+                  display: "-webkit-box",
+                  WebkitBoxOrient: "vertical",
+                  WebkitLineClamp: "1",
                   alignSelf: "stretch",
+                  overflow: "hidden",
                   color: "var(--text-text-neutral-40, #464646)",
+                  textOverflow: "ellipsis",
                   fontFamily: 'var(--family-family, "sf pro display")',
                   fontSize: "var(--size-base, 14px)",
                   fontStyle: "normal",
@@ -153,7 +152,7 @@ export const QodeCustom4323424: React.FC<
                 },
                 ...{},
               }}
-            >{`Senior Software Developer at The Chemico Vietnam Co., Ltd.`}</span>
+            >{`Senior Software Developer at The Chemico`}</span>
             {/* name="Location" id="69:8862" type="FRAME" */}
             <div
               style={{
@@ -168,7 +167,7 @@ export const QodeCustom4323424: React.FC<
               }}
             >
               {/* name="location-dot" id="69:8863" type="INSTANCE" */}
-              <Icon.QodeLocationDot
+              <QodeCustom698757
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -221,9 +220,6 @@ export const QodeCustom4323424: React.FC<
               ...{},
             }}
             {...{
-              icononly: <Icon.QodeMagnifyingGlass />,
-              iconL: <Icon.QodePlus />,
-              iconR: <Icon.QodeMagnifyingGlass />,
               title: "Add notes",
               type: "primary",
               size: "default",
@@ -234,7 +230,7 @@ export const QodeCustom4323424: React.FC<
             }}
           />
           {/* name="Upload CV" id="43:23367" type="INSTANCE" */}
-          <div
+          <QodeCustom4310802
             style={{
               ...{ display: "flex", width: "124px", alignItems: "flex-start" },
               ...{},
@@ -250,7 +246,7 @@ export const QodeCustom4323424: React.FC<
               height: "8px",
               position: "absolute",
               left: "40px",
-              bottom: "35px",
+              bottom: "15px",
               borderRadius: "8px",
               background: "#FF7878",
             },
@@ -260,7 +256,7 @@ export const QodeCustom4323424: React.FC<
           <></>
         </Flex>
         {/* name="Button" id="69:6437" type="INSTANCE" */}
-        <QodeButton
+        <QodeCustom228149326
           style={{
             ...{
               display: "flex",
@@ -274,17 +270,13 @@ export const QodeCustom4323424: React.FC<
               right: "10px",
               top: "10px",
               borderRadius: "var(--border-radius-rounded, 999px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+              border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
               opacity: "0.5",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
           {...{
-            onlyIcon: <Icon.QodeTrash />,
-            selectIconRight: <Icon.QodeMagnifyingGlass />,
-            selectIconLeft: <Icon.QodeIcons />,
             buttonname: "Button",
             iconLeft: true,
             type: "default",

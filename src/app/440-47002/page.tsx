@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom1308489 } from "@designSystem/custom/QodeCustom1308489"
+
 export interface Qode44047002PageProps {
   style?: CSSProperties
 }
@@ -60,7 +62,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
               }}
             >
               {/* name="circle-check" id="440:47528" type="INSTANCE" */}
-              <Icon.QodeCircleCheck
+              <QodeCustom1308489
                 style={{ ...{ width: "24px", height: "24px" }, ...{} }}
                 {...{}}
               />
@@ -159,14 +161,33 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
                   ...{},
                 }}
               >
-                {/* name="circle-check" id="440:47531" type="INSTANCE" */}
-                <Icon.QodeCircleCheck
+                {/* name="circle-check" id="981:33530" type="COMPONENT" */}
+                <div
                   style={{
-                    ...{ width: "24px", height: "24px", opacity: "0.1" },
+                    ...{
+                      display: "flex",
+                      width: "24px",
+                      height: "24px",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    },
                     ...{},
                   }}
-                  {...{}}
-                />
+                >
+                  {/* name="circle-check" id="440:47531" type="INSTANCE" */}
+                  <QodeCustom1308489
+                    style={{
+                      ...{
+                        width: "24px",
+                        height: "24px",
+                        flexShrink: "0",
+                        opacity: "0.1",
+                      },
+                      ...{},
+                    }}
+                    {...{}}
+                  />
+                </div>
                 <span
                   style={{
                     ...{
@@ -257,7 +278,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
               }}
             >
               {/* name="circle-check" id="440:47536" type="INSTANCE" */}
-              <Icon.QodeCircleCheck
+              <QodeCustom1308489
                 style={{
                   ...{ width: "24px", height: "24px", opacity: "0.1" },
                   ...{},
@@ -351,7 +372,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
               }}
             >
               {/* name="circle-check" id="440:47538" type="INSTANCE" */}
-              <Icon.QodeCircleCheck
+              <QodeCustom1308489
                 style={{
                   ...{ width: "24px", height: "24px", opacity: "0.1" },
                   ...{},
@@ -445,7 +466,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
               }}
             >
               {/* name="circle-check" id="440:47535" type="INSTANCE" */}
-              <Icon.QodeCircleCheck
+              <QodeCustom1308489
                 style={{
                   ...{ width: "24px", height: "24px", opacity: "0.1" },
                   ...{},
@@ -539,7 +560,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
               }}
             >
               {/* name="circle-check" id="440:47537" type="INSTANCE" */}
-              <Icon.QodeCircleCheck
+              <QodeCustom1308489
                 style={{
                   ...{ width: "24px", height: "24px", opacity: "0.1" },
                   ...{},
@@ -635,7 +656,7 @@ export const Qode44047002Page: React.FC<Qode44047002PageProps> = ({
               }}
             >
               {/* name="circle-check" id="440:47534" type="INSTANCE" */}
-              <Icon.QodeCircleCheck
+              <QodeCustom1308489
                 style={{
                   ...{ width: "24px", height: "24px", opacity: "0.1" },
                   ...{},

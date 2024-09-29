@@ -4,7 +4,8 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom66431666 } from "@designSystem/custom/QodeCustom66431666"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149028 } from "@designSystem/custom/QodeCustom228149028"
+import { QodeCustom228149019 } from "@designSystem/custom/QodeCustom228149019"
 import { QodeCustom67733618 } from "@designSystem/custom/QodeCustom67733618"
 
 export interface QodeCustom67733917Props {}
@@ -148,7 +149,7 @@ export const QodeCustom67733917: React.FC<
               }}
             >{`Description`}</span>
             {/* name="Button" id="677:33748" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149028
               style={{
                 ...{
                   display: "flex",
@@ -160,10 +161,7 @@ export const QodeCustom67733917: React.FC<
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "See More",
-                selectIconLeft: <Icon.QodeIcons />,
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
                 type: "text",
                 size: "small",
                 state: "default",
@@ -209,7 +207,7 @@ export const QodeCustom67733917: React.FC<
             >{`2nd interview | Nguyen Quoc Thai - Technical round 2`}</span>
           </div>
           {/* name="Button" id="677:33752" type="INSTANCE" */}
-          <QodeButton
+          <QodeCustom228149019
             style={{
               ...{
                 display: "flex",
@@ -224,9 +222,6 @@ export const QodeCustom67733917: React.FC<
               ...{},
             }}
             {...{
-              selectIconLeft: <Icon.QodeLinkSimple />,
-              onlyIcon: <Icon.QodeMagnifyingGlass />,
-              selectIconRight: <Icon.QodeMagnifyingGlass />,
               buttonname: "Copy link",
               iconLeft: true,
               type: "link",
@@ -251,8 +246,7 @@ export const QodeCustom67733917: React.FC<
               position: "absolute",
               right: "0px",
               borderRadius: "0px 0px 0px 12px",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-focused-primary, #82c8fa)",
+              border: "1px solid var(--border-border-focused-primary, #82c8fa)",
               background:
                 "linear-gradient(163deg, #B8E1FF 0.63%, #CDF6FF 76.87%)",
             },

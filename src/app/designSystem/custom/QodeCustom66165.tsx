@@ -3,6 +3,10 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom66159 } from "@designSystem/custom/QodeCustom66159"
+import { QodeCustom66161 } from "@designSystem/custom/QodeCustom66161"
+import { QodeCustom66163 } from "@designSystem/custom/QodeCustom66163"
+
 export interface QodeCustom66165Props {
   state?: "default" | "hover"
   direction?: "left" | "right"
@@ -35,7 +39,7 @@ export const QodeCustom66165: React.FC<
             }}
           >
             {/* name="Icon" id="6:6170" type="INSTANCE" */}
-            <Icon.QodeEllipsis
+            <QodeCustom66159
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",
@@ -70,7 +74,7 @@ export const QodeCustom66165: React.FC<
             }}
           >
             {/* name="Icon" id="6:6171" type="INSTANCE" */}
-            <Icon.QodeChevronsLeft
+            <QodeCustom66161
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",
@@ -105,7 +109,7 @@ export const QodeCustom66165: React.FC<
             }}
           >
             {/* name="Icon" id="6:6172" type="INSTANCE" */}
-            <Icon.QodeEllipsis
+            <QodeCustom66159
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",
@@ -140,7 +144,7 @@ export const QodeCustom66165: React.FC<
             }}
           >
             {/* name="Icon" id="6:6173" type="INSTANCE" */}
-            <Icon.QodeChevronsRight
+            <QodeCustom66163
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",

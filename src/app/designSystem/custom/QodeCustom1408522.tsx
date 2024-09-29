@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom1408520 } from "@designSystem/custom/QodeCustom1408520"
+import { QodeCustom815419 } from "@designSystem/custom/QodeCustom815419"
+
 export interface QodeCustom1408522Props {
   icon?: React.ReactNode
   title?: string
@@ -46,7 +49,7 @@ export const QodeCustom1408522: React.FC<
             }}
           >
             {/* name="Icon" id="140:8529" type="INSTANCE" */}
-            <Icon.QodeClockThree
+            <QodeCustom1408520
               style={{
                 ...{
                   display: "flex",
@@ -89,7 +92,7 @@ export const QodeCustom1408522: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="140:8532" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom815419
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />
@@ -111,7 +114,7 @@ export const QodeCustom1408522: React.FC<
             }}
           >
             {/* name="Icon" id="140:8533" type="INSTANCE" */}
-            <Icon.QodeClockThree
+            <QodeCustom1408520
               style={{
                 ...{
                   display: "flex",
@@ -154,7 +157,7 @@ export const QodeCustom1408522: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="140:8536" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom815419
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />
@@ -179,7 +182,7 @@ export const QodeCustom1408522: React.FC<
             }}
           >
             {/* name="Icon" id="140:8537" type="INSTANCE" */}
-            <Icon.QodeClockThree
+            <QodeCustom1408520
               style={{
                 ...{
                   display: "flex",
@@ -220,7 +223,7 @@ export const QodeCustom1408522: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="140:8540" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom815419
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />
@@ -242,7 +245,7 @@ export const QodeCustom1408522: React.FC<
             }}
           >
             {/* name="Icon" id="140:8541" type="INSTANCE" */}
-            <Icon.QodeClockThree
+            <QodeCustom1408520
               style={{
                 ...{
                   display: "flex",
@@ -283,7 +286,7 @@ export const QodeCustom1408522: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="140:8544" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom815419
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />
@@ -307,7 +310,7 @@ export const QodeCustom1408522: React.FC<
             }}
           >
             {/* name="Icon" id="140:8545" type="INSTANCE" */}
-            <Icon.QodeClockThree
+            <QodeCustom1408520
               style={{
                 ...{
                   display: "flex",
@@ -350,7 +353,7 @@ export const QodeCustom1408522: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="140:8548" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom815419
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />
@@ -372,7 +375,7 @@ export const QodeCustom1408522: React.FC<
             }}
           >
             {/* name="Icon" id="140:8549" type="INSTANCE" */}
-            <Icon.QodeClockThree
+            <QodeCustom1408520
               style={{
                 ...{
                   display: "flex",
@@ -415,7 +418,7 @@ export const QodeCustom1408522: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="140:8552" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom815419
               style={{ ...{ width: "16px", height: "16px" }, ...{} }}
               {...{}}
             />

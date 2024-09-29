@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom11436665 } from "@designSystem/custom/QodeCustom11436665"
+import { QodeCustom203428 } from "@designSystem/custom/QodeCustom203428"
 
 export interface QodeCustom203430Props {
   title?: string
@@ -170,7 +170,7 @@ export const QodeCustom203430: React.FC<
               }}
             >{`Select menu item`}</span>
             {/* name="Check" id="20:3440" type="INSTANCE" */}
-            <QodeCustom11436665
+            <QodeCustom203428
               style={{
                 ...{ width: "20px", height: "20px", flexShrink: "0" },
                 ...{},

@@ -3,9 +3,10 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom61606 } from "@designSystem/custom/QodeCustom61606"
+import QodeSvg63530780 from "@designSystem/icon/svg/QodeSvg63530780"
 import { QodeCustom434 } from "@designSystem/custom/QodeCustom434"
 import { QodeCustom440 } from "@designSystem/custom/QodeCustom440"
+import { QodeCustom12103 } from "@designSystem/custom/QodeCustom12103"
 
 export interface QodeCustom13120Props {}
 
@@ -14,7 +15,7 @@ export const QodeCustom13120: React.FC<
 > = ({ style, ...rest }) => {
   return (
     <>
-      {/* name="Navbar" id="1:3120" type="COMPONENT" */}
+      {/* name="Property 1=Default" id="1:3120" type="COMPONENT" */}
       <div
         style={{
           ...{
@@ -23,8 +24,8 @@ export const QodeCustom13120: React.FC<
             height: "800px",
             flexDirection: "column",
             alignItems: "center",
-            borderRight:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+            flexShrink: "0",
+            borderRight: "1px solid var(--border-border-neutral-30, #d5d5d5)",
             background: "var(--background-bg-white, #fff)",
           },
           ...style,
@@ -42,13 +43,13 @@ export const QodeCustom13120: React.FC<
               gap: "4px",
               alignSelf: "stretch",
               borderBottom:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                "1px solid var(--border-border-neutral-30, #d5d5d5)",
             },
             ...{},
           }}
         >
           {/* name="logo" id="635:31404" type="INSTANCE" */}
-          <QodeCustom61606
+          <QodeSvg63530780
             style={{ ...{ width: "40px", height: "40px" }, ...{} }}
             {...{
               type: "Default",
@@ -86,7 +87,7 @@ export const QodeCustom13120: React.FC<
               },
               ...{},
             }}
-            {...{ icon: <Icon.QodeCube />, state: "Default" }}
+            {...{ state: "Default" }}
           />
           {/* name="Navbar/Menu" id="16:5813" type="INSTANCE" */}
           <QodeCustom440
@@ -101,7 +102,7 @@ export const QodeCustom13120: React.FC<
               },
               ...{},
             }}
-            {...{ icon: <Icon.QodeBriefcase />, state: "Active" }}
+            {...{ state: "Active" }}
           />
           {/* name="Navbar/Menu" id="4:54" type="INSTANCE" */}
           <QodeCustom434
@@ -116,7 +117,7 @@ export const QodeCustom13120: React.FC<
               },
               ...{},
             }}
-            {...{ icon: <Icon.QodeUserGroup />, state: "Default" }}
+            {...{ state: "Default" }}
           />
           {/* name="Navbar/Menu" id="4:95" type="INSTANCE" */}
           <QodeCustom434
@@ -131,7 +132,7 @@ export const QodeCustom13120: React.FC<
               },
               ...{},
             }}
-            {...{ icon: <Icon.QodeVideo />, state: "Default" }}
+            {...{ state: "Default" }}
           />
         </div>
         {/* name="Btm" id="1:3098" type="FRAME" */}
@@ -148,7 +149,7 @@ export const QodeCustom13120: React.FC<
           }}
         >
           {/* name="Profile" id="1:3099" type="INSTANCE" */}
-          <div
+          <QodeCustom12103
             style={{
               ...{
                 display: "flex",
@@ -163,7 +164,7 @@ export const QodeCustom13120: React.FC<
             {...{ _style: "V - Profile", logIn: "No" }}
           />
           {/* name="Profile" id="1:3100" type="INSTANCE" */}
-          <div
+          <QodeCustom12103
             style={{
               ...{
                 display: "flex",

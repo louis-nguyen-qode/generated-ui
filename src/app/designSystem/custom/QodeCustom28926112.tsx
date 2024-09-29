@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom28926110 } from "@designSystem/custom/QodeCustom28926110"
+import { QodeCustom66176 } from "@designSystem/custom/QodeCustom66176"
+
 export interface QodeCustom28926112Props {
   lIcon?: boolean
   rIcon?: boolean
@@ -34,8 +37,7 @@ export const QodeCustom28926112: React.FC<
               ...{
                 display: "inline-flex",
                 height: "24px",
-                padding:
-                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                padding: "1px var(--size-padding-paddingxs, 8px)",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-margin-marginxxs, 4px)",
@@ -48,7 +50,7 @@ export const QodeCustom28926112: React.FC<
             }}
           >
             {/* name="circle-plus" id="289:26119" type="INSTANCE" */}
-            <Icon.QodeCirclePlus
+            <QodeCustom28926110
               style={{
                 ...{
                   display: "flex",
@@ -77,7 +79,7 @@ export const QodeCustom28926112: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="289:26121" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom66176
               style={{
                 ...{
                   display: "flex",
@@ -103,8 +105,7 @@ export const QodeCustom28926112: React.FC<
               ...{
                 display: "inline-flex",
                 height: "24px",
-                padding:
-                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                padding: "1px var(--size-padding-paddingxs, 8px)",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-margin-marginxxs, 4px)",
@@ -117,7 +118,7 @@ export const QodeCustom28926112: React.FC<
             }}
           >
             {/* name="circle-plus" id="289:26122" type="INSTANCE" */}
-            <Icon.QodeCirclePlus
+            <QodeCustom28926110
               style={{
                 ...{
                   display: "flex",
@@ -146,7 +147,7 @@ export const QodeCustom28926112: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="289:26124" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom66176
               style={{
                 ...{
                   display: "flex",
@@ -172,21 +173,20 @@ export const QodeCustom28926112: React.FC<
               ...{
                 display: "inline-flex",
                 height: "24px",
-                padding:
-                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                padding: "1px var(--size-padding-paddingxs, 8px)",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-margin-marginxxs, 4px)",
                 flexShrink: "0",
                 borderRadius: "var(--style-radius-borderradiussm, 6px)",
                 border:
-                  "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                  "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
               },
               ...style,
             }}
           >
             {/* name="circle-plus" id="289:26125" type="INSTANCE" */}
-            <Icon.QodeCirclePlus
+            <QodeCustom28926110
               style={{
                 ...{
                   display: "flex",
@@ -216,7 +216,7 @@ export const QodeCustom28926112: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="289:26127" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom66176
               style={{
                 ...{
                   display: "flex",
@@ -242,8 +242,7 @@ export const QodeCustom28926112: React.FC<
               ...{
                 display: "inline-flex",
                 height: "24px",
-                padding:
-                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                padding: "1px var(--size-padding-paddingxs, 8px)",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-margin-marginxxs, 4px)",
@@ -256,7 +255,7 @@ export const QodeCustom28926112: React.FC<
             }}
           >
             {/* name="circle-plus" id="289:26128" type="INSTANCE" */}
-            <Icon.QodeCirclePlus
+            <QodeCustom28926110
               style={{
                 ...{
                   display: "flex",
@@ -285,7 +284,7 @@ export const QodeCustom28926112: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="289:26130" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom66176
               style={{
                 ...{
                   display: "flex",
@@ -311,8 +310,7 @@ export const QodeCustom28926112: React.FC<
               ...{
                 display: "inline-flex",
                 height: "24px",
-                padding:
-                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                padding: "1px var(--size-padding-paddingxs, 8px)",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-margin-marginxxs, 4px)",
@@ -325,7 +323,7 @@ export const QodeCustom28926112: React.FC<
             }}
           >
             {/* name="circle-plus" id="289:26131" type="INSTANCE" */}
-            <Icon.QodeCirclePlus
+            <QodeCustom28926110
               style={{
                 ...{
                   display: "flex",
@@ -354,7 +352,7 @@ export const QodeCustom28926112: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="289:26133" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom66176
               style={{
                 ...{
                   display: "flex",
@@ -380,8 +378,7 @@ export const QodeCustom28926112: React.FC<
               ...{
                 display: "inline-flex",
                 height: "24px",
-                padding:
-                  "var(--size-size-size5xs-1px, 1px) var(--size-padding-paddingxs, 8px)",
+                padding: "1px var(--size-padding-paddingxs, 8px)",
                 justifyContent: "center",
                 alignItems: "center",
                 gap: "var(--size-margin-marginxxs, 4px)",
@@ -392,7 +389,7 @@ export const QodeCustom28926112: React.FC<
             }}
           >
             {/* name="circle-plus" id="289:26134" type="INSTANCE" */}
-            <Icon.QodeCirclePlus
+            <QodeCustom28926110
               style={{
                 ...{
                   display: "flex",
@@ -422,7 +419,7 @@ export const QodeCustom28926112: React.FC<
               }}
             >{`Tag`}</span>
             {/* name="xmark" id="289:26136" type="INSTANCE" */}
-            <Icon.QodeXmark
+            <QodeCustom66176
               style={{
                 ...{
                   display: "flex",

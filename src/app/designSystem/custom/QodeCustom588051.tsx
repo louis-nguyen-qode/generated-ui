@@ -4,7 +4,8 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeInput } from "@designSystem/ant/QodeInput"
-import { QodeCustom17024242 } from "@designSystem/custom/QodeCustom17024242"
+import { QodeCustom32829446 } from "@designSystem/custom/QodeCustom32829446"
+import { QodeCustom32829437 } from "@designSystem/custom/QodeCustom32829437"
 
 export interface QodeCustom588051Props {}
 
@@ -42,8 +43,7 @@ export const QodeCustom588051: React.FC<
               gap: "8px",
               flex: "1 0 0",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
@@ -53,8 +53,6 @@ export const QodeCustom588051: React.FC<
             title:
               "“Senior Software Developer” AND “Java, Python, Go, Spring, PHP” AND “Ho Chi Minh”",
             prefix: "PRE",
-            iconRight: <Icon.QodeUser />,
-            iconLeft: <Icon.QodeMagnifyingGlass />,
             showIconLeft: true,
             state: "filled",
             status: "default",
@@ -62,7 +60,7 @@ export const QodeCustom588051: React.FC<
           }}
         />
         {/* name="Input/Select" id="58:8253" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829446
           style={{
             ...{
               display: "flex",
@@ -73,8 +71,7 @@ export const QodeCustom588051: React.FC<
               gap: "var(--size-padding-paddingxxs, 4px)",
               flexShrink: "0",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -89,7 +86,7 @@ export const QodeCustom588051: React.FC<
           }}
         />
         {/* name="Input/Select" id="58:8290" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829437
           style={{
             ...{
               display: "flex",
@@ -100,8 +97,7 @@ export const QodeCustom588051: React.FC<
               gap: "var(--size-padding-paddingxxs, 4px)",
               flexShrink: "0",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},

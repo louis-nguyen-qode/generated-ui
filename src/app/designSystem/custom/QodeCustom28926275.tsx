@@ -4,6 +4,8 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCheckbox } from "@designSystem/ant/QodeCheckbox"
+import { QodeCustom161270 } from "@designSystem/custom/QodeCustom161270"
+import { QodeCustom66096 } from "@designSystem/custom/QodeCustom66096"
 
 export interface QodeCustom28926275Props {
   submenu?: boolean
@@ -65,7 +67,7 @@ export const QodeCustom28926275: React.FC<
               {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="289:26285" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -88,7 +90,7 @@ export const QodeCustom28926275: React.FC<
               }}
             >{`Dropdown Item`}</span>
             {/* name="submenu" id="289:26287" type="INSTANCE" */}
-            <Icon.QodeChevronRight
+            <QodeCustom66096
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -134,7 +136,7 @@ export const QodeCustom28926275: React.FC<
               {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="289:26289" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -157,7 +159,7 @@ export const QodeCustom28926275: React.FC<
               }}
             >{`Dropdown Item`}</span>
             {/* name="submenu" id="289:26291" type="INSTANCE" */}
-            <Icon.QodeChevronRight
+            <QodeCustom66096
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -202,7 +204,7 @@ export const QodeCustom28926275: React.FC<
               {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="289:26293" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -225,7 +227,7 @@ export const QodeCustom28926275: React.FC<
               }}
             >{`Dropdown Item`}</span>
             {/* name="submenu" id="289:26295" type="INSTANCE" */}
-            <Icon.QodeChevronRight
+            <QodeCustom66096
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -270,7 +272,7 @@ export const QodeCustom28926275: React.FC<
               {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="289:26297" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -293,7 +295,7 @@ export const QodeCustom28926275: React.FC<
               }}
             >{`Dropdown Item`}</span>
             {/* name="submenu" id="289:26299" type="INSTANCE" */}
-            <Icon.QodeChevronRight
+            <QodeCustom66096
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -337,7 +339,7 @@ export const QodeCustom28926275: React.FC<
               {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="289:26301" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -360,7 +362,7 @@ export const QodeCustom28926275: React.FC<
               }}
             >{`Dropdown Item`}</span>
             {/* name="submenu" id="289:26303" type="INSTANCE" */}
-            <Icon.QodeChevronRight
+            <QodeCustom66096
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -405,7 +407,7 @@ export const QodeCustom28926275: React.FC<
               {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="289:26305" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -428,7 +430,7 @@ export const QodeCustom28926275: React.FC<
               }}
             >{`Dropdown Item`}</span>
             {/* name="submenu" id="289:26307" type="INSTANCE" */}
-            <Icon.QodeChevronRight
+            <QodeCustom66096
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -474,7 +476,7 @@ export const QodeCustom28926275: React.FC<
               {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="289:26309" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -498,7 +500,7 @@ export const QodeCustom28926275: React.FC<
               }}
             >{`Dropdown Item`}</span>
             {/* name="submenu" id="289:26311" type="INSTANCE" */}
-            <Icon.QodeChevronRight
+            <QodeCustom66096
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -543,7 +545,7 @@ export const QodeCustom28926275: React.FC<
               {...{ title: "Checkbox", status: "inactive", state: "default" }}
             />
             {/* name="🎰 icon" id="289:26313" type="INSTANCE" */}
-            <Icon.QodeUser
+            <QodeCustom161270
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -566,7 +568,7 @@ export const QodeCustom28926275: React.FC<
               }}
             >{`Dropdown Item`}</span>
             {/* name="submenu" id="289:26315" type="INSTANCE" */}
-            <Icon.QodeChevronRight
+            <QodeCustom66096
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},

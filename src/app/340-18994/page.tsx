@@ -3,9 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom13120 } from "@designSystem/custom/QodeCustom13120"
+import { QodeCustom207249109 } from "@designSystem/custom/QodeCustom207249109"
 import { QodeInput } from "@designSystem/ant/QodeInput"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149014 } from "@designSystem/custom/QodeCustom228149014"
 import QodeSvg42320303 from "@designSystem/icon/svg/QodeSvg42320303"
 import QodeSvg42320304 from "@designSystem/icon/svg/QodeSvg42320304"
 import QodeSvg42320300 from "@designSystem/icon/svg/QodeSvg42320300"
@@ -34,7 +34,7 @@ export const Qode34018994Page: React.FC<Qode34018994PageProps> = ({
         }}
       >
         {/* name="Navbar" id="340:18995" type="INSTANCE" */}
-        <QodeCustom13120
+        <QodeCustom207249109
           style={{
             ...{
               display: "flex",
@@ -42,13 +42,12 @@ export const Qode34018994Page: React.FC<Qode34018994PageProps> = ({
               height: "800px",
               flexDirection: "column",
               alignItems: "center",
-              borderRight:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              borderRight: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{}}
+          {...{ property_1: "Variant2" }}
         />
         {/* name="Body" id="340:18996" type="FRAME" */}
         <div
@@ -105,8 +104,7 @@ export const Qode34018994Page: React.FC<Qode34018994PageProps> = ({
                   gap: "12px",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-base, 8px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
@@ -116,8 +114,6 @@ export const Qode34018994Page: React.FC<Qode34018994PageProps> = ({
                 suffix: "SUF",
                 title: "Accountant",
                 prefix: "PRE",
-                iconRight: <Icon.QodeXmarkLarge />,
-                iconLeft: <Icon.QodeMagnifyingGlass />,
                 showIconLeft: true,
                 state: "filled",
                 status: "default",
@@ -125,7 +121,7 @@ export const Qode34018994Page: React.FC<Qode34018994PageProps> = ({
               }}
             />
             {/* name="Button" id="340:19000" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -143,11 +139,8 @@ export const Qode34018994Page: React.FC<Qode34018994PageProps> = ({
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 iconLeft: true,
                 buttonname: "Add job",
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                selectIconLeft: <Icon.QodePlus />,
                 type: "primary",
                 size: "default",
                 state: "default",

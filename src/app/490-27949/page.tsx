@@ -4,8 +4,8 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom4323425 } from "@designSystem/custom/QodeCustom4323425"
-import { QodeButton } from "@designSystem/ant/QodeButton"
-import { QodeCustom5612132 } from "@designSystem/custom/QodeCustom5612132"
+import { QodeCustom228149014 } from "@designSystem/custom/QodeCustom228149014"
+import { QodeCustom112036931 } from "@designSystem/custom/QodeCustom112036931"
 import { QodeCustom945729 } from "@designSystem/custom/QodeCustom945729"
 
 export interface Qode49027949PageProps {
@@ -30,20 +30,19 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
               alignItems: "flex-start",
               gap: "24px",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "#FFF",
             },
             ...{},
           }}
-          {...{ showDelete: true, property_1: "default" }}
+          {...{ showDelete: true, property_1: "default", verified: false }}
         />
         {/* name="Shortlisted/List item" id="490:27810" type="INSTANCE" */}
         <QodeCustom4323425
           style={{
             ...{
               display: "flex",
-              width: "358px",
+              width: "352px",
               padding: "12px 16px",
               alignItems: "flex-start",
               gap: "24px",
@@ -53,14 +52,14 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
             },
             ...{},
           }}
-          {...{ showDelete: true, property_1: "hover" }}
+          {...{ showDelete: true, property_1: "hover", verified: false }}
         />
         {/* name="Shortlisted/List item" id="490:27811" type="INSTANCE" */}
         <QodeCustom4323425
           style={{
             ...{
               display: "flex",
-              width: "358px",
+              width: "352px",
               padding: "12px 16px",
               alignItems: "flex-start",
               gap: "24px",
@@ -70,7 +69,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
             },
             ...{},
           }}
-          {...{ showDelete: true, property_1: "active" }}
+          {...{ showDelete: true, property_1: "active", verified: false }}
         />
         <span
           style={{
@@ -133,18 +132,17 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           style={{
             ...{
               display: "flex",
-              width: "358px",
+              width: "352px",
               padding: "12px 16px",
               alignItems: "flex-start",
               gap: "24px",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "#FFF",
             },
             ...{},
           }}
-          {...{ showDelete: true, property_1: "default" }}
+          {...{ showDelete: true, property_1: "default", verified: false }}
         />
         {/* name="Modal/Unshortlist" id="233:17181" type="FRAME" */}
         <div
@@ -223,7 +221,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
               }}
             >
               {/* name="Button" id="233:17204" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149014
                 style={{
                   ...{
                     display: "flex",
@@ -234,15 +232,12 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodeIcons />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Cancel",
                   type: "default",
                   size: "default",
@@ -253,7 +248,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
                 }}
               />
               {/* name="Button" id="233:17205" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149014
                 style={{
                   ...{
                     display: "flex",
@@ -271,10 +266,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Remove",
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodeIcons />,
                   type: "primary",
                   size: "default",
                   state: "default",
@@ -287,7 +279,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           </div>
         </div>
         {/* name="Flow description" id="434:38005" type="INSTANCE" */}
-        <QodeCustom5612132
+        <QodeCustom112036931
           style={{
             ...{
               display: "flex",
@@ -308,11 +300,11 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           }}
         />
         {/* name="Flow description" id="500:26974" type="INSTANCE" */}
-        <QodeCustom5612132
+        <QodeCustom112036931
           style={{
             ...{
               display: "flex",
-              width: "528px",
+              width: "541px",
               flexDirection: "column",
               alignItems: "flex-start",
               borderRadius: "var(--4, 4px)",
@@ -329,10 +321,11 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           }}
         />
         {/* name="Flow description" id="233:23604" type="INSTANCE" */}
-        <QodeCustom5612132
+        <QodeCustom112036931
           style={{
             ...{
-              display: "inline-flex",
+              display: "flex",
+              width: "528px",
               flexDirection: "column",
               alignItems: "flex-start",
               borderRadius: "var(--4, 4px)",
@@ -366,7 +359,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           {...{ property_1: "End" }}
         />
         {/* name="Flow description" id="500:26966" type="INSTANCE" */}
-        <QodeCustom5612132
+        <QodeCustom112036931
           style={{
             ...{
               display: "flex",
@@ -381,7 +374,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           }}
           {...{
             flowName: "Pagination",
-            content: "15 / page",
+            content: "15 / page\nPagination is always fixed at bottom",
             type: "Default",
             size: "Default",
           }}
@@ -421,7 +414,7 @@ export const Qode49027949Page: React.FC<Qode49027949PageProps> = ({
           {...{ property_1: "End" }}
         />
         {/* name="Flow description" id="500:27560" type="INSTANCE" */}
-        <QodeCustom5612132
+        <QodeCustom112036931
           style={{
             ...{
               display: "flex",

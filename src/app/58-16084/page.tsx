@@ -4,13 +4,12 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom588089 } from "@designSystem/custom/QodeCustom588089"
-import { QodeCustom565626441 } from "@designSystem/custom/QodeCustom565626441"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom23316645 } from "@designSystem/custom/QodeCustom23316645"
+import { QodeCustom228149014 } from "@designSystem/custom/QodeCustom228149014"
 import { QodeInputNumber } from "@designSystem/ant/QodeInputNumber"
 import { QodeSwitch } from "@designSystem/ant/QodeSwitch"
-import { QodeCustom18913734 } from "@designSystem/custom/QodeCustom18913734"
-import { QodeCustom18912628 } from "@designSystem/custom/QodeCustom18912628"
-import { QodeCustom17024242 } from "@designSystem/custom/QodeCustom17024242"
+import { QodeCustom151057365 } from "@designSystem/custom/QodeCustom151057365"
+import { QodeCustom32829436 } from "@designSystem/custom/QodeCustom32829436"
 
 export interface Qode5816084PageProps {
   style?: CSSProperties
@@ -83,7 +82,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 alignItems: "flex-start",
                 position: "absolute",
                 right: "10px",
-                bottom: "-273px",
+                bottom: "-263px",
                 borderRadius: "12px",
                 background: "var(--neutral-white, #fff)",
                 boxShadow:
@@ -93,11 +92,11 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
             }}
           >
             {/* name="Modal/Header" id="69:8545" type="INSTANCE" */}
-            <QodeCustom565626441
+            <QodeCustom23316645
               style={{
                 ...{
                   display: "flex",
-                  height: "52px",
+                  height: "42px",
                   padding: "12px 20px",
                   justifyContent: "flex-end",
                   alignItems: "center",
@@ -141,7 +140,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   style={{
                     ...{
                       flex: "1 0 0",
-                      color: "var(--color-neutral-text-colortext, #000)",
+                      color: "var(--text-text-neutral-50, #1d1d1d)",
                       fontFamily: 'var(--family-family, "sf pro display")',
                       fontSize: "var(--size-base, 14px)",
                       fontStyle: "normal",
@@ -165,7 +164,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   }}
                 >
                   {/* name="Button" id="69:8550" type="INSTANCE" */}
-                  <QodeButton
+                  <QodeCustom228149014
                     style={{
                       ...{
                         display: "flex",
@@ -177,16 +176,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                         gap: "var(--size-padding-paddingxs, 8px)",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                          "1px solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
                     }}
                     {...{
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      onlyIcon: <Icon.QodeMinus />,
                       buttonname: "Button",
-                      selectIconLeft: <Icon.QodeIcons />,
                       type: "default",
                       size: "default",
                       state: "default",
@@ -205,7 +201,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                         alignItems: "center",
                         borderRadius: "var(--border-radius-base, 8px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -213,14 +209,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                     {...{
                       number: "5",
                       prefix: "PRE",
-                      iconLeft: <Icon.QodeUser />,
                       state: "filled",
                       status: "default",
                       size: "default",
                     }}
                   />
                   {/* name="Button" id="69:8552" type="INSTANCE" */}
-                  <QodeButton
+                  <QodeCustom228149014
                     style={{
                       ...{
                         display: "flex",
@@ -232,16 +227,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                         gap: "var(--size-padding-paddingxs, 8px)",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                          "1px solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
                     }}
                     {...{
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      onlyIcon: <Icon.QodePlus />,
                       buttonname: "Button",
-                      selectIconLeft: <Icon.QodeIcons />,
                       type: "default",
                       size: "default",
                       state: "default",
@@ -268,7 +260,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   style={{
                     ...{
                       flex: "1 0 0",
-                      color: "var(--color-neutral-text-colortext, #000)",
+                      color: "var(--text-text-neutral-50, #1d1d1d)",
                       fontFamily: 'var(--family-family, "sf pro display")',
                       fontSize: "var(--size-base, 14px)",
                       fontStyle: "normal",
@@ -292,7 +284,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   }}
                 >
                   {/* name="Button" id="69:8556" type="INSTANCE" */}
-                  <QodeButton
+                  <QodeCustom228149014
                     style={{
                       ...{
                         display: "flex",
@@ -304,16 +296,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                         gap: "var(--size-padding-paddingxs, 8px)",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                          "1px solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
                     }}
                     {...{
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      onlyIcon: <Icon.QodeMinus />,
                       buttonname: "Button",
-                      selectIconLeft: <Icon.QodeIcons />,
                       type: "default",
                       size: "default",
                       state: "default",
@@ -332,7 +321,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                         alignItems: "center",
                         borderRadius: "var(--border-radius-base, 8px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
@@ -340,14 +329,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                     {...{
                       number: "10",
                       prefix: "PRE",
-                      iconLeft: <Icon.QodeUser />,
                       state: "filled",
                       status: "default",
                       size: "default",
                     }}
                   />
                   {/* name="Button" id="69:8558" type="INSTANCE" */}
-                  <QodeButton
+                  <QodeCustom228149014
                     style={{
                       ...{
                         display: "flex",
@@ -359,16 +347,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                         gap: "var(--size-padding-paddingxs, 8px)",
                         borderRadius: "var(--border-radius-rounded, 999px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                          "1px solid var(--border-border-neutral-40, #bfbfbf)",
                         background: "var(--background-bg-white, #fff)",
                       },
                       ...{},
                     }}
                     {...{
-                      selectIconRight: <Icon.QodeMagnifyingGlass />,
-                      onlyIcon: <Icon.QodePlus />,
                       buttonname: "Button",
-                      selectIconLeft: <Icon.QodeIcons />,
                       type: "default",
                       size: "default",
                       state: "default",
@@ -408,7 +393,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   style={{
                     ...{
                       width: "85px",
-                      color: "var(--color-neutral-text-colortext, #000)",
+                      color: "var(--text-text-neutral-50, #1d1d1d)",
                       fontFamily: 'var(--family-family, "sf pro display")',
                       fontSize: "var(--size-base, 14px)",
                       fontStyle: "normal",
@@ -458,7 +443,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               }}
             >
               {/* name="Button" id="69:8564" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149014
                 style={{
                   ...{
                     display: "flex",
@@ -468,14 +453,12 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                     alignItems: "center",
                     gap: "8px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
+                    opacity: "0.3",
                   },
                   ...{},
                 }}
                 {...{
                   buttonname: "Cancel",
-                  selectIconLeft: <Icon.QodeIcons />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
                   type: "text",
                   size: "default",
                   state: "default",
@@ -485,7 +468,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               />
               {/* name="Button" id="69:8565" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149014
                 style={{
                   ...{
                     display: "flex",
@@ -502,10 +485,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Show result",
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodeIcons />,
                   type: "primary",
                   size: "default",
                   state: "default",
@@ -518,7 +498,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
           </div>
         </div>
         {/* name=".dropdown__menu" id="58:15353" type="INSTANCE" */}
-        <QodeCustom18913734
+        <QodeCustom151057365
           style={{
             ...{
               display: "flex",
@@ -535,20 +515,10 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
             },
             ...{},
           }}
-          {...{
-            item_1: "<QodeCustom18912628 />",
-            item_4: "<QodeCustom18912628 />",
-            item_2: "<QodeCustom18912628 />",
-            item_3: "<QodeCustom18912628 />",
-            item_6: "<QodeCustom18912628 />",
-            item_7: "<QodeCustom18912628 />",
-            item_5: "<QodeCustom18912628 />",
-            item_8: "<QodeCustom18912628 />",
-            items: "6",
-          }}
+          {...{ items: "6" }}
         />
         {/* name="Input/Select" id="216:20922" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -558,8 +528,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -574,7 +543,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
           }}
         />
         {/* name="Input/Select" id="216:20923" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -584,8 +553,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -600,7 +568,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
           }}
         />
         {/* name="Input/Select" id="216:20924" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -610,8 +578,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -626,7 +593,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
           }}
         />
         {/* name="Input/Select" id="216:20925" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -636,8 +603,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -668,11 +634,11 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
           }}
         >
           {/* name="Modal/Header" id="216:20927" type="INSTANCE" */}
-          <QodeCustom565626441
+          <QodeCustom23316645
             style={{
               ...{
                 display: "flex",
-                height: "52px",
+                height: "42px",
                 padding: "12px 20px",
                 justifyContent: "flex-end",
                 alignItems: "center",
@@ -716,7 +682,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     flex: "1 0 0",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -740,7 +706,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               >
                 {/* name="Button" id="216:20932" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -752,16 +718,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMinus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -780,7 +743,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       alignItems: "center",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
@@ -788,14 +751,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   {...{
                     number: "2",
                     prefix: "PRE",
-                    iconLeft: <Icon.QodeUser />,
                     state: "filled",
                     status: "default",
                     size: "default",
                   }}
                 />
                 {/* name="Button" id="216:20934" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -807,16 +769,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodePlus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -843,7 +802,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     flex: "1 0 0",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -867,7 +826,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               >
                 {/* name="Button" id="216:20938" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -879,16 +838,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMinus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -907,21 +863,20 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       alignItems: "center",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
                     prefix: "PRE",
-                    iconLeft: <Icon.QodeUser />,
                     state: "filled",
                     status: "default",
                     size: "default",
                   }}
                 />
                 {/* name="Button" id="216:20940" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -933,16 +888,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodePlus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -982,7 +934,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     width: "85px",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -1033,7 +985,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
             }}
           >
             {/* name="Button" id="216:20946" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -1043,14 +995,12 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   alignItems: "center",
                   gap: "8px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
+                  opacity: "0.3",
                 },
                 ...{},
               }}
               {...{
                 buttonname: "Cancel",
-                selectIconLeft: <Icon.QodeIcons />,
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
                 type: "text",
                 size: "default",
                 state: "default",
@@ -1060,7 +1010,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               }}
             />
             {/* name="Button" id="216:20947" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -1076,10 +1026,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Show result",
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                selectIconLeft: <Icon.QodeIcons />,
                 type: "primary",
                 size: "default",
                 state: "default",
@@ -1107,11 +1054,10 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
           }}
         >
           {/* name="Modal/Header" id="216:20949" type="INSTANCE" */}
-          <QodeCustom565626441
+          <QodeCustom23316645
             style={{
               ...{
                 display: "flex",
-                height: "52px",
                 padding: "12px 20px",
                 justifyContent: "flex-end",
                 alignItems: "center",
@@ -1155,7 +1101,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     flex: "1 0 0",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -1179,7 +1125,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               >
                 {/* name="Button" id="216:20954" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -1191,16 +1137,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMinus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -1219,7 +1162,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       alignItems: "center",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
@@ -1227,14 +1170,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   {...{
                     number: "5",
                     prefix: "PRE",
-                    iconLeft: <Icon.QodeUser />,
                     state: "filled",
                     status: "default",
                     size: "default",
                   }}
                 />
                 {/* name="Button" id="216:20956" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -1246,16 +1188,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodePlus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -1282,7 +1221,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     flex: "1 0 0",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -1306,7 +1245,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               >
                 {/* name="Button" id="216:20960" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -1318,16 +1257,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMinus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -1346,7 +1282,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       alignItems: "center",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
@@ -1354,14 +1290,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   {...{
                     number: "10",
                     prefix: "PRE",
-                    iconLeft: <Icon.QodeUser />,
                     state: "filled",
                     status: "default",
                     size: "default",
                   }}
                 />
                 {/* name="Button" id="216:20962" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -1373,16 +1308,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodePlus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -1418,7 +1350,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     width: "85px",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -1469,7 +1401,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
             }}
           >
             {/* name="Button" id="216:20968" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -1479,14 +1411,12 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   alignItems: "center",
                   gap: "8px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
+                  opacity: "0.3",
                 },
                 ...{},
               }}
               {...{
                 buttonname: "Cancel",
-                selectIconLeft: <Icon.QodeIcons />,
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
                 type: "text",
                 size: "default",
                 state: "default",
@@ -1496,7 +1426,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               }}
             />
             {/* name="Button" id="216:20969" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -1512,10 +1442,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Show result",
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                selectIconLeft: <Icon.QodeIcons />,
                 type: "primary",
                 size: "default",
                 state: "default",
@@ -1543,11 +1470,11 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
           }}
         >
           {/* name="Modal/Header" id="216:20971" type="INSTANCE" */}
-          <QodeCustom565626441
+          <QodeCustom23316645
             style={{
               ...{
                 display: "flex",
-                height: "52px",
+                height: "42px",
                 padding: "12px 20px",
                 justifyContent: "flex-end",
                 alignItems: "center",
@@ -1591,7 +1518,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     flex: "1 0 0",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -1615,7 +1542,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               >
                 {/* name="Button" id="216:20976" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -1627,16 +1554,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMinus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -1655,21 +1579,20 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       alignItems: "center",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
                     prefix: "PRE",
-                    iconLeft: <Icon.QodeUser />,
                     state: "filled",
                     status: "default",
                     size: "default",
                   }}
                 />
                 {/* name="Button" id="216:20978" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -1681,16 +1604,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodePlus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -1717,7 +1637,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     flex: "1 0 0",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -1741,7 +1661,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               >
                 {/* name="Button" id="216:20982" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -1753,16 +1673,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMinus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -1781,7 +1698,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       alignItems: "center",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
@@ -1789,14 +1706,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   {...{
                     number: "10",
                     prefix: "PRE",
-                    iconLeft: <Icon.QodeUser />,
                     state: "filled",
                     status: "default",
                     size: "default",
                   }}
                 />
                 {/* name="Button" id="216:20984" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -1808,16 +1724,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodePlus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -1853,7 +1766,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     width: "85px",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -1904,7 +1817,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
             }}
           >
             {/* name="Button" id="216:20990" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -1914,14 +1827,12 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   alignItems: "center",
                   gap: "8px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
+                  opacity: "0.3",
                 },
                 ...{},
               }}
               {...{
                 buttonname: "Cancel",
-                selectIconLeft: <Icon.QodeIcons />,
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
                 type: "text",
                 size: "default",
                 state: "default",
@@ -1931,7 +1842,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               }}
             />
             {/* name="Button" id="216:20991" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -1947,10 +1858,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Show result",
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                selectIconLeft: <Icon.QodeIcons />,
                 type: "primary",
                 size: "default",
                 state: "default",
@@ -1978,11 +1886,11 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
           }}
         >
           {/* name="Modal/Header" id="216:20993" type="INSTANCE" */}
-          <QodeCustom565626441
+          <QodeCustom23316645
             style={{
               ...{
                 display: "flex",
-                height: "52px",
+                height: "42px",
                 padding: "12px 20px",
                 justifyContent: "flex-end",
                 alignItems: "center",
@@ -2026,7 +1934,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     flex: "1 0 0",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -2050,7 +1958,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               >
                 {/* name="Button" id="216:20998" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -2062,16 +1970,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMinus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -2090,21 +1995,20 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       alignItems: "center",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
                     prefix: "PRE",
-                    iconLeft: <Icon.QodeUser />,
                     state: "filled",
                     status: "default",
                     size: "default",
                   }}
                 />
                 {/* name="Button" id="216:21000" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -2116,16 +2020,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodePlus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -2152,7 +2053,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     flex: "1 0 0",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -2176,7 +2077,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 }}
               >
                 {/* name="Button" id="216:21004" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -2188,16 +2089,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodeMinus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -2216,21 +2114,20 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       alignItems: "center",
                       borderRadius: "var(--border-radius-base, 8px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                        "1px solid var(--border-border-neutral-30, #d5d5d5)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
                     prefix: "PRE",
-                    iconLeft: <Icon.QodeUser />,
                     state: "filled",
                     status: "default",
                     size: "default",
                   }}
                 />
                 {/* name="Button" id="216:21006" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149014
                   style={{
                     ...{
                       display: "flex",
@@ -2242,16 +2139,13 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                       gap: "var(--size-padding-paddingxs, 8px)",
                       borderRadius: "var(--border-radius-rounded, 999px)",
                       border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                        "1px solid var(--border-border-neutral-40, #bfbfbf)",
                       background: "var(--background-bg-white, #fff)",
                     },
                     ...{},
                   }}
                   {...{
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    onlyIcon: <Icon.QodePlus />,
                     buttonname: "Button",
-                    selectIconLeft: <Icon.QodeIcons />,
                     type: "default",
                     size: "default",
                     state: "default",
@@ -2287,7 +2181,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 style={{
                   ...{
                     width: "85px",
-                    color: "var(--color-neutral-text-colortext, #000)",
+                    color: "var(--text-text-neutral-50, #1d1d1d)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-base, 14px)",
                     fontStyle: "normal",
@@ -2338,7 +2232,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
             }}
           >
             {/* name="Button" id="216:21012" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -2348,14 +2242,12 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                   alignItems: "center",
                   gap: "8px",
                   borderRadius: "var(--border-radius-rounded, 999px)",
+                  opacity: "0.3",
                 },
                 ...{},
               }}
               {...{
                 buttonname: "Cancel",
-                selectIconLeft: <Icon.QodeIcons />,
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
                 type: "text",
                 size: "default",
                 state: "default",
@@ -2365,7 +2257,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
               }}
             />
             {/* name="Button" id="216:21013" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149014
               style={{
                 ...{
                   display: "flex",
@@ -2381,10 +2273,7 @@ export const Qode5816084Page: React.FC<Qode5816084PageProps> = ({
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeMagnifyingGlass />,
                 buttonname: "Show result",
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                selectIconLeft: <Icon.QodeIcons />,
                 type: "primary",
                 size: "default",
                 state: "default",

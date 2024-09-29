@@ -3,8 +3,11 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom18216941 } from "@designSystem/custom/QodeCustom18216941"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom1489826 } from "@designSystem/custom/QodeCustom1489826"
+import { QodeCustom813738 } from "@designSystem/custom/QodeCustom813738"
+import { QodeCustom228149326 } from "@designSystem/custom/QodeCustom228149326"
+import { QodeCustom813735 } from "@designSystem/custom/QodeCustom813735"
+import { QodeCustom228149029 } from "@designSystem/custom/QodeCustom228149029"
 
 export interface QodeCustom1489852Props {
   state?: "View" | "Edit" | "View (report)" | "New question"
@@ -180,7 +183,7 @@ export const QodeCustom1489852: React.FC<
             }}
           >
             {/* name="bars" id="148:9854" type="INSTANCE" */}
-            <Icon.QodeBars
+            <QodeCustom1489826
               style={{
                 ...{ width: "20px", height: "20px", flexShrink: "0" },
                 ...{},
@@ -188,7 +191,7 @@ export const QodeCustom1489852: React.FC<
               {...{}}
             />
             {/* name="Input__Text Area" id="149:9542" type="INSTANCE" */}
-            <QodeCustom18216941
+            <QodeCustom813738
               style={{
                 ...{
                   display: "flex",
@@ -200,7 +203,7 @@ export const QodeCustom1489852: React.FC<
                   alignSelf: "stretch",
                   borderRadius: "var(--border-radius-base, 8px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -214,7 +217,7 @@ export const QodeCustom1489852: React.FC<
               }}
             />
             {/* name="Button" id="616:38091" type="INSTANCE" */}
-            <QodeButton
+            <QodeCustom228149326
               style={{
                 ...{
                   display: "flex",
@@ -226,16 +229,12 @@ export const QodeCustom1489852: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                  border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
                   background: "var(--background-bg-white, #fff)",
                 },
                 ...{},
               }}
               {...{
-                onlyIcon: <Icon.QodeTrash />,
-                selectIconRight: <Icon.QodeMagnifyingGlass />,
-                selectIconLeft: <Icon.QodeIcons />,
                 buttonname: "Button",
                 type: "default",
                 size: "small",
@@ -265,7 +264,7 @@ export const QodeCustom1489852: React.FC<
               ...style,
             }}
           >
-            {/* name="Frame 37413" id="629:29543" type="FRAME" */}
+            {/* name="Wrap" id="629:29543" type="FRAME" */}
             <div
               style={{
                 ...{
@@ -278,12 +277,12 @@ export const QodeCustom1489852: React.FC<
               }}
             >
               {/* name="bars" id="629:29451" type="INSTANCE" */}
-              <Icon.QodeBars
+              <QodeCustom1489826
                 style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                 {...{}}
               />
               {/* name="Input__Text Area" id="629:29452" type="INSTANCE" */}
-              <QodeCustom18216941
+              <QodeCustom813735
                 style={{
                   ...{
                     display: "flex",
@@ -294,7 +293,7 @@ export const QodeCustom1489852: React.FC<
                     flex: "1 0 0",
                     borderRadius: "var(--border-radius-base, 8px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #1597f4)",
+                      "1px solid var(--color-primary-colorprimary, #1597f4)",
                     background:
                       "var(--color-neutral-background-colorbgcontainer, #fff)",
                   },
@@ -307,7 +306,7 @@ export const QodeCustom1489852: React.FC<
                 }}
               />
               {/* name="Button" id="629:29453" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149326
                 style={{
                   ...{
                     display: "flex",
@@ -319,15 +318,12 @@ export const QodeCustom1489852: React.FC<
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  onlyIcon: <Icon.QodeTrash />,
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  selectIconLeft: <Icon.QodeIcons />,
                   buttonname: "Button",
                   type: "default",
                   size: "small",
@@ -338,7 +334,7 @@ export const QodeCustom1489852: React.FC<
                 }}
               />
             </div>
-            {/* name="Frame 37414" id="629:29551" type="FRAME" */}
+            {/* name="Suggest" id="629:29551" type="FRAME" */}
             <div
               style={{
                 ...{
@@ -353,12 +349,11 @@ export const QodeCustom1489852: React.FC<
               }}
             >
               {/* name="Button" id="629:29544" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149029
                 style={{
                   ...{
                     display: "flex",
                     width: "61px",
-                    height: "var(--size-height-controlheightsm, 24px)",
                     padding: "4px 8px",
                     justifyContent: "center",
                     alignItems: "center",
@@ -368,10 +363,7 @@ export const QodeCustom1489852: React.FC<
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "Suggest",
-                  selectIconLeft: <Icon.QodeStarChristmas />,
                   iconLeft: true,
                   type: "link",
                   size: "small",

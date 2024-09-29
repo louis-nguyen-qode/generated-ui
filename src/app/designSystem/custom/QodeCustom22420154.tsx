@@ -12,6 +12,7 @@ import QodeSvg27319116 from "@designSystem/icon/svg/QodeSvg27319116"
 import QodeSvg27319118 from "@designSystem/icon/svg/QodeSvg27319118"
 import QodeSvg27319119 from "@designSystem/icon/svg/QodeSvg27319119"
 import QodeSvg27319120 from "@designSystem/icon/svg/QodeSvg27319120"
+import { QodeCustom14599 } from "@designSystem/custom/QodeCustom14599"
 import QodeSvg27319122 from "@designSystem/icon/svg/QodeSvg27319122"
 
 export interface QodeCustom22420154Props {}
@@ -36,8 +37,7 @@ export const QodeCustom22420154: React.FC<
               height: "200px",
               flexShrink: "0",
               borderRadius: "4px",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-50, #6f6f6f)",
+              border: "1px solid var(--border-border-neutral-50, #6f6f6f)",
               background: "#FFF",
             },
             ...{},
@@ -80,8 +80,7 @@ export const QodeCustom22420154: React.FC<
               width: "13px",
               height: "4px",
               flexShrink: "0",
-              borderRadius:
-                "0px 0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px)",
+              borderRadius: "0px 0px 1px 1px",
               background: "#09E446",
             },
             ...{},
@@ -96,8 +95,7 @@ export const QodeCustom22420154: React.FC<
               width: "13px",
               height: "4px",
               flexShrink: "0",
-              borderRadius:
-                "var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px 0px",
+              borderRadius: "1px 1px 0px 0px",
               background: "#8465FF",
             },
             ...{},
@@ -112,8 +110,7 @@ export const QodeCustom22420154: React.FC<
               width: "4px",
               height: "13px",
               flexShrink: "0",
-              borderRadius:
-                "0px var(--size-size-size5xs-1px, 1px) var(--size-size-size5xs-1px, 1px) 0px",
+              borderRadius: "0px 1px 1px 0px",
               background: "#00B3FF",
             },
             ...{},
@@ -128,8 +125,7 @@ export const QodeCustom22420154: React.FC<
               width: "4px",
               height: "13px",
               flexShrink: "0",
-              borderRadius:
-                "var(--size-size-size5xs-1px, 1px) 0px 0px var(--size-size-size5xs-1px, 1px)",
+              borderRadius: "1px 0px 0px 1px",
               background: "#FF7A00",
             },
             ...{},
@@ -259,7 +255,7 @@ export const QodeCustom22420154: React.FC<
               {...{}}
             />
             {/* name="video" id="273:19121" type="INSTANCE" */}
-            <Icon.QodeVideo
+            <QodeCustom14599
               style={{
                 ...{ width: "20px", height: "20px", flexShrink: "0" },
                 ...{},

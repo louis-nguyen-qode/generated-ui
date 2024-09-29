@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom505221 } from "@designSystem/custom/QodeCustom505221"
+
 export interface QodeCustom44042740Props {
   property_1?: "Default" | "Active"
 }
@@ -24,7 +26,7 @@ export const QodeCustom44042740: React.FC<
             }}
           >
             {/* name="filter" id="440:42743" type="INSTANCE" */}
-            <Icon.QodeFilter
+            <QodeCustom505221
               style={{
                 ...{ width: "16px", height: "16px", position: "absolute" },
                 ...{},
@@ -52,7 +54,7 @@ export const QodeCustom44042740: React.FC<
             }}
           >
             {/* name="filter" id="440:42744" type="INSTANCE" */}
-            <Icon.QodeFilter
+            <QodeCustom505221
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},

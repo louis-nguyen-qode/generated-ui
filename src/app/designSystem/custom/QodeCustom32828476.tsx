@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom166463 } from "@designSystem/custom/QodeCustom166463"
+
 export interface QodeCustom32828476Props {
   rIcon?: React.ReactNode
   showRIcon?: boolean
@@ -52,8 +54,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--magenta-magenta-30, #ff85c0)",
+                  border: "1px solid var(--magenta-magenta-30, #ff85c0)",
                   background: "var(--magenta-magenta-5, #fff0f6)",
                 },
                 ...style,
@@ -74,7 +75,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28510" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -98,8 +99,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--magenta-magenta-30, #ff85c0)",
+                  border: "1px solid var(--magenta-magenta-30, #ff85c0)",
                   background: "var(--magenta-magenta-5, #fff0f6)",
                 },
                 ...style,
@@ -139,8 +139,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--magenta-magenta-30, #ff85c0)",
+                  border: "1px solid var(--magenta-magenta-30, #ff85c0)",
                   background: "var(--magenta-magenta-5, #fff0f6)",
                 },
                 ...style,
@@ -202,7 +201,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28514" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -226,8 +225,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--purple-purple-30, #b37feb)",
+                  border: "1px solid var(--purple-purple-30, #b37feb)",
                   background: "var(--purple-purple-5, #f9f0ff)",
                 },
                 ...style,
@@ -248,7 +246,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28516" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -272,8 +270,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--purple-purple-30, #b37feb)",
+                  border: "1px solid var(--purple-purple-30, #b37feb)",
                   background: "var(--purple-purple-5, #f9f0ff)",
                 },
                 ...style,
@@ -313,8 +310,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--purple-purple-30, #b37feb)",
+                  border: "1px solid var(--purple-purple-30, #b37feb)",
                   background: "var(--purple-purple-5, #f9f0ff)",
                 },
                 ...style,
@@ -376,7 +372,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28520" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -400,8 +396,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                  border: "1px solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 },
                 ...style,
@@ -422,7 +417,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28522" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -446,8 +441,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                  border: "1px solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 },
                 ...style,
@@ -487,8 +481,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--primary-primary-40, #64b9f5)",
+                  border: "1px solid var(--primary-primary-40, #64b9f5)",
                   background: "var(--primary-primary-10, #d6eeff)",
                 },
                 ...style,
@@ -550,7 +543,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28526" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -574,8 +567,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--cyan-cyan-30, #5feaf5)",
+                  border: "1px solid var(--cyan-cyan-30, #5feaf5)",
                   background: "var(--cyan-cyan-5, #f0feff)",
                 },
                 ...style,
@@ -596,7 +588,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28528" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -620,8 +612,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--cyan-cyan-30, #5feaf5)",
+                  border: "1px solid var(--cyan-cyan-30, #5feaf5)",
                   background: "var(--cyan-cyan-5, #f0feff)",
                 },
                 ...style,
@@ -661,8 +652,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--cyan-cyan-30, #5feaf5)",
+                  border: "1px solid var(--cyan-cyan-30, #5feaf5)",
                   background: "var(--cyan-cyan-5, #f0feff)",
                 },
                 ...style,
@@ -724,7 +714,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28532" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -748,8 +738,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--green-green-30, #2fe541)",
+                  border: "1px solid var(--green-green-30, #2fe541)",
                   background: "var(--green-green-5, #eefff0)",
                 },
                 ...style,
@@ -770,7 +759,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28534" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -794,8 +783,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--green-green-30, #2fe541)",
+                  border: "1px solid var(--green-green-30, #2fe541)",
                   background: "var(--green-green-5, #eefff0)",
                 },
                 ...style,
@@ -835,8 +823,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--green-green-30, #2fe541)",
+                  border: "1px solid var(--green-green-30, #2fe541)",
                   background: "var(--green-green-5, #eefff0)",
                 },
                 ...style,
@@ -898,7 +885,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28538" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -922,8 +909,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid #C8FF2B",
+                  border: "1px solid #C8FF2B",
                   background: "#F6FFDD",
                 },
                 ...style,
@@ -944,7 +930,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28540" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -968,8 +954,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid #C8FF2B",
+                  border: "1px solid #C8FF2B",
                   background: "#F6FFDD",
                 },
                 ...style,
@@ -1009,8 +994,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid #C8FF2B",
+                  border: "1px solid #C8FF2B",
                   background: "#F6FFDD",
                 },
                 ...style,
@@ -1072,7 +1056,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28544" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1096,8 +1080,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--gold-gold-30, #f2c773)",
+                  border: "1px solid var(--gold-gold-30, #f2c773)",
                   background: "var(--gold-gold-10, #fceac8)",
                 },
                 ...style,
@@ -1118,7 +1101,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28546" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1142,8 +1125,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "4px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--gold-gold-30, #f2c773)",
+                  border: "1px solid var(--gold-gold-30, #f2c773)",
                   background: "var(--gold-gold-10, #fceac8)",
                 },
                 ...style,
@@ -1183,8 +1165,7 @@ export const QodeCustom32828476: React.FC<
                   gap: "var(--size-size-sizexxs-6px, 6px)",
                   flexShrink: "0",
                   borderRadius: "var(--border-radius-rounded, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--gold-gold-30, #f2c773)",
+                  border: "1px solid var(--gold-gold-30, #f2c773)",
                   background: "var(--gold-gold-10, #fceac8)",
                 },
                 ...style,
@@ -1246,7 +1227,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28550" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1292,7 +1273,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28552" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -1420,7 +1401,7 @@ export const QodeCustom32828476: React.FC<
                 }}
               >{`Tag`}</span>
               {/* name="xmark" id="328:28556" type="INSTANCE" */}
-              <Icon.QodeXmark
+              <QodeCustom166463
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />

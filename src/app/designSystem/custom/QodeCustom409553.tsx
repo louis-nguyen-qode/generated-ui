@@ -3,7 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
+import { QodeCustom198747736 } from "@designSystem/custom/QodeCustom198747736"
+import { QodeCustom698757 } from "@designSystem/custom/QodeCustom698757"
 
 export interface QodeCustom409553Props {}
 
@@ -12,7 +13,7 @@ export const QodeCustom409553: React.FC<
 > = ({ style, ...rest }) => {
   return (
     <>
-      {/* name="State=active" id="40:9553" type="COMPONENT" */}
+      {/* name="state=active, verified=false" id="40:9553" type="COMPONENT" */}
       <div
         style={{
           ...{
@@ -40,28 +41,19 @@ export const QodeCustom409553: React.FC<
             ...{},
           }}
         >
-          {/* name="avatar" id="40:9555" type="INSTANCE" */}
-          <QodeCustom562954
+          {/* name="Profile/Avatar" id="1987:47787" type="INSTANCE" */}
+          <QodeCustom198747736
             style={{
               ...{
                 display: "flex",
-                width: "36px",
-                height: "36px",
-                flexDirection: "column",
+                width: "38px",
+                height: "38px",
                 justifyContent: "center",
                 alignItems: "center",
-                gap: "var(--font-size-large, 16px)",
-                borderRadius: "499.5px",
-                background: "var(--color-success-colorsuccesshover, #a3c73e)",
               },
               ...{},
             }}
-            {...{
-              opentowork: true,
-              img: true,
-              type: "Round",
-              state: "Default",
-            }}
+            {...{ verified: false, size: "38" }}
           />
           {/* name="Frame 37215" id="40:9556" type="FRAME" */}
           <div
@@ -93,7 +85,8 @@ export const QodeCustom409553: React.FC<
               <span
                 style={{
                   ...{
-                    maxHeight: "44px",
+                    maxWidth: "212px",
+                    maxHeight: "var(--line-height-lineheight, 22px)",
                     color: "var(--text-text-neutral-40, #464646)",
                     fontFamily: 'var(--family-family, "sf pro display")',
                     fontSize: "var(--size-heading6, 16px)",
@@ -139,9 +132,13 @@ export const QodeCustom409553: React.FC<
             <span
               style={{
                 ...{
+                  height: "20px",
                   maxHeight: "40px",
                   alignSelf: "stretch",
+                  overflow: "hidden",
                   color: "var(--text-text-neutral-40, #464646)",
+                  textOverflow: "ellipsis",
+                  whiteSpace: "nowrap",
                   fontFamily: 'var(--family-family, "sf pro display")',
                   fontSize: "var(--size-base, 14px)",
                   fontStyle: "normal",
@@ -155,20 +152,30 @@ export const QodeCustom409553: React.FC<
             {/* name="Location" id="69:9009" type="FRAME" */}
             <div
               style={{
-                ...{ display: "flex", alignItems: "center", gap: "8px" },
+                ...{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "4px",
+                  alignSelf: "stretch",
+                },
                 ...{},
               }}
             >
               {/* name="location-dot" id="69:9010" type="INSTANCE" */}
-              <Icon.QodeLocationDot
+              <QodeCustom698757
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
               <span
                 style={{
                   ...{
+                    display: "-webkit-box",
+                    WebkitBoxOrient: "vertical",
+                    WebkitLineClamp: "1",
+                    flex: "1 0 0",
+                    overflow: "hidden",
                     color: "var(--text-text-neutral-50, #1d1d1d)",
-                    textAlign: "center",
+                    textOverflow: "ellipsis",
                     fontFamily:
                       'var(--font-family-fontfamily, "sf pro display")',
                     fontSize: "var(--font-size-base, 14px)",

@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom1308489 } from "@designSystem/custom/QodeCustom1308489"
+import { QodeCustom161272 } from "@designSystem/custom/QodeCustom161272"
 import QodeSvg60740883 from "@designSystem/icon/svg/QodeSvg60740883"
 import QodeSvg60740890 from "@designSystem/icon/svg/QodeSvg60740890"
 
@@ -38,7 +40,7 @@ export const QodeCustom60740861: React.FC<
             }}
           >
             {/* name="Icon" id="607:40877" type="INSTANCE" */}
-            <Icon.QodeCircleCheck
+            <QodeCustom1308489
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -144,7 +146,7 @@ export const QodeCustom60740861: React.FC<
             }}
           >
             {/* name="Icon" id="607:40880" type="INSTANCE" */}
-            <Icon.QodeCircleX
+            <QodeCustom161272
               style={{
                 ...{ width: "16px", height: "16px", flexShrink: "0" },
                 ...{},
@@ -199,8 +201,7 @@ export const QodeCustom60740861: React.FC<
                   left: "-1px",
                   top: "-1px",
                   borderRadius: "999px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 },
                 ...{},
               }}
@@ -247,7 +248,7 @@ export const QodeCustom60740861: React.FC<
             }}
           >
             {/* name="Icon" id="607:40884" type="INSTANCE" */}
-            <Icon.QodeCircleCheck
+            <QodeCustom1308489
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -353,7 +354,7 @@ export const QodeCustom60740861: React.FC<
             }}
           >
             {/* name="Icon" id="607:40887" type="INSTANCE" */}
-            <Icon.QodeCircleX
+            <QodeCustom161272
               style={{
                 ...{ width: "12px", height: "12px", flexShrink: "0" },
                 ...{},
@@ -408,8 +409,7 @@ export const QodeCustom60740861: React.FC<
                   left: "-1px",
                   top: "-1px",
                   borderRadius: "999px",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 },
                 ...{},
               }}

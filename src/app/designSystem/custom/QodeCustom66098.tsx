@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom66094 } from "@designSystem/custom/QodeCustom66094"
+import { QodeCustom66096 } from "@designSystem/custom/QodeCustom66096"
+
 export interface QodeCustom66098Props {
   direction?: "left" | "right"
   size?: "default" | "small"
@@ -47,7 +50,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6123" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -85,7 +88,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-right" id="6:6124" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -123,7 +126,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6125" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -161,7 +164,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-right" id="6:6126" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -201,7 +204,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6127" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -241,7 +244,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-right" id="6:6128" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -281,7 +284,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6129" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -321,7 +324,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-right" id="6:6130" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -359,7 +362,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6131" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -397,7 +400,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-right" id="6:6132" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -435,7 +438,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6133" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -473,7 +476,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-right" id="6:6134" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -511,7 +514,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6135" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -578,7 +581,7 @@ export const QodeCustom66098: React.FC<
                 }}
               >{`Next`}</span>
               {/* name="chevron-right" id="6:6138" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -614,7 +617,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6139" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -680,7 +683,7 @@ export const QodeCustom66098: React.FC<
                 }}
               >{`Next`}</span>
               {/* name="chevron-right" id="6:6142" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -719,7 +722,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6143" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -788,7 +791,7 @@ export const QodeCustom66098: React.FC<
                 }}
               >{`Next`}</span>
               {/* name="chevron-right" id="6:6146" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -826,7 +829,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6147" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -894,7 +897,7 @@ export const QodeCustom66098: React.FC<
                 }}
               >{`Next`}</span>
               {/* name="chevron-right" id="6:6150" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -931,7 +934,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6151" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -1000,7 +1003,7 @@ export const QodeCustom66098: React.FC<
                 }}
               >{`Next`}</span>
               {/* name="chevron-right" id="6:6154" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -1036,7 +1039,7 @@ export const QodeCustom66098: React.FC<
               }}
             >
               {/* name="chevron-left" id="6:6155" type="INSTANCE" */}
-              <Icon.QodeChevronLeft
+              <QodeCustom66094
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",
@@ -1104,7 +1107,7 @@ export const QodeCustom66098: React.FC<
                 }}
               >{`Next`}</span>
               {/* name="chevron-right" id="6:6158" type="INSTANCE" */}
-              <Icon.QodeChevronRight
+              <QodeCustom66096
                 style={{
                   ...{
                     width: "var(--font-size-base, 14px)",

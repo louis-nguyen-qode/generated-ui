@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom562954 } from "@designSystem/custom/QodeCustom562954"
+import { QodeCustom266995 } from "@designSystem/custom/QodeCustom266995"
 import QodeSvg405608 from "@designSystem/icon/svg/QodeSvg405608"
 import QodeSvg2810655 from "@designSystem/icon/svg/QodeSvg2810655"
 
@@ -50,7 +50,7 @@ export const QodeCustom2810663: React.FC<
               }}
             >
               {/* name="avatar" id="28:10664" type="INSTANCE" */}
-              <QodeCustom562954
+              <QodeCustom266995
                 style={{
                   ...{
                     display: "flex",
@@ -207,7 +207,7 @@ export const QodeCustom2810663: React.FC<
                 alignItems: "flex-start",
                 gap: "12px",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                  "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--background-bg-neutral-5, #f8f6f6)",
               },
               ...style,
@@ -226,7 +226,7 @@ export const QodeCustom2810663: React.FC<
               }}
             >
               {/* name="avatar" id="28:10673" type="INSTANCE" */}
-              <QodeCustom562954
+              <QodeCustom266995
                 style={{
                   ...{
                     display: "flex",

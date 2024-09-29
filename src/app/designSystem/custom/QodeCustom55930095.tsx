@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom13410465 } from "@designSystem/custom/QodeCustom13410465"
+
 export interface QodeCustom55930095Props {}
 
 export const QodeCustom55930095: React.FC<
@@ -21,12 +23,9 @@ export const QodeCustom55930095: React.FC<
             alignItems: "center",
             gap: "4px",
             borderRadius: "0px 0px 6px 6px",
-            borderRight:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
-            borderBottom:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
-            borderLeft:
-              "var(--style-line-width-linewidth, 1px) solid var(--border-border-primary-10, #64b9f5)",
+            borderRight: "1px solid var(--border-border-primary-10, #64b9f5)",
+            borderBottom: "1px solid var(--border-border-primary-10, #64b9f5)",
+            borderLeft: "1px solid var(--border-border-primary-10, #64b9f5)",
             background:
               "linear-gradient(101deg, #CDF6FF 2.22%, #B8E1FF 97.78%)",
           },
@@ -34,7 +33,7 @@ export const QodeCustom55930095: React.FC<
         }}
       >
         {/* name="stars" id="559:30091" type="INSTANCE" */}
-        <Icon.QodeStars
+        <QodeCustom13410465
           style={{
             ...{
               width: "var(--font-size-base, 14px)",

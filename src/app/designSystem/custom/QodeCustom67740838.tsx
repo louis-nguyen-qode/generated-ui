@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom39131660 } from "@designSystem/custom/QodeCustom39131660"
+
 export interface QodeCustom67740838Props {
   property_1?: "Default" | "Variant2" | "Variant3" | "Variant4"
 }
@@ -25,8 +27,7 @@ export const QodeCustom67740838: React.FC<
                 alignItems: "center",
                 gap: "10px",
                 borderRadius: "var(--border-radius-rounded, 999px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-white, #fff)",
                 boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
               },
@@ -34,7 +35,7 @@ export const QodeCustom67740838: React.FC<
             }}
           >
             {/* name="spinner" id="677:40840" type="INSTANCE" */}
-            <Icon.QodeSpinner
+            <QodeCustom39131660
               style={{ ...{ width: "24px", height: "24px" }, ...{} }}
               {...{}}
             />
@@ -53,8 +54,7 @@ export const QodeCustom67740838: React.FC<
                 alignItems: "center",
                 gap: "10px",
                 borderRadius: "999px",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-white, #fff)",
                 boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
               },
@@ -62,7 +62,7 @@ export const QodeCustom67740838: React.FC<
             }}
           >
             {/* name="spinner" id="677:40843" type="INSTANCE" */}
-            <Icon.QodeSpinner
+            <QodeCustom39131660
               style={{
                 ...{
                   width: "24px",
@@ -88,8 +88,7 @@ export const QodeCustom67740838: React.FC<
                 alignItems: "center",
                 gap: "10px",
                 borderRadius: "var(--border-radius-rounded, 999px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-white, #fff)",
                 boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
               },
@@ -97,7 +96,7 @@ export const QodeCustom67740838: React.FC<
             }}
           >
             {/* name="spinner" id="677:40846" type="INSTANCE" */}
-            <Icon.QodeSpinner
+            <QodeCustom39131660
               style={{ ...{ width: "24px", height: "24px" }, ...{} }}
               {...{}}
             />
@@ -116,8 +115,7 @@ export const QodeCustom67740838: React.FC<
                 alignItems: "center",
                 gap: "10px",
                 borderRadius: "var(--border-radius-rounded, 999px)",
-                border:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-white, #fff)",
                 boxShadow: "0px 0px 0px 3px rgba(0, 0, 0, 0.08)",
               },
@@ -125,7 +123,7 @@ export const QodeCustom67740838: React.FC<
             }}
           >
             {/* name="spinner" id="677:40849" type="INSTANCE" */}
-            <Icon.QodeSpinner
+            <QodeCustom39131660
               style={{
                 ...{
                   width: "24px",

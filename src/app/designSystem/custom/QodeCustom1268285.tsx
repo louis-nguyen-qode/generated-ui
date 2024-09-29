@@ -3,6 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom1197505 } from "@designSystem/custom/QodeCustom1197505"
+
 export interface QodeCustom1268285Props {
   title?: string
   required?: boolean
@@ -70,7 +72,7 @@ export const QodeCustom1268285: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="126:8294" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom1197505
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",
@@ -126,7 +128,7 @@ export const QodeCustom1268285: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="126:8297" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom1197505
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",
@@ -183,7 +185,7 @@ export const QodeCustom1268285: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="126:8300" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom1197505
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",
@@ -237,7 +239,7 @@ export const QodeCustom1268285: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="126:8303" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom1197505
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",
@@ -295,7 +297,7 @@ export const QodeCustom1268285: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="126:8306" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom1197505
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",
@@ -351,7 +353,7 @@ export const QodeCustom1268285: React.FC<
               }}
             >{`*`}</span>
             {/* name="Icon" id="126:8309" type="INSTANCE" */}
-            <Icon.QodeCircleQuestion
+            <QodeCustom1197505
               style={{
                 ...{
                   width: "var(--font-size-base, 14px)",

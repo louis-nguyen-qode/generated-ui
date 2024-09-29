@@ -4,8 +4,9 @@ import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
 import { QodeCustom997620 } from "@designSystem/custom/QodeCustom997620"
+import { QodeCustom5016497 } from "@designSystem/custom/QodeCustom5016497"
 import QodeSvg1028675 from "@designSystem/icon/svg/QodeSvg1028675"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149015 } from "@designSystem/custom/QodeCustom228149015"
 
 export interface QodeCustom1028615Props {
   _3?: boolean
@@ -43,7 +44,7 @@ export const QodeCustom1028615: React.FC<
                 gap: "16px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                  "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
@@ -163,7 +164,7 @@ export const QodeCustom1028615: React.FC<
                 gap: "16px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-20, #e3e3e3)",
+                  "1px solid var(--border-border-neutral-20, #e3e3e3)",
                 background: "var(--neutral-white, #fff)",
               },
               ...style,
@@ -208,7 +209,7 @@ export const QodeCustom1028615: React.FC<
                         flexShrink: "0",
                         borderRadius: "var(--border-radius-base, 8px)",
                         border:
-                          "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                          "1px solid var(--border-border-neutral-30, #d5d5d5)",
                         background: "#F6F6F6",
                       },
                       ...{},
@@ -245,7 +246,7 @@ export const QodeCustom1028615: React.FC<
                     <></>
                   </Flex>
                   {/* name="envelope" id="102:8674" type="INSTANCE" */}
-                  <Icon.QodeEnvelope
+                  <QodeCustom5016497
                     style={{
                       ...{ width: "24px", height: "24px", flexShrink: "0" },
                       ...{},
@@ -290,40 +291,8 @@ Start by sending an email and track your email sequences here.`}</span>
                   ...{},
                 }}
               >
-                {/* name="Button" id="102:8707" type="INSTANCE" */}
-                <QodeButton
-                  style={{
-                    ...{
-                      display: "flex",
-                      width: "154px",
-                      height: "var(--size-height-controlheight, 32px)",
-                      padding: "4px 16px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                      gap: "8px",
-                      borderRadius: "var(--border-radius-rounded, 999px)",
-                      border:
-                        "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
-                      background: "var(--background-bg-white, #fff)",
-                    },
-                    ...{},
-                  }}
-                  {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodeUpRightFromSquare />,
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    buttonname: "View profile",
-                    iconLeft: true,
-                    type: "default",
-                    size: "default",
-                    state: "default",
-                    content: "default",
-                    danger: false,
-                    ghost: false,
-                  }}
-                />
                 {/* name="Button" id="102:8708" type="INSTANCE" */}
-                <QodeButton
+                <QodeCustom228149015
                   style={{
                     ...{
                       display: "flex",
@@ -341,11 +310,8 @@ Start by sending an email and track your email sequences here.`}</span>
                     ...{},
                   }}
                   {...{
-                    onlyIcon: <Icon.QodeMagnifyingGlass />,
                     iconLeft: true,
                     buttonname: "Send request",
-                    selectIconRight: <Icon.QodeMagnifyingGlass />,
-                    selectIconLeft: <Icon.QodeUserPlus />,
                     type: "primary",
                     size: "default",
                     state: "default",

@@ -3,8 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom5859107 } from "@designSystem/custom/QodeCustom5859107"
-import { QodeCustom595998 } from "@designSystem/custom/QodeCustom595998"
+import { QodeCustom34019241 } from "@designSystem/custom/QodeCustom34019241"
+import { QodeCustom44042741 } from "@designSystem/custom/QodeCustom44042741"
+import QodeSvg476986 from "@designSystem/icon/svg/QodeSvg476986"
 
 export interface QodeCustom46728749Props {
   filter?: boolean
@@ -41,7 +42,7 @@ export const QodeCustom46728749: React.FC<
                 gap: "4px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-gray-5, #f8f6f6)",
               },
               ...style,
@@ -62,7 +63,7 @@ export const QodeCustom46728749: React.FC<
               }}
             >{`Column`}</span>
             {/* name="Table/Sort" id="467:28755" type="INSTANCE" */}
-            <QodeCustom5859107
+            <QodeCustom34019241
               style={{
                 ...{
                   display: "flex",
@@ -77,7 +78,7 @@ export const QodeCustom46728749: React.FC<
               {...{ property_1: "descending" }}
             />
             {/* name="Table/filter" id="467:28756" type="INSTANCE" */}
-            <QodeCustom595998
+            <QodeCustom44042741
               style={{
                 ...{
                   width: "16px",
@@ -109,7 +110,7 @@ export const QodeCustom46728749: React.FC<
                 gap: "4px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-gray-5, #f8f6f6)",
               },
               ...style,
@@ -130,7 +131,7 @@ export const QodeCustom46728749: React.FC<
               }}
             >{`Column`}</span>
             {/* name="Table/Sort" id="467:28758" type="INSTANCE" */}
-            <QodeCustom5859107
+            <QodeCustom34019241
               style={{
                 ...{
                   display: "flex",
@@ -145,7 +146,7 @@ export const QodeCustom46728749: React.FC<
               {...{ property_1: "descending" }}
             />
             {/* name="Table/filter" id="467:28759" type="INSTANCE" */}
-            <QodeCustom595998
+            <QodeCustom44042741
               style={{
                 ...{
                   width: "16px",
@@ -177,14 +178,14 @@ export const QodeCustom46728749: React.FC<
                 gap: "4px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-gray-5, #f8f6f6)",
               },
               ...style,
             }}
           >
             {/* name="Icon/checkbox" id="467:28760" type="INSTANCE" */}
-            <div
+            <QodeSvg476986
               style={{
                 ...{ width: "24px", height: "24px", flexShrink: "0" },
                 ...{},
@@ -210,7 +211,7 @@ export const QodeCustom46728749: React.FC<
                 gap: "2px",
                 flexShrink: "0",
                 borderBottom:
-                  "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                  "1px solid var(--border-border-neutral-30, #d5d5d5)",
                 background: "var(--neutral-gray-5, #f8f6f6)",
               },
               ...style,

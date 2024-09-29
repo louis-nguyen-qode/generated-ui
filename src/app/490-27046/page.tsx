@@ -3,12 +3,14 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom13120 } from "@designSystem/custom/QodeCustom13120"
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom207249109 } from "@designSystem/custom/QodeCustom207249109"
+import { QodeCustom228149014 } from "@designSystem/custom/QodeCustom228149014"
+import { QodeCustom166455 } from "@designSystem/custom/QodeCustom166455"
 import { QodeCustom438720 } from "@designSystem/custom/QodeCustom438720"
 import { QodeCustom588089 } from "@designSystem/custom/QodeCustom588089"
 import { QodeCustom43430029 } from "@designSystem/custom/QodeCustom43430029"
 import { QodeCustom4325081 } from "@designSystem/custom/QodeCustom4325081"
+import { QodeCustom1217892 } from "@designSystem/custom/QodeCustom1217892"
 import { QodeCustom1197234 } from "@designSystem/custom/QodeCustom1197234"
 
 export interface Qode49027046PageProps {
@@ -35,7 +37,7 @@ export const Qode49027046Page: React.FC<Qode49027046PageProps> = ({
         }}
       >
         {/* name="Navbar" id="490:27047" type="INSTANCE" */}
-        <QodeCustom13120
+        <QodeCustom207249109
           style={{
             ...{
               display: "flex",
@@ -44,13 +46,12 @@ export const Qode49027046Page: React.FC<Qode49027046PageProps> = ({
               flexDirection: "column",
               alignItems: "center",
               flexShrink: "0",
-              borderRight:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              borderRight: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
-          {...{}}
+          {...{ property_1: "Variant2" }}
         />
         {/* name="b" id="490:27048" type="FRAME" */}
         <div
@@ -93,7 +94,7 @@ export const Qode49027046Page: React.FC<Qode49027046PageProps> = ({
               }}
             >
               {/* name="Button" id="490:27051" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149014
                 style={{
                   ...{
                     display: "flex",
@@ -106,16 +107,13 @@ export const Qode49027046Page: React.FC<Qode49027046PageProps> = ({
                     gap: "var(--size-padding-paddingxs, 8px)",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeChevronLeft />,
                   buttonname: "Source new job",
-                  selectIconLeft: <Icon.QodePlus />,
                   iconLeft: true,
                   type: "default",
                   size: "default",
@@ -149,13 +147,13 @@ export const Qode49027046Page: React.FC<Qode49027046PageProps> = ({
                   }}
                 >{`Senior Software Developer `}</span>
                 {/* name="angle-down" id="490:27054" type="INSTANCE" */}
-                <Icon.QodeAngleDown
+                <QodeCustom166455
                   style={{ ...{ width: "20px", height: "20px" }, ...{} }}
                   {...{}}
                 />
               </div>
               {/* name="Button" id="490:27055" type="INSTANCE" */}
-              <QodeButton
+              <QodeCustom228149014
                 style={{
                   ...{
                     display: "flex",
@@ -167,16 +165,13 @@ export const Qode49027046Page: React.FC<Qode49027046PageProps> = ({
                     gap: "4px",
                     borderRadius: "var(--border-radius-rounded, 999px)",
                     border:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+                      "1px solid var(--border-border-neutral-40, #bfbfbf)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
                 {...{
-                  selectIconRight: <Icon.QodeMagnifyingGlass />,
-                  onlyIcon: <Icon.QodeMagnifyingGlass />,
                   buttonname: "View JD",
-                  selectIconLeft: <Icon.QodeIcons />,
                   type: "default",
                   size: "small",
                   state: "default",
@@ -282,18 +277,18 @@ export const Qode49027046Page: React.FC<Qode49027046PageProps> = ({
                     flex: "1 0 0",
                     alignSelf: "stretch",
                     borderLeft:
-                      "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+                      "1px solid var(--border-border-neutral-30, #d5d5d5)",
                     background: "var(--background-bg-white, #fff)",
                   },
                   ...{},
                 }}
-                {...{ property_1: "Default" }}
+                {...{ type: "Source - Default" }}
               />
             </div>
           </div>
         </div>
         {/* name="Overlay BG" id="490:28133" type="INSTANCE" */}
-        <div
+        <QodeCustom1217892
           style={{
             ...{
               display: "flex",
@@ -307,7 +302,7 @@ export const Qode49027046Page: React.FC<Qode49027046PageProps> = ({
           }}
           {...{}}
         />
-        {/* name="Modal/View JD/Modal/View JD/View JD" id="490:28115" type="INSTANCE" */}
+        {/* name="Modal/View JD" id="490:28115" type="INSTANCE" */}
         <QodeCustom1197234
           style={{
             ...{

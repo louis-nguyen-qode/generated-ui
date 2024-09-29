@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeCustom17024242 } from "@designSystem/custom/QodeCustom17024242"
+import { QodeCustom32829436 } from "@designSystem/custom/QodeCustom32829436"
 import { QodeCustom41124172 } from "@designSystem/custom/QodeCustom41124172"
 import QodeSvg41621378 from "@designSystem/icon/svg/QodeSvg41621378"
 import QodeSvg48539650 from "@designSystem/icon/svg/QodeSvg48539650"
@@ -23,7 +23,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
       {/* name="Location" id="416:21059" type="SECTION" */}
       <div style={{ ...{}, ...style }}>
         {/* name="Input/Select" id="399:20510" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -33,8 +33,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -49,7 +48,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
           }}
         />
         {/* name="Input/Select" id="411:24109" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -59,8 +58,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -75,7 +73,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
           }}
         />
         {/* name="Input/Select" id="416:21099" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -85,8 +83,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -101,7 +98,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
           }}
         />
         {/* name="Input/Select" id="416:21208" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -111,8 +108,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -127,7 +123,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
           }}
         />
         {/* name="Input/Select" id="485:39646" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -137,8 +133,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -153,7 +148,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
           }}
         />
         {/* name="Input/Select" id="416:21304" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -163,8 +158,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},
@@ -334,7 +328,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
           }}
         >{`Filtered`}</span>
         {/* name="Input/Select" id="411:24330" type="INSTANCE" */}
-        <QodeCustom17024242
+        <QodeCustom32829436
           style={{
             ...{
               display: "flex",
@@ -344,8 +338,7 @@ export const Qode41621059Page: React.FC<Qode41621059PageProps> = ({
               alignItems: "center",
               gap: "var(--size-padding-paddingxxs, 4px)",
               borderRadius: "var(--border-radius-base, 8px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-30, #d5d5d5)",
+              border: "1px solid var(--border-border-neutral-30, #d5d5d5)",
               background: "var(--neutral-white, #fff)",
             },
             ...{},

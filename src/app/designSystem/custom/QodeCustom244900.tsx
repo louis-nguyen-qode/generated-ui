@@ -3,8 +3,8 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom277832 } from "@designSystem/custom/QodeCustom277832"
 import { QodeButton } from "@designSystem/ant/QodeButton"
-import { QodeCustom6308727 } from "@designSystem/custom/QodeCustom6308727"
 
 export interface QodeCustom244900Props {}
 
@@ -29,7 +29,7 @@ export const QodeCustom244900: React.FC<
         }}
       >
         {/* name="avatar" id="24:4901" type="INSTANCE" */}
-        <div
+        <QodeCustom277832
           style={{
             ...{
               display: "flex",
@@ -148,9 +148,7 @@ export const QodeCustom244900: React.FC<
                 ...{},
               }}
               {...{
-                icononly: <Icon.QodeMagnifyingGlass />,
                 title: "See More",
-                iconR: <Icon.QodeMagnifyingGlass />,
                 type: "text",
                 size: "small",
                 state: "default",
@@ -174,8 +172,6 @@ export const QodeCustom244900: React.FC<
             ...{},
           }}
           {...{
-            iconR: "<QodeCustom6308727 />",
-            icononly: <Icon.QodePencil />,
             title: "Edit",
             iconL: true,
             type: "link",

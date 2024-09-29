@@ -3,7 +3,7 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
-import { QodeButton } from "@designSystem/ant/QodeButton"
+import { QodeCustom228149316 } from "@designSystem/custom/QodeCustom228149316"
 
 export interface QodeCustom1136231Props {}
 
@@ -76,7 +76,7 @@ export const QodeCustom1136231: React.FC<
           >{`Heading`}</span>
         </div>
         {/* name="Button" id="113:6228" type="INSTANCE" */}
-        <QodeButton
+        <QodeCustom228149316
           style={{
             ...{
               display: "flex",
@@ -89,17 +89,13 @@ export const QodeCustom1136231: React.FC<
               gap: "var(--size-padding-paddingxs, 8px)",
               flexShrink: "0",
               borderRadius: "var(--border-radius-rounded, 999px)",
-              border:
-                "var(--style-line-width-linewidth, 1px) solid var(--border-border-neutral-40, #bfbfbf)",
+              border: "1px solid var(--border-border-neutral-40, #bfbfbf)",
               background: "var(--background-bg-white, #fff)",
             },
             ...{},
           }}
           {...{
-            selectIconRight: <Icon.QodeMagnifyingGlass />,
-            onlyIcon: <Icon.QodeChevronLeft />,
             buttonname: "Source new job",
-            selectIconLeft: <Icon.QodePlus />,
             iconLeft: true,
             type: "default",
             size: "default",

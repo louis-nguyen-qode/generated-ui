@@ -3,6 +3,9 @@ import React, { CSSProperties } from "react"
 import { Flex } from "antd"
 import { Icon } from "@designSystem/icon"
 
+import { QodeCustom193 } from "@designSystem/custom/QodeCustom193"
+import { QodeCustom191 } from "@designSystem/custom/QodeCustom191"
+
 export interface QodeCustom1142Props {
   iconL?: React.ReactNode
   iconR?: React.ReactNode
@@ -62,7 +65,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:144" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -93,7 +96,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:146" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -132,7 +135,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -140,7 +143,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:148" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -171,7 +174,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:150" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -210,7 +213,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -218,7 +221,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:152" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -249,7 +252,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:154" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -292,7 +295,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:156" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -323,7 +326,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:158" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -366,7 +369,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:160" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -397,7 +400,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:162" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -441,7 +444,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:164" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -472,7 +475,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:166" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -511,7 +514,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -519,7 +522,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:168" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -550,7 +553,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:170" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -589,7 +592,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -597,7 +600,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:172" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -628,7 +631,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:174" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -671,7 +674,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:176" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -702,7 +705,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:178" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -745,7 +748,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:180" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -776,7 +779,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:182" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -820,7 +823,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:184" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -851,7 +854,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:186" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -890,7 +893,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -898,7 +901,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:188" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -929,7 +932,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:190" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -968,7 +971,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -976,7 +979,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:192" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1007,7 +1010,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:194" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1050,7 +1053,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:196" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1081,7 +1084,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:198" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1124,7 +1127,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:200" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1155,7 +1158,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:202" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1199,7 +1202,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:204" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1230,7 +1233,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:206" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1269,7 +1272,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1277,7 +1280,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:208" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1309,7 +1312,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:210" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1348,7 +1351,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1356,7 +1359,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:212" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1388,7 +1391,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:214" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1433,7 +1436,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:216" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1464,7 +1467,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:218" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1507,7 +1510,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:220" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1539,7 +1542,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:222" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1583,7 +1586,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:224" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1614,7 +1617,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:226" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1653,7 +1656,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1661,7 +1664,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:228" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1693,7 +1696,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:230" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1732,7 +1735,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -1740,7 +1743,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:232" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1772,7 +1775,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:234" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1817,7 +1820,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:236" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1848,7 +1851,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:238" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1891,7 +1894,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:240" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1923,7 +1926,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:242" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -1967,7 +1970,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:244" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -1998,7 +2001,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:246" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -2037,7 +2040,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2045,7 +2048,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:248" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2077,7 +2080,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:250" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -2116,7 +2119,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2124,7 +2127,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:252" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2156,7 +2159,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:254" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -2201,7 +2204,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:256" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2232,7 +2235,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:258" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -2275,7 +2278,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:260" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2307,7 +2310,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:262" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -2351,7 +2354,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:264" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2400,7 +2403,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:267" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2415,7 +2418,7 @@ export const QodeCustom1142: React.FC<
                 {...{}}
               />
               {/* name="🎰 icon" id="1:268" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -2454,7 +2457,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2462,7 +2465,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:270" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2535,7 +2538,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2543,7 +2546,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:274" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2620,7 +2623,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:278" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2697,7 +2700,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:282" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2775,7 +2778,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:286" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2824,7 +2827,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:289" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -2863,7 +2866,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2871,7 +2874,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:291" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -2944,7 +2947,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -2952,7 +2955,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:295" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3029,7 +3032,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:299" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3106,7 +3109,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:303" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3184,7 +3187,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:307" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3233,7 +3236,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:310" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -3272,7 +3275,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3280,7 +3283,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:312" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3353,7 +3356,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3361,7 +3364,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:316" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3438,7 +3441,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:320" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3515,7 +3518,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:324" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3594,7 +3597,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:328" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3625,7 +3628,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:330" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -3664,7 +3667,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3672,7 +3675,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:332" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3704,7 +3707,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:334" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -3743,7 +3746,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -3751,7 +3754,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:336" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3783,7 +3786,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:338" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -3827,7 +3830,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:340" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3858,7 +3861,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:342" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -3901,7 +3904,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:344" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -3933,7 +3936,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:346" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -3978,7 +3981,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:348" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4009,7 +4012,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:350" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4048,7 +4051,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4056,7 +4059,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:352" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4088,7 +4091,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:354" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4127,7 +4130,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4135,7 +4138,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:356" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4167,7 +4170,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:358" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4211,7 +4214,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:360" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4242,7 +4245,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:362" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4285,7 +4288,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:364" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4317,7 +4320,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:366" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4362,7 +4365,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:368" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4393,7 +4396,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:370" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4432,7 +4435,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4440,7 +4443,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:372" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4472,7 +4475,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:374" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4511,7 +4514,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -4519,7 +4522,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:376" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4551,7 +4554,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:378" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4595,7 +4598,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:380" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4626,7 +4629,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:382" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4669,7 +4672,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:384" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4701,7 +4704,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:386" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4740,7 +4743,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -4748,7 +4751,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:388" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4780,7 +4783,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:390" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4819,7 +4822,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -4827,7 +4830,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:392" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4859,7 +4862,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:394" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4898,7 +4901,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -4906,7 +4909,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:396" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -4938,7 +4941,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:398" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -4981,7 +4984,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:400" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5013,7 +5016,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:402" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5056,7 +5059,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:404" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5088,7 +5091,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:406" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5127,7 +5130,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -5135,7 +5138,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:408" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5167,7 +5170,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:410" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5206,7 +5209,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -5214,7 +5217,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:412" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5246,7 +5249,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:414" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5285,7 +5288,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -5293,7 +5296,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:416" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5325,7 +5328,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:418" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5368,7 +5371,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:420" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5400,7 +5403,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:422" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5443,7 +5446,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:424" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5475,7 +5478,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:426" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5514,7 +5517,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -5522,7 +5525,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:428" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5554,7 +5557,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:430" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5593,7 +5596,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -5601,7 +5604,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:432" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5633,7 +5636,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:434" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5672,7 +5675,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -5680,7 +5683,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:436" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5712,7 +5715,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:438" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5755,7 +5758,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:440" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5787,7 +5790,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:442" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5830,7 +5833,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:444" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5862,7 +5865,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:446" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5906,7 +5909,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:448" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -5937,7 +5940,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:450" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -5975,8 +5978,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -5984,7 +5986,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:452" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6015,7 +6017,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:454" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6053,8 +6055,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6062,7 +6063,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:456" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6093,7 +6094,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:458" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6136,7 +6137,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:460" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6167,7 +6168,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:462" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6210,7 +6211,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:464" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6241,7 +6242,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:466" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6285,7 +6286,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:468" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6316,7 +6317,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:470" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6355,7 +6356,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6363,7 +6364,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:472" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6394,7 +6395,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:474" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6433,7 +6434,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6441,7 +6442,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:476" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6472,7 +6473,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:478" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6515,7 +6516,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:480" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6546,7 +6547,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:482" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6589,7 +6590,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:484" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6620,7 +6621,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:486" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6664,7 +6665,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:488" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6695,7 +6696,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:490" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6733,8 +6734,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6742,7 +6742,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:492" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6773,7 +6773,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:494" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6811,8 +6811,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -6820,7 +6819,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:496" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6851,7 +6850,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:498" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6894,7 +6893,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:500" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6925,7 +6924,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:502" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -6968,7 +6967,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:504" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -6999,7 +6998,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:506" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7043,7 +7042,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:508" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7074,7 +7073,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:510" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7113,7 +7112,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7121,7 +7120,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:512" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7152,7 +7151,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:514" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7191,7 +7190,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7199,7 +7198,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:516" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7230,7 +7229,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:518" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7274,7 +7273,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:520" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7305,7 +7304,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:522" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7348,7 +7347,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:524" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7379,7 +7378,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:526" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7423,7 +7422,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:528" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7454,7 +7453,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:530" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7493,7 +7492,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7501,7 +7500,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:532" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7532,7 +7531,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:534" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7571,7 +7570,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7579,7 +7578,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:536" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7610,7 +7609,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:538" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7654,7 +7653,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:540" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7685,7 +7684,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:542" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7728,7 +7727,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:544" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7759,7 +7758,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:546" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7803,7 +7802,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:548" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7834,7 +7833,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:550" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7873,7 +7872,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7881,7 +7880,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:552" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7912,7 +7911,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:554" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -7951,7 +7950,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -7959,7 +7958,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:556" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -7990,7 +7989,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:558" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8034,7 +8033,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:560" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8065,7 +8064,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:562" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8108,7 +8107,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:564" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8139,7 +8138,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:566" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8183,7 +8182,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:568" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8232,7 +8231,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:571" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8270,8 +8269,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8279,7 +8277,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:573" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8328,7 +8326,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:576" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8366,8 +8364,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8375,7 +8372,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:578" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8424,7 +8421,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:581" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8467,7 +8464,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:583" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8516,7 +8513,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:586" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8559,7 +8556,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:588" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8608,7 +8605,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:591" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8652,7 +8649,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:593" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8701,7 +8698,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:596" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8739,8 +8736,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8748,7 +8744,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:598" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8797,7 +8793,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:601" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8835,8 +8831,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -8844,7 +8839,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:603" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8893,7 +8888,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:606" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -8936,7 +8931,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:608" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -8985,7 +8980,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:611" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9028,7 +9023,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:613" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9077,7 +9072,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:616" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9121,7 +9116,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:618" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9170,7 +9165,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:621" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9208,8 +9203,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -9217,7 +9211,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:623" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9266,7 +9260,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:626" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9304,8 +9298,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -9313,7 +9306,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:628" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9362,7 +9355,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:631" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9405,7 +9398,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:633" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9454,7 +9447,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:636" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9497,7 +9490,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:638" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9546,7 +9539,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:641" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9590,7 +9583,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:643" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9621,7 +9614,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:645" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9660,7 +9653,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -9668,7 +9661,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:647" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9699,7 +9692,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:649" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9738,7 +9731,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -9746,7 +9739,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:651" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9777,7 +9770,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:653" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9821,7 +9814,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:655" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9852,7 +9845,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:657" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9895,7 +9888,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:659" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -9926,7 +9919,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:661" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -9970,7 +9963,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:663" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10001,7 +9994,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:665" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10040,7 +10033,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -10048,7 +10041,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:667" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10079,7 +10072,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:669" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10118,7 +10111,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -10126,7 +10119,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:671" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10157,7 +10150,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:673" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10201,7 +10194,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:675" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10232,7 +10225,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:677" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10275,7 +10268,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:679" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10306,7 +10299,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:681" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10350,7 +10343,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:683" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10381,7 +10374,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:685" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10420,7 +10413,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -10428,7 +10421,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:687" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10459,7 +10452,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:689" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10498,7 +10491,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -10506,7 +10499,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:691" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10537,7 +10530,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:693" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10581,7 +10574,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:695" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10612,7 +10605,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:697" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10655,7 +10648,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:699" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10686,7 +10679,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:701" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10725,7 +10718,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -10733,7 +10726,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:703" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10765,7 +10758,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:705" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10804,7 +10797,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -10812,7 +10805,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:707" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10844,7 +10837,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:709" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10883,7 +10876,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -10891,7 +10884,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:711" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10923,7 +10916,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:713" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -10966,7 +10959,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:715" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -10998,7 +10991,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:717" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11041,7 +11034,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:719" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11073,7 +11066,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:721" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11112,7 +11105,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -11120,7 +11113,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:723" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11152,7 +11145,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:725" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11191,7 +11184,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -11199,7 +11192,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:727" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11231,7 +11224,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:729" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11270,7 +11263,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -11278,7 +11271,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:731" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11310,7 +11303,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:733" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11353,7 +11346,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:735" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11385,7 +11378,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:737" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11428,7 +11421,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:739" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11460,7 +11453,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:741" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11499,7 +11492,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -11507,7 +11500,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:743" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11539,7 +11532,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:745" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11578,7 +11571,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -11586,7 +11579,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:747" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11618,7 +11611,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:749" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11657,7 +11650,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -11665,7 +11658,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:751" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11697,7 +11690,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:753" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11740,7 +11733,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:755" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11772,7 +11765,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:757" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11815,7 +11808,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:759" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11847,7 +11840,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:761" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11886,13 +11879,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:763" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11923,7 +11916,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:765" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -11962,13 +11955,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:767" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -11999,7 +11992,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:769" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12038,13 +12031,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:771" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12075,7 +12068,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:773" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12118,7 +12111,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:775" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12149,7 +12142,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:777" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12192,7 +12185,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:779" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12223,7 +12216,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:781" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12262,13 +12255,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:783" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12299,7 +12292,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:785" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12338,13 +12331,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:787" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12375,7 +12368,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:789" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12414,13 +12407,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:791" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12451,7 +12444,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:793" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12494,7 +12487,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:795" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12525,7 +12518,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:797" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12568,7 +12561,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:799" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12599,7 +12592,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:801" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12638,13 +12631,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:803" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12675,7 +12668,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:805" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12714,13 +12707,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:807" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12751,7 +12744,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:809" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12790,13 +12783,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:811" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12827,7 +12820,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:813" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12870,7 +12863,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:815" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12901,7 +12894,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:817" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -12944,7 +12937,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:819" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -12975,7 +12968,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:821" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13014,13 +13007,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:823" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13052,7 +13045,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:825" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13091,13 +13084,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:827" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13129,7 +13122,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:829" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13168,13 +13161,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:831" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13206,7 +13199,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:833" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13251,7 +13244,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:835" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13282,7 +13275,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:837" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13325,7 +13318,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:839" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13357,7 +13350,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:841" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13396,13 +13389,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:843" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13434,7 +13427,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:845" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13473,13 +13466,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:847" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13511,7 +13504,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:849" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13550,13 +13543,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:851" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13588,7 +13581,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:853" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13633,7 +13626,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:855" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13664,7 +13657,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:857" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13707,7 +13700,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:859" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13739,7 +13732,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:861" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13778,13 +13771,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:863" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13816,7 +13809,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:865" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13855,13 +13848,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:867" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13893,7 +13886,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:869" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -13932,13 +13925,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:871" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -13970,7 +13963,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:873" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14015,7 +14008,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:875" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14046,7 +14039,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:877" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14089,7 +14082,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:879" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14121,7 +14114,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:881" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14160,13 +14153,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:883" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14215,7 +14208,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:886" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14254,13 +14247,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:888" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14309,7 +14302,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:891" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14348,13 +14341,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:893" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14403,7 +14396,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:896" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14446,7 +14439,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:898" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14495,7 +14488,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:901" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14538,7 +14531,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:903" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14611,13 +14604,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:907" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14666,7 +14659,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:910" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14705,13 +14698,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:912" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14760,7 +14753,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:915" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14799,13 +14792,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:917" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14854,7 +14847,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:920" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14897,7 +14890,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:922" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -14946,7 +14939,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:925" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -14989,7 +14982,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:927" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15062,13 +15055,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:931" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15117,7 +15110,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:934" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15156,13 +15149,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:936" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15211,7 +15204,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:939" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15250,13 +15243,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:941" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15305,7 +15298,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:944" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15348,7 +15341,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:946" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15397,7 +15390,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:949" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15440,7 +15433,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:951" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15513,13 +15506,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:955" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15551,7 +15544,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:957" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15590,13 +15583,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:959" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15628,7 +15621,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:961" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15667,13 +15660,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:963" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15705,7 +15698,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:965" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15749,7 +15742,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:967" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15780,7 +15773,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:969" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15823,7 +15816,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:971" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15855,7 +15848,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:973" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15894,13 +15887,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:975" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -15932,7 +15925,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:977" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -15971,13 +15964,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:979" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16009,7 +16002,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:981" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16048,13 +16041,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:983" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16086,7 +16079,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:985" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16130,7 +16123,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:987" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16161,7 +16154,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:989" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16204,7 +16197,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:991" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16236,7 +16229,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:993" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16275,13 +16268,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:995" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16313,7 +16306,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:997" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16352,13 +16345,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:999" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16390,7 +16383,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1001" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16429,13 +16422,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1003" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16467,7 +16460,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1005" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16511,7 +16504,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1007" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16542,7 +16535,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1009" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16585,7 +16578,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1011" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16617,7 +16610,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1013" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16656,13 +16649,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1015" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16694,7 +16687,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1017" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16733,13 +16726,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1019" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16771,7 +16764,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1021" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16810,13 +16803,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1023" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16848,7 +16841,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1025" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16891,7 +16884,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1027" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16923,7 +16916,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1029" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -16966,7 +16959,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1031" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -16998,7 +16991,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1033" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17037,13 +17030,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1035" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17075,7 +17068,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1037" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17114,13 +17107,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1039" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17152,7 +17145,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1041" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17191,13 +17184,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1043" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17229,7 +17222,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1045" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17272,7 +17265,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1047" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17304,7 +17297,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1049" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17347,7 +17340,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1051" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17379,7 +17372,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1053" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17418,13 +17411,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1055" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17456,7 +17449,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1057" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17495,13 +17488,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1059" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17533,7 +17526,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1061" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17572,13 +17565,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1063" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17610,7 +17603,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1065" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17653,7 +17646,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1067" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17685,7 +17678,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1069" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17728,7 +17721,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1071" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17760,7 +17753,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1073" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17798,14 +17791,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1075" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17836,7 +17828,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1077" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17874,14 +17866,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1079" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17912,7 +17903,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1081" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -17950,14 +17941,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1083" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -17988,7 +17978,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1085" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18031,7 +18021,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1087" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18062,7 +18052,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1089" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18105,7 +18095,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1091" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18136,7 +18126,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1093" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18174,14 +18164,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1095" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18212,7 +18201,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1097" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18250,14 +18239,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1099" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18288,7 +18276,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1101" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18326,14 +18314,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1103" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18364,7 +18351,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1105" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18407,7 +18394,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1107" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18438,7 +18425,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1109" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18481,7 +18468,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1111" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18512,7 +18499,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1113" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18550,14 +18537,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1115" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18588,7 +18574,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1117" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18626,14 +18612,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1119" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18664,7 +18649,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1121" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18702,14 +18687,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1123" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18740,7 +18724,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1125" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18783,7 +18767,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1127" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18814,7 +18798,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1129" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18857,7 +18841,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1131" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18888,7 +18872,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1133" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -18927,13 +18911,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1135" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -18964,7 +18948,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1137" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19003,13 +18987,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1139" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19040,7 +19024,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1141" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19079,13 +19063,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1143" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19116,7 +19100,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1145" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19160,7 +19144,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1147" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19191,7 +19175,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1149" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19234,7 +19218,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1151" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19265,7 +19249,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1153" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19304,13 +19288,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1155" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19341,7 +19325,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1157" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19380,13 +19364,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1159" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19417,7 +19401,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1161" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19456,13 +19440,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1163" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19493,7 +19477,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1165" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19537,7 +19521,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1167" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19568,7 +19552,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1169" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19611,7 +19595,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1171" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19642,7 +19626,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1173" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19681,13 +19665,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1175" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19718,7 +19702,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1177" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19757,13 +19741,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1179" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19794,7 +19778,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1181" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19833,13 +19817,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1183" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19870,7 +19854,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1185" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19914,7 +19898,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1187" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -19945,7 +19929,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1189" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -19988,7 +19972,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1191" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20019,7 +20003,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1193" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20057,14 +20041,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1195" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20113,7 +20096,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1198" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20151,14 +20134,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1200" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20207,7 +20189,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1203" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20245,14 +20227,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1205" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20301,7 +20282,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1208" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20345,7 +20326,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1210" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20394,7 +20375,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1213" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20437,7 +20418,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1215" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20486,7 +20467,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1218" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20524,14 +20505,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1220" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20580,7 +20560,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1223" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20618,14 +20598,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1225" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20674,7 +20653,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1228" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20712,14 +20691,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1230" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20768,7 +20746,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1233" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20812,7 +20790,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1235" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20861,7 +20839,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1238" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20904,7 +20882,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1240" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -20953,7 +20931,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1243" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -20991,14 +20969,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1245" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21047,7 +21024,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1248" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21085,14 +21062,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1250" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21141,7 +21117,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1253" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21179,14 +21155,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxxs, 4px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1255" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21235,7 +21210,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1258" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21279,7 +21254,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1260" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21328,7 +21303,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1263" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21371,7 +21346,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1265" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21420,7 +21395,7 @@ export const QodeCustom1142: React.FC<
                 <></>
               </Flex>
               {/* name="🎰 icon" id="1:1268" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21459,13 +21434,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1270" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21496,7 +21471,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1272" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21535,13 +21510,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1274" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21572,7 +21547,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1276" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21611,13 +21586,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1278" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21648,7 +21623,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1280" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21692,7 +21667,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1282" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21723,7 +21698,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1284" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21766,7 +21741,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1286" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21797,7 +21772,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1288" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21836,13 +21811,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1290" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21873,7 +21848,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1292" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21912,13 +21887,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1294" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -21949,7 +21924,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1296" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -21988,13 +21963,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1298" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22025,7 +22000,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1300" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22069,7 +22044,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1302" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22100,7 +22075,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1304" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22143,7 +22118,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1306" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22174,7 +22149,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1308" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22213,13 +22188,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1310" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22250,7 +22225,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1312" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22289,13 +22264,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1314" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22326,7 +22301,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1316" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22365,13 +22340,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1318" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22402,7 +22377,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1320" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22446,7 +22421,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1322" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22477,7 +22452,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1324" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22520,7 +22495,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1326" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22551,7 +22526,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1328" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22590,13 +22565,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1330" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22628,7 +22603,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1332" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22667,13 +22642,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1334" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22705,7 +22680,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1336" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22744,13 +22719,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1338" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22782,7 +22757,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1340" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22825,7 +22800,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1342" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22857,7 +22832,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1344" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22900,7 +22875,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1346" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -22932,7 +22907,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1348" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -22971,13 +22946,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1350" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23009,7 +22984,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1352" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23048,13 +23023,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1354" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23086,7 +23061,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1356" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23125,13 +23100,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1358" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23163,7 +23138,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1360" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23206,7 +23181,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1362" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23238,7 +23213,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1364" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23281,7 +23256,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1366" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23313,7 +23288,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1368" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23352,13 +23327,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1370" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23390,7 +23365,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1372" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23429,13 +23404,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1374" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23467,7 +23442,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1376" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23506,13 +23481,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1378" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23544,7 +23519,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1380" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23587,7 +23562,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1382" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23619,7 +23594,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1384" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23660,7 +23635,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1386" type="INSTANCE" */}
-              <Icon.QodeIcons
+              <QodeCustom193
                 style={{
                   ...{
                     display: "flex",
@@ -23692,7 +23667,7 @@ export const QodeCustom1142: React.FC<
                 }}
               >{`Button`}</span>
               {/* name="🎰 icon" id="1:1388" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{
                   ...{
                     display: "flex",
@@ -23736,7 +23711,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1390" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -23765,7 +23740,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -23773,7 +23748,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1392" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -23802,7 +23777,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -23810,7 +23785,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1394" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -23843,7 +23818,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1396" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -23876,7 +23851,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1398" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -23910,7 +23885,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1400" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -23939,7 +23914,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -23947,7 +23922,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1402" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -23976,7 +23951,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -23984,7 +23959,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1404" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24017,7 +23992,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1406" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24050,7 +24025,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1408" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24083,7 +24058,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1410" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24111,7 +24086,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24119,7 +24094,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1412" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24147,7 +24122,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24155,7 +24130,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1414" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24187,7 +24162,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1416" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24219,7 +24194,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1418" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24253,7 +24228,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1420" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24282,7 +24257,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24290,7 +24265,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1422" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24319,7 +24294,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24327,7 +24302,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1424" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24362,7 +24337,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1426" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24395,7 +24370,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1428" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24429,7 +24404,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1430" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24458,7 +24433,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24466,7 +24441,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1432" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24495,7 +24470,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24503,7 +24478,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1434" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24538,7 +24513,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1436" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24571,7 +24546,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1438" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24604,7 +24579,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1440" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24632,7 +24607,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24640,7 +24615,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1442" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24668,7 +24643,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24676,7 +24651,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1444" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24710,7 +24685,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1446" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24742,7 +24717,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1448" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24776,7 +24751,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1450" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24823,7 +24798,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24831,7 +24806,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1453" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24878,7 +24853,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -24886,7 +24861,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1456" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24937,7 +24912,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1459" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -24988,7 +24963,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1462" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25040,7 +25015,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1465" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25087,7 +25062,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25095,7 +25070,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1468" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25142,7 +25117,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25150,7 +25125,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1471" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25201,7 +25176,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1474" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25252,7 +25227,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1477" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25303,7 +25278,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1480" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25349,7 +25324,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25357,7 +25332,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1483" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25403,7 +25378,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimary, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimary, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25411,7 +25386,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1486" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25461,7 +25436,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1489" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25511,7 +25486,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1492" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25564,7 +25539,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1495" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25593,7 +25568,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25601,7 +25576,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1497" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25630,7 +25605,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25638,7 +25613,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1499" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25672,7 +25647,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1501" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25705,7 +25680,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1503" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25740,7 +25715,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1505" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25769,7 +25744,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25777,7 +25752,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1507" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25806,7 +25781,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25814,7 +25789,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1509" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25848,7 +25823,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1511" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25881,7 +25856,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1513" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25915,7 +25890,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1515" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25943,7 +25918,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25951,7 +25926,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1517" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -25979,7 +25954,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -25987,7 +25962,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1519" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26020,7 +25995,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1521" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26052,7 +26027,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1523" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26081,7 +26056,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26089,7 +26064,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1525" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26118,7 +26093,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26126,7 +26101,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1527" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26155,7 +26130,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26163,7 +26138,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1529" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26196,7 +26171,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1531" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26229,7 +26204,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1533" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26258,7 +26233,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26266,7 +26241,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1535" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26295,7 +26270,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26303,7 +26278,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1537" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26332,7 +26307,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26340,7 +26315,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1539" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26373,7 +26348,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1541" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26406,7 +26381,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1543" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26434,7 +26409,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26442,7 +26417,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1545" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26470,7 +26445,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26478,7 +26453,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1547" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26506,7 +26481,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -26514,7 +26489,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1549" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26546,7 +26521,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1551" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26578,7 +26553,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1553" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26612,7 +26587,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1555" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26640,8 +26615,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -26649,7 +26623,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1557" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26677,8 +26651,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -26686,7 +26659,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1559" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26719,7 +26692,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1561" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26752,7 +26725,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1563" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26786,7 +26759,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1565" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26815,7 +26788,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -26823,7 +26796,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1567" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26852,7 +26825,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -26860,7 +26833,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1569" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26893,7 +26866,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1571" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26926,7 +26899,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1573" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26959,7 +26932,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1575" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -26986,8 +26959,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -26995,7 +26967,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1577" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27022,8 +26994,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27031,7 +27002,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1579" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27063,7 +27034,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1581" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27095,7 +27066,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1583" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27129,7 +27100,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1585" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27158,7 +27129,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27166,7 +27137,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1587" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27195,7 +27166,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27203,7 +27174,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1589" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27237,7 +27208,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1591" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27270,7 +27241,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1593" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27304,7 +27275,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1595" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27333,7 +27304,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27341,7 +27312,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1597" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27370,7 +27341,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27378,7 +27349,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1599" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27412,7 +27383,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1601" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27445,7 +27416,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1603" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27478,7 +27449,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1605" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27506,7 +27477,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27514,7 +27485,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1607" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27542,7 +27513,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27550,7 +27521,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1609" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27583,7 +27554,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1611" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27615,7 +27586,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1613" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27649,7 +27620,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1615" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27695,8 +27666,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27704,7 +27674,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1618" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27750,8 +27720,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27759,7 +27728,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1621" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27810,7 +27779,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1624" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27861,7 +27830,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1627" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27913,7 +27882,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1630" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -27959,8 +27928,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -27968,7 +27936,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1633" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28014,8 +27982,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28023,7 +27990,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1636" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28074,7 +28041,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1639" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28125,7 +28092,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1642" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28176,7 +28143,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1645" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28221,8 +28188,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28230,7 +28196,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1648" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28275,8 +28241,7 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28284,7 +28249,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1651" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28334,7 +28299,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1654" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28384,7 +28349,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1657" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28436,7 +28401,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1660" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28465,7 +28430,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28473,7 +28438,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1662" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28502,7 +28467,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28510,7 +28475,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1664" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28544,7 +28509,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1666" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28577,7 +28542,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1668" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28611,7 +28576,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1670" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28640,7 +28605,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28648,7 +28613,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1672" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28677,7 +28642,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28685,7 +28650,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1674" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28719,7 +28684,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1676" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28752,7 +28717,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1678" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28785,7 +28750,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1680" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28813,7 +28778,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28821,7 +28786,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1682" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28849,7 +28814,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                   background:
                     "var(--color-neutral-background-colorbgcontainer, #fff)",
                 },
@@ -28857,7 +28822,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1684" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28890,7 +28855,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1686" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28922,7 +28887,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1688" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28951,7 +28916,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -28959,7 +28924,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1690" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -28988,7 +28953,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -28996,7 +28961,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1692" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29025,7 +28990,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -29033,7 +28998,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1694" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29066,7 +29031,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1696" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29099,7 +29064,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1698" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29128,7 +29093,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -29136,7 +29101,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1700" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29165,7 +29130,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -29173,7 +29138,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1702" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29202,7 +29167,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -29210,7 +29175,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1704" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29243,7 +29208,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1706" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29276,7 +29241,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1708" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29304,7 +29269,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -29312,7 +29277,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1710" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29340,7 +29305,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -29348,7 +29313,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1712" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29376,7 +29341,7 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                   background:
                     "var(--color-neutral-background-colorbgcontainerdisabled, rgba(0, 0, 0, 0.04))",
                 },
@@ -29384,7 +29349,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1714" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29416,7 +29381,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1716" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29448,7 +29413,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1718" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29477,13 +29442,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1720" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29512,13 +29477,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1722" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29547,13 +29512,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1724" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29586,7 +29551,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1726" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29619,7 +29584,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1728" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29648,13 +29613,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1730" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29683,13 +29648,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1732" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29718,13 +29683,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1734" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29757,7 +29722,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1736" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29790,7 +29755,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1738" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29818,13 +29783,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1740" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29852,13 +29817,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1742" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29886,13 +29851,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1744" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29924,7 +29889,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1746" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29956,7 +29921,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1748" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -29985,13 +29950,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1750" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30020,13 +29985,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1752" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30055,13 +30020,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1754" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30096,7 +30061,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1756" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30129,7 +30094,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1758" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30158,13 +30123,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1760" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30193,13 +30158,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1762" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30228,13 +30193,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1764" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30269,7 +30234,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1766" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30302,7 +30267,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1768" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30330,13 +30295,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1770" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30364,13 +30329,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px solid var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1772" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30398,13 +30363,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryhover, #5783c9)",
+                    "1px dashed var(--color-primary-colorprimaryhover, #5783c9)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1774" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30438,7 +30403,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1776" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30470,7 +30435,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1778" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30499,13 +30464,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1780" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30552,13 +30517,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1783" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30605,13 +30570,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1786" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30662,7 +30627,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1789" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30713,7 +30678,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1792" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30760,13 +30725,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1795" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30813,13 +30778,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1798" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30866,13 +30831,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1801" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30923,7 +30888,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1804" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -30974,7 +30939,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1807" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31020,13 +30985,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimary, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimary, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1810" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31072,13 +31037,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px solid var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1813" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31124,13 +31089,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-text-colortextsolid, #fff)",
+                    "1px dashed var(--color-neutral-text-colortextsolid, #fff)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1816" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31180,7 +31145,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1819" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31230,7 +31195,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1822" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31277,13 +31242,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1825" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31312,13 +31277,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1827" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31347,13 +31312,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1829" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31387,7 +31352,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1831" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31420,7 +31385,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1833" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31449,13 +31414,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1835" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31484,13 +31449,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1837" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31519,13 +31484,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1839" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31559,7 +31524,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1841" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31592,7 +31557,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1843" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31620,13 +31585,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1845" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31654,13 +31619,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px solid var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1847" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31688,13 +31653,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-primary-colorprimaryactive, #2d64bc)",
+                    "1px dashed var(--color-primary-colorprimaryactive, #2d64bc)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1849" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31727,7 +31692,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1851" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31759,7 +31724,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1853" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31788,13 +31753,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1855" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31823,13 +31788,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1857" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31858,13 +31823,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1859" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31897,7 +31862,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1861" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31930,7 +31895,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1863" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31959,13 +31924,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1865" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -31994,13 +31959,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1867" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32029,13 +31994,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1869" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32068,7 +32033,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1871" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32101,7 +32066,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1873" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32129,13 +32094,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1875" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32163,13 +32128,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1877" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32197,13 +32162,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1879" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32235,7 +32200,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1881" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32267,7 +32232,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1883" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32295,14 +32260,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1885" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32330,14 +32294,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1887" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32365,14 +32328,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1889" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32405,7 +32367,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1891" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32438,7 +32400,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1893" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32466,14 +32428,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1895" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32502,13 +32463,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1897" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32537,13 +32498,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1899" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32576,7 +32537,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1901" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32609,7 +32570,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1903" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32636,14 +32597,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1905" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32670,14 +32630,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1907" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32704,14 +32663,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1909" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32743,7 +32701,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1911" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32775,7 +32733,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1913" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32804,13 +32762,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1915" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32839,13 +32797,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1917" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32874,13 +32832,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1919" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32914,7 +32872,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1921" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32947,7 +32905,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1923" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -32976,13 +32934,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1925" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33011,13 +32969,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1927" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33046,13 +33004,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1929" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33086,7 +33044,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1931" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33119,7 +33077,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1933" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33147,13 +33105,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1935" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33181,13 +33139,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerrorhover, #ff8468)",
+                    "1px solid var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1937" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33215,13 +33173,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerrorhover, #ff8468)",
+                    "1px dashed var(--color-error-colorerrorhover, #ff8468)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1939" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33254,7 +33212,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1941" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33286,7 +33244,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1943" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33314,14 +33272,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1945" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33367,14 +33324,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1948" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33420,14 +33376,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1951" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33479,7 +33434,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1954" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33530,7 +33485,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1957" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33576,14 +33531,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1960" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33629,14 +33583,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1963" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33682,14 +33635,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1966" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33741,7 +33693,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1969" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33792,7 +33744,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1972" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33837,14 +33789,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1975" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33889,14 +33840,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerror, #ff6542)",
+                  border: "1px solid var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1978" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33941,14 +33891,13 @@ export const QodeCustom1142: React.FC<
                   gap: "var(--size-padding-paddingxs, 8px)",
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
-                  border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerror, #ff6542)",
+                  border: "1px dashed var(--color-error-colorerror, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1981" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -33999,7 +33948,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1984" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34049,7 +33998,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1987" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34096,13 +34045,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1990" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34131,13 +34080,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1992" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34166,13 +34115,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:1994" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34206,7 +34155,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1996" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34239,7 +34188,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:1998" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34268,13 +34217,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2000" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34303,13 +34252,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2002" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34338,13 +34287,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2004" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34378,7 +34327,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2006" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34411,7 +34360,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2008" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34439,13 +34388,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2010" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34473,13 +34422,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-error-colorerroractive, #ff6542)",
+                    "1px solid var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2012" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34507,13 +34456,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-error-colorerroractive, #ff6542)",
+                    "1px dashed var(--color-error-colorerroractive, #ff6542)",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2014" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34546,7 +34495,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2016" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34578,7 +34527,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2018" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34607,13 +34556,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2020" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34642,13 +34591,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2022" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34677,13 +34626,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2024" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34716,7 +34665,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2026" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34749,7 +34698,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2028" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34778,13 +34727,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2030" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34813,13 +34762,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2032" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34848,13 +34797,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2034" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34887,7 +34836,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2036" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34920,7 +34869,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2038" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34948,13 +34897,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2040" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -34982,13 +34931,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px solid var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2042" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -35016,13 +34965,13 @@ export const QodeCustom1142: React.FC<
                   flexShrink: "0",
                   borderRadius: "var(--style-radius-borderround, 999px)",
                   border:
-                    "var(--style-line-width-linewidth, 1px) dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
+                    "1px dashed var(--color-neutral-borders-colorborder, rgba(0, 0, 0, 0.15))",
                 },
                 ...style,
               }}
             >
               {/* name="🎰 icon" id="1:2044" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -35054,7 +35003,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2046" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
@@ -35086,7 +35035,7 @@ export const QodeCustom1142: React.FC<
               }}
             >
               {/* name="🎰 icon" id="1:2048" type="INSTANCE" */}
-              <Icon.QodeMagnifyingGlass
+              <QodeCustom191
                 style={{ ...{ width: "16px", height: "16px" }, ...{} }}
                 {...{}}
               />
