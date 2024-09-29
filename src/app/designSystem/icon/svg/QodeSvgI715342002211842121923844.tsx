@@ -19,35 +19,35 @@ const QodeSvgI715342002211842121923844: React.FC<IconProps> = ({
     <svg
       width={width}
       height={height}
-      viewBox="0 0 24 24"
+      viewBox="0 0 24 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect width={width} height={height} rx="2" fill="#464646" />
-      <rect x="4" y="16" width={width} height={height} fill="white" />
-      <mask id="path-3-inside-1_936_26964" fill="white">
-        <path d="M4 12H20V16H4V12Z" />
+      <rect y="0.509766" width={width} height={height} rx="2" fill="#464646" />
+      <rect x="4" y="16.5098" width={width} height={height} fill="white" />
+      <mask id="path-3-inside-1_2297_37667" fill="white">
+        <path d="M4 12.5098H20V16.5098H4V12.5098Z" />
       </mask>
       <path
-        d="M4 12V11H3V12H4ZM20 12H21V11H20V12ZM4 13H20V11H4V13ZM19 12V16H21V12H19ZM5 16V12H3V16H5Z"
+        d="M4 12.5098V11.5098H3V12.5098H4ZM20 12.5098H21V11.5098H20V12.5098ZM4 13.5098H20V11.5098H4V13.5098ZM19 12.5098V16.5098H21V12.5098H19ZM5 16.5098V12.5098H3V16.5098H5Z"
         fill="white"
-        mask="url(#path-3-inside-1_936_26964)"
+        mask="url(#path-3-inside-1_2297_37667)"
       />
-      <mask id="path-5-inside-2_936_26964" fill="white">
-        <path d="M4 8H20V12H4V8Z" />
+      <mask id="path-5-inside-2_2297_37667" fill="white">
+        <path d="M4 8.50977H20V12.5098H4V8.50977Z" />
       </mask>
       <path
-        d="M4 8V7H3V8H4ZM20 8H21V7H20V8ZM4 9H20V7H4V9ZM19 8V12H21V8H19ZM5 12V8H3V12H5Z"
+        d="M4 8.50977V7.50977H3V8.50977H4ZM20 8.50977H21V7.50977H20V8.50977ZM4 9.50977H20V7.50977H4V9.50977ZM19 8.50977V12.5098H21V8.50977H19ZM5 12.5098V8.50977H3V12.5098H5Z"
         fill="white"
-        mask="url(#path-5-inside-2_936_26964)"
+        mask="url(#path-5-inside-2_2297_37667)"
       />
-      <mask id="path-7-inside-3_936_26964" fill="white">
-        <path d="M4 4H20V8H4V4Z" />
+      <mask id="path-7-inside-3_2297_37667" fill="white">
+        <path d="M4 4.50977H20V8.50977H4V4.50977Z" />
       </mask>
       <path
-        d="M4 4V3H3V4H4ZM20 4H21V3H20V4ZM4 5H20V3H4V5ZM19 4V8H21V4H19ZM5 8V4H3V8H5Z"
+        d="M4 4.50977V3.50977H3V4.50977H4ZM20 4.50977H21V3.50977H20V4.50977ZM4 5.50977H20V3.50977H4V5.50977ZM19 4.50977V8.50977H21V4.50977H19ZM5 8.50977V4.50977H3V8.50977H5Z"
         fill="white"
-        mask="url(#path-7-inside-3_936_26964)"
+        mask="url(#path-7-inside-3_2297_37667)"
       />
     </svg>
   )

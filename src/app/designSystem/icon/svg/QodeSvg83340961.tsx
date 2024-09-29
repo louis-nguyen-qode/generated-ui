@@ -19,12 +19,12 @@ const QodeSvg83340961: React.FC<IconProps> = ({
     <svg
       width={width}
       height={height}
-      viewBox="0 0 1920 2"
+      viewBox="0 0 1792 2"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M-503.675 0.684326H2423.67"
+        d="M-567.675 0.684326H2359.67"
         stroke="white"
         stroke-opacity="0.05"
       />

@@ -19,11 +19,11 @@ const QodeSvgI43438870677348906773374466431806: React.FC<IconProps> = ({
     <svg
       width={width}
       height={height}
-      viewBox="0 0 12 12"
+      viewBox="0 0 12 13"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="6" cy="6" r="4.5" fill="#11A620" />
+      <circle cx="6" cy="6.50977" r="4.5" fill="#11A620" />
     </svg>
   )
 }

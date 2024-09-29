@@ -25,7 +25,7 @@ const QodeSvg22423376: React.FC<IconProps> = ({
     >
       <g filter="url(#filter0_f_224_23376)">
         <circle
-          cx="45.0001"
+          cx="44.9998"
           cy="44.9998"
           r="38.3333"
           fill="url(#paint0_angular_224_23376)"
@@ -34,7 +34,7 @@ const QodeSvg22423376: React.FC<IconProps> = ({
       <defs>
         <filter
           id="filter0_f_224_23376"
-          x="8.01086e-05"
+          x="-0.000164032"
           y="-0.000164032"
           width={width}
           height={height}
@@ -59,7 +59,7 @@ const QodeSvg22423376: React.FC<IconProps> = ({
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(45.0001 44.9998) rotate(90) scale(38.3333)"
+          gradientTransform="translate(44.9998 44.9998) rotate(90) scale(38.3333)"
         >
           <stop offset="0.135" stop-color="#49CBFF" />
           <stop offset="0.39" stop-color="#86F0FF" />

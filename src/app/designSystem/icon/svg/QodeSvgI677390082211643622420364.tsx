@@ -27,11 +27,11 @@ const QodeSvgI677390082211643622420364: React.FC<IconProps> = ({
         cx="33.9998"
         cy="33.9998"
         r="33.3333"
-        fill="url(#paint0_linear_936_49412)"
+        fill="url(#paint0_linear_2297_63844)"
       />
       <defs>
         <linearGradient
-          id="paint0_linear_936_49412"
+          id="paint0_linear_2297_63844"
           x1="33.9998"
           y1="0.666504"
           x2="33.9998"

@@ -25,17 +25,17 @@ const QodeSvgI631330552211643622420364: React.FC<IconProps> = ({
     >
       <circle
         cx="33.9998"
-        cy="34.0003"
+        cy="33.9998"
         r="33.3333"
-        fill="url(#paint0_linear_936_8872)"
+        fill="url(#paint0_linear_2297_38509)"
       />
       <defs>
         <linearGradient
-          id="paint0_linear_936_8872"
+          id="paint0_linear_2297_38509"
           x1="33.9998"
-          y1="0.666992"
+          y1="0.666504"
           x2="33.9998"
-          y2="67.3337"
+          y2="67.3332"
           gradientUnits="userSpaceOnUse"
         >
           <stop offset="0.084763" stop-color="#C9C9C9" />

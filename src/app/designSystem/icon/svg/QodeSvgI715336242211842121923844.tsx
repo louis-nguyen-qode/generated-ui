@@ -19,35 +19,42 @@ const QodeSvgI715336242211842121923844: React.FC<IconProps> = ({
     <svg
       width={width}
       height={height}
-      viewBox="0 0 25 24"
+      viewBox="0 0 25 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect x="0.666504" width={width} height={height} rx="2" fill="#464646" />
-      <rect x="4.6665" y="16" width={width} height={height} fill="white" />
-      <mask id="path-3-inside-1_936_25349" fill="white">
-        <path d="M4.6665 12H20.6665V16H4.6665V12Z" />
-      </mask>
-      <path
-        d="M4.6665 12V11H3.6665V12H4.6665ZM20.6665 12H21.6665V11H20.6665V12ZM4.6665 13H20.6665V11H4.6665V13ZM19.6665 12V16H21.6665V12H19.6665ZM5.6665 16V12H3.6665V16H5.6665Z"
-        fill="white"
-        mask="url(#path-3-inside-1_936_25349)"
+      <rect
+        x="0.666504"
+        y="0.509766"
+        width={width}
+        height={height}
+        rx="2"
+        fill="#464646"
       />
-      <mask id="path-5-inside-2_936_25349" fill="white">
-        <path d="M4.6665 8H20.6665V12H4.6665V8Z" />
+      <rect x="4.6665" y="16.5098" width={width} height={height} fill="white" />
+      <mask id="path-3-inside-1_2297_34800" fill="white">
+        <path d="M4.6665 12.5098H20.6665V16.5098H4.6665V12.5098Z" />
       </mask>
       <path
-        d="M4.6665 8V7H3.6665V8H4.6665ZM20.6665 8H21.6665V7H20.6665V8ZM4.6665 9H20.6665V7H4.6665V9ZM19.6665 8V12H21.6665V8H19.6665ZM5.6665 12V8H3.6665V12H5.6665Z"
+        d="M4.6665 12.5098V11.5098H3.6665V12.5098H4.6665ZM20.6665 12.5098H21.6665V11.5098H20.6665V12.5098ZM4.6665 13.5098H20.6665V11.5098H4.6665V13.5098ZM19.6665 12.5098V16.5098H21.6665V12.5098H19.6665ZM5.6665 16.5098V12.5098H3.6665V16.5098H5.6665Z"
         fill="white"
-        mask="url(#path-5-inside-2_936_25349)"
+        mask="url(#path-3-inside-1_2297_34800)"
       />
-      <mask id="path-7-inside-3_936_25349" fill="white">
-        <path d="M4.6665 4H20.6665V8H4.6665V4Z" />
+      <mask id="path-5-inside-2_2297_34800" fill="white">
+        <path d="M4.6665 8.50977H20.6665V12.5098H4.6665V8.50977Z" />
       </mask>
       <path
-        d="M4.6665 4V3H3.6665V4H4.6665ZM20.6665 4H21.6665V3H20.6665V4ZM4.6665 5H20.6665V3H4.6665V5ZM19.6665 4V8H21.6665V4H19.6665ZM5.6665 8V4H3.6665V8H5.6665Z"
+        d="M4.6665 8.50977V7.50977H3.6665V8.50977H4.6665ZM20.6665 8.50977H21.6665V7.50977H20.6665V8.50977ZM4.6665 9.50977H20.6665V7.50977H4.6665V9.50977ZM19.6665 8.50977V12.5098H21.6665V8.50977H19.6665ZM5.6665 12.5098V8.50977H3.6665V12.5098H5.6665Z"
         fill="white"
-        mask="url(#path-7-inside-3_936_25349)"
+        mask="url(#path-5-inside-2_2297_34800)"
+      />
+      <mask id="path-7-inside-3_2297_34800" fill="white">
+        <path d="M4.6665 4.50977H20.6665V8.50977H4.6665V4.50977Z" />
+      </mask>
+      <path
+        d="M4.6665 4.50977V3.50977H3.6665V4.50977H4.6665ZM20.6665 4.50977H21.6665V3.50977H20.6665V4.50977ZM4.6665 5.50977H20.6665V3.50977H4.6665V5.50977ZM19.6665 4.50977V8.50977H21.6665V4.50977H19.6665ZM5.6665 8.50977V4.50977H3.6665V8.50977H5.6665Z"
+        fill="white"
+        mask="url(#path-7-inside-3_2297_34800)"
       />
     </svg>
   )

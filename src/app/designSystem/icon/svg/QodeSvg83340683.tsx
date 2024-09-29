@@ -19,20 +19,20 @@ const QodeSvg83340683: React.FC<IconProps> = ({
     <svg
       width={width}
       height={height}
-      viewBox="0 0 1920 840"
+      viewBox="0 0 1792 783"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g filter="url(#filter0_f_833_40683)">
         <path
-          d="M1393.18 1362.47C1642.27 1251.97 1705.32 990.61 1534 778.699C1362.69 566.788 1021.88 484.576 772.792 595.073L641.016 653.529C391.927 764.026 328.879 1025.39 500.194 1237.3C671.509 1449.21 1012.31 1531.42 1261.4 1420.93L1393.18 1362.47Z"
+          d="M1329.18 1362.47C1578.27 1251.97 1641.32 990.61 1470 778.699C1298.69 566.788 957.882 484.576 708.792 595.073L577.016 653.529C327.927 764.026 264.879 1025.39 436.194 1237.3C607.509 1449.21 948.315 1531.42 1197.4 1420.93L1329.18 1362.47Z"
           fill="url(#paint0_radial_833_40683)"
         />
       </g>
       <defs>
         <filter
           id="filter0_f_833_40683"
-          x="-141.383"
+          x="-205.383"
           y="0.802002"
           width={width}
           height={height}
@@ -57,7 +57,7 @@ const QodeSvg83340683: React.FC<IconProps> = ({
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(949.769 1090.06) rotate(-153.268) scale(582.925 504.711)"
+          gradientTransform="translate(885.769 1090.06) rotate(-153.268) scale(582.925 504.711)"
         >
           <stop stop-color="#00E29A" />
           <stop offset="1" stop-color="#00E29A" stop-opacity="0" />
